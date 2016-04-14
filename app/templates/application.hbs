@@ -1,3 +1,37 @@
-<h2 id="title">Welcome to Ember</h2>
-
-{{outlet}}
+<div class="container-fluid" id="header">
+  <div class="navbar navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+	<div class="brand">
+          <img src="assets/img/ucr-logo.png" class="logo" />
+          <span class="text">International Situations Project</span>
+	</div>
+      </div>
+      <div class="navbar-collapse collapse">
+	<ul class="nav navbar-nav">
+          <li>{{link-to 'Home' 'index'}}</li>
+          <li>{{link-to 'Project Info' 'info'}}</li>
+	  <li>{{link-to 'FAQs' 'faqs'}}</li>
+	  <li>{{link-to 'Contact Us' 'contact'}}</li>
+	</ul>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container" id="content">
+  {{outlet}}
+</div>
+<footer id="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+	<hr>
+	<p>
+	  Copyright © 2011-2016 <a href="http://centerforopenscience.org">Center for Open Science</a> |
+	  <a href="https://github.com/CenterForOpenScience/centerforopenscience.org/blob/master/TERMS_OF_USE.md">Terms of Use</a> |
+	  <a href="https://github.com/CenterForOpenScience/centerforopenscience.org/blob/master/PRIVACY_POLICY.md">Privacy Policy</a>
+	</p>
+      </div>
+    </div>
+  </div>
+</footer>
