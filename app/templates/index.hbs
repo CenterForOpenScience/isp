@@ -1,3 +1,9 @@
+{{#if selectedLanguage}}
+  <h3>
+    You chose: {{selectedLanguage}}
+  </h3>
+{{/if}}
+
 <div class="row">
   <div class="col-md-12">
     <h1> International Situations Project </h1>
@@ -31,8 +37,4 @@
   {{#bs-modal-body}}
     {{language-picker onPick=(action 'selectLanguage')}}
   {{/bs-modal-body}}
-  {{#bs-modal-footer as |footer|}}
-    {{#bs-button action=(action "close" target=footer) type="danger"}}Oh no, forget it!{{/bs-button}}
-     {{#bs-button buttonType="submit" type="success"}}Yeah!{{/bs-button}}
-  {{/bs-modal-footer}}
 {{/bs-modal}}

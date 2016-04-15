@@ -4,6 +4,7 @@ export default Ember.Controller.extend({
     studyId: null,
     participantId: null,
     showLanguageSelector: true,
+    selectedLanguage: null,
     actions: {
 	submit ( ) {
 	    console.log(this.getProperties('studyId', 'participantId'));
@@ -12,7 +13,10 @@ export default Ember.Controller.extend({
 	    this.toggleProperty('showLanguageSelector');
 	},
 	selectLanguage(language) {
-	    debugger;	    
+	    this.setProperties({
+		showLanguageSelector: false,
+		selectedLanguage: language
+	    });
 	}
     }
 });
