@@ -24,3 +24,15 @@
     </div>
   </div>
 </div>
+{{#bs-modal body=false footer=false header=false open=showLanguageSelector}}
+  {{#bs-modal-header}}
+    <h4> Please choose a language </h4>
+  {{/bs-modal-header}}
+  {{#bs-modal-body}}
+    {{language-picker onPick=(action 'selectLanguage')}}
+  {{/bs-modal-body}}
+  {{#bs-modal-footer as |footer|}}
+    {{#bs-button action=(action "close" target=footer) type="danger"}}Oh no, forget it!{{/bs-button}}
+     {{#bs-button buttonType="submit" type="success"}}Yeah!{{/bs-button}}
+  {{/bs-modal-footer}}
+{{/bs-modal}}

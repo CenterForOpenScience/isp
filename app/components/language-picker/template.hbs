@@ -1,0 +1,6 @@
+{{#each countries as |country|}}
+  <button class="btn btn-default" onclick={{action 'pickCountry' country}}>
+    <span class="flag-icon flag-icon-{{lower country.code}} flag-icon-squared"></span>
+    {{country.name}}
+  </button>
+{{/each}}
