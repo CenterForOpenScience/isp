@@ -69,6 +69,14 @@ const formObject = {
         }
     },
     "options": {
+        "form": {
+            "buttons": {
+            "submit": {
+                "title": "Continue",
+                "styles": "btn btn-primary"
+            }
+        }
+        },
         "fields": {
             "age": {
                 "noneLabel": "Please select"
@@ -103,11 +111,17 @@ const formObject = {
             }
         }
     }
+};
 
+const formActions = {
+  submit: function() {
+    var data = this.getValue();
+    //TODO: POST data
+  }
 };
 
 export default Ember.Route.extend({
   model() {
-      return formObject;
+      return {formObject, formActions};
   }
 });
