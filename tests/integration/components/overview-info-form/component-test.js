@@ -6,19 +6,15 @@ moduleForComponent('overview-info-form', 'Integration | Component | overview inf
 });
 
 test('it renders', function(assert) {
-  // Set any properties with this.set('myProperty', 'value');
-  // Handle any actions with this.on('myAction', function(val) { ... });
-
   this.render(hbs`{{overview-info-form}}`);
-
-  assert.equal(this.$().text().trim(), '');
-
-  // Template block usage:
-  this.render(hbs`
-    {{#overview-info-form}}
-      template block text
-    {{/overview-info-form}}
-  `);
-
-  assert.equal(this.$().text().trim(), 'template block text');
+  assert.ok(this.$('div[data-alpaca-field-name=age] label'));
+  assert.ok(this.$('div[data-alpaca-field-name=gender] label'));
+  assert.ok(this.$('div[data-alpaca-field-name=ethnicity] label'));
+  assert.ok(this.$('div[data-alpaca-field-name=firstLanguage] label'));
+  assert.ok(this.$('div[data-alpaca-field-name=socioeconomicStatus] label'));
+  assert.ok(this.$('div[data-alpaca-field-name=birthLocation] label'));
+  assert.ok(this.$('div[data-alpaca-field-name=residence] label'));
+  assert.ok(this.$('div[data-alpaca-field-name=isReligious] label'));
+  assert.ok(this.$('div[data-alpaca-field-name=religion] label'));
+  assert.ok(this.$('div[data-alpaca-field-name=howReligious] label'));
 });
