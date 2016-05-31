@@ -34,27 +34,29 @@ const formObject = Ember.Object.create({
             "activity": {
                 "type": "textarea",
                 "constrainMaxLength": true,
-                "showMaxLengthIndicator": true
+                "showMaxLengthIndicator": true,
+                "validator": "required-field"
             },
             "location": {
                 "type": "textarea",
                 "constrainMaxLength": true,
-                "showMaxLengthIndicator": true
+                "showMaxLengthIndicator": true,
+                "validator": "required-field"
             },
             "peoplePresent": {
                 "type": "textarea",
                 "constrainMaxLength": true,
-                "showMaxLengthIndicator": true
-
+                "showMaxLengthIndicator": true,
+                "validator": "required-field"
             }
-        }
+        },
+        "focus": false
     }
 });
 
 const formActions = {
   submit: function() {
-    var data = this.getValue();
-    console.log(data);
+    this.refreshValidationState(true);
     //TODO: POST data
   }
 };

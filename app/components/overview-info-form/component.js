@@ -65,30 +65,43 @@ const formObject = {
     "options": {
         "form": {
             "buttons": {
-            "submit": {
-                "title": "Continue",
-                "styles": "btn btn-primary"
+                "submit": {
+                    "title": "Continue",
+                    "styles": "btn btn-primary"
+                }
             }
-        }
         },
         "fields": {
             "age": {
-                "noneLabel": "Please select"
+                "noneLabel": "Please select",
+                "validator": "required-field"
             },
             "gender": {
                 "noneLabel": "Please select",
                 "sort": function() {
                     return false;
-                }
+                },
+                "validator": "required-field"
+            },
+            "ethnicity": {
+              "validator": "required-field"
+            },
+            "firstLanguage": {
+              "validator": "required-field"
             },
             "socioeconomicStatus": {
                 "type": "radio",
                 "vertical": false,
-                "removeDefaultNone": true
+                "removeDefaultNone": true,
+                "validator": "required-field"
+            },
+            "birthLocation": {
+                "validator": "required-field"
             },
             "residence": {
                 "noneLabel": "Please select",
-                "optionLabels": ['Remote Rural', 'Rural', 'Suburban', 'Urban']
+                "optionLabels": ['Remote Rural', 'Rural', 'Suburban', 'Urban'],
+                "validator": "required-field"
             },
             "isReligious": {
                 "removeDefaultNone": true,
@@ -96,21 +109,23 @@ const formObject = {
                 "optionLabels": ['Yes', 'No'],
                 "sort": function() {
                     return false;
-                }
+                },
+                "validator": "required-field"
             },
             "howReligious": {
                 "type": "radio",
                 "vertical": false,
-                "removeDefaultNone": true
+                "removeDefaultNone": true,
+                "validator": "required-field"
             }
-        }
+        },
+        "focus": false
     }
 };
 
 const formActions = {
   submit: function() {
-    var data = this.getValue();
-    console.log(data);
+    this.refreshValidationState(true);
     //TODO: POST data
   }
 };
