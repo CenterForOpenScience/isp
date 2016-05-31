@@ -1,6 +1,6 @@
 import Ember from 'ember';
 
-const formObject = {
+const formObject = Ember.Object.create({
     "schema": {
         "type": "object",
         "properties": {
@@ -32,17 +32,24 @@ const formObject = {
         },
         "fields": {
             "activity": {
-                "type": "textarea"
+                "type": "textarea",
+                "constrainMaxLength": true,
+                "showMaxLengthIndicator": true
             },
             "location": {
-                "type": "textarea"
+                "type": "textarea",
+                "constrainMaxLength": true,
+                "showMaxLengthIndicator": true
             },
             "peoplePresent": {
-                "type": "textarea"
+                "type": "textarea",
+                "constrainMaxLength": true,
+                "showMaxLengthIndicator": true
+
             }
         }
     }
-};
+});
 
 const formActions = {
   submit: function() {
