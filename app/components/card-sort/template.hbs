@@ -1,0 +1,61 @@
+<p><b>Describe the situation.</b> Please indicate which items best described the situation you experienced
+    yesterday. There are XX items, which will appear one at a time. Begin by placing each item into one of
+    three boxes. Use the "Characteristic" box on the right for items that accurately describe the situation; use
+    the "Uncharacteristic" box on the left for items that are undescriptive of the situation, and use the "Neutral"
+    box for items that are irrelevant, unclear, or about which you are uncertain. When you are finished, press
+    "Continue."
+</p>
+<br>
+<div style="height: 75px; overflow: hidden; background-color:#f5f5f5; padding: 10px">
+    {{#each cards as |card|}}
+        <div class="handle item alert alert-info" data-id={{card.id}}>{{card.content}}</div>
+    {{/each}}
+</div>
+<h5 style="text-align:center">{{cards.length}} items left</h5>
+<div class="row" style="margin-top: 30px">
+    <div class="col-sm-4 text-center">
+        <button {{action "moveButton" cards "uncharacteristic"}}class="btn btn-lg btn-default" data-target="#bucket1">
+            <span class="glyphicon glyphicon-arrow-down" aria-hidden="true"></span>
+            <div class="visible-xs">Move to Uncharacteristic</div>
+        </button>
+    </div>
+    <div class="col-sm-4 text-center">
+        <button {{action "moveButton" cards "neutral"}}class="btn btn-lg btn-default" data-target="#bucket2">
+            <span class="glyphicon glyphicon-arrow-down" aria-hidden="true"></span>
+            <div class="visible-xs">Move to Neutral  </div>
+
+        </button>
+    </div>
+    <div class="col-sm-4 text-center">
+        <button {{action "moveButton" cards "characteristic"}}class="btn btn-lg btn-default" data-target="#bucket3">
+            <span class="glyphicon glyphicon-arrow-down" aria-hidden="true"></span>
+            <div class="visible-xs">Move to Characteristic</div>
+        </button>
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-4">
+        <h2 class="text-center">Uncharacteristic</h2>
+        <div class="well bucket">
+        {{#each buckets.uncharacteristic as |card|}}
+          <div class="item alert alert-info" data-id={{card.id}}>{{card.content}}</div>
+        {{/each}}
+        </div>
+    </div>
+    <div class="col-sm-4">
+        <h2 class="text-center">Neutral</h2>
+        <div id="bucket2" class="well bucket">
+            {{#each buckets.neutral as |card|}}
+              <div class="item alert alert-info" data-id={{card.id}}>{{card.content}}</div>
+            {{/each}}
+        </div>
+    </div>
+    <div class="col-sm-4">
+        <h2 class="text-center">Characteristic</h2>
+        <div id="bucket3" class="well bucket">
+            {{#each buckets.characteristic as |card|}}
+              <div class="item alert alert-info" data-id={{card.id}}>{{card.content}}</div>
+            {{/each}}
+        </div>
+    </div>
+</div>

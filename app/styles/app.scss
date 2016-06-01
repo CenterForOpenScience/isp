@@ -1,11 +1,11 @@
 #header .navbar {
   background-color: #292929;
-  color: rgb(191, 191, 191);     
+  color: rgb(191, 191, 191);
 }
 #header .logo {
   max-height: 25px;
   position: relative;
-  top: 5px;  
+  top: 5px;
 }
 #header .text {
   font-size: 1.3em;
@@ -26,4 +26,9 @@
   position: absolute;
   bottom: 0px;
   width: 100%;
+}
+
+.bucket {
+    height: 300px;
+    overflow: auto;
 }
