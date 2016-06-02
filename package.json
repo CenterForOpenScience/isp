@@ -37,6 +37,7 @@
     "ember-cli-sri": "^2.1.0",
     "ember-cli-uglify": "^1.2.0",
     "ember-data": "^2.4.2",
+    "ember-drag-drop": "^0.3.4",
     "ember-export-application-global": "^1.0.5",
     "ember-flag-icon-css": "git://github.com/samchrisinger/ember-flag-icon-css.git#639c32484d24e21668328f1cf382865af8290d74",
     "ember-getowner-polyfill": "1.0.1",

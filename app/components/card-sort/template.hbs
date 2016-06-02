@@ -8,7 +8,9 @@
 <br>
 <div style="height: 75px; overflow: hidden; background-color:#f5f5f5; padding: 10px">
     {{#each cards as |card|}}
+      {{#draggable-object content=card}}
         <div class="handle item alert alert-info" data-id={{card.id}}>{{card.content}}</div>
+      {{/draggable-object}}
     {{/each}}
 </div>
 <h5 style="text-align:center">{{cards.length}} items left</h5>
@@ -36,26 +38,38 @@
 <div class="row">
     <div class="col-sm-4">
         <h2 class="text-center">Uncharacteristic</h2>
-        <div class="well bucket">
-        {{#each buckets.uncharacteristic as |card|}}
-          <div class="item alert alert-info" data-id={{card.id}}>{{card.content}}</div>
-        {{/each}}
-        </div>
+        {{#draggable-object-target bucket="uncharacteristic" cards=cards buckets=buckets action="dragCard"}}
+          <div class="well bucket">
+            {{#each buckets.uncharacteristic as |card|}}
+              {{#draggable-object content=card}}
+                <div class="item alert alert-info" data-id={{card.id}}>{{card.content}}</div>
+              {{/draggable-object}}
+            {{/each}}
+          </div>
+        {{/draggable-object-target}}
     </div>
     <div class="col-sm-4">
         <h2 class="text-center">Neutral</h2>
-        <div id="bucket2" class="well bucket">
-            {{#each buckets.neutral as |card|}}
-              <div class="item alert alert-info" data-id={{card.id}}>{{card.content}}</div>
-            {{/each}}
-        </div>
+      {{#draggable-object-target bucket="neutral" cards=cards buckets=buckets action="dragCard"}}
+          <div id="bucket2" class="well bucket">
+              {{#each buckets.neutral as |card|}}
+                {{#draggable-object content=card}}
+                    <div class="item alert alert-info" data-id={{card.id}}>{{card.content}}</div>
+                {{/draggable-object}}
+              {{/each}}
+          </div>
+      {{/draggable-object-target}}
     </div>
     <div class="col-sm-4">
         <h2 class="text-center">Characteristic</h2>
-        <div id="bucket3" class="well bucket">
-            {{#each buckets.characteristic as |card|}}
-              <div class="item alert alert-info" data-id={{card.id}}>{{card.content}}</div>
-            {{/each}}
-        </div>
+        {{#draggable-object-target bucket="characteristic" cards=cards buckets=buckets action="dragCard"}}
+          <div id="bucket3" class="well bucket">
+              {{#each buckets.characteristic as |card|}}
+                {{#draggable-object content=card}}
+                    <div class="item alert alert-info" data-id={{card.id}}>{{card.content}}</div>
+                {{/draggable-object}}
+              {{/each}}
+          </div>
+        {{/draggable-object-target}}
     </div>
 </div>
