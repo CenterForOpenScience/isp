@@ -52,7 +52,7 @@
         <div class="col-sm-4">
         <h5 class="text-center">Extremely<br>Uncharacteristic</h5>
         <h5 class="text-center">0/3</h5>
-        {{#draggable-object-target bucket="extremely_uncharacteristic"buckets=buckets action="dragCard"}}
+        {{#draggable-object-target bucket="extremely_uncharacteristic" buckets=buckets action="dragCard"}}
           <div class="well bucket">
             {{#each buckets.extremely_uncharacteristic as |card|}}
               {{#draggable-object content=card}}
@@ -93,7 +93,7 @@
       <div class="col-sm-4" >
         <h5 class="text-center">Somewhat<br>Uncharacteristic</h5>
         <h5 class="text-center">0/15</h5>
-        {{#draggable-object-target bucket="" cards=cards buckets=buckets action="dragCard"}}
+        {{#draggable-object-target bucket="somewhat_uncharacteristic" cards=cards buckets=buckets action="dragCard"}}
           <div id="bucket3" class="well bucket">
               {{#each buckets.somewhat_uncharacteristic as |card|}}
                 {{#draggable-object content=card}}
