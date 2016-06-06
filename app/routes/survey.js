@@ -29,7 +29,16 @@ export default Ember.Route.extend({
      buckets: {
        uncharacteristic: [],
        neutral: [],
-       characteristic: []
+       characteristic: [],
+       extremely_uncharacteristic: [],
+       quite_uncharacteristic: [],
+       fairly_uncharacteristic: [],
+       somewhat_uncharacteristic: [],
+       relatively_neutral: [],
+       somewhat_characteristic: [],
+       fairly_characteristic: [],
+       quite_characteristic: [],
+       extremely_characteristic: []
      }
    };
   },

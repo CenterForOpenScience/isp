@@ -1,0 +1,174 @@
+<p><b>Describe the situation.</b> Now, from the three boxes, please place the items into nine boxes. Placing an item in
+    the highest (right-hand) category indicates that the item is "extremely characteristic" of the situation. Only
+    three cards can go into this category, so they should be the best descriptors. Putting an item in the middle
+    categorues means that the item is irrelevant to the situation, or that you are unsure of where the item belongs.
+    Putting an item in the lowest (right-hand) category implies that the item is "extremely uncharacteristic" of the
+    situation. Again, only three cards can go into this category so they sgould be the items that are the very LEAST
+    characteristic. A fixed number of items goes into each box. You can drag and drop items from one box to another,
+    but if you leave too maby items in any one box, the heading will turn red. The heading will turn green when the
+    right number of items is in the box.
+</p>
+<br>
+<div class="row">
+    <div class="col-sm-4">
+        <h4 class="text-center">Uncharacteristic</h4>
+        {{#draggable-object-target bucket="uncharacteristic" cards=cards buckets=buckets action="dragCard"}}
+          <div class="well bucket">
+            {{#each buckets.uncharacteristic as |card|}}
+              {{#draggable-object content=card}}
+                <div class="item alert alert-info" data-id={{card.id}}>{{card.content}}</div>
+              {{/draggable-object}}
+            {{/each}}
+          </div>
+        {{/draggable-object-target}}
+    </div>
+    <div class="col-sm-4">
+        <h4 class="text-center">Neutral</h4>
+      {{#draggable-object-target bucket="neutral" cards=cards buckets=buckets action="dragCard"}}
+          <div id="bucket2" class="well bucket">
+              {{#each buckets.neutral as |card|}}
+                {{#draggable-object content=card}}
+                    <div class="item alert alert-info" data-id={{card.id}}>{{card.content}}</div>
+                {{/draggable-object}}
+              {{/each}}
+          </div>
+      {{/draggable-object-target}}
+    </div>
+    <div class="col-sm-4">
+        <h4 class="text-center">Characteristic</h4>
+        {{#draggable-object-target bucket="characteristic" cards=cards buckets=buckets action="dragCard"}}
+          <div id="bucket3" class="well bucket">
+              {{#each buckets.characteristic as |card|}}
+                {{#draggable-object content=card}}
+                    <div class="item alert alert-info" data-id={{card.id}}>{{card.content}}</div>
+                {{/draggable-object}}
+              {{/each}}
+          </div>
+        {{/draggable-object-target}}
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-4" style="padding-left: 0; padding-right: 0;">
+        <div class="col-sm-4">
+        <h5 class="text-center">Extremely<br>Uncharacteristic</h5>
+        <h5 class="text-center">0/3</h5>
+        {{#draggable-object-target bucket="extremely_uncharacteristic"buckets=buckets action="dragCard"}}
+          <div class="well bucket">
+            {{#each buckets.extremely_uncharacteristic as |card|}}
+              {{#draggable-object content=card}}
+                <div class="item alert alert-info" data-id={{card.id}}>{{card.content}}</div>
+              {{/draggable-object}}
+            {{/each}}
+          </div>
+        {{/draggable-object-target}}
+        </div>
+        <div class="col-sm-4">
+        <h5 class="text-center">Quite<br>Uncharacteristic</h5>
+        <h5 class="text-center">0/6</h5>
+        {{#draggable-object-target bucket="quite_uncharacteristic" buckets=buckets action="dragCard"}}
+          <div class="well bucket">
+            {{#each buckets.quite_uncharacteristic as |card|}}
+              {{#draggable-object content=card}}
+                <div class="item alert alert-info" data-id={{card.id}}>{{card.content}}</div>
+              {{/draggable-object}}
+            {{/each}}
+          </div>
+        {{/draggable-object-target}}
+      </div>
+      <div class="col-sm-4">
+          <h5 class="text-center">Fairly<br>Uncharacteristic</h5>
+          <h5 class="text-center">0/11</h5>
+          {{#draggable-object-target bucket="fairly_uncharacteristic" cards=cards buckets=buckets action="dragCard"}}
+            <div id="bucket2" class="well bucket">
+                {{#each buckets.fairly_uncharacteristic as |card|}}
+                  {{#draggable-object content=card}}
+                      <div class="item alert alert-info" data-id={{card.id}}>{{card.content}}</div>
+                  {{/draggable-object}}
+                {{/each}}
+            </div>
+        {{/draggable-object-target}}
+      </div>
+    </div>
+    <div class="col-sm-4" style="padding-left: 0; padding-right: 0;">
+      <div class="col-sm-4" >
+        <h5 class="text-center">Somewhat<br>Uncharacteristic</h5>
+        <h5 class="text-center">0/15</h5>
+        {{#draggable-object-target bucket="" cards=cards buckets=buckets action="dragCard"}}
+          <div id="bucket3" class="well bucket">
+              {{#each buckets.somewhat_uncharacteristic as |card|}}
+                {{#draggable-object content=card}}
+                    <div class="item alert alert-info" data-id={{card.id}}>{{card.content}}</div>
+                {{/draggable-object}}
+              {{/each}}
+          </div>
+        {{/draggable-object-target}}
+    </div>
+    <div class="col-sm-4">
+        <h5 class="text-center">Relatively<br>Neutral</h5>
+        <h5 class="text-center">0/19</h5>
+        {{#draggable-object-target bucket="relatively_neutral" cards=cards buckets=buckets action="dragCard"}}
+          <div class="well bucket">
+            {{#each buckets.relatively_neutral as |card|}}
+              {{#draggable-object content=card}}
+                <div class="item alert alert-info" data-id={{card.id}}>{{card.content}}</div>
+              {{/draggable-object}}
+            {{/each}}
+          </div>
+        {{/draggable-object-target}}
+    </div>
+    <div class="col-sm-4">
+        <h5 class="text-center">Somewhat<br>Characteristic</h5>
+        <h5 class="text-center">0/15</h5>
+      {{#draggable-object-target bucket="somewhat_characteristic" cards=cards buckets=buckets action="dragCard"}}
+          <div id="bucket2" class="well bucket">
+              {{#each buckets.somewhat_characteristic as |card|}}
+                {{#draggable-object content=card}}
+                    <div class="item alert alert-info" data-id={{card.id}}>{{card.content}}</div>
+                {{/draggable-object}}
+              {{/each}}
+          </div>
+      {{/draggable-object-target}}
+    </div>
+    </div>
+    <div class="col-sm-4" style="padding-left: 0; padding-right: 0;">
+      <div class="col-sm-4">
+          <h5 class="text-center">Fairly<br>Characteristic</h5>
+          <h5 class="text-center">0/11</h5>
+          {{#draggable-object-target bucket="fairly_characteristic" cards=cards buckets=buckets action="dragCard"}}
+            <div id="bucket3" class="well bucket">
+                {{#each buckets.fairly_characteristic as |card|}}
+                  {{#draggable-object content=card}}
+                      <div class="item alert alert-info" data-id={{card.id}}>{{card.content}}</div>
+                  {{/draggable-object}}
+                {{/each}}
+            </div>
+          {{/draggable-object-target}}
+        </div>
+        <div class="col-sm-4">
+          <h5 class="text-center">Quite<br>Characteristic</h5>
+          <h5 class="text-center">0/6</h5>
+          {{#draggable-object-target bucket="quite_characteristic" cards=cards buckets=buckets action="dragCard"}}
+            <div class="well bucket">
+              {{#each buckets.quite_characteristic as |card|}}
+                {{#draggable-object content=card}}
+                  <div class="item alert alert-info" data-id={{card.id}}>{{card.content}}</div>
+                {{/draggable-object}}
+              {{/each}}
+            </div>
+          {{/draggable-object-target}}
+      </div>
+      <div class="col-sm-4">
+        <h5 class="text-center">Extremely<br>Characteristic</h5>
+        <h5 class="text-center">0/3</h5>
+        {{#draggable-object-target bucket="extremely_characteristic" cards=cards buckets=buckets action="dragCard"}}
+            <div id="bucket2" class="well bucket">
+                {{#each buckets.extremely_characteristic as |card|}}
+                  {{#draggable-object content=card}}
+                      <div class="item alert alert-info" data-id={{card.id}}>{{card.content}}</div>
+                  {{/draggable-object}}
+                {{/each}}
+            </div>
+        {{/draggable-object-target}}
+      </div>
+    </div>
+</div>
