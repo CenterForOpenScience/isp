@@ -1,2 +1,6 @@
 <h3>International Situations Project</h3>
-{{card-sort cards=model.cards buckets=model.buckets moveButton="moveButton"}}
+{{#if (eq section 'section-one')}}
+  {{card-sort cards=model.cards buckets=model.buckets moveButton="moveButton" nextSection="nextSection"}}
+{{else if (eq section 'section-two')}}
+  {{card-sort-2 buckets=model.buckets}}
+{{/if}}

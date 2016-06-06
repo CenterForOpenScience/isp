@@ -18,6 +18,9 @@ export default Ember.Component.extend({
       }
 
       this.sendAction('moveButton', obj, ops.target.bucket);
+    },
+    nextSection() {
+      this.sendAction('nextSection');
     }
   }
 });

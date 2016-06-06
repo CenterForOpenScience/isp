@@ -46,12 +46,19 @@ export default Ember.Route.extend({
     this._super(controller, model);
     let card = model.cards[0];
     controller.set('moveButton', card);
+    controller.set('section', 'section-one');
   },
   actions: {
     moveButton(card, bucket) {
       var data = this.modelFor(this.routeName);
       if (card !== null) {
         data.buckets[bucket].unshiftObject(card);
+      }
+    },
+    nextSection() {
+      var section = this.controller.get('section');
+      if (section === 'section-one') {
+        this.controller.set('section', 'section-two');
       }
     }
   }
