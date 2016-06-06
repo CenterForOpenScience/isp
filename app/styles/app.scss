@@ -1,3 +1,5 @@
+@import "components/card-sort";
+
 #header .navbar {
   background-color: #292929;
   color: rgb(191, 191, 191);
@@ -26,13 +28,4 @@
   position: absolute;
   bottom: 0px;
   width: 100%;
-}
-
-.bucket {
-    height: 300px;
-    overflow: auto;
-}
-
-.item {
-    cursor: move;
 }

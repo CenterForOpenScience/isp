@@ -6,7 +6,7 @@
     "Continue."
 </p>
 <br>
-<div style="height: 75px; overflow: hidden; background-color:#f5f5f5; padding: 10px">
+<div class="well card-container">
     {{#each cards as |card|}}
       {{#draggable-object content=card}}
         <div class="handle item alert alert-info" data-id={{card.id}}>{{card.content}}</div>

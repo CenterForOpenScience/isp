@@ -1,0 +1,14 @@
+.bucket {
+    height: 300px;
+    overflow: auto;
+}
+
+.item {
+    cursor: move;
+}
+
+.card-container {
+    height: 75px;
+    overflow: hidden;
+    padding: 10px;
+}
