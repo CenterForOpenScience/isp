@@ -51,7 +51,7 @@
     <div class="col-sm-4" style="padding-left: 0; padding-right: 0;">
         <div class="col-sm-4">
         <h5 class="text-center">Extremely<br>Uncharacteristic</h5>
-        <h5 class="text-center">0/3</h5>
+        <h5 class="text-center">{{buckets.extremely_uncharacteristic.length}}/3</h5>
         {{#draggable-object-target bucket="extremely_uncharacteristic" buckets=buckets action="dragCard"}}
           <div class="well bucket">
             {{#each buckets.extremely_uncharacteristic as |card|}}
@@ -64,7 +64,7 @@
         </div>
         <div class="col-sm-4">
         <h5 class="text-center">Quite<br>Uncharacteristic</h5>
-        <h5 class="text-center">0/6</h5>
+        <h5 class="text-center">{{buckets.quite_uncharacteristic.length}}/6</h5>
         {{#draggable-object-target bucket="quite_uncharacteristic" buckets=buckets action="dragCard"}}
           <div class="well bucket">
             {{#each buckets.quite_uncharacteristic as |card|}}
@@ -77,7 +77,7 @@
       </div>
       <div class="col-sm-4">
           <h5 class="text-center">Fairly<br>Uncharacteristic</h5>
-          <h5 class="text-center">0/11</h5>
+          <h5 class="text-center">{{buckets.fairly_uncharacteristic.length}}/11</h5>
           {{#draggable-object-target bucket="fairly_uncharacteristic" cards=cards buckets=buckets action="dragCard"}}
             <div id="bucket2" class="well bucket">
                 {{#each buckets.fairly_uncharacteristic as |card|}}
@@ -92,7 +92,7 @@
     <div class="col-sm-4" style="padding-left: 0; padding-right: 0;">
       <div class="col-sm-4" >
         <h5 class="text-center">Somewhat<br>Uncharacteristic</h5>
-        <h5 class="text-center">0/15</h5>
+        <h5 class="text-center">{{buckets.somewhat_uncharacteristic.length}}/15</h5>
         {{#draggable-object-target bucket="somewhat_uncharacteristic" cards=cards buckets=buckets action="dragCard"}}
           <div id="bucket3" class="well bucket">
               {{#each buckets.somewhat_uncharacteristic as |card|}}
@@ -105,7 +105,7 @@
     </div>
     <div class="col-sm-4">
         <h5 class="text-center">Relatively<br>Neutral</h5>
-        <h5 class="text-center">0/19</h5>
+        <h5 class="text-center">{{buckets.relatively_neutral.length}}/19</h5>
         {{#draggable-object-target bucket="relatively_neutral" cards=cards buckets=buckets action="dragCard"}}
           <div class="well bucket">
             {{#each buckets.relatively_neutral as |card|}}
@@ -118,7 +118,7 @@
     </div>
     <div class="col-sm-4">
         <h5 class="text-center">Somewhat<br>Characteristic</h5>
-        <h5 class="text-center">0/15</h5>
+        <h5 class="text-center">{{buckets.somewhat_characteristic.length}}/15</h5>
       {{#draggable-object-target bucket="somewhat_characteristic" cards=cards buckets=buckets action="dragCard"}}
           <div id="bucket2" class="well bucket">
               {{#each buckets.somewhat_characteristic as |card|}}
@@ -133,7 +133,7 @@
     <div class="col-sm-4" style="padding-left: 0; padding-right: 0;">
       <div class="col-sm-4">
           <h5 class="text-center">Fairly<br>Characteristic</h5>
-          <h5 class="text-center">0/11</h5>
+          <h5 class="text-center">{{buckets.fairly_characteristic.length}}/11</h5>
           {{#draggable-object-target bucket="fairly_characteristic" cards=cards buckets=buckets action="dragCard"}}
             <div id="bucket3" class="well bucket">
                 {{#each buckets.fairly_characteristic as |card|}}
@@ -146,7 +146,7 @@
         </div>
         <div class="col-sm-4">
           <h5 class="text-center">Quite<br>Characteristic</h5>
-          <h5 class="text-center">0/6</h5>
+          <h5 class="text-center">{{buckets.quite_characteristic.length}}/6</h5>
           {{#draggable-object-target bucket="quite_characteristic" cards=cards buckets=buckets action="dragCard"}}
             <div class="well bucket">
               {{#each buckets.quite_characteristic as |card|}}
@@ -159,7 +159,7 @@
       </div>
       <div class="col-sm-4">
         <h5 class="text-center">Extremely<br>Characteristic</h5>
-        <h5 class="text-center">0/3</h5>
+        <h5 class="text-center">{{buckets.extremely_characteristic.length}}/3</h5>
         {{#draggable-object-target bucket="extremely_characteristic" cards=cards buckets=buckets action="dragCard"}}
             <div id="bucket2" class="well bucket">
                 {{#each buckets.extremely_characteristic as |card|}}
