@@ -1,5 +1,5 @@
-<p><b>Describe the situation.</b> Please indicate which items best described the situation you experienced
-    yesterday. There are XX items, which will appear one at a time. Begin by placing each item into one of
+<p><b>Describe the situation.</b> Please use these items to describe the situation you experienced
+    yesterday. There are 90 items, which will appear one at a time. Begin by placing each item into one of
     three boxes. Use the "Characteristic" box on the right for items that accurately describe the situation; use
     the "Uncharacteristic" box on the left for items that are undescriptive of the situation, and use the "Neutral"
     box for items that are irrelevant, unclear, or about which you are uncertain. When you are finished, press
@@ -13,10 +13,10 @@
       {{/draggable-object}}
     {{/each}}
 </div>
-<h5 style="text-align:center">{{cards.length}} items left</h5>
+<h4 style="text-align:center">{{cards.length}} items left</h4>
 <div class="row">
     <div class="col-sm-4">
-        <h2 class="text-center">Uncharacteristic</h2>
+        <h3 class="text-center">Uncharacteristic</h3>
         {{#draggable-object-target bucket="uncharacteristic" cards=cards buckets=buckets action="dragCard"}}
           <div class="well bucket">
             {{#each buckets.uncharacteristic as |card|}}
@@ -28,7 +28,7 @@
         {{/draggable-object-target}}
     </div>
     <div class="col-sm-4">
-        <h2 class="text-center">Neutral</h2>
+        <h3 class="text-center">Neutral</h3>
       {{#draggable-object-target bucket="neutral" cards=cards buckets=buckets action="dragCard"}}
           <div id="bucket2" class="well bucket">
               {{#each buckets.neutral as |card|}}
@@ -40,7 +40,7 @@
       {{/draggable-object-target}}
     </div>
     <div class="col-sm-4">
-        <h2 class="text-center">Characteristic</h2>
+        <h3 class="text-center">Characteristic</h3>
         {{#draggable-object-target bucket="characteristic" cards=cards buckets=buckets action="dragCard"}}
           <div id="bucket3" class="well bucket">
               {{#each buckets.characteristic as |card|}}
