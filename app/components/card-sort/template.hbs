@@ -14,27 +14,6 @@
     {{/each}}
 </div>
 <h5 style="text-align:center">{{cards.length}} items left</h5>
-<div class="row" style="margin-top: 30px">
-    <div class="col-sm-4 text-center">
-        <button {{action "moveButton" cards "uncharacteristic"}}class="btn btn-lg btn-default" data-target="#bucket1">
-            <span class="glyphicon glyphicon-arrow-down" aria-hidden="true"></span>
-            <div class="visible-xs">Move to Uncharacteristic</div>
-        </button>
-    </div>
-    <div class="col-sm-4 text-center">
-        <button {{action "moveButton" cards "neutral"}}class="btn btn-lg btn-default" data-target="#bucket2">
-            <span class="glyphicon glyphicon-arrow-down" aria-hidden="true"></span>
-            <div class="visible-xs">Move to Neutral  </div>
-
-        </button>
-    </div>
-    <div class="col-sm-4 text-center">
-        <button {{action "moveButton" cards "characteristic"}}class="btn btn-lg btn-default" data-target="#bucket3">
-            <span class="glyphicon glyphicon-arrow-down" aria-hidden="true"></span>
-            <div class="visible-xs">Move to Characteristic</div>
-        </button>
-    </div>
-</div>
 <div class="row">
     <div class="col-sm-4">
         <h2 class="text-center">Uncharacteristic</h2>
