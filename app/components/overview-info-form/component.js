@@ -123,12 +123,17 @@ const formObject = {
     }
 };
 
-const formActions = {
-  submit: function() {
-    this.refreshValidationState(true);
-    //TODO: POST data
-  }
-};
+const formActions = Ember.computed(function() {
+    var root = this;
+    return {
+        submit: function () {
+            this.refreshValidationState(true);
+            if (this.isValid()) {
+              root.sendAction('nextSection');
+            }
+        }
+    };
+});
 
 
 export default Ember.Component.extend({

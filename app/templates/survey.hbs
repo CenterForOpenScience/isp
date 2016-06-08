@@ -1,6 +1,10 @@
 <h3>International Situations Project</h3>
 {{#if (eq section 'section-one')}}
-  {{card-sort cards=model.cards buckets=model.buckets moveButton="moveButton" nextSection="nextSection"}}
+  {{overview-info-form nextSection="nextSection"}}
 {{else if (eq section 'section-two')}}
+  {{free-response-form nextSection="nextSection"}}
+{{else if (eq section 'section-three')}}
+  {{card-sort cards=model.cards buckets=model.buckets moveButton="moveButton" nextSection="nextSection"}}
+{{else if (eq section 'section-four')}}
   {{card-sort-2 buckets=model.buckets moveButton="moveButton"}}
 {{/if}}
