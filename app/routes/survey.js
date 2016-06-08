@@ -55,6 +55,12 @@ export default Ember.Route.extend({
         data.buckets[bucket].unshiftObject(card);
       }
     },
+    update(formData, key) {
+      var data = this.modelFor(this.routeName);
+      for (var item in formData) {
+        data[key] = formData
+      }
+    },
     nextSection() {
       var section = this.controller.get('section');
       if (section === 'section-one') {

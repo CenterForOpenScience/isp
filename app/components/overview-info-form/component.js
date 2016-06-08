@@ -129,6 +129,8 @@ const formActions = Ember.computed(function() {
         submit: function () {
             this.refreshValidationState(true);
             if (this.isValid()) {
+              var formData = this.getValue();
+              root.sendAction('update', formData, 'overview');
               root.sendAction('nextSection');
             }
         }
