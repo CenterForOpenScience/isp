@@ -2,6 +2,8 @@ import Ember from 'ember';
 
 
 export default Ember.Component.extend({
+  cards: null,
+  buckets: null,
   actions: {
     dragCard(obj, ops) {
       var cards = ops.target.cards;
