@@ -6,18 +6,19 @@ export default Ember.Component.extend({
     dragCard(obj, ops) {
       var cards = ops.target.cards;
       var buckets = ops.target.buckets;
+      var oldBucket;
 
       if (cards.contains(obj)) {
-          cards.removeObject(obj);
-      } else if (buckets.uncharacteristic.contains(obj)) {
-          buckets.uncharacteristic.removeObject(obj);
-      } else if (buckets.neutral.contains(obj)) {
-          buckets.neutral.removeObject(obj);
-      } else if (buckets.characteristic.contains(obj)){
-           buckets.characteristic.removeObject(obj);
+        oldBucket = cards;
+      } else {
+        for (var category in buckets) {
+          if (buckets[category].contains(obj)) {
+            oldBucket = buckets[category]
+          }
+        }
       }
 
-      this.sendAction('moveButton', obj, ops.target.bucket);
+      this.sendAction('moveCard', obj, oldBucket, ops.target.bucket);
     }
   }
 });

@@ -40,10 +40,11 @@ export default Ember.Route.extend({
     controller.set('moveButton', card);
   },
   actions: {
-    moveButton(card, bucket) {
+    moveCard(card, oldBucket, target) {
       var data = this.modelFor(this.routeName);
       if (card !== null) {
-        data.buckets[bucket].unshiftObject(card);
+        oldBucket.removeObject(card);
+        data.buckets[target].unshiftObject(card);
       }
     }
   }
