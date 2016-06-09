@@ -34,16 +34,11 @@ export default Ember.Route.extend({
      }
    };
   },
-  setupController(controller, model) {
-    this._super(controller, model);
-  },
   actions: {
     moveCard(card, oldBucket, target) {
       var data = this.modelFor(this.routeName);
-      if (card !== null) {
-        oldBucket.removeObject(card);
-        data.buckets[target].unshiftObject(card);
-      }
+      oldBucket.removeObject(card);
+      data.buckets[target].unshiftObject(card);
     }
   }
 });
