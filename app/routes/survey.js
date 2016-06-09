@@ -36,8 +36,6 @@ export default Ember.Route.extend({
   },
   setupController(controller, model) {
     this._super(controller, model);
-    let card = model.cards[0];
-    controller.set('moveButton', card);
   },
   actions: {
     moveCard(card, oldBucket, target) {
