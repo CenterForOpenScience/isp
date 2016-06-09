@@ -1,0 +1,33 @@
+<p><b>Describe the situation.</b> Please use these items to describe the situation you experienced
+    yesterday. There are 90 items, which will appear one at a time. Begin by placing each item into one of
+    three boxes. Use the "Characteristic" box on the right for items that accurately describe the situation; use
+    the "Uncharacteristic" box on the left for items that are undescriptive of the situation, and use the "Neutral"
+    box for items that are irrelevant, unclear, or about which you are uncertain. When you are finished, press
+    "Continue."
+</p>
+<br>
+<div class="well card-container">
+    {{#each cards as |card|}}
+      {{#draggable-object content=card}}
+        <div class="handle item alert alert-info" data-id={{card.id}}>{{card.content}}</div>
+      {{/draggable-object}}
+    {{/each}}
+</div>
+<h4 class="center">{{cards.length}} items left</h4>
+
+<div class="row">
+    {{#each-in buckets as |bucket array|}}
+      <div class="col-sm-4">
+          <h3 class="text-center">{{capitalize bucket}}</h3>
+          {{#draggable-object-target bucket=bucket cards=cards buckets=buckets action="dragCard"}}
+            <div class="well bucket">
+              {{#each array as |card|}}
+                {{#draggable-object content=card}}
+                  <div class="item alert alert-info" data-id={{card.id}}>{{card.content}}</div>
+                {{/draggable-object}}
+              {{/each}}
+            </div>
+          {{/draggable-object-target}}
+      </div>
+    {{/each-in}}
+</div>
