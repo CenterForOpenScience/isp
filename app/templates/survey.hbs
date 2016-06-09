@@ -4,7 +4,7 @@
 {{else if (eq section 'section-two')}}
   {{free-response-form nextSection="nextSection" update="update"}}
 {{else if (eq section 'section-three')}}
-  {{card-sort cards=model.cards buckets=model.buckets responses=model.freeResponse moveButton="moveButton" nextSection="nextSection"}}
+  {{card-sort cards=model.cards buckets=model.buckets responses=model.freeResponse moveCard="moveCard" nextSection="nextSection"}}
 {{else if (eq section 'section-four')}}
   {{card-sort-2 buckets=model.buckets responses=model.freeResponse moveButton="moveButton"}}
 {{/if}}

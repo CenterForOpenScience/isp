@@ -1,5 +1,6 @@
 import Ember from 'ember';
 
+
 var cards = [
  {id: 0, content: "Situation 0"},
  {id: 1, content: "Situation 1"},
@@ -44,16 +45,13 @@ export default Ember.Route.extend({
   },
   setupController(controller, model) {
     this._super(controller, model);
-    let card = model.cards[0];
-    controller.set('moveButton', card);
     controller.set('section', 'section-one');
   },
   actions: {
-    moveButton(card, bucket) {
+    moveCard(card, oldBucket, target) {
       var data = this.modelFor(this.routeName);
-      if (card !== null) {
-        data.buckets[bucket].unshiftObject(card);
-      }
+      oldBucket.removeObject(card);
+      data.buckets[target].unshiftObject(card);
     },
     update(formData, key) {
       var data = this.modelFor(this.routeName);

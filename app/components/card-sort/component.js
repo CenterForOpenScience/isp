@@ -2,22 +2,26 @@ import Ember from 'ember';
 
 
 export default Ember.Component.extend({
+  cards: null,
+  buckets: null,
+  responses: null,
   actions: {
-    dragCard(obj, ops) {
+    dragCard(card, ops) {
       var cards = ops.target.cards;
       var buckets = ops.target.buckets;
+      var oldBucket;
 
-      if (cards.contains(obj)) {
-          cards.removeObject(obj);
-      } else if (buckets.uncharacteristic.contains(obj)) {
-          buckets.uncharacteristic.removeObject(obj);
-      } else if (buckets.neutral.contains(obj)) {
-          buckets.neutral.removeObject(obj);
-      } else if (buckets.characteristic.contains(obj)){
-           buckets.characteristic.removeObject(obj);
+      if (cards.contains(card)) {
+        oldBucket = cards;
+      } else {
+        for (var category in buckets) {
+          if (buckets[category].contains(card)) {
+            oldBucket = buckets[category]
+          }
+        }
       }
 
-      this.sendAction('moveButton', obj, ops.target.bucket);
+      this.sendAction('moveCard', card, oldBucket, ops.target.bucket);
     },
     nextSection() {
       this.sendAction('nextSection');
