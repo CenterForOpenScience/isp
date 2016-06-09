@@ -18,7 +18,7 @@
 <div class="row">
     {{#each-in buckets as |bucket array|}}
       <div class="col-sm-4">
-          <h3 class="text-center">{{bucket}}</h3>
+          <h3 class="text-center">{{capitalize bucket}}</h3>
           {{#draggable-object-target bucket=bucket cards=cards buckets=buckets action="dragCard"}}
             <div class="well bucket">
               {{#each array as |card|}}

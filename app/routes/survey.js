@@ -1,5 +1,6 @@
 import Ember from 'ember';
 
+
 var cards = [
  {id: 0, content: "Situation 0"},
  {id: 1, content: "Situation 1"},
