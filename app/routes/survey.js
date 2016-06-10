@@ -27,10 +27,12 @@ export default Ember.Route.extend({
   model() {
    return {
      cards: shuffle(cards),
-     buckets: {
+     cardSort1: {
        uncharacteristic: [],
        neutral: [],
-       characteristic: [],
+       characteristic: []
+     },
+     cardSort2: {
        extremely_uncharacteristic: [],
        quite_uncharacteristic: [],
        fairly_uncharacteristic: [],
@@ -49,9 +51,8 @@ export default Ember.Route.extend({
   },
   actions: {
     moveCard(card, oldBucket, target) {
-      var data = this.modelFor(this.routeName);
       oldBucket.removeObject(card);
-      data.buckets[target].unshiftObject(card);
+      target.unshiftObject(card);
     },
     update(formData, key) {
       var data = this.modelFor(this.routeName);

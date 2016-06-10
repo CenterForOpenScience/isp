@@ -21,7 +21,7 @@ export default Ember.Component.extend({
         }
       }
 
-      this.sendAction('moveCard', card, oldBucket, ops.target.bucket);
+      this.sendAction('moveCard', card, oldBucket, buckets[ops.target.bucket]);
     },
     nextSection() {
       this.sendAction('nextSection');
