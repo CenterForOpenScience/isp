@@ -14,5 +14,8 @@
   },
   "devDependencies": {
     "font-awesome": "^4.6.1"
+  },
+  "resolutions": {
+    "jquery": ">= 1.9.1"
   }
 }
