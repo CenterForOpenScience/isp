@@ -33,15 +33,57 @@ export default Ember.Route.extend({
        characteristic: []
      },
      cardSort2: {
-       extremely_uncharacteristic: [],
-       quite_uncharacteristic: [],
-       fairly_uncharacteristic: [],
-       somewhat_uncharacteristic: [],
-       relatively_neutral: [],
-       somewhat_characteristic: [],
-       fairly_characteristic: [],
-       quite_characteristic: [],
-       extremely_characteristic: []
+       group1: {
+         extremely_uncharacteristic: {
+           cards: [],
+           name: "Extremely Uncharacteristic",
+           max: 3
+         },
+         quite_uncharacteristic: {
+           cards: [],
+           name: "Quite Uncharacteristic",
+           max: 6
+         },
+         fairly_uncharacteristic: {
+           cards: [],
+           name: "Fairly Uncharacteristic",
+           max: 11
+         }
+       },
+       group2: {
+         somewhat_uncharacteristic: {
+           cards: [],
+           name: "Somewhat Uncharacteristic",
+           max: 15
+         },
+         relatively_neutral: {
+           cards: [],
+           name: "Relatively Neutral",
+           max: 19
+         },
+         somewhat_characteristic: {
+           cards: [],
+           name: "Somewhat Characteristic",
+           max: 15
+         }
+       },
+       group3: {
+         fairly_characteristic: {
+           cards: [],
+           name: "Fairly Characteristic",
+           max: 11
+         },
+         quite_characteristic: {
+           cards: [],
+           name: "Quite Characteristic",
+           max: 6
+         },
+         extremely_characteristic: {
+           cards: [],
+           name: "Extremely Characteristic",
+           max: 3
+         }
+       }
      }
    };
   },
@@ -50,8 +92,8 @@ export default Ember.Route.extend({
     controller.set('section', 'section-one');
   },
   actions: {
-    moveCard(card, oldBucket, target) {
-      oldBucket.removeObject(card);
+    moveCard(card, source, target) {
+      source.removeObject(card);
       target.unshiftObject(card);
     },
     update(formData, key) {

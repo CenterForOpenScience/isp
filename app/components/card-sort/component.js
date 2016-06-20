@@ -9,19 +9,19 @@ export default Ember.Component.extend({
     dragCard(card, ops) {
       var cards = ops.target.cards;
       var buckets = ops.target.buckets;
-      var oldBucket;
+      var source;
 
       if (cards.contains(card)) {
-        oldBucket = cards;
+        source = cards;
       } else {
         for (var category in buckets) {
           if (buckets[category].contains(card)) {
-            oldBucket = buckets[category]
+            source = buckets[category]
           }
         }
       }
 
-      this.sendAction('moveCard', card, oldBucket, buckets[ops.target.bucket]);
+      this.sendAction('moveCard', card, source, buckets[ops.target.bucket]);
     },
     nextSection() {
       this.sendAction('nextSection');
