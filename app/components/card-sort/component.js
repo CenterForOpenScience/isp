@@ -5,6 +5,7 @@ export default Ember.Component.extend({
   page: 'cardSort1',
   cards: null,
   buckets: null,
+  buckets2: null,
   responses: null,
   actions: {
     dragCard(card, ops) {
