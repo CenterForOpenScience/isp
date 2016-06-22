@@ -7,13 +7,27 @@ export default Ember.Component.extend({
   buckets: null,
   buckets2: null,
   responses: null,
-  remaining: Ember.computed('buckets.uncharacteristic.[]', 'buckets.neutral.[]', 'buckets.characteristic.[]', function() {
-    var remaining = 0;
-    var buckets = this.buckets;
-    for (var category in buckets) {
-      remaining += buckets[category].length;
-    }
-    return remaining;
+  isValid: Ember.computed(
+    'buckets2.group1.extremely_uncharacteristic.cards.[]',
+    'buckets2.group1.quite_uncharacteristic.cards.[]',
+    'buckets2.group1.fairly_uncharacteristic.cards.[]',
+    'buckets2.group2.somewhat_uncharacteristic.cards.[]',
+    'buckets2.group2.relatively_neutral.cards.[]',
+    'buckets2.group2.somewhat_characteristic.cards.[]',
+    'buckets2.group3.fairly_characteristic.cards.[]',
+    'buckets2.group3.quite_characteristic.cards.[]',
+    'buckets2.group3.extremely_characteristic.cards.[]',
+    function() {
+      var buckets = this.buckets2;
+      for (var group in buckets) {
+        for (var category in buckets[group]) {
+          var bucket = buckets[group][category];
+            if (bucket.cards.length !== bucket.max) {
+              return false;
+            }
+          }
+      }
+      return true;
   }),
   actions: {
     dragCard(card, ops) {

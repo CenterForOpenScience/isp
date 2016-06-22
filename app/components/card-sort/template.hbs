@@ -90,5 +90,5 @@
 {{#if (eq page 'cardSort1')}}
 <div class="btn btn-primary pull-right {{if (gt cards.length 0) 'disabled'}}" {{action "nextPage"}}>Continue</div>
 {{else if (eq page 'cardSort2')}}
-<div class="btn btn-primary pull-right {{if (gt remaining 0) 'disabled'}}" {{action "nextSection"}}>Continue</div>
+<div class="btn btn-primary pull-right {{if isValid 'enabled' 'disabled'}}" {{action "nextSection"}}>Continue</div>
 {{/if}}
