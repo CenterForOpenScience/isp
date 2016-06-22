@@ -7,6 +7,14 @@ export default Ember.Component.extend({
   buckets: null,
   buckets2: null,
   responses: null,
+  remaining: Ember.computed('buckets.uncharacteristic.[]', 'buckets.neutral.[]', 'buckets.characteristic.[]', function() {
+    var remaining = 0;
+    var buckets = this.buckets;
+    for (var category in buckets) {
+      remaining += buckets[category].length;
+    }
+    return remaining;
+  }),
   actions: {
     dragCard(card, ops) {
       var cards = ops.target.cards;
