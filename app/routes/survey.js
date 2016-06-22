@@ -27,18 +27,88 @@ export default Ember.Route.extend({
   model() {
    return {
      cards: shuffle(cards),
-     buckets: {
+     cardSort1: {
        uncharacteristic: [],
        neutral: [],
        characteristic: []
+     },
+     cardSort2: {
+       group1: {
+         extremely_uncharacteristic: {
+           cards: [],
+           name: "Extremely Uncharacteristic",
+           max: 3
+         },
+         quite_uncharacteristic: {
+           cards: [],
+           name: "Quite Uncharacteristic",
+           max: 6
+         },
+         fairly_uncharacteristic: {
+           cards: [],
+           name: "Fairly Uncharacteristic",
+           max: 11
+         }
+       },
+       group2: {
+         somewhat_uncharacteristic: {
+           cards: [],
+           name: "Somewhat Uncharacteristic",
+           max: 15
+         },
+         relatively_neutral: {
+           cards: [],
+           name: "Relatively Neutral",
+           max: 19
+         },
+         somewhat_characteristic: {
+           cards: [],
+           name: "Somewhat Characteristic",
+           max: 15
+         }
+       },
+       group3: {
+         fairly_characteristic: {
+           cards: [],
+           name: "Fairly Characteristic",
+           max: 11
+         },
+         quite_characteristic: {
+           cards: [],
+           name: "Quite Characteristic",
+           max: 6
+         },
+         extremely_characteristic: {
+           cards: [],
+           name: "Extremely Characteristic",
+           max: 3
+         }
+       }
      }
    };
   },
+  setupController(controller, model) {
+    this._super(controller, model);
+    controller.set('section', 'section-one');
+  },
   actions: {
-    moveCard(card, oldBucket, target) {
+    moveCard(card, source, target) {
+      source.removeObject(card);
+      target.unshiftObject(card);
+    },
+    update(formData, key) {
       var data = this.modelFor(this.routeName);
-      oldBucket.removeObject(card);
-      data.buckets[target].unshiftObject(card);
+      for (var item in formData) {
+        data[key] = formData
+      }
+    },
+    nextSection() {
+      var section = this.controller.get('section');
+      if (section === 'section-one') {
+        this.controller.set('section', 'section-two');
+      } else if (section === 'section-two') {
+        this.controller.set('section', 'section-three');
+      }
     }
   }
 });
