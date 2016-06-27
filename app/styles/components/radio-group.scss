@@ -1,0 +1,25 @@
+.radio-group {
+  label {
+  	margin-left: 20px;
+	  margin-right: 10px;
+  }
+  .label-left {
+	  min-width: 90px;
+  }
+  .label-right {
+	  margin-left: 40px;
+  }
+  input {
+	  padding: 12px;
+	  height: 1em;
+	  margin: 15px;
+  }
+}
+
+.label-text {
+  font-size: 12px;
+  font-weight:normal;
+  text-align:center;
+  margin-right: 20px;
+  width: 8%;
+}
