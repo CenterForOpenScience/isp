@@ -39,7 +39,7 @@
     "ember-data": "^2.4.2",
     "ember-drag-drop": "^0.3.4",
     "ember-export-application-global": "^1.0.5",
-    "ember-flag-icon-css": "git://github.com/samchrisinger/ember-flag-icon-css.git#235736c702c8b4150e1af057be1cac8f2e02877d",
+    "ember-flag-icon-css": "git://github.com/samchrisinger/ember-flag-icon-css.git#144039ca0401e275c850c201d6ceb73ac5cb73bc",
     "ember-getowner-polyfill": "1.0.1",
     "ember-load-initializers": "^0.5.1",
     "ember-resolver": "^2.0.3",
