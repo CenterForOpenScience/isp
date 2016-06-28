@@ -89,6 +89,8 @@
 
 {{#if (eq page 'cardSort1')}}
 <div class="btn btn-primary pull-right" {{action "nextPage"}}>Continue</div>
+{{progress-bar pageNumber=3}}
 {{else if (eq page 'cardSort2')}}
 <div class="btn btn-primary pull-right" {{action "nextSection"}}>Continue</div>
+{{progress-bar pageNumber=4}}
 {{/if}}
