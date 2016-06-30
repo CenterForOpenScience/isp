@@ -10,7 +10,7 @@
           {{radio-group options=parts.scale labelTop=data.labelTop labels=data.labels value=data.value}}
         {{/each-in}}
       {{else if (eq parts.type 'select')}}
-        {{select-input options=parts.scale value=parts.items.part1.value}}
+        {{select-input options=parts.scale value=parts.items.item1.value}}
       {{else if (eq parts.type 'radio-input')}}
           {{radio-group options=parts.scale value=parts.items.radio.value}}
           {{#if (eq parts.items.radio.value 'Yes')}}

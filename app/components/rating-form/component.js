@@ -1,6 +1,7 @@
 import Ember from 'ember';
 import {translations} from '../../utils/translations';
 
+
 const TEN_POINT_SCALE = [
   translations.number0,
   translations.number1,
@@ -38,11 +39,11 @@ var generateSchema = function(question, type, items, scale, options) {
 };
 
 
-var model = {
+var questions = {
   q1: generateSchema(
     translations.measures.questions['1'].label,
     'select',
-    translations.measures.questions['1'].items,
+    {'item1': ''},
     [
       translations.measures.questions['1'].options.extremelyNeg,
       translations.measures.questions['1'].options.quiteNeg,
@@ -337,7 +338,7 @@ var model = {
 
 
 export default Ember.Component.extend({
-  questions: model,
+  questions: questions,
   actions: {
     nextSection() {
       var formData = {};
