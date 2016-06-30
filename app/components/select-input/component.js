@@ -5,10 +5,5 @@ import layout from './template';
 export default Ember.Component.extend({
   layout,
   options: null,
-  value: null,
-  actions: {
-    select(option){
-      this.set('value', option);
-    }
-  }
+  value: null
 });
