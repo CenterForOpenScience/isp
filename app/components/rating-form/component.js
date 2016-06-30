@@ -1,5 +1,6 @@
 import Ember from 'ember';
 import {translations} from '../../utils/translations';
+import {validator, buildValidations} from 'ember-cp-validations';
 
 
 const TEN_POINT_SCALE = [
@@ -18,6 +19,20 @@ const TEN_POINT_SCALE = [
 const SEVEN_POINT_SCALE = TEN_POINT_SCALE.slice(0, 8);
 const NINE_POINT_SCALE = TEN_POINT_SCALE.slice(0, 10);
 
+var generateValidators = function(questions) {
+  var validators = {};
+  var presence = validator('presence', {
+      presence:true,
+      message: 'This field is required'
+  });
+  for (var question in questions) {
+    for (var item in questions[question]['items']) {
+      var key = 'questions.' + question + '.items.' + item + '.value';
+      validators[key] = presence;
+    }
+  }
+  return validators;
+};
 
 var generateSchema = function(question, type, items, scale, options) {
   var ret = {
@@ -336,21 +351,28 @@ var questions = {
   }
 };
 
+const Validations = buildValidations(generateValidators(questions));
 
-export default Ember.Component.extend({
+
+export default Ember.Component.extend(Validations, {
   questions: questions,
+  showValidation: false,
   actions: {
     nextSection() {
-      var formData = {};
-      var questions = this.get('questions');
-      for (var question in questions) {
-        formData[question] = {};
-        for (var part in questions[question]['items']) {
-          formData[question][part] = questions[question]['items'][part]['value'];
+      if (this.get('validations.isInvalid')) {
+        this.set('showValidation', true);
+      } else {
+        var formData = {};
+        var questions = this.get('questions');
+        for (var question in questions) {
+          formData[question] = {};
+          for (var item in questions[question]['items']) {
+            formData[question][item] = questions[question]['items'][item]['value'];
+          }
         }
+        this.sendAction('update', formData, 'ratingForm');
+        this.sendAction('nextSection');
       }
-      this.sendAction('update', formData, 'ratingForm');
-      this.sendAction('nextSection');
     }
   }
 });
