@@ -74,20 +74,24 @@ const formObject = {
         fields: {
             age: {
                 noneLabel: 'Please select',
-                validator: 'required-field'
+                validator: 'required-field',
+                fieldClass: 'overview-form-control'
             },
             gender: {
                 noneLabel: 'Please select',
                 "sort": function() {
                     return false;
                 },
-                validator: 'required-field'
+                validator: 'required-field',
+                fieldClass: 'overview-form-control'
             },
             ethnicity: {
-              validator: 'required-field'
+              validator: 'required-field',
+              fieldClass: 'overview-form-control'
             },
             firstLanguage: {
-              validator: 'required-field'
+              validator: 'required-field',
+              fieldClass: 'overview-form-control'
             },
             socioeconomicStatus: {
                 type: 'radio',
@@ -96,12 +100,14 @@ const formObject = {
                 validator: 'required-field'
             },
             birthLocation: {
-                validator: 'required-field'
+                validator: 'required-field',
+                fieldClass: 'overview-form-control'
             },
             residence: {
                 noneLabel: 'Please select',
                 optionLabels: ['Remote Rural', 'Rural', 'Suburban', 'Urban'],
-                validator: 'required-field'
+                validator: 'required-field',
+                fieldClass: 'overview-form-control'
             },
             isReligious: {
                 removeDefaultNone: true,
@@ -111,6 +117,9 @@ const formObject = {
                     return false;
                 },
                 validator: 'required-field'
+            },
+            religion: {
+              fieldClass: 'overview-form-control'
             },
             howReligious: {
                 type: 'radio',
