@@ -99,8 +99,8 @@ const translations = {
     "Key": "EN-US",
     "measures": {
         "scale": {
-            "DisagreeeStrongly": "Disagreee strongly",
-            "Disagreee": "Disagree",
+            "DisagreeStrongly": "Disagree strongly",
+            "Disagree": "Disagree",
             "neutral": "Neutral; no opinion",
             "agree": "Agree",
             "agreeStrongly": "Agree strongly"
@@ -385,13 +385,13 @@ const translations = {
                     }
                 },
                 "options": {
-                    "disagreee": "Disagree",
+                    "disagree": "Disagree",
                     "neutral": "Neutral; no opinion",
                     "disagreeStrongly": "Disagreee strongly",
                     "agree": "Agree",
                     "agreeStrongly": "Agree strongly"
                 },
-                "label": "3. Please rate the extent to which you agree or disagreee with the following statements:\n\nI am someone who..."
+                "label": "3. Please rate the extent to which you agree or disagree with the following statements:\n\nI am someone who..."
             },
             "6": {
                 "items": {
@@ -457,11 +457,11 @@ const translations = {
                     }
                 },
                 "options": {
-                    "disStrong": "Disagreee strongly",
-                    "dis ": "Disagree",
+                    "disagreeStrongly": "Disagree strongly",
+                    "disagree": "Disagree",
                     "neutral": "Neutral; no opinion",
                     "agree": "Agree",
-                    "agreeStrong": "Agree strongly"
+                    "agreeStrongly": "Agree strongly"
                 },
                 "label": "5. Please rate the extent to which you agree or disagreee with the following statements:"
             },
@@ -598,8 +598,8 @@ const translations = {
                     }
                 },
                 "options": {
-                    "disagreeeStrongly": "Disagreee strongly",
-                    "disagreee": "Disagree",
+                    "disagreeStrongly": "Disagreee strongly",
+                    "disagree": "Disagree",
                     "neutral": "Neutral; no opinion",
                     "agree": "Agree",
                     "agreeStrongly": "Agree strongly"
@@ -632,8 +632,8 @@ const translations = {
                     }
                 },
                 "options": {
-                    "disagreeeStrongly": "Disagreee strongly",
-                    "disagreee": "Disagree",
+                    "disagreeStrongly": "Disagreee strongly",
+                    "disagree": "Disagree",
                     "neutral": "Neutral; no opinion",
                     "agree": "Agree",
                     "agreeStrongly": "Agree strongly"
@@ -662,8 +662,8 @@ const translations = {
                     }
                 },
                 "options": {
-                    "disagreeeStrongly": "Disagreee strongly",
-                    "disagreee": "Disagree",
+                    "disagreeStrongly": "Disagreee strongly",
+                    "disagree": "Disagree",
                     "neutral": "Neutral; no opinion",
                     "agree": "Agree",
                     "agreeStrongly": "Agree strongly"
@@ -704,8 +704,8 @@ const translations = {
                     }
                 },
                 "options": {
-                    "disagreeeStrongly": "Disagreee strongly",
-                    "disagreee": "Disagree",
+                    "disagreeStrongly": "Disagreee strongly",
+                    "disagree": "Disagree",
                     "neutral": "Neutral; no opinion",
                     "agree": "Agree",
                     "agreeStrongly": "Agree strongly"
@@ -753,11 +753,6 @@ const translations = {
         "sections": {
             "1": {
                 "continueButtonLabel": "Continue",
-                "quesrions": {
-                    "2": {
-                        "selectUnselected": "Please select"
-                    }
-                },
                 "questions": {
                     "10": {
                         "label": "On a scale from 1 to 10, how religious are you?"
@@ -774,6 +769,7 @@ const translations = {
                             "male": "Male",
                             "female": "Female"
                         },
+                        "selectUnselected": "Please select",
                         "label": "Gender (Male, Female, Other, I would rather not state)"
                     },
                     "5": {
