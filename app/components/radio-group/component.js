@@ -6,7 +6,6 @@ export default Ember.Component.extend({
   layout,
   options: null,
   value: null,
-  labelLeft: null,
-  labelRight: null,
+  labelTop: null,
   labels: null
 });
