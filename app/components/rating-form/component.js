@@ -27,8 +27,11 @@ var generateValidators = function(questions) {
   });
   for (var question in questions) {
     for (var item in questions[question]['items']) {
-      var key = 'questions.' + question + '.items.' + item + '.value';
-      validators[key] = presence;
+      var isOptional = 'optional' in questions[question]['items'][item] && questions[question]['items'][item]['optional'];
+      if (!isOptional) {
+        var key = 'questions.' + question + '.items.' + item + '.value';
+        validators[key] = presence;
+      }
     }
   }
   return validators;
@@ -285,7 +288,8 @@ var questions = {
       },
       input: {
         description: translations.measures.questions['12'].label,
-        value:null
+        value:null,
+        optional:true
       }
     }
   },
