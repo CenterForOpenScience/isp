@@ -64,7 +64,7 @@
       <div class="col-sm-4">
           <div class="row">
             {{#each-in categories as |category data|}}
-              <div class="col-sm-4">
+              <div id="smallBucket" class="col-sm-4">
               <h5 class="text-center">{{data.name}}</h5>
               <h5 class="text-center
                 {{if (gte data.cards.length data.max) (if (eq data.cards.length data.max) 'text-success' 'text-danger') ''}}">
@@ -74,7 +74,7 @@
                 <div class="well bucket">
                   {{#each data.cards as |card|}}
                     {{#draggable-object content=card}}
-                      <div class="item alert alert-info" data-id={{card.id}}>{{card.content}}</div>
+                      <div class="item alert alert-info small-card" style="font-size: 12px;" data-id={{card.id}}>{{card.content}}</div>
                     {{/draggable-object}}
                   {{/each}}
                 </div>
@@ -88,9 +88,9 @@
 {{/if}}
 
 {{#if (eq page 'cardSort1')}}
-<div class="btn btn-primary pull-right" {{action "nextPage"}}>Continue</div>
-{{progress-bar pageNumber=3}}
+  <div class="btn btn-primary pull-right {{if (gt cards.length 0) 'disabled'}}" {{action "nextPage"}}>Continue</div>
+  {{progress-bar pageNumber=3}}
 {{else if (eq page 'cardSort2')}}
-<div class="btn btn-primary pull-right" {{action "nextSection"}}>Continue</div>
-{{progress-bar pageNumber=4}}
+  <div class="btn btn-primary pull-right {{if isValid 'enabled' 'disabled'}}" {{action "nextSection"}}>Continue</div>
+  {{progress-bar pageNumber=4}}
 {{/if}}
