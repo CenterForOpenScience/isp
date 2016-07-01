@@ -1,14 +1,18 @@
 import Ember from 'ember';
+import {translations} from '../utils/translations';
 
 
-var cards = [
- {id: 0, content: "Situation 0"},
- {id: 1, content: "Situation 1"},
- {id: 2, content: "Situation 2"},
- {id: 3, content: "Situation 3"},
- {id: 4, content: "Situation 4"},
- {id: 5, content: "Situation 5"}
-];
+var formatCards = function(items) {
+  var cards = [];
+  for (var item in items) {
+    cards.push({
+      id: item,
+      content: items[item]
+    })
+  }
+  return cards;
+};
+
 
 // h/t: http://stackoverflow.com/a/6274398
 var shuffle = function(array) {
@@ -26,7 +30,7 @@ var shuffle = function(array) {
 export default Ember.Route.extend({
   model() {
    return {
-     cards: shuffle(cards),
+     cards: shuffle(formatCards(translations.qsort.rsq.item)),
      cardSort1: {
        uncharacteristic: [],
        neutral: [],
