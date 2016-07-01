@@ -1,7 +1,7 @@
 {{#bs-form}}
   {{#each-in questions as |question parts|}}
     {{#bs-form-group}}
-      <label>{{parts.question}}</label><br>
+      <label>{{parts.question}}</label>
       {{#if (eq parts.type 'radio')}}
         {{#each-in parts.items as |item data|}}
           {{#if data.description}}
@@ -23,5 +23,5 @@
       {{/if}}
     {{/bs-form-group}}
   {{/each-in}}
-  {{bs-button class="pull-right" defaultText="Continue" type="primary" action='nextSection'}}
+  <div class='btn btn-primary pull-right {{if (v-get this 'isInvalid') "disabled" "enabled"}}' {{action 'nextSection'}}>Continue</div>
 {{/bs-form}}
