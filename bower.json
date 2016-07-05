@@ -9,8 +9,8 @@
     "alpaca": "1.5.14",
     "handlebars": "3.0.3",
     "lodash": "~3.10.1",
-    "flag-icon-css": "^2.3.1",
-    "jquery": "1.11.1"
+    "jquery": "1.11.1",
+    "flag-icon-css": "^2.3.1"
   },
   "devDependencies": {
     "font-awesome": "^4.6.1"
