@@ -1,4 +1,5 @@
 import Ember from 'ember';
+import {validator, buildValidations} from 'ember-cp-validations';
 
 
 var range = function(start, stop) {
@@ -7,6 +8,22 @@ var range = function(start, stop) {
         options.push(i);
     }
     return options;
+};
+
+var generateValidators = function(questions) {
+  var validators = {};
+  var presence = validator('presence', {
+      presence:true,
+      message: 'This field is required'
+  });
+  for (var question in questions) {
+      var isOptional = 'optional' in questions[question] && questions[question]['optional'];
+      if (!isOptional) {
+        var key = 'questions.' + question + '.value';
+        validators[key] = presence;
+    }
+  }
+  return validators;
 };
 
 const questions = {
@@ -73,10 +90,13 @@ const questions = {
   }
 };
 
-export default Ember.Component.extend({
+const Validations = buildValidations(generateValidators(questions));
+
+export default Ember.Component.extend(Validations, {
   questions: questions,
   actions: {
     nextSection() {
+      if (this.get('validations.isValid')) {
         var formData = {};
         var questions = this.get('questions');
         for (var question in questions) {
@@ -85,5 +105,6 @@ export default Ember.Component.extend({
         this.sendAction('update', formData, 'overview');
         this.sendAction('nextSection');
       }
+    }
   }
 });
