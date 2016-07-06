@@ -1,7 +1,5 @@
-@import "components/overview-form";
 @import "components/card-sort";
 @import "components/radio-group";
-@import "components/select-input";
 @import "components/progress-bar";
 
 #header .navbar {
@@ -27,4 +25,8 @@
   position: relative;
   top: 50px;
   margin-bottom: 50px;
+}
+
+.auto-width {
+  width: auto;
 }
