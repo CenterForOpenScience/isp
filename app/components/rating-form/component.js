@@ -1,5 +1,5 @@
 import Ember from 'ember';
-import {translations} from '../../utils/translations';
+import {translations} from '../../utils/translationStrings';
 import {validator, buildValidations} from 'ember-cp-validations';
 
 
@@ -153,7 +153,7 @@ var questions = {
     type: 'radio',
     scale: SEVEN_POINT_SCALE,
     items: {
-      part1: {
+      item1: {
         description: translations.measures.questions['6'].items['1'].label,
         value:null,
         labelTop: false,
@@ -166,7 +166,7 @@ var questions = {
             label: translations.measures.questions['6'].items['1'].options.veryHappy
           }]
       },
-      part2: {
+      item2: {
         description: translations.measures.questions['6'].items['2'].label,
         scale: SEVEN_POINT_SCALE,
         value:null,
@@ -180,7 +180,7 @@ var questions = {
             label: translations.measures.questions['6'].items['2'].options.lessHappy
           }]
       },
-      part3: {
+      item3: {
         description: translations.measures.questions['6'].items['3'].label,
         scale: SEVEN_POINT_SCALE,
         value:null,
@@ -194,7 +194,7 @@ var questions = {
             label: translations.measures.questions['6'].items['4'].options.aGreatDeal
           }]
       },
-      part4: {
+      item4: {
         description: translations.measures.questions['6'].items['4'].label,
         scale: SEVEN_POINT_SCALE,
         value:null,

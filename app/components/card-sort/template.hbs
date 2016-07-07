@@ -1,21 +1,7 @@
 {{#if (eq page 'cardSort1')}}
-<p><b>Describe the situation. </b> Please use these items to describe the situation you experienced yesterday.
-    There are 90 items, which will appear one at a time. Begin by placing each item into one of three boxes.
-    Use the "Characteristic" box on the right for items that accurately describe the situation; use the
-    "Uncharacteristic" box on the left for items that are undescriptive of the situation, and use the "Neutral"
-    box for items that are irrelevant, unclear, or about which you are uncertain. When you are finished, press
-    "Continue."</p>
+    <p>{{t 'qsort.sections.1.instructions'}}</p>
 {{else if (eq page 'cardSort2')}}
-  <p><b>Describe the situation.</b> Now, from the three boxes, please place the items into nine boxes. Placing an item in
-    the highest (right-hand) category indicates that the item is "extremely characteristic" of the situation. Only
-    three cards can go into this category, so they should be the best descriptors. Putting an item in the middle
-    categories means that the item is irrelevant to the situation, or that you are unsure of where the item belongs.
-    Putting an item in the lowest (right-hand) category implies that the item is "extremely uncharacteristic" of the
-    situation. Again, only three cards can go into this category so they sgould be the items that are the very LEAST
-    characteristic. A fixed number of items goes into each box. You can drag and drop items from one box to another,
-    but if you leave too maby items in any one box, the heading will turn red. The heading will turn green when the
-    right number of items is in the box.
-  </p>
+  <p>{{t 'qsort.sections.2.instructions'}}</p>
 {{/if}}
 <br>
 <h4 class="text-center"><b>{{responses.activity}}</b></h4>
@@ -26,22 +12,22 @@
   <div class="well card-container">
       {{#each cards as |card|}}
         {{#draggable-object content=card}}
-          <div class="handle item alert alert-info" data-id={{card.id}}>{{card.content}}</div>
+          <div class="handle item alert alert-info" data-id={{card.id}}>{{t card.content}}</div>
         {{/draggable-object}}
       {{/each}}
   </div>
-  <h4 class="center">{{cards.length}} items left</h4>
+  <h4 class="center">{{t (concat 'number' cards.length)}} {{t 'qsort.sections.1.itemsLeft'}}</h4>
 {{/if}}
 <div class="row">
     {{#each-in buckets as |bucket array|}}
       <div class="col-sm-4">
-          <h3 class="text-center">{{capitalize bucket}}</h3>
+          <h3 class="text-center">{{t (concat 'qsort.sections.1.categories.' bucket)}}</h3>
           {{#if (eq page 'cardSort1')}}
             {{#draggable-object-target bucket=array cards=cards buckets=buckets action='dragCard'}}
               <div class="well bucket">
                 {{#each array as |card|}}
                   {{#draggable-object content=card}}
-                    <div class="item alert alert-info" data-id={{card.id}}>{{card.content}}</div>
+                    <div class="item alert alert-info" data-id={{card.id}}>{{t card.content}}</div>
                   {{/draggable-object}}
                 {{/each}}
               </div>
@@ -50,7 +36,7 @@
               <div class="well bucket">
                 {{#each array as |card|}}
                   {{#draggable-object content=card}}
-                    <div class="item alert alert-info" data-id={{card.id}}>{{card.content}}</div>
+                    <div class="item alert alert-info" data-id={{card.id}}>{{t card.content}}</div>
                   {{/draggable-object}}
                 {{/each}}
               </div>
@@ -65,7 +51,7 @@
           <div class="row">
             {{#each-in categories as |category data|}}
               <div id="smallBucket" class="col-sm-4">
-              <h5 class="text-center">{{data.name}}</h5>
+              <h5 class="text-center">{{t data.name}}</h5>
               <h5 class="text-center
                 {{if (gte data.cards.length data.max) (if (eq data.cards.length data.max) 'text-success' 'text-danger') ''}}">
                 {{data.cards.length}}/{{data.max}}
@@ -74,7 +60,7 @@
                 <div class="well bucket">
                   {{#each data.cards as |card|}}
                     {{#draggable-object content=card}}
-                      <div class="item alert alert-info small-card" style="font-size: 12px;" data-id={{card.id}}>{{card.content}}</div>
+                      <div class="item alert alert-info small-card" style="font-size: 12px;" data-id={{card.id}}>{{t card.content}}</div>
                     {{/draggable-object}}
                   {{/each}}
                 </div>
@@ -88,9 +74,9 @@
 {{/if}}
 
 {{#if (eq page 'cardSort1')}}
-  <div class="btn btn-primary pull-right {{if (gt cards.length 0) 'disabled'}}" {{action "nextPage"}}>Continue</div>
+  <div class="btn btn-primary pull-right {{if (gt cards.length 0) 'disabled'}}" {{action "nextPage"}}>{{t 'global.continueLabel'}}</div>
   {{progress-bar pageNumber=3}}
 {{else if (eq page 'cardSort2')}}
-  <div class="btn btn-primary pull-right {{if isValid 'enabled' 'disabled'}}" {{action "nextSection"}}>Continue</div>
+  <div class="btn btn-primary pull-right {{if isValid 'enabled' 'disabled'}}" {{action "nextSection"}}>{{t 'global.continueLabel'}}</div>
   {{progress-bar pageNumber=4}}
 {{/if}}

@@ -1,11 +1,11 @@
 {{#bs-form}}
   {{#each-in questions as |question parts|}}
     {{#bs-form-group}}
-      <label>{{parts.question}}</label>
+      <label>{{t parts.question}}</label>
       {{#if (eq parts.type 'radio')}}
         {{#each-in parts.items as |item data|}}
           {{#if data.description}}
-            <p>{{data.description}}</p>
+            <p>{{t data.description}}</p>
           {{/if}}
           {{radio-group options=parts.scale labelTop=data.labelTop labels=data.labels value=data.value}}
         {{/each-in}}
@@ -14,7 +14,7 @@
       {{else if (eq parts.type 'radio-input')}}
           {{radio-group options=parts.scale value=parts.items.radio.value}}
           {{#if (eq parts.items.radio.value 'Yes')}}
-            <p>{{parts.items.input.description}}</p>
+            <p>{{t parts.items.input.description}}</p>
             {{#input value=parts.input.value}}{{/input}}
             <br>
           {{/if}}
@@ -23,6 +23,6 @@
       {{/if}}
     {{/bs-form-group}}
   {{/each-in}}
-  <div class='btn btn-primary pull-right {{if (v-get this 'isInvalid') "disabled" "enabled"}}' {{action 'nextSection'}}>Continue</div>
+  <div class='btn btn-primary pull-right {{if (v-get this 'isInvalid') "disabled" "enabled"}}' {{action 'nextSection'}}>{{t 'global.continueLabel'}}</div>
   {{progress-bar pageNumber=5}}
 {{/bs-form}}
