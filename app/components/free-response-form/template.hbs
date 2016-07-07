@@ -9,5 +9,22 @@
     <li>Who else was present</li>
 </ol>
 <p>Please type your responses in the boxes below.</p>
-{{dynamic-form schema=formSchema formActions=formActions}}
-{{progress-bar pageNumber=2}}
+{{#bs-form}}
+    {{#bs-form-group}}
+      <label>{{questions.q1.label}}</label>
+      {{#textarea maxlength=75 rows="5" cols="40" class="form-control" value=questions.q1.value}}{{/textarea}}
+      <p class="text-muted">You have {{diff1}} characters remaining.</p>
+    {{/bs-form-group}}
+    {{#bs-form-group}}
+      <label>{{questions.q2.label}}</label>
+      {{#textarea maxlength=75 rows="5" cols="40" class="form-control" value=questions.q2.value}}{{/textarea}}
+      <p class="text-muted">You have {{diff2}} characters remaining.</p>
+    {{/bs-form-group}}
+    {{#bs-form-group}}
+      <label>{{questions.q3.label}}</label>
+      {{#textarea maxlength=75 rows="5" cols="40" class="form-control" value=questions.q3.value}}{{/textarea}}
+      <p class="text-muted">You have {{diff3}} characters remaining.</p>
+    {{/bs-form-group}}
+  <div class='btn btn-primary pull-right {{if (v-get this 'isInvalid') "disabled" "enabled"}}' {{action 'nextSection'}}>Continue</div>
+  {{progress-bar pageNumber=2}}
+{{/bs-form}}

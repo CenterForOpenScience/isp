@@ -4,5 +4,19 @@
     your attitudes and values. Based on these responses, when you have completed the study, you will receive
     individualized information about your personality that we hope you will find interesting.
 </p>
-{{dynamic-form schema=formSchema formActions=formActions}}
-{{progress-bar pageNumber=1}}
+{{#bs-form}}
+  {{#each-in questions as |question parts|}}
+    {{#bs-form-group}}
+      <label>{{parts.question}}</label>
+      {{#if (eq parts.type 'radio')}}
+        {{radio-group options=parts.scale labelTop=parts.labelTop value=parts.value}}
+      {{else if (eq parts.type 'select')}}
+        {{select-input options=parts.scale value=parts.value}}
+      {{else if (eq parts.type 'input')}}
+        {{#input class="form-control auto-width" value=parts.value}}{{/input}}
+      {{/if}}
+    {{/bs-form-group}}
+  {{/each-in}}
+  <div class='btn btn-primary pull-right {{if (v-get this 'isInvalid') "disabled" "enabled"}}' {{action 'nextSection'}}>Continue</div>
+  {{progress-bar pageNumber=1}}
+{{/bs-form}}
