@@ -27,7 +27,7 @@ var generateValidators = function(questions) {
   });
   for (var question in questions) {
     for (var item in questions[question]['items']) {
-      var isOptional = 'optional' in questions[question]['items'][item] && questions[question]['items'][item]['optional'];
+      var isOptional = questions[question]['items'][item].optional;
       if (!isOptional) {
         var key = 'questions.' + question + '.items.' + item + '.value';
         validators[key] = presence;
