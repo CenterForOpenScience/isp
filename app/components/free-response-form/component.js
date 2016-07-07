@@ -10,7 +10,7 @@ var generateValidators = function(questions) {
       message: 'This field is required'
   });
   for (var question in questions) {
-      var isOptional = 'optional' in questions[question] && questions[question]['optional'];
+      var isOptional = questions[question].optional;
       if (!isOptional) {
         var key = 'questions.' + question + '.value';
         validators[key] = presence;

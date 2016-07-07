@@ -3,13 +3,12 @@
 @import "components/progress-bar";
 
 #header .navbar {
-  background-color: #292929;
-  color: rgb(191, 191, 191);
+  background-color: #15265E;
 }
 #header .logo {
-  max-height: 25px;
+  max-height: 48px;
   position: relative;
-  top: 5px;
+  top: 1px;
 }
 #header .text {
   font-size: 1.3em;
@@ -18,7 +17,12 @@
   top: 12px;
 }
 #header a {
-  color: inherit;
+  color: white;
+}
+
+#header a:hover {
+  color: #BCBBBB;
+  background-color: transparent;
 }
 
 #content {
