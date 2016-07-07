@@ -1,4 +1,4 @@
-<select class="form-control select" onchange={{action (mut value) value="target.value"}}>
+<select class="form-control auto-width" onchange={{action (mut value) value="target.value"}}>
   <option value=null>Please select</option>
   {{#each options as |option|}}
     <option value={{option}} selected={{eq value option}}>{{t option}}</option>
