@@ -944,6 +944,7 @@ const translations = {
                         "options": {
                             "female": "survey.sections.1.questions.2.options.female",
                             "male": "survey.sections.1.questions.2.options.male",
+                            "other": "survey.sections.1.questions.2.options.other",
                             "na": "survey.sections.1.questions.2.options.na"
                         },
                         "selectUnselected": "survey.sections.1.questions.2.selectUnselected"

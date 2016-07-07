@@ -944,6 +944,7 @@ const translations = {
                         "options": {
                             "female": "Female",
                             "male": "Male",
+                            "other": "Other",
                             "na": "I would rather not state"
                         },
                         "selectUnselected": "Please select"
