@@ -114,6 +114,8 @@ export default Ember.Route.extend({
         this.controller.set('section', 'section-three');
       } else if (section === 'section-three') {
         this.controller.set('section', 'section-four');
+      } else if (section === 'section-four') {
+        this.controller.set('section', 'section-five');
       }
     }
   }
