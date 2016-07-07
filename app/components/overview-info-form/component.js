@@ -1,11 +1,13 @@
 import Ember from 'ember';
+import {translations} from '../../utils/translationStrings';
 import {validator, buildValidations} from 'ember-cp-validations';
 
 
 var range = function(start, stop) {
     var options = [];
     for (var i=start; i <= stop; i++) {
-        options.push(i);
+      var key = 'number' + i;
+        options.push(key);
     }
     return options;
 };
@@ -28,61 +30,69 @@ var generateValidators = function(questions) {
 
 const questions = {
   q1: {
-    question: 'Age',
+    question: translations.survey.sections['1'].questions['1'].label,
     type: 'select',
     scale: range(16, 100),
     value: null
   },
   q2: {
-    question: 'Gender',
+    question: translations.survey.sections['1'].questions['2'].label,
     type: 'select',
-    scale: ['Male', 'Female', 'Other', 'I\'d rather not state'],
+    scale: [translations.survey.sections['1'].questions['2'].options.male,
+      translations.survey.sections['1'].questions['2'].options.female,
+      translations.survey.sections['1'].questions['2'].options.other,
+      translations.survey.sections['1'].questions['2'].options.na
+    ],
     value: null
   },
   q3: {
-    question: 'What is your ethnicity?',
+    question: translations.survey.sections['1'].questions['3'].label,
     type: 'input',
     value: null
   },
   q4: {
-    question: 'What was your first language?',
+    question: translations.survey.sections['1'].questions['4'].label,
     type: 'input',
     value: null
   },
   q5: {
-    question: 'On a scale from 1 to 10 with 10 being people that are the most well off in society, and 1 ' +
-              'being the people who are the least well off, where would you describe your family\'s position?',
+    question:translations.survey.sections['1'].questions['5'].label,
     type: 'radio',
     scale: range(1, 10),
     labelTop: true,
     value: null
   },
   q6: {
-    question: 'Birth Country and City',
+    question: translations.survey.sections['1'].questions['6'].label,
     type: 'input',
     value: null
   },
   q7: {
-    question: 'Hometown residence',
+    question: translations.survey.sections['1'].questions['7'].label,
     type: 'select',
-    scale: ['remote rural', 'rural', 'suburban', 'urban'],
+    scale: [
+      translations.survey.sections['1'].questions['7'].options.remoteRural,
+      translations.survey.sections['1'].questions['7'].options.rural,
+      translations.survey.sections['1'].questions['7'].options.suburban,
+      translations.survey.sections['1'].questions['7'].options.urban
+    ],
     value: null
   },
   q8: {
-    question: 'Do you follow a religion?',
+    question: translations.survey.sections['1'].questions['8'].label,
     type: 'radio',
-    scale: ['Yes', 'No'],
+    scale: [translations.global.yesLabel, translations.global.noLabel],
     labelTop: true,
     value: null
   },
   q9: {
-    question: 'If so, which one do you follow?',
+    question: translations.survey.sections['1'].questions['9'].label,
     type: 'input',
     optional: true,
     value: null
   },
   q10: {
-    question: 'On a scale from 1 to 10, how religious are you?',
+    question: translations.survey.sections['1'].questions['10'].label,
     type: 'radio',
     scale: range(1, 10),
     labelTop: true,
