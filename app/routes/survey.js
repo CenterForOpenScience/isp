@@ -63,7 +63,7 @@ export default Ember.Route.extend({
          relatively_neutral: {
            cards: [],
            name: "Relatively Neutral",
-           max: 19
+           max: 20
          },
          somewhat_characteristic: {
            cards: [],
