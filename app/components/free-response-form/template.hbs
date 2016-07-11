@@ -3,17 +3,17 @@
     {{#bs-form-group}}
       <label>{{t questions.q1.label}}</label>
       {{#textarea maxlength=75 rows="5" cols="40" class="form-control" value=questions.q1.value}}{{/textarea}}
-      <p class="text-muted">You have {{diff1}} out of 75 characters remaining.</p>
+      <p class="text-muted">{{diff1}}</p>
     {{/bs-form-group}}
     {{#bs-form-group}}
       <label>{{t questions.q2.label}}</label>
       {{#textarea maxlength=75 rows="5" cols="40" class="form-control" value=questions.q2.value}}{{/textarea}}
-      <p class="text-muted">You have {{diff2}} out of 75 characters remaining.</p>
+      <p class="text-muted">{{diff2}}</p>
     {{/bs-form-group}}
     {{#bs-form-group}}
       <label>{{t questions.q3.label}}</label>
       {{#textarea maxlength=75 rows="5" cols="40" class="form-control" value=questions.q3.value}}{{/textarea}}
-      <p class="text-muted">You have {{diff3}} out of 75 characters remaining.</p>
+      <p class="text-muted">{{diff3}}</p>
     {{/bs-form-group}}
   <div class='btn btn-primary pull-right {{if (v-get this 'isInvalid') "disabled" "enabled"}}' {{action 'nextSection'}}>
       {{t 'global.continueLabel'}}

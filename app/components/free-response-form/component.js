@@ -1,5 +1,6 @@
 import Ember from 'ember';
 import {translations} from '../../utils/translationStrings';
+import { translationMacro as t } from "ember-i18n";
 import {validator, buildValidations} from 'ember-cp-validations';
 
 const MAX_LENGTH = 75;
@@ -46,15 +47,31 @@ const questions = {
 const Validations = buildValidations(generateValidators(questions));
 
 export default Ember.Component.extend(Validations, {
+  i18n: Ember.inject.service(),
   questions: questions,
   diff1: Ember.computed('questions.q1.value', function() {
-    return getRemaining(this.questions.q1.value);
+    var remaining = getRemaining(this.questions.q1.value);
+    var translationKey = 'number' + remaining.toString();
+    var message = this.get('i18n').t('survey.sections.2.questions.11.characterCount').string;
+    message = message.replace("75", this.get('i18n').t('number75').string);
+    message = message.replace("0", this.get('i18n').t(translationKey).string);
+    return message;
   }),
   diff2: Ember.computed('questions.q2.value', function() {
-    return getRemaining(this.questions.q2.value);
+    var remaining = getRemaining(this.questions.q2.value);
+    var translationKey = 'number' + remaining.toString();
+    var message = this.get('i18n').t('survey.sections.2.questions.12.characterCount').string;
+    message = message.replace("##", this.get('i18n').t('number75').string);
+    message = message.replace("0", this.get('i18n').t(translationKey).string);
+    return message;
   }),
   diff3: Ember.computed('questions.q3.value', function() {
-    return getRemaining(this.questions.q3.value);
+    var remaining = getRemaining(this.questions.q3.value);
+    var translationKey = 'number' + remaining.toString();
+    var message = this.get('i18n').t('survey.sections.2.questions.13.characterCount').string;
+    message = message.replace("##", this.get('i18n').t('number75').string);
+    message = message.replace("0", this.get('i18n').t(translationKey).string);
+    return message;
   }),
   actions: {
     nextSection() {
