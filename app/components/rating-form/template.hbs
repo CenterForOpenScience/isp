@@ -1,7 +1,7 @@
 {{#bs-form}}
   {{#each-in questions as |question parts|}}
     {{#bs-form-group}}
-      <label>{{t parts.question}}</label>
+      <label class="break-line">{{t parts.question}}</label>
       {{#if (eq parts.type 'radio')}}
         {{#each-in parts.items as |item data|}}
           {{#if data.description}}
