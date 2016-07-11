@@ -1,4 +1,5 @@
 import Ember from 'ember';
+import {translations} from '../../utils/translationStrings';
 import {validator, buildValidations} from 'ember-cp-validations';
 
 const MAX_LENGTH = 75;
@@ -29,15 +30,15 @@ function getRemaining(value) {
 
 const questions = {
   q1: {
-    label: 'What were you doing yesterday at 10am/7pm?',
+    label: translations.survey.sections['2'].questions['11'].label,
     value: null
   },
   q2: {
-    label: 'Where were you?',
+    label: translations.survey.sections['2'].questions['12'].label,
     value: null
   },
   q3: {
-    label: 'Who else was present? (If you were alone, please write "alone").',
+    label: translations.survey.sections['2'].questions['13'].label,
     value: null
   }
 };

@@ -1,30 +1,22 @@
-<p> Please describe what you were doing at 10am/7pm. Please be as specific as possible, and only write about
-    ONE THING you were doing. For example, you can write “I was shopping for groceries with my friend,” but do NOT write
-    “I was shopping for groceries and then had dinner.” If you were sleeping at that time, please say so. However,
-    please describe what you were doing right before you fell asleep, or right after you awoke.</p>
-<p> Please include: </p>
-<ol>
-    <li>What you were doing</li>
-    <li>Where you were</li>
-    <li>Who else was present</li>
-</ol>
-<p>Please type your responses in the boxes below.</p>
+<p>{{t 'survey.sections.2.instructions'}}</p>
 {{#bs-form}}
     {{#bs-form-group}}
-      <label>{{questions.q1.label}}</label>
+      <label>{{t questions.q1.label}}</label>
       {{#textarea maxlength=75 rows="5" cols="40" class="form-control" value=questions.q1.value}}{{/textarea}}
-      <p class="text-muted">You have {{diff1}} characters remaining.</p>
+      <p class="text-muted">You have {{diff1}} out of 75 characters remaining.</p>
     {{/bs-form-group}}
     {{#bs-form-group}}
-      <label>{{questions.q2.label}}</label>
+      <label>{{t questions.q2.label}}</label>
       {{#textarea maxlength=75 rows="5" cols="40" class="form-control" value=questions.q2.value}}{{/textarea}}
-      <p class="text-muted">You have {{diff2}} characters remaining.</p>
+      <p class="text-muted">You have {{diff2}} out of 75 characters remaining.</p>
     {{/bs-form-group}}
     {{#bs-form-group}}
-      <label>{{questions.q3.label}}</label>
+      <label>{{t questions.q3.label}}</label>
       {{#textarea maxlength=75 rows="5" cols="40" class="form-control" value=questions.q3.value}}{{/textarea}}
-      <p class="text-muted">You have {{diff3}} characters remaining.</p>
+      <p class="text-muted">You have {{diff3}} out of 75 characters remaining.</p>
     {{/bs-form-group}}
-  <div class='btn btn-primary pull-right {{if (v-get this 'isInvalid') "disabled" "enabled"}}' {{action 'nextSection'}}>Continue</div>
+  <div class='btn btn-primary pull-right {{if (v-get this 'isInvalid') "disabled" "enabled"}}' {{action 'nextSection'}}>
+      {{t 'global.continueLabel'}}
+  </div>
   {{progress-bar pageNumber=2}}
 {{/bs-form}}
