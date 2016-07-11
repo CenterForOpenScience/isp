@@ -64,7 +64,7 @@ export default Ember.Route.extend({
          relatively_neutral: {
            cards: [],
            name: translations.qsort.sections['2'].categories.neutral,
-           max: 19
+           max: 20
          },
          somewhat_characteristic: {
            cards: [],
