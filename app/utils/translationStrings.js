@@ -2,7 +2,6 @@ const translations = {
     "Key": "Key",
     "consent": {
         "button": {
-            "labelAccepted": "consent.button.labelAccepted",
             "labelUnaccepted": "consent.button.labelUnaccepted"
         },
         "checkboxLabel": "consent.checkboxLabel",
@@ -716,6 +715,7 @@ const translations = {
     "number0": "number0",
     "number1": "number1",
     "number10": "number10",
+    "number100": "number100",
     "number11": "number11",
     "number12": "number12",
     "number13": "number13",
@@ -804,6 +804,15 @@ const translations = {
     "number89": "number89",
     "number9": "number9",
     "number90": "number90",
+    "number91": "number91",
+    "number92": "number92",
+    "number93": "number93",
+    "number94": "number94",
+    "number95": "number95",
+    "number96": "number96",
+    "number97": "number97",
+    "number98": "number98",
+    "number99": "number99",
     "qsort": {
         "rsq": {
             "item": {
@@ -906,7 +915,6 @@ const translations = {
                     "neutral": "qsort.sections.1.categories.neutral",
                     "uncharacteristic": "qsort.sections.1.categories.uncharacteristic"
                 },
-                "continueButtonLabel": "qsort.sections.1.continueButtonLabel",
                 "instructions": "qsort.sections.1.instructions",
                 "itemsLeft": "qsort.sections.1.itemsLeft"
             },
@@ -922,7 +930,6 @@ const translations = {
                     "somewhatChar": "qsort.sections.2.categories.somewhatChar",
                     "somewhatUnchar": "qsort.sections.2.categories.somewhatUnchar"
                 },
-                "continueButtonLabel": "qsort.sections.2.continueButtonLabel",
                 "instructions": "qsort.sections.2.instructions"
             }
         }
@@ -930,7 +937,6 @@ const translations = {
     "survey": {
         "sections": {
             "1": {
-                "continueButtonLabel": "survey.sections.1.continueButtonLabel",
                 "instructions": "survey.sections.1.instructions",
                 "questions": {
                     "1": {
@@ -944,8 +950,8 @@ const translations = {
                         "options": {
                             "female": "survey.sections.1.questions.2.options.female",
                             "male": "survey.sections.1.questions.2.options.male",
-                            "other": "survey.sections.1.questions.2.options.other",
-                            "na": "survey.sections.1.questions.2.options.na"
+                            "na": "survey.sections.1.questions.2.options.na",
+                            "other": "survey.sections.1.questions.2.options.other"
                         },
                         "selectUnselected": "survey.sections.1.questions.2.selectUnselected"
                     },
@@ -982,7 +988,6 @@ const translations = {
                 }
             },
             "2": {
-                "continueButtonLabel": "survey.sections.2.continueButtonLabel",
                 "instructions": "survey.sections.2.instructions",
                 "questions": {
                     "11": {

@@ -2,7 +2,6 @@ const translations = {
     "Key": "EN-US",
     "consent": {
         "button": {
-            "labelAccepted": "Continue",
             "labelUnaccepted": "Please accept terms to continue"
         },
         "checkboxLabel": "I have read and understand the above statements and agree to participate.",
@@ -46,7 +45,7 @@ const translations = {
         "char": {
             "extremelyChar": "Extremely Characteristic",
             "extremelyUnchar": "Extremely Uncharacteristic",
-            "fairlyChar": "Fairly Characterstic",
+            "fairlyChar": "Fairly Characteristic",
             "fairlyUnchar": "Fairly Uncharacteristic",
             "neutral": "Neither Characteristic nor Uncharacteristic",
             "quiteChar": "Quite Characteristic",
@@ -320,7 +319,7 @@ const translations = {
                 "options": {
                     "extremelyChar": "Extremely Characteristic",
                     "extremelyUnchar": "Extremely Uncharacteristic",
-                    "fairlyChar": "Fairly Characterstic",
+                    "fairlyChar": "Fairly Characteristic",
                     "fairlyUnchar": "Fairly Uncharacteristic",
                     "neutral": "Neither Characteristic nor Uncharacteristic",
                     "quiteChar": "Quite Characteristic",
@@ -716,6 +715,7 @@ const translations = {
     "number0": "0",
     "number1": "1",
     "number10": "10",
+    "number100": "100",
     "number11": "11",
     "number12": "12",
     "number13": "13",
@@ -804,6 +804,15 @@ const translations = {
     "number89": "89",
     "number9": "9",
     "number90": "90",
+    "number91": "91",
+    "number92": "92",
+    "number93": "93",
+    "number94": "94",
+    "number95": "95",
+    "number96": "96",
+    "number97": "97",
+    "number98": "98",
+    "number99": "99",
     "qsort": {
         "rsq": {
             "item": {
@@ -906,7 +915,6 @@ const translations = {
                     "neutral": "Neutral",
                     "uncharacteristic": "Uncharacteristic"
                 },
-                "continueButtonLabel": "Continue",
                 "instructions": "Describe the situation.  Please use these items to describe the situation you experienced yesterday. There are 90 items, which will appear one at a time. Begin by placing each item into one of three boxes. Use the \u201cCharacteristic\u201d box on the right for items that accurately describe the situation; use the \u201cUncharacteristic\u201d box on the left for items that are undescriptive of the situation, and use the \u201cNeutral\u201d box for items that are irrelevant, unclear, or about which you are uncertain. When you are finished, press \u201cContinue.\u201d",
                 "itemsLeft": "items left"
             },
@@ -914,7 +922,7 @@ const translations = {
                 "categories": {
                     "extremelyChar": "Extremely Characteristic",
                     "extremelyUnchar": "Extremely Uncharacteristic",
-                    "fairlyChar": "Fairly Characterstic",
+                    "fairlyChar": "Fairly Characteristic",
                     "fairlyUnchar": "Fairly Uncharacteristic",
                     "neutral": "Neither Characteristic nor Uncharacteristic",
                     "quiteChar": "Quite Characteristic",
@@ -922,7 +930,6 @@ const translations = {
                     "somewhatChar": "Somewhat Characteristic",
                     "somewhatUnchar": "Somewhat Uncharacteristic"
                 },
-                "continueButtonLabel": "Continue",
                 "instructions": "Describe the situation. Now, from the three boxes, please place the items into nine boxes. Placing an item in the highest (right-hand) category indicates that the item is \u201cextremely characteristic\u201d of the situation. Only three cards can go into this category, so they should be the best descriptors. Putting an item in the middle categories means that the item is irrelevant to the situation, or that you are unsure of where the item belongs. Putting an item in the lowest (right-hand) category implies that the item is \u201cextremely uncharacteristic\u201d of the situation. Again, only three cards can go into this category so they should be the items that are the very LEAST characteristic. A fixed number of items goes into each box. You can drag and drop items from one box to another, but if you leave too many items in any one box, the heading will turn red. The heading will turn green when the right number of items is in the box."
             }
         }
@@ -930,7 +937,6 @@ const translations = {
     "survey": {
         "sections": {
             "1": {
-                "continueButtonLabel": "Continue",
                 "instructions": "Welcome! We are interested in the situations people experience and what they do in them. You will describe a situation you experienced recently and what you did in that situation. You will also be asked some questions about your attitudes and values. Based on these responses, when you have completed the study, you will receive individualized information about your personality that we hope you will find interesting.\n\nTo begin, please answer a few simple questions about yourself.",
                 "questions": {
                     "1": {
@@ -944,8 +950,8 @@ const translations = {
                         "options": {
                             "female": "Female",
                             "male": "Male",
-                            "other": "Other",
-                            "na": "I would rather not state"
+                            "na": "I would rather not state",
+                            "other": "Other"
                         },
                         "selectUnselected": "Please select"
                     },
@@ -982,7 +988,6 @@ const translations = {
                 }
             },
             "2": {
-                "continueButtonLabel": "Continue",
                 "instructions": "Please describe what you were doing yesterday at [10 am/7 pm (This will be alternated among participants; odd numbered participants will describe 10 am; even numbered participants will be describe 7 pm)\n\nPlease be as specific as possible, and only write about ONE THING you were doing. For example, you can write \u201cI was shopping for groceries with my friend,\u201d but do NOT write \u201cI was shopping for groceries and then had dinner.\u201d If you were sleeping at that time, please say so. However, please also describe what you were doing right before you fell asleep, or right after you woke up.\n\nPlease describe:\n\n1. What you were doing\n2. Where you were\n3. Who else was present\n\nPlease type your responses in the boxes below.",
                 "questions": {
                     "11": {
