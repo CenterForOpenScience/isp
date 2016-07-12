@@ -1,5 +1,5 @@
 {{#each languages as |lang|}}
-  <button class="btn btn-default" onclick={{action 'pickLanguage' lang.name}}>
+  <button class="btn btn-default" onclick={{action 'pickLanguage' lang.name lang.code}}>
     <span class="flag-icon flag-icon-{{lower lang.countryCode}} flag-icon-squared"></span>
     {{lang.name}}
   </button>
