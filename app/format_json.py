@@ -12,7 +12,7 @@ def main():
             keys = row[0].split('.')
             merge(data, format_dict(keys, row[1]))
     f = open('en-us.json', 'w')
-    f.write(json.dumps(data, indent=4))
+    f.write(json.dumps(data, indent=4, sort_keys=True))
 
 
 def format_dict(keys, value):
