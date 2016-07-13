@@ -1,15 +1,17 @@
 <div class="well" style="margin-top: 20px">
-  <h3>Consent to Participate in Research</h3>
-  <p>Welcome to our study.</p>
+  <h3>{{t 'consent.title'}}</h3>
+  <p>{{t 'consent.firstSection'}}</p>
+  <p>{{t 'consent.secondSection'}}</p>
+  <p>{{t 'consent.thirdSection'}}</p>
   <div class="form">
     <div class="form-group">
       <div class="form-input">
         {{input type="checkbox" checked=termsAccepted}}
-        <label>I have read and understand the above statements and agree to participate.</label>
+        <label>{{t 'consent.checkboxLabel'}}</label>
       </div>
     </div>
     <div class="form-group">
-      <button {{action 'submit'}} class="btn btn-primary {{if termsAccepted 'enabled' 'disabled'}}">Please accept terms to continue</button>
+      <button {{action 'submit'}} class="btn btn-primary {{if termsAccepted 'enabled' 'disabled'}}">{{t 'consent.button.labelUnaccepted'}}</button>
     </div>
   </div>
 </div>
