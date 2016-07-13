@@ -28,14 +28,14 @@ var generateValidators = function(questions) {
   return validators;
 };
 
-const questions = {
-  q1: {
+const questions = [
+  {
     question: translations.survey.sections['1'].questions['1'].label,
     type: 'select',
     scale: range(16, 100),
     value: null
   },
-  q2: {
+  {
     question: translations.survey.sections['1'].questions['2'].label,
     type: 'select',
     scale: [translations.survey.sections['1'].questions['2'].options.male,
@@ -45,29 +45,29 @@ const questions = {
     ],
     value: null
   },
-  q3: {
+  {
     question: translations.survey.sections['1'].questions['3'].label,
     type: 'input',
     value: null
   },
-  q4: {
+  {
     question: translations.survey.sections['1'].questions['4'].label,
     type: 'input',
     value: null
   },
-  q5: {
+  {
     question:translations.survey.sections['1'].questions['5'].label,
     type: 'radio',
     scale: range(1, 10),
     labelTop: true,
     value: null
   },
-  q6: {
+  {
     question: translations.survey.sections['1'].questions['6'].label,
     type: 'input',
     value: null
   },
-  q7: {
+  {
     question: translations.survey.sections['1'].questions['7'].label,
     type: 'select',
     scale: [
@@ -78,27 +78,26 @@ const questions = {
     ],
     value: null
   },
-  q8: {
+  {
     question: translations.survey.sections['1'].questions['8'].label,
     type: 'radio',
     scale: [translations.global.yesLabel, translations.global.noLabel],
     labelTop: true,
     value: null
   },
-  q9: {
+  {
     question: translations.survey.sections['1'].questions['9'].label,
     type: 'input',
     optional: true,
     value: null
   },
-  q10: {
+  {
     question: translations.survey.sections['1'].questions['10'].label,
     type: 'radio',
     scale: range(1, 10),
     labelTop: true,
     value: null
-  }
-};
+  }];
 
 const Validations = buildValidations(generateValidators(questions));
 

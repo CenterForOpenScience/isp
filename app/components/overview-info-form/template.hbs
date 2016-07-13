@@ -1,17 +1,17 @@
 <p class="break-line">{{t 'survey.sections.1.instructions'}}</p>
 {{#bs-form}}
-  {{#each-in questions as |question parts|}}
+  {{#each questions as |question|}}
     {{#bs-form-group}}
-      <label>{{t parts.question}}</label>
-      {{#if (eq parts.type 'radio')}}
-        {{radio-group options=parts.scale labelTop=parts.labelTop value=parts.value}}
-      {{else if (eq parts.type 'select')}}
-        {{select-input options=parts.scale value=parts.value}}
-      {{else if (eq parts.type 'input')}}
-        {{#input class="form-control auto-width" value=parts.value}}{{/input}}
+      <label>{{t question.question}}</label>
+      {{#if (eq question.type 'radio')}}
+        {{radio-group options=question.scale labelTop=question.labelTop value=question.value}}
+      {{else if (eq question.type 'select')}}
+        {{select-input options=question.scale value=question.value}}
+      {{else if (eq question.type 'input')}}
+        {{#input class="form-control auto-width" value=question.value}}{{/input}}
       {{/if}}
     {{/bs-form-group}}
-  {{/each-in}}
+  {{/each}}
   <div class='btn btn-primary pull-right {{if (v-get this 'isInvalid') "disabled"}}' {{action 'nextSection'}}>{{t 'global.continueLabel'}}</div>
   {{progress-bar pageNumber=1}}
 {{/bs-form}}
