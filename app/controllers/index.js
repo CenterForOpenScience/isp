@@ -8,6 +8,7 @@ export default Ember.Controller.extend({
     actions: {
 	submit ( ) {
 	    console.log(this.getProperties('studyId', 'participantId'));
+      this.transitionToRoute('consent');
 	},
 	toggleLanguageSelector() {
 	    this.toggleProperty('showLanguageSelector');

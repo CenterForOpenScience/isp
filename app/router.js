@@ -10,6 +10,7 @@ Router.map(function() {
   this.route('faqs');
   this.route('contact');
   this.route('survey');
+  this.route('consent');
 });
 
 export default Router;
