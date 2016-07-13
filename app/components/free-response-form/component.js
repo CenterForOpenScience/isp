@@ -51,7 +51,7 @@ export default Ember.Component.extend(Validations, {
   questions: questions,
   diff1: Ember.computed('questions.q1.value', function() {
     var remaining = getRemaining(this.questions.q1.value);
-    var translationKey = 'number' + remaining.toString();
+    var translationKey = 'number' + remaining;
     var message = this.get('i18n').t('survey.sections.2.questions.11.characterCount').string;
     message = message.replace("75", this.get('i18n').t('number75').string);
     message = message.replace("0", this.get('i18n').t(translationKey).string);
@@ -59,7 +59,7 @@ export default Ember.Component.extend(Validations, {
   }),
   diff2: Ember.computed('questions.q2.value', function() {
     var remaining = getRemaining(this.questions.q2.value);
-    var translationKey = 'number' + remaining.toString();
+    var translationKey = 'number' + remaining;
     var message = this.get('i18n').t('survey.sections.2.questions.12.characterCount').string;
     message = message.replace("##", this.get('i18n').t('number75').string);
     message = message.replace("0", this.get('i18n').t(translationKey).string);
@@ -67,7 +67,7 @@ export default Ember.Component.extend(Validations, {
   }),
   diff3: Ember.computed('questions.q3.value', function() {
     var remaining = getRemaining(this.questions.q3.value);
-    var translationKey = 'number' + remaining.toString();
+    var translationKey = 'number' + remaining;
     var message = this.get('i18n').t('survey.sections.2.questions.13.characterCount').string;
     message = message.replace("##", this.get('i18n').t('number75').string);
     message = message.replace("0", this.get('i18n').t(translationKey).string);

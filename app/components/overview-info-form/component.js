@@ -7,7 +7,7 @@ var range = function(start, stop) {
     var options = [];
     for (var i=start; i <= stop; i++) {
       var key = 'number' + i;
-        options.push(key);
+      options.push(key);
     }
     return options;
 };

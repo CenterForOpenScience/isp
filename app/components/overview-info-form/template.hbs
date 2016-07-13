@@ -12,6 +12,6 @@
       {{/if}}
     {{/bs-form-group}}
   {{/each-in}}
-  <div class='btn btn-primary pull-right {{if (v-get this 'isInvalid') "disabled" "enabled"}}' {{action 'nextSection'}}>{{t 'global.continueLabel'}}</div>
+  <div class='btn btn-primary pull-right {{if (v-get this 'isInvalid') "disabled"}}' {{action 'nextSection'}}>{{t 'global.continueLabel'}}</div>
   {{progress-bar pageNumber=1}}
 {{/bs-form}}
