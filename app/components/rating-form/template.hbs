@@ -13,7 +13,7 @@
         {{select-input options=question.scale value=question.items.item1.value}}
       {{else if (eq question.type 'radio-input')}}
           {{radio-group options=question.scale value=question.items.radio.value}}
-          {{#if (eq question.items.radio.value 'Yes')}}
+          {{#if (eq question.items.radio.value 'global.yesLabel')}}
             <p>{{t question.items.input.description}}</p>
             {{#input value=question.input.value}}{{/input}}
             <br>
