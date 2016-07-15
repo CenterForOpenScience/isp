@@ -4,25 +4,25 @@ import {validator, buildValidations} from 'ember-cp-validations';
 
 
 var range = function(start, stop) {
-    var options = [];
-    for (var i=start; i <= stop; i++) {
-      var key = 'number' + i;
-      options.push(key);
-    }
-    return options;
+  var options = [];
+  for (var i=start; i <= stop; i++) {
+    var key = 'number' + i;
+    options.push(key);
+  }
+  return options;
 };
 
 var generateValidators = function(questions) {
   var validators = {};
   var presence = validator('presence', {
-      presence:true,
-      message: 'This field is required'
+    presence:true,
+    message: 'This field is required'
   });
   for (var question in questions) {
-      var isOptional = 'optional' in questions[question] && questions[question]['optional'];
-      if (!isOptional) {
-        var key = 'questions.' + question + '.value';
-        validators[key] = presence;
+    var isOptional = 'optional' in questions[question] && questions[question]['optional'];
+    if (!isOptional) {
+      var key = 'questions.' + question + '.value';
+      validators[key] = presence;
     }
   }
   return validators;
