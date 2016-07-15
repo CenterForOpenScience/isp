@@ -1,22 +1,17 @@
-<p>
-    Welcome! We are interested in the situations people experience and what they do in them. You will describe a
-    situation you experienced recently and what you did in that situation. You will also be asked some questions about
-    your attitudes and values. Based on these responses, when you have completed the study, you will receive
-    individualized information about your personality that we hope you will find interesting.
-</p>
+<p class="break-line">{{t 'survey.sections.1.instructions'}}</p>
 {{#bs-form}}
-  {{#each-in questions as |question parts|}}
+  {{#each questions as |question|}}
     {{#bs-form-group}}
-      <label>{{parts.question}}</label>
-      {{#if (eq parts.type 'radio')}}
-        {{radio-group options=parts.scale labelTop=parts.labelTop value=parts.value}}
-      {{else if (eq parts.type 'select')}}
-        {{select-input options=parts.scale value=parts.value}}
-      {{else if (eq parts.type 'input')}}
-        {{#input class="form-control auto-width" value=parts.value}}{{/input}}
+      <label>{{t question.question}}</label>
+      {{#if (eq question.type 'radio')}}
+        {{radio-group options=question.scale labelTop=question.labelTop value=question.value}}
+      {{else if (eq question.type 'select')}}
+        {{select-input options=question.scale value=question.value}}
+      {{else if (eq question.type 'input')}}
+        {{#input class="form-control auto-width" value=question.value}}{{/input}}
       {{/if}}
     {{/bs-form-group}}
-  {{/each-in}}
-  <div class='btn btn-primary pull-right {{if (v-get this 'isInvalid') "disabled" "enabled"}}' {{action 'nextSection'}}>Continue</div>
+  {{/each}}
+  <div class='btn btn-primary pull-right {{if (v-get this 'isInvalid') "disabled"}}' {{action 'nextSection'}}>{{t 'global.continueLabel'}}</div>
   {{progress-bar pageNumber=1}}
 {{/bs-form}}

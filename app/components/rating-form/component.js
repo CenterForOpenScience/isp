@@ -1,5 +1,5 @@
 import Ember from 'ember';
-import {translations} from '../../utils/translations';
+import {translations} from '../../utils/translationStrings';
 import {validator, buildValidations} from 'ember-cp-validations';
 
 
@@ -38,27 +38,36 @@ var generateValidators = function(questions) {
 };
 
 var generateSchema = function(question, type, items, scale, options) {
-  var ret = {
+  var schema = {
     question: question,
     type: type,
     scale: scale,
-    items: {}
+    items: []
   };
   for (var item in items) {
-    ret.items[item] = {
+    var ret = {
       description: items[item]['label'],
+      order: parseInt(item),
       value: null
     };
-    for (var option in options) {
-      ret.items[item][option] = options[option];
-    }
+    $.extend(true, ret, options);
+    schema['items'].push(ret);
   }
-  return ret;
+  schema.items.sort(function(a, b) {
+    if (a.order > b.order) {
+      return 1;
+    }
+    if (a.order < b.order) {
+      return -1;
+    }
+    return 0;
+  });
+  return schema;
 };
 
 
-var questions = {
-  q1: generateSchema(
+var questions = [
+  generateSchema(
     translations.measures.questions['1'].label,
     'select',
     {'item1': ''},
@@ -74,7 +83,7 @@ var questions = {
       translations.measures.questions['1'].options.extremelyPos
     ]
   ),
-  q2: generateSchema(
+  generateSchema(
     translations.measures.questions['2'].label,
     'radio',
     {'item1': ''},
@@ -100,7 +109,7 @@ var questions = {
       ]
     }
   ),
-  q3: generateSchema(
+  generateSchema(
     translations.measures.questions['3'].label,
     'radio',
     {'item1': ''},
@@ -118,7 +127,7 @@ var questions = {
       ]
     }
   ),
-  q4: generateSchema(
+  generateSchema(
     translations.measures.questions['4'].label,
     'radio',
     translations.measures.questions['4'].items,
@@ -135,7 +144,7 @@ var questions = {
     ],
     {labelTop: true}
   ),
-  q5: generateSchema(
+  generateSchema(
     translations.measures.questions['5'].label,
     'radio',
     translations.measures.questions['5'].items,
@@ -148,12 +157,12 @@ var questions = {
     ],
     {labelTop: true}
   ),
-  q6: {
+  {
     question: translations.measures.questions['6'].label,
     type: 'radio',
     scale: SEVEN_POINT_SCALE,
-    items: {
-      part1: {
+    items: [
+      {
         description: translations.measures.questions['6'].items['1'].label,
         value:null,
         labelTop: false,
@@ -166,21 +175,21 @@ var questions = {
             label: translations.measures.questions['6'].items['1'].options.veryHappy
           }]
       },
-      part2: {
+      {
         description: translations.measures.questions['6'].items['2'].label,
         scale: SEVEN_POINT_SCALE,
         value:null,
         labelTop: false,
         labels: [{
             rating: 0,
-            label: translations.measures.questions['6'].items['2'].options.moreHappy
+            label: translations.measures.questions['6'].items['2'].options.lessHappy
           },
           {
             rating: 7,
-            label: translations.measures.questions['6'].items['2'].options.lessHappy
+            label: translations.measures.questions['6'].items['2'].options.moreHappy
           }]
       },
-      part3: {
+      {
         description: translations.measures.questions['6'].items['3'].label,
         scale: SEVEN_POINT_SCALE,
         value:null,
@@ -194,7 +203,7 @@ var questions = {
             label: translations.measures.questions['6'].items['4'].options.aGreatDeal
           }]
       },
-      part4: {
+      {
         description: translations.measures.questions['6'].items['4'].label,
         scale: SEVEN_POINT_SCALE,
         value:null,
@@ -207,10 +216,9 @@ var questions = {
             rating: 7,
             label: translations.measures.questions['6'].items['4'].options.aGreatDeal
           }]
-      }
-    }
+      }]
   },
-  q7: generateSchema(
+  generateSchema(
     translations.measures.questions['7'].label,
     'radio',
     translations.measures.questions['7'].items,
@@ -223,7 +231,7 @@ var questions = {
     ],
     {labelTop: true}
   ),
-  q8: generateSchema(
+  generateSchema(
     translations.measures.questions['8'].label,
     'radio',
     translations.measures.questions['8'].items,
@@ -236,7 +244,7 @@ var questions = {
     ],
     {labelTop: true}
   ),
-  q9: generateSchema(
+  generateSchema(
     translations.measures.questions['9'].label,
     'radio',
     translations.measures.questions['9'].items,
@@ -265,7 +273,7 @@ var questions = {
         }]
     }
   ),
-  q10: generateSchema(
+  generateSchema(
     translations.measures.questions['10'].label,
     'radio',
     translations.measures.questions['10'].items,
@@ -278,7 +286,7 @@ var questions = {
     ],
     {labelTop: true}
   ),
-  q11: {
+  {
     question: translations.measures.questions['11'].label,
     type: 'radio-input',
     scale: [translations.global.yesLabel, translations.global.noLabel],
@@ -293,7 +301,7 @@ var questions = {
       }
     }
   },
-  q13: generateSchema(
+  generateSchema(
     translations.measures.questions['13'].label,
     'radio',
     translations.measures.questions['13'].items,
@@ -306,7 +314,7 @@ var questions = {
     ],
     {labelTop: true}
   ),
-  q14: generateSchema(
+  generateSchema(
     translations.measures.questions['14'].label,
     'radio',
     translations.measures.questions['14'].items,
@@ -319,7 +327,7 @@ var questions = {
     ],
     {labelTop: true}
   ),
-  q15: generateSchema(
+  generateSchema(
     translations.measures.questions['15'].label,
     'radio',
     translations.measures.questions['15'].items,
@@ -332,7 +340,7 @@ var questions = {
     ],
     {labelTop: true}
   ),
-  q16: generateSchema(
+  generateSchema(
     translations.measures.questions['16'].label,
     'radio',
     translations.measures.questions['16'].items,
@@ -344,7 +352,7 @@ var questions = {
     ],
     {labelTop: true}
   ),
-  q17: {
+  {
     question: translations.measures.questions['17'].label,
     type: 'textarea',
     items: {
@@ -352,8 +360,7 @@ var questions = {
         value:null
       }
     }
-  }
-};
+  }];
 
 const Validations = buildValidations(generateValidators(questions));
 

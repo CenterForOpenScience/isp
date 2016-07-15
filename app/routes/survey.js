@@ -1,5 +1,5 @@
 import Ember from 'ember';
-import {translations} from '../utils/translations';
+import {translations} from '../utils/translationStrings';
 
 
 var formatCards = function(items) {
@@ -28,6 +28,7 @@ var shuffle = function(array) {
 };
 
 export default Ember.Route.extend({
+  i18n: Ember.inject.service(),
   model() {
    return {
      cards: shuffle(formatCards(translations.qsort.rsq.item)),
@@ -40,51 +41,51 @@ export default Ember.Route.extend({
        group1: {
          extremely_uncharacteristic: {
            cards: [],
-           name: "Extremely Uncharacteristic",
+           name: translations.qsort.sections['2'].categories.extremelyUnchar,
            max: 3
          },
          quite_uncharacteristic: {
            cards: [],
-           name: "Quite Uncharacteristic",
+           name: translations.qsort.sections['2'].categories.quiteUnchar,
            max: 6
          },
          fairly_uncharacteristic: {
            cards: [],
-           name: "Fairly Uncharacteristic",
+           name: translations.qsort.sections['2'].categories.fairlyUnchar,
            max: 11
          }
        },
        group2: {
          somewhat_uncharacteristic: {
            cards: [],
-           name: "Somewhat Uncharacteristic",
+           name: translations.qsort.sections['2'].categories.somewhatUnchar,
            max: 15
          },
          relatively_neutral: {
            cards: [],
-           name: "Relatively Neutral",
+           name: translations.qsort.sections['2'].categories.neutral,
            max: 20
          },
          somewhat_characteristic: {
            cards: [],
-           name: "Somewhat Characteristic",
+           name: translations.qsort.sections['2'].categories.somewhatChar,
            max: 15
          }
        },
        group3: {
          fairly_characteristic: {
            cards: [],
-           name: "Fairly Characteristic",
+           name: translations.qsort.sections['2'].categories.fairlyChar,
            max: 11
          },
          quite_characteristic: {
            cards: [],
-           name: "Quite Characteristic",
+           name: translations.qsort.sections['2'].categories.quiteChar,
            max: 6
          },
          extremely_characteristic: {
            cards: [],
-           name: "Extremely Characteristic",
+           name: translations.qsort.sections['2'].categories.extremelyChar,
            max: 3
          }
        }
