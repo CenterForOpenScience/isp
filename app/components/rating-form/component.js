@@ -47,11 +47,21 @@ var generateSchema = function(question, type, items, scale, options) {
   for (var item in items) {
     var ret = {
       description: items[item]['label'],
+      order: parseInt(item),
       value: null
     };
     $.extend(true, ret, options);
     schema['items'].push(ret);
   }
+  schema.items.sort(function(a, b) {
+    if (a.order > b.order) {
+      return 1;
+    }
+    if (a.order < b.order) {
+      return -1;
+    }
+    return 0;
+  });
   return schema;
 };
 
@@ -172,11 +182,11 @@ var questions = [
         labelTop: false,
         labels: [{
             rating: 0,
-            label: translations.measures.questions['6'].items['2'].options.moreHappy
+            label: translations.measures.questions['6'].items['2'].options.lessHappy
           },
           {
             rating: 7,
-            label: translations.measures.questions['6'].items['2'].options.lessHappy
+            label: translations.measures.questions['6'].items['2'].options.moreHappy
           }]
       },
       {
