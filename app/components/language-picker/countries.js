@@ -1,4 +1,4 @@
-[{
+export default [{
     "name": "Argentina",
     "code": "AR",
     "languages": ["Argentinian Spanish"]
@@ -441,3 +441,4 @@ const countries = [{
     "code": "US",
     "languages": ["English"]
 }]
+;
