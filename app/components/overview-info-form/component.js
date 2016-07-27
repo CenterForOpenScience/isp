@@ -18,13 +18,14 @@ var generateValidators = function(questions) {
     presence:true,
     message: 'This field is required'
   });
-  for (var question in questions) {
-    var isOptional = 'optional' in questions[question] && questions[question]['optional'];
+  for (var q=0; q < questions.length; q++) {
+    var isOptional = 'optional' in questions[q] && questions[q]['optional'];
     if (!isOptional) {
-      var key = 'questions.' + question + '.value';
+      var key = 'questions.' + q + '.value';
       validators[key] = presence;
     }
   }
+
   return validators;
 };
 
