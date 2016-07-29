@@ -7,7 +7,7 @@
           {{#if item.description}}
             <p>{{t item.description}}</p>
           {{/if}}
-          {{radio-group options=question.scale labelTop=item.labelTop labels=item.labels value=item.value}}
+          {{radio-group options=question.scale labelTop=item.labelTop labels=item.labels formatLabel=item.formatLabel value=item.value}}
         {{/each}}
       {{else if (eq question.type 'select')}}
         {{select-input options=question.scale value=question.items.item1.value}}
