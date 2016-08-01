@@ -14,7 +14,7 @@ export default [
         "languages": [
             {
                 "code": "de-AT",
-                "name": "Deutsch"
+                "name": "Deutsch (AT)"
             }
         ],
         "name": "Austria"
@@ -24,7 +24,7 @@ export default [
         "languages": [
             {
                 "code": "nl-BE",
-                "name": "Dutch"
+                "name": "Dutch (BE)"
             }
         ],
         "name": "Belgium"
@@ -34,7 +34,7 @@ export default [
         "languages": [
             {
                 "code": "pt-BR",
-                "name": "Portuguese"
+                "name": "Portuguese (BR)"
             }
         ],
         "name": "Brazil"
@@ -44,11 +44,11 @@ export default [
         "languages": [
             {
                 "code": "en-CA",
-                "name": "English"
+                "name": "English (CA)"
             },
             {
                 "code": "fr-CA",
-                "name": "French"
+                "name": "French (CA)"
             }
         ],
         "name": "Canada"
@@ -58,7 +58,7 @@ export default [
         "languages": [
             {
                 "code": "es-CL",
-                "name": "Spanish"
+                "name": "Spanish (CL)"
             }
         ],
         "name": "Chile"
@@ -138,7 +138,7 @@ export default [
         "languages": [
             {
                 "code": "fr-FR",
-                "name": "French"
+                "name": "French (FR)"
             }
         ],
         "name": "France"
@@ -198,7 +198,7 @@ export default [
         "languages": [
             {
                 "code": "en-IN",
-                "name": "English"
+                "name": "English (IN)"
             },
             {
                 "code": "mr-IN",
@@ -246,7 +246,7 @@ export default [
         "languages": [
             {
                 "code": "ar-JO",
-                "name": "Arabic"
+                "name": "Arabic (JO)"
             }
         ],
         "name": "Jordan"
@@ -296,7 +296,7 @@ export default [
         "languages": [
             {
                 "code": "es-mx",
-                "name": "Spanish"
+                "name": "Spanish (MX)"
             }
         ],
         "name": "Mexico"
@@ -306,7 +306,7 @@ export default [
         "languages": [
             {
                 "code": "nl-NL",
-                "name": "Dutch"
+                "name": "Dutch (NL)"
             }
         ],
         "name": "Netherlands"
@@ -346,7 +346,7 @@ export default [
         "languages": [
             {
                 "code": "ar-PS",
-                "name": "Arabic"
+                "name": "Arabic (PS)"
             }
         ],
         "name": "Palestine"
@@ -366,7 +366,7 @@ export default [
         "languages": [
             {
                 "code": "en-PH",
-                "name": "English"
+                "name": "English (PH)"
             }
         ],
         "name": "Philippines"
@@ -386,7 +386,7 @@ export default [
         "languages": [
             {
                 "code": "pt-PT",
-                "name": "Portugese"
+                "name": "Portugese (PT)"
             }
         ],
         "name": "Portugal"
@@ -406,7 +406,7 @@ export default [
         "languages": [
             {
                 "code": "ru-RU",
-                "name": "Russian"
+                "name": "Russian (RU)"
             }
         ],
         "name": "Russia"
@@ -416,7 +416,7 @@ export default [
         "languages": [
             {
                 "code": "fr-SN",
-                "name": "French"
+                "name": "French (SN)"
             }
         ],
         "name": "Senegal"
@@ -436,7 +436,7 @@ export default [
         "languages": [
             {
                 "code": "en-SG",
-                "name": "English"
+                "name": "English (SG)"
             }
         ],
         "name": "Singapore"
@@ -480,7 +480,7 @@ export default [
             },
             {
                 "code": "es-es",
-                "name": "Spanish"
+                "name": "Spanish (ES)"
             }
         ],
         "name": "Spain"
@@ -500,11 +500,11 @@ export default [
         "languages": [
             {
                 "code": "fr-CH",
-                "name": "French"
+                "name": "French (CH)"
             },
             {
                 "code": "de-CH",
-                "name": "Deutsch"
+                "name": "Deutsch (CH)"
             }
         ],
         "name": "Switzerland"
@@ -524,7 +524,7 @@ export default [
         "languages": [
             {
                 "code": "en-UG",
-                "name": "English"
+                "name": "English (UG)"
             },
             {
                 "code": "lg-UG",
@@ -546,7 +546,7 @@ export default [
             },
             {
                 "code": "ru-UA",
-                "name": "Russian"
+                "name": "Russian (UA)"
             }
         ],
         "name": "Ukraine"
@@ -556,11 +556,11 @@ export default [
         "languages": [
             {
                 "code": "en-AE",
-                "name": "English"
+                "name": "English (UAE)"
             },
             {
                 "code": "ar-AE",
-                "name": "Arabic"
+                "name": "Arabic (UAE)"
             }
         ],
         "name": "United Arab Emirates"
@@ -570,7 +570,7 @@ export default [
         "languages": [
             {
                 "code": "en-GB",
-                "name": "English"
+                "name": "English (GB)"
             }
         ],
         "name": "United Kingdom"
@@ -580,7 +580,7 @@ export default [
         "languages": [
             {
                 "code": "en-US",
-                "name": "English"
+                "name": "English (US)"
             }
         ],
         "name": "USA"
