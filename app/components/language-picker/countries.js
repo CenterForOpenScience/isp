@@ -356,7 +356,7 @@ export default [
         "languages": [
             {
                 "code": "es-PE",
-                "name": "Español"
+                "name": "Español (PE)"
             }
         ],
         "name": "Peru"
