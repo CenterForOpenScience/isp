@@ -142,7 +142,10 @@ var questions = [
       translations.measures.questions['4'].options.quiteChar,
       translations.measures.questions['4'].options.extremelyChar
     ],
-    {labelTop: true}
+    {
+      labelTop: true,
+      formatLabel: true
+    }
   ),
   generateSchema(
     translations.measures.questions['5'].label,
