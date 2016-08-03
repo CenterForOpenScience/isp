@@ -6,18 +6,17 @@ export default Ember.Controller.extend({
     showLanguageSelector: true,
     selectedLanguage: null,
     actions: {
-	submit ( ) {
-	    console.log(this.getProperties('studyId', 'participantId'));
-      this.transitionToRoute('consent');
-	},
-	toggleLanguageSelector() {
-	    this.toggleProperty('showLanguageSelector');
-	},
-	selectLanguage(language) {
-	    this.setProperties({
-		showLanguageSelector: false,
-		selectedLanguage: language
-	    });
-	}
+	    submit ( ) {
+        this.transitionToRoute('consent');
+	    },
+	    toggleLanguageSelector() {
+        this.toggleProperty('showLanguageSelector');
+	    },
+	    selectLanguage(language) {
+        this.setProperties({
+		      showLanguageSelector: false,
+          selectedLanguage: language
+        });
+	    }
     }
 });
