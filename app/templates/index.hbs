@@ -4,6 +4,12 @@
   </h3>
 {{/if}}
 
+{{#if invalidAuth}}
+    {{#bs-modal title="An error occured when logging in." closedAction=(action 'toggleInvalidAuth')}}
+        {{#bs-modal-body}}Invalid username or password.{{/bs-modal-body}}
+    {{/bs-modal}}
+{{/if}}
+
 <div class="row">
   <div class="col-md-12">
     <h1> International Situations Project </h1>

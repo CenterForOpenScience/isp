@@ -14,7 +14,11 @@ export default Ember.Controller.extend({
     authenticate(attrs) {
       this.get('session')
         .authenticate('authenticator:jam-jwt', attrs)
-        .then(() => this.transitionToRoute('participate'));
+        .then(() => this.transitionToRoute('participate'))
+        .catch(() => this.send('toggleInvalidAuth'));
+    },
+    toggleInvalidAuth() {
+      this.toggleProperty('invalidAuth');
     },
     toggleLanguageSelector() {
       this.toggleProperty('showLanguageSelector');
