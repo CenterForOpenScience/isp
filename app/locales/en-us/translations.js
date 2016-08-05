@@ -1002,6 +1002,10 @@ const translations = {
                         "characterCount": "0 out of ## characters used",
                         "label": "Who else was present? (If you were alone, please write \u201calone\u201d)."
                     }
+                },
+                "times": {
+                  "10am": "10am",
+                  "7pm": "7pm"
                 }
             }
         }
