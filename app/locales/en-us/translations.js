@@ -988,11 +988,11 @@ const translations = {
                 }
             },
             "2": {
-                "instructions": "Please describe what you were doing yesterday at [10 am/7 pm (This will be alternated among participants; odd numbered participants will describe 10 am; even numbered participants will be describe 7 pm)\n\nPlease be as specific as possible, and only write about ONE THING you were doing. For example, you can write \u201cI was shopping for groceries with my friend,\u201d but do NOT write \u201cI was shopping for groceries and then had dinner.\u201d If you were sleeping at that time, please say so. However, please also describe what you were doing right before you fell asleep, or right after you woke up.\n\nPlease describe:\n\n1. What you were doing\n2. Where you were\n3. Who else was present\n\nPlease type your responses in the boxes below.",
+                "instructions": "Please describe what you were doing yesterday at ##.\n\nPlease be as specific as possible, and only write about ONE THING you were doing. For example, you can write \u201cI was shopping for groceries with my friend,\u201d but do NOT write \u201cI was shopping for groceries and then had dinner.\u201d If you were sleeping at that time, please say so. However, please also describe what you were doing right before you fell asleep, or right after you woke up.\n\nPlease describe:\n\n1. What you were doing\n2. Where you were\n3. Who else was present\n\nPlease type your responses in the boxes below.",
                 "questions": {
                     "11": {
                         "characterCount": "0 out of 75 characters used",
-                        "label": "What were you doing yesterday at [10 am/7 pm]? (alternated as above)"
+                        "label": "What were you doing yesterday at ##?"
                     },
                     "12": {
                         "characterCount": "0 out of ## characters used ",
