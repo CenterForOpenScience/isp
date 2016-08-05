@@ -991,7 +991,7 @@ const translations = {
                 "instructions": "Please describe what you were doing yesterday at ##.\n\nPlease be as specific as possible, and only write about ONE THING you were doing. For example, you can write \u201cI was shopping for groceries with my friend,\u201d but do NOT write \u201cI was shopping for groceries and then had dinner.\u201d If you were sleeping at that time, please say so. However, please also describe what you were doing right before you fell asleep, or right after you woke up.\n\nPlease describe:\n\n1. What you were doing\n2. Where you were\n3. Who else was present\n\nPlease type your responses in the boxes below.",
                 "questions": {
                     "11": {
-                        "characterCount": "0 out of 75 characters used",
+                        "characterCount": "0 out of ## characters used",
                         "label": "What were you doing yesterday at ##?"
                     },
                     "12": {
