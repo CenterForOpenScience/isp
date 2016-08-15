@@ -1,0 +1,19 @@
+<div class="row">
+  <h3 class="text-center">{{t 'feedback.title'}}</h3>
+  <p>{{t 'feedback.firstSection'}}</p>
+  <br>
+  {{#each feedback as |trait|}}
+  <div class="row">
+    {{#if (gte trait.score 3.5)}}
+      <div class="col-md-12 alert alert-info">{{t trait.description.high}}</div>
+    {{else if (lt trait.score 3.5)}}
+      <div class="col-md-12 alert alert-info">{{t trait.description.low}}</div>
+    {{/if}}
+  </div>
+  {{/each}}
+  <p><b>{{t 'feedback.secondSection'}}</b></p>
+  <p><b>{{t 'feedback.thirdSection'}}</b></p>
+</div>
+<div class="row exp-controls">
+  <button class="btn btn-default pull-right">{{t 'thankyou.exitButton'}}</button>
+</div>
