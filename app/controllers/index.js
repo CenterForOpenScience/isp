@@ -4,7 +4,6 @@ import ENV from 'isp/config/environment';
 
 export default Ember.Controller.extend({
   session: Ember.inject.service('session'),
-  studyId: null,
   participantId: null,
   namespace: ENV.JAMDB.namespace,
   collection: ENV.JAMDB.collection,
