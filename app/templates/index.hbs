@@ -4,35 +4,22 @@
   </h3>
 {{/if}}
 
+{{#if invalidAuth}}
+    {{#bs-modal title="An error occured when logging in." closedAction=(action 'toggleInvalidAuth')}}
+        {{#bs-modal-body}}Invalid username or password.{{/bs-modal-body}}
+    {{/bs-modal}}
+{{/if}}
+
 <div class="row">
   <div class="col-md-12">
     <h1> International Situations Project </h1>
-    <div class="well">
-      <p>Enter your <strong>Study ID</strong> and <strong>Participant ID</strong> into the fields below. Please {{link-to 'contact us' 'contact'}} if you have any questions.</p>
-      <div class="form">
-        <div class="form-group">
-          <label for="identifier">Study ID</label>
-          <div class="form-input">
-            {{input value=studyId}}
+      {{isp-jam-auth login=(action 'authenticate')}}
+      <div class="well">
+          <p>To test the survey, click below:</p>
+          <div class="form-group">
+            {{link-to 'Test >>' 'survey' class="btn btn-primary"}}
           </div>
-        </div>
-	      <div class="form-group">
-          <label for="participant">Participant ID</label>
-          <div class="form-input">
-            {{input value=pariticipantId}}
-	        </div>
-        </div>
-        <div class="form-group">
-          <button class="btn btn-primary" onclick={{action 'submit'}}>Continue >></button>
-        </div>
       </div>
-    </div>
-    <div class="well">
-        <p>To test the survey, click below:</p>
-        <div class="form-group">
-          {{link-to 'Test >>' 'survey' class="btn btn-primary"}}
-        </div>
-    </div>
   </div>
 </div>
 {{#bs-modal body=false footer=false header=false open=showLanguageSelector}}
