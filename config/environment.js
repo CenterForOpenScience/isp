@@ -30,6 +30,24 @@ module.exports = function(environment) {
     // ENV.APP.LOG_VIEW_LOOKUPS = true;
   }
 
+  if (environment === 'development') {
+        ENV.JAMDB = {
+            authorizer: 'jam-jwt',
+            collection:'accounts',
+            namespace: 'experimenter',
+            url: 'http://localhost:1212'
+        };
+    }
+
+    if (environment === 'staging' || environment === 'production') {
+      ENV.JAMDB = {
+          authorizer: 'jam-jwt',
+          collection:'accounts',
+          url: 'https://staging-metadata.osf.io',
+          namespace: 'isp'
+      };
+    }
+
   if (environment === 'test') {
     // Testem prefers this...
     ENV.baseURL = '/';
