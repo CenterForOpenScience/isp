@@ -63,6 +63,7 @@
   "dependencies": {
     "broccoli-auto-generated": "0.0.3",
     "broccoli-funnel": "^1.0.6",
+    "broccoli-merge-trees": "^1.1.4",
     "broccoli-sass": "^0.7.0",
     "ember-radio-buttons": "^4.0.1"
   }
