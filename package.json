@@ -62,6 +62,7 @@
     ]
   },
   "dependencies": {
+    "broccoli-auto-generated": "0.0.3",
     "broccoli-funnel": "^1.0.6",
     "ember-radio-buttons": "^4.0.1"
   }
