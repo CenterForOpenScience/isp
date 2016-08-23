@@ -6,7 +6,7 @@ const translations = {
         },
         "checkboxLabel": "I have read and understand the above statements and agree to participate.",
         "firstSection": "Welcome to our study. Your participation will be in one session, which should take about one hour to complete. You will be instructed in the use of an on-line tool for recording information about a situation you experienced recently and your behaviors in it. You will also be asked some questions about your values and attitudes. At the end of the study, you will receive personalized information about your personality.",
-        "secondSection": "measures.q10.item.socialNorms",
+        "secondSection": "All of your responses will be kept confidential and identified only by a number (and not by your name). You are free to end your involvement in this research at any time without penalty of any sort. Further, you are free not to answer any questions in this study if you so choose.",
         "thirdSection": "If you have any questions about this study or your rights as a participant, you may contact the Project Coordinator, Erica Baranski, at erica.baranski.ucr.edu, or contact the Human Subjects Review Committee in the Research Office at the University of California, Riverside (1-951-827-5535). We sincerely appreciate your cooperation. Your cooperation makes this research possible.\r",
         "title": "Consent to Participate in Research"
     },
@@ -247,6 +247,36 @@ const translations = {
             },
             "17": {
                 "label": "14. Please describe who in your life is included in your closest social circle (e.g. mother, brother, best friend):"
+            },
+            "18": {
+                "items": {
+                    "1": {
+                        "label": "I deserve to be seen as a great person"
+                    },
+                    "2": {
+                        "label": "Being a very special person gives me a lot of strength."
+                    },
+                    "3": {
+                        "label": "I manage to be the center of attention with my outstanding contributions."
+                    },
+                    "4": {
+                        "label": "Most people are somehow losers"
+                    },
+                    "5": {
+                        "label": "I want my rivals to fail."
+                    },
+                    "6": {
+                        "label": "I react annoyed if another person steals the show from me."
+                    }
+                },
+                "label": "15. Please rate the extent to which you agree or disagree with the following statements:",
+                "options": {
+                    "agree": "Agree",
+                    "agreeStrongly": "Agree strongly",
+                    "disagree": "Disagree",
+                    "disagreeStrongly": "Disagree strongly",
+                    "neutral": "Neutral; no opinion"
+                }
             },
             "2": {
                 "label": "How often do you experience situations similar to the one you just described?",
@@ -991,21 +1021,21 @@ const translations = {
                 "instructions": "Please describe what you were doing yesterday at ##.\n\nPlease be as specific as possible, and only write about ONE THING you were doing. For example, you can write \u201cI was shopping for groceries with my friend,\u201d but do NOT write \u201cI was shopping for groceries and then had dinner.\u201d If you were sleeping at that time, please say so. However, please also describe what you were doing right before you fell asleep, or right after you woke up.\n\nPlease describe:\n\n1. What you were doing\n2. Where you were\n3. Who else was present\n\nPlease type your responses in the boxes below.",
                 "questions": {
                     "11": {
-                        "characterCount": "0 out of ## characters used",
+                        "characterCount": "0 out of 75 characters used",
                         "label": "What were you doing yesterday at ##?"
                     },
                     "12": {
-                        "characterCount": "0 out of ## characters used ",
+                        "characterCount": "0 out of 75 characters used ",
                         "label": "Where were you?"
                     },
                     "13": {
-                        "characterCount": "0 out of ## characters used",
+                        "characterCount": "0 out of 75 characters used",
                         "label": "Who else was present? (If you were alone, please write \u201calone\u201d)."
                     }
                 },
                 "times": {
-                  "10am": "10am",
-                  "7pm": "7pm"
+                    "10am": "10am",
+                    "7pm": "7pm"
                 }
             }
         }
