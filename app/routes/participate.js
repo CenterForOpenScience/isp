@@ -9,26 +9,24 @@ export default Ember.Route.extend(WarnOnExitRouteMixin, {
   currentUser: Ember.inject.service(),
 
   _getExperiment() {
-    return this.store.find('experiment', '578937f93de08a003bf381ad');
+    return this.store.find('experiment', '57bc8b1a3de08a003fb1518d');
   },
   _getSession(params, experiment) { // jshint ignore: line
-    return this.get('currentUser').getCurrentUser().then(([account, profile]) => {
+    var _this = this;
+    return _this.get('currentUser').getCurrentUser().then(([account, profile]) => {
       return account.pastSessionsFor(experiment, profile).then(function(pastSessions) {
-        var session;
-        if (pastSessions === []) {
-            session = this.store.createRecord(experiment.get('sessionCollectionId'), {
-                experimentId: experiment.id,
-                profileId: profile.get('profileId'),
-                completed: false,
-                feedback: '',
-                hasReadFeedback: '',
-                expData: {},
-                sequence: []
-            });
-        } else {
-          session = pastSessions[0];
+        if (pastSessions.length === 0) {
+          return _this.store.createRecord(experiment.get('sessionCollectionId'), {
+            experimentId: experiment.id,
+            profileId: account.get('username') + '.test',
+            completed: false,
+            feedback: '',
+            hasReadFeedback: '',
+            expData: {},
+            sequence: []
+          });
         }
-        return session;
+        return pastSessions[0];
       });
     });
   },
