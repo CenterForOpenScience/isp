@@ -31,22 +31,22 @@ module.exports = function(environment) {
   }
 
   if (environment === 'development') {
-        ENV.JAMDB = {
-            authorizer: 'jam-jwt',
-            collection:'accounts',
-            namespace: 'experimenter',
-            url: 'http://localhost:1212'
-        };
-    }
+    ENV.JAMDB = {
+      authorizer: 'jam-jwt',
+      collection:'accounts',
+      namespace: 'experimenter',
+      url: 'http://localhost:1212'
+    };
+  }
 
-    if (environment === 'staging' || environment === 'production') {
-      ENV.JAMDB = {
-          authorizer: 'jam-jwt',
-          collection:'accounts',
-          url: 'https://staging-metadata.osf.io',
-          namespace: 'isp'
-      };
-    }
+  if (environment === 'staging' || environment === 'production') {
+    ENV.JAMDB = {
+      authorizer: 'jam-jwt',
+      collection:'accounts',
+      url: process.ENV.JAM_URL || 'https://staging-metadata.osf.io',
+      namespace: 'isp'
+    };
+  }
 
   if (environment === 'test') {
     // Testem prefers this...
@@ -63,6 +63,8 @@ module.exports = function(environment) {
   if (environment === 'production') {
 
   }
+
+  ENV.studyId = process.env.STUDY_ID;
 
   return ENV;
 };

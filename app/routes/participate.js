@@ -1,6 +1,7 @@
 import Ember from 'ember';
 import WarnOnExitRouteMixin from 'exp-player/mixins/warn-on-exit-route';
 
+import ENV from '../config/environment';
 
 export default Ember.Route.extend(WarnOnExitRouteMixin, {
   _experiment: null,
@@ -9,14 +10,13 @@ export default Ember.Route.extend(WarnOnExitRouteMixin, {
   currentUser: Ember.inject.service(),
 
   _getExperiment() {
-    return this.store.find('experiment', '57bc8b1a3de08a003fb1518d');
+    return this.store.find('experiment', ENV.studyId);
   },
   _getSession(params, experiment) { // jshint ignore: line
-    var _this = this;
-    return _this.get('currentUser').getCurrentUser().then(([account, profile]) => {
-      return account.pastSessionsFor(experiment, profile).then(function(pastSessions) {
+    return this.get('currentUser').getCurrentUser().then(([account, profile]) => {
+      return account.pastSessionsFor(experiment, profile).then((pastSessions) => {
         if (pastSessions.length === 0) {
-          return _this.store.createRecord(experiment.get('sessionCollectionId'), {
+          return this.store.createRecord(experiment.get('sessionCollectionId'), {
             experimentId: experiment.id,
             profileId: account.get('username') + '.test',
             completed: false,
@@ -40,8 +40,8 @@ export default Ember.Route.extend(WarnOnExitRouteMixin, {
             resolve(session);
           });
         });
-    }).catch(reject);
-  });
+      }).catch(reject);
+    });
   },
   setupController(controller, session) {
     this._super(controller, session);

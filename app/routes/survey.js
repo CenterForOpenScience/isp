@@ -8,7 +8,7 @@ var formatCards = function(items) {
     cards.push({
       id: item,
       content: items[item]
-    })
+    });
   }
   return cards;
 };
