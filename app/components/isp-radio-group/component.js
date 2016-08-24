@@ -1,11 +1,10 @@
 import Ember from 'ember';
+import ExpRadioGroupComponent from 'exp-player/components/radio-group';
 import layout from './template';
 
 
-export default Ember.Component.extend({
+export default ExpRadioGroupComponent.extend({
   layout,
-  options: null,
-  value: null,
   labelTop: null,
   labels: null,
   formatLabel: false
