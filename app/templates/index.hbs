@@ -14,12 +14,6 @@
   <div class="col-md-12">
     <h1> International Situations Project </h1>
       {{isp-jam-auth login=(action 'authenticate')}}
-      <div class="well">
-          <p>To test the survey, click below:</p>
-          <div class="form-group">
-            {{link-to 'Test >>' 'survey' class="btn btn-primary"}}
-          </div>
-      </div>
   </div>
 </div>
 {{#bs-modal body=false footer=false header=false open=showLanguageSelector}}
