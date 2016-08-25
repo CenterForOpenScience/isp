@@ -32,7 +32,7 @@ export default Ember.Component.extend({
     country: null,
     actions: {
       pickLanguage(language, code) {
-        this.get('onPick')(language);
+        this.get('onPick')(language, code);
         this.set('i18n.locale', code);
       }
     }

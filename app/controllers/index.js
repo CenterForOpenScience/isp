@@ -10,6 +10,7 @@ export default Ember.Controller.extend({
   collection: ENV.JAMDB.collection,
   showLanguageSelector: true,
   selectedLanguage: null,
+  locale: null,
   actions: {
     authenticate(attrs) {
       this.get('session')
@@ -23,10 +24,11 @@ export default Ember.Controller.extend({
     toggleLanguageSelector() {
       this.toggleProperty('showLanguageSelector');
     },
-    selectLanguage(language) {
+    selectLanguage(language, code) {
       this.setProperties({
         showLanguageSelector: false,
-        selectedLanguage: language
+        selectedLanguage: language,
+        locale: code
       });
     }
   }
