@@ -1,4 +1,5 @@
 /* jshint node: true */
+require('dotenv').config({silent: false});
 
 module.exports = function(environment) {
   var ENV = {
@@ -43,7 +44,7 @@ module.exports = function(environment) {
     ENV.JAMDB = {
       authorizer: 'jam-jwt',
       collection:'accounts',
-      url: process.ENV.JAM_URL || 'https://staging-metadata.osf.io',
+      url: process.env.JAM_URL || 'https://staging-metadata.osf.io',
       namespace: 'isp'
     };
   }
