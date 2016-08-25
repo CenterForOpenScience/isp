@@ -18,7 +18,7 @@ export default Ember.Route.extend(WarnOnExitRouteMixin, {
         if (pastSessions.length === 0) {
           return _this.store.createRecord(experiment.get('sessionCollectionId'), {
             experimentId: experiment.id,
-            profileId: account.get('username') + '.test',
+            profileId: account.get('username') + '.' + account.get('username'),
             completed: false,
             feedback: '',
             hasReadFeedback: '',
