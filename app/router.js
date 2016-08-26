@@ -9,7 +9,6 @@ Router.map(function() {
   this.route('info');
   this.route('faqs');
   this.route('contact');
-  this.route('survey');
   this.route('participate', function() {
     this.route('results');
   });
