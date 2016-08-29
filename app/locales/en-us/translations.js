@@ -359,7 +359,10 @@ const translations = {
                         "label": "I was reserved and unexpressive."
                     }
                 },
-                "label": "2. Please rate your behavior at ## yesterday.",
+                "label": {
+                    "10am": "2. Please rate your behavior at 10am yesterday.",
+                    "7pm": "2. Please rate your behavior at 19:00 (7pm) yesterday."
+                },
                 "options": {
                     "extremelyChar": "Extremely Characteristic",
                     "extremelyUnchar": "Extremely Uncharacteristic",
