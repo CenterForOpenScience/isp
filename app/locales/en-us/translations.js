@@ -10,21 +10,35 @@ const translations = {
         "thirdSection": "If you have any questions about this study or your rights as a participant, you may contact the Project Coordinator, Erica Baranski, at erica.baranski.ucr.edu, or contact the Human Subjects Review Committee in the Research Office at the University of California, Riverside (1-951-827-5535). We sincerely appreciate your cooperation. Your cooperation makes this research possible.\r",
         "title": "Consent to Participate in Research"
     },
+    "exitpage": {
+        "line1": "Thank you for your participation!",
+        "line2": "Your responses have been recorded."
+    },
     "feedback": {
-        "firstSection": "Based on your responses to this study, and according to research, your personal strengths can be described as follows:",
-        "hiAgree": "You are probably considerate and polite in social interactions, and you enjoy cooperating. You find it easy to trust people, and feel compassion for those in need. You are probably well liked by your peers, and establish satisfying and stable close relationships. You are likely to serve in community leadership roles, and to do volunteer work.",
-        "hiConsc": "You are probably organized and responsible. You work hard to achieve you goals, and see tasks through to completion. You are likely to earn higher grades in school, and perform better in many occupations. You may be more religious. You may exercise, have better physical health, and live longer.",
-        "hiExtra": "You are probably talkative and energetic. You like being around people, and are comfortable asserting yourself in a group. You have many friends and dating partners, and are seen as popular. You probably prefer, and are successful in, social and enterprising occupations. You are likely to serve in community leadership roles, and to do volunteer work. You tend to prefer energetic music, exercise frequently, and play a sport. You experience frequent positive emotions, and react strongly to positive events.",
-        "hiNeurot": "You are probably emotionally sensitive, and have up-and-down mood swings. You may experience negative emotions, and react more strongly to negative events.",
-        "hiOpen": "You are generally open to new activities and new ideas. You tend to be creative, intellectually curious, and sensitive to art and beauty. You may prefer, and do better in, scientific and artistic occupations.",
-        "loAgree": "You probably express yourself directly and bluntly, even at the risk of starting an argument. You enjoy competition, and tend to be skeptical of other people's intentions. You may engage in some risky behaviors.",
-        "loConsc": "You probably act spontaneously rather than making plans, and find it easier to look at the big picture than pay attention to details. You may prefer to jump between tasks, instead of finishing one at a time. You may engage in risky behaviors.",
-        "loExtra": "You probably tend to be socially and emotionally reserved. You may prefer to be alone or with a few close friends, and keep your opinions and feelings to yourself. You may do better in jobs that involve independent work rather than social interaction. You are unlikely to engage in thrill-seeking or risky behaviors.",
-        "loNeurot": "You are probably emotionally stable and resilient. You usually stay calm, even in stressful situations, and can quickly bounce back from negative events. You have a good sense of well-being.",
-        "loOpen": "You are probably traditional, down-to-earth, and like to stick with tried-and-true ways of doing things. You may prefer the familiar over the new, and the concrete over the abstract. You might tend to prefer, and do better in, conventional and practical occupations.",
+        "agree": "Agreeableness",
+        "agreeScore": "Your score out of 100 possible: XX",
+        "consc": "Conscientiousness",
+        "conscScore": "Your score out of 100 possible: XX",
+        "extra": "Extraversion",
+        "extraScore": "Your score out of 100 possible: XX",
+        "firstSection": "Based on decades of research, personality researchers agree that the most important individual differences in personality traits are described by five basic traits known as the \u201cBig Five\u201d: Extraversion, Agreeableness, Conscientiousness, Emotional Stability, and Openness to Experience.  The measures you just completed provide scores on each of these traits and your results are described below.",
+        "hiAgree": "High scorers tend to be considerate and polite in social interactions, and enjoy cooperating with others. They find it easy to trust people, and feel compassion for those in need. High scorers tend to be well liked by their peers, and they establish satisfying and stable close relationships. They are more likely to be religious, to serve in community leadership roles, and to do volunteer work. Older adults tend to score higher than younger adults.",
+        "hiConsc": "High scorers tend to be organized and responsible. They work hard to achieve their goals, and complete tasks they have begun. High scorers tend to earn higher grades in school, and perform better in many occupations. They are more likely to be religious and hold conservative political attitudes. They tend to exercise more, have better physical health, and live longer. Older adults tend to score higher than younger adults.",
+        "hiExtra": "High scorers tend to be talkative and energetic. They like being around people, and are comfortable asserting themselves in a group. High scorers tend to have more friends and dating partners, and are seen as more popular. They are more likely to serve in community leadership roles, and to do volunteer work. They tend to prefer energetic music, exercise more frequently, and are more likely to play a sport. They experience more frequent positive emotions, and react more strongly to positive events.",
+        "hiNeurot": "High scorers tend to be emotionally stable and resilient. They usually stay calm, even in stressful situations, and can quickly bounce back from negative events. People who score high on emotional stability tend to feel a greater sense of well-being.",
+        "hiOpen": "High scorers are generally open to new activities and new ideas. They tend to be creative, intellectually curious, and sensitive to art and beauty. High scorers tend to prefer, and do better in, scientific and artistic occupations. They prefer classical, jazz, blues, and rock music.",
+        "loAgree": "Low scorers express themselves directly and bluntly, even at the risk of starting an argument. They enjoy competition, and tend to be skeptical of other people's intentions. Low scorers tend to earn higher salaries, and are more likely to engage in some risky behaviors, such as smoking and aggressive driving.",
+        "loConsc": "Low scorers tend to act spontaneously rather than making plans, and find it easier to look at the big picture than pay attention to details. They prefer to jump between tasks, instead of finishing one at a time. They tend to engage in more risky behaviors, such as smoking, alcohol consumption, and drug use.",
+        "loExtra": "Low scorers tend to be socially and emotionally reserved. They generally prefer to be alone or with a few close friends, and keep their opinions and feelings to themselves. They are less likely to engage in thrill-seeking activities or risky behaviors such as smoking and alcohol consumption.",
+        "loNeurot": "Low scorers tend to be emotionally sensitive, and have up-and-down mood swings. They experience more frequent negative emotions, and react more strongly to negative events. Younger adults tend to score lower than older adults.",
+        "loOpen": "Low scorers tend to be traditional, practical, and like to stick with traditional ways of doing things. They prefer the familiar over the new, and the concrete over the abstract. Low scorers tend to prefer, and do better in, conventional and practical occupations such as crafts and trades.",
+        "neurot": "Emotional Stability",
+        "neurotScore": "Your score out of 100 possible: XX",
+        "open": "Openness to Experience",
+        "openScore": "Your score out of 100 possible: XX",
         "secondSection": "We hope you enjoyed your participation in this study.",
         "thirdSection": "Thank you for your participation!",
-        "title": "Your Personal Strengths"
+        "title": "Your Personality"
     },
     "global": {
         "aGreatDeal": "a great deal",
@@ -114,7 +128,7 @@ const translations = {
                 }
             },
             "11": {
-                "label": "9. Is there an aspect of your personality that you\u2019re currently trying to change? ",
+                "label": "9. Is there an aspect of your personality that you\u2019re currently trying to change?",
                 "options": {
                     "no": "No",
                     "yes": "Yes"
@@ -345,7 +359,7 @@ const translations = {
                         "label": "I was reserved and unexpressive."
                     }
                 },
-                "label": "2. Please rate your behavior at 7 pm/10 am yesterday.",
+                "label": "2. Please rate your behavior at ## yesterday.",
                 "options": {
                     "extremelyChar": "Extremely Characteristic",
                     "extremelyUnchar": "Extremely Uncharacteristic",
@@ -610,7 +624,7 @@ const translations = {
                         "label": "I believe that I have achieved the same standard of living as those around me"
                     },
                     "9": {
-                        "label": "I generally believe that things are going well for me in its own way as they are for others around me"
+                        "label": "I generally believe that things are going as well for me as they are for others around me"
                     }
                 },
                 "label": "5. Please rate the extent to which you agree or disagree with the following statements:",
@@ -735,8 +749,8 @@ const translations = {
             }
         },
         "scale": {
-            "Disagreee": "Disagree",
-            "DisagreeeStrongly": "Disagreee strongly",
+            "Disagree": "Disagree",
+            "DisagreeStrongly": "Disagree strongly",
             "agree": "Agree",
             "agreeStrongly": "Agree strongly",
             "neutral": "Neutral; no opinion"
@@ -843,6 +857,10 @@ const translations = {
     "number97": "97",
     "number98": "98",
     "number99": "99",
+    "previouslogin": {
+        "line1": "Our records indicate that you have already completed this study.",
+        "line2": "If this is in error, please contact your local International Situations Project coordinator."
+    },
     "qsort": {
         "rsq": {
             "item": {
@@ -940,15 +958,19 @@ const translations = {
         },
         "sections": {
             "1": {
+                "activity": "Activity:",
                 "categories": {
                     "characteristic": "Characteristic",
                     "neutral": "Neutral",
                     "uncharacteristic": "Uncharacteristic"
                 },
                 "instructions": "Describe the situation.  Please use these items to describe the situation you experienced yesterday. There are 90 items, which will appear one at a time. Begin by placing each item into one of three boxes. Use the \u201cCharacteristic\u201d box on the right for items that accurately describe the situation; use the \u201cUncharacteristic\u201d box on the left for items that are undescriptive of the situation, and use the \u201cNeutral\u201d box for items that are irrelevant, unclear, or about which you are uncertain. When you are finished, press \u201cContinue.\u201d",
-                "itemsLeft": "items left"
+                "itemsLeft": "items left",
+                "location": "Location:",
+                "othersPresent": "Others present:"
             },
             "2": {
+                "activity": "Activity:",
                 "categories": {
                     "extremelyChar": "Extremely Characteristic",
                     "extremelyUnchar": "Extremely Uncharacteristic",
@@ -960,7 +982,9 @@ const translations = {
                     "somewhatChar": "Somewhat Characteristic",
                     "somewhatUnchar": "Somewhat Uncharacteristic"
                 },
-                "instructions": "Describe the situation. Now, from the three boxes, please place the items into nine boxes. Placing an item in the highest (right-hand) category indicates that the item is \u201cextremely characteristic\u201d of the situation. Only three cards can go into this category, so they should be the best descriptors. Putting an item in the middle categories means that the item is irrelevant to the situation, or that you are unsure of where the item belongs. Putting an item in the lowest (right-hand) category implies that the item is \u201cextremely uncharacteristic\u201d of the situation. Again, only three cards can go into this category so they should be the items that are the very LEAST characteristic. A fixed number of items goes into each box. You can drag and drop items from one box to another, but if you leave too many items in any one box, the heading will turn red. The heading will turn green when the right number of items is in the box."
+                "instructions": "Describe the situation. Now, from the three boxes, please place the items into nine boxes. Placing an item in the highest (right-hand) category indicates that the item is \u201cextremely characteristic\u201d of the situation. Only three cards can go into this category, so they should be the best descriptors. Putting an item in the middle categories means that the item is irrelevant to the situation, or that you are unsure of where the item belongs. Putting an item in the lowest (right-hand) category implies that the item is \u201cextremely uncharacteristic\u201d of the situation. Again, only three cards can go into this category so they should be the items that are the very LEAST characteristic. A fixed number of items goes into each box. You can drag and drop items from one box to another, but if you leave too many items in any one box, the heading will turn red. The heading will turn green when the right number of items is in the box.",
+                "location": "Location:",
+                "othersPresent": "Others present:"
             }
         }
     },
@@ -995,7 +1019,7 @@ const translations = {
                         "label": "On a scale from 1 to 10 with 10 being people who are the most well off in society, and 1 being the people who are the least well off, where would you describe your family\u2019s position?"
                     },
                     "6": {
-                        "label": "Birth country and city"
+                        "label": "Birth city and country"
                     },
                     "7": {
                         "label": "Hometown residence (remote rural, rural, suburban, urban)",
@@ -1025,7 +1049,7 @@ const translations = {
                         "label": "What were you doing yesterday at ##?"
                     },
                     "12": {
-                        "characterCount": "0 out of 75 characters used ",
+                        "characterCount": "0 out of 75 characters used",
                         "label": "Where were you?"
                     },
                     "13": {
@@ -1042,7 +1066,7 @@ const translations = {
     },
     "thankyou": {
         "exitButton": "Exit",
-        "instructions": "Your participation is complete.\n\nAn email has been sent to xxx to confirm that you have completed the study.\n\nYou may now exit the study, or proceed to receive some information about your personality based on the surveys you completed.",
+        "instructions": "You may now exit the study, or proceed to receive some information about your personality based on the surveys you completed.",
         "personalityFeedbackButton": "Receive personality information",
         "title": "Thank you!"
     }
