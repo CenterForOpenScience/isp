@@ -115,7 +115,7 @@ def main():
         reader = csv.reader(csvfile)
         for row in reader:
             keys = row[0].split('.')
-            merge(data, format_dict(keys, row[1]))
+            merge(data, format_dict(keys, row[1].strip(" ")))
     f = open('en-us.json', 'w')
     data.update(numbers)
     f.write(json.dumps(data, indent=4, sort_keys=True))
