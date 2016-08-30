@@ -10,6 +10,12 @@
     {{/bs-modal}}
 {{/if}}
 
+{{#if invalidLocale}}
+    {{#bs-modal title="An error occured when logging in." closedAction=(action 'toggleInvalidLocale')}}
+        {{#bs-modal-body}}Please select a language before logging in.{{/bs-modal-body}}
+    {{/bs-modal}}
+{{/if}}
+
 <div class="row">
   <div class="col-md-12">
     <h1> International Situations Project </h1>

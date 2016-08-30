@@ -10,23 +10,34 @@ export default Ember.Controller.extend({
   collection: ENV.JAMDB.collection,
   showLanguageSelector: true,
   selectedLanguage: null,
+  locale: null,
   actions: {
     authenticate(attrs) {
       this.get('session')
         .authenticate('authenticator:jam-jwt', attrs)
         .then(() => this.transitionToRoute('participate'))
-        .catch(() => this.send('toggleInvalidAuth'));
+        .catch((e) => {
+          if (e.status === 404) {
+            this.send('toggleInvalidAuth');
+          } else if (e.name === 'TransitionAborted') {
+            this.send('toggleInvalidLocale');
+          }
+        });
     },
     toggleInvalidAuth() {
       this.toggleProperty('invalidAuth');
     },
+    toggleInvalidLocale() {
+      this.toggleProperty('invalidLocale');
+    },
     toggleLanguageSelector() {
       this.toggleProperty('showLanguageSelector');
     },
-    selectLanguage(language) {
+    selectLanguage(language, code) {
       this.setProperties({
         showLanguageSelector: false,
-        selectedLanguage: language
+        selectedLanguage: language,
+        locale: code
       });
     }
   }

@@ -1,9 +1,10 @@
 import Ember from 'ember';
 import WarnOnExitRouteMixin from 'exp-player/mixins/warn-on-exit-route';
+import AuthenticatedRouteMixin from 'ember-simple-auth/mixins/authenticated-route-mixin';
 
 import ENV from '../config/environment';
 
-export default Ember.Route.extend(WarnOnExitRouteMixin, {
+export default Ember.Route.extend(AuthenticatedRouteMixin, WarnOnExitRouteMixin, {
   _experiment: null,
   _session: null,
   store: Ember.inject.service(),
@@ -38,6 +39,13 @@ export default Ember.Route.extend(WarnOnExitRouteMixin, {
       });
     });
   },
+  beforeModel(params) {
+    this._super(params);
+    var locale = this.controllerFor('index').get('locale');
+    if (!locale) {
+      this.transitionTo('index');
+    }
+  },
   model(params) {
     return new Ember.RSVP.Promise((resolve, reject) => {
       this._getExperiment(params).then((experiment) => {
@@ -45,6 +53,7 @@ export default Ember.Route.extend(WarnOnExitRouteMixin, {
           this.set('_experiment', experiment);
           session.set('experimentVersion', '');
           session.set('experimentCondition', this._getCondition(session.get('profileId')));
+          session.set('locale', this.controllerFor('index').get('locale'));
           session.save().then(() => {
             resolve(session);
           });
