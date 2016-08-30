@@ -4,11 +4,10 @@
   <br>
   {{#each feedback as |trait|}}
   <div class="row">
-    {{#if (gte trait.score 3.5)}}
+      <h5>{{t trait.name}}</h5>
+      <h5>{{t 'feedback.extraScore'}}{{trait.score}}</h5>
       <div class="col-md-12 alert alert-info">{{t trait.description.high}}</div>
-    {{else if (lt trait.score 3.5)}}
       <div class="col-md-12 alert alert-info">{{t trait.description.low}}</div>
-    {{/if}}
   </div>
   {{/each}}
   <p><b>{{t 'feedback.secondSection'}}</b></p>
