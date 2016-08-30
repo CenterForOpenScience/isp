@@ -48,13 +48,12 @@ export default Ember.Route.extend(AuthenticatedRouteMixin, WarnOnExitRouteMixin,
   },
   model(params) {
     return new Ember.RSVP.Promise((resolve, reject) => {
-      var _this = this;
       this._getExperiment(params).then((experiment) => {
         this._getSession(params, experiment).then((session) => {
           this.set('_experiment', experiment);
           session.set('experimentVersion', '');
           session.set('experimentCondition', this._getCondition(session.get('profileId')));
-          session.set('locale', _this.controllerFor('index').get('locale'));
+          session.set('locale', this.controllerFor('index').get('locale'));
           session.save().then(() => {
             resolve(session);
           });
