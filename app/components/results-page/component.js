@@ -9,28 +9,28 @@ var VALUES = {
 };
 
 function averageScores(questions, reversed, items) {
-    var total = score(questions, items) + reverseScore(reversed, items);
-    return (total - 12)/48 * 100;
+  var total = score(questions, items) + reverseScore(reversed, items);
+  return (total - 12)/48 * 100;
 }
 
 function score(questions, items) {
-    var total = 0;
-    for (var i=0; i < questions.length; i++) {
-        var question = questions[i];
-        var value = items[question - 1];
-        total += VALUES[value];
-    }
-    return total;
+  var total = 0;
+  for (var i=0; i < questions.length; i++) {
+    var question = questions[i];
+    var value = items[question - 1];
+    total += VALUES[value];
+  }
+  return total;
 }
 
 function reverseScore(questions, items) {
-    var total = 0;
-    for (var i=0; i < questions.length; i++) {
-        var question = questions[i];
-        var value = items[question - 1];
-        total += (6 - VALUES[value]);
-    }
-    return total;
+  var total = 0;
+  for (var i=0; i < questions.length; i++) {
+    var question = questions[i];
+    var value = items[question - 1];
+    total += (6 - VALUES[value]);
+  }
+  return total;
 }
 
 export default Ember.Component.extend({
@@ -43,14 +43,15 @@ export default Ember.Component.extend({
     var conscientiousness = averageScores([13, 18, 33, 38, 43, 53], [3, 8, 23, 28, 48, 58], items);
     var neuroticism = averageScores([4, 9, 24, 29, 44, 49], [14, 19, 34, 39, 54, 59], items);
     var openness = averageScores([10, 15, 20, 35, 40, 60], [5, 25, 30, 45, 50, 55], items);
-    return [{
-      'name': 'feedback.extra',
-      'score': extraversion,
-      'description': {
-        'high': 'feedback.hiExtra',
-        'low': 'feedback.loExtra'
-      }
-    },
+    return [
+      {
+        'name': 'feedback.extra',
+        'score': extraversion,
+        'description': {
+          'high': 'feedback.hiExtra',
+          'low': 'feedback.loExtra'
+        }
+      },
       {
         'name': 'feedback.agree',
         'score': agreeableness,
