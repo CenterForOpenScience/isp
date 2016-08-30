@@ -13,13 +13,23 @@ export default Ember.Controller.extend({
   locale: null,
   actions: {
     authenticate(attrs) {
+      var _this = this;
       this.get('session')
         .authenticate('authenticator:jam-jwt', attrs)
         .then(() => this.transitionToRoute('participate'))
-        .catch(() => this.send('toggleInvalidAuth'));
+        .catch(function(e) {
+          if (e.status === 404) {
+            _this.send('toggleInvalidAuth');
+          } else if (e.name === 'TransitionAborted') {
+            _this.send('toggleInvalidLocale');
+          }
+        });
     },
     toggleInvalidAuth() {
       this.toggleProperty('invalidAuth');
+    },
+    toggleInvalidLocale() {
+      this.toggleProperty('invalidLocale');
     },
     toggleLanguageSelector() {
       this.toggleProperty('showLanguageSelector');
