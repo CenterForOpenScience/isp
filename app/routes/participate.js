@@ -38,6 +38,13 @@ export default Ember.Route.extend(AuthenticatedRouteMixin, WarnOnExitRouteMixin,
       });
     });
   },
+  beforeModel(params) {
+    this._super(params);
+    var locale = this.controllerFor('index').get('locale');
+    if (!locale) {
+      this.transitionTo('index');
+    }
+  },
   model(params) {
     return new Ember.RSVP.Promise((resolve, reject) => {
       var _this = this;
