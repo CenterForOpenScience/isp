@@ -1,8 +1,8 @@
 import Ember from 'ember';
 import WarnOnExitRouteMixin from 'exp-player/mixins/warn-on-exit-route';
+import AuthenticatedRouteMixin from 'ember-simple-auth/mixins/authenticated-route-mixin';
 
-
-export default Ember.Route.extend(WarnOnExitRouteMixin, {
+export default Ember.Route.extend(AuthenticatedRouteMixin, WarnOnExitRouteMixin, {
   _experiment: null,
   _session: null,
   store: Ember.inject.service(),
