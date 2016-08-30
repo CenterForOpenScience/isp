@@ -2,6 +2,8 @@ import Ember from 'ember';
 import WarnOnExitRouteMixin from 'exp-player/mixins/warn-on-exit-route';
 import AuthenticatedRouteMixin from 'ember-simple-auth/mixins/authenticated-route-mixin';
 
+import ENV from '../config/environment';
+
 export default Ember.Route.extend(AuthenticatedRouteMixin, WarnOnExitRouteMixin, {
   _experiment: null,
   _session: null,
@@ -17,14 +19,13 @@ export default Ember.Route.extend(AuthenticatedRouteMixin, WarnOnExitRouteMixin,
     return '10am';
   },
   _getExperiment() {
-    return this.store.find('experiment', '57bc8b1a3de08a003fb1518d');
+    return this.store.find('experiment', ENV.studyId);
   },
   _getSession(params, experiment) { // jshint ignore: line
-    var _this = this;
-    return _this.get('currentUser').getCurrentUser().then(([account, profile]) => {
-      return account.pastSessionsFor(experiment, profile).then(function(pastSessions) {
+    return this.get('currentUser').getCurrentUser().then(([account, profile]) => {
+      return account.pastSessionsFor(experiment, profile).then((pastSessions) => {
         if (pastSessions.length === 0) {
-          return _this.store.createRecord(experiment.get('sessionCollectionId'), {
+          return this.store.createRecord(experiment.get('sessionCollectionId'), {
             experimentId: experiment.id,
             profileId: account.get('username') + '.' + account.get('username'),
             completed: false,
@@ -58,8 +59,8 @@ export default Ember.Route.extend(AuthenticatedRouteMixin, WarnOnExitRouteMixin,
             resolve(session);
           });
         });
-    }).catch(reject);
-  });
+      }).catch(reject);
+    });
   },
   setupController(controller, session) {
     this._super(controller, session);
