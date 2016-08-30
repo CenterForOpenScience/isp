@@ -1,4 +1,5 @@
 /* jshint node: true */
+require('dotenv').config({silent: false});
 
 module.exports = function(environment) {
   var ENV = {
@@ -29,24 +30,25 @@ module.exports = function(environment) {
     // ENV.APP.LOG_TRANSITIONS_INTERNAL = true;
     // ENV.APP.LOG_VIEW_LOOKUPS = true;
   }
+  ENV.JAMDB = {};
 
   if (environment === 'development') {
-        ENV.JAMDB = {
-            authorizer: 'jam-jwt',
-            collection:'accounts',
-            namespace: 'experimenter',
-            url: 'http://localhost:1212'
-        };
-    }
+    ENV.JAMDB = {
+      authorizer: 'jam-jwt',
+      collection:'accounts',
+      namespace: 'experimenter',
+      url: 'http://localhost:1212'
+    };
+  }
 
-    if (environment === 'staging' || environment === 'production') {
-      ENV.JAMDB = {
-          authorizer: 'jam-jwt',
-          collection:'accounts',
-          url: 'https://staging-metadata.osf.io',
-          namespace: 'isp'
-      };
-    }
+  if (environment === 'staging' || environment === 'production') {
+    ENV.JAMDB = {
+      authorizer: 'jam-jwt',
+      collection:'accounts',
+      url: process.env.JAM_URL || 'https://staging-metadata.osf.io',
+      namespace: 'isp'
+    };
+  }
 
   if (environment === 'test') {
     // Testem prefers this...
@@ -63,6 +65,8 @@ module.exports = function(environment) {
   if (environment === 'production') {
 
   }
+
+  ENV.studyId = process.env.STUDY_ID;
 
   return ENV;
 };
