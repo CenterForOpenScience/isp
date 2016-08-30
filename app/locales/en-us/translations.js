@@ -16,12 +16,10 @@ const translations = {
     },
     "feedback": {
         "agree": "Agreeableness",
-        "agreeScore": "Your score out of 100 possible: XX",
         "consc": "Conscientiousness",
-        "conscScore": "Your score out of 100 possible: XX",
         "extra": "Extraversion",
-        "extraScore": "Your score out of 100 possible: XX",
         "firstSection": "Based on decades of research, personality researchers agree that the most important individual differences in personality traits are described by five basic traits known as the \u201cBig Five\u201d: Extraversion, Agreeableness, Conscientiousness, Emotional Stability, and Openness to Experience.  The measures you just completed provide scores on each of these traits and your results are described below.",
+        "fourthSection": "Thank you for your participation!",
         "hiAgree": "High scorers tend to be considerate and polite in social interactions, and enjoy cooperating with others. They find it easy to trust people, and feel compassion for those in need. High scorers tend to be well liked by their peers, and they establish satisfying and stable close relationships. They are more likely to be religious, to serve in community leadership roles, and to do volunteer work. Older adults tend to score higher than younger adults.",
         "hiConsc": "High scorers tend to be organized and responsible. They work hard to achieve their goals, and complete tasks they have begun. High scorers tend to earn higher grades in school, and perform better in many occupations. They are more likely to be religious and hold conservative political attitudes. They tend to exercise more, have better physical health, and live longer. Older adults tend to score higher than younger adults.",
         "hiExtra": "High scorers tend to be talkative and energetic. They like being around people, and are comfortable asserting themselves in a group. High scorers tend to have more friends and dating partners, and are seen as more popular. They are more likely to serve in community leadership roles, and to do volunteer work. They tend to prefer energetic music, exercise more frequently, and are more likely to play a sport. They experience more frequent positive emotions, and react more strongly to positive events.",
@@ -33,11 +31,10 @@ const translations = {
         "loNeurot": "Low scorers tend to be emotionally sensitive, and have up-and-down mood swings. They experience more frequent negative emotions, and react more strongly to negative events. Younger adults tend to score lower than older adults.",
         "loOpen": "Low scorers tend to be traditional, practical, and like to stick with traditional ways of doing things. They prefer the familiar over the new, and the concrete over the abstract. Low scorers tend to prefer, and do better in, conventional and practical occupations such as crafts and trades.",
         "neurot": "Emotional Stability",
-        "neurotScore": "Your score out of 100 possible: XX",
         "open": "Openness to Experience",
-        "openScore": "Your score out of 100 possible: XX",
-        "secondSection": "We hope you enjoyed your participation in this study.",
-        "thirdSection": "Thank you for your participation!",
+        "score": "Your score out of 100 possible:",
+        "secondSection": "On each trait, scores above 60 can be considered high, and scores below 40 can be considered low. Descriptions of high and low scorers appear below. If your score is between 40 and 60, then your personality would probably be described as about average on the attributes listed.",
+        "thirdSection": "We hope you enjoyed your participation in this study.",
         "title": "Your Personality"
     },
     "global": {
@@ -1059,10 +1056,6 @@ const translations = {
                         "characterCount": "0 out of 75 characters used",
                         "label": "Who else was present? (If you were alone, please write \u201calone\u201d)."
                     }
-                },
-                "times": {
-                    "10am": "10am",
-                    "7pm": "7pm"
                 }
             }
         }
