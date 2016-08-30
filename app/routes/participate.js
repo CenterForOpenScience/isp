@@ -9,6 +9,14 @@ export default Ember.Route.extend(WarnOnExitRouteMixin, {
   store: Ember.inject.service(),
   currentUser: Ember.inject.service(),
 
+  _getCondition(profileId) {
+    var participantId = profileId.split('.')[1];
+    var id = participantId.split('_')[1];
+    if (id % 2 === 0) {
+      return '7pm';
+    }
+    return '10am';
+  },
   _getExperiment() {
     return this.store.find('experiment', ENV.studyId);
   },
@@ -18,7 +26,7 @@ export default Ember.Route.extend(WarnOnExitRouteMixin, {
         if (pastSessions.length === 0) {
           return this.store.createRecord(experiment.get('sessionCollectionId'), {
             experimentId: experiment.id,
-            profileId: account.get('username') + '.test',
+            profileId: account.get('username') + '.' + account.get('username'),
             completed: false,
             feedback: '',
             hasReadFeedback: '',
@@ -36,6 +44,7 @@ export default Ember.Route.extend(WarnOnExitRouteMixin, {
         this._getSession(params, experiment).then((session) => {
           this.set('_experiment', experiment);
           session.set('experimentVersion', '');
+          session.set('experimentCondition', this._getCondition(session.get('profileId')));
           session.save().then(() => {
             resolve(session);
           });
