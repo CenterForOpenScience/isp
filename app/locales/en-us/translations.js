@@ -80,7 +80,7 @@ const translations = {
     "measures": {
         "questions": {
             "1": {
-                "label": "Overall, was the situation you described a positive experience or a negative experience?",
+                "label": "1. Overall, was the situation you described a positive experience or a negative experience?",
                 "options": {
                     "extremelyNeg": "Extremely negative",
                     "extremelyPos": "Extremely positive",
@@ -115,7 +115,7 @@ const translations = {
                         "label": "People in this country almost always comply with social norms."
                     }
                 },
-                "label": "8. Please rate the extent to which you agree or disagree with the following statements:",
+                "label": "10. Please rate the extent to which you agree or disagree with the following statements:",
                 "options": {
                     "agree": "Agree",
                     "agreeStrongly": "Agree strongly",
@@ -125,7 +125,7 @@ const translations = {
                 }
             },
             "11": {
-                "label": "9. Is there an aspect of your personality that you\u2019re currently trying to change?",
+                "label": "11. Is there an aspect of your personality that you\u2019re currently trying to change?",
                 "options": {
                     "no": "No",
                     "yes": "Yes"
@@ -149,7 +149,7 @@ const translations = {
                         "label": "Generally, I trust others"
                     }
                 },
-                "label": "8. Please rate the extent to which you agree or disagree with the following statements:",
+                "label": "12. Please rate the extent to which you agree or disagree with the following statements:",
                 "options": {
                     "agree": "Agree",
                     "agreeStrongly": "Agree strongly",
@@ -179,7 +179,7 @@ const translations = {
                         "label": "Overall, I expect more good things to happen to me than bad."
                     }
                 },
-                "label": "11. Please rate the extent to which you agree or disagree with the following statements:",
+                "label": "13. Please rate the extent to which you agree or disagree with the following statements:",
                 "options": {
                     "agree": "Agree",
                     "agreeStrongly": "Agree strongly",
@@ -221,7 +221,7 @@ const translations = {
                         "label": "I think that I am entitled to more respect than the average person is."
                     }
                 },
-                "label": "12. Please rate the extent to which you agree or disagree with the following statements:",
+                "label": "14. Please rate the extent to which you agree or disagree with the following statements:",
                 "options": {
                     "agree": "Agree",
                     "agreeStrongly": "Agree strongly",
@@ -248,7 +248,7 @@ const translations = {
                         "label": "In the world"
                     }
                 },
-                "label": "13. To what extent do you think your life develops in the following environments?",
+                "label": "15. To what extent do you think your life develops in the following environments?",
                 "options": {
                     "aLittle": "A little",
                     "completely": "Completely",
@@ -257,9 +257,6 @@ const translations = {
                 }
             },
             "17": {
-                "label": "14. Please describe who in your life is included in your closest social circle (e.g. mother, brother, best friend):"
-            },
-            "18": {
                 "items": {
                     "1": {
                         "label": "I deserve to be seen as a great person"
@@ -280,7 +277,7 @@ const translations = {
                         "label": "I react annoyed if another person steals the show from me."
                     }
                 },
-                "label": "15. Please rate the extent to which you agree or disagree with the following statements:",
+                "label": "16. Please rate the extent to which you agree or disagree with the following statements:",
                 "options": {
                     "agree": "Agree",
                     "agreeStrongly": "Agree strongly",
@@ -290,22 +287,15 @@ const translations = {
                 }
             },
             "2": {
-                "label": "How often do you experience situations similar to the one you just described?",
+                "label": "2. How often do you experience situations similar to the one you just described?",
                 "options": {
-                    "hardleyEver": "Hardly ever",
+                    "hardlyEver": "Hardly ever",
                     "never": "Never",
                     "occasionally": "Occasionally",
                     "quiteOften": "Quite often"
                 }
             },
             "3": {
-                "label": "How do you see yourself: Are you generally a person who is fully prepared to take risks or do you try to avoid taking risks?",
-                "options": {
-                    "fullyPrepared": "Fully prepared to take risks",
-                    "unwilling": "Unwilling to take risks"
-                }
-            },
-            "4": {
                 "items": {
                     "1": {
                         "label": "I tried to control the situation."
@@ -357,8 +347,8 @@ const translations = {
                     }
                 },
                 "label": {
-                    "10am": "2. Please rate your behavior at 10am yesterday.",
-                    "7pm": "2. Please rate your behavior at 19:00 (7pm) yesterday."
+                    "10am": "3. Please rate your behavior at 10am yesterday.",
+                    "7pm": "3. Please rate your behavior at 19:00 (7pm) yesterday."
                 },
                 "options": {
                     "extremelyChar": "Extremely Characteristic",
@@ -370,6 +360,13 @@ const translations = {
                     "quiteUnchar": "Quite Uncharacteristic",
                     "somewhatChar": "Somewhat Characteristic",
                     "somewhatUnchar": "Somewhat Uncharacteristic"
+                }
+            },
+            "4": {
+                "label": "4. How do you see yourself: Are you generally a person who is fully prepared to take risks or do you try to avoid taking risks?",
+                "options": {
+                    "fullyPrepared": "Fully prepared to take risks",
+                    "unwilling": "Unwilling to take risks"
                 }
             },
             "5": {
@@ -555,7 +552,7 @@ const translations = {
                         "label": "Stays optimistic after experiencing a setback"
                     }
                 },
-                "label": "3. Please rate the extent to which you agree or disagree with the following statements:\n\nI am someone who...",
+                "label": "5. Please rate the extent to which you agree or disagree with the following statements:\n\nI am someone who...",
                 "options": {
                     "agree": "Agree",
                     "agreeStrongly": "Agree strongly",
@@ -591,7 +588,7 @@ const translations = {
                         }
                     }
                 },
-                "label": "4. For each of the following questions, please indicate the point on the 7-point scale that best describes you.",
+                "label": "6. For each of the following questions, please indicate the point on the 7-point scale that best describes you.",
                 "options": {
                     "aGreatDeal": "a great deal",
                     "notAtAll": "not at all"
@@ -627,7 +624,7 @@ const translations = {
                         "label": "I generally believe that things are going as well for me as they are for others around me"
                     }
                 },
-                "label": "5. Please rate the extent to which you agree or disagree with the following statements:",
+                "label": "7. Please rate the extent to which you agree or disagree with the following statements:",
                 "options": {
                     "agree": "Agree",
                     "agreeStrongly": "Agree strongly",
@@ -690,7 +687,7 @@ const translations = {
                         "label": "Religious practice makes it harder for people to think independently"
                     }
                 },
-                "label": "6. Please rate the extent to which you agree or disagree with the following statements:",
+                "label": "8. Please rate the extent to which you agree or disagree with the following statements:",
                 "options": {
                     "believeLittle": "Believe a little",
                     "believeStrong": "Strongly believe",
@@ -738,7 +735,7 @@ const translations = {
                         "label": "You follow your personal goals even if they are very different from the goals of your family"
                     }
                 },
-                "label": "7. Please rate the extent to which the following statements describe you.",
+                "label": "9. Please rate the extent to which the following statements describe you.",
                 "options": {
                     "aLittle": "A little",
                     "exactly": "Exactly",
