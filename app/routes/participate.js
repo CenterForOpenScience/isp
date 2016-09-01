@@ -50,6 +50,9 @@ export default Ember.Route.extend(AuthenticatedRouteMixin, WarnOnExitRouteMixin,
     return new Ember.RSVP.Promise((resolve, reject) => {
       this._getExperiment(params).then((experiment) => {
         this._getSession(params, experiment).then((session) => {
+          if (session.get('completed')) {
+            this.transitionTo('complete');
+          }
           this.set('_experiment', experiment);
           session.set('experimentVersion', '');
           session.set('experimentCondition', this._getCondition(session.get('profileId')));
