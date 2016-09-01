@@ -12,6 +12,7 @@ Router.map(function() {
   this.route('participate', function() {
     this.route('results');
   });
+  this.route('complete');
 });
 
 export default Router;
