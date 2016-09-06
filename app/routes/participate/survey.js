@@ -45,7 +45,7 @@ export default Ember.Route.extend(AuthenticatedRouteMixin, {
           this.set('_experiment', experiment);
           session.set('experimentVersion', '');
           session.set('experimentCondition', this._getCondition(session.get('profileId')));
-          session.set('locale', this.controllerFor('index').get('locale'));
+          session.set('locale', this.controllerFor('participate').get('locale'));
           session.save().then(() => {
             resolve(session);
           });
