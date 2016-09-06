@@ -5,7 +5,7 @@
         {{#if selectedLanguage}}
           You chose: {{selectedLanguage}}
         {{/if}}
-        <button id="select-language" class="btn btn-default" {{action 'showLanguageModal'}}>Select Language</button>
+        <button id="select-language" class="btn btn-default" {{action 'showLanguageSelector'}}>Select Language</button>
       </h3>
     {{/if}}
 
@@ -30,8 +30,8 @@
   </div>
 </div>
 
-{{#bs-modal body=false footer=false header=false open=showLanguageSelector}}
-  {{#bs-modal-header}}
+{{#bs-modal header=false body=false footer=false open=showLanguageSelector keyboard=false backdropClose=false backdrop=true}}
+  {{#bs-modal-header closeButton=false}}
     <h4> Please choose a language </h4>
   {{/bs-modal-header}}
   {{#bs-modal-body}}
