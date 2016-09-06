@@ -1,5 +1,4 @@
 import Ember from 'ember';
-import ExpConsentComponent from 'exp-player/components/exp-consent';
 import layout from './template';
 
 var content = {
@@ -25,27 +24,12 @@ var content = {
 };
 
 
-
-export default ExpConsentComponent.extend({
-    type: 'exp-isp-consent',
+export default Ember.Component.extend({
     layout: layout,
     studyId: null,
     content: Ember.computed(function() {
       return content[this.get('studyId')];
     }),
-    meta: {
-        name: 'Consent Form',
-        description: 'A simple consent form.',
-        parameters: {
-            type: 'object',
-            properties: {
-            }
-        },
-        data: {
-            type: 'object',
-            properties: {
-                // data structure defined in exp-consent.js
-            }
-        }
-    }
+    consentGranted: false,
+    consentNotGranted: Ember.computed.not('consentGranted')
 });
