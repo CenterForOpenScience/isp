@@ -30,8 +30,8 @@ export default Ember.Controller.extend({
     toggleInvalidLocale() {
       this.toggleProperty('invalidLocale');
     },
-    toggleLanguageSelector() {
-      this.toggleProperty('showLanguageSelector');
+    showLanguageSelector() {
+      this.set('showLanguageSelector', true);
     },
     selectLanguage(language, code) {
       this.setProperties({
