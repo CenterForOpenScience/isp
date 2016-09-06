@@ -7,5 +7,5 @@ export default ExpRadioGroupComponent.extend({
   layout,
   labelTop: null,
   labels: null,
-  formatLabel: false
+  formatLabel: null
 });

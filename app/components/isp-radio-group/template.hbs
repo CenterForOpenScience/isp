@@ -1,6 +1,6 @@
 <div class="isp-radio-group">
     {{#each options as |option index|}}
-      <label class="text-center label-text {{if formatLabel 'format-label'}}">
+      <label class="text-center label-text {{if formatLabel formatLabel}}">
           {{#if labelTop}}
             {{t option}}
             {{radio-button value=option checked=value}}
