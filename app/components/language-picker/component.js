@@ -18,10 +18,10 @@ export default Ember.Component.extend({
         });
       });
       langs.sort(function(a, b) {
-        if (a.name > b.name) {
+        if (a.countryCode > b.countryCode) {
           return 1;
         }
-        if (a.name < b.name) {
+        if (a.countryCode < b.countryCode) {
           return -1;
         }
         return 0;
