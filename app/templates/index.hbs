@@ -1,8 +1,9 @@
-{{#if selectedLanguage}}
-  <h3>
+<h3>
+  {{#if selectedLanguage}}
     You chose: {{selectedLanguage}}
-  </h3>
-{{/if}}
+  {{/if}}
+  <button id="select-language" class="btn btn-default" {{action 'showLanguageModal'}}>Select Language</button>
+</h3>
 
 {{#if invalidAuth}}
     {{#bs-modal title="An error occured when logging in." closedAction=(action 'toggleInvalidAuth')}}

@@ -1,4 +1,3 @@
-@import "components/radio-group";
 @import "components/progress-bar";
 @import "components/results-page";
 
@@ -42,4 +41,8 @@
 
 .exit-text {
   margin-top: 50px;
+}
+
+#select-language{
+  margin-bottom: 5px;
 }
