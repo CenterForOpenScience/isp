@@ -6,13 +6,8 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
-  this.route('index', { path: '/' }, function() {
-    this.route('info');
-    this.route('faqs');
-    this.route('contact');
-  });
   this.route('participate', { path: '' }, function() {
-    this.route('login');
+    this.route('login', { path: '/' });
     this.route('survey', function() {
       this.route('results');
       this.route('consent');
