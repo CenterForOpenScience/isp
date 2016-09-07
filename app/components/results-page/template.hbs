@@ -17,5 +17,7 @@
   <p><b>{{t 'feedback.fourthSection'}}</b></p>
 </div>
 <div class="row exp-controls">
-  <button class="btn btn-default pull-right">{{t 'thankyou.exitButton'}}</button>
+  {{#link-to 'exit' class="btn btn-default pull-right"}}
+    {{t 'thankyou.exitButton'}}
+  {{/link-to}}
 </div>
