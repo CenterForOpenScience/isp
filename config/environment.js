@@ -24,7 +24,8 @@ module.exports = function(environment) {
   };
 
   ENV['ember-simple-auth'] = {
-    authenticationRoute: 'index'
+    authenticationRoute: 'participate.login',
+    routeIfAlreadyAuthenticated: 'participate.survey'
   };
 
   if (environment === 'development') {
