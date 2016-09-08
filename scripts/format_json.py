@@ -118,7 +118,7 @@ def main():
             merge(data, format_dict(keys, row[1].strip(" ")))
     f = open('en-us.json', 'w')
     data.update(numbers)
-    data['measures']['questions']['4']['label'] = add_conditions(data['measures']['questions']['4']['label'])
+    data['measures']['questions']['3']['label'] = add_conditions(data['measures']['questions']['3']['label'])
     f.write(json.dumps(data, indent=4, sort_keys=True))
 
 

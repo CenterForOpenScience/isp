@@ -1,4 +1,3 @@
-@import "components/isp-radio-group";
 @import "components/progress-bar";
 @import "components/results-page";
 
@@ -40,10 +39,22 @@
   white-space: pre-line;
 }
 
+.exit-text {
+  margin-top: 50px;
+}
+
 #select-language{
   margin-bottom: 5px;
 }
 
 #consent-form {
   margin-top: 40px;
+}
+
+.participate-container {
+  padding: 30px;
+}
+
+.results-container {
+  padding: 30px;
 }
