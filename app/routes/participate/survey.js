@@ -22,19 +22,20 @@ export default Ember.Route.extend(AuthenticatedRouteMixin, {
   },
   _getSession(params, experiment) { // jshint ignore: line
     return this.get('currentUser').getCurrentUser().then(([account, profile]) => {
-      return account.pastSessionsFor(experiment, profile).then((pastSessions) => {
-        if (pastSessions.length === 0) {
-          return this.store.createRecord(experiment.get('sessionCollectionId'), {
-            experimentId: experiment.id,
-            profileId: account.get('username') + '.' + account.get('username'),
-            completed: false,
-            feedback: '',
-            hasReadFeedback: '',
-            expData: {},
-            sequence: []
-          });
-        }
-        return pastSessions[0];
+      return account.pastSessionsFor(experiment, profile).then((/* pastSessions */) => {
+        // TODO uncomment with https://github.com/CenterForOpenScience/isp/pull/51
+        // if (pastSessions.length === 0) {
+        return this.store.createRecord(experiment.get('sessionCollectionId'), {
+          experimentId: experiment.id,
+          profileId: account.get('username') + '.' + account.get('username'),
+          completed: false,
+          feedback: '',
+          hasReadFeedback: '',
+          expData: {},
+          sequence: []
+        });
+        //}
+        //return pastSessions[0];
       });
     });
   },
