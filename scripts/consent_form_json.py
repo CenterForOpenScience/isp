@@ -2,7 +2,6 @@
     Requires a client_secret.json file with developer application credentials from google drive.
     Modifies: https://developers.google.com/drive/v3/web/quickstart/python """
 
-from __future__ import print_function
 import httplib2
 import os
 import csv
