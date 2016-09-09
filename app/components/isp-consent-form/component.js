@@ -9,6 +9,10 @@ export default Ember.Component.extend({
     content: Ember.computed(function() {
       return consentText[this.get('studyId')];
     }),
-    consentGranted: false,
-    consentNotGranted: Ember.computed.not('consentGranted')
+    hasGrantedConsent: false,
+    actions: {
+      grantConsent() {
+        this.sendAction('grantConsent', this.get('hasGrantedConsent'));
+      }
+    }
 });

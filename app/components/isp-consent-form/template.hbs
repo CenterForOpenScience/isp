@@ -5,15 +5,13 @@
     <p>{{text}}</p>
   {{/each-in}}
   <hr>
-  <div class="input-group">
-    {{input type="checkbox" checked=consentGranted}}
+  <div class="form-group">
+    {{input type="checkbox" checked=hasGrantedConsent}}
     <span>
       {{content.consentLabel}}
     </span>
-  </div>
-  <div class="row exp-controls">
-  {{#link-to 'participate' class="btn btn-default pull-right btn-primary" disabled=consentNotGranted}}
+  <button class="btn btn-default pull-right btn-primary" disabled={{if hasGrantedConsent '' 'disabled'}} {{action 'grantConsent'}}>
     {{content.buttonLabel}}
-  {{/link-to}}
+  </button>
   </div>
 </div>
