@@ -16,8 +16,9 @@ export default Ember.Controller.extend({
       this.get('session')
         .authenticate('authenticator:jam-jwt', attrs)
         .then(() => {
-          this.set('studyId', attrs['password']);
-          this.set('participantId', attrs['username']);
+          var surveyController = Ember.getOwner(this).lookup('controller:participate');
+          surveyController.set('studyId', attrs.password);
+          surveyController.set('participantId', attrs.username);
           this.transitionToRoute('participate.survey.consent')})
         .catch((e) => {
           if (e.status === 404) {

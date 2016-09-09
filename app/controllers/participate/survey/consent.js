@@ -3,7 +3,7 @@ import Ember from 'ember';
 export default Ember.Controller.extend({
   hasGrantedConsent: false,
   studyId: Ember.computed(function() {
-    return Ember.getOwner(this).lookup('controller:participate.login').get('studyId');
+    return Ember.getOwner(this).lookup('controller:participate').get('studyId');
   }),
   actions: {
     grantConsent() {
