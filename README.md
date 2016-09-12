@@ -20,10 +20,41 @@ You will need the following things properly installed on your computer.
 * `npm install`
 * `bower install`
 
+### Install submodule dependencies
+
+```bash
+cd lib
+git submodule init
+git submodule update
+```
+
+You may need to run the npm and bower install commands in `lib/exp-player` and `lib/exp-models` as well.
+
 ## Running / Development
 
-* `ember server`
+Setup instructions are broadly derived from those of the [experimenter addon](https://github.com/CenterForOpenScience/experimenter/). 
+For most use cases, it should be possible to run against a remote installation of JamDB. The instructions below assume a staging server, 
+`https://staging-metadata.osf.io`.
+
+To login via OSF:
+* create .env file in top directory
+* in .env file include:
+  * OSF_CLIENT_ID=\<client ID for staging account\>
+  * OSF_SCOPE="osf.users.all_read"
+  * OSF_URL="https://staging-accounts.osf.io"
+  * OSF_AUTH_URL=https://staging-accounts.osf.io
+  * JAMDB_URL=https://staging-metadata.osf.io
+  * STUDY_ID=\<jam db document ID referencing the desired ISP study\>
+
+Then run the ember application:
+
+* `ember server --environment=staging`
 * Visit your app at [http://localhost:4200](http://localhost:4200).
+
+### Trying an experiment
+Once the app is started, you will need to log in. Provide a study ID and participant ID. 
+These are human readable strings as defined by the researchers, and are available on request (not committed to Github). 
+There may be different study IDs to test conditions at different times of day.
 
 ### Code Generators
 
