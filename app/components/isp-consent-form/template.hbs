@@ -1,9 +1,9 @@
 <div id="consent-form" class="well">
   <h2>{{content.title}}</h2>
   <hr>
-  {{#each-in content.paragraphs as |paragraph text|}}
-    <p>{{text}}</p>
-  {{/each-in}}
+  {{#each content.paragraphs as |paragraph|}}
+    <p>{{paragraph}}</p>
+  {{/each}}
   <hr>
   <div class="form-group">
     {{input type="checkbox" checked=hasGrantedConsent}}
