@@ -15,7 +15,11 @@ export default Ember.Controller.extend({
     authenticate(attrs) {
       this.get('session')
         .authenticate('authenticator:jam-jwt', attrs)
-        .then(() => this.transitionToRoute('participate.survey.consent'))
+        .then(() => {
+          var surveyController = Ember.getOwner(this).lookup('controller:participate');
+          surveyController.set('studyId', attrs.password);
+          surveyController.set('participantId', attrs.username);
+          this.transitionToRoute('participate.survey.consent')})
         .catch((e) => {
           if (e.status === 404) {
             this.send('toggleInvalidAuth');
