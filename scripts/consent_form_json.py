@@ -84,7 +84,7 @@ def download_files(files, service):
 
 def format_consent_form(filename):
     site_info = {
-      'paragraphs': {}
+      'paragraphs': []
     }
     with open(filename, 'rb') as csvfile:
         reader = csv.reader(csvfile)
@@ -94,7 +94,7 @@ def format_consent_form(filename):
             if 'paragraph' not in key:
                 site_info[key] = value
             elif not value == "ADD OR REMOVE ROWS AS NEEDED":
-                site_info['paragraphs'][key] = row[1].strip(" ")
+                site_info['paragraphs'].append(row[1].strip(" "))
     return site_info
 
 
