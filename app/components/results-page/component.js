@@ -37,7 +37,7 @@ export default Ember.Component.extend({
   session: null,
   feedback: Ember.computed(function() {
     var session = this.get('session');
-    var items = session.get('expData')['4-4-rating-form']['responses']['4'];
+    var items = session.get('expData')['3-3-rating-form']['responses']['4'];
     var extraversion = averageScores([1, 6, 21, 41, 46, 56], [11, 16, 26, 31, 36, 51], items);
     var agreeableness = averageScores([2, 7, 27, 32, 52, 57], [12, 17, 22, 37, 42, 47], items);
     var conscientiousness = averageScores([13, 18, 33, 38, 43, 53], [3, 8, 23, 28, 48, 58], items);
