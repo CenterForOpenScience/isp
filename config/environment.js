@@ -8,7 +8,7 @@ module.exports = function(environment) {
     baseURL: '/',
     locationType: 'auto',
     i18n: {
-      defaultLocale: 'en-us'
+      defaultLocale: 'en'
     },
     EmberENV: {
       FEATURES: {
