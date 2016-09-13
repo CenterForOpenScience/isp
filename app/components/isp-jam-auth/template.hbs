@@ -1,19 +1,19 @@
 <div class="well">
     <div class="form">
       <div class="form-group">
-        <label for="participant">Study ID</label>
+        <label for="participant">{{t 'login.studyID'}}</label>
         <div class="form-input">
           {{input value=password}}
         </div>
       </div>
       <div class="form-group">
-        <label for="participant">Participant ID</label>
+        <label for="participant">{{t 'login.participantID'}}</label>
         <div class="form-input">
           {{input value=username}}
         </div>
       </div>
       <div class="form-group">
-        <button disabled={{if (not (and password username)) true false}} class="btn btn-primary" onclick={{action 'authenticate'}}>Continue >></button>
+        <button disabled={{if (not (and password username)) true false}} class="btn btn-primary" onclick={{action 'authenticate'}}>{{t 'global.continueLabel'}}</button>
       </div>
     </div>
 </div>
