@@ -16,3 +16,8 @@
 npm-debug.log
 testem.log
 /scripts/credentials/*
+
+# local configuration
+.env
+.env-local
+env
