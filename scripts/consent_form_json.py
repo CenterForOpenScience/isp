@@ -8,9 +8,8 @@ import csv
 import json
 
 from apiclient import discovery
-import oauth2client
-from oauth2client import client
-from oauth2client import tools
+from oauth2client import file, client, tools
+
 
 try:
     import argparse
@@ -41,7 +40,7 @@ def get_credentials():
     """
     credential_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'credentials')
     credential_path = os.path.join(credential_dir, 'credentials.json')
-    store = oauth2client.file.Storage(credential_path)
+    store = file.Storage(credential_path)
     credentials = store.get()
     if not credentials or credentials.invalid:
         flow = client.flow_from_clientsecrets(CLIENT_SECRET_FILE, SCOPES)
@@ -100,4 +99,3 @@ def format_consent_form(filename):
 
 if __name__ == '__main__':
     main()
-
