@@ -17,6 +17,7 @@ const translations = {
     "feedback": {
         "agree": "Agreeableness",
         "consc": "Conscientiousness",
+        "exitButton": "Exit",
         "extra": "Extraversion",
         "firstSection": "Based on decades of research, personality researchers agree that the most important individual differences in personality traits are described by five basic traits known as the \u201cBig Five\u201d: Extraversion, Agreeableness, Conscientiousness, Emotional Stability, and Openness to Experience.  The measures you just completed provide scores on each of these traits and your results are described below.",
         "fourthSection": "Thank you for your participation!",
@@ -36,6 +37,9 @@ const translations = {
         "secondSection": "On each trait, scores above 60 can be considered high, and scores below 40 can be considered low. Descriptions of high and low scorers appear below. If your score is between 40 and 60, then your personality would probably be described as about average on the attributes listed.",
         "thirdSection": "We hope you enjoyed your participation in this study.",
         "title": "Your Personality"
+    },
+    "flag": {
+        "chooseLanguage": "Please choose a language"
     },
     "global": {
         "aGreatDeal": "a great deal",
@@ -77,6 +81,13 @@ const translations = {
         "selectUnselected": "Please select",
         "yesLabel": "Yes"
     },
+    "login": {
+        "changeButton": "Change language",
+        "ISP": "International Situations Project",
+        "participantID": "Participant ID",
+        "studyID": "Study ID",
+        "youChose": "You chose:"
+    },
     "measures": {
         "questions": {
             "1": {
@@ -91,8 +102,7 @@ const translations = {
                     "quitePos": "Quite positive",
                     "somewhatNeg": "Somewhat negative",
                     "somewhatPos": "Somewhat positive"
-                },
-                "selectUnselected": "Please select"
+                }
             },
             "10": {
                 "items": {
@@ -1003,8 +1013,7 @@ const translations = {
                             "male": "Male",
                             "na": "I would rather not state",
                             "other": "Other"
-                        },
-                        "selectUnselected": "Please select"
+                        }
                     },
                     "3": {
                         "label": "What is your ethnicity?"
@@ -1025,8 +1034,7 @@ const translations = {
                             "rural": "rural",
                             "suburban": "suburban",
                             "urban": "urban"
-                        },
-                        "selectUnselected": "Please select"
+                        }
                     },
                     "8": {
                         "label": "Do you follow a religion?",
