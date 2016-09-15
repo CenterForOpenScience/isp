@@ -16,11 +16,6 @@ export default Ember.Controller.extend({
       this.set('session', session);
       this.get('session').save();
     },
-    updateFrameIndex(frameIndex) {
-      this.set('frameIndex', frameIndex + 1);
-      // reset framePage on frame change
-      this.set('framePage', 1);
-    },
     updateFramePage(framePage) {
       this.set('framePage', framePage);
     }
