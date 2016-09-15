@@ -15,9 +15,6 @@ export default Ember.Controller.extend({
     saveSession(session) {
       this.set('session', session);
       this.get('session').save();
-    },
-    updateFramePage(framePage) {
-      this.set('framePage', framePage);
     }
   }
 });
