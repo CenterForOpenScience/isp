@@ -3,9 +3,9 @@
     {{#if selectedLanguage}}
       <h3>
         {{#if selectedLanguage}}
-          You chose: {{selectedLanguage}}
+          {{t 'login.youChose'}} {{selectedLanguage}}
         {{/if}}
-        <button id="select-language" class="btn btn-default" {{action 'showLanguageSelector'}}>Select Language</button>
+        <button id="select-language" class="btn btn-default" {{action 'showLanguageSelector'}}>{{t 'login.changeButton'}}</button>
       </h3>
     {{/if}}
 
@@ -23,7 +23,7 @@
 
     <div class="row">
       <div class="col-md-12">
-        <h1> International Situations Project </h1>
+        <h1>{{t 'login.ISP'}}</h1>
         {{isp-jam-auth login=(action 'authenticate')}}
       </div>
     </div>
@@ -32,7 +32,7 @@
 
 {{#bs-modal header=false body=false footer=false open=showLanguageSelector keyboard=false backdropClose=false backdrop=true}}
   {{#bs-modal-header closeButton=false}}
-    <h4> Please choose a language </h4>
+    <h4>{{t 'flag.chooseLanguage'}}</h4>
   {{/bs-modal-header}}
   {{#bs-modal-body}}
     {{language-picker onPick=(action 'selectLanguage')}}
