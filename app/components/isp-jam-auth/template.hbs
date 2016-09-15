@@ -13,7 +13,7 @@
         </div>
       </div>
       <div class="form-group">
-        <button disabled={{if (not (and password username)) true false}} class="btn btn-primary" onclick={{action 'authenticate'}}>{{t 'global.continueLabel'}}</button>
+        <button disabled={{if (or authenticating (not (and password username))) true false}} class="btn btn-primary" onclick={{action 'authenticate'}}>{{t 'global.continueLabel'}}</button>
       </div>
     </div>
 </div>
