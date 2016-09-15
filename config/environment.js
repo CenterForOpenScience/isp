@@ -8,7 +8,7 @@ module.exports = function(environment) {
     baseURL: '/',
     locationType: 'auto',
     i18n: {
-      defaultLocale: 'en-us'
+      defaultLocale: 'en'
     },
     EmberENV: {
       FEATURES: {
@@ -41,7 +41,7 @@ module.exports = function(environment) {
     ENV.JAMDB = {
       authorizer: 'jam-jwt',
       collection:'accounts',
-      namespace: 'experimenter',
+      namespace: 'isp',
       url: 'http://localhost:1212'
     };
   }

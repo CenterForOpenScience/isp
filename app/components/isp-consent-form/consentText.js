@@ -9,4 +9,4 @@ export default {
         ],
         "title": "Consent to Participate in Research"
     }
-}
+};
