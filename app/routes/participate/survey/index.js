@@ -15,11 +15,11 @@ export default Ember.Route.extend({
       if (frameIndex !== 0) {
         this.replaceWith('participate.survey.index');
         // Disable back button in qsort page 2, and rating-form page 1
-        if (!(frameIndex === 2 && framePage === 2) && frameIndex !== 3) {
+        if (!(frameIndex === 2 && framePage === 1) && frameIndex !== 3) {
           this.controllerFor('participate.survey.index').set('frameIndex', frameIndex - 1);
         }
         // Update pages within the rating-form
-        if (frameIndex === 3 && framePage !== 1) {
+        if (frameIndex === 3 && framePage !== 0) {
           this.controllerFor('participate.survey.index').set('framePage', framePage - 1);
         }
       }
