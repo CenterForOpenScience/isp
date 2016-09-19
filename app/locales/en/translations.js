@@ -78,12 +78,13 @@ const translations = {
         },
         "noLabel": "No",
         "notAtAll": "not at all",
+        "previousLabel": "Previous Page",
         "selectUnselected": "Please select",
         "yesLabel": "Yes"
     },
     "login": {
-        "changeButton": "Change language",
         "ISP": "International Situations Project",
+        "changeButton": "Change language",
         "participantID": "Participant ID",
         "studyID": "Study ID",
         "youChose": "You chose:"
