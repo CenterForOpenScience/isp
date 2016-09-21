@@ -73,5 +73,7 @@ module.exports = function(environment) {
 
   ENV.studyId = process.env.STUDY_ID;
 
+  ENV.loadData = false;
+
   return ENV;
 };
