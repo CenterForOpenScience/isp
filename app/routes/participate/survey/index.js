@@ -10,6 +10,11 @@ export default Ember.Route.extend({
   actions: {
     willTransition(transition) {
       this._super(transition);
+
+      if (transition.targetName === 'participate.survey.results') {
+        return true;
+      }
+
       var frameIndex = this.controllerFor('participate.survey.index').get('frameIndex');
       var framePage = this.controllerFor('participate.survey.index').get('framePage');
       if (frameIndex !== 0) {
