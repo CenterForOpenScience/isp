@@ -1,11 +1,11 @@
 import Ember from 'ember';
 
 var VALUES = {
- 'measures.questions.5.options.disagreeStrongly': 1,
- 'measures.questions.5.options.disagree': 2,
- 'measures.questions.5.options.neutral': 3,
- 'measures.questions.5.options.agree': 4,
- 'measures.questions.5.options.agreeStrongly': 5
+ 'disagreeStrongly': 1,
+ 'disagree': 2,
+ 'neutral': 3,
+ 'agree': 4,
+ 'agreeStrongly': 5
 };
 
 function averageScores(questions, reversed, items) {
