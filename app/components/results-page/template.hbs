@@ -6,7 +6,15 @@
   {{#each feedback as |trait|}}
   <div class="row">
       <h5>{{t trait.name}}</h5>
-      <h5>{{t 'feedback.score'}}&nbsp;{{trait.score}}</h5>
+      <h5>{{t 'feedback.score'}}&nbsp;{{trait.score}}
+      {{#if (gte trait.score 60)}}
+        High
+      {{else if (lte trait.score 40)}}
+        Low
+      {{else}}
+        Medium
+      {{/if}}
+      </h5>
       <div class="col-md-12 trait trait-border trait-border-bottom">{{t trait.description.high}}</div>
       <div class="col-md-12 trait trait-border">{{t trait.description.low}}</div>
   </div>
