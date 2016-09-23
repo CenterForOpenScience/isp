@@ -1,21 +1,29 @@
 import Ember from 'ember';
+import ENV from 'isp/config/environment';
+
 
 export default Ember.Controller.extend({
   model: null,
   session: null,
   frameIndex: Ember.computed(function() {
-    var session = this.get('session');
-    if (session && session.get('frameIndex')) {
-      return session.get('frameIndex');
+    var frameIndex = 0;
+    if (ENV.continueSession) {
+      var session = this.get('session');
+      if (session && session.get('frameIndex')) {
+        frameIndex = session.get('frameIndex');
+      }
     }
-    return 0;
+    return frameIndex;
   }),
   framePage: Ember.computed(function() {
-    var session = this.get('session');
-    if (session && session.get('framePage')) {
-      return session.get('framePage');
+    var framePage = 0;
+    if (ENV.continueSession) {
+      var session = this.get('session');
+      if (session && session.get('framePage')) {
+        framePage = session.get('framePage');
+      }
     }
-    return 0;
+    return framePage;
   }),
   store: Ember.inject.service(),
   isDirty: function() {
