@@ -14,7 +14,7 @@ export default [
         "languages": [
             {
                 "code": "de-AT",
-                "name": "Deutsch (AT)"
+                "name": "German (AT)"
             }
         ],
         "name": "Austria"
@@ -504,7 +504,7 @@ export default [
             },
             {
                 "code": "de-CH",
-                "name": "Deutsch (CH)"
+                "name": "German (CH)"
             }
         ],
         "name": "Switzerland"
