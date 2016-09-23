@@ -30,6 +30,16 @@ export default [
         "name": "Belgium"
     },
     {
+        "code": "BG",
+        "languages": [
+            {
+                "code": "bg-BG",
+                "name": "Bulgarian"
+            }
+        ],
+        "name": "Bulgaria"
+    },
+    {
         "code": "BR",
         "languages": [
             {
