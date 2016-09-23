@@ -14,7 +14,7 @@ export default [
         "languages": [
             {
                 "code": "de-AT",
-                "name": "Deutsch (AT)"
+                "name": "German (AT)"
             }
         ],
         "name": "Austria"
@@ -28,6 +28,16 @@ export default [
             }
         ],
         "name": "Belgium"
+    },
+    {
+        "code": "BG",
+        "languages": [
+            {
+                "code": "bg-BG",
+                "name": "Bulgarian"
+            }
+        ],
+        "name": "Bulgaria"
     },
     {
         "code": "BR",
@@ -504,7 +514,7 @@ export default [
             },
             {
                 "code": "de-CH",
-                "name": "Deutsch (CH)"
+                "name": "German (CH)"
             }
         ],
         "name": "Switzerland"
