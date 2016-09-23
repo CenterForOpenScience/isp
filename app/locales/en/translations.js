@@ -1,5 +1,5 @@
 const translations = {
-    "Key": "EN-US",
+    "Key": "English",
     "consent": {
         "button": {
             "labelUnaccepted": "Please accept terms to continue"
@@ -7,7 +7,7 @@ const translations = {
         "checkboxLabel": "I have read and understand the above statements and agree to participate.",
         "firstSection": "Welcome to our study. Your participation will be in one session, which should take about one hour to complete. You will be instructed in the use of an on-line tool for recording information about a situation you experienced recently and your behaviors in it. You will also be asked some questions about your values and attitudes. At the end of the study, you will receive personalized information about your personality.",
         "secondSection": "All of your responses will be kept confidential and identified only by a number (and not by your name). You are free to end your involvement in this research at any time without penalty of any sort. Further, you are free not to answer any questions in this study if you so choose.",
-        "thirdSection": "If you have any questions about this study or your rights as a participant, you may contact the Project Coordinator, Erica Baranski, at erica.baranski.ucr.edu, or contact the Human Subjects Review Committee in the Research Office at the University of California, Riverside (1-951-827-5535). We sincerely appreciate your cooperation. Your cooperation makes this research possible.\r",
+        "thirdSection": "If you have any questions about this study or your rights as a participant, you may contact the Project Coordinator, Erica Baranski, at erica.baranski.ucr.edu, or contact the Human Subjects Review Committee in the Research Office at the University of California, Riverside (1-951-827-5535). We sincerely appreciate your cooperation. Your cooperation makes this research possible.",
         "title": "Consent to Participate in Research"
     },
     "exitpage": {
@@ -42,7 +42,7 @@ const translations = {
         "chooseLanguage": "Please choose a language"
     },
     "global": {
-        "aGreatDeal": "a great deal",
+        "aGreatDeal": "A great deal",
         "agreement": {
             "agree": "Agree",
             "agreeStrong": "Agree strongly",
@@ -77,7 +77,7 @@ const translations = {
             "veryWell": "Very well"
         },
         "noLabel": "No",
-        "notAtAll": "not at all",
+        "notAtAll": "Not at all",
         "previousLabel": "Previous Page",
         "selectUnselected": "Please select",
         "yesLabel": "Yes"
@@ -321,7 +321,7 @@ const translations = {
                         "label": "I sought advice."
                     },
                     "13": {
-                        "label": "I acted playful."
+                        "label": "I acted playfully."
                     },
                     "14": {
                         "label": "I expressed self-pity or feelings of victimization."
@@ -563,7 +563,7 @@ const translations = {
                         "label": "Stays optimistic after experiencing a setback"
                     }
                 },
-                "label": "Please rate the extent to which you agree or disagree with the following statements:\n\nI am someone who...",
+                "label": "Please rate the extent to which you agree or disagree with the following statements:\n \n I am someone who...",
                 "options": {
                     "agree": "Agree",
                     "agreeStrongly": "Agree strongly",
@@ -577,32 +577,32 @@ const translations = {
                     "1": {
                         "label": "In general, I consider myself",
                         "options": {
-                            "notHappy": "not a very happy person",
-                            "veryHappy": "a very happy person"
+                            "notHappy": "Not a very happy person",
+                            "veryHappy": "A very happy person"
                         }
                     },
                     "2": {
                         "label": "Compared to most of my peers, I consider myself",
                         "options": {
-                            "lessHappy": "less happy",
-                            "moreHappy": "more happy"
+                            "lessHappy": "Less happy",
+                            "moreHappy": "More happy"
                         }
                     },
                     "3": {
-                        "label": "Some people are generally very happy. They enjoy life regardless of what is going on, getting the most out of everything. \n To what extent does this characterization describe you?"
+                        "label": "Some people are generally very happy. They enjoy life regardless of what is going on, getting the most out of everything. \n  To what extent does this characterization describe you?"
                     },
                     "4": {
-                        "label": "Some people are generally not very happy. Although they are not depressed, they never seem as happy as they might be. \n To what extent does this characterization describe you?",
+                        "label": "Some people are generally not very happy. Although they are not depressed, they never seem as happy as they might be. \n  To what extent does this characterization describe you?",
                         "options": {
-                            "aGreatDeal": "a great deal",
-                            "notAtAll": "not at all"
+                            "aGreatDeal": "A great deal",
+                            "notAtAll": "Not at all"
                         }
                     }
                 },
                 "label": "For each of the following questions, please indicate the point on the 7-point scale that best describes you.",
                 "options": {
-                    "aGreatDeal": "a great deal",
-                    "notAtAll": "not at all"
+                    "aGreatDeal": "A great deal",
+                    "notAtAll": "Not at all"
                 }
             },
             "7": {
@@ -755,13 +755,6 @@ const translations = {
                     "veryWell": "Very well"
                 }
             }
-        },
-        "scale": {
-            "Disagree": "Disagree",
-            "DisagreeStrongly": "Disagree strongly",
-            "agree": "Agree",
-            "agreeStrongly": "Agree strongly",
-            "neutral": "Neutral; no opinion"
         }
     },
     "number0": "0",
@@ -972,7 +965,7 @@ const translations = {
                     "neutral": "Neutral",
                     "uncharacteristic": "Uncharacteristic"
                 },
-                "instructions": "Describe the situation.  Please use these items to describe the situation you experienced yesterday. There are 90 items, which will appear one at a time. Begin by placing each item into one of three boxes. Use the \u201cCharacteristic\u201d box on the right for items that accurately describe the situation; use the \u201cUncharacteristic\u201d box on the left for items that are undescriptive of the situation, and use the \u201cNeutral\u201d box for items that are irrelevant, unclear, or about which you are uncertain. When you are finished, press \u201cContinue.\u201d",
+                "instructions": "Describe the situation. Please use these items to describe the situation you experienced yesterday. There are 90 items, which will appear one at a time. Begin by placing each item into one of three boxes. Use the \u201cCharacteristic\u201d box on the right for items that accurately describe the situation; use the \u201cUncharacteristic\u201d box on the left for items that are undescriptive of the situation, and use the \u201cNeutral\u201d box for items that are irrelevant, unclear, or about which you are uncertain. When you are finished, press \u201cContinue.\u201d",
                 "itemsLeft": "items left",
                 "location": "Location:",
                 "othersPresent": "Others present:"
@@ -999,13 +992,13 @@ const translations = {
     "survey": {
         "sections": {
             "1": {
-                "instructions": "Welcome! We are interested in the situations people experience and what they do in them. You will describe a situation you experienced recently and what you did in that situation. You will also be asked some questions about your attitudes and values. Based on these responses, when you have completed the study, you will receive individualized information about your personality that we hope you will find interesting.\n\nTo begin, please answer a few simple questions about yourself.",
+                "instructions": "Welcome! We are interested in the situations people experience and what they do in them. You will describe a situation you experienced recently and what you did in that situation. You will also be asked some questions about your attitudes and values. Based on these responses, when you have completed the study, you will receive individualized information about your personality that we hope you will find interesting.\n \n To begin, please answer a few simple questions about yourself.",
                 "questions": {
                     "1": {
                         "label": "Age (16 to 100)"
                     },
                     "10": {
-                        "label": "On a scale from 1 to 10, how religious are you?"
+                        "label": "If so, which one do you follow?"
                     },
                     "2": {
                         "label": "Gender (Male, Female, Other, I would rather not state)",
@@ -1023,7 +1016,7 @@ const translations = {
                         "label": "What was your first language?"
                     },
                     "5": {
-                        "label": "On a scale from 1 to 10 with 10 being people who are the most well off in society, and 1 being the people who are the least well off, where would you describe your family\u2019s position?"
+                        "label": "On a scale from 1 to 10 with 10 being people who are the most well off in your society, and 1 being the people who are the least well off, where would you describe your family\u2019s position?"
                     },
                     "6": {
                         "label": "Birth city and country"
@@ -1038,17 +1031,17 @@ const translations = {
                         }
                     },
                     "8": {
+                        "label": "On a scale from 1 to 10, how religious are you?"
+                    },
+                    "9": {
                         "label": "Do you follow a religion?",
                         "noLabel": "No",
                         "yesLabel": "Yes"
-                    },
-                    "9": {
-                        "label": "If so, which one do you follow?"
                     }
                 }
             },
             "2": {
-                "instructions": "Please describe what you were doing yesterday at ##.\n\nPlease be as specific as possible, and only write about ONE THING you were doing. For example, you can write \u201cI was shopping for groceries with my friend,\u201d but do NOT write \u201cI was shopping for groceries and then had dinner.\u201d If you were sleeping at that time, please say so. However, please also describe what you were doing right before you fell asleep, or right after you woke up.\n\nPlease describe:\n\n1. What you were doing\n2. Where you were\n3. Who else was present\n\nPlease type your responses in the boxes below.",
+                "instructions": "Please describe what you were doing yesterday at ##.\n \n Please be as specific as possible, and only write about ONE THING you were doing. For example, you can write \u201cI was shopping for groceries with my friend,\u201d but do NOT write \u201cI was shopping for groceries and then had dinner.\u201d If you were sleeping at that time, please say so. However, please also describe what you were doing right before you fell asleep, or right after you woke up.\n \n Please describe:\n \n 1. What you were doing\n 2. Where you were\n 3. Who else was present\n \n Please type your responses in the boxes below.",
                 "questions": {
                     "11": {
                         "characterCount": "0 out of 75 characters used",
