@@ -26,6 +26,11 @@ const translations = {
         "hiExtra": "High scorers tend to be talkative and energetic. They like being around people, and are comfortable asserting themselves in a group. High scorers tend to have more friends and dating partners, and are seen as more popular. They are more likely to serve in community leadership roles, and to do volunteer work. They tend to prefer energetic music, exercise more frequently, and are more likely to play a sport. They experience more frequent positive emotions, and react more strongly to positive events.",
         "hiNeurot": "High scorers tend to be emotionally stable and resilient. They usually stay calm, even in stressful situations, and can quickly bounce back from negative events. People who score high on emotional stability tend to feel a greater sense of well-being.",
         "hiOpen": "High scorers are generally open to new activities and new ideas. They tend to be creative, intellectually curious, and sensitive to art and beauty. High scorers tend to prefer, and do better in, scientific and artistic occupations. They prefer classical, jazz, blues, and rock music.",
+        "labels": {
+            "high": "High",
+            "low": "Low",
+            "medium": "Medium"
+        },
         "loAgree": "Low scorers express themselves directly and bluntly, even at the risk of starting an argument. They enjoy competition, and tend to be skeptical of other people's intentions. Low scorers tend to earn higher salaries, and are more likely to engage in some risky behaviors, such as smoking and aggressive driving.",
         "loConsc": "Low scorers tend to act spontaneously rather than making plans, and find it easier to look at the big picture than pay attention to details. They prefer to jump between tasks, instead of finishing one at a time. They tend to engage in more risky behaviors, such as smoking, alcohol consumption, and drug use.",
         "loExtra": "Low scorers tend to be socially and emotionally reserved. They generally prefer to be alone or with a few close friends, and keep their opinions and feelings to themselves. They are less likely to engage in thrill-seeking activities or risky behaviors such as smoking and alcohol consumption.",
@@ -589,7 +594,11 @@ const translations = {
                         }
                     },
                     "3": {
-                        "label": "Some people are generally very happy. They enjoy life regardless of what is going on, getting the most out of everything. \n  To what extent does this characterization describe you?"
+                        "label": "Some people are generally very happy. They enjoy life regardless of what is going on, getting the most out of everything. \n  To what extent does this characterization describe you?",
+                        "options": {
+                            "aGreatDeal": "A great deal",
+                            "notAtAll": "Not at all"
+                        }
                     },
                     "4": {
                         "label": "Some people are generally not very happy. Although they are not depressed, they never seem as happy as they might be. \n  To what extent does this characterization describe you?",
@@ -599,11 +608,7 @@ const translations = {
                         }
                     }
                 },
-                "label": "For each of the following questions, please indicate the point on the 7-point scale that best describes you.",
-                "options": {
-                    "aGreatDeal": "A great deal",
-                    "notAtAll": "Not at all"
-                }
+                "label": "For each of the following questions, please indicate the point on the 7-point scale that best describes you."
             },
             "7": {
                 "items": {

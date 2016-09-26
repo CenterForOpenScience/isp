@@ -10,7 +10,7 @@ var VALUES = {
 
 function averageScores(questions, reversed, items) {
   var total = score(questions, items) + reverseScore(reversed, items);
-  return (total - 12)/48 * 100;
+  return Math.round((total - 12)/48 * 100);
 }
 
 function score(questions, items) {
