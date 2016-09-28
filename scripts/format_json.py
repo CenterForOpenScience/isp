@@ -1,3 +1,9 @@
+""" Convert translation spreadsheet (downloaded as a csv file) to json.
+    Keys that include a "." indicate nesting, so 'flag.chooseLanguage' is converted to {flag:{chooseLanguage: value}}
+
+    Note: After running this script, add the resulting json to the translations.js file in isp/app/locales/<locale>/
+    If the locale folder does not exist, run 'ember generate locale <locale> in the isp/app directory. """
+
 import csv
 import json
 import collections

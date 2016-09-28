@@ -1,5 +1,8 @@
-""" Download all csv files with consent form content from google drive and combine into a single json file.
+""" Download all files with consent form content from google drive into csv format and combine into a single json file.
     Requires a client_secret.json file with developer application credentials from google drive.
+
+    Note: After running this script, add the resulting json to isp/app/components/isp-consent-form/consentText.js
+
     Modifies: https://developers.google.com/drive/v3/web/quickstart/python """
 
 import httplib2
