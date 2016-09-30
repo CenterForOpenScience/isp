@@ -76,5 +76,8 @@ module.exports = function(environment) {
   // Whether to load existing expData into the exp-frames
   ENV.loadData = false;
 
+  // Whether to validate survey forms
+  ENV.validate = false;
+
   return ENV;
 };

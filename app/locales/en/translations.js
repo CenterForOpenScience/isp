@@ -264,6 +264,9 @@ const translations = {
                     },
                     "4": {
                         "label": "Generally, I trust others"
+                    },
+                    "5": {
+                        "label": "Most people are trustworthy"
                     }
                 },
                 "label": "Please rate the extent to which you agree or disagree with the following statements:",
@@ -320,7 +323,7 @@ const translations = {
                         "label": "I wouldn't pretend to like someone just to get that person to do favors for me."
                     },
                     "4": {
-                        "label": "If I knew that I could never get caught, I would be willing to steal a million dollars."
+                        "label": "If I knew that I could never get caught, I would be willing to steal a large sum of money."
                     },
                     "5": {
                         "label": "I would never accept a bribe, even if it were very large."
@@ -688,7 +691,7 @@ const translations = {
                         }
                     },
                     "2": {
-                        "label": "Compared to most of my peers, I consider myself",
+                        "label": "Compared to most of the people around me, I consider myself",
                         "options": {
                             "lessHappy": "Less happy",
                             "moreHappy": "More happy"
@@ -988,7 +991,7 @@ const translations = {
                     "somewhatChar": "Somewhat Characteristic",
                     "somewhatUnchar": "Somewhat Uncharacteristic"
                 },
-                "instructions": "Describe the situation. Now, from the three boxes, please place the items into nine boxes. Placing an item in the highest (right-hand) category indicates that the item is \u201cextremely characteristic\u201d of the situation. Only three cards can go into this category, so they should be the best descriptors. Putting an item in the middle categories means that the item is irrelevant to the situation, or that you are unsure of where the item belongs. Putting an item in the lowest (right-hand) category implies that the item is \u201cextremely uncharacteristic\u201d of the situation. Again, only three cards can go into this category so they should be the items that are the very LEAST characteristic. A fixed number of items goes into each box. You can drag and drop items from one box to another, but if you leave too many items in any one box, the heading will turn red. The heading will turn green when the right number of items is in the box.",
+                "instructions": "Describe the situation. Now, from the three boxes, please place the items into nine boxes. Placing an item in the highest (right-hand) category indicates that the item is \u201cextremely characteristic\u201d of the situation. Only three cards can go into this category, so they should be the best descriptors. Putting an item in the middle categories means that the item is irrelevant to the situation, or that you are unsure of where the item belongs. Putting an item in the lowest (left-hand) category implies that the item is \u201cextremely uncharacteristic\u201d of the situation. Again, only three cards can go into this category so they should be the items that are the very LEAST characteristic. A fixed number of items goes into each box. You can drag and drop items from one box to another, but if you leave too many items in any one box, the heading will turn red. The heading will turn green when the right number of items is in the box.",
                 "location": "Location:",
                 "othersPresent": "Others present:"
             }
@@ -997,7 +1000,7 @@ const translations = {
     "survey": {
         "sections": {
             "1": {
-                "instructions": "Welcome! We are interested in the situations people experience and what they do in them. You will describe a situation you experienced recently and what you did in that situation. You will also be asked some questions about your attitudes and values. Based on these responses, when you have completed the study, you will receive individualized information about your personality that we hope you will find interesting.\n \n To begin, please answer a few simple questions about yourself.",
+                "instructions": "Welcome! We are interested in the situations people experience and what they do in them. You will describe a situation you experienced recently and what you did in that situation. You will also be asked some questions about your attitudes and values. Based on these responses, when you have completed the study, you will be given the option to receive individualized information about your personality that we hope you will find interesting. The following will take less than an hour to complete. \n \nTo begin, please answer a few questions about yourself.",
                 "questions": {
                     "1": {
                         "label": "Age (16 to 100)"
@@ -1046,7 +1049,7 @@ const translations = {
                 }
             },
             "2": {
-                "instructions": "Please describe what you were doing yesterday at ##.\n \n Please be as specific as possible, and only write about ONE THING you were doing. For example, you can write \u201cI was shopping for groceries with my friend,\u201d but do NOT write \u201cI was shopping for groceries and then had dinner.\u201d If you were sleeping at that time, please say so. However, please also describe what you were doing right before you fell asleep, or right after you woke up.\n \n Please describe:\n \n 1. What you were doing\n 2. Where you were\n 3. Who else was present\n \n Please type your responses in the boxes below.",
+                "instructions": "Please describe what you were doing yesterday at ##.\n\nPlease be as specific as possible, and only write about ONE THING you were doing. For example, you can write \u201cI was shopping for groceries with my friend,\u201d but do NOT write \u201cI was shopping for groceries and then had dinner.\u201d If you were sleeping at that time, please say so. However, please also describe what you were doing right before you fell asleep, or right after you woke up.\n\nPlease describe:\n\n1. What you were doing\n2. Where you were\n3. Who else was present\n\nPlease type your responses in the boxes below.",
                 "questions": {
                     "11": {
                         "characterCount": "0 out of 75 characters used",
