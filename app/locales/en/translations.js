@@ -120,7 +120,7 @@ const translations = {
         "consc": "Conscientiousness",
         "exitButton": "Exit",
         "extra": "Extraversion",
-        "firstSection": "Based on decades of research, personality researchers agree that the most important individual differences in personality traits are described by five basic traits known as the \u201cBig Five\u201d: Extraversion, Agreeableness, Conscientiousness, Emotional Stability, and Openness to Experience.  The measures you just completed provide scores on each of these traits and your results are described below.",
+        "firstSection": "Based on decades of research, personality researchers agree that the most important individual differences in personality traits are described by five basic traits known as the \u201cBig Five\u201d: Extraversion, Agreeableness, Conscientiousness, Emotional Stability, and Openness to Experience. The measures you just completed provide scores on each of these traits and your results are described below.",
         "fourthSection": "Thank you for your participation!",
         "hiAgree": "High scorers tend to be considerate and polite in social interactions, and enjoy cooperating with others. They find it easy to trust people, and feel compassion for those in need. High scorers tend to be well liked by their peers, and they establish satisfying and stable close relationships. They are more likely to be religious, to serve in community leadership roles, and to do volunteer work. Older adults tend to score higher than younger adults.",
         "hiConsc": "High scorers tend to be organized and responsible. They work hard to achieve their goals, and complete tasks they have begun. High scorers tend to earn higher grades in school, and perform better in many occupations. They are more likely to be religious and hold conservative political attitudes. They tend to exercise more, have better physical health, and live longer. Older adults tend to score higher than younger adults.",
@@ -148,19 +148,11 @@ const translations = {
         "chooseLanguage": "Please choose a language"
     },
     "global": {
-        "aGreatDeal": "A great deal",
         "agreement": {
             "agree": "Agree",
-            "agreeStrong": "Agree strongly",
-            "dis": "Disagree",
-            "disStrong": "Disagree strongly",
-            "neutral": "Neutral; no opinion"
-        },
-        "believe": {
-            "believeLittle": "Believe a little",
-            "believeStrong": "Strongly believe",
-            "disbelieveLittle": "Disbelieve a little",
-            "disbelieveStrong": "Strongly disbelieve",
+            "agreeStrongly": "Agree strongly",
+            "disagree": "Disagree",
+            "disagreeStrongly": "Disagree strongly",
             "neutral": "Neutral; no opinion"
         },
         "char": {
@@ -176,20 +168,17 @@ const translations = {
         },
         "continueLabel": "Continue",
         "describe": {
+            "aGreatDeal": "A great deal",
             "aLittle": "A little",
-            "exactly": "Exactly",
-            "moderately": "Moderately",
-            "notAtAll": "Not at all",
-            "veryWell": "Very well"
+            "notAtAll": "Not at all"
         },
         "noLabel": "No",
-        "notAtAll": "Not at all",
         "previousLabel": "Previous Page",
+        "progress": "Progress",
         "selectUnselected": "Please select",
         "yesLabel": "Yes"
     },
     "login": {
-        "ISP": "International Situations Project",
         "changeButton": "Change language",
         "participantID": "Participant ID",
         "studyID": "Study ID",
@@ -379,7 +368,7 @@ const translations = {
             "17": {
                 "items": {
                     "1": {
-                        "label": "I deserve to be seen as a great person"
+                        "label": "I deserve to be seen as a great person."
                     },
                     "2": {
                         "label": "Being a very special person gives me a lot of strength."
@@ -388,7 +377,7 @@ const translations = {
                         "label": "I manage to be the center of attention with my outstanding contributions."
                     },
                     "4": {
-                        "label": "Most people are somehow losers"
+                        "label": "Most people are somehow losers."
                     },
                     "5": {
                         "label": "I want my rivals to fail."
@@ -406,6 +395,16 @@ const translations = {
                     "neutral": "Neutral; no opinion"
                 }
             },
+            "18": {
+                "label": "Have you been successful have you been in changing this aspect of your personality?",
+                "options": {
+                    "alittleSuccessful": "A little successful",
+                    "completelySuccessful": "Completely successful",
+                    "moderatelySuccessful": "Moderately successful",
+                    "notatallSuccessful": "Not at all successful",
+                    "verySuccessful": "Very successful"
+                }
+            },
             "2": {
                 "label": "How often do you experience situations similar to the one you just described?",
                 "options": {
@@ -421,10 +420,10 @@ const translations = {
                         "label": "I tried to control the situation."
                     },
                     "10": {
-                        "label": "I was physically animated; moved around."
+                        "label": "I was physically animated, moved around."
                     },
                     "11": {
-                        "label": "I was interested in what someone had to say"
+                        "label": "I was interested in what someone had to say."
                     },
                     "12": {
                         "label": "I sought advice."
@@ -485,7 +484,7 @@ const translations = {
             "4": {
                 "label": "How do you see yourself: Are you generally a person who is fully prepared to take risks or do you try to avoid taking risks?",
                 "options": {
-                    "fullyPrepared": "Fully prepared to take risks",
+                    "fullyPrepared": "Fully prepared to take risks.",
                     "unwilling": "Unwilling to take risks"
                 }
             },
@@ -672,7 +671,7 @@ const translations = {
                         "label": "Stays optimistic after experiencing a setback"
                     }
                 },
-                "label": "Please rate the extent to which you agree or disagree with the following statements:\n \n I am someone who...",
+                "label": "Please rate the extent to which you agree or disagree with the following statements:\n \nI am someone who...",
                 "options": {
                     "agree": "Agree",
                     "agreeStrongly": "Agree strongly",
@@ -893,9 +892,9 @@ const translations = {
                 "conformToOthers": "You are being pressured to conform to the actions of others.",
                 "convinceYou": "Someone is trying to convince you of something.",
                 "countingOnYou": "Someone is counting on you to do something.",
-                "criticizing": "Someone is criticizing you",
+                "criticizing": "Someone is criticizing you.",
                 "decision": "A decision needs to be made.",
-                "desiresGratified": "Desires could be gratified (for example, food, shopping, sexual opportunities)",
+                "desiresGratified": "Desires could be gratified (for example, food, shopping, sexual opportunities).",
                 "differentRoles": "People who are present occupy different social roles or levels of status.",
                 "disagreeing": "People are disagreeing about something.",
                 "dominate": "Someone is attempting to dominate or boss you.",
@@ -937,11 +936,11 @@ const translations = {
                 "potentiallyEnjoy": "The situation is potentially enjoyable.",
                 "power": "Power is important.",
                 "quickAction": "Quick action is necessary.",
-                "rapidlyChanging": "The situation is rapidly changing",
+                "rapidlyChanging": "The situation is rapidly changing.",
                 "reassurance": "Someone needs or desires reassurance.",
                 "reassuringPresent": "A reassuring person is present.",
                 "relevantHealth": "The situation is relevant to your health (for example: possibility of illness, a medical visit).",
-                "religion": "Religion is relevant in this situation (for example: a religious service or discussion)",
+                "religion": "Religion is relevant in this situation (for example: a religious service or discussion).",
                 "romanticPartners": "Potential or actual romantic partners (for you) are present.",
                 "ruminateDaydream": "It is possible to ruminate, daydream or fantasize.",
                 "selfControl": "Self-control is necessary (for yourself or others).",
@@ -973,13 +972,12 @@ const translations = {
                     "neutral": "Neutral",
                     "uncharacteristic": "Uncharacteristic"
                 },
-                "instructions": "Describe the situation. Please use these items to describe the situation you experienced yesterday. There are 90 items, which will appear one at a time. Begin by placing each item into one of three boxes. Use the \u201cCharacteristic\u201d box on the right for items that accurately describe the situation; use the \u201cUncharacteristic\u201d box on the left for items that are undescriptive of the situation, and use the \u201cNeutral\u201d box for items that are irrelevant, unclear, or about which you are uncertain. When you are finished, press \u201cContinue.\u201d",
+                "instructions": "Describe the situation you experienced yesterday.  90 items will appear one at a time.  Begin by placing each item into one of three boxes.  Use the \u201cCharacteristic\u201d box on the right for items that accurately describe the situation; use the \u201cUncharacteristic\u201d box on the left for items that are undescriptive of the situation, and use the \u201cNeutral\u201d box for items that are irrelevant, unclear, or about which you are uncertain.  When you are finished, press \u201cContinue.\u201d",
                 "itemsLeft": "items left",
                 "location": "Location:",
                 "othersPresent": "Others present:"
             },
             "2": {
-                "activity": "Activity:",
                 "categories": {
                     "extremelyChar": "Extremely Characteristic",
                     "extremelyUnchar": "Extremely Uncharacteristic",
@@ -991,22 +989,23 @@ const translations = {
                     "somewhatChar": "Somewhat Characteristic",
                     "somewhatUnchar": "Somewhat Uncharacteristic"
                 },
-                "instructions": "Describe the situation. Now, from the three boxes, please place the items into nine boxes. Placing an item in the highest (right-hand) category indicates that the item is \u201cextremely characteristic\u201d of the situation. Only three cards can go into this category, so they should be the best descriptors. Putting an item in the middle categories means that the item is irrelevant to the situation, or that you are unsure of where the item belongs. Putting an item in the lowest (left-hand) category implies that the item is \u201cextremely uncharacteristic\u201d of the situation. Again, only three cards can go into this category so they should be the items that are the very LEAST characteristic. A fixed number of items goes into each box. You can drag and drop items from one box to another, but if you leave too many items in any one box, the heading will turn red. The heading will turn green when the right number of items is in the box.",
-                "location": "Location:",
-                "othersPresent": "Others present:"
+                "instructions": "Now, from the three boxes, please place the items into nine boxes. You can drag and drop items from one box to another, but if you leave too many items in any one box, the heading will turn red.  The heading will turn green when the right number of items is in the box."
             }
         }
     },
     "survey": {
         "sections": {
             "1": {
-                "instructions": "Welcome! We are interested in the situations people experience and what they do in them. You will describe a situation you experienced recently and what you did in that situation. You will also be asked some questions about your attitudes and values. Based on these responses, when you have completed the study, you will be given the option to receive individualized information about your personality that we hope you will find interesting. The following will take less than an hour to complete. \n \nTo begin, please answer a few questions about yourself.",
+                "instructions": "Welcome! We are interested in the situations people experience and what they do in them. You will describe a situation you experienced recently and what you did in that situation. You will also be asked some questions about your opinions and values. Based on these responses, when you have completed the study, you will have the option to receive individualized information about your personality that we hope you will find interesting. The following should take less than an hour to complete. \n \nTo begin, please answer a few questions about yourself.",
                 "questions": {
                     "1": {
                         "label": "Age (16 to 100)"
                     },
                     "10": {
                         "label": "If so, which one do you follow?"
+                    },
+                    "11": {
+                        "label": "Birth country"
                     },
                     "2": {
                         "label": "Gender (Male, Female, Other, I would rather not state)",
@@ -1024,10 +1023,13 @@ const translations = {
                         "label": "What was your first language?"
                     },
                     "5": {
-                        "label": "On a scale from 1 to 10 with 10 being people who are the most well off in your society, and 1 being the people who are the least well off, where would you describe your family\u2019s position?"
+                        "Averagelabel": "Average",
+                        "Leastlabel": "Least well off",
+                        "Mostlabel": "Most well off",
+                        "label": "On a scale from 1 to 10, where would you describe your family\u2019s position?"
                     },
                     "6": {
-                        "label": "Birth city and country"
+                        "label": "Birth city"
                     },
                     "7": {
                         "label": "Hometown residence (remote rural, rural, suburban, urban)",
@@ -1068,9 +1070,9 @@ const translations = {
         }
     },
     "thankyou": {
-        "exitButton": "Exit",
+        "exitButton": "Exit to end study",
         "instructions": "You may now exit the study, or proceed to receive some information about your personality based on the surveys you completed.",
-        "personalityFeedbackButton": "Receive personality information",
+        "personalityFeedbackButton": "Receive personality feedback",
         "title": "Thank you!"
     }
 };
