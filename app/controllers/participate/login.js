@@ -11,6 +11,7 @@ export default Ember.Controller.extend({
   showLanguageSelector: true,
   selectedLanguage: null,
   locale: null,
+  authenticating: false,
   actions: {
     authenticate(attrs) {
       return this.get('session')
@@ -25,6 +26,7 @@ export default Ember.Controller.extend({
         .catch((e) => {
           if (e.status === 404) {
             this.send('toggleInvalidAuth');
+            this.set('authenticating', false);
           } else if (e.name === 'TransitionAborted') {
             this.send('toggleInvalidLocale');
           }
