@@ -5,20 +5,9 @@ moduleForComponent('progress-bar', 'Integration | Component | progress bar', {
   integration: true
 });
 
-test('it renders', function(assert) {
-  // Set any properties with this.set('myProperty', 'value');
-  // Handle any actions with this.on('myAction', function(val) { ... });
-
-  this.render(hbs`{{progress-bar}}`);
-
-  assert.equal(this.$().text().trim(), '');
-
-  // Template block usage:
-  this.render(hbs`
-    {{#progress-bar}}
-      template block text
-    {{/progress-bar}}
-  `);
-
-  assert.equal(this.$().text().trim(), 'template block text');
+test('it renders with correct width', function(assert) {
+  this.set('pageNumber', 1);
+  this.render(hbs`{{progress-bar pageNumber=pageNumber}}`);
+  var width = (1 / 11) * 100;
+  assert.equal(this.$('.progress-bar').attr('style'), `width: ${width}%;`);
 });
