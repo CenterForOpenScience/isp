@@ -1,24 +1,31 @@
 import { moduleForComponent, test } from 'ember-qunit';
 import hbs from 'htmlbars-inline-precompile';
+import Ember from 'ember';
 
-moduleForComponent('language-picker', 'Integration | Component | language picker', {
-  integration: true
+
+const localeStub = Ember.Service.extend({
+  locale: null
 });
 
-test('it renders', function(assert) {
-  // Set any properties with this.set('myProperty', 'value');
-  // Handle any actions with this.on('myAction', function(val) { ... });
+moduleForComponent('language-picker', 'Integration | Component | language picker', {
+  integration: true,
 
-  this.render(hbs`{{language-picker}}`);
+  beforeEach: function() {
+    this.register('service:i18n', localeStub);
+    this.inject.service('i18n', { as: 'i18n' });
+  }
+});
 
-  assert.equal(this.$().text().trim(), '');
+test('it sets the locale', function(assert) {
 
-  // Template block usage:
-  this.render(hbs`
-    {{#language-picker}}
-      template block text
-    {{/language-picker}}
-  `);
+  this.set('selectLanguage', (language, code) => {
+    assert.deepEqual(language, 'English (US)');
+    assert.deepEqual(code, 'en-US');
+  });
 
-  assert.equal(this.$().text().trim(), 'template block text');
+  this.render(hbs`{{language-picker onPick=(action selectLanguage)}}`);
+
+  this.$('.flag-icon-us').parent().click();
+  assert.equal(this.get('i18n.locale'), 'en-US');
+
 });
