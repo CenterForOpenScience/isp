@@ -1,7 +1,7 @@
 ---
 language: node_js
 node_js:
-  - "4"
+  - "4.3.2"
 
 sudo: false
 
@@ -10,9 +10,11 @@ cache:
     - node_modules
 
 before_install:
+  - cp .env-travis .env
+  - export PATH=/usr/local/phantomjs-2.0.0/bin:$PATH
   - npm config set spin false
+  - npm install -g npm@^2
   - npm install -g bower
-  - npm install phantomjs-prebuilt
 
 install:
   - npm install
