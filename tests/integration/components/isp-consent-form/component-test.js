@@ -14,4 +14,5 @@ test('it renders', function(assert) {
   this.render(hbs`{{isp-consent-form studyId=studyId grantConsent=(action grantConsent) hasGrantedConsent=true}}`);
   assert.notOk((this.$('button').attr('disabled')));
   this.$('button').click();
+  assert.expect(2);
 });

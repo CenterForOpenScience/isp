@@ -27,5 +27,5 @@ test('it sets the locale', function(assert) {
 
   this.$('.flag-icon-us').parent().click();
   assert.equal(this.get('i18n.locale'), 'en-US');
-
+  assert.expect(3);
 });
