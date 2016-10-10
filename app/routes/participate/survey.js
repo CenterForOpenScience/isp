@@ -69,6 +69,12 @@ export default Ember.Route.extend(AuthenticatedRouteMixin, {
       this.transitionTo('participate.survey.consent');
     }
   },
+  activate () {
+    let session = this.get('_session');
+    // Include session ID in any raven reports that occur during the experiment
+    this.get('raven').callRaven('setExtraContext', { sessionID: session.id });
+    return this._super(...arguments);
+  },
   setupController(controller, session) {
     this._super(controller, session);
 
