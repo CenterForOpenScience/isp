@@ -11,3 +11,13 @@ test('it renders with correct width', function(assert) {
   var width = (1 / 11) * 100;
   assert.equal(this.$('.progress-bar').attr('style'), `width: ${width}%;`);
 });
+
+test('it changes width when pageNumber changes', function(assert) {
+  this.set('pageNumber', 2);
+  this.render(hbs`{{progress-bar pageNumber=pageNumber}}`);
+  var width = (2 / 11) * 100;
+  assert.equal(this.$('.progress-bar').attr('style'), `width: ${width}%;`);
+  this.set('pageNumber', 3);
+  var newWidth = (3 / 11) * 100;
+  assert.equal(this.$('.progress-bar').attr('style'), `width: ${newWidth}%;`);
+});
