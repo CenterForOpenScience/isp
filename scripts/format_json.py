@@ -1,9 +1,16 @@
 """ Convert translation spreadsheet (downloaded as a csv file) to json.
     Keys that include a "." indicate nesting, so 'flag.chooseLanguage' is converted to {flag:{chooseLanguage: value}}
 
-    Note: After running this script, add the resulting json to the translations.js file in isp/app/locales/<locale>/
-    If the locale folder does not exist, run 'ember generate locale <locale> in the isp/app directory. """
-
+    Steps:
+    1. Obtain access to translation spreadsheet for the desired locale from client
+    2. Download the spreadsheet as a csv file and add it to the isp/scripts directory
+    3. Run the script, passing in the csv file's name:
+       e.g. `python -m scripts.format_json --filename en-us.csv
+    4. Copy & paste the json from the generated file to the translations.js file in isp/app/locales/<locale>/
+       See isp/app/locales/en/translations.js as an example.
+       Note: If the locale folder does not exist, run 'ember generate locale <locale> in the isp/app directory.
+"""
+import argparse
 import csv
 import json
 import collections
@@ -116,8 +123,15 @@ numbers = {
 data = collections.defaultdict(dict)
 
 
+def parse_args():
+    parser = argparse.ArgumentParser()
+    parser.add_argument('-f', '--filename', dest='filename', required=True)
+    return parser.parse_args()
+
+
 def main():
-    with open('en-us.csv', 'rb') as csvfile:
+    args = parse_args()
+    with open(args.filename, 'rb') as csvfile:
         reader = csv.reader(csvfile)
         for row in reader:
             keys = row[0].split('.')
