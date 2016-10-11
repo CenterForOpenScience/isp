@@ -80,7 +80,7 @@ module.exports = function(environment) {
   ENV.validate = false;
 
   // Whether to take the participant to the last page they were on
-  // when the exited the study. If false, start from the beginning.
+  // when they exited the study. If false, start from the beginning.
   ENV.continueSession = false;
 
   return ENV;
