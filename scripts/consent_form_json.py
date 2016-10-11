@@ -1,5 +1,20 @@
-""" Download all csv files with consent form content from google drive and combine into a single json file.
-    Requires a client_secret.json file with developer application credentials from google drive.
+""" Download all files with consent form content from google drive into csv format and combine into a single json file.
+
+    Requires access to google drive folder containing consent form spreadsheets (or credentials from a developer who
+    has access).
+
+    Steps:
+    1. Obtain client_secret.json file:
+       a. Go to https://console.developers.google.com/
+       b. Create a project for ISP
+       c. Under the credentials tab, click Create Credentials --> OAuth client ID, select "Web application"
+          as application type and click "Create"
+       d. Find the newly created credentials under "OAuth 2.0 client IDs" and download as json
+       e. Rename json file to "client_secret.json"
+    2. In the scripts directory, create a 'credentials' folder and add the client_secret.json file
+    3. Run the script: `python -m scripts.consent_form_json`
+    4. Add the json from the generated file (consent.json) to isp/app/components/isp-consent-form/consentText.js
+
     Modifies: https://developers.google.com/drive/v3/web/quickstart/python """
 
 import httplib2

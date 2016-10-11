@@ -76,6 +76,9 @@ module.exports = function(environment) {
   // Whether to load existing expData into the exp-frames
   ENV.loadData = false;
 
+  // Whether to validate survey forms
+  ENV.validate = false;
+
   // Whether to take the participant to the last page they were on
   // when the exited the study. If false, start from the beginning.
   ENV.continueSession = false;
