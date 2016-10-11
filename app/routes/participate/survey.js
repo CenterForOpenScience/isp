@@ -42,7 +42,7 @@ export default Ember.Route.extend(AuthenticatedRouteMixin, {
     return new Ember.RSVP.Promise((resolve, reject) => {
       this._getExperiment(params).then((experiment) => {
         this._getSession(params, experiment).then((session) => {
-          if (session.get('completed')) {
+          if (session.get('completed') && config.showStudyCompletedPage) {
             this.transitionTo('complete');
           }
           this.set('_experiment', experiment);

@@ -79,5 +79,9 @@ module.exports = function(environment) {
   // Whether to validate survey forms
   ENV.validate = false;
 
+  // Whether to redirect users who have already taken the study to an error page
+  // Set to false to test study multiple times with the same account
+  ENV.showStudyCompletedPage = false;
+
   return ENV;
 };
