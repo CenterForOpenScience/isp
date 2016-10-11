@@ -12,16 +12,17 @@ export default Ember.Component.extend({
         country.languages.forEach((lang) => {
           langs.push({
             countryCode: country.code,
+            countryName: country.name,
             name: lang.name,
             code: lang.code
           });
         });
       });
       langs.sort(function(a, b) {
-        if (a.name > b.name) {
+        if (a.countryName > b.countryName) {
           return 1;
         }
-        if (a.name < b.name) {
+        if (a.countryName < b.countryName) {
           return -1;
         }
         return 0;

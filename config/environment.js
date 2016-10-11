@@ -8,7 +8,7 @@ module.exports = function(environment) {
     baseURL: '/',
     locationType: 'auto',
     i18n: {
-      defaultLocale: 'en-us'
+      defaultLocale: 'en'
     },
     EmberENV: {
       FEATURES: {
@@ -24,7 +24,8 @@ module.exports = function(environment) {
   };
 
   ENV['ember-simple-auth'] = {
-    authenticationRoute: 'index'
+    authenticationRoute: 'participate.login',
+    routeIfAlreadyAuthenticated: 'participate.survey'
   };
 
   if (environment === 'development') {
@@ -40,7 +41,7 @@ module.exports = function(environment) {
     ENV.JAMDB = {
       authorizer: 'jam-jwt',
       collection:'accounts',
-      namespace: 'experimenter',
+      namespace: 'isp',
       url: 'http://localhost:1212'
     };
   }
@@ -71,6 +72,12 @@ module.exports = function(environment) {
   }
 
   ENV.studyId = process.env.STUDY_ID;
+
+  // Whether to load existing expData into the exp-frames
+  ENV.loadData = false;
+
+  // Whether to validate survey forms
+  ENV.validate = false;
 
   return ENV;
 };

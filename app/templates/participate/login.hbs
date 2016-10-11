@@ -1,0 +1,41 @@
+<div class="row">
+  <div class="col-md-12">
+    {{#if selectedLanguage}}
+      <h3>
+        {{#if selectedLanguage}}
+          {{t 'login.youChose'}} {{selectedLanguage}}
+        {{/if}}
+        <button id="select-language" class="btn btn-default" {{action 'showLanguageSelector'}}>{{t 'login.changeButton'}}</button>
+      </h3>
+    {{/if}}
+
+    {{#if invalidAuth}}
+      {{#bs-modal title="An error occured when logging in." closedAction=(action 'toggleInvalidAuth')}}
+        {{#bs-modal-body}}Invalid Study ID or Participant ID.{{/bs-modal-body}}
+      {{/bs-modal}}
+    {{/if}}
+
+    {{#if invalidLocale}}
+      {{#bs-modal title="An error occured when logging in." closedAction=(action 'toggleInvalidLocale')}}
+        {{#bs-modal-body}}Please select a language before logging in.{{/bs-modal-body}}
+      {{/bs-modal}}
+    {{/if}}
+
+    <div class="row">
+      <div class="col-md-12">
+        <h1>International Situations Project</h1>
+        {{isp-jam-auth invalidAuth=invalidAuth authenticating=authenticating login=(action 'authenticate')}}
+      </div>
+    </div>
+  </div>
+</div>
+
+{{#bs-modal header=false body=false footer=false open=showLanguageSelector keyboard=false backdropClose=false backdrop=true}}
+  {{#bs-modal-header closeButton=false}}
+    <h4>{{t 'flag.chooseLanguage'}}</h4>
+  {{/bs-modal-header}}
+  {{#bs-modal-body}}
+    {{language-picker onPick=(action 'selectLanguage')}}
+  {{/bs-modal-body}}
+{{/bs-modal}}
+{{outlet}}

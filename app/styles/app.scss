@@ -1,6 +1,6 @@
-@import "components/radio-group";
 @import "components/progress-bar";
 @import "components/results-page";
+@import "components/isp-jam-auth";
 
 
 #header .navbar {
@@ -38,4 +38,24 @@
 
 .break-line {
   white-space: pre-line;
+}
+
+.exit-text {
+  margin-top: 50px;
+}
+
+#select-language{
+  margin-bottom: 5px;
+}
+
+#consent-form {
+  margin-top: 40px;
+}
+
+.participate-container {
+  padding: 30px;
+}
+
+.results-container {
+  padding: 30px;
 }

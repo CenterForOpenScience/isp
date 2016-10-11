@@ -1,16 +1,16 @@
 import Ember from 'ember';
 
 var VALUES = {
- 'measures.questions.5.options.disagreeStrongly': 1,
- 'measures.questions.5.options.disagree': 2,
- 'measures.questions.5.options.neutral': 3,
- 'measures.questions.5.options.agree': 4,
- 'measures.questions.5.options.agreeStrongly': 5
+ 'disagreeStrongly': 1,
+ 'disagree': 2,
+ 'neutral': 3,
+ 'agree': 4,
+ 'agreeStrongly': 5
 };
 
 function averageScores(questions, reversed, items) {
   var total = score(questions, items) + reverseScore(reversed, items);
-  return (total - 12)/48 * 100;
+  return Math.round((total - 12)/48 * 100);
 }
 
 function score(questions, items) {
@@ -37,7 +37,7 @@ export default Ember.Component.extend({
   session: null,
   feedback: Ember.computed(function() {
     var session = this.get('session');
-    var items = session.get('expData')['4-4-rating-form']['responses']['4'];
+    var items = session.get('expData')['3-3-rating-form']['responses']['4'];
     var extraversion = averageScores([1, 6, 21, 41, 46, 56], [11, 16, 26, 31, 36, 51], items);
     var agreeableness = averageScores([2, 7, 27, 32, 52, 57], [12, 17, 22, 37, 42, 47], items);
     var conscientiousness = averageScores([13, 18, 33, 38, 43, 53], [3, 8, 23, 28, 48, 58], items);
