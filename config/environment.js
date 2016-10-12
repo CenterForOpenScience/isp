@@ -73,15 +73,18 @@ module.exports = function(environment) {
 
   ENV.studyId = process.env.STUDY_ID;
 
-  // Whether to load existing expData into the exp-frames
-  ENV.loadData = false;
+  ENV.featureFlags = {
+    // Whether to load existing expData into the exp-frames
+    loadData: false,
 
-  // Whether to validate survey forms
-  ENV.validate = false;
+    // Whether to validate survey forms
+    validate: false,
 
-  // Whether to redirect users who have already taken the study to an error page
-  // Set to false to test study multiple times with the same account
-  ENV.showStudyCompletedPage = false;
+    // Whether to redirect users who have already taken the study to an error page
+    // Set to false to test study multiple times with the same account
+    showStudyCompletedPage: false
+  };
+
 
   return ENV;
 };
