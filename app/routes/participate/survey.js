@@ -43,7 +43,7 @@ export default Ember.Route.extend(AuthenticatedRouteMixin, {
       this._getExperiment(params).then((experiment) => {
         this._getSession(params, experiment).then((session) => {
           if (session.get('completed') && config.featureFlags.showStudyCompletedPage) {
-            this.transitionTo('complete');
+            this.transitionTo('participate.survey.complete');
           }
           this.set('_experiment', experiment);
           session.set('experimentVersion', '');
