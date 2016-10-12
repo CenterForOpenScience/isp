@@ -19,8 +19,8 @@ export default Ember.Controller.extend({
     var framePage = 0;
     if (ENV.continueSession) {
       var session = this.get('session');
-      if (session && session.get('framePage')) {
-        framePage = session.get('framePage');
+      if (session && session.get('surveyPage')) {
+        framePage = session.get('surveyPage');
       }
     }
     return framePage;
