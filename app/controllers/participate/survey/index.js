@@ -7,7 +7,7 @@ export default Ember.Controller.extend({
   session: null,
   frameIndex: Ember.computed(function() {
     var frameIndex = 0;
-    if (ENV.continueSession) {
+    if (ENV.featureFlags.continueSession) {
       var session = this.get('session');
       if (session && session.get('frameIndex')) {
         frameIndex = session.get('frameIndex');
@@ -17,7 +17,7 @@ export default Ember.Controller.extend({
   }),
   framePage: Ember.computed(function() {
     var framePage = 0;
-    if (ENV.continueSession) {
+    if (ENV.featureFlags.continueSession) {
       var session = this.get('session');
       if (session && session.get('surveyPage')) {
         framePage = session.get('surveyPage');
