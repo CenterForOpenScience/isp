@@ -42,6 +42,9 @@ export default Ember.Route.extend(AuthenticatedRouteMixin, {
     return new Ember.RSVP.Promise((resolve, reject) => {
       this._getExperiment(params).then((experiment) => {
         this._getSession(params, experiment).then((session) => {
+          if (session.get('completed') && config.featureFlags.showStudyCompletedPage) {
+            this.transitionTo('participate.survey.complete');
+          }
           this.set('_experiment', experiment);
           session.set('experimentVersion', '');
           session.set('experimentCondition', this._getCondition(session.get('profileId')));
