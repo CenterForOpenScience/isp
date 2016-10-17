@@ -106,10 +106,11 @@ const translations = {
             "labelUnaccepted": "Please accept terms to continue"
         },
         "checkboxLabel": "I have read and understand the above statements and agree to participate.",
-        "firstSection": "Welcome to our study. Your participation will be in one session, which should take about one hour to complete. You will be instructed in the use of an on-line tool for recording information about a situation you experienced recently and your behaviors in it. You will also be asked some questions about your values and attitudes. At the end of the study, you will receive personalized information about your personality.",
-        "secondSection": "All of your responses will be kept confidential and identified only by a number (and not by your name). You are free to end your involvement in this research at any time without penalty of any sort. Further, you are free not to answer any questions in this study if you so choose.",
-        "thirdSection": "If you have any questions about this study or your rights as a participant, you may contact the Project Coordinator, Erica Baranski, at erica.baranski.ucr.edu, or contact the Human Subjects Review Committee in the Research Office at the University of California, Riverside (1-951-827-5535). We sincerely appreciate your cooperation. Your cooperation makes this research possible.",
-        "title": "Consent to Participate in Research"
+        "firstSection": "Welcome to our research study.  Your participation will be in one session and will take less than one hour. You will be asked to describe a situation you experienced recently and your behaviors in it. You will also be asked some questions about your values and attitudes.  At the end of the study, if you choose, you will receive personalized information about your personality.",
+        "secondSection": "All of your responses will be confidential and identified only by a number (and not by your name).  For research purposes, these anonymous data may be archived in an online database. Each question must be answered in order to complete this survey, but you can discontinue your participation at any time without penalty of any sort.  The potential benefits of this research include improving the understanding of persons and their lives across cultural contexts.  There are no known risks.",
+        "thirdSection": "If you have any questions about this study or your rights as a participant, you may contact [local collaborator\u2019s name, email and affiliation], who is responsible for data collection at your location, or the University of California, Riverside, Office of Research Integrity by email at IRB@ucr.edu. We sincerely appreciate your cooperation.",
+        "title": "Consent to Participate in Research",
+        "versionHistory": "(Consent form version: 14 October 2016)"
     },
     "exitpage": {
         "line1": "Thank you for your participation!",
@@ -396,7 +397,7 @@ const translations = {
                 }
             },
             "18": {
-                "label": "Have you been successful have you been in changing this aspect of your personality?",
+                "label": "How successful have you been in changing this aspect of your personality?",
                 "options": {
                     "alittleSuccessful": "A little successful",
                     "completelySuccessful": "Completely successful",
@@ -465,10 +466,7 @@ const translations = {
                         "label": "I was reserved and unexpressive."
                     }
                 },
-                "label": {
-                    "10am": "Please rate your behavior at 10am yesterday.",
-                    "7pm": "Please rate your behavior at 19:00 (7pm) yesterday."
-                },
+                "label": "Please rate your behavior in the situation you described.",
                 "options": {
                     "extremelyChar": "Extremely Characteristic",
                     "extremelyUnchar": "Extremely Uncharacteristic",
@@ -812,7 +810,8 @@ const translations = {
                     "believeStrong": "Strongly believe",
                     "disbelieveLittle": "Disbelieve a little",
                     "disbelieveStrong": "Strongly disbelieve",
-                    "neutral": "Neutral; no opinion"
+                    "neutral": "Neutral; no opinion",
+                    "preferNoAnswer": "I prefer not to answer"
                 }
             },
             "9": {
@@ -972,7 +971,7 @@ const translations = {
                     "neutral": "Neutral",
                     "uncharacteristic": "Uncharacteristic"
                 },
-                "instructions": "Describe the situation you experienced yesterday.  90 items will appear one at a time.  Begin by placing each item into one of three boxes.  Use the \u201cCharacteristic\u201d box on the right for items that accurately describe the situation; use the \u201cUncharacteristic\u201d box on the left for items that are undescriptive of the situation, and use the \u201cNeutral\u201d box for items that are irrelevant, unclear, or about which you are uncertain.  When you are finished, press \u201cContinue.\u201d",
+                "instructions": "Now please describe the situation you experienced in more detail. 90 items will appear one at a time.  Place each item into one of three boxes.  Use the \u201cCharacteristic\u201d box on the right for items that accurately describe the situation; use the \u201cUncharacteristic\u201d box on the left for items that are undescriptive of the situation, and use the \u201cNeutral\u201d box for items that are irrelevant, unclear, or about which you are uncertain.  When you are finished, press \u201cContinue.\u201d",
                 "itemsLeft": "items left",
                 "location": "Location:",
                 "othersPresent": "Others present:"
@@ -989,26 +988,26 @@ const translations = {
                     "somewhatChar": "Somewhat Characteristic",
                     "somewhatUnchar": "Somewhat Uncharacteristic"
                 },
-                "instructions": "Now, from the three boxes, please place the items into nine boxes. You can drag and drop items from one box to another, but if you leave too many items in any one box, the heading will turn red.  The heading will turn green when the right number of items is in the box."
+                "instructions": "Now, please describe the situation more precisely. From the three boxes, please place the items into nine boxes. You can drag and drop items from one box to another, but if you leave too many items in any one box, the heading will turn red.  The heading will turn green when the right number of items is in the box."
             }
         }
     },
     "survey": {
         "sections": {
             "1": {
-                "instructions": "Welcome! We are interested in the situations people experience and what they do in them. You will describe a situation you experienced recently and what you did in that situation. You will also be asked some questions about your opinions and values. Based on these responses, when you have completed the study, you will have the option to receive individualized information about your personality that we hope you will find interesting. The following should take less than an hour to complete. \n \nTo begin, please answer a few questions about yourself.",
+                "instructions": "Welcome!  We are interested in situations people experience and what they do in them.  You will describe a situation you experienced recently and what you did in that situation. You will also be asked some questions about your attitudes and values.  Based on these responses, when you have completed the study, you will be given the option to receive information about your personality that we hope you will find interesting. The following will take less than an hour to complete. \n \nTo begin, please answer a few questions about yourself.",
                 "questions": {
                     "1": {
-                        "label": "Age (16 to 100)"
+                        "label": "Age"
                     },
                     "10": {
-                        "label": "If so, which one do you follow?"
+                        "label": "If so, which religon do you follow?"
                     },
                     "11": {
                         "label": "Birth country"
                     },
                     "2": {
-                        "label": "Gender (Male, Female, Other, I would rather not state)",
+                        "label": "Gender",
                         "options": {
                             "female": "Female",
                             "male": "Male",
@@ -1026,13 +1025,13 @@ const translations = {
                         "Averagelabel": "Average",
                         "Leastlabel": "Least well off",
                         "Mostlabel": "Most well off",
-                        "label": "On a scale from 1 to 10, where would you describe your family\u2019s position?"
+                        "label": "On a scale from 1 to 10, where would you describe your family\u2019s economic position?"
                     },
                     "6": {
                         "label": "Birth city"
                     },
                     "7": {
-                        "label": "Hometown residence (remote rural, rural, suburban, urban)",
+                        "label": "Hometown residence",
                         "options": {
                             "remoteRural": "remote rural",
                             "rural": "rural",
@@ -1041,6 +1040,9 @@ const translations = {
                         }
                     },
                     "8": {
+                        "Highlyreligiouslabel": "Highly religious",
+                        "Notreligiouslabel": "Not at all religious",
+                        "Perfernoanswerlabel": "I prefer not to answer",
                         "label": "On a scale from 1 to 10, how religious are you?"
                     },
                     "9": {
@@ -1051,11 +1053,14 @@ const translations = {
                 }
             },
             "2": {
-                "instructions": "Please describe what you were doing yesterday at ##.\n\nPlease be as specific as possible, and only write about ONE THING you were doing. For example, you can write \u201cI was shopping for groceries with my friend,\u201d but do NOT write \u201cI was shopping for groceries and then had dinner.\u201d If you were sleeping at that time, please say so. However, please also describe what you were doing right before you fell asleep, or right after you woke up.\n\nPlease describe:\n\n1. What you were doing\n2. Where you were\n3. Who else was present\n\nPlease type your responses in the boxes below.",
+                "instructions": {
+                    "firstSection": "Please describe an experience yesterday that you remember well. Specifically, please describe what you were doing, where you were, and who was present. Type your responses below.",
+                    "secondSection": "Please type your responses in the boxes below."
+                },
                 "questions": {
                     "11": {
                         "characterCount": "0 out of 75 characters used",
-                        "label": "What were you doing yesterday at ##?"
+                        "label": "What were you doing at this time?"
                     },
                     "12": {
                         "characterCount": "0 out of 75 characters used",
@@ -1064,6 +1069,9 @@ const translations = {
                     "13": {
                         "characterCount": "0 out of 75 characters used",
                         "label": "Who else was present? (If you were alone, please write \u201calone\u201d)."
+                    },
+                    "14": {
+                        "label": "Approximately what time did this experience begin?"
                     }
                 }
             }
