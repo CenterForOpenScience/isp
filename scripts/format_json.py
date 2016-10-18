@@ -138,15 +138,7 @@ def main():
             merge(data, format_dict(keys, row[1].strip(" ")))
     f = open('en-us.json', 'w')
     data.update(numbers)
-    data['measures']['questions']['3']['label'] = add_conditions(data['measures']['questions']['3']['label'])
     f.write(json.dumps(data, indent=4, sort_keys=True))
-
-
-def add_conditions(value):
-    times = dict()
-    times['10am'] = value.replace('##', '10am')
-    times['7pm'] = value.replace('##', '19:00 (7pm)')
-    return times
 
 
 def format_dict(keys, value):
