@@ -20,6 +20,16 @@ export default [
         "name": "Austria"
     },
     {
+        "code": "AU",
+        "languages": [
+            {
+                "code": "en-AU",
+                "name": "English"
+            }
+        ],
+        "name": "Australia"
+    },
+    {
         "code": "BE",
         "languages": [
             {
@@ -365,6 +375,10 @@ export default [
         "code": "PK",
         "languages": [
             {
+                "code": "en-PK",
+                "name": "English"
+            },
+            {
                 "code": "ur-PK",
                 "name": "اردو"
             }
@@ -509,7 +523,7 @@ export default [
                 "name": "Català"
             },
             {
-                "code": "es-es",
+                "code": "es-ES",
                 "name": "Española"
             }
         ],
