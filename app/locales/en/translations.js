@@ -1022,10 +1022,12 @@ const translations = {
                         "label": "What was your first language?"
                     },
                     "5": {
-                        "Averagelabel": "Average",
-                        "Leastlabel": "Least well off",
-                        "Mostlabel": "Most well off",
-                        "label": "On a scale from 1 to 10, where would you describe your family\u2019s economic position?"
+                        "label": "On a scale from 1 to 10, where would you describe your family\u2019s economic position?",
+                        "options": {
+                            "average": "Average",
+                            "least": "Least well off",
+                            "most": "Most well off"
+                        }
                     },
                     "6": {
                         "label": "Birth city"
@@ -1040,10 +1042,12 @@ const translations = {
                         }
                     },
                     "8": {
-                        "Highlyreligiouslabel": "Highly religious",
-                        "Notreligiouslabel": "Not at all religious",
-                        "Perfernoanswerlabel": "I prefer not to answer",
-                        "label": "On a scale from 1 to 10, how religious are you?"
+                        "label": "On a scale from 1 to 10, how religious are you?",
+                        "options": {
+                            "highlyReligious": "Highly religious",
+                            "notReligious": "Not at all religious",
+                            "preferNoAnswer": "I prefer not to answer"
+                        }
                     },
                     "9": {
                         "label": "Do you follow a religion?",
