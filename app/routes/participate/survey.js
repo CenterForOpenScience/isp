@@ -42,6 +42,7 @@ export default Ember.Route.extend(AuthenticatedRouteMixin, {
           session.set('locale', this.controllerFor('participate').get('locale'));
           session.set('studyId', this.controllerFor('participate').get('studyId'));
           session.save().then(() => {
+            this.set('_session', session);
             resolve(session);
           });
         });
@@ -62,6 +63,16 @@ export default Ember.Route.extend(AuthenticatedRouteMixin, {
     if (!hasGrantedConsent) {
       this.transitionTo('participate.survey.consent');
     }
+  },
+  activate () {
+    let session = this.get('_session');
+    // Include session ID in any raven reports that occur during the experiment
+    this.get('raven').callRaven('setExtraContext', {
+      sessionID: session.id,
+      participantID:this.controllerFor('participate').get('participantId'),
+      locale: this.controllerFor('participate').get('locale')
+    });
+    return this._super(...arguments);
   },
   setupController(controller, session) {
     this._super(controller, session);

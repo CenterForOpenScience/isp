@@ -4,6 +4,7 @@ import ENV from 'isp/config/environment';
 
 export default Ember.Controller.extend({
   session: Ember.inject.service('session'),
+  raven: Ember.inject.service(),
   studyId: null,
   participantId: null,
   namespace: ENV.JAMDB.namespace,
@@ -21,7 +22,6 @@ export default Ember.Controller.extend({
           surveyController.set('studyId', attrs.password);
           surveyController.set('participantId', attrs.username);
           this.transitionToRoute('participate.survey.consent');
-
         })
         .catch((e) => {
           if (e.status === 404) {
@@ -29,6 +29,9 @@ export default Ember.Controller.extend({
             this.set('authenticating', false);
           } else if (e.name === 'TransitionAborted') {
             this.send('toggleInvalidLocale');
+            this.get('raven').captureMessage('Locale not selected', {
+              status: e.status
+            });
           }
         });
     },
