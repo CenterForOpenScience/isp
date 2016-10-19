@@ -19,7 +19,7 @@ moduleForComponent('language-picker', 'Integration | Component | language picker
 test('it sets the locale', function(assert) {
 
   this.set('selectLanguage', (language, code) => {
-    assert.deepEqual(language, 'English (US)');
+    assert.deepEqual(language, 'English');
     assert.deepEqual(code, 'en-US');
   });
 
