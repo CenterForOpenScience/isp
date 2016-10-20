@@ -2,7 +2,13 @@
 @import "components/results-page";
 @import "components/isp-jam-auth";
 @import "components/language-picker";
+@import 'ember-power-select';
 
+
+.ember-power-select {
+    display: inline-block;
+    min-width:125px;
+}
 
 #header .navbar {
   background-color: #0c1462;
