@@ -2,12 +2,21 @@
 @import "components/results-page";
 @import "components/isp-jam-auth";
 @import "components/language-picker";
+@import 'ember-power-select/themes/bootstrap';
 @import 'ember-power-select';
-
 
 .ember-power-select {
     display: inline-block;
     min-width:125px;
+}
+
+.ember-power-select-placeholder {
+  color: #555;
+}
+
+.ember-power-select-dropdown {
+  border: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
 }
 
 #header .navbar {
