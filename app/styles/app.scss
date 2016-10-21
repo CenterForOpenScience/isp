@@ -5,18 +5,18 @@
 @import 'ember-power-select/themes/bootstrap';
 @import 'ember-power-select';
 
-.ember-power-select {
+#timeSelect .ember-power-select {
     display: inline-block;
-    min-width:125px;
+    min-width:150px;
 }
 
-.ember-power-select-placeholder {
+#timeSelect .ember-power-select-placeholder {
   color: #555;
 }
 
-.ember-power-select-dropdown {
-  border: 1px solid #ccc;
-  border-bottom: 1px solid #ccc;
+.dropdownClass {
+  border: 1px solid #ccc !important;
+  border-bottom: 1px solid #ccc !important;
 }
 
 #header .navbar {
