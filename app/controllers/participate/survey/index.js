@@ -5,26 +5,8 @@ import ENV from 'isp/config/environment';
 export default Ember.Controller.extend({
   model: null,
   session: null,
-  frameIndex: Ember.computed(function() {
-    var frameIndex = 0;
-    if (ENV.featureFlags.continueSession) {
-      var session = this.get('session');
-      if (session && session.get('frameIndex')) {
-        frameIndex = session.get('frameIndex');
-      }
-    }
-    return frameIndex;
-  }),
-  framePage: Ember.computed(function() {
-    var framePage = 0;
-    if (ENV.featureFlags.continueSession) {
-      var session = this.get('session');
-      if (session && session.get('surveyPage')) {
-        framePage = session.get('surveyPage');
-      }
-    }
-    return framePage;
-  }),
+  frameIndex: ENV.featureFlags.continueSession? Ember.computed.alias('session.frameIndex') : 0,
+  framePage: ENV.featureFlags.continueSession? Ember.computed.alias('session.surveyPage') : 0,
   store: Ember.inject.service(),
   isDirty: function() {
     // TODO: check the session model to see if it contains unsaved data
