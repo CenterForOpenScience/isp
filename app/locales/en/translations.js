@@ -1001,7 +1001,7 @@ const translations = {
                         "label": "Age"
                     },
                     "10": {
-                        "label": "If so, which religon do you follow?"
+                        "label": "If so, which religion do you follow?"
                     },
                     "11": {
                         "label": "Birth country"
