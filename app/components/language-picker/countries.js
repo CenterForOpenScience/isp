@@ -187,7 +187,7 @@ export default [
         "code": "HK",
         "languages": [
             {
-                "code": "code",
+                "code": "zh-HK",
                 "name": "汉语/漢語"
             }
         ],
