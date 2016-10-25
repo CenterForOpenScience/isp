@@ -1,7 +1,22 @@
 @import "components/progress-bar";
 @import "components/results-page";
-@import "components/isp-jam-auth";
+@import "components/language-picker";
+@import 'ember-power-select/themes/bootstrap';
+@import 'ember-power-select';
 
+#timeSelect .ember-basic-dropdown {
+    display: inline-block;
+    min-width:150px;
+}
+
+#timeSelect .ember-power-select-placeholder {
+  color: #555;
+}
+
+.dropdownClass {
+  border: 1px solid #ccc !important;
+  border-bottom: 1px solid #ccc !important;
+}
 
 #header .navbar {
   background-color: #0c1462;

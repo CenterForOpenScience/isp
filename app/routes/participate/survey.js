@@ -9,14 +9,6 @@ export default Ember.Route.extend(AuthenticatedRouteMixin, {
   store: Ember.inject.service(),
   currentUser: Ember.inject.service(),
 
-  _getCondition(profileId) {
-    var participantId = profileId.split('.')[1];
-    var id = participantId.split('_')[1];
-    if (id % 2 === 0) {
-      return '7pm';
-    }
-    return '10am';
-  },
   _getExperiment() {
     return this.store.find('experiment', config.studyId);
   },
@@ -47,10 +39,10 @@ export default Ember.Route.extend(AuthenticatedRouteMixin, {
           }
           this.set('_experiment', experiment);
           session.set('experimentVersion', '');
-          session.set('experimentCondition', this._getCondition(session.get('profileId')));
           session.set('locale', this.controllerFor('participate').get('locale'));
           session.set('studyId', this.controllerFor('participate').get('studyId'));
           session.save().then(() => {
+            this.set('_session', session);
             resolve(session);
           });
         });
@@ -71,6 +63,16 @@ export default Ember.Route.extend(AuthenticatedRouteMixin, {
     if (!hasGrantedConsent) {
       this.transitionTo('participate.survey.consent');
     }
+  },
+  activate () {
+    let session = this.get('_session');
+    // Include session ID in any raven reports that occur during the experiment
+    this.get('raven').callRaven('setExtraContext', {
+      sessionID: session.id,
+      participantID:this.controllerFor('participate').get('participantId'),
+      locale: this.controllerFor('participate').get('locale')
+    });
+    return this._super(...arguments);
   },
   setupController(controller, session) {
     this._super(controller, session);

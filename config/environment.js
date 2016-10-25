@@ -16,7 +16,10 @@ module.exports = function(environment) {
         // e.g. 'with-controller': true
       }
     },
-
+    sentry: {
+      dsn: process.env.SENTRY_DSN || '',
+      cdn: 'https://cdn.ravenjs.com/3.5.1/ember/raven.min.js'
+    },
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
