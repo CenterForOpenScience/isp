@@ -5,7 +5,7 @@ import SessionModel from '../models/session';
 
 export default Experiment.extend({
   _registerSessionModels() {
-      // Register the session model defined in ISP
+      // Register the session model defined in ISP to override the default session model in exp-models
       this._super(...arguments);
       var cId = this.get('sessionCollectionId');
       var container = Ember.getOwner(this);
