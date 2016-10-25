@@ -1,10 +1,12 @@
 import Ember from 'ember';
+import ENV from 'isp/config/environment';
+
 
 export default Ember.Controller.extend({
   model: null,
   session: null,
-  frameIndex: 0,
-  framePage: 0,
+  frameIndex: ENV.featureFlags.continueSession? Ember.computed.alias('session.frameIndex') : 0,
+  framePage: ENV.featureFlags.continueSession? Ember.computed.alias('session.surveyPage') : 0,
   store: Ember.inject.service(),
   isDirty: function() {
     // TODO: check the session model to see if it contains unsaved data

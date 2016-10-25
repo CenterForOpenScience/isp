@@ -59,10 +59,7 @@ export default Ember.Route.extend(AuthenticatedRouteMixin, {
     if (!locale) {
       this.transitionTo('participate.login');
     }
-    var hasGrantedConsent = this.controllerFor('participate').get('hasGrantedConsent');
-    if (!hasGrantedConsent) {
-      this.transitionTo('participate.survey.consent');
-    }
+    this.transitionTo('participate.survey.consent');
   },
   activate () {
     let session = this.get('_session');
