@@ -1,12 +1,5 @@
 import Ember from 'ember';
 
-var VALUES = {
- 'disagreeStrongly': 1,
- 'disagree': 2,
- 'neutral': 3,
- 'agree': 4,
- 'agreeStrongly': 5
-};
 
 function averageScores(questions, reversed, items) {
   var total = score(questions, items) + reverseScore(reversed, items);
@@ -17,8 +10,8 @@ function score(questions, items) {
   var total = 0;
   for (var i=0; i < questions.length; i++) {
     var question = questions[i];
-    var value = items[question - 1];
-    total += VALUES[value];
+    var key = 'BFI' + question;
+    total += items[key];
   }
   return total;
 }
@@ -27,8 +20,8 @@ function reverseScore(questions, items) {
   var total = 0;
   for (var i=0; i < questions.length; i++) {
     var question = questions[i];
-    var value = items[question - 1];
-    total += (6 - VALUES[value]);
+    var key = 'BFI' + question;
+    total += (6 - items[key]);
   }
   return total;
 }
