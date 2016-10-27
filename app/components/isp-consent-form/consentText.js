@@ -7,6 +7,7 @@ export default {
             "All of your responses will be confidential and identified only by a number (and not by your name).  For research purposes, these anonymous data may be archived in an online database. Each question must be answered in order to complete this survey, but you can discontinue your participation at any time without penalty of any sort.  The potential benefits of this research include improving the understanding of persons and their lives across cultural contexts.  There are no known risks.",
             "If you have any questions about this study or your rights as a participant, you may contact [local collaborator's name, email and affiliation], who is responsible for data collection at your location, or the University of California, Riverside, Office of Research Integrity by email at IRB@ucr.edu. We sincerely appreciate your cooperation."
         ],
-        "title": "Consent to Participate in Research"
+        "title": "Consent to Participate in Research",
+        "versionHistory": "(Consent form version: 14 October 2016)"
     }
 };
