@@ -106,8 +106,8 @@ const translations = {
             "labelUnaccepted": "Please accept terms to continue"
         },
         "checkboxLabel": "I have read and understand the above statements and agree to participate.",
-        "firstSection": "Welcome to our research study.  Your participation will be in one session and will take less than one hour. You will be asked to describe a situation you experienced recently and your behaviors in it. You will also be asked some questions about your values and attitudes.  At the end of the study, if you choose, you will receive personalized information about your personality.",
-        "secondSection": "All of your responses will be confidential and identified only by a number (and not by your name).  For research purposes, these anonymous data may be archived in an online database. Each question must be answered in order to complete this survey, but you can discontinue your participation at any time without penalty of any sort.  The potential benefits of this research include improving the understanding of persons and their lives across cultural contexts.  There are no known risks.",
+        "firstSection": "Welcome to our study.  Your participation will be in one session and will take less than one hour. You will be asked to describe a situation you experienced recently and your behaviors in it. You will also be asked some questions about your values and attitudes.  At the end of the study, if you choose, you will receive personalized information about your personality.",
+        "secondSection": "AllAll of your responses will be confidential and identified only by a number (and not by your name).  For research purposes, these anonymous data may be archived in an online database maintained by the Center for Open Science (www.cos.io). Each question must be answered in order to complete this survey, but you can discontinue your participation at any time without penalty.  The potential benefits of this research include improving the understanding of persons and their lives across cultural contexts.  There are no known risks.",
         "thirdSection": "If you have any questions about this study or your rights as a participant, you may contact [local collaborator\u2019s name, email and affiliation], who is responsible for data collection at your location, or the University of California, Riverside, Office of Research Integrity by email at IRB@ucr.edu. We sincerely appreciate your cooperation.",
         "title": "Consent to Participate in Research",
         "versionHistory": "(Consent form version: 14 October 2016)"
@@ -244,19 +244,19 @@ const translations = {
             "13": {
                 "items": {
                     "1": {
-                        "label": "Most people are basically honest"
+                        "label": "Most people are basically honest."
                     },
                     "2": {
-                        "label": "Most people are basically good-natured and kind"
+                        "label": "Most people are basically good-natured and kind."
                     },
                     "3": {
-                        "label": "Most people trust others"
+                        "label": "Most people trust others."
                     },
                     "4": {
-                        "label": "Generally, I trust others"
+                        "label": "Generally, I trust others."
                     },
                     "5": {
-                        "label": "Most people are trustworthy"
+                        "label": "Most people are trustworthy."
                     }
                 },
                 "label": "Please rate the extent to which you agree or disagree with the following statements:",
@@ -466,7 +466,7 @@ const translations = {
                         "label": "I was reserved and unexpressive."
                     }
                 },
-                "label": "Please rate your behavior in the situation you described.",
+                "label": "Please rate your behavior in the situation you described:",
                 "options": {
                     "extremelyChar": "Extremely Characteristic",
                     "extremelyUnchar": "Extremely Uncharacteristic",
@@ -482,7 +482,7 @@ const translations = {
             "4": {
                 "label": "How do you see yourself: Are you generally a person who is fully prepared to take risks or do you try to avoid taking risks?",
                 "options": {
-                    "fullyPrepared": "Fully prepared to take risks.",
+                    "fullyPrepared": "Fully prepared to take risks",
                     "unwilling": "Unwilling to take risks"
                 }
             },
@@ -709,36 +709,36 @@ const translations = {
                         }
                     }
                 },
-                "label": "For each of the following questions, please indicate the point on the 7-point scale that best describes you."
+                "label": "For each of the following questions, please indicate the point on the 7-point scale that best describes you:"
             },
             "7": {
                 "items": {
                     "1": {
-                        "label": "I believe that I and those around me are happy"
+                        "label": "I believe that I and those around me are happy."
                     },
                     "2": {
-                        "label": "I feel that I am being positively evaluated by others around me"
+                        "label": "I feel that I am being positively evaluated by others around me."
                     },
                     "3": {
-                        "label": "I make significant others happy"
+                        "label": "I make significant others happy."
                     },
                     "4": {
-                        "label": "Although it is quite average, I live a stable life"
+                        "label": "Although it is quite average, I live a stable life."
                     },
                     "5": {
-                        "label": "I do not have any major concerns or anxieties"
+                        "label": "I do not have any major concerns or anxieties."
                     },
                     "6": {
-                        "label": "I can do what I want without causing problems for other people"
+                        "label": "I can do what I want without causing problems for other people."
                     },
                     "7": {
-                        "label": "I believe that my life is just as happy as that of others around me"
+                        "label": "I believe that my life is just as happy as that of others around me."
                     },
                     "8": {
-                        "label": "I believe that I have achieved the same standard of living as those around me"
+                        "label": "I believe that I have achieved the same standard of living as those around me."
                     },
                     "9": {
-                        "label": "I generally believe that things are going as well for me as they are for others around me"
+                        "label": "I generally believe that things are going as well for me as they are for others around me."
                     }
                 },
                 "label": "Please rate the extent to which you agree or disagree with the following statements:",
@@ -753,55 +753,55 @@ const translations = {
             "8": {
                 "items": {
                     "1": {
-                        "label": "Belief in a religion helps one understand the meaning of life"
+                        "label": "Belief in a religion helps one understand the meaning of life."
                     },
                     "10": {
-                        "label": "Only weak people need religion"
+                        "label": "Only weak people need religion."
                     },
                     "11": {
-                        "label": "Religion makes people escape from reality"
+                        "label": "Religion makes people escape from reality."
                     },
                     "12": {
-                        "label": "Practicing a religion unites people with others"
+                        "label": "Practicing a religion unites people with others."
                     },
                     "13": {
-                        "label": "Religious people are more likely to maintain moral standards"
+                        "label": "Religious people are more likely to maintain moral standards."
                     },
                     "14": {
-                        "label": "Religious beliefs lead to unscientific thinking"
+                        "label": "Religious beliefs lead to unscientific thinking."
                     },
                     "15": {
-                        "label": "Ignorance leads people to believe in a supreme being"
+                        "label": "Ignorance leads people to believe in a supreme being."
                     },
                     "16": {
-                        "label": "Evidence of a supreme being is everywhere for those who seek its signs"
+                        "label": "Evidence of a supreme being is everywhere for those who seek its signs."
                     },
                     "17": {
-                        "label": "Religion contradicts science"
+                        "label": "Religion contradicts science."
                     },
                     "2": {
-                        "label": "Religion helps people make good choices for their lives"
+                        "label": "Religion helps people make good choices for their lives."
                     },
                     "3": {
-                        "label": "Religious faith contributes to good mental health"
+                        "label": "Religious faith contributes to good mental health."
                     },
                     "4": {
-                        "label": "Religion slows down human progress"
+                        "label": "Religion slows down human progress."
                     },
                     "5": {
-                        "label": "There is a supreme being controlling the universe"
+                        "label": "There is a supreme being controlling the universe."
                     },
                     "6": {
-                        "label": "Religion makes people healthier"
+                        "label": "Religion makes people healthier."
                     },
                     "7": {
-                        "label": "Religion makes people happier"
+                        "label": "Religion makes people happier."
                     },
                     "8": {
-                        "label": "Belief in a religion makes people good citizens"
+                        "label": "Belief in a religion makes people good citizens."
                     },
                     "9": {
-                        "label": "Religious practice makes it harder for people to think independently"
+                        "label": "Religious practice makes it harder for people to think independently."
                     }
                 },
                 "label": "Please rate the extent to which you agree or disagree with the following statements:",
@@ -817,40 +817,40 @@ const translations = {
             "9": {
                 "items": {
                     "1": {
-                        "label": "You prefer to say what you are thinking, even if it is inappropriate for the situation"
+                        "label": "You prefer to say what you are thinking, even if it is inappropriate for the situation."
                     },
                     "10": {
-                        "label": "You value good relations with the people close to you more than your personal achievements"
+                        "label": "You value good relations with the people close to you more than your personal achievements."
                     },
                     "11": {
-                        "label": "You always put your family first, even if it means giving up your personal goals"
+                        "label": "You always put your family first, even if it means giving up your personal goals."
                     },
                     "12": {
-                        "label": "You are more concerned with your friends\u2019 happiness than your own success"
+                        "label": "You are more concerned with your friends\u2019 happiness than your own success."
                     },
                     "2": {
-                        "label": "You show your inner feelings even if it disturbs the harmony in your family"
+                        "label": "You show your inner feelings even if it disturbs the harmony in your family."
                     },
                     "3": {
-                        "label": "You are comfortable expressing disagreement with friends"
+                        "label": "You are comfortable expressing disagreement with friends."
                     },
                     "4": {
-                        "label": "You try to adapt to people around you, even if it means hiding your inner feelings"
+                        "label": "You try to adapt to people around you, even if it means hiding your inner feelings."
                     },
                     "5": {
-                        "label": "You feel uncomfortable when you express disagreement with members of your family"
+                        "label": "You feel uncomfortable when you express disagreement with members of your family."
                     },
                     "6": {
-                        "label": "You try to maintain harmony among the people around you"
+                        "label": "You try to maintain harmony among the people around you."
                     },
                     "7": {
-                        "label": "You value personal achievements more than good relations with the people close to you"
+                        "label": "You value personal achievements more than good relations with the people close to you."
                     },
                     "8": {
-                        "label": "Your own success is very important to you, even if it disrupts your friendships"
+                        "label": "Your own success is very important to you, even if it disrupts your friendships."
                     },
                     "9": {
-                        "label": "You follow your personal goals even if they are very different from the goals of your family"
+                        "label": "You follow your personal goals even if they are very different from the goals of your family."
                     }
                 },
                 "label": "Please rate the extent to which the following statements describe you.",
@@ -1011,7 +1011,7 @@ const translations = {
                         "options": {
                             "female": "Female",
                             "male": "Male",
-                            "na": "I would rather not state",
+                            "na": "I prefer not to answer",
                             "other": "Other"
                         }
                     },
@@ -1052,13 +1052,14 @@ const translations = {
                     "9": {
                         "label": "Do you follow a religion?",
                         "noLabel": "No",
+                        "perferNoAnswer": "I prefer not to answer",
                         "yesLabel": "Yes"
                     }
                 }
             },
             "2": {
                 "instructions": {
-                    "firstSection": "Please describe an experience yesterday that you remember well. Specifically, please describe what you were doing, where you were, and who was present. Type your responses below.",
+                    "firstSection": "Please describe an experience yesterday that you remember well. Any experience you had yesterday will do; it is only important that you remember it well. Specifically, please describe what you were doing, where you were, and who was present.",
                     "secondSection": "Please type your responses in the boxes below."
                 },
                 "questions": {
