@@ -1051,16 +1051,19 @@ const translations = {
                     },
                     "9": {
                         "label": "Do you follow a religion?",
-                        "noLabel": "No",
-                        "perferNoAnswer": "I prefer not to answer",
-                        "yesLabel": "Yes"
+                        "options": {
+                            "noLabel": "No",
+                            "preferNoAnswer": "I prefer not to answer",
+                            "yesLabel": "Yes"
+                        }
                     }
                 }
             },
             "2": {
                 "instructions": {
-                    "firstSection": "Please describe an experience yesterday that you remember well. Any experience you had yesterday will do; it is only important that you remember it well. Specifically, please describe what you were doing, where you were, and who was present.",
-                    "secondSection": "Please type your responses in the boxes below."
+                    "firstSection": "Please describe an experience yesterday that you remember well.",
+                    "secondSection": "Any experience you had yesterday will do; it is only important that you remember it well. Specifically, please describe what you were doing, where you were, and who was present.",
+                    "thirdSection": "Please type your responses in the boxes below."
                 },
                 "questions": {
                     "11": {
