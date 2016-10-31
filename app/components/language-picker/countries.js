@@ -648,5 +648,15 @@ export default [
             }
         ],
         "name": "Vietnam"
+    },
+    {
+        "code": "US",
+        "languages": [
+            {
+                "code": "test",
+                "name": "Test"
+            }
+        ],
+        "name": "X-Pseudo"
     }
 ];
