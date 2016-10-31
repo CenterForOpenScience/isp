@@ -25,7 +25,7 @@ test('it sets the locale', function(assert) {
 
   this.render(hbs`{{language-picker onPick=(action selectLanguage)}}`);
 
-  this.$('.flag-icon-us').parent().click();
+  this.$('.flag-icon-us').first().parent().click();
   assert.equal(this.get('i18n.locale'), 'en-US');
   assert.expect(3);
 });
