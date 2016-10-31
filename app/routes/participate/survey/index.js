@@ -10,17 +10,17 @@ export default Ember.Route.extend({
   actions: {
     willTransition(transition) {
       this._super(transition);
-
-      if (transition.targetName === 'participate.survey.results') {
+      if (transition.targetName === 'participate.survey.results' || transition.targetName === 'exit') {
         return true;
       }
 
       var frameIndex = this.controllerFor('participate.survey.index').get('frameIndex');
       var framePage = this.controllerFor('participate.survey.index').get('framePage');
+
       if (frameIndex !== 0) {
         this.replaceWith('participate.survey.index');
-        // Disable back button in qsort page 2, and rating-form page 1
-        if (!(frameIndex === 2 && framePage === 1) && frameIndex !== 3) {
+        // Disable back button in qsort page 2, rating-form page 1, and thank-you page
+        if (!(frameIndex === 2 && framePage === 1) && frameIndex !== 3 && frameIndex !== 4) {
           this.controllerFor('participate.survey.index').set('frameIndex', frameIndex - 1);
         }
         // Update pages within the rating-form
