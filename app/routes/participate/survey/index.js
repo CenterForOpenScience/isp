@@ -10,13 +10,13 @@ export default Ember.Route.extend({
   actions: {
     willTransition(transition) {
       this._super(transition);
-
-      if (transition.targetName === 'participate.survey.results') {
+      if (transition.targetName === 'participate.survey.results' || transition.targetName === 'exit') {
         return true;
       }
 
       var frameIndex = this.controllerFor('participate.survey.index').get('frameIndex');
       var framePage = this.controllerFor('participate.survey.index').get('framePage');
+
       if (frameIndex !== 0) {
         this.replaceWith('participate.survey.index');
         // Disable back button in qsort page 2, and rating-form page 1
