@@ -47,7 +47,7 @@
     "ember-flag-icon-css": "git://github.com/samchrisinger/ember-flag-icon-css.git#144039ca0401e275c850c201d6ceb73ac5cb73bc",
     "ember-get-config": "0.0.4",
     "ember-getowner-polyfill": "1.0.1",
-    "ember-i18n": "4.2.2",
+    "ember-i18n": "4.3.1",
     "ember-load-initializers": "^0.5.1",
     "ember-moment": "6.0.0",
     "ember-power-select": "1.0.0-beta.25",
