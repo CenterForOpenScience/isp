@@ -9,5 +9,17 @@ export default {
         ],
         "title": "Consent to Participate in Research",
         "versionHistory": "(Consent form version: 14 October 2016)"
+    },
+    "test2": {
+        "buttonLabel": "Test2 button label",
+        "consentLabel": "Test2 consent label",
+        "paragraphs": [
+            "Test2 paragraph 1 Test2 paragraph 1 Test2 paragraph 1.",
+            "Test2 paragraph 2 Test2 paragraph 2 Test2 paragraph 2.",
+            "Test2 paragraph 3 Test2 paragraph 3 Test2 paragraph 3.",
+            "Test2 paragraph 4 Test2 paragraph 4 Test2 paragraph 4."
+        ],
+        "title": "Test2 Consent Form Title",
+        "versionHistory": "(Test2 Consent form version: 31 October 2016)"
     }
 };
