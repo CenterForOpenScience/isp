@@ -12,8 +12,8 @@ Router.map(function() {
     this.route('survey', function() {
       this.route('results');
       this.route('consent');
-      this.route('complete');
     });
+    this.route('complete', { path: '/survey/complete'});
   });
   this.route('exit');
 });
