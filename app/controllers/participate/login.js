@@ -15,31 +15,31 @@ export default Ember.Controller.extend({
   authenticating: false,
   actions: {
     authenticate(attrs) {
-      return this.get('session')
-        .authenticate('authenticator:jam-jwt', attrs)
-        .then(() => {
-          var surveyController = Ember.getOwner(this).lookup('controller:participate');
-          surveyController.set('studyId', attrs.password);
-          surveyController.set('participantId', attrs.username);
-          this.transitionToRoute('participate.survey.consent');
-        })
-        .catch((e) => {
-          if (e.status === 404) {
-            this.send('toggleInvalidAuth');
+      if (!this.get('locale')) {
+        this.toggleProperty('invalidLocale');
+        this.set('authenticating', false);
+        this.get('raven').captureMessage('Locale not selected');
+      } else {
+        return this.get('session')
+          .authenticate('authenticator:jam-jwt', attrs)
+          .then(() => {
+            var surveyController = Ember.getOwner(this).lookup('controller:participate');
+            surveyController.set('studyId', attrs.password);
+            surveyController.set('participantId', attrs.username);
+            this.transitionToRoute('participate.survey.consent');
+          })
+          .catch((e) => {
             this.set('authenticating', false);
-          } else if (e.name === 'TransitionAborted') {
-            this.send('toggleInvalidLocale');
-            this.get('raven').captureMessage('Locale not selected', {
-              status: e.status
-            });
-          }
-        });
+            if (e.status === 404 || e.status === 401) {
+              this.toggleProperty('invalidAuth');
+            } else {
+              this.toggleProperty('loginError');
+            }
+          });
+      }
     },
-    toggleInvalidAuth() {
-      this.toggleProperty('invalidAuth');
-    },
-    toggleInvalidLocale() {
-      this.toggleProperty('invalidLocale');
+    toggleAction(property) {
+      this.toggleProperty(property);
     },
     showLanguageSelector() {
       this.set('showLanguageSelector', true);
