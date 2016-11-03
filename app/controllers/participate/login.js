@@ -24,7 +24,7 @@ export default Ember.Controller.extend({
           this.transitionToRoute('participate.survey.consent');
         })
         .catch((e) => {
-          if (e.status === 404) {
+          if (e.status === 404 || e.status === 401) {
             this.send('toggleInvalidAuth');
             this.set('authenticating', false);
           } else if (e.name === 'TransitionAborted') {
