@@ -13,7 +13,7 @@ export default Ember.Route.extend(AuthenticatedRouteMixin, {
         // If participant has previously visited the survey (which requires granting consent),
         // go directly to survey and skip consent page
         if (ENV.featureFlags.continueSession && session.get('hasGrantedConsent')) {
-            this.transitionTo('participate.survey');
+            this.transitionTo('participate.survey.index');
         }
         return session;
     }
