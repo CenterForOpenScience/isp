@@ -25,6 +25,12 @@
       {{/bs-modal}}
     {{/if}}
 
+    {{#if loginError}}
+      {{#bs-modal title="An error occured when logging in." closedAction=(action 'toggleLoginError')}}
+        {{#bs-modal-body}}Please try again later.{{/bs-modal-body}}
+      {{/bs-modal}}
+    {{/if}}
+
     <div class="row">
       <div class="col-md-12">
         <h1>International Situations Project</h1>

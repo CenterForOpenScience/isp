@@ -29,9 +29,11 @@ export default Ember.Controller.extend({
             this.transitionToRoute('participate.survey.consent');
           })
           .catch((e) => {
+            this.set('authenticating', false);
             if (e.status === 404 || e.status === 401) {
               this.send('toggleInvalidAuth');
-              this.set('authenticating', false);
+            } else {
+              this.send('toggleLoginError');
             }
           });
       }
@@ -41,6 +43,9 @@ export default Ember.Controller.extend({
     },
     toggleInvalidLocale() {
       this.toggleProperty('invalidLocale');
+    },
+    toggleLoginError() {
+      this.toggleProperty('loginError');
     },
     showLanguageSelector() {
       this.set('showLanguageSelector', true);
