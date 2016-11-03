@@ -7,6 +7,10 @@
         {{/if}}
         <button id="select-language" class="btn btn-default" {{action 'showLanguageSelector'}}>{{t 'login.changeButton'}}</button>
       </h3>
+    {{else}}
+        {{#unless showLanguageSelector}}
+            <button id="select-language" class="btn btn-default" {{action 'showLanguageSelector'}}>{{t 'login.changeButton'}}</button>
+        {{/unless}}
     {{/if}}
 
     {{#if invalidAuth}}
