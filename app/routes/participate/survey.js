@@ -49,8 +49,8 @@ export default Ember.Route.extend(AuthenticatedRouteMixin, {
       }).catch(reject);
     });
   },
-  beforeModel(params) {
-    this._super(params);
+  beforeModel(transition) {
+    this._super(transition);
 
     var locale;
     try {
@@ -58,8 +58,9 @@ export default Ember.Route.extend(AuthenticatedRouteMixin, {
     } catch (e) {}
     if (!locale) {
       this.transitionTo('participate.login');
+    } else {
+      this.transitionTo('participate.survey.consent');
     }
-    this.transitionTo('participate.survey.consent');
   },
   activate () {
     let session = this.get('_session');
