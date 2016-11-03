@@ -15,25 +15,26 @@ export default Ember.Controller.extend({
   authenticating: false,
   actions: {
     authenticate(attrs) {
-      return this.get('session')
-        .authenticate('authenticator:jam-jwt', attrs)
-        .then(() => {
-          var surveyController = Ember.getOwner(this).lookup('controller:participate');
-          surveyController.set('studyId', attrs.password);
-          surveyController.set('participantId', attrs.username);
-          this.transitionToRoute('participate.survey.consent');
-        })
-        .catch((e) => {
-          if (e.status === 404 || e.status === 401) {
-            this.send('toggleInvalidAuth');
-            this.set('authenticating', false);
-          } else if (e.name === 'TransitionAborted') {
-            this.send('toggleInvalidLocale');
-            this.get('raven').captureMessage('Locale not selected', {
-              status: e.status
-            });
-          }
-        });
+      if (!this.get('locale')) {
+        this.send('toggleInvalidLocale');
+        this.set('authenticating', false);
+        this.get('raven').captureMessage('Locale not selected');
+      } else {
+        return this.get('session')
+          .authenticate('authenticator:jam-jwt', attrs)
+          .then(() => {
+            var surveyController = Ember.getOwner(this).lookup('controller:participate');
+            surveyController.set('studyId', attrs.password);
+            surveyController.set('participantId', attrs.username);
+            this.transitionToRoute('participate.survey.consent');
+          })
+          .catch((e) => {
+            if (e.status === 404 || e.status === 401) {
+              this.send('toggleInvalidAuth');
+              this.set('authenticating', false);
+            }
+          });
+      }
     },
     toggleInvalidAuth() {
       this.toggleProperty('invalidAuth');
