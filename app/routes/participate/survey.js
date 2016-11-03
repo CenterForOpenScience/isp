@@ -54,13 +54,12 @@ export default Ember.Route.extend(AuthenticatedRouteMixin, {
 
     var locale;
     try {
-        locale = this.controllerFor('participate').get('locale');
-    } catch (e) {
-    }
+      locale = this.controllerFor('participate').get('locale');
+    } catch (e) {}
     if (!locale) {
-        this.transitionTo('participate.login');
+      this.transitionTo('participate.login');
     } else {
-        this.transitionTo('participate.survey.consent');
+      this.transitionTo('participate.survey.consent');
     }
   },
   activate () {

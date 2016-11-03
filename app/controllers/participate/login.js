@@ -16,7 +16,7 @@ export default Ember.Controller.extend({
   actions: {
     authenticate(attrs) {
       if (!this.get('locale')) {
-        this.send('toggleInvalidLocale');
+        this.toggleProperty('invalidLocale');
         this.set('authenticating', false);
         this.get('raven').captureMessage('Locale not selected');
       } else {
@@ -31,21 +31,15 @@ export default Ember.Controller.extend({
           .catch((e) => {
             this.set('authenticating', false);
             if (e.status === 404 || e.status === 401) {
-              this.send('toggleInvalidAuth');
+              this.toggleProperty('invalidAuth');
             } else {
-              this.send('toggleLoginError');
+              this.toggleProperty('loginError');
             }
           });
       }
     },
-    toggleInvalidAuth() {
-      this.toggleProperty('invalidAuth');
-    },
-    toggleInvalidLocale() {
-      this.toggleProperty('invalidLocale');
-    },
-    toggleLoginError() {
-      this.toggleProperty('loginError');
+    toggleAction(property) {
+      this.toggleProperty(property);
     },
     showLanguageSelector() {
       this.set('showLanguageSelector', true);
