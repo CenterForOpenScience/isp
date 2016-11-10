@@ -10,15 +10,19 @@ export default Ember.Route.extend({
   actions: {
     willTransition(transition) {
       this._super(transition);
+      var oldURL = this.router.generate(this.routeName);
+      var newURL = this.router.location.getURL();
+      if (oldURL !== newURL) {
+        this.router.location.setURL(oldURL);
+      }
+
       if (transition.targetName === 'participate.survey.results' || transition.targetName === 'exit') {
         return true;
       }
 
       var frameIndex = this.controllerFor('participate.survey.index').get('frameIndex');
       var framePage = this.controllerFor('participate.survey.index').get('framePage');
-
       if (frameIndex !== 0) {
-        this.replaceWith('participate.survey.index');
         // Disable back button in qsort page 2, rating-form page 1, and thank-you page
         if (!(frameIndex === 2 && framePage === 1) && frameIndex !== 3 && frameIndex !== 4) {
           this.controllerFor('participate.survey.index').set('frameIndex', frameIndex - 1);
@@ -28,6 +32,7 @@ export default Ember.Route.extend({
           this.controllerFor('participate.survey.index').set('framePage', framePage - 1);
         }
       }
+      transition.abort();
     }
   }
 });
