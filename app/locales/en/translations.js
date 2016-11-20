@@ -181,6 +181,9 @@ const translations = {
     },
     "login": {
         "changeButton": "Change language",
+        "defaultError": "Please try again later.",
+        "errorHeading": "An error occured when logging in",
+        "invalidAuthError": "Invalid Study ID or Participant ID.",
         "participantID": "Participant ID",
         "studyID": "Study ID",
         "youChose": "You chose:"
@@ -817,49 +820,52 @@ const translations = {
             "9": {
                 "items": {
                     "1": {
-                        "label": "You prefer to say what you are thinking, even if it is inappropriate for the situation."
+                        "label": "You prefer to express your thoughts and feelings openly, even if it may sometimes cause conflict."
                     },
                     "10": {
-                        "label": "You value good relations with the people close to you more than your personal achievements."
+                        "label": "You behave differently when you are with different people."
                     },
                     "11": {
-                        "label": "You always put your family first, even if it means giving up your personal goals."
+                        "label": "You see yourself differently when you are with different people."
                     },
                     "12": {
-                        "label": "You are more concerned with your friends\u2019 happiness than your own success."
+                        "label": "You see yourself the same way even in different social environments."
+                    },
+                    "13": {
+                        "label": "You behave in the same way even when you are with different people."
                     },
                     "2": {
-                        "label": "You show your inner feelings even if it disturbs the harmony in your family."
+                        "label": "You try to adapt to people around you, even if it means hiding your feelings."
                     },
                     "3": {
-                        "label": "You are comfortable expressing disagreement with friends."
+                        "label": "You prefer to preserve harmony in your relationships, even if this means not expressing your true feelings."
                     },
                     "4": {
-                        "label": "You try to adapt to people around you, even if it means hiding your inner feelings."
+                        "label": "You think it is good to express openly when you disagree with others."
                     },
                     "5": {
-                        "label": "You feel uncomfortable when you express disagreement with members of your family."
+                        "label": "You protect your own interests, even if it might sometimes disrupt your family relationships."
                     },
                     "6": {
-                        "label": "You try to maintain harmony among the people around you."
+                        "label": "You usually give priority to others, before yourself."
                     },
                     "7": {
-                        "label": "You value personal achievements more than good relations with the people close to you."
+                        "label": "You look after the people close to you, even if it means putting your personal needs to one side."
                     },
                     "8": {
-                        "label": "Your own success is very important to you, even if it disrupts your friendships."
+                        "label": "You value personal achievements more than good relations with the people close to you."
                     },
                     "9": {
-                        "label": "You follow your personal goals even if they are very different from the goals of your family."
+                        "label": "You would sacrifice your personal interests for the benefit of your family."
                     }
                 },
-                "label": "Please rate the extent to which the following statements describe you.",
+                "label": "How well does each statement describe you?",
                 "options": {
-                    "aLittle": "A little",
-                    "exactly": "Exactly",
-                    "moderately": "Moderately",
-                    "notAtAll": "Not at all",
-                    "veryWell": "Very well"
+                    "aLittle": "Describes me a little",
+                    "exactly": "Describes me exactly",
+                    "moderately": "Describes me moderately",
+                    "notAtAll": "Doesn\u2019t describe me at all",
+                    "veryWell": "Describes me very well"
                 }
             }
         }
