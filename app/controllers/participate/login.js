@@ -4,6 +4,7 @@ import ENV from 'isp/config/environment';
 
 export default Ember.Controller.extend({
   session: Ember.inject.service('session'),
+  i18n: Ember.inject.service(),
   raven: Ember.inject.service(),
   studyId: null,
   participantId: null,
@@ -13,6 +14,9 @@ export default Ember.Controller.extend({
   selectedLanguage: null,
   locale: null,
   authenticating: false,
+  errorHeading: Ember.computed(function(){
+    return this.get('i18n').t('login.errorHeading').string;
+  }),
   actions: {
     authenticate(attrs) {
       if (!this.get('locale')) {
