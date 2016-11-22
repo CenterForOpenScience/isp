@@ -5,7 +5,7 @@
     1. Obtain access to translation spreadsheet for the desired locale from client
     2. Download the spreadsheet as a csv file and add it to the isp/scripts directory
     3. Run the script, passing in the csv file's name:
-       e.g. `python -m scripts.format_json --filename en-us.csv`
+       e.g. `python -m scripts.format_translations --filename en-us.csv`
     4. Copy & paste the json from the generated file to the translations.js file in isp/app/locales/<locale>/
        See isp/app/locales/en/translations.js as an example.
        Note: If the locale folder does not exist, run 'ember generate locale <locale> in the isp/app directory.
