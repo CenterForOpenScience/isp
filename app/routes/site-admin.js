@@ -14,7 +14,7 @@ export default Ember.Route.extend(AuthenticatedRouteMixin, {
     model(params) {
         const query = {};
         if (params.siteId) {
-            query['filter[extra.siteId]'] = params.siteId;
+            query['filter[extra.studyId]'] = params.siteId;
         }
         return this.store.queryEverything('account', query);
     }

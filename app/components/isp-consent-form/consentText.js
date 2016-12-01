@@ -1,4 +1,20 @@
-export default {
+/**
+ * Manage differences between individual sites that recruit and host study participants
+ *
+ * @module isp
+ * @submodule components
+ */
+
+/**
+ * Text related to consent form
+ * @class isp-consent-form/consentText
+  */
+
+/**
+ *
+ * @property
+ */
+const consentText = {
     "test": {
         "buttonLabel": "Please accept terms to continue",
         "consentLabel": "I have read and understand the above statements and agree to participate.",
@@ -23,3 +39,14 @@ export default {
         "versionHistory": "(Test2 Consent form version: 31 October 2016)"
     }
 };
+
+/**
+ * All site names connected to ISP
+ *
+ * @property
+ * @type {Array}
+ */
+const siteNames = Object.keys(consentText);
+
+export default consentText;
+export {siteNames};
