@@ -22,6 +22,8 @@
                 {{! Readability + some studies may have field undefined }}
                 <td>{{if account.extra.hasCompletedStudy 'Yes' 'No'}}</td>
             </tr>
+        {{else}}
+            <tr><td>(no results found)</td><td></td></tr>
         {{/each}}
     </tbody>
 </table>
