@@ -19,7 +19,8 @@
         {{#each model as |account|}}
             <tr>
                 <td>{{account.id}}</td>
-                <td>{{account.extra.hasCompletedStudy}}</td>
+                {{! Readability + some studies may have field undefined }}
+                <td>{{if account.extra.hasCompletedStudy 'Yes' 'No'}}</td>
             </tr>
         {{/each}}
     </tbody>

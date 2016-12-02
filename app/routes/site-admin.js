@@ -12,7 +12,7 @@ export default Ember.Route.extend(AuthenticatedRouteMixin, {
     },
 
     model(params) {
-        const query = {};
+        const query = {sort: '+created_on'};
         if (params.siteId) {
             query['filter[extra.studyId]'] = params.siteId;
         }
