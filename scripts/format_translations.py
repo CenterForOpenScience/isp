@@ -9,11 +9,22 @@
     4. Copy & paste the json from the generated file to the translations.js file in isp/app/locales/<locale>/
        See isp/app/locales/en/translations.js as an example.
        Note: If the locale folder does not exist, run 'ember generate locale <locale> in the isp/app directory.
+
+
+This assumes a CSV file of the following format:
+       Column 1 = JSON key
+       Column 2 = English text
+       Column 3 = Translation
+       Column 4 = Back translation
+       Column 5 = Discrepancies
+       Column 6 = Final translation
+       Column 7 = Comments
 """
 import argparse
+import collections
 import csv
 import json
-import collections
+import os
 
 
 numbers = {
@@ -126,19 +137,27 @@ data = collections.defaultdict(dict)
 def parse_args():
     parser = argparse.ArgumentParser()
     parser.add_argument('-f', '--filename', dest='filename', required=True)
+    parser.add_argument('-o', '--out', dest='out', help='The output filename; defaults to <filename>.json')
+    parser.add_argument('--test', dest='use_column', default=5, action='store_const', const=1,
+                        help='Testing mode (always writes the english text)')
     return parser.parse_args()
 
 
 def main():
     args = parse_args()
+    # If no output filename specified, use same path, but with a JSON extension
+    out_fn = args.out or os.path.splitext(args.filename)[0] + os.path.sep + 'json'
+    if os.path.isfile(out_fn):
+        raise OSError('Specified output filename already exists')
+
     with open(args.filename, 'rb') as csvfile:
         reader = csv.reader(csvfile)
         for row in reader:
             keys = row[0].split('.')
-            merge(data, format_dict(keys, row[1].strip(" ")))
-    f = open('en-us.json', 'w')
-    data.update(numbers)
-    f.write(json.dumps(data, indent=4, sort_keys=True))
+            merge(data, format_dict(keys, row[args.use_column].strip(" ")))
+    with open(args.out, 'w') as f:
+        data.update(numbers)
+        f.write(json.dumps(data, indent=4, sort_keys=True))
 
 
 def format_dict(keys, value):
