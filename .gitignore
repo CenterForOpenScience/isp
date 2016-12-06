@@ -21,3 +21,7 @@ testem.log
 .env
 .env-local
 env
+
+# Misc
+/scripts/*.json
+/scripts/*.csv

@@ -134,19 +134,58 @@ numbers = {
 data = collections.defaultdict(dict)
 
 
+# Path to a user-generated file with a reference translation. User must generate and make available.
+REFERENCE_LOCALE_PATH = './en.json'
+
+
+def flatten(nested_dict, base_key=''):
+    new_dict = {}
+    for k, v in nested_dict.iteritems():
+        this_key = '{}.{}'.format(base_key, k) if base_key else k
+        if isinstance(v, collections.Mapping):
+            new_dict.update(flatten(v, base_key=this_key))
+        else:
+            new_dict[this_key] = v
+    return new_dict
+
+
+def validate_translations(reference_locale, new_translation):
+    """
+    Compare the current translation to a reference locale to see if any keys are missing or empty
+    :param dict reference_locale: Date for the reference locale
+    :param dict new_translation: Data for the new translation
+    """
+    flat_reference = flatten(reference_locale)
+    flat_new = flatten(new_translation)
+
+    # Are any keys outright missing or extra?
+    reference_keys = set(flat_reference.iterkeys())
+    new_keys = set(flat_new.iterkeys())
+
+    if reference_keys ^ new_keys:
+        print "The following keys appear in the reference locale, but not the new translation: ", reference_keys - new_keys
+        print "The following keys appear in the new translation, but not the reference locale: ", new_keys - reference_keys
+
+    # Then: are any of the keys in the translation file present, but blank?
+    for k, v in flat_new.iteritems():
+        if not v:
+            print "Found blank value in new translation at key: ", k
+
+
 def parse_args():
     parser = argparse.ArgumentParser()
     parser.add_argument('-f', '--filename', dest='filename', required=True)
     parser.add_argument('-o', '--out', dest='out', help='The output filename; defaults to <filename>.json')
     parser.add_argument('--test', dest='use_column', default=5, action='store_const', const=1,
                         help='Testing mode (always writes the english text)')
+    parser.add_argument('-v', '--validate', dest='validate', action='store_true')
     return parser.parse_args()
 
 
 def main():
     args = parse_args()
     # If no output filename specified, use same path, but with a JSON extension
-    out_fn = args.out or os.path.splitext(args.filename)[0] + os.path.sep + 'json'
+    out_fn = args.out or os.path.splitext(args.filename)[0] + os.path.extsep + 'json'
     if os.path.isfile(out_fn):
         raise OSError('Specified output filename already exists')
 
@@ -155,9 +194,14 @@ def main():
         for row in reader:
             keys = row[0].split('.')
             merge(data, format_dict(keys, row[args.use_column].strip(" ")))
-    with open(args.out, 'w') as f:
+    with open(out_fn, 'w') as f:
         data.update(numbers)
         f.write(json.dumps(data, indent=4, sort_keys=True))
+
+    if args.validate:
+        with open(REFERENCE_LOCALE_PATH, 'r') as f:
+            reference_translation = json.load(f)
+        validate_translations(reference_translation, data)
 
 
 def format_dict(keys, value):
