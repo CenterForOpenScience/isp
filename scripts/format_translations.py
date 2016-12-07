@@ -5,7 +5,7 @@
     1. Obtain access to translation spreadsheet for the desired locale from client
     2. Download the spreadsheet as a csv file and add it to the isp/scripts directory
     3. Run the script, passing in the csv file's name:
-       e.g. `python -m scripts.format_translations --filename en-us.csv`
+       e.g. `python format_translations --filename en-us.csv --validate`
     4. Copy & paste the json from the generated file to the translations.js file in isp/app/locales/<locale>/
        See isp/app/locales/en/translations.js as an example.
        Note: If the locale folder does not exist, run 'ember generate locale <locale> in the isp/app directory.
@@ -25,6 +25,7 @@ import collections
 import csv
 import json
 import os
+import sys
 
 
 numbers = {
@@ -139,6 +140,7 @@ REFERENCE_LOCALE_PATH = './en.json'
 
 
 def flatten(nested_dict, base_key=''):
+    """Flatten a nested dict into a single level dictionary with dot-separated key names"""
     new_dict = {}
     for k, v in nested_dict.iteritems():
         this_key = '{}.{}'.format(base_key, k) if base_key else k
@@ -175,9 +177,10 @@ def validate_translations(reference_locale, new_translation):
 def parse_args():
     parser = argparse.ArgumentParser()
     parser.add_argument('-f', '--filename', dest='filename', required=True)
-    parser.add_argument('-o', '--out', dest='out', help='The output filename; defaults to <filename>.json')
+    parser.add_argument('-o', '--out', dest='out',
+                        help='The output filename; defaults to <filename>.json')
     parser.add_argument('--test', dest='use_column', default=5, action='store_const', const=1,
-                        help='Testing mode (always writes the english text)')
+                        help='Testing mode (always writes the english text, useful on files where no translation has been provided yet)')
     parser.add_argument('-v', '--validate', dest='validate', action='store_true')
     return parser.parse_args()
 
@@ -187,7 +190,13 @@ def main():
     # If no output filename specified, use same path, but with a JSON extension
     out_fn = args.out or os.path.splitext(args.filename)[0] + os.path.extsep + 'json'
     if os.path.isfile(out_fn):
-        raise OSError('Specified output filename already exists')
+        while True:
+            response = raw_input('Specified output filename already exists; overwrite? (y/n)\n').lower()
+            if response == 'y':
+                break
+            elif response == 'n':
+                print 'Output filename already in use; exiting.'
+                sys.exit()
 
     with open(args.filename, 'rb') as csvfile:
         reader = csv.reader(csvfile)
@@ -196,7 +205,7 @@ def main():
             merge(data, format_dict(keys, row[args.use_column].strip(" ")))
     with open(out_fn, 'w') as f:
         data.update(numbers)
-        f.write(json.dumps(data, indent=4, sort_keys=True))
+        json.dump(data, f, indent=4, sort_keys=True)
 
     if args.validate:
         with open(REFERENCE_LOCALE_PATH, 'r') as f:
