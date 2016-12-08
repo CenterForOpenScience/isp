@@ -16,11 +16,11 @@
     </tr>
     </thead>
     <tbody>
-        {{#each model as |account|}}
+        {{#each accountData as |account|}}
             <tr>
-                <td>{{account.id}}</td>
+                <td>{{account.userID}}</td>
                 {{! Readability + some studies may have field undefined }}
-                <td>{{if account.extra.hasCompletedStudy 'Yes' 'No'}}</td>
+                <td>{{account.hasCompletedStudy}}</td>
             </tr>
         {{else}}
             <tr><td>(no results found)</td><td></td></tr>
