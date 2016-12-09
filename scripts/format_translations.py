@@ -5,7 +5,7 @@
     1. Obtain access to translation spreadsheet for the desired locale from client
     2. Download the spreadsheet as a csv file and add it to the isp/scripts directory
     3. Run the script, passing in the csv file's name:
-       e.g. `python format_translations --filename en-us.csv --validate`
+       e.g. `python format_translations.py --filename en-us.csv --validate`
     4. Copy & paste the json from the generated file to the translations.js file in isp/app/locales/<locale>/
        See isp/app/locales/en/translations.js as an example.
        Note: If the locale folder does not exist, run 'ember generate locale <locale> in the isp/app directory.
@@ -13,12 +13,7 @@
 
 This assumes a CSV file of the following format:
        Column 1 = JSON key
-       Column 2 = English text
-       Column 3 = Translation
-       Column 4 = Back translation
-       Column 5 = Discrepancies
-       Column 6 = Final translation
-       Column 7 = Comments
+       Column 2 = Translated text
 """
 import argparse
 import collections
@@ -179,8 +174,6 @@ def parse_args():
     parser.add_argument('-f', '--filename', dest='filename', required=True)
     parser.add_argument('-o', '--out', dest='out',
                         help='The output filename; defaults to <filename>.json')
-    parser.add_argument('--test', dest='use_column', default=5, action='store_const', const=1,
-                        help='Testing mode (always writes the english text, useful on files where no translation has been provided yet)')
     parser.add_argument('-v', '--validate', dest='validate', action='store_true')
     return parser.parse_args()
 
@@ -202,7 +195,7 @@ def main():
         reader = csv.reader(csvfile)
         for row in reader:
             keys = row[0].split('.')
-            merge(data, format_dict(keys, row[args.use_column].strip(" ")))
+            merge(data, format_dict(keys, row[1].strip(" ")))
     with open(out_fn, 'w') as f:
         data.update(numbers)
         json.dump(data, f, indent=4, sort_keys=True)
