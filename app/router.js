@@ -16,6 +16,7 @@ Router.map(function() {
     this.route('complete', { path: '/survey/complete'});
   });
   this.route('exit');
+  this.route('site-admin');
 });
 
 export default Router;

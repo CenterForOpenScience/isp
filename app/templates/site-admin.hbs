@@ -1,0 +1,31 @@
+<p>
+    Select a site:
+    <select onchange={{action (mut siteId) value="target.value"}}>
+        <option value="" selected={{eq siteId}}>(show all users)</option>
+        {{#each siteNames as |site|}}
+            <option value="{{site}}" selected={{eq siteId site}}>{{site}}</option>
+        {{/each}}
+    </select>
+</p>
+
+<table class="table">
+    <thead>
+    <tr>
+        <th>userID</th>
+        <th>Completed study?</th>
+    </tr>
+    </thead>
+    <tbody>
+        {{#each accountData as |account|}}
+            <tr>
+                <td>{{account.userID}}</td>
+                {{! Readability + some studies may have field undefined }}
+                <td>{{account.hasCompletedStudy}}</td>
+            </tr>
+        {{else}}
+            <tr><td>(no results found)</td><td></td></tr>
+        {{/each}}
+    </tbody>
+</table>
+
+<button class="btn-primary" {{action 'exportResults'}}>Export to CSV</button>
