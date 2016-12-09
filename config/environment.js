@@ -77,18 +77,18 @@ module.exports = function(environment) {
 
   ENV.featureFlags = {
     // Whether to load existing expData into the exp-frames
-    loadData: false,
+    loadData: true,
 
     // Whether to validate survey forms
-    validate: false,
+    validate: true,
 
     // Whether to redirect users who have already taken the study to an error page
     // Set to false to test study multiple times with the same account
-    showStudyCompletedPage: false,
+    showStudyCompletedPage: true,
 
     // Whether to take the participant to the last page they were on
     // when they exited the study. If false, start from the beginning.
-    continueSession: false
+    continueSession: true
   };
 
   return ENV;
