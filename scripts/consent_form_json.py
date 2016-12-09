@@ -7,13 +7,17 @@
     1. Obtain client_secret.json file:
        a. Go to https://console.developers.google.com/
        b. Create a project for ISP
-       c. Under the credentials tab, click Create Credentials --> OAuth client ID, select "Web application"
+       c. Under the credentials tab, click Create Credentials --> OAuth client ID, select "Other"
           as application type and click "Create"
        d. Find the newly created credentials under "OAuth 2.0 client IDs" and download as json
        e. Rename json file to "client_secret.json"
     2. In the scripts directory, create a 'credentials' folder and add the client_secret.json file
     3. Run the script: `python -m scripts.consent_form_json`
     4. Add the json from the generated file (consent.json) to isp/app/components/isp-consent-form/consentText.js
+
+    The first time you run this script, you may get a message saying that you need to authorize specific APIs for use
+    with this project. The message will provide instructions needed to complete this process; wait several minutes
+    and then try running again.
 
     Modifies: https://developers.google.com/drive/v3/web/quickstart/python """
 
@@ -40,8 +44,9 @@ APPLICATION_NAME = 'International Situations Project'
 
 # Downloaded csv files with each site's consent form
 files_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'consent_forms')
-FILES = os.listdir(files_path)
-FOLDER_ID = "0Bxbak_ZCyxJ5Wl85ZFNERjlWMU0"
+
+## This may be a different folder for every translation
+FOLDER_ID = "0By5YcDUx8UZsdUxQRURIZlg5SjA"
 
 
 def get_credentials():
@@ -78,19 +83,19 @@ def main():
     download_files(data['files'], service)
 
     # convert csv files to a single json file
-    content = dict()
-    for filename in FILES:
+    content = {}
+    for filename in os.listdir(files_path):
         site_id = filename.split('.')[0]
         content[site_id] = format_consent_form('consent_forms/' + filename)
-    f = open('consent.json', 'w')
-    f.write(json.dumps(content, indent=4, sort_keys=True))
+    with open('consent.json', 'w') as f:
+        json.dump(content, f, indent=4, sort_keys=True)
 
 
 def download_files(files, service):
     for f in files:
         file_id = f['id']
         request = service.files().export_media(fileId=file_id, mimeType='text/csv').execute()
-        fn = '%s.csv' % os.path.splitext('consent_forms/' + files[0]['name'].replace(' ', '_'))[0]
+        fn = '%s.csv' % os.path.splitext('consent_forms/' + f['name'].replace(' ', '_'))[0]
         if request:
             with open(fn, 'wb') as csvfile:
                 csvfile.write(request)
