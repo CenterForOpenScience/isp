@@ -3,6 +3,12 @@
 ## Adding/ updating consent form text
 To update consent form text, see [`scripts/consent_form_json.py`](https://github.com/CenterForOpenScience/isp/blob/develop/scripts/consent_form_json.py)
 
+You may need to update the `FOLDER_ID` in the script to the particular Google Drive folder ID with consent 
+forms for your desired language.
+
+The script will generate a file `consent.json`; add the contents to the existing 
+[app/components/isp-consent-form/consentText.js](app/components/isp-consent-form/consentText.js).
+
 
 ## Adding/updating translations
 To update the translations for a given locale, see [`scripts/format_translations.py`](https://github.com/CenterForOpenScience/isp/blob/develop/scripts/format_translations.py)
