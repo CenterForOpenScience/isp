@@ -12,7 +12,7 @@
        d. Find the newly created credentials under "OAuth 2.0 client IDs" and download as json
        e. Rename json file to "client_secret.json"
     2. In the scripts directory, create a 'credentials' folder and add the client_secret.json file
-    3. Run the script: `python -m scripts.consent_form_json`
+    3. Run the script: `python consent_form_json.py`
     4. Add the json from the generated file (consent.json) to isp/app/components/isp-consent-form/consentText.js
 
     The first time you run this script, you may get a message saying that you need to authorize specific APIs for use
