@@ -14,7 +14,7 @@ export default Ember.Controller.extend({
         const model = this.get('model') || [];
         return model.map(item => ({
             userID: item.id,
-            hasCompletedStudy: !!item.get('extra.hasCompletedStudy')
+            hasCompletedStudy: item.get('extra.hasCompletedStudy') ? 'yes' : 'no'
         }));
     }),
 
