@@ -5,6 +5,5 @@ export default Session.extend({
     hasGrantedConsent: DS.attr('boolean'), // Whether user agreed to participate in the study
     frameIndex: DS.attr({defaultValue: 0}), // Index of the last visited exp-frame component
     surveyPage: DS.attr({defaultValue: 0}), // The last visited page within an exp-frame component
-    studyId: DS.attr('string'), // The siteID for the location where the study was taken,
-    locale: DS.attr('string')
+    extra: DS.attr({ defaultValue: () => {} }),
 });

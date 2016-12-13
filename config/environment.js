@@ -73,7 +73,7 @@ module.exports = function(environment) {
 
   }
 
-  ENV.studyId = process.env.STUDY_ID;
+  ENV.studyId = process.env.EXPERIMENT_ID;
 
   ENV.featureFlags = {
     // Whether to load existing expData into the exp-frames

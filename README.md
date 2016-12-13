@@ -41,10 +41,15 @@ To login via OSF:
 * in .env file include:
   * OSF_CLIENT_ID=\<client ID for staging account\>
   * OSF_SCOPE="osf.users.all_read"
-  * OSF_URL="https://staging-accounts.osf.io"
+  * OSF_URL="https://staging.osf.io"
   * OSF_AUTH_URL=https://staging-accounts.osf.io
   * JAMDB_URL=https://staging-metadata.osf.io
-  * STUDY_ID=\<jam db document ID referencing the desired ISP study\>
+  * EXPERIMENT_ID=\<jam db document ID referencing the desired ISP study\>
+
+* Find jam db document id at: https://staging-experimenter.osf.io/experiments/ (this is the EXPERIMENT_ID)
+* Create a new participant at https://staging-experimenter.osf.io/participants
+  * Study ID: test
+  * Participant ID: <look in the downloaded csv file>
 
 Then run the ember application:
 

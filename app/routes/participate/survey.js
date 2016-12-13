@@ -39,8 +39,10 @@ export default Ember.Route.extend(AuthenticatedRouteMixin, {
           }
           this.set('_experiment', experiment);
           session.set('experimentVersion', '');
-          session.set('locale', this.controllerFor('participate').get('locale'));
-          session.set('studyId', this.controllerFor('participate').get('studyId'));
+          session.set('extra', {
+              locale: this.controllerFor('participate').get('locale'), // The user's locale
+              studyId: this.controllerFor('participate').get('studyId') // The siteID for the location where the study was taken,
+          });
           session.save().then(() => {
             this.set('_session', session);
             resolve(session);
