@@ -8,6 +8,7 @@ export default Ember.Route.extend(AuthenticatedRouteMixin, {
   _session: null,
   store: Ember.inject.service(),
   currentUser: Ember.inject.service(),
+  i18n: Ember.inject.service(),
 
   _getExperiment() {
     return this.store.find('experiment', config.studyId);
@@ -39,8 +40,13 @@ export default Ember.Route.extend(AuthenticatedRouteMixin, {
           }
           this.set('_experiment', experiment);
           session.set('experimentVersion', '');
-          session.set('locale', this.controllerFor('participate').get('locale'));
-          session.set('studyId', this.controllerFor('participate').get('studyId'));
+
+          if (!session.get('extra')) {
+              session.set('extra', {});
+          }
+
+          session.set('extra.locale', this.get('i18n.locale')); // The user's locale
+          session.set('extra.studyId', this.controllerFor('participate').get('studyId')); // The siteID for the location where the study was taken
           session.save().then(() => {
             this.set('_session', session);
             resolve(session);
