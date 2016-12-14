@@ -196,7 +196,7 @@ export default {
             "10": {
                 "items": {
                     "1": {
-                        "label": "In diesem Land gibt es viele\r\nsoziale Normen, die die Menschen befolgen sollten."
+                        "label": "In diesem Land gibt es viele soziale Normen, die die Menschen befolgen sollten."
                     },
                     "2": {
                         "label": "In diesem Land gibt es sehr klare Erwartungen, wie sich Menschen in den meisten Situationen verhalten sollten."
@@ -224,7 +224,7 @@ export default {
                 }
             },
             "11": {
-                "label": "Gibt es einen Aspekt Ihrer Pers\u00f6nlichkeit, den Sie aktuell zu \u00e4ndern\r\nversuchen?",
+                "label": "Gibt es einen Aspekt Ihrer Pers\u00f6nlichkeit, den Sie aktuell zu \u00e4ndern versuchen?",
                 "options": {
                     "no": "Nein",
                     "yes": "Ja"
@@ -496,10 +496,10 @@ export default {
                         "label": "Ich bin stetig, best\u00e4ndig."
                     },
                     "14": {
-                        "label": "Ich kann launisch sein, habe schwankende\nStimmungen."
+                        "label": "Ich kann launisch sein, habe schwankende Stimmungen."
                     },
                     "15": {
-                        "label": "Ich bin erfinderisch, mir fallen raffinierte\nL\u00f6sungen ein."
+                        "label": "Ich bin erfinderisch, mir fallen raffinierte L\u00f6sungen ein."
                     },
                     "16": {
                         "label": "Ich bin eher ruhig."
@@ -508,7 +508,7 @@ export default {
                         "label": "Ich habe mit anderen wenig Mitgef\u00fchl."
                     },
                     "18": {
-                        "label": "Ich bin systematisch, halte meine Sachen in\nOrdnung."
+                        "label": "Ich bin systematisch, halte meine Sachen in Ordnung."
                     },
                     "19": {
                         "label": "Ich reagiere leicht angespannt."
@@ -517,7 +517,7 @@ export default {
                         "label": "Ich bin einf\u00fchlsam, warmherzig."
                     },
                     "20": {
-                        "label": "Ich kann mich f\u00fcr Kunst, Musik und Literatur\nbegeistern."
+                        "label": "Ich kann mich f\u00fcr Kunst, Musik und Literatur begeistern."
                     },
                     "21": {
                         "label": "Ich neige dazu, die F\u00fchrung zu \u00fcbernehmen."
@@ -535,7 +535,7 @@ export default {
                         "label": "Ich meide philosophische Diskussionen."
                     },
                     "26": {
-                        "label": "Ich bin weniger aktiv und unternehmungslustig\nals andere."
+                        "label": "Ich bin weniger aktiv und unternehmungslustig als andere."
                     },
                     "27": {
                         "label": "Ich bin nachsichtig, vergebe anderen leicht."
@@ -580,7 +580,7 @@ export default {
                         "label": "Ich f\u00fchle mich oft bedr\u00fcckt, freudlos."
                     },
                     "4": {
-                        "label": "Ich bleibe auch in stressigen Situationen\ngelassen."
+                        "label": "Ich bleibe auch in stressigen Situationen gelassen."
                     },
                     "40": {
                         "label": "Es macht mir Spa\u00df, gr\u00fcndlich \u00fcber komplexe Dinge nachzudenken und sie zu verstehen."
@@ -631,10 +631,10 @@ export default {
                         "label": "Ich bin oft deprimiert, niedergeschlagen."
                     },
                     "55": {
-                        "label": "Mich interessieren abstrakte \u00dcberlegungen\nwenig."
+                        "label": "Mich interessieren abstrakte \u00dcberlegungen wenig."
                     },
                     "56": {
-                        "label": "Ich bin begeisterungsf\u00e4hig und kann andere\nleicht mitrei\u00dfen."
+                        "label": "Ich bin begeisterungsf\u00e4hig und kann andere leicht mitrei\u00dfen."
                     },
                     "57": {
                         "label": "Ich schenke anderen leicht Vertrauen, glaube an das Gute im Menschen."
