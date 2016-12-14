@@ -125,7 +125,7 @@ export default {
         "loAgree": "Personen mit tiefen Werten dr\u00fccken sich direkt und unverbl\u00fcmt aus, auch wenn sie damit das Risiko eingehen, einen Streit vom Zaun zu brechen. Sie m\u00f6gen den Wettbewerb und tendieren dazu, skeptisch gegen\u00fcber den Absichten anderer Personen zu sein. Personen mit tiefen Werten verdienen tendenziell weniger und zeigen tendenziell risikohaftes Verhalten, wie Rauchen oder aggressives Fahren.",
         "loConsc": "Personen mit tiefen Werten neigen dazu, eher spontan zu handeln als Pl\u00e4ne zu machen. Ihnen f\u00e4llt es leichter, die Aufmerksamkeit auf das grosse Ganze anstatt auf Details zu lenken. Sie bevorzugen es, zwischen Aufgaben zu wechseln, anstatt eine Aufgabe zu einem Zeitpunkt zu erledigen. Sie neigen dazu, risikohafteres Verhalten zu zeigen, wie Rauchen, Alkohol- oder Drogenkonsum.",
         "loExtra": "Personen mit tiefen Werten neigen dazu, sozial und emotional reserviert zu sein. Im Allgemeinen bevorzugen sie es, alleine oder mit wenigen engen Freunden zusammen zu sein; ihre Meinungen und Gef\u00fchle behalten sie eher f\u00fcr sich. Sie nehmen seltener an aufregenden, Nervenkitzel suchenden Aktivit\u00e4ten teil und zeigen weniger risikohaftes Verhalten, wie Rauchen oder Alkoholkonsum.",
-        "loNeurot": "Personen mit tiefen Werten neigen dazu, emotional empfindsam zu sein und haben ihre auf- und absteigende Stimmungsschwankungen. Sie erleben h\u00e4ufiger negative Emotionen und reagieren st\u00e4rker auf negative Ereignisse. Junge Menschen haben tendenziell tiefere Werte als \u00e4ltere Menschen.",
+        "loNeurot": "Personen mit tiefen Werten neigen dazu, emotional empfindsam zu sein und haben ihre auf- und absteigenden Stimmungsschwankungen. Sie erleben h\u00e4ufiger negative Emotionen und reagieren st\u00e4rker auf negative Ereignisse. Junge Menschen haben tendenziell tiefere Werte als \u00e4ltere Menschen.",
         "loOpen": "Personen mit tiefen Werten sind tendenziell traditionell und praktisch veranlagt und m\u00f6gen es, Dinge auf traditionelle Art und Weise zu tun. Sie ziehen das Vertraute dem Neuen vor und bevorzugen das Konkrete gegen\u00fcber dem Abstrakten. Menschen mit tiefen Werten bevorzugen konventionelle und praktische Berufe, wie Handwerk und Gewerbe, und sind besser in diesen Berufen.",
         "neurot": "Emotionale Stabilit\u00e4t",
         "open": "Offenheit f\u00fcr Neues",
@@ -196,7 +196,7 @@ export default {
             "10": {
                 "items": {
                     "1": {
-                        "label": "Es gibt viele soziale Normen in diesem Land, die die Menschen befolgen sollten."
+                        "label": "In diesem Land gibt es viele soziale Normen, die die Menschen befolgen sollten."
                     },
                     "2": {
                         "label": "In diesem Land gibt es sehr klare Erwartungen, wie sich Menschen in den meisten Situationen verhalten sollten."
@@ -224,7 +224,7 @@ export default {
                 }
             },
             "11": {
-                "label": "Gibt es einen Aspekt Ihrer Pers\u00f6nlichkeit, den Sie aktuell versuchen, zu \u00e4ndern?",
+                "label": "Gibt es einen Aspekt Ihrer Pers\u00f6nlichkeit, den Sie aktuell zu \u00e4ndern versuchen?",
                 "options": {
                     "no": "Nein",
                     "yes": "Ja"
@@ -239,7 +239,7 @@ export default {
                         "label": "Die meisten Menschen sind grunds\u00e4tzlich ehrlich."
                     },
                     "2": {
-                        "label": "Die meisten Menschen sind grunds\u00e4tzlich freundlich und nett"
+                        "label": "Die meisten Menschen sind grunds\u00e4tzlich freundlich und nett."
                     },
                     "3": {
                         "label": "Die meisten Menschen vertrauen anderen."
@@ -413,7 +413,7 @@ export default {
                         "label": "Ich habe versucht, die Situation zu kontrollieren."
                     },
                     "10": {
-                        "label": "Ich was k\u00f6rperlich belebt, bin herumgelaufen."
+                        "label": "Ich war k\u00f6rperlich belebt, bin herumgelaufen."
                     },
                     "11": {
                         "label": "Ich habe mich f\u00fcr das interessiert, was jemand zu sagen hatte."
@@ -461,7 +461,7 @@ export default {
                 "label": "Bitte beurteilen Sie Ihr Verhalten in der Situation, die Sie beschrieben haben:",
                 "options": {
                     "extremelyChar": "Sehr charakteristisch",
-                    "extremelyUnchar": "Sehr uncharakteristisch/untypisch",
+                    "extremelyUnchar": "Sehr uncharakteristisch/ untypisch",
                     "fairlyChar": "Recht charakteristisch",
                     "fairlyUnchar": "Recht uncharakteristisch",
                     "neutral": "Weder charakteristisch noch uncharakteristisch",
@@ -496,10 +496,10 @@ export default {
                         "label": "Ich bin stetig, best\u00e4ndig."
                     },
                     "14": {
-                        "label": "Ich kann launisch sein, habe schwankende\nStimmungen."
+                        "label": "Ich kann launisch sein, habe schwankende Stimmungen."
                     },
                     "15": {
-                        "label": "Ich bin erfinderisch, mir fallen raffinierte\nL\u00f6sungen ein."
+                        "label": "Ich bin erfinderisch, mir fallen raffinierte L\u00f6sungen ein."
                     },
                     "16": {
                         "label": "Ich bin eher ruhig."
@@ -508,16 +508,16 @@ export default {
                         "label": "Ich habe mit anderen wenig Mitgef\u00fchl."
                     },
                     "18": {
-                        "label": "Ich bin systematisch, halte meine Sachen in\nOrdnung."
+                        "label": "Ich bin systematisch, halte meine Sachen in Ordnung."
                     },
                     "19": {
                         "label": "Ich reagiere leicht angespannt."
                     },
                     "2": {
-                        "label": "Ich bin einf\u00fchlsam, warmherzig"
+                        "label": "Ich bin einf\u00fchlsam, warmherzig."
                     },
                     "20": {
-                        "label": "Ich kann mich f\u00fcr Kunst, Musik und Literatur\nbegeistern."
+                        "label": "Ich kann mich f\u00fcr Kunst, Musik und Literatur begeistern."
                     },
                     "21": {
                         "label": "Ich neige dazu, die F\u00fchrung zu \u00fcbernehmen."
@@ -535,7 +535,7 @@ export default {
                         "label": "Ich meide philosophische Diskussionen."
                     },
                     "26": {
-                        "label": "Ich bin weniger aktiv und unternehmungslustig\nals andere."
+                        "label": "Ich bin weniger aktiv und unternehmungslustig als andere."
                     },
                     "27": {
                         "label": "Ich bin nachsichtig, vergebe anderen leicht."
@@ -565,22 +565,22 @@ export default {
                         "label": "Ich mache mir oft Sorgen."
                     },
                     "35": {
-                        "label": "Kunst und Sch\u00f6nes wertsch\u00e4tzt"
-                    },
-                    "36": {
                         "label": "Ich wei\u00df Kunst und Sch\u00f6nheit zu sch\u00e4tzen."
                     },
+                    "36": {
+                        "label": "Mir f\u00e4llt es schwer, andere zu beeinflussen."
+                    },
                     "37": {
-                        "label": "Ich bin manchmal unh\u00f6flich und schroff"
+                        "label": "Ich bin manchmal unh\u00f6flich und schroff."
                     },
                     "38": {
                         "label": "Ich bin effizient, erledige Dinge schnell."
                     },
                     "39": {
-                        "label": "Ich bin effizient, erledige Dinge schnell."
+                        "label": "Ich f\u00fchle mich oft bedr\u00fcckt, freudlos."
                     },
                     "4": {
-                        "label": "Ich bleibe auch in stressigen Situationen\ngelassen."
+                        "label": "Ich bleibe auch in stressigen Situationen gelassen."
                     },
                     "40": {
                         "label": "Es macht mir Spa\u00df, gr\u00fcndlich \u00fcber komplexe Dinge nachzudenken und sie zu verstehen."
@@ -631,10 +631,10 @@ export default {
                         "label": "Ich bin oft deprimiert, niedergeschlagen."
                     },
                     "55": {
-                        "label": "Mich interessieren abstrakte \u00dcberlegungen\nwenig."
+                        "label": "Mich interessieren abstrakte \u00dcberlegungen wenig."
                     },
                     "56": {
-                        "label": "Ich bin begeisterungsf\u00e4hig und kann andere\nleicht mitrei\u00dfen."
+                        "label": "Ich bin begeisterungsf\u00e4hig und kann andere leicht mitrei\u00dfen."
                     },
                     "57": {
                         "label": "Ich schenke anderen leicht Vertrauen, glaube an das Gute im Menschen."
@@ -673,7 +673,7 @@ export default {
             "6": {
                 "items": {
                     "1": {
-                        "label": "Im Allgemeinen betrachte ich mich selbst",
+                        "label": "Im Allgemeinen betrachte ich mich selbst als",
                         "options": {
                             "notHappy": "Keine sehr gl\u00fcckliche Person",
                             "veryHappy": "Eine sehr gl\u00fcckliche Person"
@@ -706,31 +706,31 @@ export default {
             "7": {
                 "items": {
                     "1": {
-                        "label": "Ich glaube, dass ich und die Menschen um mich gl\u00fccklich sind"
+                        "label": "Ich glaube, dass ich und die Menschen um mich gl\u00fccklich sind."
                     },
                     "2": {
-                        "label": "Ich habe das Gef\u00fchl, dass ich von anderen um mich herum positiv bewertet werde"
+                        "label": "Ich habe das Gef\u00fchl, dass ich von anderen um mich herum positiv bewertet werde."
                     },
                     "3": {
-                        "label": "Ich mache wichtige Menschen um mich herum gl\u00fccklich"
+                        "label": "Ich mache wichtige Menschen um mich herum gl\u00fccklich."
                     },
                     "4": {
-                        "label": "Obwohl es ziemlich durchschnittlich ist, lebe ich ein best\u00e4ndiges Leben"
+                        "label": "Obwohl es ziemlich durchschnittlich ist, lebe ich ein best\u00e4ndiges Leben."
                     },
                     "5": {
-                        "label": "Ich habe keine gr\u00f6sseren Sorgen oder \u00c4ngste"
+                        "label": "Ich habe keine gr\u00f6sseren Sorgen oder \u00c4ngste."
                     },
                     "6": {
-                        "label": "Ich kann machen, was ich m\u00f6chte, ohne dadurch Probleme f\u00fcr andere Menschen zu erzeugen"
+                        "label": "Ich kann machen, was ich m\u00f6chte, ohne dadurch Probleme f\u00fcr andere Menschen zu erzeugen."
                     },
                     "7": {
-                        "label": "Ich glaube, dass mein Leben genauso gl\u00fccklich ist, wie jenes von anderen Menschen um mich"
+                        "label": "Ich glaube, dass mein Leben genauso gl\u00fccklich ist, wie jenes von anderen Menschen um mich."
                     },
                     "8": {
-                        "label": "Ich glaube, dass ich den gleichen Lebensstandard erreicht habe, wie jene um mich"
+                        "label": "Ich glaube, dass ich den gleichen Lebensstandard erreicht habe, wie jene um mich."
                     },
                     "9": {
-                        "label": "Grunds\u00e4tzlich glaube ich, dass die Dinge f\u00fcr mich genauso gut laufen, wie f\u00fcr andere Menschen um mich"
+                        "label": "Grunds\u00e4tzlich glaube ich, dass die Dinge f\u00fcr mich genauso gut laufen, wie f\u00fcr andere Menschen um mich."
                     }
                 },
                 "label": "Bitte geben Sie an, wie sehr Sie den folgenden Aussagen zustimmen oder widersprechen",
@@ -745,55 +745,55 @@ export default {
             "8": {
                 "items": {
                     "1": {
-                        "label": "Der Glaube in eine Religion hilft dabei, den Sinn des Lebens zu verstehen"
+                        "label": "Der Glaube in eine Religion hilft dabei, den Sinn des Lebens zu verstehen."
                     },
                     "10": {
-                        "label": "Nur schwache Personen brauchen eine Religion"
+                        "label": "Nur schwache Personen brauchen eine Religion."
                     },
                     "11": {
-                        "label": "Durch Religion kann man der Realit\u00e4t entfliehen"
+                        "label": "Durch Religion kann man der Realit\u00e4t entfliehen."
                     },
                     "12": {
-                        "label": "Das Praktizieren einer Religion vereint Menschen untereinander"
+                        "label": "Das Praktizieren einer Religion vereint Menschen untereinander."
                     },
                     "13": {
-                        "label": "Religi\u00f6se Menschen werden mit gr\u00f6sserer Wahrscheinlichkeit, moralische Standards einhalten"
+                        "label": "Religi\u00f6se Menschen werden mit gr\u00f6sserer Wahrscheinlichkeit, moralische Standards einhalten."
                     },
                     "14": {
-                        "label": "Religi\u00f6se Glaubenss\u00e4tze f\u00fchren zu unwissenschaftlichem Denken"
+                        "label": "Religi\u00f6se Glaubenss\u00e4tze f\u00fchren zu unwissenschaftlichem Denken."
                     },
                     "15": {
-                        "label": "Ignoranz l\u00e4sst Menschen an ein h\u00f6heres Wesen glauben"
+                        "label": "Ignoranz l\u00e4sst Menschen an ein h\u00f6heres Wesen glauben."
                     },
                     "16": {
-                        "label": "Der Beweis eines h\u00f6heren Wesens ist f\u00fcr jene, die solche Zeichen suchen, \u00fcberall pr\u00e4sent"
+                        "label": "Der Beweis eines h\u00f6heren Wesens ist f\u00fcr jene, die solche Zeichen suchen, \u00fcberall pr\u00e4sent."
                     },
                     "17": {
-                        "label": "Religion widerspricht Wissenschaft"
+                        "label": "Religion widerspricht Wissenschaft."
                     },
                     "2": {
-                        "label": "Religion hilft dabei, dass Menschen gute Entscheidungen f\u00fcr ihr Leben treffen"
+                        "label": "Religion hilft dabei, dass Menschen gute Entscheidungen f\u00fcr ihr Leben treffen."
                     },
                     "3": {
-                        "label": "Gl\u00e4ubigkeit tr\u00e4gt zu einer guten geistigen Gesundheit bei"
+                        "label": "Gl\u00e4ubigkeit tr\u00e4gt zu einer guten geistigen Gesundheit bei."
                     },
                     "4": {
-                        "label": "Religion l\u00e4sst menschlichen Fortschritt langsamer werden"
+                        "label": "Religion l\u00e4sst menschlichen Fortschritt langsamer werden."
                     },
                     "5": {
-                        "label": "Es existiert ein h\u00f6heres Wesen, welches das Universum kontrolliert"
+                        "label": "Es existiert ein h\u00f6heres Wesen, welches das Universum kontrolliert."
                     },
                     "6": {
-                        "label": "Religion macht Menschen ges\u00fcnder"
+                        "label": "Religion macht Menschen ges\u00fcnder."
                     },
                     "7": {
-                        "label": "Religion macht Menschen gl\u00fccklicher"
+                        "label": "Religion macht Menschen gl\u00fccklicher."
                     },
                     "8": {
-                        "label": "Der Glaube in eine Religion macht Menschen zu besseren B\u00fcrgern"
+                        "label": "Der Glaube in eine Religion macht Menschen zu besseren B\u00fcrgern."
                     },
                     "9": {
-                        "label": "Religi\u00f6se Praxis macht es Menschen schwerer, unabh\u00e4ngig zu denken"
+                        "label": "Religi\u00f6se Praxis macht es Menschen schwerer, unabh\u00e4ngig zu denken."
                     }
                 },
                 "label": "Bitte geben Sie an, wie sehr Sie den folgenden Aussagen zustimmen oder widersprechen",
@@ -866,7 +866,7 @@ export default {
     "qsort": {
         "rsq": {
             "item": {
-                "SomoneCountedon": "Es wird darauf gez\u00e4hlt, dass eine anwesende Person (jemand anderes als Sie), etwas tut",
+                "SomoneCountedon": "Es wird darauf gez\u00e4hlt, dass eine anwesende Person (jemand anderes als Sie), etwas tut.",
                 "abusedVictimized": "Sie werden missbraucht oder schikaniert.",
                 "adviceYou": "Andere wollen Rat von Ihnen.",
                 "ambition": "Ehrgeiz kann ausgedr\u00fcckt oder bewiesen werden.",
@@ -966,7 +966,7 @@ export default {
                     "neutral": "neutral",
                     "uncharacteristic": "uncharakteristisch"
                 },
-                "instructions": "Bitte beschreiben Sie nun die Situation, die Sie erlebt haben, detaillierter. 90 Elemente werden einzeln erscheinen. Bitte platzieren Sie jedes Element in einem der drei K\u00e4sten. Verwenden Sie den Kasten \"charakteristisch\" auf der rechten Seiten f\u00fcr Elemente, die die Situation akkurat beschreiben; verweden Sie den Kasten \"uncharakteristisch\" auf der linken Seite f\u00fcr Elemente, die die Situation sehr wenig beschreiben. Verwenden Sie den Kasten \"neutral\" f\u00fcr Elemente, die irrelevant sind, unklar oder \u00fcber welche Sie sich unsicher sind. Wenn Sie dies beendet haben, dr\u00fccken Sie \"weiter\".",
+                "instructions": "Bitte beschreiben Sie nun die Situation, die Sie erlebt haben, detaillierter. 90 Elemente werden einzeln erscheinen. Bitte platzieren Sie jedes Element in einem der drei K\u00e4sten. Verwenden Sie den Kasten \"charakteristisch\" auf der rechten Seiten f\u00fcr Elemente, die die Situation akkurat beschreiben; verwenden Sie den Kasten \"uncharakteristisch\" auf der linken Seite f\u00fcr Elemente, die die Situation sehr wenig beschreiben. Verwenden Sie den Kasten \"neutral\" f\u00fcr Elemente, die irrelevant sind, unklar oder \u00fcber welche Sie sich unsicher sind. Wenn Sie dies beendet haben, dr\u00fccken Sie \"weiter\".",
                 "itemsLeft": "Elemente \u00fcbrig",
                 "location": "Ort:",
                 "othersPresent": "Andere anwesend:"
