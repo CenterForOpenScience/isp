@@ -85,7 +85,7 @@ def main():
     # convert csv files to a single json file
     content = {}
     for filename in os.listdir(files_path):
-        site_id = filename.split('.')[0]
+        site_id = os.path.splitext(filename)[0]
         content[site_id] = format_consent_form('consent_forms/' + filename)
     with open('consent.json', 'w') as f:
         json.dump(content, f, indent=4, sort_keys=True)
@@ -95,7 +95,7 @@ def download_files(files, service):
     for f in files:
         file_id = f['id']
         request = service.files().export_media(fileId=file_id, mimeType='text/csv').execute()
-        fn = '%s.csv' % os.path.splitext('consent_forms/' + f['name'].replace(' ', '_'))[0]
+        fn = '%s.csv' % ('consent_forms/' + f['name'].replace(' ', '_'))
         if request:
             with open(fn, 'wb') as csvfile:
                 csvfile.write(request)
