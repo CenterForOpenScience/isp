@@ -12,14 +12,15 @@ export default ExpPlayer.extend({
             // Mark the current user account as having completed a session, then, also update the session model
             // If this fails to save the account due to normal network issues, it will still update the session but
             // swallow the error
+            this.get('session').set('completed', true);
+
             return this.get('currentUser').getCurrentUser().then(([account]) => {
                 // Deal with `extra` field sometimes being undefined
                 let dest = account.get('extra') || {};
                 dest['hasCompletedStudy'] = true;
                 account.set('extra', dest);
                 return account.save();
-            }).catch( e => console.log('Could not mark account as having completed study:', e)
-            ).finally(() => this._super(...arguments));
-        },
+            }).catch( e => console.error('Could not mark account as having completed study:', e));
+        }
     }
 });
