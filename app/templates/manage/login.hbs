@@ -1,0 +1,28 @@
+<div class="row">
+    <div class="col-md-6 col-md-offset-3">
+        {{#if invalidAuth}}
+            {{#bs-modal title=errorHeading closedAction=(action 'toggleAction' 'invalidAuth')}}
+                {{#bs-modal-body}}{{t 'login.invalidAuthError'}}{{/bs-modal-body}}
+            {{/bs-modal}}
+        {{/if}}
+
+        {{#if invalidLocale}}
+            {{#bs-modal title=errorHeading closedAction=(action 'toggleAction' 'invalidLocale')}}
+                {{#bs-modal-body}}Please select a language before logging in.{{/bs-modal-body}}
+            {{/bs-modal}}
+        {{/if}}
+
+        {{#if loginError}}
+            {{#bs-modal title=errorHeading closedAction=(action 'toggleAction' 'loginError')}}
+                {{#bs-modal-body}}{{t 'login.defaultError'}}{{/bs-modal-body}}
+            {{/bs-modal}}
+        {{/if}}
+
+        <div class="row">
+            <div class="col-md-12">
+                <h1>ISP: Manage</h1>
+                {{isp-jam-auth invalidAuth=invalidAuth authenticating=authenticating login=(action 'authenticate')}}
+            </div>
+        </div>
+    </div>
+</div>

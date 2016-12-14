@@ -18,6 +18,7 @@ Router.map(function() {
   this.route('exit');
   this.route('manage', function() {
     this.route('who-completed');
+    this.route('login');
   });
 });
 
