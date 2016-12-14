@@ -16,15 +16,15 @@
     </tr>
     </thead>
     <tbody>
-        {{#each accountData as |account|}}
-            <tr>
-                <td>{{account.userID}}</td>
-                {{! Readability + some studies may have field undefined }}
-                <td>{{account.hasCompletedStudy}}</td>
-            </tr>
-        {{else}}
-            <tr><td>(no results found)</td><td></td></tr>
-        {{/each}}
+    {{#each accountData as |account|}}
+        <tr>
+            <td>{{account.userID}}</td>
+            {{! Readability + some studies may have field undefined }}
+            <td>{{account.hasCompletedStudy}}</td>
+        </tr>
+    {{else}}
+        <tr><td>(no results found)</td><td></td></tr>
+    {{/each}}
     </tbody>
 </table>
 

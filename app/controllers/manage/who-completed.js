@@ -1,5 +1,5 @@
 import Ember from 'ember';
-import {siteNames} from '../components/isp-consent-form/consentText';
+import {siteNames} from '../../components/isp-consent-form/consentText';
 
 import {writeCSV} from 'exp-models/utils/csv-writer';
 
