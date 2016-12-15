@@ -21,7 +21,11 @@
         <div class="row">
             <div class="col-md-12">
                 <h1>ISP: Manage</h1>
-                {{isp-jam-auth invalidAuth=invalidAuth authenticating=authenticating login=(action 'authenticate')}}
+                {{isp-jam-auth
+                    userLabel='User ID'
+                    invalidAuth=invalidAuth
+                    authenticating=authenticating
+                    login=(action 'authenticate')}}
             </div>
         </div>
     </div>
