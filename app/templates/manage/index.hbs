@@ -1,7 +1,8 @@
-<p>
+<p class="text-right">
     You are currently logged in as user: <strong>{{currentUserId}}</strong> (<button class="btn-link" {{action 'invalidateSession'}}>logout</button>)
 </p>
 
-{{#link-to 'manage.who-completed'}}
-    Who completed my study? Who, who?
-{{/link-to}}
+<h1>Study Management</h1>
+<ul>
+    <li>{{#link-to 'manage.who-completed'}}List of users that have completed the study{{/link-to}}</li>
+</ul>
