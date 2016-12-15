@@ -125,7 +125,7 @@ const consentText = {
  * @property
  * @type {Array}
  */
-const siteNames = Object.keys(consentText);
+const siteNames = Object.keys(consentText).sort((a, b) => a.toLowerCase().localeCompare(b.toLowerCase()));
 
 export default consentText;
 export {siteNames};
