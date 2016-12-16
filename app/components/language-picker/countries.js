@@ -296,7 +296,7 @@ export default [
         "languages": [
             {
                 "code": "lt-LT",
-                "name": "Lietuvos"
+                "name": "Latviešu"
             }
         ],
         "name": "Lithuania"

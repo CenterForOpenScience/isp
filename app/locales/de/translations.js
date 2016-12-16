@@ -967,7 +967,10 @@ export default {
                     "uncharacteristic": "uncharakteristisch"
                 },
                 "instructions": "Bitte beschreiben Sie nun die Situation, die Sie erlebt haben, detaillierter. 90 Elemente werden einzeln erscheinen. Bitte platzieren Sie jedes Element in einem der drei K\u00e4sten. Verwenden Sie den Kasten \"charakteristisch\" auf der rechten Seiten f\u00fcr Elemente, die die Situation akkurat beschreiben; verwenden Sie den Kasten \"uncharakteristisch\" auf der linken Seite f\u00fcr Elemente, die die Situation sehr wenig beschreiben. Verwenden Sie den Kasten \"neutral\" f\u00fcr Elemente, die irrelevant sind, unklar oder \u00fcber welche Sie sich unsicher sind. Wenn Sie dies beendet haben, dr\u00fccken Sie \"weiter\".",
-                "itemsLeft": "Elemente \u00fcbrig",
+                "itemsLeft": {
+                    "one": "{{count}} Element \u00fcbrig",
+                    "other": "{{count}} Elemente \u00fcbrig"
+                },
                 "location": "Ort:",
                 "othersPresent": "Andere anwesend:"
             },

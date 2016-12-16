@@ -978,7 +978,10 @@ const translations = {
                     "uncharacteristic": "Uncharacteristic"
                 },
                 "instructions": "Now please describe the situation you experienced in more detail. 90 items will appear one at a time.  Place each item into one of three boxes.  Use the \u201cCharacteristic\u201d box on the right for items that accurately describe the situation; use the \u201cUncharacteristic\u201d box on the left for items that are undescriptive of the situation, and use the \u201cNeutral\u201d box for items that are irrelevant, unclear, or about which you are uncertain.  When you are finished, press \u201cContinue.\u201d",
-                "itemsLeft": "items left",
+                "itemsLeft": {
+                    "one": "{{count}} item left",
+                    "other": "{{count}} items left"
+                },
                 "location": "Location:",
                 "othersPresent": "Others present:"
             },
