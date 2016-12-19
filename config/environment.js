@@ -47,7 +47,7 @@ module.exports = function(environment) {
       ENV.JAMDB = {
           authorizer: 'jam-jwt',
           collection:'accounts',
-          url: process.env.JAM_URL,
+          url: process.env.JAMDB_URL,
           namespace: 'isp'
       };
   }
