@@ -31,32 +31,7 @@ module.exports = function(environment) {
     routeIfAlreadyAuthenticated: 'participate.survey'
   };
 
-  if (environment === 'development') {
-    // ENV.APP.LOG_RESOLVER = true;
-    // ENV.APP.LOG_ACTIVE_GENERATION = true;
-    // ENV.APP.LOG_TRANSITIONS = true;
-    // ENV.APP.LOG_TRANSITIONS_INTERNAL = true;
-    // ENV.APP.LOG_VIEW_LOOKUPS = true;
-  }
   ENV.JAMDB = {};
-
-  if (environment === 'development') {
-    ENV.JAMDB = {
-      authorizer: 'jam-jwt',
-      collection:'accounts',
-      namespace: 'isp',
-      url: 'http://localhost:1212'
-    };
-  }
-
-  if (environment === 'staging' || environment === 'production') {
-    ENV.JAMDB = {
-      authorizer: 'jam-jwt',
-      collection:'accounts',
-      url: process.env.JAM_URL || 'https://staging-metadata.osf.io',
-      namespace: 'isp'
-    };
-  }
 
   if (environment === 'test') {
     // Testem prefers this...
@@ -67,10 +42,14 @@ module.exports = function(environment) {
     ENV.APP.LOG_VIEW_LOOKUPS = false;
 
     ENV.APP.rootElement = '#ember-testing';
-  }
-
-  if (environment === 'production') {
-
+  } else {
+      // Get configuration settings from .env file
+      ENV.JAMDB = {
+          authorizer: 'jam-jwt',
+          collection:'accounts',
+          url: process.env.JAM_URL,
+          namespace: 'isp'
+      };
   }
 
   ENV.studyId = process.env.EXPERIMENT_ID;
