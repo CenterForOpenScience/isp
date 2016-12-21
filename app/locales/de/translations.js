@@ -196,7 +196,7 @@ export default {
             "10": {
                 "items": {
                     "1": {
-                        "label": "In diesem Land gibt es viele\r\nsoziale Normen, die die Menschen befolgen sollten."
+                        "label": "In diesem Land gibt es viele soziale Normen, die die Menschen befolgen sollten."
                     },
                     "2": {
                         "label": "In diesem Land gibt es sehr klare Erwartungen, wie sich Menschen in den meisten Situationen verhalten sollten."
@@ -224,7 +224,7 @@ export default {
                 }
             },
             "11": {
-                "label": "Gibt es einen Aspekt Ihrer Pers\u00f6nlichkeit, den Sie aktuell zu \u00e4ndern\r\nversuchen?",
+                "label": "Gibt es einen Aspekt Ihrer Pers\u00f6nlichkeit, den Sie aktuell zu \u00e4ndern versuchen?",
                 "options": {
                     "no": "Nein",
                     "yes": "Ja"
@@ -361,22 +361,22 @@ export default {
             "17": {
                 "items": {
                     "1": {
-                        "label": "Ich habe es verdient, als gro\u00dfe\r\nPers\u00f6nlichkeit angesehen zu werden."
+                        "label": "Ich habe es verdient, als gro\u00dfe Pers\u00f6nlichkeit angesehen zu werden."
                     },
                     "2": {
-                        "label": "Ich ziehe viel Kraft daraus, eine ganz\r\nbesondere Person zu sein."
+                        "label": "Ich ziehe viel Kraft daraus, eine ganz besondere Person zu sein."
                     },
                     "3": {
-                        "label": "Mit meinen besonderen Beitr\u00e4gen schaffe\r\nich es, im Mittelpunkt zu stehen."
+                        "label": "Mit meinen besonderen Beitr\u00e4gen schaffe ich es, im Mittelpunkt zu stehen."
                     },
                     "4": {
-                        "label": "Die meisten Menschen sind ziemliche\r\nVersager."
+                        "label": "Die meisten Menschen sind ziemliche Versager."
                     },
                     "5": {
-                        "label": "Ich will, dass meine Konkurrenten\r\nscheitern."
+                        "label": "Ich will, dass meine Konkurrenten scheitern."
                     },
                     "6": {
-                        "label": "Ich reagiere genervt, wenn eine andere\r\nPerson mir die Schau stiehlt."
+                        "label": "Ich reagiere genervt, wenn eine andere Person mir die Schau stiehlt."
                     }
                 },
                 "label": "Bitte geben Sie an, wie sehr Sie den folgenden Aussagen zustimmen oder widersprechen:",
@@ -496,10 +496,10 @@ export default {
                         "label": "Ich bin stetig, best\u00e4ndig."
                     },
                     "14": {
-                        "label": "Ich kann launisch sein, habe schwankende\nStimmungen."
+                        "label": "Ich kann launisch sein, habe schwankende Stimmungen."
                     },
                     "15": {
-                        "label": "Ich bin erfinderisch, mir fallen raffinierte\nL\u00f6sungen ein."
+                        "label": "Ich bin erfinderisch, mir fallen raffinierte L\u00f6sungen ein."
                     },
                     "16": {
                         "label": "Ich bin eher ruhig."
@@ -508,7 +508,7 @@ export default {
                         "label": "Ich habe mit anderen wenig Mitgef\u00fchl."
                     },
                     "18": {
-                        "label": "Ich bin systematisch, halte meine Sachen in\nOrdnung."
+                        "label": "Ich bin systematisch, halte meine Sachen in Ordnung."
                     },
                     "19": {
                         "label": "Ich reagiere leicht angespannt."
@@ -517,7 +517,7 @@ export default {
                         "label": "Ich bin einf\u00fchlsam, warmherzig."
                     },
                     "20": {
-                        "label": "Ich kann mich f\u00fcr Kunst, Musik und Literatur\nbegeistern."
+                        "label": "Ich kann mich f\u00fcr Kunst, Musik und Literatur begeistern."
                     },
                     "21": {
                         "label": "Ich neige dazu, die F\u00fchrung zu \u00fcbernehmen."
@@ -535,7 +535,7 @@ export default {
                         "label": "Ich meide philosophische Diskussionen."
                     },
                     "26": {
-                        "label": "Ich bin weniger aktiv und unternehmungslustig\nals andere."
+                        "label": "Ich bin weniger aktiv und unternehmungslustig als andere."
                     },
                     "27": {
                         "label": "Ich bin nachsichtig, vergebe anderen leicht."
@@ -580,7 +580,7 @@ export default {
                         "label": "Ich f\u00fchle mich oft bedr\u00fcckt, freudlos."
                     },
                     "4": {
-                        "label": "Ich bleibe auch in stressigen Situationen\ngelassen."
+                        "label": "Ich bleibe auch in stressigen Situationen gelassen."
                     },
                     "40": {
                         "label": "Es macht mir Spa\u00df, gr\u00fcndlich \u00fcber komplexe Dinge nachzudenken und sie zu verstehen."
@@ -631,10 +631,10 @@ export default {
                         "label": "Ich bin oft deprimiert, niedergeschlagen."
                     },
                     "55": {
-                        "label": "Mich interessieren abstrakte \u00dcberlegungen\nwenig."
+                        "label": "Mich interessieren abstrakte \u00dcberlegungen wenig."
                     },
                     "56": {
-                        "label": "Ich bin begeisterungsf\u00e4hig und kann andere\nleicht mitrei\u00dfen."
+                        "label": "Ich bin begeisterungsf\u00e4hig und kann andere leicht mitrei\u00dfen."
                     },
                     "57": {
                         "label": "Ich schenke anderen leicht Vertrauen, glaube an das Gute im Menschen."
@@ -661,7 +661,7 @@ export default {
                         "label": "Ich bleibe auch bei R\u00fcckschl\u00e4gen zuversichtlich."
                     }
                 },
-                "label": "Bitte geben Sie f\u00fcr jede der folgenden Aussagen an, inwieweit Sie zustimmen.\n",
+                "label": "Bitte geben Sie f\u00fcr jede der folgenden Aussagen an, inwieweit Sie zustimmen.",
                 "options": {
                     "agree": "Stimme eher zu",
                     "agreeStrongly": "Trifft v\u00f6llig zu",
@@ -903,7 +903,7 @@ export default {
                 "goodImpression": "Es ist wichtig f\u00fcr Sie, einen guten Eindruck abzugeben.",
                 "happeningOnce": "Viele Dinge passieren gleichzeitig.",
                 "honor": "Eine Frage der Ehre steht auf dem Spiel.",
-                "hostile": "Die Situation k\u00f6nnte Feindseligkeit in Menschen hervorrufen.\r\n",
+                "hostile": "Die Situation k\u00f6nnte Feindseligkeit in Menschen hervorrufen.",
                 "humorous": "Die Situation ist humorvoll oder potenziell humorvoll.",
                 "intellectuallyStimulating": "Die Situation k\u00f6nnte intellektuell stimulierend sein.",
                 "intelligence": "Intelligenz ist wichtig (zum Beispiel: eine intellektuelle Diskussion oder ein komplexes Problem, das gel\u00f6st werden muss).",
@@ -986,7 +986,7 @@ export default {
                     "somewhatChar": "Ein wenig charakteristisch",
                     "somewhatUnchar": "Ein wenig uncharakteristisch"
                 },
-                "instructions": "Bitte beschreiben Sie die Situation nun pr\u00e4ziser. Platzieren Sie dabei die Elemente aus den drei K\u00e4sten in die untenstehenden neun K\u00e4sten. Sie k\u00f6nnen die Elemente von einem Kasten in den anderen Kasten verschieben. Sollten Sie zu viele Elemente in einem Kasten haben, wird die \u00dcberschrift dieses Kastens in Rot angezeigt. Die \u00dcberschrift wird gr\u00fcn, wenn Sie die entsprechende Anzahl an Elementen in den Kasten gezogen haben.\n"
+                "instructions": "Bitte beschreiben Sie die Situation nun pr\u00e4ziser. Platzieren Sie dabei die Elemente aus den drei K\u00e4sten in die untenstehenden neun K\u00e4sten. Sie k\u00f6nnen die Elemente von einem Kasten in den anderen Kasten verschieben. Sollten Sie zu viele Elemente in einem Kasten haben, wird die \u00dcberschrift dieses Kastens in Rot angezeigt. Die \u00dcberschrift wird gr\u00fcn, wenn Sie die entsprechende Anzahl an Elementen in den Kasten gezogen haben."
             }
         }
     },
