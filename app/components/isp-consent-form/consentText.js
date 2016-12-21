@@ -82,6 +82,18 @@ const consentText = {
         "title": "Einverst\u00e4ndniserkl\u00e4rung zur Teilnahme an der Studie",
         "versionHistory": "(Einverst\u00e4ndniserkl\u00e4rung: 14 Oktober 2016)"
     },
+    // Indonesian
+    "INDO.ID": {
+        "buttonLabel": "Mohon terima persyaratan tersebut untuk melanjutkan",
+        "consentLabel": "Saya telah membaca dan pahami penyataan tersebut diatas dan setuju untuk berpartisipasi.",
+        "paragraphs": [
+            "Selamat datang di penelitian kami. Keikutsertaan Anda dalam penelitian ini adalah untuk satu sesi yang berlangsung selama kurang dari satu jam. Anda akan diminta untuk menjelaskan sebuah situasi yang Anda alami baru-baru ini, dan apa yang Anda lakukan dalam situasi tersebut. Di akhir penelitian, jika Anda menginginkannya, Anda akan menerima informasi khusus mengenai kepribadian Anda",
+            "Seluruh jawaban Anda bersifat rahasia dan hanya akan diidentifikasi berdasarkan angka dan bukan nama Anda. Untuk kepentingan penelitian, data yang bersifat anonim ini akan diarsipkan dalam sebuah pangkalan data daring yang dikelola oleh Center for Open Science (www.cos.io). Setiap pertanyaan harus Anda jawab jika Anda hendak menyelesaikan penelitian ini, namun Anda dapat berhenti kapan saja jika Anda menginginkannya, tanpa Anda dikenai hukuman apapun. Keuntungan yang mungkin didapat dari penelitian ini diantaranya adalah",
+            "Jika Anda memiliki pertanyaan mengenai penelitian ini dan hak Anda sebagai partisipan, anda dapat menghubungi: [Meta Z. Aurelia, m.aurelia@vu.nl, Vrije Universiteit Amsterdam], yang bertanggung jawab untuk pengumpulan data di lokasi Anda, atau hubungi University of California, Riverside, Office of Research Integrity melalui surel ke: IRB@ucr.edu. Kami sangat menghargai kerjasama Anda dengan tulus."
+        ],
+        "title": "Menyetujui untuk berpartisipasi dalam penelitian",
+        "versionHistory": "(Verzia s\u00fahlas forma: 14.okt\u00f3bra 2016)"
+    },
     // English
     "UCR.US": {
         "buttonLabel": "Please accept terms to continue",
