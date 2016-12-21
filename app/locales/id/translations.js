@@ -968,8 +968,8 @@ export default {
                 },
                 "instructions": "Sekarang silakan jelaskan kejadian/situasi yang Anda alami dengan lebih terperinci. Sembilan puluh (90) aitem akan muncul satu persatu. Taruh setiap aitem kedalam salahsatu dari tiga kotak yang tersedia. Gunakan kotak \"Menggambarkan\" di kanan untuk aitem yang secara akurat menggambarkan kejadian tersebut; gunakan kotak \"Tidak Menggambarkan\" di sebelah kiri untuk aitem yang tidak menggambarkan kejadian tersebut; dan gunakan kotak \"Netral\" untuk aitem yang tidak berhubungan, tidak jelas, atau yang Anda tidak yakin itu menggambarkan kejadian tersebut. Jika Anda sudah selesai, silakan tekan \"Lanjutkan\".",
                 "itemsLeft": {
-                    "one": "{{count}} Aitem yang tertinggal",
-                    "other": "{{count}} Aitem yang tertinggal"
+                    "one": "{{count}} aitem yang tertinggal",
+                    "other": "{{count}} aitem yang tertinggal"
                 },
                 "location": "Lokasi:",
                 "othersPresent": "Pihak lain yang hadir:"
