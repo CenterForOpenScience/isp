@@ -34,43 +34,39 @@ export default Ember.Route.extend(AuthenticatedRouteMixin, {
                 });
             });
     },
-    model(params) {
-        return new Ember.RSVP.Promise((resolve, reject) => {
-            this._getExperiment(params).then((experiment) => {
-                this._getSession(params, experiment).then((session) => {
-                    if (session.get('completed') && config.featureFlags.showStudyCompletedPage) {
-                        this.transitionTo('participate.complete');
-                    }
-                    this.set('_experiment', experiment);
-                    session.set('experimentVersion', '');
-
-                    if (!session.get('extra')) {
-                        session.set('extra', {});
-                    }
-
-                    session.set('extra.locale', this.get('i18n.locale')); // The user's locale
-                    session.set('extra.studyId', this.controllerFor('participate').get('studyId')); // The siteID for the location where the study was taken
-                    session.save().then(() => {
-                        this.set('_session', session);
-                        resolve(session);
-                    });
-                });
-            }).catch(reject);
-        });
-    },
     beforeModel(transition) {
         this._super(transition);
 
-        var locale;
+        let locale;
         try {
             locale = this.controllerFor('participate').get('locale');
-        } catch (e) {
-        }
+        } catch (e) {}
         if (!locale) {
             this.transitionTo('participate.login');
         } else {
             this.transitionTo('participate.survey.consent');
         }
+    },
+    model(params) {
+        return this._getExperiment(params).then((experiment) => {
+            this.set('_experiment', experiment);
+            return this._getSession(params, experiment);
+        });
+    },
+
+    afterModel(session) {
+        if (session.get('completed') && config.featureFlags.showStudyCompletedPage) {
+            return this.transitionTo('participate.complete');
+        }
+        if (!session.get('extra')) {
+            session.set('extra', {});
+        }
+        session.setProperties({
+            experimentVersion: '',
+            'extra.locale' : this.get('i18n.locale'), // The user's locale
+            'extra.studyId': this.controllerFor('participate').get('studyId'), // The siteID for the location where the study was taken
+        });
+        return session.save().then(() => this.set('_session', session));
     },
     activate () {
         let session = this.get('_session');
