@@ -14,22 +14,25 @@ export default Ember.Route.extend(AuthenticatedRouteMixin, {
         return this.store.find('experiment', config.studyId);
     },
     _getSession(params, experiment) { // jshint ignore: line
-        return this.get('currentUser').getCurrentUser().then(([account, profile]) => {
-            return account.pastSessionsFor(experiment, profile).then((pastSessions) => {
-                if (pastSessions.get('length') === 0) {
-                    return this.store.createRecord(experiment.get('sessionCollectionId'), {
-                        experimentId: experiment.id,
-                        profileId: account.get('username') + '.' + account.get('username'),
-                        completed: false,
-                        feedback: '',
-                        hasReadFeedback: '',
-                        expData: {},
-                        sequence: []
-                    });
+        let username;
+        return this.get('currentUser').getCurrentUser()
+            .then(([account, profile]) => {
+                username = account.get('username');
+                return account.pastSessionsFor(experiment, profile);
+            }).then((pastSessions) => {
+                if (pastSessions.get('length') !== 0) {
+                    return pastSessions.objectAt(0);
                 }
-                return pastSessions.objectAt(0);
+                return this.store.createRecord(experiment.get('sessionCollectionId'), {
+                    experimentId: experiment.id,
+                    profileId: username + '.' + username,
+                    completed: false,
+                    feedback: '',
+                    hasReadFeedback: '',
+                    expData: {},
+                    sequence: []
+                });
             });
-        });
     },
     model(params) {
         return new Ember.RSVP.Promise((resolve, reject) => {
