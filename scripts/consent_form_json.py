@@ -86,7 +86,11 @@ def main():
     content = {}
     for filename in os.listdir(files_path):
         site_id = os.path.splitext(filename)[0]
-        content[site_id] = format_consent_form('consent_forms/' + filename)
+        filepath = 'consent_forms/' + filename
+        if not os.path.isfile(filepath):
+            continue
+
+        content[site_id] = format_consent_form(filepath)
     with open('consent.json', 'w') as f:
         json.dump(content, f, indent=4, sort_keys=True)
 
