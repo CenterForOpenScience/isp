@@ -53,7 +53,7 @@ To login via OSF:
 
 Then run the ember application:
 
-* `ember server --environment=staging`
+* `ember server`
 * Visit your app at [http://localhost:4200](http://localhost:4200).
 
 ### Trying an experiment
