@@ -119,18 +119,18 @@ export default {
         "hiOpen": "Personen mit hohen Werten sind grunds\u00e4tzlich offen f\u00fcr neue Aktivit\u00e4ten und neue Ideen. Sie sind tendenziell kreativ, intellektuell neugierig und empf\u00e4nglich f\u00fcr Kunst und f\u00fcr das Sch\u00f6ne. Menschen mit hohen Werten bevorzugen wissenschaftliche und k\u00fcnstlerische Berufe und sind besser in diesen Berufen. Sie bevorzugen klassische Musik sowie Jazz, Blues und Rockmusik.",
         "labels": {
             "high": "Hoch",
-            "low": "Tief",
+            "low": "niedrig",
             "medium": "Mittel"
         },
-        "loAgree": "Personen mit tiefen Werten dr\u00fccken sich direkt und unverbl\u00fcmt aus, auch wenn sie damit das Risiko eingehen, einen Streit vom Zaun zu brechen. Sie m\u00f6gen den Wettbewerb und tendieren dazu, skeptisch gegen\u00fcber den Absichten anderer Personen zu sein. Personen mit tiefen Werten verdienen tendenziell weniger und zeigen tendenziell risikohaftes Verhalten, wie Rauchen oder aggressives Fahren.",
-        "loConsc": "Personen mit tiefen Werten neigen dazu, eher spontan zu handeln als Pl\u00e4ne zu machen. Ihnen f\u00e4llt es leichter, die Aufmerksamkeit auf das grosse Ganze anstatt auf Details zu lenken. Sie bevorzugen es, zwischen Aufgaben zu wechseln, anstatt eine Aufgabe zu einem Zeitpunkt zu erledigen. Sie neigen dazu, risikohafteres Verhalten zu zeigen, wie Rauchen, Alkohol- oder Drogenkonsum.",
-        "loExtra": "Personen mit tiefen Werten neigen dazu, sozial und emotional reserviert zu sein. Im Allgemeinen bevorzugen sie es, alleine oder mit wenigen engen Freunden zusammen zu sein; ihre Meinungen und Gef\u00fchle behalten sie eher f\u00fcr sich. Sie nehmen seltener an aufregenden, Nervenkitzel suchenden Aktivit\u00e4ten teil und zeigen weniger risikohaftes Verhalten, wie Rauchen oder Alkoholkonsum.",
-        "loNeurot": "Personen mit tiefen Werten neigen dazu, emotional empfindsam zu sein und haben ihre auf- und absteigenden Stimmungsschwankungen. Sie erleben h\u00e4ufiger negative Emotionen und reagieren st\u00e4rker auf negative Ereignisse. Junge Menschen haben tendenziell tiefere Werte als \u00e4ltere Menschen.",
-        "loOpen": "Personen mit tiefen Werten sind tendenziell traditionell und praktisch veranlagt und m\u00f6gen es, Dinge auf traditionelle Art und Weise zu tun. Sie ziehen das Vertraute dem Neuen vor und bevorzugen das Konkrete gegen\u00fcber dem Abstrakten. Menschen mit tiefen Werten bevorzugen konventionelle und praktische Berufe, wie Handwerk und Gewerbe, und sind besser in diesen Berufen.",
+        "loAgree": "Personen mit niedrigen Werten dr\u00fccken sich direkt und unverbl\u00fcmt aus, auch wenn sie damit das Risiko eingehen, einen Streit vom Zaun zu brechen. Sie m\u00f6gen den Wettbewerb und tendieren dazu, skeptisch gegen\u00fcber den Absichten anderer Personen zu sein. Personen mit niedrigen Werten verdienen tendenziell weniger und zeigen tendenziell risikohaftes Verhalten, wie Rauchen oder aggressives Fahren.",
+        "loConsc": "Personen mit niedrigen Werten neigen dazu, eher spontan zu handeln als Pl\u00e4ne zu machen. Ihnen f\u00e4llt es leichter, die Aufmerksamkeit auf das grosse Ganze anstatt auf Details zu lenken. Sie bevorzugen es, zwischen Aufgaben zu wechseln, anstatt eine Aufgabe zu einem Zeitpunkt zu erledigen. Sie neigen dazu, risikohafteres Verhalten zu zeigen, wie Rauchen, Alkohol- oder Drogenkonsum.",
+        "loExtra": "Personen mit niedrigen Werten neigen dazu, sozial und emotional reserviert zu sein. Im Allgemeinen bevorzugen sie es, alleine oder mit wenigen engen Freunden zusammen zu sein; ihre Meinungen und Gef\u00fchle behalten sie eher f\u00fcr sich. Sie nehmen seltener an aufregenden, Nervenkitzel suchenden Aktivit\u00e4ten teil und zeigen weniger risikohaftes Verhalten, wie Rauchen oder Alkoholkonsum.",
+        "loNeurot": "Personen mit niedrigen Werten neigen dazu, emotional empfindsam zu sein und haben ihre auf- und absteigenden Stimmungsschwankungen. Sie erleben h\u00e4ufiger negative Emotionen und reagieren st\u00e4rker auf negative Ereignisse. Junge Menschen haben tendenziell niedrigere Werte als \u00e4ltere Menschen.",
+        "loOpen": "Personen mit niedrigen Werten sind tendenziell traditionell und praktisch veranlagt und m\u00f6gen es, Dinge auf traditionelle Art und Weise zu tun. Sie ziehen das Vertraute dem Neuen vor und bevorzugen das Konkrete gegen\u00fcber dem Abstrakten. Menschen mit niedrigen Werten bevorzugen konventionelle und praktische Berufe, wie Handwerk und Gewerbe, und sind besser in diesen Berufen.",
         "neurot": "Emotionale Stabilit\u00e4t",
         "open": "Offenheit f\u00fcr Neues",
         "score": "Von 100 m\u00f6glichen Punkten ist Ihr Wert:",
-        "secondSection": "F\u00fcr jede der Eigenschaften gilt, dass Werte \u00fcber 60 hoch sind, w\u00e4hrend Werte unter 40 tief sind. Beschreibungen von hohen und tiefen Werten sind unten aufgef\u00fchrt. Wenn Ihr Wert zwischen 40 und 60 liegt, dann kann Ihre Pers\u00f6nlichkeit als durchschnittlich hinsichtlich der genannten Merkmalen beschrieben werden.",
+        "secondSection": "F\u00fcr jede der Eigenschaften gilt, dass Werte \u00fcber 60 hoch sind, w\u00e4hrend Werte unter 40 niedrig sind. Beschreibungen von hohen und niedrigen Werten sind unten aufgef\u00fchrt. Wenn Ihr Wert zwischen 40 und 60 liegt, dann kann Ihre Pers\u00f6nlichkeit als durchschnittlich hinsichtlich der genannten Merkmale beschrieben werden.",
         "thirdSection": "Wir hoffen, dass Ihnen Ihre Teilnahme an dieser Studie gefallen hat.",
         "title": "Ihre Pers\u00f6nlichkeit"
     },
@@ -202,10 +202,10 @@ export default {
                         "label": "In diesem Land gibt es sehr klare Erwartungen, wie sich Menschen in den meisten Situationen verhalten sollten."
                     },
                     "3": {
-                        "label": "In den meisten Situationen sind sich Menschen in diesem Land dar\u00fcber einig, welche Verhaltensweisen angemessen versus unangemessen sind."
+                        "label": "In den meisten Situationen sind sich Menschen in diesem Land dar\u00fcber einig, welche Verhaltensweisen angemessen bzw unangemessen sind."
                     },
                     "4": {
-                        "label": "Menschen in diesem Land haben in den meisten Situationen eine grosse Freiheit, zu entscheiden, wie sie sich verhalten wollen."
+                        "label": "Menschen in diesem Land haben in den meisten Situationen gro\u00dfe Freiheit, zu entscheiden, wie sie sich verhalten wollen."
                     },
                     "5": {
                         "label": "Wenn sich jemand in diesem Land in einer unangemessenen Art und Weise verh\u00e4lt, werden andere dies stark missbilligen."
@@ -361,22 +361,22 @@ export default {
             "17": {
                 "items": {
                     "1": {
-                        "label": "Ich verdiene es, als eine grossartige Person gesehen zu werden."
+                        "label": "Ich habe es verdient, als gro\u00dfe Pers\u00f6nlichkeit angesehen zu werden."
                     },
                     "2": {
-                        "label": "Eine sehr besondere Person zu sein, gibt mir viel St\u00e4rke."
+                        "label": "Ich ziehe viel Kraft daraus, eine ganz besondere Person zu sein."
                     },
                     "3": {
-                        "label": "Mit meinen herausragenden Beitr\u00e4gen schaffe ich es, im Mittelpunkt der Aufmerksamkeit zu stehen."
+                        "label": "Mit meinen besonderen Beitr\u00e4gen schaffe ich es, im Mittelpunkt zu stehen."
                     },
                     "4": {
-                        "label": "Alle Menschen sind zu einem gewissen Grad Verlierer."
+                        "label": "Die meisten Menschen sind ziemliche Versager."
                     },
                     "5": {
-                        "label": "Ich m\u00f6chte, dass meine Gegner versagen."
+                        "label": "Ich will, dass meine Konkurrenten scheitern."
                     },
                     "6": {
-                        "label": "Ich reagiere genervt, wenn mir eine andere Person die Show stiehlt."
+                        "label": "Ich reagiere genervt, wenn eine andere Person mir die Schau stiehlt."
                     }
                 },
                 "label": "Bitte geben Sie an, wie sehr Sie den folgenden Aussagen zustimmen oder widersprechen:",
@@ -449,7 +449,7 @@ export default {
                         "label": "Ich habe hohen Enthusiasmus und ein hohes Level an Energie gezeigt."
                     },
                     "7": {
-                        "label": "Ich habe mich in k\u00f6rperlicher Aktivit\u00e4t bet\u00e4tigt."
+                        "label": "Ich war k\u00f6rperlich aktiv."
                     },
                     "8": {
                         "label": "Ich habe mich auf eine Aufgabe konzentriert oder hart an einer Aufgabe gearbeitet."
@@ -661,7 +661,7 @@ export default {
                         "label": "Ich bleibe auch bei R\u00fcckschl\u00e4gen zuversichtlich."
                     }
                 },
-                "label": "Bitte geben Sie f\u00fcr jede der folgenden Aussagen an, inwieweit Sie zustimmen.\n",
+                "label": "Bitte geben Sie f\u00fcr jede der folgenden Aussagen an, inwieweit Sie zustimmen.",
                 "options": {
                     "agree": "Stimme eher zu",
                     "agreeStrongly": "Trifft v\u00f6llig zu",
@@ -757,7 +757,7 @@ export default {
                         "label": "Das Praktizieren einer Religion vereint Menschen untereinander."
                     },
                     "13": {
-                        "label": "Religi\u00f6se Menschen werden mit gr\u00f6sserer Wahrscheinlichkeit, moralische Standards einhalten."
+                        "label": "Religi\u00f6se Menschen werden mit gr\u00f6sserer Wahrscheinlichkeit moralische Standards einhalten."
                     },
                     "14": {
                         "label": "Religi\u00f6se Glaubenss\u00e4tze f\u00fchren zu unwissenschaftlichem Denken."
@@ -793,7 +793,7 @@ export default {
                         "label": "Der Glaube in eine Religion macht Menschen zu besseren B\u00fcrgern."
                     },
                     "9": {
-                        "label": "Religi\u00f6se Praxis macht es Menschen schwerer, unabh\u00e4ngig zu denken."
+                        "label": "Religi\u00f6se Praxis erschwert macht es Menschen schwerer, unabh\u00e4ngig zu denken."
                     }
                 },
                 "label": "Bitte geben Sie an, wie sehr Sie den folgenden Aussagen zustimmen oder widersprechen",
@@ -848,7 +848,7 @@ export default {
                         "label": "Sie w\u00fcrden Ihre pers\u00f6nlichen Interessen zum Wohle Ihrer Familie aufgeben."
                     }
                 },
-                "label": "Wie gut beschreibt jede dieser Aussage Sie?",
+                "label": "Wie gut beschreibt jede dieser Aussagen Sie?",
                 "options": {
                     "aLittle": "Bescheibt mich ein wenig",
                     "exactly": "Beschreibt mich genau",
@@ -883,12 +883,12 @@ export default {
                 "competing": "Menschen stehen miteinander im Wettkampf / konkurrieren miteinander.",
                 "complex": "Die Situation ist komplex.",
                 "complimentingYou": "Jemand macht Ihnen ein Kompliment oder lobt Sie.",
-                "conformToOthers": "Sie werden unter Druck gesetzt, mit Handlungen anderer Personen \u00fcbereinzustimmen.",
+                "conformToOthers": "Sie werden gezwungen, sich den Handlungen anderer anzupassen.",
                 "convinceYou": "Jemand versucht, Sie von etwas zu \u00fcberzeugen.",
                 "countingOnYou": "Jemand ist darauf angewiesen, dass Sie etwas tun.",
                 "criticizing": "Jemand kritisiert Sie.",
                 "decision": "Eine Entscheidung muss getroffen werden.",
-                "desiresGratified": "Bed\u00fcrfnisse k\u00f6nnen gestillt werden (zum Beispiel: Essen, Shoppen, sexuelle Gelegenheiten).",
+                "desiresGratified": "Bed\u00fcrfnisse k\u00f6nnen gestillt werden (zum Beispiel: Essen, Shoppen, Sexualit\u00e4t).",
                 "differentRoles": "Die anwesenden Personen nehmen verschiedene soziale Rollen oder Stufen von Status ein.",
                 "disagreeing": "Personen sind sich uneinig \u00fcber etwas.",
                 "dominate": "Jemand versucht, Sie zu dominieren oder herumzukommandieren.",
@@ -903,7 +903,7 @@ export default {
                 "goodImpression": "Es ist wichtig f\u00fcr Sie, einen guten Eindruck abzugeben.",
                 "happeningOnce": "Viele Dinge passieren gleichzeitig.",
                 "honor": "Eine Frage der Ehre steht auf dem Spiel.",
-                "hostile": "Die Situation k\u00f6nnte Menschen sich feindselig f\u00fchlen lassen.",
+                "hostile": "Die Situation k\u00f6nnte Feindseligkeit in Menschen hervorrufen.",
                 "humorous": "Die Situation ist humorvoll oder potenziell humorvoll.",
                 "intellectuallyStimulating": "Die Situation k\u00f6nnte intellektuell stimulierend sein.",
                 "intelligence": "Intelligenz ist wichtig (zum Beispiel: eine intellektuelle Diskussion oder ein komplexes Problem, das gel\u00f6st werden muss).",
@@ -916,14 +916,14 @@ export default {
                 "needsHelp": "Jemand braucht Hilfe.",
                 "negativeEmotions": "Die Situation k\u00f6nnte negative Emotionen hervorrufen.",
                 "newRelationships": "Neue Beziehungen k\u00f6nnen entstehen.",
-                "noisy": "Die Situation ist ger\u00e4uschvoll (eine geringe Platzierung dieses Elements bedeutet, dass die Situation sehr leise ist).",
+                "noisy": "Die Situation ist ger\u00e4uschvoll (eine Platzierung dieses Elements in Kasten \u201euncharakteristisch\u201c bedeutet, dass es in der Situation sehr leise ist).",
                 "notClear": "Es ist nicht klar, was passiert; Die Situation ist ungewiss.",
                 "oppositeSex": "Die Anwesenheit von Personen des anderen Geschlechts ist ein wichtiger Bestandteil dieser Situation.",
                 "peopleGetAlong": "F\u00fcr die anwesenden Menschen ist es wichtig, gut miteinander auszukommen.",
-                "physicalAttractiveness": "Ihre \u00e4usserliche Attraktivit\u00e4t ist wichtig.",
+                "physicalAttractiveness": "Ihre (physische) Attraktivit\u00e4t ist wichtig.",
                 "physicalThreats": "K\u00f6rperliche Bedrohungen sind pr\u00e4sent.",
                 "physicallyActive": "Menschen sind k\u00f6rperlich aktiv.",
-                "physicallyUncomfortable": "Die Situation ist k\u00f6rperlich unangenehm (zum Beispiel: zu heiss, zu belebt, zu kalt, etc.). (Eine tiefe Einstufung dieses Elements bedeutet, dass die Situation k\u00f6rperlich sehr angenehm ist).",
+                "physicallyUncomfortable": "Die Situation ist k\u00f6rperlich unangenehm (zum Beispiel: zu heiss, zu belebt, zu kalt, etc.). (eine Platzierung dieses Elements in den Kasten \u201echarakteristisch\u201c bedeutet, dass die Situation k\u00f6rperlich sehr angenehm ist).",
                 "playful": "Die Situation ist spielerisch.",
                 "politics": "Politik ist wichtig (zum Beispiel: eine politische Diskussion).",
                 "positiveEmotions": "Die Situation k\u00f6nnte positive Emotionen hervorrufen.",
@@ -948,7 +948,7 @@ export default {
                 "takenCareOf": "Jemand ben\u00f6tigt F\u00fcrsorge.",
                 "talkingExpected": "Reden ist erwartet oder verlangt.",
                 "talkingPermitted": "Reden ist verboten.",
-                "tenseUpset": "Die Situation k\u00f6nnte Menschen angespannt und ver\u00e4rgert machen.",
+                "tenseUpset": "Die Situation k\u00f6nnte Menschen angespannt machen und ver\u00e4rgern.",
                 "tryingImpress": "Jemand versucht, Sie zu beeindrucken.",
                 "underThreat": "Jemand ist bedroht.",
                 "unhappySuffering": "Jemand ist ungl\u00fccklich oder leidet.",
@@ -966,7 +966,7 @@ export default {
                     "neutral": "neutral",
                     "uncharacteristic": "uncharakteristisch"
                 },
-                "instructions": "Bitte beschreiben Sie nun die Situation, die Sie erlebt haben, detaillierter. 90 Elemente werden einzeln erscheinen. Bitte platzieren Sie jedes Element in einem der drei K\u00e4sten. Verwenden Sie den Kasten \"charakteristisch\" auf der rechten Seiten f\u00fcr Elemente, die die Situation akkurat beschreiben; verwenden Sie den Kasten \"uncharakteristisch\" auf der linken Seite f\u00fcr Elemente, die die Situation sehr wenig beschreiben. Verwenden Sie den Kasten \"neutral\" f\u00fcr Elemente, die irrelevant sind, unklar oder \u00fcber welche Sie sich unsicher sind. Wenn Sie dies beendet haben, dr\u00fccken Sie \"weiter\".",
+                "instructions": "Bitte beschreiben Sie nun die Situation, die Sie erlebt haben. 90 Elemente werden einzeln erscheinen. Bitte ziehen Sie jedes Element in eines der drei K\u00e4sten. Verwenden Sie den Kasten \"charakteristisch\" auf der rechten Seiten f\u00fcr Elemente, die die Situation sehr genau beschreiben; verwenden Sie den Kasten \"uncharakteristisch\" auf der linken Seite f\u00fcr Elemente, die die Situation sehr wenig beschreiben. Verwenden Sie den Kasten \"neutral\" f\u00fcr Elemente, die irrelevant oder unklar sind oder bei denen Sie sich nicht sicher sind \u00fcber welche Sie sich unsicher sind. Wenn Sie dies beendet haben, dr\u00fccken Sie auf \"weiter\".",
                 "itemsLeft": {
                     "one": "{{count}} Element \u00fcbrig",
                     "other": "{{count}} Elemente \u00fcbrig"
@@ -986,14 +986,14 @@ export default {
                     "somewhatChar": "Ein wenig charakteristisch",
                     "somewhatUnchar": "Ein wenig uncharakteristisch"
                 },
-                "instructions": "Bitte beschreiben Sie die Situation nun pr\u00e4ziser. Bitte platzieren Sie die Elemente aus den drei K\u00e4sten in die untenstehenden neun K\u00e4sten. Sie k\u00f6nnen die Elemente von einem Kasten in den anderen Kasten verschieben. Wenn Sie allerdings zu viele Elemente in einem Kasten haben, wird die \u00dcberschrift dieses Kastens rot angezeigt. Die \u00dcberschrift wird gr\u00fcn werden, wenn Sie die richtige Anzahl an Elementen in dem Kasten haben."
+                "instructions": "Bitte beschreiben Sie die Situation nun pr\u00e4ziser. Platzieren Sie dabei die Elemente aus den drei K\u00e4sten in die untenstehenden neun K\u00e4sten. Sie k\u00f6nnen die Elemente von einem Kasten in den anderen Kasten verschieben. Sollten Sie zu viele Elemente in einem Kasten haben, wird die \u00dcberschrift dieses Kastens in Rot angezeigt. Die \u00dcberschrift wird gr\u00fcn, wenn Sie die entsprechende Anzahl an Elementen in den Kasten gezogen haben."
             }
         }
     },
     "survey": {
         "sections": {
             "1": {
-                "instructions": "Willkommen! Wir sind daran interessiert, wie Menschen Situationen wahrnehmen und wie sie sich in diesen Situationen verhalten. Sie werden gebeten, eine Situation zu beschreiben, die Sie k\u00fcrzlich erlebt haben, und was Sie in dieser Situation getan haben. Auch werden Sie Fragen zu Ihren Einstellungen und Werten erhalten. Basierend auf diesen Antworten werden Sie am Ende der Studie individualisierte Angaben zu Ihrer Pers\u00f6nlichkeit erhalten, von denen wir hoffen, dass Sie sie interessant finden. Um zu beginnen, beantworten Sie bitte einige Fragen \u00fcber sich.",
+                "instructions": "Willkommen! Wir sind daran interessiert, wie Menschen unterschiedliche Situationen wahrnehmen und wie sie sich in diesen Situationen verhalten. Sie werden gebeten, eine Situation zu beschreiben, die Sie k\u00fcrzlich erlebt haben, und was Sie in dieser Situation getan haben. Auch werden Sie Fragen zu Ihren Einstellungen und Werten erhalten. Basierend auf diesen Antworten werden Sie am Ende der Studie individualisierte Angaben zu Ihrer Pers\u00f6nlichkeit erhalten, von denen wir hoffen, dass Sie sie interessant finden. Um zu beginnen, beantworten Sie bitte einige Fragen \u00fcber sich.",
                 "questions": {
                     "1": {
                         "label": "Alter"
@@ -1040,18 +1040,18 @@ export default {
                         }
                     },
                     "8": {
-                        "label": "Auf einer Skale von 1 bis 10, wie religi\u00f6s sind Sie?",
+                        "label": "Auf einer Skala von 1 bis 10, wie religi\u00f6s sind Sie?",
                         "options": {
                             "highlyReligious": "Sehr religi\u00f6s",
                             "notReligious": "Gar nicht religi\u00f6s",
-                            "preferNoAnswer": "Ich m\u00f6chte die Frage lieber nicht beantworten"
+                            "preferNoAnswer": "Ich m\u00f6chte diese Frage lieber nicht beantworten"
                         }
                     },
                     "9": {
                         "label": "Folgen Sie einer Religion?",
                         "options": {
                             "noLabel": "Nein",
-                            "preferNoAnswer": "Ich m\u00f6chte die Frage lieber nicht beantworten",
+                            "preferNoAnswer": "Ich m\u00f6chte diese Frage lieber nicht beantworten",
                             "yesLabel": "Ja"
                         }
                     }
@@ -1059,7 +1059,7 @@ export default {
             },
             "2": {
                 "instructions": {
-                    "firstSection": "Bitte beschreiben Sie ein Erlebnis, das Sie gestern erlebt haben und das Sie gut erinnnern.",
+                    "firstSection": "Bitte beschreiben Sie ein Ereignis, das Sie gestern erlebt haben und das Sie gut erinnern.",
                     "secondSection": "Jedes Erlebnis, welches Sie gestern hatten, eignet sich daf\u00fcr; Es ist allein entscheidend, dass Sie dieses gut erinnern. Bitte beschreiben Sie insbesondere was Sie gemacht haben, wo Sie waren und wer anwesend war.",
                     "thirdSection": "Bitte geben Sie Ihre Antworten in die untenstehenden K\u00e4sten ein."
                 },
@@ -1085,8 +1085,8 @@ export default {
     },
     "thankyou": {
         "exitButton": "Die Studie beenden",
-        "instructions": "Sie k\u00f6nnen die Studie nun verlassen oder fortfahren, um Informationen zu Ihrer Pers\u00f6nlichkeit zu erhalten. Diese Auswertung basiert auf der Befragung, die Sie soeben beendet haben.",
+        "instructions": "Sie k\u00f6nnen die Seite nun verlassen, oder fortfahren, um Informationen zu Ihrer Pers\u00f6nlichkeit zu erhalten. Diese Auswertung basiert auf der Befragung, die Sie soeben bearbeitet haben.",
         "personalityFeedbackButton": "Feedback zur Pers\u00f6nlichkeit erhalten.",
-        "title": "Vielen Dank!"
+        "title": "Vielen Dank f\u00fcr Ihre Teilnahme!"
     }
 };

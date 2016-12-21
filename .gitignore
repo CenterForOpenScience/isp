@@ -27,4 +27,5 @@ env
 /scripts/*.csv
 
 /scripts/consent_forms/*csv
+/scripts/consent_forms/**
 !/scripts/consent_forms/test.csv
