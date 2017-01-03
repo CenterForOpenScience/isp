@@ -202,7 +202,7 @@ export default {
                         "label": "In diesem Land gibt es sehr klare Erwartungen, wie sich Menschen in den meisten Situationen verhalten sollten."
                     },
                     "3": {
-                        "label": "In den meisten Situationen sind sich Menschen in diesem Land dar\u00fcber einig, welche Verhaltensweisen angemessen bzw unangemessen sind."
+                        "label": "In den meisten Situationen sind sich Menschen in diesem Land dar\u00fcber einig, welche Verhaltensweisen angemessen bzw. unangemessen sind."
                     },
                     "4": {
                         "label": "Menschen in diesem Land haben in den meisten Situationen gro\u00dfe Freiheit, zu entscheiden, wie sie sich verhalten wollen."
@@ -793,16 +793,16 @@ export default {
                         "label": "Der Glaube in eine Religion macht Menschen zu besseren B\u00fcrgern."
                     },
                     "9": {
-                        "label": "Religi\u00f6se Praxis erschwert macht es Menschen schwerer, unabh\u00e4ngig zu denken."
+                        "label": "Religi\u00f6se Praxis erschwert es Menschen, unabh\u00e4ngig zu denken."
                     }
                 },
                 "label": "Bitte geben Sie an, wie sehr Sie den folgenden Aussagen zustimmen oder widersprechen",
                 "options": {
-                    "believeLittle": "Etwas zu glauben",
-                    "believeStrong": "Sehr zu glauben",
-                    "disbelieveLittle": "Etwas zu bezweifeln",
-                    "disbelieveStrong": "Sehr zu bezweifeln",
-                    "neutral": "Neutral / keine Meinung",
+                    "believeLittle": "Trifft etwas zu",
+                    "believeStrong": "Trifft sehr zu",
+                    "disbelieveLittle": "Trifft nicht zu",
+                    "disbelieveStrong": "Trifft \u00fcberhaupt nicht zu",
+                    "neutral": "Weder noch",
                     "preferNoAnswer": "Ich m\u00f6chte die Frage lieber nicht beantworten."
                 }
             },
@@ -866,7 +866,7 @@ export default {
     "qsort": {
         "rsq": {
             "item": {
-                "SomoneCountedon": "Es wird darauf gez\u00e4hlt, dass eine anwesende Person (jemand anderes als Sie), etwas tut.",
+                "SomoneCountedon": "Es wird darauf gez\u00e4hlt, dass eine anwesende Person (jemand anderes als Sie) etwas tut.",
                 "abusedVictimized": "Sie werden missbraucht oder schikaniert.",
                 "adviceYou": "Andere wollen Rat von Ihnen.",
                 "ambition": "Ehrgeiz kann ausgedr\u00fcckt oder bewiesen werden.",
@@ -916,7 +916,7 @@ export default {
                 "needsHelp": "Jemand braucht Hilfe.",
                 "negativeEmotions": "Die Situation k\u00f6nnte negative Emotionen hervorrufen.",
                 "newRelationships": "Neue Beziehungen k\u00f6nnen entstehen.",
-                "noisy": "Die Situation ist ger\u00e4uschvoll (eine Platzierung dieses Elements in Kasten \u201euncharakteristisch\u201c bedeutet, dass es in der Situation sehr leise ist).",
+                "noisy": "Die Situation ist ger\u00e4uschvoll (eine Platzierung dieses Elements in den Kasten \u201euncharakteristisch\u201c bedeutet, dass es in der Situation sehr leise ist).",
                 "notClear": "Es ist nicht klar, was passiert; Die Situation ist ungewiss.",
                 "oppositeSex": "Die Anwesenheit von Personen des anderen Geschlechts ist ein wichtiger Bestandteil dieser Situation.",
                 "peopleGetAlong": "F\u00fcr die anwesenden Menschen ist es wichtig, gut miteinander auszukommen.",
@@ -966,7 +966,7 @@ export default {
                     "neutral": "neutral",
                     "uncharacteristic": "uncharakteristisch"
                 },
-                "instructions": "Bitte beschreiben Sie nun die Situation, die Sie erlebt haben. 90 Elemente werden einzeln erscheinen. Bitte ziehen Sie jedes Element in eines der drei K\u00e4sten. Verwenden Sie den Kasten \"charakteristisch\" auf der rechten Seiten f\u00fcr Elemente, die die Situation sehr genau beschreiben; verwenden Sie den Kasten \"uncharakteristisch\" auf der linken Seite f\u00fcr Elemente, die die Situation sehr wenig beschreiben. Verwenden Sie den Kasten \"neutral\" f\u00fcr Elemente, die irrelevant oder unklar sind oder bei denen Sie sich nicht sicher sind \u00fcber welche Sie sich unsicher sind. Wenn Sie dies beendet haben, dr\u00fccken Sie auf \"weiter\".",
+                "instructions": "Bitte beschreiben Sie nun die Situation, die Sie erlebt haben. 90 Elemente werden einzeln erscheinen. Bitte ziehen Sie jedes Element in eines der drei K\u00e4sten. Verwenden Sie den Kasten \"charakteristisch\" auf der rechten Seiten f\u00fcr Elemente, die die Situation sehr genau beschreiben; verwenden Sie den Kasten \"uncharakteristisch\" auf der linken Seite f\u00fcr Elemente, die die Situation sehr wenig beschreiben. Verwenden Sie den Kasten \"neutral\" f\u00fcr Elemente, die irrelevant oder unklar sind oder bei denen Sie sich nicht sicher sind. Wenn Sie dies beendet haben, dr\u00fccken Sie auf \"weiter\".",
                 "itemsLeft": {
                     "one": "{{count}} Element \u00fcbrig",
                     "other": "{{count}} Elemente \u00fcbrig"
@@ -1014,7 +1014,7 @@ export default {
                         }
                     },
                     "3": {
-                        "label": "Welche Ethnizit\u00e4t haben Sie?"
+                        "label": "Welche ethnische Zugeh\u00f6rigkeit haben Sie?"
                     },
                     "4": {
                         "label": "Was war Ihre erste Sprache?"

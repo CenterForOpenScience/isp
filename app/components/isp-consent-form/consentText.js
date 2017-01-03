@@ -25,7 +25,7 @@ const consentText = {
             "Wenn Sie Fragen zu dieser Studie oder zu Ihren Rechten als TeilnehmerIn haben, k\u00f6nnen Sie gerne die koordinierende Person kontaktieren (Marco Furtner, marco.furtner@uibk.ac.at, Universit\u00e4t Innsbruck), welche f\u00fcr die Datensammlung an Ihrem Ort zust\u00e4ndig ist. Auch k\u00f6nnen Sie das B\u00fcro der Forschungsintegrit\u00e4t der University of California, Riverside, per Email unter IRB@ucr.edu erreichen. Wir bedanken uns sehr f\u00fcr Ihre Mithilfe."
         ],
         "title": "Einverst\u00e4ndniserkl\u00e4rung zur Teilnahme an der Studie",
-        "versionHistory": "(Einverst\u00e4ndniserkl\u00e4rung: 14. Oktober, 2016)"
+        "versionHistory": "(Einverst\u00e4ndniserkl\u00e4rung: 14. Oktober 2016)"
     },
     "GERM2.AU": {
         "buttonLabel": "Bitte akzeptieren Sie die Teilnahmebedingungen, um fortzufahren.",
@@ -36,7 +36,7 @@ const consentText = {
             "Wenn Sie Fragen zu dieser Studie oder zu Ihren Rechten als TeilnehmerIn haben, k\u00f6nnen Sie gerne die koordinierende Person kontaktieren (Aljoscha Neubauer, aljoscha.neubauer@uni-graz.at, Universit\u00e4t Graz), welche f\u00fcr die Datensammlung an Ihrem Ort zust\u00e4ndig ist. Auch k\u00f6nnen Sie das B\u00fcro der Forschungsintegrit\u00e4t der University of California, Riverside, per Email unter IRB@ucr.edu erreichen. Wir bedanken uns sehr f\u00fcr Ihre Mithilfe."
         ],
         "title": "Einverst\u00e4ndniserkl\u00e4rung zur Teilnahme an der Studie",
-        "versionHistory": "(Einverst\u00e4ndniserkl\u00e4rung: 14. Oktober, 2016)"
+        "versionHistory": "(Einverst\u00e4ndniserkl\u00e4rung: 14. Oktober 2016)"
     },
     "GERM3.DE": {
         "buttonLabel": "Bitte akzeptieren Sie die Teilnahmebedingungen, um fortzufahren.",
@@ -47,7 +47,7 @@ const consentText = {
             "Wenn Sie Fragen zu dieser Studie oder zu Ihren Rechten als TeilnehmerIn haben, k\u00f6nnen Sie gerne die koordinierende Person kontaktieren (Matthias Ziegler, zieglema@hu-berlin.de, Humboldt Universit\u00e4t zu Berlin), welche f\u00fcr die Datensammlung an Ihrem Ort zust\u00e4ndig ist. Auch k\u00f6nnen Sie das B\u00fcro der Forschungsintegrit\u00e4t der University of California, Riverside, per Email unter IRB@ucr.edu erreichen. Wir bedanken uns sehr f\u00fcr Ihre Mithilfe."
         ],
         "title": "Einverst\u00e4ndniserkl\u00e4rung zur Teilnahme an der Studie",
-        "versionHistory": "(Einverst\u00e4ndniserkl\u00e4rung: 14. Oktober, 2016)"
+        "versionHistory": "(Einverst\u00e4ndniserkl\u00e4rung: 14. Oktober 2016)"
     },
     "GERM4.DE": {
         "buttonLabel": "Bitte akzeptieren Sie die Teilnahmebedingungen, um fortzufahren.",
@@ -58,7 +58,7 @@ const consentText = {
             "Wenn Sie Fragen zu dieser Studie oder zu Ihren Rechten als TeilnehmerIn haben, k\u00f6nnen Sie gerne die koordinierende Person kontaktieren (Lars Penke, lars.penke@gmail.com, Georg August University G\u00f6ttingen), welche f\u00fcr die Datensammlung an Ihrem Ort zust\u00e4ndig ist. Auch k\u00f6nnen Sie das B\u00fcro der Forschungsintegrit\u00e4t  der University of California, Riverside, per Email unter IRB@ucr.edu erreichen. Wir bedanken uns sehr f\u00fcr Ihre Mithilfe."
         ],
         "title": "Einverst\u00e4ndniserkl\u00e4rung zur Teilnahme an der Studie",
-        "versionHistory": "(Einverst\u00e4ndniserkl\u00e4rung: 14. Oktober, 2016)"
+        "versionHistory": "(Einverst\u00e4ndniserkl\u00e4rung: 14. Oktober 2016)"
     },
     "GERM5.CH": {
         "buttonLabel": "Bitte akzeptieren Sie die Teilnahmebedingungen, um fortzufahren.",
@@ -69,7 +69,7 @@ const consentText = {
             "Wenn Sie Fragen zu dieser Studie oder zu Ihren Rechten als TeilnehmerIn haben, k\u00f6nnen Sie gerne die koordinierende Person kontaktieren (Janina B\u00fchler, janina.buehler@unibas.ch, Universit\u00e4t Basel), welche f\u00fcr die Datensammlung an Ihrem Ort zust\u00e4ndig ist. Auch k\u00f6nnen Sie das B\u00fcro der Forschungsintegrit\u00e4t der University of California, Riverside, per Email unter IRB@ucr.edu erreichen. Wir bedanken uns sehr f\u00fcr Ihre Mithilfe."
         ],
         "title": "Einverst\u00e4ndniserkl\u00e4rung zur Teilnahme an der Studie",
-        "versionHistory": "(Einverst\u00e4ndniserkl\u00e4rung: 14. Oktober, 2016)"
+        "versionHistory": "(Einverst\u00e4ndniserkl\u00e4rung: 14. Oktober 2016)"
     },
     "GERM6.CH": {
         "buttonLabel": "Bitte akzeptieren Sie die Teilnahmebedingungen, um fortzufahren.",
@@ -80,7 +80,7 @@ const consentText = {
             "Wenn Sie Fragen zu dieser Studie oder zu Ihren Rechten als TeilnehmerIn haben, k\u00f6nnen Sie gerne die koordinierende Person kontaktieren (Mathias Allemand, m.allemand@psychologie.uzh.ch, Universit\u00e4t Zurich), welche f\u00fcr die Datensammlung an Ihrem Ort zust\u00e4ndig ist. Auch k\u00f6nnen Sie das B\u00fcro der Forschungsintegrit\u00e4t der University of California, Riverside, per Email unter IRB@ucr.edu erreichen. Wir bedanken uns sehr f\u00fcr Ihre Mithilfe."
         ],
         "title": "Einverst\u00e4ndniserkl\u00e4rung zur Teilnahme an der Studie",
-        "versionHistory": "(Einverst\u00e4ndniserkl\u00e4rung: 14. Oktober, 2016)"
+        "versionHistory": "(Einverst\u00e4ndniserkl\u00e4rung: 14. Oktober 2016)"
     },
     // Indonesian
     "INDO1.ID": {
