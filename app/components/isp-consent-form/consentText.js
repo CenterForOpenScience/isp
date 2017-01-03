@@ -16,7 +16,7 @@
  */
 const consentText = {
     // German
-    "BASE.CH": {
+    "GERM5.CH": {
         "buttonLabel": "Bitte akzeptieren Sie die Teilnahmebedingungen, um fortzufahren.",
         "consentLabel": "Ich habe die obigen Aussagen gelesen und verstanden. Ich stimme einer Teilnahme an der Studie zu.",
         "paragraphs": [
@@ -27,7 +27,7 @@ const consentText = {
         "title": "Einverst\u00e4ndniserkl\u00e4rung zur Teilnahme an der Studie",
         "versionHistory": "(Einverst\u00e4ndniserkl\u00e4rung: 14. Oktober, 2016)"
     },
-    "BERL.DE": {
+    "GERM3.DE": {
         "buttonLabel": "Bitte akzeptieren Sie die Teilnahmebedingungen, um fortzufahren.",
         "consentLabel": "Ich habe die obigen Aussagen gelesen und verstanden. Ich stimme einer Teilnahme an der Studie zu.",
         "paragraphs": [
@@ -38,7 +38,7 @@ const consentText = {
         "title": "Einverst\u00e4ndniserkl\u00e4rung zur Teilnahme an der Studie",
         "versionHistory": "(Einverst\u00e4ndniserkl\u00e4rung: 14. Oktober, 2016)"
     },
-    "GOTT.DE": {
+    "GERM4.DE": {
         "buttonLabel": "Bitte akzeptieren Sie die Teilnahmebedingungen, um fortzufahren.",
         "consentLabel": "Ich habe die obigen Aussagen gelesen und verstanden. Ich stimme einer Teilnahme an der Studie zu.",
         "paragraphs": [
@@ -49,7 +49,7 @@ const consentText = {
         "title": "Einverst\u00e4ndniserkl\u00e4rung zur Teilnahme an der Studie",
         "versionHistory": "(Einverst\u00e4ndniserkl\u00e4rung: 14. Oktober, 2016)"
     },
-    "GRAZ.AU": {
+    "GERM2.AU": {
         "buttonLabel": "Bitte akzeptieren Sie die Teilnahmebedingungen, um fortzufahren.",
         "consentLabel": "Ich habe die obigen Aussagen gelesen und verstanden. Ich stimme einer Teilnahme an der Studie zu.",
         "paragraphs": [
@@ -60,7 +60,7 @@ const consentText = {
         "title": "Einverst\u00e4ndniserkl\u00e4rung zur Teilnahme an der Studie",
         "versionHistory": "(Einverst\u00e4ndniserkl\u00e4rung: 14. Oktober, 2016)"
     },
-    "INNS.AU": {
+    "GERM1.AU": {
         "buttonLabel": "Bitte akzeptieren Sie die Teilnahmebedingungen, um fortzufahren.",
         "consentLabel": "Ich habe die obigen Aussagen gelesen und verstanden. Ich stimme einer Teilnahme an der Studie zu.",
         "paragraphs": [
@@ -71,7 +71,7 @@ const consentText = {
         "title": "Einverst\u00e4ndniserkl\u00e4rung zur Teilnahme an der Studie",
         "versionHistory": "(Einverst\u00e4ndniserkl\u00e4rung: 14. Oktober, 2016)"
     },
-    "ZURI.CH": {
+    "GERM6.CH": {
         "buttonLabel": "Bitte akzeptieren Sie die Teilnahmebedingungen, um fortzufahren.",
         "consentLabel": "Ich habe die obigen Aussagen gelesen und verstanden. Ich stimme einer Teilnahme an der Studie zu.",
         "paragraphs": [
@@ -83,7 +83,7 @@ const consentText = {
         "versionHistory": "(Einverst\u00e4ndniserkl\u00e4rung: 14. Oktober, 2016)"
     },
     // Indonesian
-    "INDO.ID": {
+    "INDO1.ID": {
         "buttonLabel": "Mohon terima persyaratan tersebut untuk melanjutkan",
         "consentLabel": "Saya telah membaca dan pahami penyataan tersebut diatas dan setuju untuk berpartisipasi.",
         "paragraphs": [
@@ -95,7 +95,7 @@ const consentText = {
         "versionHistory": "(Verzia s\u00fahlas forma: 14.okt\u00f3bra 2016)"
     },
     // English
-    "AUST.ENG": {
+    "AUST1.ENG": {
         "buttonLabel": "Please accept terms to continue",
         "consentLabel": "I have read and understand the above statements and agree to participate.",
         "paragraphs": [
@@ -106,7 +106,7 @@ const consentText = {
         "title": "Consent to Participate in Research",
         "versionHistory": "(Consent form version: 14 October 2016)"
     },
-    "CAND.ENG": {
+    "CAND1.ENG": {
         "buttonLabel": "Please accept terms to continue",
         "consentLabel": "I have read and understand the above statements and agree to participate.",
         "paragraphs": [
@@ -117,7 +117,7 @@ const consentText = {
         "title": "Consent to Participate in Research",
         "versionHistory": "(Consent form version: 14 October 2016)"
     },
-    "NEWZ.ENG": {
+    "NEWZ1.ENG": {
         "buttonLabel": "Please accept terms to continue",
         "consentLabel": "I have read and understand the above statements and agree to participate.",
         "paragraphs": [
@@ -128,7 +128,7 @@ const consentText = {
         "title": "Consent to Participate in Research",
         "versionHistory": "(Consent form version: 14 October 2016)"
     },
-    "NIGE.ENG": {
+    "NIGE1.ENG": {
         "buttonLabel": "Please accept terms to continue",
         "consentLabel": "I have read and understand the above statements and agree to participate.",
         "paragraphs": [
@@ -139,7 +139,7 @@ const consentText = {
         "title": "Consent to Participate in Research",
         "versionHistory": "(Consent form version: 14 October 2016)"
     },
-    "PHIL.ENG": {
+    "PHIL1.ENG": {
         "buttonLabel": "Please accept terms to continue",
         "consentLabel": "I have read and understand the above statements and agree to participate.",
         "paragraphs": [
@@ -150,7 +150,7 @@ const consentText = {
         "title": "Consent to Participate in Research",
         "versionHistory": "(Consent form version: 14 October 2016)"
     },
-    "SING.ENG": {
+    "SING1.ENG": {
         "buttonLabel": "Please accept terms to continue",
         "consentLabel": "I have read and understand the above statements and agree to participate.",
         "paragraphs": [
@@ -161,7 +161,7 @@ const consentText = {
         "title": "Consent to Participate in Research",
         "versionHistory": "(Consent form version: 14 October 2016)"
     },
-    "UGAN.ENG": {
+    "UGAN1.ENG": {
         "buttonLabel": "Please accept terms to continue",
         "consentLabel": "I have read and understand the above statements and agree to participate.",
         "paragraphs": [
@@ -172,7 +172,7 @@ const consentText = {
         "title": "Consent to Participate in Research",
         "versionHistory": "(Consent form version: 14 October 2016)"
     },
-    "UK.ENG": {
+    "UK1.ENG": {
         "buttonLabel": "Please accept terms to continue",
         "consentLabel": "I have read and understand the above statements and agree to participate.",
         "paragraphs": [
@@ -216,7 +216,7 @@ const consentText = {
         "title": "Consent to Participate in Research",
         "versionHistory": "(Consent form version: 14 October 2016)"
     },
-    "USA4.US": {
+    "USA4.ENG": {
         "buttonLabel": "Please accept terms to continue",
         "consentLabel": "I have read and understand the above statements and agree to participate.",
         "paragraphs": [
@@ -227,7 +227,7 @@ const consentText = {
         "title": "Consent to Participate in Research",
         "versionHistory": "(Consent form version: 14 October 2016)"
     },
-    "ZA.ENG": {
+    "ZA1.ENG": {
         "buttonLabel": "Please accept terms to continue",
         "consentLabel": "I have read and understand the above statements and agree to participate.",
         "paragraphs": [
