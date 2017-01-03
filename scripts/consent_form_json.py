@@ -92,7 +92,7 @@ def main():
 
         content[site_id] = format_consent_form(filepath)
     with open('consent.json', 'w') as f:
-        json.dump(content, f, indent=4, sort_keys=True)
+        json.dump(content, f, indent=4, sort_keys=True, ensure_ascii=False)
 
 
 def download_files(files, service):
@@ -109,7 +109,7 @@ def format_consent_form(filename):
     site_info = {
       'paragraphs': []
     }
-    with open(filename, 'rb') as csvfile:
+    with open(filename, 'r') as csvfile:
         reader = csv.reader(csvfile)
         for row in reader:
             key = row[0]

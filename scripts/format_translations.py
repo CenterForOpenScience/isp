@@ -201,7 +201,7 @@ def main():
             merge(data, format_dict(keys, row[1].strip(" ")))
     with open(out_fn, 'w') as f:
         data.update(numbers)
-        json.dump(data, f, indent=4, sort_keys=True)
+        json.dump(data, f, indent=4, sort_keys=True, ensure_ascii=False)
 
     if args.validate:
         with open(REFERENCE_LOCALE_PATH, 'r') as f:
