@@ -15,75 +15,110 @@
  * @property
  */
 const consentText = {
+    // Bulgarian
+    "BULG1.BG": {
+        "buttonLabel": "Моля, приемете условията, за да продължите.",
+        "consentLabel": "Прочетох и разбрах горните съобщения и съм съгласен да участвам.",
+        "paragraphs": [
+            "Добре дошли в нашето изследване. Вашето участие ще бъде завършено в една сесия и ще отнеме по-малко от час. Ще бъдете помолени да опишете ситуация, която сте изживели наскоро, и поведението Ви в нея. Също така ще Ви бъдат зададени някои въпроси за нагласите и ценностите Ви. Ако желаете, в края на изследването ще получите персонална информация за Вашата личност.",
+            "Поверителна информация е гарантирана - Вашите отговори ще бъдат регистрирани само при вашия номер (не вашето име). За целите на изследването тези анонимни данни могат да се съхраняват в онлайн база данни, управлявана от Центъра за Open Science (www.cos.io). Трябва да се отговори на всеки въпрос, за да се счита, че са участвали в проучването, но можете да отмените по всяко време. Потенциалните ползи от това изследване са свързани с подобряване на разбирането на хората и техния начин на живот в mutlikulturna среда. Изследването на скрити рискове.",
+            "Ако имате някакви въпроси относно проучването или за правата си като участник, може да се свържете с Кристина Петкова (kristina.petkova@gmail.com) при Българската академия на науките, който е отговорен за събирането на данни от вашия регион или офис ни в Kalifornsksiya университет имейл на IRB@ucr.edu. Ние ценим и искрено ви благодаря за съдействието."
+        ],
+        "title": "Съгласие за участие в изследването",
+        "versionHistory": "(Одобрение форма версия: 14 окт 2016)"
+    },
+    // Chinese
+    "CHINA1.CN": {
+        "buttonLabel": "请接受条款并继续",
+        "consentLabel": "我已经阅读并理解了上述说明，我同意参加研究。",
+        "paragraphs": [
+            "欢迎来到我们的研究。这是一项需要一次性完成的研究，需要的时间不会超过一小时。你会被要求描述一个你近期经历的情境以及你在其中的行为，并回答一些与价值观和态度有关的问题，研究结束后，你可以收到属于你的性格分析的信息。",
+            "你所有的回答将被严格保密，并且只通过编号而不是名字来进行识别。出于研究的目的 ，这些匿名数据会被收录在由Center for Open Science进行维护的网络数据库中（www.cos.io）。要完成本问卷每个问题都必须回答，但是，你可以随时终止参与并不会有任何负面影响。参与研究可能的收益包括提高我们对于自己性格和生活的理解等。本研究没有任何已知的风险。",
+            "如果你有关于本研究或自己作为参与者的权益的任何问题，你可以联系上海科技大学创管学院的杨宇教授（xwjc.net@gmail.com），他负责中国大陆地区的收据收集，或者联系加州大学河边分校研究诚信办公室（IRB@ucr.edu），感谢您的合作。"
+        ],
+        "title": "知情同意书",
+        "versionHistory": "（知情同意书版本：2016年11月14日）"
+    },
+    "CHINA2.CN": {
+        "buttonLabel": "请接受条款并继续",
+        "consentLabel": "我已经阅读并理解了上述说明，我同意参加研究。",
+        "paragraphs": [
+            "欢迎来到我们的研究。这是一项需要一次性完成的研究，需要的时间不会超过一小时。你会被要求描述一个你近期经历的情境以及你在其中的行为，并回答一些与价值观和态度有关的问题，研究结束后，你可以收到属于你的性格分析的信息。",
+            "你所有的回答将被严格保密，并且只通过编号而不是名字来进行识别。出于研究的目的 ，这些匿名数据会被收录在由Center for Open Science进行维护的网络数据库中（www.cos.io）。要完成本问卷每个问题都必须回答，但是，你可以随时终止参与并不会有任何负面影响。参与研究可能的收益包括提高我们对于自己性格和生活的理解等。本研究没有任何已知的风险。",
+            "如果您对本研究有任何疑问或作为参与者的自身利益，可以联系人民大学的Yanjun Guan（yanjun.guan@gmail.com），负责收集您所在地的收据，或者联系IRB @ ucr.edu您与加州大学河滨分校研究诚信办公室合作。"
+        ],
+        "title": "知情同意书",
+        "versionHistory": "（知情同意书版本：2016年11月14日）"
+    },
     // German
-    "BASE.CH": {
+    "GERM1.AU": {
         "buttonLabel": "Bitte akzeptieren Sie die Teilnahmebedingungen, um fortzufahren.",
         "consentLabel": "Ich habe die obigen Aussagen gelesen und verstanden. Ich stimme einer Teilnahme an der Studie zu.",
         "paragraphs": [
-            "Willkommen zu unserer Studie! Ihre Teilnahme wird innerhalb einer Sitzung ablaufen und weniger als eine Stunde dauern. Sie werden gebeten, eine Situation zu beschreiben, die Sie k\u00fcrzlich erlebt haben, sowie Ihr Verhalten in dieser Situation. Sie werden auch einige Fragen zu Ihren Werten und Einstellung erhalten. Wenn Sie m\u00f6chten, erhalten Sie am Ende der Studie personalisierte Informationen zu Ihrer Pers\u00f6nlichkeit.",
-            "Alle Ihre Angaben werden vertraulich behandelt und lassen sich nur anhand einer Nummer (nicht anhand Ihres Namens) zuordnen. Diese anonymisierten Daten werden f\u00fcr Forschungszwecke in einer Online Datenbank archiviert, welche vom Zentrum f\u00fcr offene Wissenschaften (www.cos.io) verwaltet wird. Um in der Befragung fortfahren zu k\u00f6nnen, muss jede Frage beantwortet werden. Sie k\u00f6nnen Ihre Teilnahme an der Studie aber zu jedem Zeitpunkt abbrechen, ohne dass f\u00fcr Sie daraus negative Konsequenzen entstehen. Der m\u00f6gliche Nutzen dieser Forschung besteht darin, Menschen und ihr Leben \u00fcber Kulturen hinweg besser zu verstehen. Es gibt keine bekannten Risiken.",
-            "Wenn Sie Fragen zu dieser Studie oder zu Ihren Rechten als TeilnehmerIn haben, k\u00f6nnen Sie gerne die koordinierende Person kontaktieren (Janina B\u00fchler, janina.buehler@unibas.ch, Universit\u00e4t Basel), welche f\u00fcr die Datensammlung an Ihrem Ort zust\u00e4ndig ist. Auch k\u00f6nnen Sie das B\u00fcro der Forschungsintegrit\u00e4t der University of California, Riverside, per Email unter IRB@ucr.edu erreichen. Wir bedanken uns sehr f\u00fcr Ihre Mithilfe."
+            "Willkommen zu unserer Studie! Ihre Teilnahme wird innerhalb einer Sitzung ablaufen und weniger als eine Stunde dauern. Sie werden gebeten, eine Situation zu beschreiben, die Sie kürzlich erlebt haben, sowie Ihr Verhalten in dieser Situation. Sie werden auch einige Fragen zu Ihren Werten und Einstellung erhalten. Wenn Sie möchten, erhalten Sie am Ende der Studie personalisierte Informationen zu Ihrer Persönlichkeit.",
+            "Alle Ihre Angaben werden vertraulich behandelt und lassen sich nur anhand einer Nummer (nicht anhand Ihres Namens) zuordnen. Diese anonymisierten Daten werden für Forschungszwecke in einer Online Datenbank archiviert, welche vom Zentrum für offene Wissenschaften (www.cos.io) verwaltet wird. Um in der Befragung fortfahren zu können, muss jede Frage beantwortet werden. Sie können Ihre Teilnahme an der Studie aber zu jedem Zeitpunkt abbrechen, ohne dass für Sie daraus negative Konsequenzen entstehen. Der mögliche Nutzen dieser Forschung besteht darin, Menschen und ihr Leben über Kulturen hinweg besser zu verstehen. Es gibt keine bekannten Risiken.",
+            "Wenn Sie Fragen zu dieser Studie oder zu Ihren Rechten als TeilnehmerIn haben, können Sie gerne die koordinierende Person kontaktieren (Marco Furtner, marco.furtner@uibk.ac.at, Universität Innsbruck), welche für die Datensammlung an Ihrem Ort zuständig ist. Auch können Sie das Büro der Forschungsintegrität der University of California, Riverside, per Email unter IRB@ucr.edu erreichen. Wir bedanken uns sehr für Ihre Mithilfe."
         ],
-        "title": "Einverst\u00e4ndniserkl\u00e4rung zur Teilnahme an der Studie",
-        "versionHistory": "(Einverst\u00e4ndniserkl\u00e4rung: 14. Oktober, 2016)"
+        "title": "Einverständniserklärung zur Teilnahme an der Studie",
+        "versionHistory": "(Einverständniserklärung: 14. Oktober 2016)"
     },
-    "BERL.DE": {
+    "GERM2.AU": {
         "buttonLabel": "Bitte akzeptieren Sie die Teilnahmebedingungen, um fortzufahren.",
         "consentLabel": "Ich habe die obigen Aussagen gelesen und verstanden. Ich stimme einer Teilnahme an der Studie zu.",
         "paragraphs": [
-            "Willkommen zu unserer Studie! Ihre Teilnahme wird innerhalb einer Sitzung ablaufen und weniger als eine Stunde dauern. Sie werden gebeten, eine Situation zu beschreiben, die Sie k\u00fcrzlich erlebt haben, sowie Ihr Verhalten in dieser Situation. Sie werden auch einige Fragen zu Ihren Werten und Einstellung erhalten. Wenn Sie m\u00f6chten, erhalten Sie am Ende der Studie personalisierte Informationen zu Ihrer Pers\u00f6nlichkeit.",
-            "Alle Ihre Angaben werden vertraulich behandelt und lassen sich nur anhand einer Nummer (nicht anhand Ihres Namens) zuordnen. Diese anonymisierten Daten werden f\u00fcr Forschungszwecke in einer Online Datenbank archiviert, welche vom Zentrum f\u00fcr offene Wissenschaften (www.cos.io) verwaltet wird. Um in der Befragung fortfahren zu k\u00f6nnen muss jede Frage beantwortet werden. Sie k\u00f6nnen Ihre Teilnahme an der Studie aber zu jedem Zeitpunkt abbrechen, ohne dass f\u00fcr Sie daraus negative Konsequenzen entstehen. Der m\u00f6gliche Nutzen dieser Forschung besteht darin, Menschen und ihr Leben \u00fcber Kulturen hinweg besser zu verstehen. Es gibt keine bekannten Risiken.",
-            "Wenn Sie Fragen zu dieser Studie oder zu Ihren Rechten als TeilnehmerIn haben, k\u00f6nnen Sie gerne die koordinierende Person kontaktieren (Matthias Ziegler, zieglema@hu-berlin.de, Humboldt Universit\u00e4t zu Berlin), welche f\u00fcr die Datensammlung an Ihrem Ort zust\u00e4ndig ist. Auch k\u00f6nnen Sie das B\u00fcro der Forschungsintegrit\u00e4t der University of California, Riverside, per Email unter IRB@ucr.edu erreichen. Wir bedanken uns sehr f\u00fcr Ihre Mithilfe."
+            "Willkommen zu unserer Studie! Ihre Teilnahme wird innerhalb einer Sitzung ablaufen und weniger als eine Stunde dauern. Sie werden gebeten, eine Situation zu beschreiben, die Sie kürzlich erlebt haben, sowie Ihr Verhalten in dieser Situation. Sie werden auch einige Fragen zu Ihren Werten und Einstellung erhalten. Wenn Sie möchten, erhalten Sie am Ende der Studie personalisierte Informationen zu Ihrer Persönlichkeit.",
+            "Alle Ihre Angaben werden vertraulich behandelt und lassen sich nur anhand einer Nummer (nicht anhand Ihres Namens) zuordnen. Diese anonymisierten Daten werden für Forschungszwecke in einer Online Datenbank archiviert, welche vom Zentrum für offene Wissenschaften (www.cos.io) verwaltet wird. Um in der Befragung fortfahren zu können, muss jede Frage beantwortet werden. Sie können Ihre Teilnahme an der Studie aber zu jedem Zeitpunkt abbrechen, ohne dass für Sie daraus negative Konsequenzen entstehen. Der mögliche Nutzen dieser Forschung besteht darin, Menschen und ihr Leben über Kulturen hinweg besser zu verstehen. Es gibt keine bekannten Risiken.",
+            "Wenn Sie Fragen zu dieser Studie oder zu Ihren Rechten als TeilnehmerIn haben, können Sie gerne die koordinierende Person kontaktieren (Aljoscha Neubauer, aljoscha.neubauer@uni-graz.at, Universität Graz), welche für die Datensammlung an Ihrem Ort zuständig ist. Auch können Sie das Büro der Forschungsintegrität der University of California, Riverside, per Email unter IRB@ucr.edu erreichen. Wir bedanken uns sehr für Ihre Mithilfe."
         ],
-        "title": "Einverst\u00e4ndniserkl\u00e4rung zur Teilnahme an der Studie",
-        "versionHistory": "(Einverst\u00e4ndniserkl\u00e4rung: 14. Oktober, 2016)"
+        "title": "Einverständniserklärung zur Teilnahme an der Studie",
+        "versionHistory": "(Einverständniserklärung: 14. Oktober 2016)"
     },
-    "GOTT.DE": {
+    "GERM3.DE": {
         "buttonLabel": "Bitte akzeptieren Sie die Teilnahmebedingungen, um fortzufahren.",
         "consentLabel": "Ich habe die obigen Aussagen gelesen und verstanden. Ich stimme einer Teilnahme an der Studie zu.",
         "paragraphs": [
-            "Willkommen zu unserer Studie! Ihre Teilnahme wird innerhalb einer Sitzung ablaufen und weniger als eine Stunde dauern. Sie werden gebeten, eine Situation zu beschreiben, die Sie k\u00fcrzlich erlebt haben, sowie Ihr Verhalten in dieser Situation. Sie werden auch einige Fragen zu Ihren Werten und Einstellung erhalten. Wenn Sie m\u00f6chten, erhalten Sie am Ende der Studie personalisierte Informationen zu Ihrer Pers\u00f6nlichkeit.",
-            "Alle Ihre Angaben werden vertraulich behandelt und lassen sich nur anhand einer Nummer (nicht anhand Ihres Namens) zuordnen. Diese anonymisierten Daten werden f\u00fcr Forschungszwecke in einer Online Datenbank archiviert, welche vom Zentrum f\u00fcr offene Wissenschaften (www.cos.io) verwaltet wird. Um in der Befragung fortfahren zu k\u00f6nnen, muss jede Frage beantwortet werden. Sie k\u00f6nnen Ihre Teilnahme an der Studie aber zu jedem Zeitpunkt abbrechen, ohne dass f\u00fcr Sie daraus negative Konsequenzen entstehen. Der m\u00f6gliche Nutzen dieser Forschung besteht darin, Menschen und ihr Leben \u00fcber Kulturen hinweg besser zu verstehen. Es gibt keine bekannten Risiken.",
-            "Wenn Sie Fragen zu dieser Studie oder zu Ihren Rechten als TeilnehmerIn haben, k\u00f6nnen Sie gerne die koordinierende Person kontaktieren (Lars Penke, lars.penke@gmail.com, Georg August University G\u00f6ttingen), welche f\u00fcr die Datensammlung an Ihrem Ort zust\u00e4ndig ist. Auch k\u00f6nnen Sie das B\u00fcro der Forschungsintegrit\u00e4t  der University of California, Riverside, per Email unter IRB@ucr.edu erreichen. Wir bedanken uns sehr f\u00fcr Ihre Mithilfe."
+            "Willkommen zu unserer Studie! Ihre Teilnahme wird innerhalb einer Sitzung ablaufen und weniger als eine Stunde dauern. Sie werden gebeten, eine Situation zu beschreiben, die Sie kürzlich erlebt haben, sowie Ihr Verhalten in dieser Situation. Sie werden auch einige Fragen zu Ihren Werten und Einstellung erhalten. Wenn Sie möchten, erhalten Sie am Ende der Studie personalisierte Informationen zu Ihrer Persönlichkeit.",
+            "Alle Ihre Angaben werden vertraulich behandelt und lassen sich nur anhand einer Nummer (nicht anhand Ihres Namens) zuordnen. Diese anonymisierten Daten werden für Forschungszwecke in einer Online Datenbank archiviert, welche vom Zentrum für offene Wissenschaften (www.cos.io) verwaltet wird. Um in der Befragung fortfahren zu können muss jede Frage beantwortet werden. Sie können Ihre Teilnahme an der Studie aber zu jedem Zeitpunkt abbrechen, ohne dass für Sie daraus negative Konsequenzen entstehen. Der mögliche Nutzen dieser Forschung besteht darin, Menschen und ihr Leben über Kulturen hinweg besser zu verstehen. Es gibt keine bekannten Risiken.",
+            "Wenn Sie Fragen zu dieser Studie oder zu Ihren Rechten als TeilnehmerIn haben, können Sie gerne die koordinierende Person kontaktieren (Matthias Ziegler, zieglema@hu-berlin.de, Humboldt Universität zu Berlin), welche für die Datensammlung an Ihrem Ort zuständig ist. Auch können Sie das Büro der Forschungsintegrität der University of California, Riverside, per Email unter IRB@ucr.edu erreichen. Wir bedanken uns sehr für Ihre Mithilfe."
         ],
-        "title": "Einverst\u00e4ndniserkl\u00e4rung zur Teilnahme an der Studie",
-        "versionHistory": "(Einverst\u00e4ndniserkl\u00e4rung: 14. Oktober, 2016)"
+        "title": "Einverständniserklärung zur Teilnahme an der Studie",
+        "versionHistory": "(Einverständniserklärung: 14. Oktober 2016)"
     },
-    "GRAZ.AU": {
+    "GERM4.DE": {
         "buttonLabel": "Bitte akzeptieren Sie die Teilnahmebedingungen, um fortzufahren.",
         "consentLabel": "Ich habe die obigen Aussagen gelesen und verstanden. Ich stimme einer Teilnahme an der Studie zu.",
         "paragraphs": [
-            "Willkommen zu unserer Studie! Ihre Teilnahme wird innerhalb einer Sitzung ablaufen und weniger als eine Stunde dauern. Sie werden gebeten, eine Situation zu beschreiben, die Sie k\u00fcrzlich erlebt haben, sowie Ihr Verhalten in dieser Situation. Sie werden auch einige Fragen zu Ihren Werten und Einstellung erhalten. Wenn Sie m\u00f6chten, erhalten Sie am Ende der Studie personalisierte Informationen zu Ihrer Pers\u00f6nlichkeit.",
-            "Alle Ihre Angaben werden vertraulich behandelt und lassen sich nur anhand einer Nummer (nicht anhand Ihres Namens) zuordnen. Diese anonymisierten Daten werden f\u00fcr Forschungszwecke in einer Online Datenbank archiviert, welche vom Zentrum f\u00fcr offene Wissenschaften (www.cos.io) verwaltet wird. Um in der Befragung fortfahren zu k\u00f6nnen, muss jede Frage beantwortet werden. Sie k\u00f6nnen Ihre Teilnahme an der Studie aber zu jedem Zeitpunkt abbrechen, ohne dass f\u00fcr Sie daraus negative Konsequenzen entstehen. Der m\u00f6gliche Nutzen dieser Forschung besteht darin, Menschen und ihr Leben \u00fcber Kulturen hinweg besser zu verstehen. Es gibt keine bekannten Risiken.",
-            "Wenn Sie Fragen zu dieser Studie oder zu Ihren Rechten als TeilnehmerIn haben, k\u00f6nnen Sie gerne die koordinierende Person kontaktieren (Aljoscha Neubauer, aljoscha.neubauer@uni-graz.at, Universit\u00e4t Graz), welche f\u00fcr die Datensammlung an Ihrem Ort zust\u00e4ndig ist. Auch k\u00f6nnen Sie das B\u00fcro der Forschungsintegrit\u00e4t der University of California, Riverside, per Email unter IRB@ucr.edu erreichen. Wir bedanken uns sehr f\u00fcr Ihre Mithilfe."
+            "Willkommen zu unserer Studie! Ihre Teilnahme wird innerhalb einer Sitzung ablaufen und weniger als eine Stunde dauern. Sie werden gebeten, eine Situation zu beschreiben, die Sie kürzlich erlebt haben, sowie Ihr Verhalten in dieser Situation. Sie werden auch einige Fragen zu Ihren Werten und Einstellung erhalten. Wenn Sie möchten, erhalten Sie am Ende der Studie personalisierte Informationen zu Ihrer Persönlichkeit.",
+            "Alle Ihre Angaben werden vertraulich behandelt und lassen sich nur anhand einer Nummer (nicht anhand Ihres Namens) zuordnen. Diese anonymisierten Daten werden für Forschungszwecke in einer Online Datenbank archiviert, welche vom Zentrum für offene Wissenschaften (www.cos.io) verwaltet wird. Um in der Befragung fortfahren zu können, muss jede Frage beantwortet werden. Sie können Ihre Teilnahme an der Studie aber zu jedem Zeitpunkt abbrechen, ohne dass für Sie daraus negative Konsequenzen entstehen. Der mögliche Nutzen dieser Forschung besteht darin, Menschen und ihr Leben über Kulturen hinweg besser zu verstehen. Es gibt keine bekannten Risiken.",
+            "Wenn Sie Fragen zu dieser Studie oder zu Ihren Rechten als TeilnehmerIn haben, können Sie gerne die koordinierende Person kontaktieren (Lars Penke, lars.penke@gmail.com, Georg August University Göttingen), welche für die Datensammlung an Ihrem Ort zuständig ist. Auch können Sie das Büro der Forschungsintegrität  der University of California, Riverside, per Email unter IRB@ucr.edu erreichen. Wir bedanken uns sehr für Ihre Mithilfe."
         ],
-        "title": "Einverst\u00e4ndniserkl\u00e4rung zur Teilnahme an der Studie",
-        "versionHistory": "(Einverst\u00e4ndniserkl\u00e4rung: 14. Oktober, 2016)"
+        "title": "Einverständniserklärung zur Teilnahme an der Studie",
+        "versionHistory": "(Einverständniserklärung: 14. Oktober 2016)"
     },
-    "INNS.AU": {
+    "GERM5.CH": {
         "buttonLabel": "Bitte akzeptieren Sie die Teilnahmebedingungen, um fortzufahren.",
         "consentLabel": "Ich habe die obigen Aussagen gelesen und verstanden. Ich stimme einer Teilnahme an der Studie zu.",
         "paragraphs": [
-            "Willkommen zu unserer Studie! Ihre Teilnahme wird innerhalb einer Sitzung ablaufen und weniger als eine Stunde dauern. Sie werden gebeten, eine Situation zu beschreiben, die Sie k\u00fcrzlich erlebt haben, sowie Ihr Verhalten in dieser Situation. Sie werden auch einige Fragen zu Ihren Werten und Einstellung erhalten. Wenn Sie m\u00f6chten, erhalten Sie am Ende der Studie personalisierte Informationen zu Ihrer Pers\u00f6nlichkeit.",
-            "Alle Ihre Angaben werden vertraulich behandelt und lassen sich nur anhand einer Nummer (nicht anhand Ihres Namens) zuordnen. Diese anonymisierten Daten werden f\u00fcr Forschungszwecke in einer Online Datenbank archiviert, welche vom Zentrum f\u00fcr offene Wissenschaften (www.cos.io) verwaltet wird. Um in der Befragung fortfahren zu k\u00f6nnen, muss jede Frage beantwortet werden. Sie k\u00f6nnen Ihre Teilnahme an der Studie aber zu jedem Zeitpunkt abbrechen, ohne dass f\u00fcr Sie daraus negative Konsequenzen entstehen. Der m\u00f6gliche Nutzen dieser Forschung besteht darin, Menschen und ihr Leben \u00fcber Kulturen hinweg besser zu verstehen. Es gibt keine bekannten Risiken.",
-            "Wenn Sie Fragen zu dieser Studie oder zu Ihren Rechten als TeilnehmerIn haben, k\u00f6nnen Sie gerne die koordinierende Person kontaktieren (Marco Furtner, marco.furtner@uibk.ac.at, Universit\u00e4t Innsbruck), welche f\u00fcr die Datensammlung an Ihrem Ort zust\u00e4ndig ist. Auch k\u00f6nnen Sie das B\u00fcro der Forschungsintegrit\u00e4t der University of California, Riverside, per Email unter IRB@ucr.edu erreichen. Wir bedanken uns sehr f\u00fcr Ihre Mithilfe."
+            "Willkommen zu unserer Studie! Ihre Teilnahme wird innerhalb einer Sitzung ablaufen und weniger als eine Stunde dauern. Sie werden gebeten, eine Situation zu beschreiben, die Sie kürzlich erlebt haben, sowie Ihr Verhalten in dieser Situation. Sie werden auch einige Fragen zu Ihren Werten und Einstellung erhalten. Wenn Sie möchten, erhalten Sie am Ende der Studie personalisierte Informationen zu Ihrer Persönlichkeit.",
+            "Alle Ihre Angaben werden vertraulich behandelt und lassen sich nur anhand einer Nummer (nicht anhand Ihres Namens) zuordnen. Diese anonymisierten Daten werden für Forschungszwecke in einer Online Datenbank archiviert, welche vom Zentrum für offene Wissenschaften (www.cos.io) verwaltet wird. Um in der Befragung fortfahren zu können, muss jede Frage beantwortet werden. Sie können Ihre Teilnahme an der Studie aber zu jedem Zeitpunkt abbrechen, ohne dass für Sie daraus negative Konsequenzen entstehen. Der mögliche Nutzen dieser Forschung besteht darin, Menschen und ihr Leben über Kulturen hinweg besser zu verstehen. Es gibt keine bekannten Risiken.",
+            "Wenn Sie Fragen zu dieser Studie oder zu Ihren Rechten als TeilnehmerIn haben, können Sie gerne die koordinierende Person kontaktieren (Janina Bühler, janina.buehler@unibas.ch, Universität Basel), welche für die Datensammlung an Ihrem Ort zuständig ist. Auch können Sie das Büro der Forschungsintegrität der University of California, Riverside, per Email unter IRB@ucr.edu erreichen. Wir bedanken uns sehr für Ihre Mithilfe."
         ],
-        "title": "Einverst\u00e4ndniserkl\u00e4rung zur Teilnahme an der Studie",
-        "versionHistory": "(Einverst\u00e4ndniserkl\u00e4rung: 14. Oktober, 2016)"
+        "title": "Einverständniserklärung zur Teilnahme an der Studie",
+        "versionHistory": "(Einverständniserklärung: 14. Oktober 2016)"
     },
-    "ZURI.CH": {
+    "GERM6.CH": {
         "buttonLabel": "Bitte akzeptieren Sie die Teilnahmebedingungen, um fortzufahren.",
         "consentLabel": "Ich habe die obigen Aussagen gelesen und verstanden. Ich stimme einer Teilnahme an der Studie zu.",
         "paragraphs": [
-            "Willkommen zu unserer Studie! Ihre Teilnahme wird innerhalb einer Sitzung ablaufen und weniger als eine Stunde dauern. Sie werden gebeten, eine Situation zu beschreiben, die Sie k\u00fcrzlich erlebt haben, sowie Ihr Verhalten in dieser Situation. Sie werden auch einige Fragen zu Ihren Werten und Einstellung erhalten. Wenn Sie m\u00f6chten, erhalten Sie am Ende der Studie personalisierte Informationen zu Ihrer Pers\u00f6nlichkeit.",
-            "Alle Ihre Angaben werden vertraulich behandelt und lassen sich nur anhand einer Nummer (nicht anhand Ihres Namens) zuordnen. Diese anonymisierten Daten werden f\u00fcr Forschungszwecke in einer Online Datenbank archiviert, welche vom Zentrum f\u00fcr offene Wissenschaften (www.cos.io) verwaltet wird. Um in der Befragung fortfahren zu k\u00f6nnen, muss jede Frage beantwortet werden. Sie k\u00f6nnen Ihre Teilnahme an der Studie aber zu jedem Zeitpunkt abbrechen, ohne dass f\u00fcr Sie daraus negative Konsequenzen entstehen. Der m\u00f6gliche Nutzen dieser Forschung besteht darin, Menschen und ihr Leben \u00fcber Kulturen hinweg besser zu verstehen. Es gibt keine bekannten Risiken.",
-            "Wenn Sie Fragen zu dieser Studie oder zu Ihren Rechten als TeilnehmerIn haben, k\u00f6nnen Sie gerne die koordinierende Person kontaktieren (Mathias Allemand, m.allemand@psychologie.uzh.ch, Universit\u00e4t Zurich), welche f\u00fcr die Datensammlung an Ihrem Ort zust\u00e4ndig ist. Auch k\u00f6nnen Sie das B\u00fcro der Forschungsintegrit\u00e4t der University of California, Riverside, per Email unter IRB@ucr.edu erreichen. Wir bedanken uns sehr f\u00fcr Ihre Mithilfe."
+            "Willkommen zu unserer Studie! Ihre Teilnahme wird innerhalb einer Sitzung ablaufen und weniger als eine Stunde dauern. Sie werden gebeten, eine Situation zu beschreiben, die Sie kürzlich erlebt haben, sowie Ihr Verhalten in dieser Situation. Sie werden auch einige Fragen zu Ihren Werten und Einstellung erhalten. Wenn Sie möchten, erhalten Sie am Ende der Studie personalisierte Informationen zu Ihrer Persönlichkeit.",
+            "Alle Ihre Angaben werden vertraulich behandelt und lassen sich nur anhand einer Nummer (nicht anhand Ihres Namens) zuordnen. Diese anonymisierten Daten werden für Forschungszwecke in einer Online Datenbank archiviert, welche vom Zentrum für offene Wissenschaften (www.cos.io) verwaltet wird. Um in der Befragung fortfahren zu können, muss jede Frage beantwortet werden. Sie können Ihre Teilnahme an der Studie aber zu jedem Zeitpunkt abbrechen, ohne dass für Sie daraus negative Konsequenzen entstehen. Der mögliche Nutzen dieser Forschung besteht darin, Menschen und ihr Leben über Kulturen hinweg besser zu verstehen. Es gibt keine bekannten Risiken.",
+            "Wenn Sie Fragen zu dieser Studie oder zu Ihren Rechten als TeilnehmerIn haben, können Sie gerne die koordinierende Person kontaktieren (Mathias Allemand, m.allemand@psychologie.uzh.ch, Universität Zurich), welche für die Datensammlung an Ihrem Ort zuständig ist. Auch können Sie das Büro der Forschungsintegrität der University of California, Riverside, per Email unter IRB@ucr.edu erreichen. Wir bedanken uns sehr für Ihre Mithilfe."
         ],
-        "title": "Einverst\u00e4ndniserkl\u00e4rung zur Teilnahme an der Studie",
-        "versionHistory": "(Einverst\u00e4ndniserkl\u00e4rung: 14. Oktober, 2016)"
+        "title": "Einverständniserklärung zur Teilnahme an der Studie",
+        "versionHistory": "(Einverständniserklärung: 14. Oktober 2016)"
     },
     // Indonesian
-    "INDO.ID": {
+    "INDO1.ID": {
         "buttonLabel": "Mohon terima persyaratan tersebut untuk melanjutkan",
         "consentLabel": "Saya telah membaca dan pahami penyataan tersebut diatas dan setuju untuk berpartisipasi.",
         "paragraphs": [
@@ -95,7 +130,7 @@ const consentText = {
         "versionHistory": "(Verzia s\u00fahlas forma: 14.okt\u00f3bra 2016)"
     },
     // English
-    "AUST.ENG": {
+    "AUST1.ENG": {
         "buttonLabel": "Please accept terms to continue",
         "consentLabel": "I have read and understand the above statements and agree to participate.",
         "paragraphs": [
@@ -106,7 +141,7 @@ const consentText = {
         "title": "Consent to Participate in Research",
         "versionHistory": "(Consent form version: 14 October 2016)"
     },
-    "CAND.ENG": {
+    "CAND1.ENG": {
         "buttonLabel": "Please accept terms to continue",
         "consentLabel": "I have read and understand the above statements and agree to participate.",
         "paragraphs": [
@@ -117,7 +152,7 @@ const consentText = {
         "title": "Consent to Participate in Research",
         "versionHistory": "(Consent form version: 14 October 2016)"
     },
-    "NEWZ.ENG": {
+    "NEWZ1.ENG": {
         "buttonLabel": "Please accept terms to continue",
         "consentLabel": "I have read and understand the above statements and agree to participate.",
         "paragraphs": [
@@ -128,7 +163,7 @@ const consentText = {
         "title": "Consent to Participate in Research",
         "versionHistory": "(Consent form version: 14 October 2016)"
     },
-    "NIGE.ENG": {
+    "NIGE1.ENG": {
         "buttonLabel": "Please accept terms to continue",
         "consentLabel": "I have read and understand the above statements and agree to participate.",
         "paragraphs": [
@@ -139,7 +174,7 @@ const consentText = {
         "title": "Consent to Participate in Research",
         "versionHistory": "(Consent form version: 14 October 2016)"
     },
-    "PHIL.ENG": {
+    "PHIL1.ENG": {
         "buttonLabel": "Please accept terms to continue",
         "consentLabel": "I have read and understand the above statements and agree to participate.",
         "paragraphs": [
@@ -150,7 +185,7 @@ const consentText = {
         "title": "Consent to Participate in Research",
         "versionHistory": "(Consent form version: 14 October 2016)"
     },
-    "SING.ENG": {
+    "SING1.ENG": {
         "buttonLabel": "Please accept terms to continue",
         "consentLabel": "I have read and understand the above statements and agree to participate.",
         "paragraphs": [
@@ -161,7 +196,7 @@ const consentText = {
         "title": "Consent to Participate in Research",
         "versionHistory": "(Consent form version: 14 October 2016)"
     },
-    "UGAN.ENG": {
+    "UGAN1.ENG": {
         "buttonLabel": "Please accept terms to continue",
         "consentLabel": "I have read and understand the above statements and agree to participate.",
         "paragraphs": [
@@ -172,7 +207,7 @@ const consentText = {
         "title": "Consent to Participate in Research",
         "versionHistory": "(Consent form version: 14 October 2016)"
     },
-    "UK.ENG": {
+    "UK1.ENG": {
         "buttonLabel": "Please accept terms to continue",
         "consentLabel": "I have read and understand the above statements and agree to participate.",
         "paragraphs": [
@@ -216,7 +251,7 @@ const consentText = {
         "title": "Consent to Participate in Research",
         "versionHistory": "(Consent form version: 14 October 2016)"
     },
-    "USA4.US": {
+    "USA4.ENG": {
         "buttonLabel": "Please accept terms to continue",
         "consentLabel": "I have read and understand the above statements and agree to participate.",
         "paragraphs": [
@@ -227,7 +262,7 @@ const consentText = {
         "title": "Consent to Participate in Research",
         "versionHistory": "(Consent form version: 14 October 2016)"
     },
-    "ZA.ENG": {
+    "ZA1.ENG": {
         "buttonLabel": "Please accept terms to continue",
         "consentLabel": "I have read and understand the above statements and agree to participate.",
         "paragraphs": [

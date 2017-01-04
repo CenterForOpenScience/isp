@@ -4,9 +4,12 @@
     Steps:
     1. Obtain access to translation spreadsheet for the desired locale from client
     2. Download the spreadsheet as a csv file and add it to the isp/scripts directory
-    3. Run the script, passing in the csv file's name:
-       e.g. `python format_translations.py --validate --filename en-us.csv`
-    4. Copy & paste the json from the generated file to the translations.js file in isp/app/locales/<locale>/
+    3. You will need to validate the text against a known-complete "reference locale". To make this reference,
+        copy the contents of `app/translations/en.js` into a new file called `scripts/en.json` (same folder as this
+        script). Only copy the JSON part (no variable names or semicolons)
+    4. Run the script, passing in the csv file's name:
+       e.g. `python format_translations.py --validate --filename en-us.csv` (fill in your translation CSV filename as appropriate)
+    5. Copy & paste the json from the generated file to the translations.js file in isp/app/locales/<locale>/
        See isp/app/locales/en/translations.js as an example.
        Note: If the locale folder does not exist, run 'ember generate locale <locale> in the isp/app directory.
 
@@ -198,7 +201,7 @@ def main():
             merge(data, format_dict(keys, row[1].strip(" ")))
     with open(out_fn, 'w') as f:
         data.update(numbers)
-        json.dump(data, f, indent=4, sort_keys=True)
+        json.dump(data, f, indent=4, sort_keys=True, ensure_ascii=False)
 
     if args.validate:
         with open(REFERENCE_LOCALE_PATH, 'r') as f:
