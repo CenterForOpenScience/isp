@@ -6,9 +6,21 @@ import config from 'ember-get-config';
 export default Ember.Route.extend(AuthenticatedRouteMixin, {
     _experiment: null,
     _session: null,
-    store: Ember.inject.service(),
+
     currentUser: Ember.inject.service(),
     i18n: Ember.inject.service(),
+    session: Ember.inject.service(),
+
+    init() {
+        // If any request fails due to authentication reasons, kick user to login page
+        // Selectively adapted from:
+        //  https://github.com/simplabs/ember-simple-auth/blob/1.2.0-beta.1/addon/mixins/application-route-mixin.js#L113
+        this.get('session').on('invalidationSucceeded', Ember.run.bind(this, () => {
+            // TODO: For some reason, transitionTo fails, silently. Since the user has work in progress, they are
+            // prompted before leaving, but at least this prevents them from continuing on when server rejects save
+            window.location.replace('');
+        }));
+    },
 
     _getExperiment() {
         return this.store.find('experiment', config.studyId);
