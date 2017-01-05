@@ -16,8 +16,8 @@ export default Ember.Route.extend(AuthenticatedRouteMixin, {
         // Selectively adapted from:
         //  https://github.com/simplabs/ember-simple-auth/blob/1.2.0-beta.1/addon/mixins/application-route-mixin.js#L113
         this.get('session').on('invalidationSucceeded', Ember.run.bind(this, () => {
-            // TODO: For some reason, transitionTo fails, silently. Since the user has work in progress, they are
-            // prompted before leaving, but at least this prevents them from continuing on when server rejects save
+            // Since the user has work in progress, we must turn off the prompt-on-exit behavior.
+            Ember.$(window).off('beforeunload');
             window.location.replace('');
         }));
     },
