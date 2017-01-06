@@ -30,6 +30,7 @@ export default Ember.Controller.extend({
             var surveyController = Ember.getOwner(this).lookup('controller:participate');
             surveyController.set('studyId', attrs.password);
             surveyController.set('participantId', attrs.username);
+            this.set('authenticating', false);
             this.transitionToRoute('participate.survey.consent');
           })
           .catch((e) => {
