@@ -16,11 +16,9 @@ export default Ember.Component.extend({
                 continue;
             }
 
-            const rgx = new RegExp(`^${locale}`);
-
             for (const country of countries) {
                 for (const language of country.languages) {
-                    if (rgx.test(language.code)) {
+                    if (language.code.startsWith(locale)) {
                         languages.push({
                             countryCode: country.code,
                             countryName: country.name,
