@@ -1,11 +1,33 @@
 import Ember from 'ember';
 import ExpPlayer from 'exp-player/components/exp-player/component';
 
+import { walkConfigs } from '../../utils/locale-utils';
+
 export default ExpPlayer.extend({
+    currentUser: Ember.inject.service(),
+    i18n: Ember.inject.service(),
+
     // Show an early exit modal (return non-empty string), but only with browser default message- don't require translation of custom text.
     messageEarlyExitModal: ' ',
 
-    currentUser: Ember.inject.service(),
+    isRTL: Ember.computed('i18n.locale', function() {
+        // Define whether the selected locale is RTL. Make property available to all frames.
+        const locale = this.get('i18n.locale');
+        const config = walkConfigs(locale, Ember.getOwner(this)) || {};
+
+        // If no setting defined, default to rtl false (consistent with ember-i18n defaultConfig)
+        return !!config.rtl;
+    }),
+
+    // Additional configuration required for ISP-specific use case
+    extra: Ember.computed('isRTL', function() {
+        return { isRTL: this.get('isRTL') };
+    }),
+    init() {
+        // Services are lazily evaluated; make sure we can observe locale
+        this.get('i18n');
+        return this._super(...arguments);
+    },
 
     actions: {
         sessionCompleted() {
