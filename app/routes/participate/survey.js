@@ -6,10 +6,21 @@ import config from 'ember-get-config';
 export default Ember.Route.extend(AuthenticatedRouteMixin, {
     _experiment: null,
     _session: null,
-    store: Ember.inject.service(),
+
     currentUser: Ember.inject.service(),
     i18n: Ember.inject.service(),
+    session: Ember.inject.service(),
 
+    init() {
+        // If any request fails due to authentication reasons, kick user to login page
+        // Selectively adapted from:
+        //  https://github.com/simplabs/ember-simple-auth/blob/1.2.0-beta.1/addon/mixins/application-route-mixin.js#L113
+        this.get('session').on('invalidationSucceeded', Ember.run.bind(this, () => {
+            // Since the user has work in progress, we must turn off the prompt-on-exit behavior.
+            Ember.$(window).off('beforeunload');
+            window.location.replace('');
+        }));
+    },
     _getExperiment() {
         return this.store.find('experiment', config.studyId);
     },
@@ -53,7 +64,6 @@ export default Ember.Route.extend(AuthenticatedRouteMixin, {
             return this._getSession(params, experiment);
         });
     },
-
     afterModel(session) {
         if (session.get('completed') && config.featureFlags.showStudyCompletedPage) {
             return this.transitionTo('participate.complete');
