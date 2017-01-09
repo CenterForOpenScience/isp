@@ -3,9 +3,11 @@ import ENV from 'isp/config/environment';
 
 
 export default Ember.Controller.extend({
-  session: Ember.inject.service('session'),
+  currentUser: Ember.inject.service(),
+  session: Ember.inject.service(),
   i18n: Ember.inject.service(),
   raven: Ember.inject.service(),
+
   studyId: null,
   participantId: null,
   namespace: ENV.JAMDB.namespace,
@@ -28,7 +30,9 @@ export default Ember.Controller.extend({
           .authenticate('authenticator:jam-jwt', attrs)
           .then(() => {
             var surveyController = Ember.getOwner(this).lookup('controller:participate');
+            // TODO: Deprecate use of controller for shared state
             surveyController.set('studyId', attrs.password);
+            this.get('currentUser').set('studyID', attrs.password);
             surveyController.set('participantId', attrs.username);
             this.set('authenticating', false);
             this.transitionToRoute('participate.survey.consent');

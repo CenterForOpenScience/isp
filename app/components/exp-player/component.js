@@ -1,6 +1,8 @@
 import Ember from 'ember';
 import ExpPlayer from 'exp-player/components/exp-player/component';
 
+import config from 'ember-get-config';
+
 export default ExpPlayer.extend({
     currentUser: Ember.inject.service(),
     i18n: Ember.inject.service(),
@@ -19,13 +21,24 @@ export default ExpPlayer.extend({
         return this.get('isRTL') ? 'rtl' : 'ltr';
     }),
 
+    isSensitive: Ember.computed('currentUser.studyID', function() {
+        // Track whether the player contains sensitive content
+        // TODO: get arabic site names
+        const locale = this.get('currentUser.studyID');
+        return config.sensitiveStudies.includes(locale);
+    }),
+
     // Additional configuration required for ISP-specific use case
     extra: Ember.computed('isRTL', function() {
-        return { isRTL: this.get('isRTL') };
+        return {
+            isRTL: this.get('isRTL'),
+            isSensitive: this.get('isSensitive')
+        };
     }),
     init() {
         // Services are lazily evaluated; make sure we can observe locale
         this.get('i18n');
+        this.get('currentUser');
         return this._super(...arguments);
     },
 

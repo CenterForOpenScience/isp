@@ -54,6 +54,9 @@ module.exports = function(environment) {
 
   ENV.studyId = process.env.EXPERIMENT_ID;
 
+  // List of study site location IDs that may be subject to sensitive content restrictions
+  ENV.sensitiveStudies = ['DUMMY1.DUM'];
+
   ENV.featureFlags = {
     // Whether to load existing expData into the exp-frames
     loadData: true,
@@ -70,7 +73,7 @@ module.exports = function(environment) {
     continueSession: true,
 
     // Whether to include the test locale or not
-    excludeTestLocale: environment === 'production',
+    excludeTestLocale: true,
   };
 
   return ENV;
