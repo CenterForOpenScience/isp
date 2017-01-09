@@ -67,7 +67,10 @@ module.exports = function(environment) {
 
     // Whether to take the participant to the last page they were on
     // when they exited the study. If false, start from the beginning.
-    continueSession: true
+    continueSession: true,
+
+    // Whether to include the test locale or not
+    excludeTestLocale: environment === 'production',
   };
 
   return ENV;
