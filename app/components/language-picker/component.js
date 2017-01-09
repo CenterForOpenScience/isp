@@ -6,13 +6,13 @@ export default Ember.Component.extend({
     i18n: Ember.inject.service(),
     countries: countries,
     languages: Ember.computed('countries', 'i18n.locales', function () {
-        const isProduction = config.environment === 'production';
+        const {excludeTestLocale} = config.featureFlags;
         const locales = this.get('i18n.locales').toArray();
         const countries = this.get('countries');
         const languages = [];
 
         for (const locale of locales) {
-            if (isProduction && locale === 'test') {
+            if (excludeTestLocale && locale === 'test') {
                 continue;
             }
 
