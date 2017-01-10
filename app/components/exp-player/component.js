@@ -19,13 +19,19 @@ export default ExpPlayer.extend({
         return this.get('isRTL') ? 'rtl' : 'ltr';
     }),
 
+    isSensitive: Ember.computed.alias('currentUser.isSensitive'),
+
     // Additional configuration required for ISP-specific use case
     extra: Ember.computed('isRTL', function() {
-        return { isRTL: this.get('isRTL') };
+        return {
+            isRTL: this.get('isRTL'),
+            isSensitive: this.get('isSensitive')
+        };
     }),
     init() {
         // Services are lazily evaluated; make sure we can observe locale
         this.get('i18n');
+        this.get('currentUser');
         return this._super(...arguments);
     },
 
