@@ -1,0 +1,76 @@
+@import "components/progress-bar";
+@import "components/results-page";
+@import "components/language-picker";
+@import 'ember-power-select/themes/bootstrap';
+@import 'ember-power-select';
+
+#timeSelect .ember-basic-dropdown {
+    display: inline-block;
+    min-width:150px;
+}
+
+#timeSelect .ember-power-select-placeholder {
+  color: #555;
+}
+
+.dropdownClass {
+  border: 1px solid #ccc !important;
+  border-bottom: 1px solid #ccc !important;
+}
+
+#header .navbar {
+  background-color: #0c1462;
+}
+#header .logo {
+  max-height: 48px;
+  position: relative;
+  top: 1px;
+}
+#header .text {
+  font-size: 1.3em;
+  font-weight: 200;
+  position: relative;
+  top: 12px;
+}
+#header a {
+  color: white;
+}
+
+#header a:hover {
+  color: #BCBBBB;
+  background-color: transparent;
+}
+
+#content {
+  position: relative;
+  top: 50px;
+  margin-bottom: 50px;
+}
+
+.auto-width {
+  width: auto;
+}
+
+.break-line {
+  white-space: pre-line;
+}
+
+.exit-text {
+  margin-top: 50px;
+}
+
+#select-language{
+  margin-bottom: 5px;
+}
+
+#consent-form {
+  margin-top: 40px;
+}
+
+.participate-container {
+  padding: 30px;
+}
+
+.results-container {
+  padding: 30px;
+}

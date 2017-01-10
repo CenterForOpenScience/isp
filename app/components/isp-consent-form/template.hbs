@@ -1,0 +1,20 @@
+<div id="consent-form" class="well">
+  <h2>{{content.title}}</h2>
+  <hr>
+  {{#each content.paragraphs as |paragraph|}}
+    <p>{{paragraph}}</p>
+  {{/each}}
+  <hr>
+  <div class="form-group">
+    {{input type="checkbox" checked=hasGrantedConsent}}
+    <span>
+      {{content.consentLabel}}
+    </span>
+  <button class="btn btn-default pull-right btn-primary" disabled={{if hasGrantedConsent '' 'disabled'}} {{action 'grantConsent'}}>
+    {{content.buttonLabel}}
+  </button>
+  </div>
+  {{#if content.versionHistory}}
+    <p>{{content.versionHistory}}</p>
+  {{/if}}
+</div>

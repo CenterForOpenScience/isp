@@ -1,0 +1,31 @@
+<div class="row">
+  <h3 class="text-center">{{t 'feedback.title'}}</h3>
+  <p>{{t 'feedback.firstSection'}}</p>
+  <p>{{t 'feedback.secondSection'}}</p>
+  <br>
+  {{#each feedback as |trait|}}
+  <div class="row">
+      <h5>{{t trait.name}}</h5>
+      <h5>{{t 'feedback.score'}}&nbsp;{{trait.score}}
+      {{#if (gte trait.score 60)}}
+        {{t 'feedback.labels.high'}}
+      {{else if (lte trait.score 40)}}
+        {{t 'feedback.labels.low'}}
+      {{else}}
+        {{t 'feedback.labels.medium'}}
+      {{/if}}
+      </h5>
+      <div class="col-md-12 trait trait-border trait-border-bottom">{{t trait.description.high}}</div>
+      <div class="col-md-12 trait trait-border">{{t trait.description.low}}</div>
+  </div>
+  <br>
+  {{/each}}
+  <br>
+  <p><b>{{t 'feedback.thirdSection'}}</b></p>
+  <p><b>{{t 'feedback.fourthSection'}}</b></p>
+</div>
+<div class="row exp-controls">
+  {{#link-to 'exit' class="btn btn-default pull-right"}}
+    {{t 'thankyou.exitButton'}}
+  {{/link-to}}
+</div>
