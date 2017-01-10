@@ -506,6 +506,16 @@ export default [
         "name": "Slovenia"
     },
     {
+        "code": "ZA",
+        "languages": [
+            {
+                "code": "en-ZA",
+                "name": "South Africa"
+            }
+        ],
+        "name": "South Africa"
+    },
+    {
         "code": "KR",
         "languages": [
             {
