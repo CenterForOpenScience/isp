@@ -5,8 +5,8 @@ import ENV from 'isp/config/environment';
 
 export default Ember.Route.extend(AuthenticatedRouteMixin, {
     setupController(controller, session) {
-      this._super(controller, session);
-      controller.set('session', session);
+        this._super(controller, session);
+        controller.set('session', session);
     },
     model() {
         var session = this.modelFor('participate.survey');
