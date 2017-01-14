@@ -1,6 +1,7 @@
 import Ember from 'ember';
 import ENV from 'isp/config/environment';
 
+import {siteNames} from '../../components/isp-consent-form/consentText';
 
 export default Ember.Controller.extend({
   session: Ember.inject.service('session'),
@@ -31,7 +32,17 @@ export default Ember.Controller.extend({
             surveyController.set('studyId', attrs.password);
             surveyController.set('participantId', attrs.username);
             this.set('authenticating', false);
-            this.transitionToRoute('participate.survey.consent');
+
+            if (!siteNames.includes(attrs.password)) {
+              // Do not allow user to attempt login if their study ID is not known to the current version of this code.
+              //   This is a safety mechanism in case of improperly created accounts. It prevents people from seeing a
+              //   blank page in place of a consent form, but users should never see this error. We intentionally only
+              //   check this after the user has logged in and verified a real account, to avoid confusing users who
+              //   happened to mistype their credentials.
+              alert('You have entered an unrecognized study ID. Please contact your study coordinator for more information');
+            } else {
+              this.transitionToRoute('participate.survey.consent');
+            }
           })
           .catch((e) => {
             this.set('authenticating', false);
