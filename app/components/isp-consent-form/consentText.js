@@ -62,6 +62,18 @@ const consentText = {
         "title": "Pristanak na sudjelovanje u istraživanju",
         "versionHistory": "(Pristanak oblik verzija: 14. listopada 2016)"
     },
+    // Danish
+    "DANI1.DK": {
+        "buttonLabel": "Venligst acceptér vilkårene for at fortsætte",
+        "consentLabel": "Jeg har læst og forstået det ovenfor beskrevne og er indforstået med at deltage i studiet.",
+        "paragraphs": [
+            "Velkommen til vores studie. Din deltagelse er en session som alt i alt vil tage under 1 time. Du vil blive bedt om at beskrive en situation, som du for nyligt har oplevet, og den adfærd som du havde i den situation. Du vil også blive stillet nogle spørgsmål vedrørende dine værdier og holdninger. I slutningen af studiet, hvis du vælger dette, vil du modtage information om og feedback på din personlighed.",
+            "Alle dine svar er fortrolige og vil kun kunne identificeres via et nummer (og derfor ikke dit navn). Af hensyn til forskningens formål vil de anonymiserede data kunne blive opbevaret i en online database, som vedligeholdes af Center for Open Science (www.cos.io). Hvert spørgsmål skal besvares for at fuldføre spørgeskemaet, men du kan helt problemfrit afbryde din deltagelse på et hvilket som helst tidspunkt. Det forventede bidrag ved dette forskningsstudium er forbundet med at øge vores forståelse af personer og deres liv på tværs af kulturelle kontekster. Der er ikke nogen kendte risici forbundet med studiet.",
+            "Hvis du har spørgsmål til studiet eller dine rettigheder som deltager i dette kan du kontakte Pernille S. Strøbæk, adjunkt ved Institut for Psykologi, Københavns Universitet, på email Pernille.Stroebaek@psy.ku.dk; hun er ansvarlig for indsamling af data i Danmark. Du kan også kontakte University of California, Riverside, Office of Research Integrity på email IRB@ucr.edu. Vi sætter overordentlig stor pris på din deltagelse."
+        ],
+        "title": "Samtykke til at deltage i denne forskning.",
+        "versionHistory": "(Samtykkeerklæring udgave: 14 oktober 2016)"
+    },
     // German
     "GERM1.AU": {
         "buttonLabel": "Bitte akzeptieren Sie die Teilnahmebedingungen, um fortzufahren.",
