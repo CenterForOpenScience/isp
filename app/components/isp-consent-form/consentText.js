@@ -50,6 +50,18 @@ const consentText = {
         "title": "知情同意书",
         "versionHistory": "（知情同意书版本：2016年11月14日）"
     },
+    //Croatian
+    "CROA1.HR": {
+        "buttonLabel": "Molimo, prihvatite uvjete kako biste mogli nastaviti.",
+        "consentLabel": "Pročitao sam i razumijem prethodne izjave i pristajem sudjelovati.",
+        "paragraphs": [
+            "Dobro došli u naše istraživanje. Vaše će sudjelovanje biti jednokratno i trajat će manje od jednog sata. Od Vas se očekuje da opišete  situaciju u kojoj ste se nedavno našli i svoja ponašanja u toj situaciji. Bit će Vam postavljena i neka pitanja o Vašim vrijednostima i stavovima. Ako želite, po završetku istraživanja možete dobiti povratnu informaciju o svojim osobinama ličnosti.",
+            "Svi vaši odgovori bit će povjerljivi i označeni samo brojem (a ne Vašim imenom i prezimenom). Za istraživačke svrhe ti anonimni podaci mogu biti arhivirani u online bazu podataka koju vodi američki Centar za otvorene znanosti (www.cos.io). Da biste završili upitnik morate odgovoriti na svako pitanje, ali sudjelovanje  možete prekinuti u svakom trenutku bez ikakvih posljedica. Ono što želimo dobiti ovim istraživanjem uključuje bolje poznavanje osoba i njihova života u različitim kulturalnim kontekstima. Sudjelovanje u ovom istraživanju Vam neće naštetiti.",
+            "Imate li bilo kakva pitanja o ovom istraživanju ili svojim pravima kao sudionik istraživanja, možete se obratiti prof. dr. Željku Jerneiću (zjerneic@ffzg.hr), Odsjek za psihologiju Filozofskog fakulteta Sveučilišta u Zagrebu, koji je odgovoran za prikupljanje podataka u Republici Hrvatskoj ili  na adresu e-pošte IRB@ucr.edu (University of California, Riverside, Office of Research Integrity) . Zahvaljujemo Vam na suradnji."
+        ],
+        "title": "Pristanak na sudjelovanje u istraživanju",
+        "versionHistory": "(Pristanak oblik verzija: 14. listopada 2016)"
+    },
     // German
     "GERM1.AU": {
         "buttonLabel": "Bitte akzeptieren Sie die Teilnahmebedingungen, um fortzufahren.",
