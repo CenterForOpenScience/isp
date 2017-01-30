@@ -353,6 +353,19 @@ const consentText = {
         "title": "Consent to Participate in Research",
         "versionHistory": "(Consent form version: 14 October 2016)"
     },
+    // Lithuanian
+    "LITH1.LT": {
+        "buttonLabel": "Prašome patvirtinti, kad sutinkate su sąlygomis, ir tęskite",
+        "consentLabel": "Perskaičiau ir supratau tai, kas aukščiau parašyta, ir sutinku dalyvauti.",
+        "paragraphs": [
+            "Sveikiname prisijungus prie mūsų tyrimo.  Jūs dalyvausite tik vieną kartą ir tai užims mažiau nei vieną valandą. Prašysime Jūsų aprašyti situaciją, kurią Jums teko patirti šiomis dienomis ir savo elgesį tuo metu. Taip pat užduosime klausimų apie Jūsų vertybes ir pažiūras. Tyrimo pabaigoje, jeigu norėsite, galėsite gauti informaciją apie Jūsų asmenybės savybes.",
+            "Visi Jūsų atsakymai išliks konfidencialūs ir bus pažymėti tik numeriu (ne Jūsų vardu). Tyrimo tikslais šie anoniminiai duomenys bus saugomi internetinėje duomenų bazėje prižiūrimoje, Atvirojo Mokslo Centro (Center for Open Science, www.cos.io). Dalyvaujant apklausoje į kiekvieną klausimą reikia atsakyti paeiliui, tačiau Jūs galite nutraukti savo dalyvavimą bet kuriuo metu be jokių sankcijų. Tikimasi, kad šis tyrimas padės geriau suprasti asmenis ir jų gyvenimą skirtinguose kultūriniuose kontekstuose. Kiek žinoma, dalyvavimas tyrime nėra siejamas su jokiais pavojais.",
+            "Jeigu turite klausimų apie šį tyrimą ir savo kaip dalyvio teises, Jūs galite susisiekti su atsakingais už duomenų rinkimą doc. dr. Rasa Barkauskiene, rasa.barkauskiene@fsf.vu.lt ir doc. dr. Alfredu Laurinavičiumi, alfredas.laurinavicius@fsf.vu.lt, Vilniaus universistetas, Klinikinės ir organizacinės psichologijos katedra, arba kreiptis e. paštu IRB@ucr.edu į University of California, Riverside, Office of Research Integrity. Mes labai vertiname Jūsų bendradarbiavimą."
+        ],
+        "title": "Sutikimas dalyvauti tyrime",
+        "versionHistory": "(Sutikimo formos versija: 2016 spalio 14)"
+    },
+    // For testing purposes ONLY
     "test": {
         "buttonLabel": "Please accept terms to continue",
         "consentLabel": "I have read and understand the above statements and agree to participate.",
