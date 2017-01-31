@@ -1,7 +1,7 @@
 {
   "name": "isp",
-  "version": "0.0.0",
-  "description": "Small description for isp goes here",
+  "version": "0.6.0",
+  "description": "International Situations Project (ISP)",
   "private": true,
   "directories": {
     "doc": "doc",
