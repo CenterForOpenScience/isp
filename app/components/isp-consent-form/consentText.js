@@ -62,6 +62,18 @@ const consentText = {
         "title": "Pristanak na sudjelovanje u istraživanju",
         "versionHistory": "(Pristanak oblik verzija: 14. listopada 2016)"
     },
+    // Czech
+    "CZECK1.CK": {
+        "buttonLabel": "Pro pokračování označte, že souhlasíte s podmínkami",
+        "consentLabel": "Přečetl/a jsem si výše uvedené informace a rozumím jim. Souhlasím s účastí na výzkumu.",
+        "paragraphs": [
+            "Vítáme vás na stránkách našeho výzkumu, který proběhne během jednoho sezení a měl by trvat méně než jednu hodinu. Požádáme vás, abyste popsal/a nějakou situaci, kterou jste nedávno zažil/a, a jak jste se v této situaci choval/a. Také se budeme ptát na vaše hodnoty a postoje. V případě zájmu obdržíte na závěr informace o svém osobnostním profilu.\r\n",
+            "Všechny vaše odpovědi jsou důvěrné a jsou ukládány pouze pod identifikačním číslem, nikoli pod vaším jménem. Pro účely výzkumu mohou být tato anonymní data archivována v online databázi spravované Centrem otevřené vědy (Center for Open Science; www.cos.io). Účast na výzkumu vyžaduje zodpovězení všech otázek, svoji účast však můžete kdykoli bez postihu ukončit. Přínos tohoto výzkumu zahrnuje lepší porozumění lidem a tomu, jak v různých zemích žijí. Účast na výzkumu neobnáší žádná známá rizika.",
+            "V případě jakýchkoli dotazů ohledně výzkumu nebo svých práv coby účastníků výzkumu se můžete obrátit na Martinu Hřebíčkovou, Psychologický ústav AV ČR, v.v.i (martina@psu.cas.cz), která zodpovídá za sběr dat v České republice, nebo na Kalifornskou univerzitu (University of California, Riverside, Office of Research Integrity) na e-mail IRB@ucr.edu. Upřímně si vážíme vaší spolupráce."
+        ],
+        "title": "Informovaný souhlas s účastí na výzkumu",
+        "versionHistory": "(Souhlas forma verze: 14.října 2016)"
+    },
     // Danish
     "DANI1.DK": {
         "buttonLabel": "Venligst acceptér vilkårene for at fortsætte",
@@ -353,6 +365,18 @@ const consentText = {
         "title": "Consent to Participate in Research",
         "versionHistory": "(Consent form version: 14 October 2016)"
     },
+    // Lithuanian
+    "LITH1.LT": {
+        "buttonLabel": "Prašome patvirtinti, kad sutinkate su sąlygomis, ir tęskite",
+        "consentLabel": "Perskaičiau ir supratau tai, kas aukščiau parašyta, ir sutinku dalyvauti.",
+        "paragraphs": [
+            "Sveikiname prisijungus prie mūsų tyrimo.  Jūs dalyvausite tik vieną kartą ir tai užims mažiau nei vieną valandą. Prašysime Jūsų aprašyti situaciją, kurią Jums teko patirti šiomis dienomis ir savo elgesį tuo metu. Taip pat užduosime klausimų apie Jūsų vertybes ir pažiūras. Tyrimo pabaigoje, jeigu norėsite, galėsite gauti informaciją apie Jūsų asmenybės savybes.",
+            "Visi Jūsų atsakymai išliks konfidencialūs ir bus pažymėti tik numeriu (ne Jūsų vardu). Tyrimo tikslais šie anoniminiai duomenys bus saugomi internetinėje duomenų bazėje prižiūrimoje, Atvirojo Mokslo Centro (Center for Open Science, www.cos.io). Dalyvaujant apklausoje į kiekvieną klausimą reikia atsakyti paeiliui, tačiau Jūs galite nutraukti savo dalyvavimą bet kuriuo metu be jokių sankcijų. Tikimasi, kad šis tyrimas padės geriau suprasti asmenis ir jų gyvenimą skirtinguose kultūriniuose kontekstuose. Kiek žinoma, dalyvavimas tyrime nėra siejamas su jokiais pavojais.",
+            "Jeigu turite klausimų apie šį tyrimą ir savo kaip dalyvio teises, Jūs galite susisiekti su atsakingais už duomenų rinkimą doc. dr. Rasa Barkauskiene, rasa.barkauskiene@fsf.vu.lt ir doc. dr. Alfredu Laurinavičiumi, alfredas.laurinavicius@fsf.vu.lt, Vilniaus universistetas, Klinikinės ir organizacinės psichologijos katedra, arba kreiptis e. paštu IRB@ucr.edu į University of California, Riverside, Office of Research Integrity. Mes labai vertiname Jūsų bendradarbiavimą."
+        ],
+        "title": "Sutikimas dalyvauti tyrime",
+        "versionHistory": "(Sutikimo formos versija: 2016 spalio 14)"
+    },
     // Serbian
     "SERB1.SR": {
         "buttonLabel": "Molimo Vas da prihvatite uslove kako biste nastavili",
@@ -365,7 +389,7 @@ const consentText = {
         "title": "Saglasnost za učešće u istraživanju",
         "versionHistory": "(Verzija obrasca za davanje saglasnosti: 14. oktobar 2016.)"
     },
-    // Testing
+    // For testing purposes ONLY
     "test": {
         "buttonLabel": "Please accept terms to continue",
         "consentLabel": "I have read and understand the above statements and agree to participate.",
