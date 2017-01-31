@@ -171,6 +171,12 @@ def validate_translations(reference_locale, new_translation):
         if not v:
             print "Found blank value in new translation at key: ", k
 
+    # Common gotcha: did we forget to include the "{{count}}" variable placeholder in certain specific items?
+    check_fields = ['qsort.sections.1.itemsLeft.one', 'qsort.sections.1.itemsLeft.other']
+    for f in check_fields:
+        val = flat_new.get(f, '')
+        if '{{count}}' not in val:
+            print 'Missing required {{{{count}}}} placeholder in {}'.format(f), '(Found field value:', val, ')'
 
 def parse_args():
     parser = argparse.ArgumentParser()

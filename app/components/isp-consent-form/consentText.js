@@ -50,6 +50,42 @@ const consentText = {
         "title": "知情同意书",
         "versionHistory": "（知情同意书版本：2016年11月14日）"
     },
+    //Croatian
+    "CROA1.HR": {
+        "buttonLabel": "Molimo, prihvatite uvjete kako biste mogli nastaviti.",
+        "consentLabel": "Pročitao sam i razumijem prethodne izjave i pristajem sudjelovati.",
+        "paragraphs": [
+            "Dobro došli u naše istraživanje. Vaše će sudjelovanje biti jednokratno i trajat će manje od jednog sata. Od Vas se očekuje da opišete  situaciju u kojoj ste se nedavno našli i svoja ponašanja u toj situaciji. Bit će Vam postavljena i neka pitanja o Vašim vrijednostima i stavovima. Ako želite, po završetku istraživanja možete dobiti povratnu informaciju o svojim osobinama ličnosti.",
+            "Svi vaši odgovori bit će povjerljivi i označeni samo brojem (a ne Vašim imenom i prezimenom). Za istraživačke svrhe ti anonimni podaci mogu biti arhivirani u online bazu podataka koju vodi američki Centar za otvorene znanosti (www.cos.io). Da biste završili upitnik morate odgovoriti na svako pitanje, ali sudjelovanje  možete prekinuti u svakom trenutku bez ikakvih posljedica. Ono što želimo dobiti ovim istraživanjem uključuje bolje poznavanje osoba i njihova života u različitim kulturalnim kontekstima. Sudjelovanje u ovom istraživanju Vam neće naštetiti.",
+            "Imate li bilo kakva pitanja o ovom istraživanju ili svojim pravima kao sudionik istraživanja, možete se obratiti prof. dr. Željku Jerneiću (zjerneic@ffzg.hr), Odsjek za psihologiju Filozofskog fakulteta Sveučilišta u Zagrebu, koji je odgovoran za prikupljanje podataka u Republici Hrvatskoj ili  na adresu e-pošte IRB@ucr.edu (University of California, Riverside, Office of Research Integrity) . Zahvaljujemo Vam na suradnji."
+        ],
+        "title": "Pristanak na sudjelovanje u istraživanju",
+        "versionHistory": "(Pristanak oblik verzija: 14. listopada 2016)"
+    },
+    // Czech
+    "CZECK1.CK": {
+        "buttonLabel": "Pro pokračování označte, že souhlasíte s podmínkami",
+        "consentLabel": "Přečetl/a jsem si výše uvedené informace a rozumím jim. Souhlasím s účastí na výzkumu.",
+        "paragraphs": [
+            "Vítáme vás na stránkách našeho výzkumu, který proběhne během jednoho sezení a měl by trvat méně než jednu hodinu. Požádáme vás, abyste popsal/a nějakou situaci, kterou jste nedávno zažil/a, a jak jste se v této situaci choval/a. Také se budeme ptát na vaše hodnoty a postoje. V případě zájmu obdržíte na závěr informace o svém osobnostním profilu.\r\n",
+            "Všechny vaše odpovědi jsou důvěrné a jsou ukládány pouze pod identifikačním číslem, nikoli pod vaším jménem. Pro účely výzkumu mohou být tato anonymní data archivována v online databázi spravované Centrem otevřené vědy (Center for Open Science; www.cos.io). Účast na výzkumu vyžaduje zodpovězení všech otázek, svoji účast však můžete kdykoli bez postihu ukončit. Přínos tohoto výzkumu zahrnuje lepší porozumění lidem a tomu, jak v různých zemích žijí. Účast na výzkumu neobnáší žádná známá rizika.",
+            "V případě jakýchkoli dotazů ohledně výzkumu nebo svých práv coby účastníků výzkumu se můžete obrátit na Martinu Hřebíčkovou, Psychologický ústav AV ČR, v.v.i (martina@psu.cas.cz), která zodpovídá za sběr dat v České republice, nebo na Kalifornskou univerzitu (University of California, Riverside, Office of Research Integrity) na e-mail IRB@ucr.edu. Upřímně si vážíme vaší spolupráce."
+        ],
+        "title": "Informovaný souhlas s účastí na výzkumu",
+        "versionHistory": "(Souhlas forma verze: 14.října 2016)"
+    },
+    // Danish
+    "DANI1.DK": {
+        "buttonLabel": "Venligst acceptér vilkårene for at fortsætte",
+        "consentLabel": "Jeg har læst og forstået det ovenfor beskrevne og er indforstået med at deltage i studiet.",
+        "paragraphs": [
+            "Velkommen til vores studie. Din deltagelse er en session som alt i alt vil tage under 1 time. Du vil blive bedt om at beskrive en situation, som du for nyligt har oplevet, og den adfærd som du havde i den situation. Du vil også blive stillet nogle spørgsmål vedrørende dine værdier og holdninger. I slutningen af studiet, hvis du vælger dette, vil du modtage information om og feedback på din personlighed.",
+            "Alle dine svar er fortrolige og vil kun kunne identificeres via et nummer (og derfor ikke dit navn). Af hensyn til forskningens formål vil de anonymiserede data kunne blive opbevaret i en online database, som vedligeholdes af Center for Open Science (www.cos.io). Hvert spørgsmål skal besvares for at fuldføre spørgeskemaet, men du kan helt problemfrit afbryde din deltagelse på et hvilket som helst tidspunkt. Det forventede bidrag ved dette forskningsstudium er forbundet med at øge vores forståelse af personer og deres liv på tværs af kulturelle kontekster. Der er ikke nogen kendte risici forbundet med studiet.",
+            "Hvis du har spørgsmål til studiet eller dine rettigheder som deltager i dette kan du kontakte Pernille S. Strøbæk, adjunkt ved Institut for Psykologi, Københavns Universitet, på email Pernille.Stroebaek@psy.ku.dk; hun er ansvarlig for indsamling af data i Danmark. Du kan også kontakte University of California, Riverside, Office of Research Integrity på email IRB@ucr.edu. Vi sætter overordentlig stor pris på din deltagelse."
+        ],
+        "title": "Samtykke til at deltage i denne forskning.",
+        "versionHistory": "(Samtykkeerklæring udgave: 14 oktober 2016)"
+    },
     // German
     "GERM1.AU": {
         "buttonLabel": "Bitte akzeptieren Sie die Teilnahmebedingungen, um fortzufahren.",
@@ -175,6 +211,17 @@ const consentText = {
         "title": "Consent to Participate in Research",
         "versionHistory": "(Consent form version: 14 October 2016)"
     },
+    "INDIA1.ENG": {
+        "buttonLabel": "Please accept terms to continue",
+        "consentLabel": "I have read and understand the above statements and agree to participate.",
+        "paragraphs": [
+            "Welcome to our study. Your participation will be in one session and will take less than one hour. You will be asked to describe a situation you experienced recently and your behaviors in it. You will also be asked some questions about your values and attitudes.  At the end of the study, if you choose, you will receive personalized information about your personality.",
+            "All of your responses will be confidential and identified only by a number (and not by your name).  For research purposes, these anonymous data may be archived in an online database maintained by the Center for Open Science (www.cos.io). Each question must be answered in order to complete this survey, but you can discontinue your participation at any time without penalty. The potential benefits of this research include improving the understanding of persons and their lives across cultural contexts.  There are no known risks.",
+            "If you have any questions about this study or your rights as a participant, you may contact Anagha Lavalekar, anagha.lavalekar@jnanaprabodhini.org, Jnana Prabodihini’s Institute of Psychology, Pune, who is responsible for data collection at your location, or the University of California, Riverside, Office of Research Integrity by email at IRB@ucr.edu. We sincerely appreciate your cooperation."
+        ],
+        "title": "Consent to Participate in Research",
+        "versionHistory": "(Consent form version: 14 October 2016)"
+    },
     "NEWZ1.ENG": {
         "buttonLabel": "Please accept terms to continue",
         "consentLabel": "I have read and understand the above statements and agree to participate.",
@@ -197,6 +244,17 @@ const consentText = {
         "title": "Consent to Participate in Research",
         "versionHistory": "(Consent form version: 14 October 2016)"
     },
+    "PAKI1.ENG": {
+        "buttonLabel": "Please accept terms to continue",
+        "consentLabel": "I have read and understand the above statements and agree to participate.",
+        "paragraphs": [
+            "Welcome to our study. Your participation will be in one session and will take less than one hour. You will be asked to describe a situation you experienced recently and your behaviors in it. You will also be asked some questions about your values and attitudes.  At the end of the study, if you choose, you will receive personalized information about your personality.",
+            "All of your responses will be confidential and identified only by a number (and not by your name).  For research purposes, these anonymous data may be archived in an online database maintained by the Center for Open Science (www.cos.io). Each question must be answered in order to complete this survey, but you can discontinue your participation at any time without penalty. The potential benefits of this research include improving the understanding of persons and their lives across cultural contexts.  There are no known risks.",
+            "If you have any questions about this study or your rights as a participant, you may contact Muhammad Rizwan, muhammad29psy@yahoo.com, University of Karachi, who is responsible for data collection at your location, or the University of California, Riverside, Office of Research Integrity by email at IRB@ucr.edu. We sincerely appreciate your cooperation."
+        ],
+        "title": "Consent to Participate in Research",
+        "versionHistory": "(Consent form version: 14 October 2016)"
+    },
     "PHIL1.ENG": {
         "buttonLabel": "Please accept terms to continue",
         "consentLabel": "I have read and understand the above statements and agree to participate.",
@@ -215,6 +273,17 @@ const consentText = {
             "Welcome to our study. Your participation will be in one session and will take less than one hour. You will be asked to describe a situation you experienced recently and your behaviors in it. You will also be asked some questions about your values and attitudes.  At the end of the study, if you choose, you will receive personalized information about your personality.",
             "All of your responses will be confidential and identified only by a number (and not by your name).  For research purposes, these anonymous data may be archived in an online database maintained by the Center for Open Science (www.cos.io). Each question must be answered in order to complete this survey, but you can discontinue your participation at any time without penalty.  The potential benefits of this research include improving the understanding of persons and their lives across cultural contexts.  There are no known risks.",
             "If you have any questions about this study or your rights as a participant, you may contact Ryan Hong, ryan.hong@nus.edu.sg, the National University of Singapore, who is responsible for data collection at your location, or the University of California, Riverside, Office of Research Integrity by email at IRB@ucr.edu. We sincerely appreciate your cooperation."
+        ],
+        "title": "Consent to Participate in Research",
+        "versionHistory": "(Consent form version: 14 October 2016)"
+    },
+    "UAE1.ENG": {
+        "buttonLabel": "Please accept terms to continue",
+        "consentLabel": "I have read and understand the above statements and agree to participate.",
+        "paragraphs": [
+            "Welcome to our study. Your participation will be in one session and will take less than one hour. You will be asked to describe a situation you experienced recently and your behaviors in it. You will also be asked some questions about your values and attitudes.  At the end of the study, if you choose, you will receive personalized information about your personality.",
+            "All of your responses will be confidential and identified only by a number (and not by your name).  For research purposes, these anonymous data may be archived in an online database maintained by the Center for Open Science (www.cos.io). Each question must be answered in order to complete this survey, but you can discontinue your participation at any time without penalty. The potential benefits of this research include improving the understanding of persons and their lives across cultural contexts.  There are no known risks.",
+            "If you have any questions about this study or your rights as a participant, you may contact Mark Aveyard, maveyard@aus.edu, American University of Sharjah, who is responsible for data collection at your location, or the University of California, Riverside, Office of Research Integrity by email at IRB@ucr.edu. We sincerely appreciate your cooperation."
         ],
         "title": "Consent to Participate in Research",
         "versionHistory": "(Consent form version: 14 October 2016)"
@@ -258,7 +327,7 @@ const consentText = {
         "paragraphs": [
             "Welcome to our study. Your participation will be in one session and will take less than one hour. You will be asked to describe a situation you experienced recently and your behaviors in it. You will also be asked some questions about your values and attitudes.  At the end of the study, if you choose, you will receive personalized information about your personality.",
             "All of your responses will be confidential and identified only by a number (and not by your name). For research purposes, these anonymous data may be archived in an online database maintained by the Center for Open Science (www.cos.io). Each question must be answered in order to complete this survey, but you can discontinue your participation at any time without penalty. The potential benefits of this research include improving the understanding of persons and their lives across cultural contexts. There are no known risks.",
-            "If you have any questions about this study or your rights as a participant, you may contact Nair\u00e1n Ram\u00edrez-Esparza, nairan.ramirez@uconn.edu, the University of Connecticut, who is responsible for data collection at your location, or the University of California, Riverside, Office of Research Integrity by email at IRB@ucr.edu. We sincerely appreciate your cooperation."
+            "If you have any questions about this study or your rights as a participant, you may contact Nairán Ramírez-Esparza, nairan.ramirez@uconn.edu, the University of Connecticut, who is responsible for data collection at your location, or the University of California, Riverside, Office of Research Integrity by email at IRB@ucr.edu. We sincerely appreciate your cooperation."
         ],
         "title": "Consent to Participate in Research",
         "versionHistory": "(Consent form version: 14 October 2016)"
@@ -274,6 +343,17 @@ const consentText = {
         "title": "Consent to Participate in Research",
         "versionHistory": "(Consent form version: 14 October 2016)"
     },
+    "USA5.ENG": {
+        "buttonLabel": "Please accept terms to continue",
+        "consentLabel": "I have read and understand the above statements and agree to participate.",
+        "paragraphs": [
+            "Welcome to our study. Your participation will be in one session and will take less than one hour. You will be asked to describe a situation you experienced recently and your behaviors in it. You will also be asked some questions about your values and attitudes.  At the end of the study, if you choose, you will receive personalized information about your personality.",
+            "All of your responses will be confidential and identified only by a number (and not by your name).  For research purposes, these anonymous data may be archived in an online database maintained by the Center for Open Science (www.cos.io). Each question must be answered in order to complete this survey, but you can discontinue your participation at any time without penalty. The potential benefits of this research include improving the understanding of persons and their lives across cultural contexts.  There are no known risks.",
+            "If you have any questions about this study or your rights as a participant, you may contact Joey Cheng, chengjoe@illinois.edu, University of Illinois at Champaign-Urbana, who is responsible for data collection at your location, or the University of California, Riverside, Office of Research Integrity by email at IRB@ucr.edu. We sincerely appreciate your cooperation."
+        ],
+        "title": "Consent to Participate in Research",
+        "versionHistory": "(Consent form version: 14 October 2016)"
+    },
     "ZA1.ENG": {
         "buttonLabel": "Please accept terms to continue",
         "consentLabel": "I have read and understand the above statements and agree to participate.",
@@ -285,6 +365,31 @@ const consentText = {
         "title": "Consent to Participate in Research",
         "versionHistory": "(Consent form version: 14 October 2016)"
     },
+    // Lithuanian
+    "LITH1.LT": {
+        "buttonLabel": "Prašome patvirtinti, kad sutinkate su sąlygomis, ir tęskite",
+        "consentLabel": "Perskaičiau ir supratau tai, kas aukščiau parašyta, ir sutinku dalyvauti.",
+        "paragraphs": [
+            "Sveikiname prisijungus prie mūsų tyrimo.  Jūs dalyvausite tik vieną kartą ir tai užims mažiau nei vieną valandą. Prašysime Jūsų aprašyti situaciją, kurią Jums teko patirti šiomis dienomis ir savo elgesį tuo metu. Taip pat užduosime klausimų apie Jūsų vertybes ir pažiūras. Tyrimo pabaigoje, jeigu norėsite, galėsite gauti informaciją apie Jūsų asmenybės savybes.",
+            "Visi Jūsų atsakymai išliks konfidencialūs ir bus pažymėti tik numeriu (ne Jūsų vardu). Tyrimo tikslais šie anoniminiai duomenys bus saugomi internetinėje duomenų bazėje prižiūrimoje, Atvirojo Mokslo Centro (Center for Open Science, www.cos.io). Dalyvaujant apklausoje į kiekvieną klausimą reikia atsakyti paeiliui, tačiau Jūs galite nutraukti savo dalyvavimą bet kuriuo metu be jokių sankcijų. Tikimasi, kad šis tyrimas padės geriau suprasti asmenis ir jų gyvenimą skirtinguose kultūriniuose kontekstuose. Kiek žinoma, dalyvavimas tyrime nėra siejamas su jokiais pavojais.",
+            "Jeigu turite klausimų apie šį tyrimą ir savo kaip dalyvio teises, Jūs galite susisiekti su atsakingais už duomenų rinkimą doc. dr. Rasa Barkauskiene, rasa.barkauskiene@fsf.vu.lt ir doc. dr. Alfredu Laurinavičiumi, alfredas.laurinavicius@fsf.vu.lt, Vilniaus universistetas, Klinikinės ir organizacinės psichologijos katedra, arba kreiptis e. paštu IRB@ucr.edu į University of California, Riverside, Office of Research Integrity. Mes labai vertiname Jūsų bendradarbiavimą."
+        ],
+        "title": "Sutikimas dalyvauti tyrime",
+        "versionHistory": "(Sutikimo formos versija: 2016 spalio 14)"
+    },
+    // Serbian
+    "SERB1.SR": {
+        "buttonLabel": "Molimo Vas da prihvatite uslove kako biste nastavili",
+        "consentLabel": "Pročitao sam i razumeo gore navedene tvdnje i pristajem na učešće u istraživanju.",
+        "paragraphs": [
+            "Dobrodošli u naše istraživanje. Vaše učešće u istraživanju će obuhvatiti jedno ispitivanje i trajaće manje od jednog sata. Zamolićemo Vas da opišete situaciju koju ste nedavno doživeli i svoje ponašanje u toj situaciji. Postavićemo Vam neka pitanja u vezi sa vašim vrednostima i stavovima. Na kraju istraživanja, ukoliko tako izaberete, dobićete personalizovane informacije o svojoj ličnosti.",
+            "Svi Vaši odgovori biće poverljivi i identifikovani isključivo preko broja (a ne preko Vašeg imena). Za potrebe istraživanja, ovi anonimni podaci mogu biti sačuvani u online bazi podataka koju održava Centar za Otvorenu Nauku (www.cos.io). Morate odgovoriti na sva pitanja da biste zavšili ispitivanje, ali takođe možete odustati od učešća u bilo kom trenutku bez ikakvih posledica. Potencijalne dobiti od ovog istraživanja su da se unapredi razumevanje osoba i njihovih života u različitim kulturalnim kontekstima. Nema poznatih rizika od učešća u istraživanju.",
+            "Ukoliko imate bilo kakvih pitanja u vezi sa ovim istraživanjem ili Vašim pravima kao učesnika istraživanja, možete kontaktirati doc. dr Petra Čolovića (e-mail: petar.colovic@uns.ac.rs, Odsek za psihologiju, Filozofski fakultet u Novom Sadu), koji je zadužen za prikupljanje podataka na Vašoj lokaciji, ili Univerzitet u Kaliforniji, Riverside, Odeljenje za integritet istraživanja na e-mail IRB@ucr.edu. Iskreno smo zahvalni na saradnji."
+        ],
+        "title": "Saglasnost za učešće u istraživanju",
+        "versionHistory": "(Verzija obrasca za davanje saglasnosti: 14. oktobar 2016.)"
+    },
+    // For testing purposes ONLY
     "test": {
         "buttonLabel": "Please accept terms to continue",
         "consentLabel": "I have read and understand the above statements and agree to participate.",

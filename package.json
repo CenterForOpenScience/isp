@@ -1,7 +1,7 @@
 {
   "name": "isp",
-  "version": "0.0.0",
-  "description": "Small description for isp goes here",
+  "version": "0.6.0",
+  "description": "International Situations Project (ISP)",
   "private": true,
   "directories": {
     "doc": "doc",
@@ -14,10 +14,10 @@
   },
   "repository": "",
   "engines": {
-    "node": ">= 0.10.0"
+    "node": ">=6"
   },
   "author": "",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.2",
     "ember-ajax": "^2.0.1",

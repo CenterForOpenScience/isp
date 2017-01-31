@@ -510,7 +510,7 @@ export default [
         "languages": [
             {
                 "code": "en-ZA",
-                "name": "South Africa"
+                "name": "English"
             }
         ],
         "name": "South Africa"

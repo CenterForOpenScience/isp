@@ -5,18 +5,12 @@ export default ExpPlayer.extend({
     currentUser: Ember.inject.service(),
     i18n: Ember.inject.service(),
 
-   attributeBindings: ['rtlDir:dir'],
-
     // Show an early exit modal (return non-empty string), but only with browser default message- don't require translation of custom text.
     messageEarlyExitModal: ' ',
 
     isRTL: Ember.computed('i18n.locale', function() {
         // Define whether the selected locale is RTL. Make property available to all frames.
         return !!this.get('i18n._locale.rtl');
-    }),
-
-    rtlDir: Ember.computed('isRTL', function() {
-        return this.get('isRTL') ? 'rtl' : 'ltr';
     }),
 
     // Additional configuration required for ISP-specific use case
