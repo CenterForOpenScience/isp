@@ -377,6 +377,18 @@ const consentText = {
         "title": "Sutikimas dalyvauti tyrime",
         "versionHistory": "(Sutikimo formos versija: 2016 spalio 14)"
     },
+    // Serbian
+    "SERB1.SR": {
+        "buttonLabel": "Molimo Vas da prihvatite uslove kako biste nastavili",
+        "consentLabel": "Pročitao sam i razumeo gore navedene tvdnje i pristajem na učešće u istraživanju.",
+        "paragraphs": [
+            "Dobrodošli u naše istraživanje. Vaše učešće u istraživanju će obuhvatiti jedno ispitivanje i trajaće manje od jednog sata. Zamolićemo Vas da opišete situaciju koju ste nedavno doživeli i svoje ponašanje u toj situaciji. Postavićemo Vam neka pitanja u vezi sa vašim vrednostima i stavovima. Na kraju istraživanja, ukoliko tako izaberete, dobićete personalizovane informacije o svojoj ličnosti.",
+            "Svi Vaši odgovori biće poverljivi i identifikovani isključivo preko broja (a ne preko Vašeg imena). Za potrebe istraživanja, ovi anonimni podaci mogu biti sačuvani u online bazi podataka koju održava Centar za Otvorenu Nauku (www.cos.io). Morate odgovoriti na sva pitanja da biste zavšili ispitivanje, ali takođe možete odustati od učešća u bilo kom trenutku bez ikakvih posledica. Potencijalne dobiti od ovog istraživanja su da se unapredi razumevanje osoba i njihovih života u različitim kulturalnim kontekstima. Nema poznatih rizika od učešća u istraživanju.",
+            "Ukoliko imate bilo kakvih pitanja u vezi sa ovim istraživanjem ili Vašim pravima kao učesnika istraživanja, možete kontaktirati doc. dr Petra Čolovića (e-mail: petar.colovic@uns.ac.rs, Odsek za psihologiju, Filozofski fakultet u Novom Sadu), koji je zadužen za prikupljanje podataka na Vašoj lokaciji, ili Univerzitet u Kaliforniji, Riverside, Odeljenje za integritet istraživanja na e-mail IRB@ucr.edu. Iskreno smo zahvalni na saradnji."
+        ],
+        "title": "Saglasnost za učešće u istraživanju",
+        "versionHistory": "(Verzija obrasca za davanje saglasnosti: 14. oktobar 2016.)"
+    },
     // For testing purposes ONLY
     "test": {
         "buttonLabel": "Please accept terms to continue",
