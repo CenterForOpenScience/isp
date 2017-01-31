@@ -62,6 +62,18 @@ const consentText = {
         "title": "Pristanak na sudjelovanje u istraživanju",
         "versionHistory": "(Pristanak oblik verzija: 14. listopada 2016)"
     },
+    // Czech
+    "CZECK1.CK": {
+        "buttonLabel": "Pro pokračování označte, že souhlasíte s podmínkami",
+        "consentLabel": "Přečetl/a jsem si výše uvedené informace a rozumím jim. Souhlasím s účastí na výzkumu.",
+        "paragraphs": [
+            "Vítáme vás na stránkách našeho výzkumu, který proběhne během jednoho sezení a měl by trvat méně než jednu hodinu. Požádáme vás, abyste popsal/a nějakou situaci, kterou jste nedávno zažil/a, a jak jste se v této situaci choval/a. Také se budeme ptát na vaše hodnoty a postoje. V případě zájmu obdržíte na závěr informace o svém osobnostním profilu.\r\n",
+            "Všechny vaše odpovědi jsou důvěrné a jsou ukládány pouze pod identifikačním číslem, nikoli pod vaším jménem. Pro účely výzkumu mohou být tato anonymní data archivována v online databázi spravované Centrem otevřené vědy (Center for Open Science; www.cos.io). Účast na výzkumu vyžaduje zodpovězení všech otázek, svoji účast však můžete kdykoli bez postihu ukončit. Přínos tohoto výzkumu zahrnuje lepší porozumění lidem a tomu, jak v různých zemích žijí. Účast na výzkumu neobnáší žádná známá rizika.",
+            "V případě jakýchkoli dotazů ohledně výzkumu nebo svých práv coby účastníků výzkumu se můžete obrátit na Martinu Hřebíčkovou, Psychologický ústav AV ČR, v.v.i (martina@psu.cas.cz), která zodpovídá za sběr dat v České republice, nebo na Kalifornskou univerzitu (University of California, Riverside, Office of Research Integrity) na e-mail IRB@ucr.edu. Upřímně si vážíme vaší spolupráce."
+        ],
+        "title": "Informovaný souhlas s účastí na výzkumu",
+        "versionHistory": "(Souhlas forma verze: 14.října 2016)"
+    },
     // Danish
     "DANI1.DK": {
         "buttonLabel": "Venligst acceptér vilkårene for at fortsætte",
