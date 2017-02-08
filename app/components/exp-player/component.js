@@ -24,6 +24,13 @@ export default ExpPlayer.extend({
     },
 
     actions: {
+        saveFrame(frameId, frameData) {
+            // TODO: Override default behavior to work as a closure action. Eventually we can move this into the
+            //   shared platform, but are putting it in ISP for now as a temporary fix to ease QA burden
+            this.get('session.sequence').push(frameId);
+            this.get('session.expData')[frameId] = frameData;
+            return this.get('session').save();
+        },
         sessionCompleted() {
             // Mark the current user account as having completed a session, then, also update the session model
             // If this fails to save the account due to normal network issues, it will still update the session but
