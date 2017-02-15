@@ -63,7 +63,7 @@ const consentText = {
         "versionHistory": "(Pristanak oblik verzija: 14. listopada 2016)"
     },
     // Czech
-    "CZECK1.CK": {
+    "CZECH1.CH": {
         "buttonLabel": "Pro pokračování označte, že souhlasíte s podmínkami",
         "consentLabel": "Přečetl/a jsem si výše uvedené informace a rozumím jim. Souhlasím s účastí na výzkumu.",
         "paragraphs": [
