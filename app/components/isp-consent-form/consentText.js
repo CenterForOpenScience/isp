@@ -494,6 +494,18 @@ const consentText = {
         "title": "Soglasje za sodelovanje v raziskavi",
         "versionHistory": "(Verzija oblike soglasja: 14. oktober 2016)"
     },
+    // Finnish
+    "FINN1.FI": {
+        "buttonLabel": "Hyväksy ehdot päästäksesi eteenpäin",
+        "consentLabel": "Olen lukenut ja ymmärtää edellä kuvatut asiat ja haluan osallistua tutkimukseen.",
+        "paragraphs": [
+            "Tervetuloa tutkimukseemme. Osallistumisesi tapahtuu yhdellä kertaa ja kestää alle tunnin. Pyydämme sinua kuvailemaan jonkin hiljattain kokemasi tilanteen ja käyttäytymistäsi tässä tilanteessa. Tiedustelemme sinulta myös arvoistasi ja asenteistasi. Jos haluat, voit saada tutkimuksen päätyttyä tietoa omasta persoonallisuudestasi.",
+            "Kaikki vastauksesi käsitellään luottamuksellisina tietoina. Tunnistetietoina käytetään numeroita eikä esimerkiksi henkilöiden nimiä. Tällä tavalla nimettömäksi muunnettu aineisto voidaan tallentaa tutkimustarkoitusta varten Avoimen tiedon keskukseen (Center for Open Science, www.cos.io). Kyselyn täyttäminen edellyttää vastaamista jokaiseen esitettyyn kysymykseen. Voit halutessasi keskeyttää kyselyn ilman, että siitä aiheutuu sinulle mitään haittaa. Tutkimus edistää parempaa ymmärrystä ihmisistä ja heidän elämästään eri elinympäristöissä. Tutkimuksella ei tiedetä olevan mitään mahdollisia haittavaikutuksia.",
+            "Jos sinulla on kysyttävää tutkimuksesta tai roolistasi tutkimuksen osallistujana, ota yhteyttä: Apulaisprofessori Markus Jokela, Helsingin yliopisto, markus.jokela@helsinki.fi. Markus Jokela on vastuussa aineistonkeruusta Suomessa. Voit myös ottaa yhteyttä Kalifornian yliopiston tutkimuseettiseen lautakuntaan (University of California, Riverside, Office of Research Integrity, IRB@ucr.edu). Arvostamme suuresti osallistumistasi tutkimukseen."
+        ],
+        "title": "Suostumus osallistua tutkimukseen",
+        "versionHistory": "(Hyväksyntä lomake versio: 14 lokakuu 2016)"
+    },
     // For testing purposes ONLY
     "test": {
         "buttonLabel": "Please accept terms to continue",
