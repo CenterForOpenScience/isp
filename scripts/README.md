@@ -1,10 +1,10 @@
 # Adding/updating translations
 To update the translations for a given locale, use
-[`scripts/add_translation.py`] ((https://github.com/CenterForOpenScience/isp/blob/develop/scripts/add_translation.py))
+[`scripts/add_translation.py`] (https://github.com/CenterForOpenScience/isp/blob/develop/scripts/add_translation.py)
 
-1. Execute the `scripts/add_translation.py` script, this is the main script to be used. `add_translation.py` uses both [`scripts/format_translations.py`](https://github.com/CenterForOpenScience/isp/blob/develop/scripts/format_translations.py) and [`scripts/consent_form_json.py`](https://github.com/CenterForOpenScience/isp/blob/develop/scripts/consent_form_json.py).
+1. Run the command `python add_translation.py`, this is the main script to be used. `add_translation.py` uses both [`scripts/format_translations.py`](https://github.com/CenterForOpenScience/isp/blob/develop/scripts/format_translations.py) and [`scripts/consent_form_json.py`](https://github.com/CenterForOpenScience/isp/blob/develop/scripts/consent_form_json.py).
 
-2. `add_translation.py` will first download the CSV file needed for the translation from the google drive folder. 
+2. `add_translation.py` will first download the CSV file needed for the translation from the google drive folder. Currently, each language has its own google drive folder. The ISP project main folder can be located [`here`](https://drive.google.com/drive/u/0/folders/0BxGwKGgJtw4WYVpJVllsMk84Wms). All language translation folders are stored under `/Samples/Translations/`.
 
     - The language translation should be in a 2-column format, where column 1 is the JSON key name, and column 2 is the translated text. This file will be located under scripts directory.
         ```
@@ -12,7 +12,7 @@ To update the translations for a given locale, use
         flag.chooseLanguage,Bitte wählen Sie eine Sprache
         ```
   
-3. Once file is downloaded `add_translation.py` will execute [`scripts/format_translations.py`] to generate `<language>.json`.
+3. Once file is downloaded, `add_translation.py` will execute [`scripts/format_translations.py`] to generate `<language>.json`.
 
 4. Review the error messages (if exist) from running the `add_translation`.
 
@@ -26,19 +26,14 @@ code (like `en` or `en-US`) that corresponds to items from the [language picker]
     ```
     export default {
       rtl: false,
-
       pluralForm: function(count) {
-        if (count === 0) { return 'zero'; }
         if (count === 1) { return 'one'; }
-        if (count === 2) { return 'two'; }
-        if (count < 5) { return 'few'; }
-        if (count >= 5) { return 'many'; }
         return 'other';
       }
     };
     ```
 7. Manually add the content of `<language>.json` to `locales/<language-country-code>/translation.js`. Remember that `translation.js` should start with `export default` followed by the new content then a `;`.
 
-8. Manually add the content of `consent.json` to the existing [app/components/isp-consent-form/consentText.js](app/components/isp-consent-form/consentText.js). Remember to add a comment (e.g. `//finnish`) before the content, to differentiate it from other languages.
+8. Manually add the content of `consent.json` to the existing [`app/components/isp-consent-form/consentText.js`](app/components/isp-consent-form/consentText.js). Remember to add a comment (e.g. `//finnish`) before the content, to differentiate it from other languages.
 
 9. Verify that the locale displays appropriately, including any RTL settings required.
