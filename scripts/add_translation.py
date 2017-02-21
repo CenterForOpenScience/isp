@@ -26,6 +26,7 @@
 import httplib2
 import os
 import consent_form_json
+import format_translations
 import sys
 
 from apiclient import discovery
@@ -97,7 +98,6 @@ def download_files(files, service):
         file_id= f['id']
         file_type= f['mimeType']
         file_name= f['name']
-
         if file_type.endswith('.spreadsheet'):
             request = service.files().export_media(fileId=file_id, mimeType='text/csv').execute()
             fn = '%s.csv' % (f['name'].replace(' ', '_'))
@@ -105,10 +105,10 @@ def download_files(files, service):
                 with open(fn, 'wb') as csvfile:
                     csvfile.write(request)
 
-            os.system("python format_translations.py --validate --filename {f}.csv".format(f=file_name))
+            format_translations.run(file_name);
 
         if file_type.endswith('.folder'):
-            consent_form_json.run(file_id,service);
+            consent_form_json.run(file_id, service);
 
 
 if __name__ == '__main__':
