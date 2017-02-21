@@ -165,19 +165,10 @@ def validate_translations(reference_locale, new_translation):
         if '{{count}}' not in val:
             print 'Missing required {{{{count}}}} placeholder in {}'.format(f), '(Found field value:', val, ')'
 
-def parse_args():
-    parser = argparse.ArgumentParser()
-    parser.add_argument('-f', '--filename', dest='filename', required=True)
-    parser.add_argument('-o', '--out', dest='out',
-                        help='The output filename; defaults to <filename>.json')
-    parser.add_argument('-v', '--validate', dest='validate', action='store_true')
-    return parser.parse_args()
 
-
-def main():
-    args = parse_args()
-    # If no output filename specified, use same path, but with a JSON extension
-    out_fn = args.out or os.path.splitext(args.filename)[0] + os.path.extsep + 'json'
+def run(file_name):
+    out_fn = os.path.splitext(file_name)[0] + os.path.extsep + 'json'
+    in_fn = os.path.splitext(file_name)[0] + os.path.extsep + 'csv'
     if os.path.isfile(out_fn):
         while True:
             response = raw_input('Specified output filename already exists; overwrite? (y/n)\n').lower()
@@ -187,7 +178,7 @@ def main():
                 print 'Output filename already in use; exiting.'
                 sys.exit()
 
-    with open(args.filename, 'rb') as csvfile:
+    with open(in_fn, 'rb') as csvfile:
         reader = csv.reader(csvfile)
         for row in reader:
             keys = row[0].split('.')
@@ -196,9 +187,15 @@ def main():
         data.update(numbers)
         json.dump(data, f, indent=4, sort_keys=True, ensure_ascii=False)
 
-    if args.validate:
-        with open(REFERENCE_LOCALE_PATH, 'r') as f:
-            reference_translation = json.load(f)
+    with open(REFERENCE_LOCALE_PATH, 'r') as f:
+        reference_translation = json.load(f)
+        while True:
+            response = raw_input('Exclude attribute from validation? (y/n)\n')
+            if response == 'y':
+                response = raw_input('Enter attribute title\n')
+                del reference_translation[response];
+            elif response == 'n':
+                break;
         validate_translations(reference_translation, data)
 
 
@@ -218,6 +215,3 @@ def merge(d, u):
             d[key] = u[key]
     return d
 
-
-if __name__ == '__main__':
-    main()
