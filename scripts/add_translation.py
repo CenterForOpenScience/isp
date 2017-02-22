@@ -100,12 +100,12 @@ def download_files(files, service):
         file_name= f['name']
         if file_type.endswith('.spreadsheet'):
             request = service.files().export_media(fileId=file_id, mimeType='text/csv').execute()
-            fn = '%s.csv' % (f['name'].replace(' ', '_'))
+            fn = '%s.csv' % (file_name.replace(' ', '_'))
             if request:
                 with open(fn, 'wb') as csvfile:
                     csvfile.write(request)
 
-            format_translations.run(file_name);
+            format_translations.run(fn);
 
         if file_type.endswith('.folder'):
             consent_form_json.run(file_id, service);
