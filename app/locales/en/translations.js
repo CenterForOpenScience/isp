@@ -146,7 +146,7 @@ const translations = {
         "title": "Your Personality"
     },
     "flag": {
-        "chooseLanguage": "Please select your country and language"
+        "chooseLanguage": "Please choose a language"
     },
     "global": {
         "agreement": {

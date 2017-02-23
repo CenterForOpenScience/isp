@@ -348,6 +348,9 @@ export default {
                     },
                     "5": {
                         "label": "Di dunia"
+                    },
+                    "6": {
+                        "label": "Sedang bekerja"
                     }
                 },
                 "label": "Sejauh mana Anda pikir hidup Anda berkembang dalam lingkungan-lingkungan  berikut?",
@@ -665,7 +668,7 @@ export default {
                 "options": {
                     "agree": "Setuju",
                     "agreeStrongly": "Sangat setuju",
-                    "disagree": "Aku seseorang yang ... \"",
+                    "disagree": "Tidak setuju",
                     "disagreeStrongly": "Sangat tidak setuju",
                     "neutral": "Netral; tidak berpendapat"
                 }
