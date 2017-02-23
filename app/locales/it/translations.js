@@ -359,6 +359,9 @@ export default {
                     },
                     "5": {
                         "label": "Nel mondo"
+                    },
+                    "6": {
+                        "label": "\r\nAl lavoro"
                     }
                 },
                 "label": "In che misura pensi che la tua vita si svolga nei seguenti contesti?",
