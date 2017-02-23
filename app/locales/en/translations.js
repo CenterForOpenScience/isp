@@ -107,8 +107,8 @@ const translations = {
         },
         "checkboxLabel": "I have read and understand the above statements and agree to participate.",
         "firstSection": "Welcome to our study.  Your participation will be in one session and will take less than one hour. You will be asked to describe a situation you experienced recently and your behaviors in it. You will also be asked some questions about your values and attitudes.  At the end of the study, if you choose, you will receive personalized information about your personality.",
-        "secondSection": "AllAll of your responses will be confidential and identified only by a number (and not by your name).  For research purposes, these anonymous data may be archived in an online database maintained by the Center for Open Science (www.cos.io). Each question must be answered in order to complete this survey, but you can discontinue your participation at any time without penalty.  The potential benefits of this research include improving the understanding of persons and their lives across cultural contexts.  There are no known risks.",
-        "thirdSection": "If you have any questions about this study or your rights as a participant, you may contact [local collaborator\u2019s name, email and affiliation], who is responsible for data collection at your location, or the University of California, Riverside, Office of Research Integrity by email at IRB@ucr.edu. We sincerely appreciate your cooperation.",
+        "secondSection": "All of your responses will be confidential and identified only by a number (and not by your name).  For research purposes, these anonymous data may be archived in an online database maintained by the Center for Open Science (www.cos.io). Each question must be answered in order to complete this survey, but you can discontinue your participation at any time without penalty.  The potential benefits of this research include improving the understanding of persons and their lives across cultural contexts.  There are no known risks.",
+        "thirdSection": "If you have any questions about this study or your rights as a participant, you may contact [local collaborator’s name, email and affiliation], who is responsible for data collection at your location, or the University of California, Riverside, Office of Research Integrity by email at IRB@ucr.edu. We sincerely appreciate your cooperation.",
         "title": "Consent to Participate in Research",
         "versionHistory": "(Consent form version: 14 October 2016)"
     },
@@ -121,7 +121,7 @@ const translations = {
         "consc": "Conscientiousness",
         "exitButton": "Exit",
         "extra": "Extraversion",
-        "firstSection": "Based on decades of research, personality researchers agree that the most important individual differences in personality traits are described by five basic traits known as the \u201cBig Five\u201d: Extraversion, Agreeableness, Conscientiousness, Emotional Stability, and Openness to Experience. The measures you just completed provide scores on each of these traits and your results are described below.",
+        "firstSection": "Based on decades of research, personality researchers agree that the most important individual differences in personality traits are described by five basic traits known as the “Big Five”: Extraversion, Agreeableness, Conscientiousness, Emotional Stability, and Openness to Experience. The measures you just completed provide scores on each of these traits and your results are described below.",
         "fourthSection": "Thank you for your participation!",
         "hiAgree": "High scorers tend to be considerate and polite in social interactions, and enjoy cooperating with others. They find it easy to trust people, and feel compassion for those in need. High scorers tend to be well liked by their peers, and they establish satisfying and stable close relationships. They are more likely to be religious, to serve in community leadership roles, and to do volunteer work. Older adults tend to score higher than younger adults.",
         "hiConsc": "High scorers tend to be organized and responsible. They work hard to achieve their goals, and complete tasks they have begun. High scorers tend to earn higher grades in school, and perform better in many occupations. They are more likely to be religious and hold conservative political attitudes. They tend to exercise more, have better physical health, and live longer. Older adults tend to score higher than younger adults.",
@@ -235,7 +235,7 @@ const translations = {
                 }
             },
             "11": {
-                "label": "Is there an aspect of your personality that you\u2019re currently trying to change?",
+                "label": "Is there an aspect of your personality that you’re currently trying to change?",
                 "options": {
                     "no": "No",
                     "yes": "Yes"
@@ -322,7 +322,7 @@ const translations = {
                         "label": "I would never accept a bribe, even if it were very large."
                     },
                     "6": {
-                        "label": "I\u2019d be tempted to use counterfeit money, if I were sure I could get away with it."
+                        "label": "I’d be tempted to use counterfeit money, if I were sure I could get away with it."
                     },
                     "7": {
                         "label": "Having a lot of money is not especially important to me."
@@ -359,6 +359,9 @@ const translations = {
                     },
                     "5": {
                         "label": "In the world"
+                    },
+                    "6": {
+                        "label": "At work"
                     }
                 },
                 "label": "To what extent do you think your life develops in the following environments?",
@@ -600,7 +603,7 @@ const translations = {
                         "label": "Is full of energy"
                     },
                     "42": {
-                        "label": "Is suspicious of others\u2019 intentions"
+                        "label": "Is suspicious of others’ intentions"
                     },
                     "43": {
                         "label": "Is reliable, can always be counted on"
@@ -618,7 +621,7 @@ const translations = {
                         "label": "Can be cold and uncaring"
                     },
                     "48": {
-                        "label": "Leaves a mess, doesn\u2019t clean up"
+                        "label": "Leaves a mess, doesn’t clean up"
                     },
                     "49": {
                         "label": "Rarely feels anxious or afraid"
@@ -864,7 +867,7 @@ const translations = {
                     "aLittle": "Describes me a little",
                     "exactly": "Describes me exactly",
                     "moderately": "Describes me moderately",
-                    "notAtAll": "Doesn\u2019t describe me at all",
+                    "notAtAll": "Doesn’t describe me at all",
                     "veryWell": "Describes me very well"
                 }
             }
@@ -977,7 +980,7 @@ const translations = {
                     "neutral": "Neutral",
                     "uncharacteristic": "Uncharacteristic"
                 },
-                "instructions": "Now please describe the situation you experienced in more detail. 90 items will appear one at a time.  Place each item into one of three boxes.  Use the \u201cCharacteristic\u201d box on the right for items that accurately describe the situation; use the \u201cUncharacteristic\u201d box on the left for items that are undescriptive of the situation, and use the \u201cNeutral\u201d box for items that are irrelevant, unclear, or about which you are uncertain.  When you are finished, press \u201cContinue.\u201d",
+                "instructions": "Now please describe the situation you experienced in more detail. 90 items will appear one at a time.  Place each item into one of three boxes.  Use the “Characteristic” box on the right for items that accurately describe the situation; use the “Uncharacteristic” box on the left for items that are undescriptive of the situation, and use the “Neutral” box for items that are irrelevant, unclear, or about which you are uncertain.  When you are finished, press “Continue.”",
                 "itemsLeft": {
                     "one": "{{count}} item left",
                     "other": "{{count}} items left"
@@ -1031,7 +1034,7 @@ const translations = {
                         "label": "What was your first language?"
                     },
                     "5": {
-                        "label": "On a scale from 1 to 10, where would you describe your family\u2019s economic position?",
+                        "label": "On a scale from 1 to 10, where would you describe your family’s economic position?",
                         "options": {
                             "average": "Average",
                             "least": "Least well off",
@@ -1085,7 +1088,7 @@ const translations = {
                     },
                     "13": {
                         "characterCount": "0 out of 75 characters used",
-                        "label": "Who else was present? (If you were alone, please write \u201calone\u201d)."
+                        "label": "Who else was present? (If you were alone, please write “alone”)."
                     },
                     "14": {
                         "label": "Approximately what time did this experience begin?"
