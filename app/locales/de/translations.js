@@ -348,6 +348,9 @@ export default {
                     },
                     "5": {
                         "label": "in der Welt"
+                    },
+                    "6": {
+                        "label": "auf Arbeit"
                     }
                 },
                 "label": "Wie stark haben Sie das Gefühl, dass sich Ihr Leben in den folgenden Bereichen entwickelt?",
@@ -361,7 +364,7 @@ export default {
             "17": {
                 "items": {
                     "1": {
-                        "label": "Ich habe es verdient, als große  Persönlichkeit angesehen zu werden."
+                        "label": "Ich habe es verdient, als große Persönlichkeit angesehen zu werden."
                     },
                     "2": {
                         "label": "Ich ziehe viel Kraft daraus, eine ganz besondere Person zu sein."
@@ -661,7 +664,7 @@ export default {
                         "label": "Ich bleibe auch bei Rückschlägen zuversichtlich."
                     }
                 },
-                "label": "Bitte geben Sie für jede der folgenden Aussagen an, inwieweit Sie zustimmen. ",
+                "label": "Bitte geben Sie für jede der folgenden Aussagen an, inwieweit Sie zustimmen.",
                 "options": {
                     "agree": "Stimme eher zu",
                     "agreeStrongly": "Trifft völlig zu",
