@@ -361,7 +361,7 @@ export default {
                         "label": "Pasaulis"
                     },
                     "6": {
-                        "label": "\r\nDarbe"
+                        "label": "Darbe"
                     }
                 },
                 "label": "Kaip stipriai, Jūsų nuomone, Jūsų gyvenimą formuoja šios aplinkos?",
