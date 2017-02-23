@@ -359,6 +359,9 @@ export default {
                     },
                     "5": {
                         "label": "U svijetu"
+                    },
+                    "6": {
+                        "label": "Na poslu"
                     }
                 },
                 "label": "Što mislite, u kojoj se mjeri Vaš život odvija u ovim okruženjima?",
