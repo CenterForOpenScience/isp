@@ -359,6 +359,9 @@ export default {
                     },
                     "5": {
                         "label": "W świecie"
+                    },
+                    "6": {
+                        "label": "W pracy"
                     }
                 },
                 "label": "W jakim stopniu myślisz, że Twoje życie rozwija się w poniższych obszarach?",

@@ -359,6 +359,9 @@ export default {
                     },
                     "5": {
                         "label": "I verden"
+                    },
+                    "6": {
+                        "label": "På arbejde"
                     }
                 },
                 "label": "I hvor høj grad synes du, at dit liv tager form inden for følgende af disse kontekster?",

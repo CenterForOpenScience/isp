@@ -359,6 +359,9 @@ export default {
                     },
                     "5": {
                         "label": "Svět"
+                    },
+                    "6": {
+                        "label": "V práci"
                     }
                 },
                 "label": "Do jaké míry, jsou pro váš osobní vývoj důležitá následující prostředí?",
