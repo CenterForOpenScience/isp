@@ -4,6 +4,10 @@
 This assumes a CSV file of the following format:
        Column 1 = JSON key
        Column 2 = Translated text
+
+To run the script, passing in the csv file's name:
+ -       e.g. `python format_translations.py --validate --filename en-us.csv` (fill in your translation CSV filename as appropriate)
+
 """
 import argparse
 import collections
@@ -11,7 +15,6 @@ import csv
 import json
 import os
 import sys
-
 
 numbers = {
     "0": "0",
@@ -123,6 +126,9 @@ data = collections.defaultdict(dict)
 # Path to a user-generated file with a reference translation. User must generate and make available.
 REFERENCE_LOCALE_PATH = './en.json'
 
+# Attributes to be excluded from translation validation if needed.
+EXCLUDED_ATTRIBUTES = set(['consent.secondSection', 'consent.checkboxLabel', 'consent.title', 'consent.button.labelUnaccepted', 'consent.thirdSection', 'consent.firstSection', 'consent.versionHistory', 'flag.chooseLanguage'])
+
 
 def flatten(nested_dict, base_key=''):
     """Flatten a nested dict into a single level dictionary with dot-separated key names"""
@@ -149,7 +155,7 @@ def validate_translations(reference_locale, new_translation):
     reference_keys = set(flat_reference.iterkeys())
     new_keys = set(flat_new.iterkeys())
 
-    if reference_keys ^ new_keys:
+    if not (reference_keys ^ new_keys).issubset(EXCLUDED_ATTRIBUTES):
         print "The following keys appear in the reference locale, but not the new translation: ", reference_keys - new_keys
         print "The following keys appear in the new translation, but not the reference locale: ", new_keys - reference_keys
 
@@ -165,10 +171,20 @@ def validate_translations(reference_locale, new_translation):
         if '{{count}}' not in val:
             print 'Missing required {{{{count}}}} placeholder in {}'.format(f), '(Found field value:', val, ')'
 
+def parse_args():
+     parser = argparse.ArgumentParser()
+     parser.add_argument('-f', '--filename', dest='filename', required=True)
+     parser.add_argument('-o', '--out', dest='out',
+                         help='The output filename; defaults to <filename>.json')
+     parser.add_argument('-v', '--validate', dest='validate', action='store_true')
+     return parser.parse_args()
 
-def run(file_name):
-    out_fn = os.path.splitext(file_name)[0] + os.path.extsep + 'json'
-    in_fn = os.path.splitext(file_name)[0] + os.path.extsep + 'csv'
+
+def main():
+    args = parse_args()
+    # If no output filename specified, use same path, but with a JSON extension
+    out_fn = args.out or os.path.splitext(args.filename)[0] + os.path.extsep + 'json'
+
     if os.path.isfile(out_fn):
         while True:
             response = raw_input('Specified output filename already exists; overwrite? (y/n)\n').lower()
@@ -178,25 +194,20 @@ def run(file_name):
                 print 'Output filename already in use; exiting.'
                 sys.exit()
 
-    with open(in_fn, 'rb') as csvfile:
-        reader = csv.reader(csvfile)
-        for row in reader:
-            keys = row[0].split('.')
-            merge(data, format_dict(keys, row[1].strip(" ")))
+    with open(args.filename, 'rb') as csvfile:
+            reader = csv.reader(csvfile)
+            for row in reader:
+                keys = row[0].split('.')
+                merge(data, format_dict(keys, row[1].strip(" ")))
+
     with open(out_fn, 'w') as f:
-        data.update(numbers)
-        json.dump(data, f, indent=4, sort_keys=True, ensure_ascii=False)
+            data.update(numbers)
+            json.dump(data, f, indent=4, sort_keys=True, ensure_ascii=False)
 
     with open(REFERENCE_LOCALE_PATH, 'r') as f:
-        reference_translation = json.load(f)
-        while True:
-            response = raw_input('Exclude attribute from validation? (y/n)\n')
-            if response == 'y':
-                response = raw_input('Enter attribute title\n')
-                del reference_translation[response];
-            elif response == 'n':
-                break;
-        validate_translations(reference_translation, data)
+            reference_translation = json.load(f)
+            validate_translations(reference_translation, data)
+
 
 
 def format_dict(keys, value):
@@ -215,3 +226,6 @@ def merge(d, u):
             d[key] = u[key]
     return d
 
+
+if __name__ == '__main__':
+     main()

@@ -25,8 +25,6 @@
 
 import httplib2
 import os
-import consent_form_json
-import format_translations
 import sys
 
 from apiclient import discovery
@@ -82,7 +80,7 @@ def main():
         response = raw_input('Enter folder ID\n')
         # get and download files
         data = service.files().list(q="'" + response + "'" + " in parents").execute()
-        download_files(data['files'], service)
+        download_translation_file(data['files'], service)
         response = raw_input('Add new folder? (y/n)\n')
         if response == 'y':
             continue
@@ -90,10 +88,17 @@ def main():
             print 'Exit..'
             sys.exit()
 
+def download_consent_files(files, service):
+    for f in files:
+        file_id = f['id']
+        request = service.files().export_media(fileId=file_id, mimeType='text/csv').execute()
+        fn = '%s.csv' % ('consent_forms/' + f['name'].replace(' ', '_'))
+        if request:
+            with open(fn, 'wb') as csvfile:
+                csvfile.write(request)
 
 
-
-def download_files(files, service):
+def download_translation_file(files, service):
     for f in files:
         file_id= f['id']
         file_type= f['mimeType']
@@ -105,10 +110,12 @@ def download_files(files, service):
                 with open(fn, 'wb') as csvfile:
                     csvfile.write(request)
 
-            format_translations.run(fn);
-
+            os.system('python format_translations.py --validate --filename {f}'.format(f=fn))
         if file_type.endswith('.folder'):
-            consent_form_json.run(file_id, service);
+            data = service.files().list(q="'" + file_id + "'" + " in parents").execute()
+            download_consent_files(data['files'], service)
+    os.system('python consent_form_json.py')
+
 
 
 if __name__ == '__main__':
