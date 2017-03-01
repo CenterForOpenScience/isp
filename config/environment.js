@@ -69,7 +69,8 @@ module.exports = function(environment) {
     // when they exited the study. If false, start from the beginning.
     continueSession: true,
 
-    // Whether to include the test locale or not
+    // Whether to include unfinished or testing locales. Production refers to an ember build flag, so this applies to
+    //   both staging and production servers. (but translations would be available when running locally)
     excludeTestLocale: environment === 'production',
   };
 

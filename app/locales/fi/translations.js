@@ -359,6 +359,9 @@ export default {
                     },
                     "5": {
                         "label": "Maailmassa"
+                    },
+                    "6": {
+                        "label": "\nTöissä"
                     }
                 },
                 "label": "Missä määrin uskot elämäsi kehittyvän seuraavissa ympäristöissä",

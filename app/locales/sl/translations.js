@@ -359,6 +359,9 @@ export default {
                     },
                     "5": {
                         "label": "V svetu"
+                    },
+                    "6": {
+                        "label": "delati"
                     }
                 },
                 "label": "Do kakšne mere mislite, da bi se vaše življenje razvilo v naslednjih okoljih?",
