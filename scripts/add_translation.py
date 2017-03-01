@@ -1,5 +1,5 @@
 
-""" Download all files from a selected language google drive into csv format and convert to a json format. The script
+""" Download all files from a selected google drive in csv format then convert to a json format. The script
     can repeat this process upon user request.
 
     Requires access to the main google drive folder (or credentials from a developer who

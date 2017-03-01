@@ -55,4 +55,4 @@ def format_consent_form(filename):
     return site_info
 
 if __name__ == '__main__':
-     main()
+    main()

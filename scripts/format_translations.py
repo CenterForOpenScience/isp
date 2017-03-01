@@ -122,12 +122,13 @@ numbers = {
 
 data = collections.defaultdict(dict)
 
-
 # Path to a user-generated file with a reference translation. User must generate and make available.
 REFERENCE_LOCALE_PATH = './en.json'
 
 # Attributes to be excluded from translation validation if needed.
-EXCLUDED_ATTRIBUTES = set(['consent.secondSection', 'consent.checkboxLabel', 'consent.title', 'consent.button.labelUnaccepted', 'consent.thirdSection', 'consent.firstSection', 'consent.versionHistory', 'flag.chooseLanguage'])
+EXCLUDED_ATTRIBUTES = set(
+    ['consent.secondSection', 'consent.checkboxLabel', 'consent.title', 'consent.button.labelUnaccepted',
+     'consent.thirdSection', 'consent.firstSection', 'consent.versionHistory', 'flag.chooseLanguage'])
 
 
 def flatten(nested_dict, base_key=''):
@@ -151,6 +152,8 @@ def validate_translations(reference_locale, new_translation):
     flat_reference = flatten(reference_locale)
     flat_new = flatten(new_translation)
 
+    valid_flag = True
+
     # Are any keys outright missing or extra?
     reference_keys = set(flat_reference.iterkeys())
     new_keys = set(flat_new.iterkeys())
@@ -158,11 +161,13 @@ def validate_translations(reference_locale, new_translation):
     if not (reference_keys ^ new_keys).issubset(EXCLUDED_ATTRIBUTES):
         print "The following keys appear in the reference locale, but not the new translation: ", reference_keys - new_keys - EXCLUDED_ATTRIBUTES
         print "The following keys appear in the new translation, but not the reference locale: ", new_keys - reference_keys - EXCLUDED_ATTRIBUTES
+        valid_flag = False
 
     # Then: are any of the keys in the translation file present, but blank?
     for k, v in flat_new.iteritems():
         if not v:
             print "Found blank value in new translation at key: ", k
+            valid_flag = False
 
     # Common gotcha: did we forget to include the "{{count}}" variable placeholder in certain specific items?
     check_fields = ['qsort.sections.1.itemsLeft.one', 'qsort.sections.1.itemsLeft.other']
@@ -170,13 +175,17 @@ def validate_translations(reference_locale, new_translation):
         val = flat_new.get(f, '')
         if '{{count}}' not in val:
             print 'Missing required {{{{count}}}} placeholder in {}'.format(f), '(Found field value:', val, ')'
+            valid_flag = False
+
+    return valid_flag
+
 
 def parse_args():
-     parser = argparse.ArgumentParser()
-     parser.add_argument('-f', '--filename', dest='filename', required=True)
-     parser.add_argument('-o', '--out', dest='out',
-                         help='The output filename; defaults to <filename>.json')
-     return parser.parse_args()
+    parser = argparse.ArgumentParser()
+    parser.add_argument('-f', '--filename', dest='filename', required=True)
+    parser.add_argument('-o', '--out', dest='out',
+                        help='The output filename; defaults to <filename>.json')
+    return parser.parse_args()
 
 
 def main():
@@ -194,19 +203,20 @@ def main():
                 sys.exit()
 
     with open(args.filename, 'rb') as csvfile:
-            reader = csv.reader(csvfile)
-            for row in reader:
-                keys = row[0].split('.')
-                merge(data, format_dict(keys, row[1].strip(" ")))
-
-    with open(out_fn, 'w') as f:
-        data.update(numbers)
-        json.dump(data, f, indent=4, sort_keys=True, ensure_ascii=False)
+        reader = csv.reader(csvfile)
+        for row in reader:
+            keys = row[0].split('.')
+            merge(data, format_dict(keys, row[1].strip(" ")))
 
     with open(REFERENCE_LOCALE_PATH, 'r') as f:
-            reference_translation = json.load(f)
-            validate_translations(reference_translation, data)
+        reference_translation = json.load(f)
+        data.update(numbers)
 
+    if validate_translations(reference_translation, data):
+        with open(out_fn, 'w') as f:
+            json.dump(data, f, indent=4, sort_keys=True, ensure_ascii=False)
+    else:
+        sys.exit(1)
 
 
 def format_dict(keys, value):
