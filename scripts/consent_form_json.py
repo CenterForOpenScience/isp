@@ -1,4 +1,4 @@
-""" Combine the .csv files for the consent form into a single json file.
+""" Convert a directory of downloaded consent form translations ( .csv format) into a single JSON file.
 
 To run the script:
 

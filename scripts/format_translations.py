@@ -6,7 +6,7 @@ This assumes a CSV file of the following format:
        Column 2 = Translated text
 
 To run the script, passing in the csv file's name:
- -       e.g. `python format_translations.py --validate --filename en-us.csv` (fill in your translation CSV filename as appropriate)
+ -       e.g. `python format_translations.py --filename en-us.csv` (fill in your translation CSV filename as appropriate)
 
 """
 import argparse
@@ -156,8 +156,8 @@ def validate_translations(reference_locale, new_translation):
     new_keys = set(flat_new.iterkeys())
 
     if not (reference_keys ^ new_keys).issubset(EXCLUDED_ATTRIBUTES):
-        print "The following keys appear in the reference locale, but not the new translation: ", reference_keys - new_keys
-        print "The following keys appear in the new translation, but not the reference locale: ", new_keys - reference_keys
+        print "The following keys appear in the reference locale, but not the new translation: ", reference_keys - new_keys - EXCLUDED_ATTRIBUTES
+        print "The following keys appear in the new translation, but not the reference locale: ", new_keys - reference_keys - EXCLUDED_ATTRIBUTES
 
     # Then: are any of the keys in the translation file present, but blank?
     for k, v in flat_new.iteritems():
@@ -176,7 +176,6 @@ def parse_args():
      parser.add_argument('-f', '--filename', dest='filename', required=True)
      parser.add_argument('-o', '--out', dest='out',
                          help='The output filename; defaults to <filename>.json')
-     parser.add_argument('-v', '--validate', dest='validate', action='store_true')
      return parser.parse_args()
 
 
@@ -201,8 +200,8 @@ def main():
                 merge(data, format_dict(keys, row[1].strip(" ")))
 
     with open(out_fn, 'w') as f:
-            data.update(numbers)
-            json.dump(data, f, indent=4, sort_keys=True, ensure_ascii=False)
+        data.update(numbers)
+        json.dump(data, f, indent=4, sort_keys=True, ensure_ascii=False)
 
     with open(REFERENCE_LOCALE_PATH, 'r') as f:
             reference_translation = json.load(f)
@@ -228,4 +227,4 @@ def merge(d, u):
 
 
 if __name__ == '__main__':
-     main()
+    main()

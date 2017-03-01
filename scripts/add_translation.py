@@ -1,8 +1,9 @@
 
-""" Download all files with consent form content from google drive into csv format and combine into a single json file.
+""" Download all files from a selected language google drive into csv format and convert to a json format. The script
+    can repeat this process upon user request.
 
-    Requires access to google drive folder containing consent form spreadsheets (or credentials from a developer who
-    has access).
+    Requires access to the main google drive folder (or credentials from a developer who
+    has access). The ID for the main google folder is stored in TRANSLATION_FOLDER_ID.
 
     Steps:
     1. Obtain client_secret.json file:
@@ -27,6 +28,8 @@ import httplib2
 import os
 import sys
 
+import consent_form_json
+
 from apiclient import discovery
 from oauth2client import file, client, tools
 
@@ -43,8 +46,14 @@ SCOPES = 'https://www.googleapis.com/auth/drive'
 CLIENT_SECRET_FILE = 'credentials/client_secret.json'
 APPLICATION_NAME = 'International Situations Project'
 
+# Main google directory that contain all translation folders
+TRANSLATION_FOLDER_ID = '0B441UYO1vv_CVjRrc25SZjRhazA'
+
 # Downloaded csv files with each site's consent form
 files_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'consent_forms')
+
+# List of languages with their IDs
+LANGUAGE_LIST = {}
 
 
 def get_credentials():
@@ -71,18 +80,47 @@ def get_credentials():
     return credentials
 
 
+def display_languages(service):
+    print 'List of available languages:\n----------------------------'
+    data = service.files().list(q="'" + TRANSLATION_FOLDER_ID + "'" + " in parents").execute()
+    for f in data['files']:
+        if f['mimeType'].endswith('.folder'):
+            LANGUAGE_LIST[f['name']] = f['id']
+
+    # sort the languages alphabetically
+    sorted_list = [e for e in sorted(LANGUAGE_LIST)]
+    id = 1
+    # store the generated IDs to match against user input.
+    language_id = {}
+    for i in sorted_list:
+        print  str(id) + ' ' + i
+        language_id[id] = i
+        id = id + 1
+
+    response = raw_input('Select language from the list: ')
+    user_choice = language_id[int(response)]
+    print 'User selected '+user_choice+ ' language'
+    if user_choice not in LANGUAGE_LIST:
+        print '\nInvalid selection'
+        exit(1)
+
+    else:
+        return LANGUAGE_LIST[user_choice]
+
+
 def main():
     credentials = get_credentials()
     http = credentials.authorize(httplib2.Http())
     service = discovery.build('drive', 'v3', http=http)
+    selection = display_languages(service)
 
     while True:
-        response = raw_input('Enter folder ID\n')
         # get and download files
-        data = service.files().list(q="'" + response + "'" + " in parents").execute()
+        data = service.files().list(q="'" + selection + "'" + " in parents").execute()
         download_translation_file(data['files'], service)
-        response = raw_input('Add new folder? (y/n)\n')
+        response = raw_input('Add new language? (y/n)\n')
         if response == 'y':
+            selection = display_languages(service)
             continue
         elif response == 'n':
             print 'Exit..'
@@ -110,11 +148,11 @@ def download_translation_file(files, service):
                 with open(fn, 'wb') as csvfile:
                     csvfile.write(request)
 
-            os.system('python format_translations.py --validate --filename {f}'.format(f=fn))
+            os.system('python format_translations.py --filename {f}'.format(f=fn))
         if file_type.endswith('.folder'):
             data = service.files().list(q="'" + file_id + "'" + " in parents").execute()
             download_consent_files(data['files'], service)
-    os.system('python consent_form_json.py')
+    consent_form_json.main()
 
 
 
