@@ -4,6 +4,10 @@ To update the translations for a given locale, use
 
 1. Run the command `python add_translation.py`, this is the main script to be used. `add_translation.py` uses both [`scripts/format_translations.py`](https://github.com/CenterForOpenScience/isp/blob/develop/scripts/format_translations.py) and [`scripts/consent_form_json.py`](https://github.com/CenterForOpenScience/isp/blob/develop/scripts/consent_form_json.py).
 
+2. `add_translation.py` will access the main google drive folder that has all the translations and list the names of directories that correspond to each language. The folder id is stored at `TRANSLATION_FOLDER_ID`.
+
+3. Enter the desired language ID from the list shown.
+
 2. `add_translation.py` will first download the CSV file needed for the translation from the google drive folder. Currently, each language has its own google drive folder. The ISP project main folder can be located [`here`](https://drive.google.com/drive/u/0/folders/0BxGwKGgJtw4WYVpJVllsMk84Wms). All language translation folders are stored under `/Samples/Translations/`.
 
     - The language translation should be in a 2-column format, where column 1 is the JSON key name, and column 2 is the translated text. This file will be located under scripts directory.
@@ -16,7 +20,7 @@ To update the translations for a given locale, use
 
 4. Review the error messages (if exist) from running the `add_translation`.
 
-5. `add_translation.py` will then execute [`scripts/consent_form_json.py`]  downloading the consent form translation which can be one or more csv files. The file(s) will be located under [`scripts/consent_forms`] directory. The contents of the files will be copied automatically to `consent.json`.
+5. `add_translation.py` will download the consent form translation which can be one or more csv files. The file(s) will be located under [`scripts/consent_forms`] directory. Finally, `add_translation.py` will execute [`scripts/consent_form_json.py`]  that combine the contents of the files automatically into `consent.json`.
 
 
 5. If a locale does not yet exist, run `ember generate locale <code>`, using either a two or four language country
