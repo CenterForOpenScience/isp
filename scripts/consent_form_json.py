@@ -33,6 +33,8 @@ def main():
                 continue
 
             content[site_id] = format_consent_form(filepath)
+            print 'Converting consent form {f} from .csv to .json format'.format(f=filename)
+
         else:
             continue
     with open('consent.json', 'w') as f:

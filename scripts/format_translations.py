@@ -176,7 +176,6 @@ def validate_translations(reference_locale, new_translation):
         if '{{count}}' not in val:
             print 'Missing required {{{{count}}}} placeholder in {}'.format(f), '(Found field value:', val, ')'
             valid_flag = False
-
     return valid_flag
 
 
@@ -188,21 +187,26 @@ def parse_args():
     return parser.parse_args()
 
 
-def main():
-    args = parse_args()
+def main(filename=None, out=None):
     # If no output filename specified, use same path, but with a JSON extension
-    out_fn = args.out or os.path.splitext(args.filename)[0] + os.path.extsep + 'json'
+    if not filename:
+        sys.exit(1)
+
+    if out:
+        out_fn = out
+    else:
+        out_fn = os.path.splitext(filename)[0] + os.path.extsep + 'json'
 
     if os.path.isfile(out_fn):
         while True:
-            response = raw_input('Specified output filename already exists; overwrite? (y/n)\n').lower()
+            response = raw_input('--> Specified output .json file already exists; overwrite? (y/n) ').lower()
             if response == 'y':
                 break
             elif response == 'n':
                 print 'Output filename already in use; exiting.'
-                sys.exit()
+                sys.exit(1)
 
-    with open(args.filename, 'rb') as csvfile:
+    with open(filename, 'rb') as csvfile:
         reader = csv.reader(csvfile)
         for row in reader:
             keys = row[0].split('.')
@@ -216,8 +220,13 @@ def main():
         with open(out_fn, 'w') as f:
             json.dump(data, f, indent=4, sort_keys=True, ensure_ascii=False)
     else:
-        sys.exit(1)
-
+        print 'Missing data found in {f} translation file.'.format(f=filename)
+        response = raw_input('--> Would like to continue? (y/n) ').lower()
+        if response == 'y':
+            return
+        elif response == 'n':
+            print 'Exit..'
+            sys.exit(1)
 
 def format_dict(keys, value):
     if len(keys) == 1:
@@ -237,4 +246,5 @@ def merge(d, u):
 
 
 if __name__ == '__main__':
-    main()
+    args = parse_args()
+    main(filename=args.filename, out=args.out)
