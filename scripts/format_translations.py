@@ -1,22 +1,13 @@
 """ Convert translation spreadsheet (downloaded as a csv file) to json.
     Keys that include a "." indicate nesting, so 'flag.chooseLanguage' is converted to {flag:{chooseLanguage: value}}
 
-    Steps:
-    1. Obtain access to translation spreadsheet for the desired locale from client
-    2. Download the spreadsheet as a csv file and add it to the isp/scripts directory
-    3. You will need to validate the text against a known-complete "reference locale". To make this reference,
-        copy the contents of `app/translations/en.js` into a new file called `scripts/en.json` (same folder as this
-        script). Only copy the JSON part (no variable names or semicolons)
-    4. Run the script, passing in the csv file's name:
-       e.g. `python format_translations.py --validate --filename en-us.csv` (fill in your translation CSV filename as appropriate)
-    5. Copy & paste the json from the generated file to the translations.js file in isp/app/locales/<locale>/
-       See isp/app/locales/en/translations.js as an example.
-       Note: If the locale folder does not exist, run 'ember generate locale <locale> in the isp/app directory.
-
-
 This assumes a CSV file of the following format:
        Column 1 = JSON key
        Column 2 = Translated text
+
+To run the script, passing in the csv file's name:
+ -       e.g. `python format_translations.py --filename en-us.csv` (fill in your translation CSV filename as appropriate)
+
 """
 import argparse
 import collections
@@ -24,7 +15,6 @@ import csv
 import json
 import os
 import sys
-
 
 numbers = {
     "0": "0",
@@ -132,9 +122,13 @@ numbers = {
 
 data = collections.defaultdict(dict)
 
-
 # Path to a user-generated file with a reference translation. User must generate and make available.
 REFERENCE_LOCALE_PATH = './en.json'
+
+# Attributes to be excluded from translation validation if needed.
+EXCLUDED_ATTRIBUTES = set(
+    ['consent.secondSection', 'consent.checkboxLabel', 'consent.title', 'consent.button.labelUnaccepted',
+     'consent.thirdSection', 'consent.firstSection', 'consent.versionHistory', 'flag.chooseLanguage'])
 
 
 def flatten(nested_dict, base_key=''):
@@ -158,18 +152,22 @@ def validate_translations(reference_locale, new_translation):
     flat_reference = flatten(reference_locale)
     flat_new = flatten(new_translation)
 
+    valid_flag = True
+
     # Are any keys outright missing or extra?
     reference_keys = set(flat_reference.iterkeys())
     new_keys = set(flat_new.iterkeys())
 
-    if reference_keys ^ new_keys:
-        print "The following keys appear in the reference locale, but not the new translation: ", reference_keys - new_keys
-        print "The following keys appear in the new translation, but not the reference locale: ", new_keys - reference_keys
+    if not (reference_keys ^ new_keys).issubset(EXCLUDED_ATTRIBUTES):
+        print "The following keys appear in the reference locale, but not the new translation: ", reference_keys - new_keys - EXCLUDED_ATTRIBUTES
+        print "The following keys appear in the new translation, but not the reference locale: ", new_keys - reference_keys - EXCLUDED_ATTRIBUTES
+        valid_flag = False
 
     # Then: are any of the keys in the translation file present, but blank?
     for k, v in flat_new.iteritems():
         if not v:
             print "Found blank value in new translation at key: ", k
+            valid_flag = False
 
     # Common gotcha: did we forget to include the "{{count}}" variable placeholder in certain specific items?
     check_fields = ['qsort.sections.1.itemsLeft.one', 'qsort.sections.1.itemsLeft.other']
@@ -177,43 +175,58 @@ def validate_translations(reference_locale, new_translation):
         val = flat_new.get(f, '')
         if '{{count}}' not in val:
             print 'Missing required {{{{count}}}} placeholder in {}'.format(f), '(Found field value:', val, ')'
+            valid_flag = False
+    return valid_flag
+
 
 def parse_args():
     parser = argparse.ArgumentParser()
     parser.add_argument('-f', '--filename', dest='filename', required=True)
     parser.add_argument('-o', '--out', dest='out',
                         help='The output filename; defaults to <filename>.json')
-    parser.add_argument('-v', '--validate', dest='validate', action='store_true')
     return parser.parse_args()
 
 
-def main():
-    args = parse_args()
+def main(filename=None, out=None):
     # If no output filename specified, use same path, but with a JSON extension
-    out_fn = args.out or os.path.splitext(args.filename)[0] + os.path.extsep + 'json'
+    if not filename:
+        sys.exit(1)
+
+    if out:
+        out_fn = out
+    else:
+        out_fn = os.path.splitext(filename)[0] + os.path.extsep + 'json'
+
     if os.path.isfile(out_fn):
         while True:
-            response = raw_input('Specified output filename already exists; overwrite? (y/n)\n').lower()
+            response = raw_input('--> Specified output .json file already exists; overwrite? (y/n) ').lower()
             if response == 'y':
                 break
             elif response == 'n':
                 print 'Output filename already in use; exiting.'
-                sys.exit()
+                sys.exit(1)
 
-    with open(args.filename, 'rb') as csvfile:
+    with open(filename, 'rb') as csvfile:
         reader = csv.reader(csvfile)
         for row in reader:
             keys = row[0].split('.')
             merge(data, format_dict(keys, row[1].strip(" ")))
-    with open(out_fn, 'w') as f:
+
+    with open(REFERENCE_LOCALE_PATH, 'r') as f:
+        reference_translation = json.load(f)
         data.update(numbers)
-        json.dump(data, f, indent=4, sort_keys=True, ensure_ascii=False)
 
-    if args.validate:
-        with open(REFERENCE_LOCALE_PATH, 'r') as f:
-            reference_translation = json.load(f)
-        validate_translations(reference_translation, data)
-
+    if validate_translations(reference_translation, data):
+        with open(out_fn, 'w') as f:
+            json.dump(data, f, indent=4, sort_keys=True, ensure_ascii=False)
+    else:
+        print 'Missing data found in {f} translation file.'.format(f=filename)
+        response = raw_input('--> Would like to continue? (y/n) ').lower()
+        if response == 'y':
+            return
+        elif response == 'n':
+            print 'Exit..'
+            sys.exit(1)
 
 def format_dict(keys, value):
     if len(keys) == 1:
@@ -233,4 +246,5 @@ def merge(d, u):
 
 
 if __name__ == '__main__':
-    main()
+    args = parse_args()
+    main(filename=args.filename, out=args.out)
