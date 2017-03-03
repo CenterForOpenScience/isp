@@ -1,7 +1,7 @@
 // A list of languages marked as "complete" and intended to be presented to users on the flag-picker
 //  See https://openscience.atlassian.net/browse/LEI-372 for sample reasoning behind this requirement
 // TODO: This will need to be updated every time a new language is "released" and marked final
-export const languagesForProduction =  ['en', 'bg', 'de', 'zh', 'pl', 'id', 'he', 'da', 'hr', 'sr', 'cs', 'lt', 'fi', 'uk', 'it', 'mk', 'th', 'sl'];
+export const languagesForProduction =  ['en', 'bg', 'de', 'zh', 'pl', 'id', 'he', 'da', 'hr', 'sr', 'cs', 'lt', 'fi', 'uk', 'it', 'mk', 'th', 'sl', 'hu', 'hi', 'mr'];
 
 
 // Country codes for flags, paired with language codes for translations
