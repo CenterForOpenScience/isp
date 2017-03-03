@@ -387,7 +387,7 @@ const consentText = {
             "Ukoliko imate bilo kakvih pitanja u vezi sa ovim istraživanjem ili Vašim pravima kao učesnika istraživanja, možete kontaktirati doc. dr Petra Čolovića (e-mail: petar.colovic@uns.ac.rs, Odsek za psihologiju, Filozofski fakultet u Novom Sadu), koji je zadužen za prikupljanje podataka na Vašoj lokaciji, ili Univerzitet u Kaliforniji, Riverside, Odeljenje za integritet istraživanja na e-mail IRB@ucr.edu. Iskreno smo zahvalni na saradnji."
         ],
         "title": "Saglasnost za učešće u istraživanju",
-        "versionHistory": "(Verzija obrasca za davanje saglasnosti: 14. oktobar 2016.)"
+        "versionHistory": "(Verzija obrasca za davanje saglasnosti: 14. oktobar 2016.)\n"
     },
     // Macedonian
     "MACE1.MK": {
@@ -505,6 +505,53 @@ const consentText = {
         ],
         "title": "Suostumus osallistua tutkimukseen",
         "versionHistory": "(Hyväksyntä lomake versio: 14 lokakuu 2016)"
+    },
+    // Hindi
+     "INDIA2.HI": {
+        "buttonLabel": "कृपया जारी रखने के लिए शर्तों को स्वीकार करें",
+        "consentLabel": "मैंने सभी नियम और शर्तों  को समझ लिया है और मैं भाग लेने को तैयार हूँ।",
+        "paragraphs": [
+            "हमारे अध्ययन में  आपका स्वागत है। आपकी भागीदारी एक सत्र में होगी और  एक घंटे से कम का समय लगेगा। आप को  एक स्थिति जिसका आपने  हाल ही में अनुभव किया, उस में अपने व्यवहार का वर्णन करने के लिए कहा जाएगा। आपसे आपके   मूल्यों और व्यवहार के बारे में भी कुछ सवाल पूछे जाएंगे। अध्ययन के अंत में, यदि आप चुनते है, तो आप अपने व्यक्तित्व के बारे में व्यक्तिगत जानकारी प्राप्त करेंगे।\r\n",
+            "आपकी सभी  प्रतिक्रियाएं  गोपनीय  रहेंगी और पहचान केवल एक संख्या से ( आपके नाम से नहीं) होंगी । अनुसंधान प्रयोजनों के लिए, यह  अनाम डेटा सेंटर फॉर ओपन साइंस  (www.cos.io) द्वारा बनाए गये एक ऑनलाइन डेटाबेस में संग्रहीत किया जा सकता है।   इस सर्वेक्षण को पूरा करने के लिए प्रत्येक प्रश्न का  उत्तर दिया जाना चाहिए, लेकिन आप बिना किसी जुर्माने के, किसी भी समय अपनी भागीदारी को रोक सकते है। इस शोध के संभावित लाभों में, व्यक्तियों और सांस्कृतिक संदर्भों में उनके जीवन की समझ में सुधार शामिल है। कोई ज्ञात जोखिम नहीं  है।",
+            "आप या उनकी Adikarron, कोई सवाल के बारे में के विषय में इस अध्ययन में एक भागीदार के रूप में, आप अनघा Lavalekar (anagha.lavalekar@jnanaprabodhini.org), मनोविज्ञान के ज्ञान Prabodihini संस्थान, पुणे, जो डेटा संग्रह के लिए अपने क्षेत्र में संपर्क कर सकते हैं जिम्मेदार है, या कैलिफोर्निया विश्वविद्यालय, रिवरसाइड अनुसंधान वफ़ादारी, IRB@ucr.edu पर ईमेल के माध्यम से कार्यालय से संपर्क कर सकते हैं। हम विनम्रता के साथ अपने सहयोग की सराहना करते।"
+        ],
+        "title": "अनुसन्धान में भाग लेने की सहमति",
+        "versionHistory": "(सहमति प्रपत्र संस्करण: 14 अक्टूबर 2016)"
+    },
+    // Marathi
+     "INDIA2.MR": {
+        "buttonLabel": "कृपया ह्याच्या अटी मान्य करा.",
+        "consentLabel": "\r\nमी वाचले आणि वरील विधानांना समजून आणि सहभागी सहमत आहे.",
+        "paragraphs": [
+            "आमच्या अभ्यासिकेत आपले स्वागत आहे. तुमचा सहभाग हा एका सत्र साठी आणि एका तसा पेक्षा कमी वेळा साठी असेन. तुम्हाला काही प्रसंगाचे वर्णन करायचे आहे आणि त्यावर तुमची काय प्रतिक्रिया होती हे सांगायचे आहे. तुम्हाला अजून मूल्य आणि अभिवृत्ती ह्या विषयी पण प्रश्न विचारले जतीन. चाचणी संपताच तुम्हाला तुमचा व्यक्तिमत्वाची वैयाक्तीक्क माहिती दिली जाईल.",
+            "तुमची माहिती हि संपूर्ण गोपनीय राहीन ती फक्त तुमचा नंबर ने ओळखली जाऊ शकते. संशोधनासाठी, हि गोपनीय माहिती centre of open science च्या online database मध्ये संग्रहित राहीन. तुम्हाला सांगळे प्रश्न सोडवणे आवश्यक आहे तरी तुम्हाला जर चाचणी मधेच थांबवशी वाटली तर तुम्ही निसंकोच थांबवू शकता. ह्या चाचणी चे संभाव्य फायदे अशे कि तुम्हाला माणसांना सुम्जून घेणे आणि त्यांच्या राहणीमाना विषयी कळते.",
+            "तुम्हाला जर काही प्रश्न किंवा शंका असतीन तर तुम्ही [Anagha Lavalekar, anagha.lavalekar@jnanaprabodhini.org, मानसशास्त्र ज्ञानप्रकाश Prabodihini इन्स्टिट्यूट, पुणे] ह्या संपर्क साधू शकता, जे तुमच्या परीसारतील ह्या चाचणी चे data collection पण करता किंवा  University of California, Riverside, Office of Research Integrity by email at IRB@ucr.edu.ह्याच्शी पण संपर्क साधू शकता. तुमच सहकार्याबद्दल मनपूर्वक धन्यवाद."
+        ],
+        "title": "संशोधनासाठी तुमची सम्मती.",
+        "versionHistory": "(संमती फॉर्म आवृत्ती: 14 ऑक्टोबर 2016)"
+    },
+    // Hungarian
+    "HUNG1.HU": {
+        "buttonLabel": "A folytatáshoz kérjük, fogadja el a feltételeket.",
+        "consentLabel": "Elolvastam és megértettem a fenti állításokat és beleegyezem a részvételbe.",
+        "paragraphs": [
+            "Köszöntjük a kutatásunkban. Csupán egy alkalommal van szükség a részvételére, ami kevesebb mint egy órát vesz igénybe. Arra fogjuk kérni, hogy írjon le egy közelmúltban megtapasztalt helyzetet, és az abban megnyilvánuló viselkedéseit. Felteszünk majd néhány kérdést az értékeivel és attitűdjeivel kapcsolatban is. A vizsgálat végén, amennyiben kéri, személyre szabott információt kap a saját személyiségéről.",
+            "Minden válasza titkos, s csupán egy szám alapján azonosítható (és nem a nevével). Az anonim adatokat, kutatási céllal, egy online adatbázisban archiváljuk, melyet a Nyitott Tudomány Központ (Center for Open Sciences, www.cos.io) kezel. Minden kérdésre választ kell adnia ahhoz, hogy a kérdőív teljes legyen, de a részvételét negatív következmények nélkül, bármikor megszakíthatja. A kutatás lehetséges hozadékai közé tartozik, többek között, az emberek és életük jobb megértése kulturális kontextusokban. Ismert kockázatok nincsenek.",
+            "\nHa kérdése van a kutatás, illetve a résztvevők jogait, kérjük lépjen kapcsolatba a felelős személy az adatgyűjtés a területen [Ágota Kun (agota.kun@gmail.com), Budapesti Műszaki és Gazdaságtudományi Egyetem], vagy a Kutatási Hivatal a University of California at IRB@ucr.edu. Köszönjük együttműködését."
+        ],
+        "title": "Beleegyezés a kutatásban való részvételhez",
+        "versionHistory": "(Egyetértés formában verzió: október 14, 2016)"
+    },
+    "HUNG2.HU": {
+        "buttonLabel": "A folytatáshoz kérjük, fogadja el a feltételeket.",
+        "consentLabel": "Elolvastam és megértettem a fenti állításokat és beleegyezem a részvételbe.",
+        "paragraphs": [
+            "Köszöntjük a kutatásunkban. Csupán egy alkalommal van szükség a részvételére, ami kevesebb mint egy órát vesz igénybe. Arra fogjuk kérni, hogy írjon le egy közelmúltban megtapasztalt helyzetet, és az abban megnyilvánuló viselkedéseit. Felteszünk majd néhány kérdést az értékeivel és attitűdjeivel kapcsolatban is. A vizsgálat végén, amennyiben kéri, személyre szabott információt kap a saját személyiségéről.",
+            "Minden válasza titkos, s csupán egy szám alapján azonosítható (és nem a nevével). Az anonim adatokat, kutatási céllal, egy online adatbázisban archiváljuk, melyet a Nyitott Tudomány Központ (Center for Open Sciences, www.cos.io) kezel. Minden kérdésre választ kell adnia ahhoz, hogy a kérdőív teljes legyen, de a részvételét negatív következmények nélkül, bármikor megszakíthatja. A kutatás lehetséges hozadékai közé tartozik, többek között, az emberek és életük jobb megértése kulturális kontextusokban. Ismert kockázatok nincsenek.",
+            "Ha kérdése van a kutatás, illetve a résztvevők jogait, kérjük lépjen kapcsolatba a felelős személy az adatgyűjtés a területen [Vass Zoltán (dr.vass.zoltan@gmail.com), Károli Gáspár Református Egyetem Egyház Magyarországon, Budapest ], vagy a Kutatási Hivatal a University of California at IRB@ucr.edu. Köszönjük együttműködését."
+        ],
+        "title": "Beleegyezés a kutatásban való részvételhez",
+        "versionHistory": "(Egyetértés formában verzió: október 14, 2016)"
     },
     // For testing purposes ONLY
     "test": {
