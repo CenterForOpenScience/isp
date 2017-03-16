@@ -516,6 +516,18 @@ const consentText = {
         "title": "Согласие на участие в исследовании",
         "versionHistory": "(Версия формы согласия: 14 октября 2016 г.)"
     },
+    //Slovakian
+    "SLOVAK1.SK": {
+        "buttonLabel": "Prosím označte súhlas s podmienkami, aby ste mohli pkračovať",
+        "consentLabel": "Prečítal/a som si a porozumel/a som horeuvedeným výrokom a súhlasím s účasťou vo výskume.",
+        "paragraphs": [
+            "Vitajte v našom výskume. Vaša účasť bude jednorazová a zaberie menej ako jednu hodinu. Budete požiadaní opísať situáciu, ktorú ste nedávno zažili a to ako ste sa v danej situácii správali. Položíme vám tiež nejaké otázky o vašich hodnotách a postojoch. Na konci štúdie, ak budete chcieť, dostanete informáciu o vašej osobnosti.",
+            "Všetky vaše odpovede sú dôverné a identifikované iba číslom a nie vaším menom. Pre účely výskumu budú tieto dáta v anonymnej podobe archivované v online databáze Centra pre otvorený výskum (www.cos.io). Aby ste výskum dokončili, musíte odpovedať na všetky otázky, ale vašu účasť môžete prerušiť kedykoľvek bez následkov. Potencionálny prínos tohto výskumu je v zlepšení pochopenia ľudí a ich životov v rôznych kultúrach. Nie sú známe žiadne riziká vašej účasti vo výskume.",
+            "Ak máte nejaké otázky o tomto výskume alebo o vašich právach ako účastníka výskumu, môžete kontaktovať Petra Halamu z Ústavu experimentálnej psychológie CSPV SAV, ktorý je zodpovedný za zber dát vo vašej krajine alebo kanceláriu pre integritu výskumu na Univerzite v Kalifornii, Riverside, na adrese IRB@ucr.edu. Veľmi si vážime vašu ochotu zúčastniť sa výskumu."
+        ],
+        "title": "Súhlas s účasťou vo výskume",
+        "versionHistory": "(Formulár súhlasu Verzia 14. Október 2016)"
+    },
     // Slovenian
     "SLOVE1.SI": {
         "buttonLabel": "Prosimo da sprejmete pogoje, da lahko nadaljujete",
