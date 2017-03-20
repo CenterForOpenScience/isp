@@ -622,6 +622,40 @@ const consentText = {
         "title": "Beleegyezés a kutatásban való részvételhez",
         "versionHistory": "(Egyetértés formában verzió: október 14, 2016)"
     },
+    // Portugese
+    "BRAZ1.PT": {
+        "buttonLabel": "Por favor, aceite os termos para continuar",
+        "consentLabel": "Eu li e entendi as declarações acima e concordo em participar.",
+        "paragraphs": [
+            "Welcome to our study. Your participation will be in one session and will take less than one hour. You will be asked to describe a situation you experienced recently and your behaviors in it. You will also be asked some questions about your values and attitudes. At the end of the study, if you choose, you will receive personalized information about your personality.",
+            "Todas as suas respostas serão confidenciais e identificadas apenas por um número (não pelo seu nome). Por motivos de pesquisa, estes dados anônimos  podem ser arquivados em um banco de dados online mantido pelo Centro de Ciência Aberta (www.cos.io). Cada questão deve ser respondida em ordem para completar a pesquisa mas você pode descontinuar sua participação em qualquer momento sem nenhuma penalidade. O benefício potencial desta pesquisa inclui a melhora da compreensão das pessoas e suas vidas em contextos culturais diversos. Nao há riscos conhecidos.",
+            "Se você tiver alguma questão sobre este estudo ou seus direitos como participante você pode contactar (Ana Torres, arr.torres@gmail.com, Federal University of Paraíba, João Pessoa) responsável pela coleta de dados em sua localidade ou a Universidade da California, Riversde, Departamento de Integridade em  Pesquisa, pelo email IRB@ucr.edu. Nós sinceramente apreciamos sua colaboração."
+        ],
+        "title": "Consentimento para participar na pesquisa",
+        "versionHistory": "(Versão do formulário de consentimento: 14 de outubro de 2016)"
+    },
+    "BRAZ2.PT": {
+        "buttonLabel": "Por favor, aceite os termos para continuar",
+        "consentLabel": "Eu li e entendi as declarações acima e concordo em participar.",
+        "paragraphs": [
+            "Welcome to our study. Your participation will be in one session and will take less than one hour. You will be asked to describe a situation you experienced recently and your behaviors in it. You will also be asked some questions about your values and attitudes. At the end of the study, if you choose, you will receive personalized information about your personality.",
+            "Todas as suas respostas serão confidenciais e identificadas apenas por um número (não pelo seu nome). Por motivos de pesquisa, estes dados anônimos  podem ser arquivados em um banco de dados online mantido pelo Centro de Ciência Aberta (www.cos.io). Cada questão deve ser respondida em ordem para completar a pesquisa mas você pode descontinuar sua participação em qualquer momento sem nenhuma penalidade. O benefício potencial desta pesquisa inclui a melhora da compreensão das pessoas e suas vidas em contextos culturais diversos. Nao há riscos conhecidos.",
+            "Se você tiver alguma questão sobre este estudo ou seus direitos como participante você pode contactar (Daniela S. Zanini, dazanini@yahoo.com, Pontifical Catholic University of Goiás) responsável pela coleta de dados em sua localidade ou a Universidade da California, Riversde, Departamento de Integridade em  Pesquisa, pelo email IRB@ucr.edu. Nós sinceramente apreciamos sua colaboração."
+        ],
+        "title": "Consentimento para participar na pesquisa",
+        "versionHistory": "(Versão do formulário de consentimento: 14 de outubro de 2016)"
+    },
+    "PORT1.PT": {
+        "buttonLabel": "Por favor, aceite os termos para continuar",
+        "consentLabel": "Eu li e entendi as declarações acima e concordo em participar.",
+        "paragraphs": [
+            "Welcome to our study. Your participation will be in one session and will take less than one hour. You will be asked to describe a situation you experienced recently and your behaviors in it. You will also be asked some questions about your values and attitudes. At the end of the study, if you choose, you will receive personalized information about your personality.",
+            "Todas as suas respostas serão confidenciais e identificadas apenas por um número (não pelo seu nome). Por motivos de pesquisa, estes dados anônimos  podem ser arquivados em um banco de dados online mantido pelo Centro de Ciência Aberta (www.cos.io). Cada questão deve ser respondida em ordem para completar a pesquisa mas você pode descontinuar sua participação em qualquer momento sem nenhuma penalidade. O benefício potencial desta pesquisa inclui a melhora da compreensão das pessoas e suas vidas em contextos culturais diversos. Nao há riscos conhecidos.",
+            "Se tiver alguma dúvida sobre este estudo ou os seus direitos como participante, pode contactar (Joana Henriques Calado, joanahenriquescalado@gmail.com, Universidade de Lisboa) responsável pela recolha de dados na sua localidade ou na Universidade da Califórnia, Riversde, Departamento de Integridade Em Research, por email IRB@ucr.edu. Agradecemos sinceramente a sua colaboração."
+        ],
+        "title": "Consentimento para participar na pesquisa",
+        "versionHistory": "(Versão do formulário de consentimento: 14 de outubro de 2016)"
+    },
     // For testing purposes ONLY
     "test": {
         "buttonLabel": "Please accept terms to continue",
