@@ -881,7 +881,7 @@ export default {
         "rsq": {
             "item": {
                 "SomoneCountedon": "Počíta sa s tým, že niekto prítomný (iný než vy sám), niečo urobí.",
-                "abusedVictimized": "Ste zneužívaný/á alebo vám je ubližujú.",
+                "abusedVictimized": "Ste zneužívaný/á alebo vám ubližujú",
                 "adviceYou": "Iní chcú od vás poradiť.",
                 "ambition": "Ambície môžu byť vyjadrené alebo demonštrované.",
                 "anxietyInducing": "Situácia potencionálne vyvoláva úzkosť.",

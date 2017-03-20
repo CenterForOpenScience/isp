@@ -114,7 +114,7 @@ export default {
     },
     "exitpage": {
         "line1": "Köszönjük a részvételét!",
-        "line2": "Válaszaidat elmentettük."
+        "line2": "Válaszait elmentettük"
     },
     "feedback": {
         "agree": "Barátságosság",
