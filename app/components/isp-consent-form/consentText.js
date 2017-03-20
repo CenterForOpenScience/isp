@@ -587,6 +587,18 @@ const consentText = {
         "title": "अनुसन्धान में भाग लेने की सहमति",
         "versionHistory": "(सहमति प्रपत्र संस्करण: 14 अक्टूबर 2016)"
     },
+    // Latvian
+    "LATVIA1.LV": {
+        "buttonLabel": "Lūdzu akceptējiet nosacījumus, lai turpinātu",
+        "consentLabel": "Esmu izlasījis/-usi un sapratis/-usi augstāk minētos apgalvojumus un piekrītu piedalīties.",
+        "paragraphs": [
+            "Laipni lūgti mūsu pētījumā. Jūsu dalība būs vienā sesijā un prasīs mazāk kā stundu laika. Jums tiks lūgts aprakstīt kādu nesen piedzīvotu situāciju un jūsu rīcību tajā. Jums arī tiks uzdoti daži jautājumi par jūsu vērtībām un attieksmēm. Pētījuma nobeigumā, ja vēlēsieties, varēsiet saņemt personalizētu informāciju par Jūsu personību.",
+            "Visas Jūsu atbildes būs konfidenciālas un identificētas tikai ar numuru (un nevis Jūsu vārdu). Pētniecības mērķiem šīe anonīmie dati var tikt arhivēti tiešsaistes datubāzē, ko uztur Atvērtās zinātnes centrs (www.cos.io). Lai pabeigtu aptauju, nepieciešams atbildēt uz visiem jautājumiem, bet Jūs varat nesodīti pārtraukt savu dalību jebkurā brīdī. Iespējamie ieguvumi no šī pētījuma ietver izpratnes uzlabošanu par cilvēkiem un viņu dzīvēm dažādos kultūras kontekstos. Šim pētījumam nav zināmu risku.",
+            "Ja Jums ir jautājumi par šo pētījumu vai par savām pētījuma dalībnieka tiesībām, jūs varat kontaktēties ar Latvijas Universitātes profesoru Ģirtu Dimdiņu, girts.dimdins@lu.lv, kurš ir atbildīgs par datu vākšanu Jūsu valstī, vai arī ar Kalifornijas Universitātes Riversaidā Pētniecības Ētikas biroju, IRB@ucr.edu. Mēs no sirds novērtējam Jūsu atsaucību."
+        ],
+        "title": "Piekrišana dalībai pētījumā",
+        "versionHistory": "(Piekrišana forma versija: 2016 14. oktobris)"
+    },
     // Marathi
      "INDIA2.MR": {
         "buttonLabel": "कृपया ह्याच्या अटी मान्य करा.",
