@@ -634,6 +634,18 @@ const consentText = {
         "title": "Consent to Participate in Research",
         "versionHistory": "(Consent form version: 14 October 2016)"
     },
+    // Norwegian
+    "NORW1.NO": {
+        "buttonLabel": "Vennligst godta betingelsene for å fortsette",
+        "consentLabel": "Jeg har lest og forstått erklæringen over og samtykker til å delta",
+        "paragraphs": [
+            "Velkommen til vår studie. Du vil delta i én økt som vil ta mindre enn en time. Du vil bli spurt om å beskrive en situasjon du har opplevd, og din atferd i denne. Du vil også bli spurt noen spørsmål om dine verdier og holdninger. Hvis du ønsker, vil du ved studiens slutt motta informasjon om din personlighet.",
+            "Alle svarene dine vil være konfidensielle og kun identifiserbart ved et nummer (ikke ditt navn). Disse anonyme dataene kan bli arkivert i en online database av the Center for Open Science (www.cos.io) for bruk i senere forskning. Hvert spørsmål må besvares for å fullføre dette spørreskjemaet, men du kan avbryte din deltagelse når som helst uten konsekvenser. Den potensielle fordelen med denne studien inkluderer økt forståelse for personer og deres liv på tvers av kulturell kontekst. Det er ingen kjent risiko.",
+            "Hvis du har noen spørsmål om denne studien eller dine rettigheter som deltager, kan du kontakte (Siri Leknes (sirileknes@gmail.com, Universitetet i Oslo), som er ansvarlig for datainnsamling i ditt område, eller universitetet i California, Riverside, Office of Research Integrity på e-posten IRB@ucr.edu. Vi setter svært pris på ditt samarbeid."
+        ],
+        "title": "Samtykke til deltagelse i forskning",
+        "versionHistory": "(Samtykke skjema versjon: 14 oktober 2016)"
+    },
     // Hungarian
     "HUNG1.HU": {
         "buttonLabel": "A folytatáshoz kérjük, fogadja el a feltételeket.",
