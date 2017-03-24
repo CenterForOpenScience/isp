@@ -14,8 +14,8 @@ export default Ember.Component.extend({
         for (const locale of locales) {
             // There are three things we can do with a language option:
             // - Show it in the flag picker (decided by whether a translation file exists)
-            // - Show it in development, but hide it on a live server (decided by a config option + a premade list of finished languages)
-            // - Show it on a live server like staging or production (if the language is in `languagesForProduction`)
+            // - Show it in development or staging, but hide it on a live server (decided by a config option + a whitelist of finished languages)
+            // - Show it even in production (if the language is in `languagesForProduction`)
             if (excludeTestLocale && !languagesForProduction.includes(locale)) {
                 continue;
             }
