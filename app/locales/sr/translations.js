@@ -361,7 +361,7 @@ export default {
                         "label": "U svetu"
                     },
                     "6": {
-                        "label": "На послу"
+                        "label": "Na poslu"
                     }
                 },
                 "label": "U kojoj meri se, po Vašem mišljenju, Vaš život odvija u sledećim okruženjima?",

@@ -46,6 +46,7 @@ To login via OSF:
   * OSF_AUTH_URL=https://staging-accounts.osf.io
   * JAMDB_URL=https://staging-metadata.osf.io
   * EXPERIMENT_ID=\<jam db document ID referencing the desired ISP study\>
+  * USE_UNRELEASED_TRANSLATIONS=<true|false>
 
 * Find jam db document id at: https://staging-experimenter.osf.io/experiments/ (this is the EXPERIMENT_ID)
 * Create a new participant at https://staging-experimenter.osf.io/participants

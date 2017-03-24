@@ -69,9 +69,12 @@ module.exports = function(environment) {
     // when they exited the study. If false, start from the beginning.
     continueSession: true,
 
-    // Whether to include unfinished or testing locales. Production refers to an ember build flag, so this applies to
-    //   both staging and production servers. (but translations would be available when running locally)
-    excludeTestLocale: environment === 'production',
+    // Whether to exclude locales that have not been marked as ok for production use.
+    //   If the environment variable is not `true`, the language picker modal will only show things that are
+    //   whitelisted in countries.js#languagesForProduction . Note that env vars are parsed as strings, not booleans.
+    // This setting lets us run translations through an "approval process" on staging, but not show the translations on
+    //   production- without having to cherry-pick commit history.
+    excludeTestLocale: !(process.env.USE_UNRELEASED_TRANSLATIONS === 'true'),
   };
 
   return ENV;
