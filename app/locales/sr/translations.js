@@ -157,15 +157,15 @@ export default {
             "neutral": "Neutralno; nemam mišljenje o ovome"
         },
         "char": {
-            "extremelyChar": "Izrazito svojstveno",
-            "extremelyUnchar": "Izrazito nesvojstveno",
-            "fairlyChar": "Umereno svojstveno",
-            "fairlyUnchar": "Umereno nesvojstveno",
-            "neutral": "Niti je svojstveno niti je nesvojstveno",
-            "quiteChar": "Prilično svojstveno",
-            "quiteUnchar": "Prilično nesvojstveno",
-            "somewhatChar": "Pomalo svojstveno",
-            "somewhatUnchar": "Pomalo nesvojstveno"
+            "extremelyChar": "Izrazito karakteristično",
+            "extremelyUnchar": "Izrazito nekarakteristično",
+            "fairlyChar": "Umereno karakteristično",
+            "fairlyUnchar": "Umereno nekarakteristično",
+            "neutral": "Niti je karakteristično niti je nekarakteristično",
+            "quiteChar": "Prilično karakteristično",
+            "quiteUnchar": "Prilično nekarakteristično",
+            "somewhatChar": "Pomalo karakteristično",
+            "somewhatUnchar": "Pomalo nekarakteristično"
         },
         "continueLabel": "Nastavite",
         "describe": {
@@ -325,7 +325,7 @@ export default {
                         "label": "Bio bih u iskušenju da koristim falsifikovan novac kada bih znao da me neće uhvatiti."
                     },
                     "7": {
-                        "label": "Posedovanje velike količne novca za mene nije od naročitog značaja."
+                        "label": "Posedovanje velike količine novca za mene nije od naročitog značaja."
                     },
                     "8": {
                         "label": "Veoma bi mi godilo da posedujem skupe, luksuzne stvari."
@@ -495,184 +495,184 @@ export default {
             "5": {
                 "items": {
                     "1": {
-                        "label": "Je otvorena, druželjubiva"
+                        "label": "... je otvorena, druželjubiva"
                     },
                     "10": {
-                        "label": "Je zainteresovana za mnogo različitih stvari"
+                        "label": "... je zainteresovana za mnogo različitih stvari"
                     },
                     "11": {
-                        "label": "Retko se oseća uzbuđeno ili nestrpljivo"
+                        "label": "... retko se oseća uzbuđeno ili nestrpljivo"
                     },
                     "12": {
-                        "label": "Sklona je da pronalazi greške drugima"
+                        "label": "... sklona je da pronalazi greške drugima"
                     },
                     "13": {
-                        "label": "Je pouzdana, stabilna"
+                        "label": "... je pouzdana, stabilna"
                     },
                     "14": {
-                        "label": "Je mrzovoljna, promenljivog raspoloženja"
+                        "label": "... je mrzovoljna, promenljivog raspoloženja"
                     },
                     "15": {
-                        "label": "Je domišljata, pronalazi pametne načine da se nešto uradi"
+                        "label": "... je domišljata, pronalazi pametne načine da se nešto uradi"
                     },
                     "16": {
-                        "label": "Je najčešće tiha"
+                        "label": "... je najčešće tiha"
                     },
                     "17": {
-                        "label": "Ne saoseća mnogo sa drugima"
+                        "label": "... ne saoseća mnogo sa drugima"
                     },
                     "18": {
-                        "label": "Je sistematična, voli da drži stvari u redu"
+                        "label": "... je sistematična, voli da drži stvari u redu"
                     },
                     "19": {
-                        "label": "Ume da bude napeta"
+                        "label": "... ume da bude napeta"
                     },
                     "2": {
-                        "label": "Je saosećajna, mekog srca"
+                        "label": "... je saosećajna, mekog srca"
                     },
                     "20": {
-                        "label": "Je fascinirana umetnošću, muzikom ili književnošću"
+                        "label": "... je fascinirana umetnošću, muzikom ili književnošću"
                     },
                     "21": {
-                        "label": "Je dominantna, ponaša se kao vođa"
+                        "label": "... je dominantna, ponaša se kao vođa"
                     },
                     "22": {
-                        "label": "Započinje svađe sa drugima"
+                        "label": "... započinje svađe sa drugima"
                     },
                     "23": {
-                        "label": "Ima poteškoća da započne rad na nekom zadatku"
+                        "label": "... ima poteškoća da započne rad na nekom zadatku"
                     },
                     "24": {
-                        "label": "Oseća se sigurno i zadovoljno u svojoj koži"
+                        "label": "... oseća se sigurno i zadovoljno u svojoj koži"
                     },
                     "25": {
-                        "label": "Izbegava intelektualne, filozofske diskusije"
+                        "label": "... izbegava intelektualne, filozofske diskusije"
                     },
                     "26": {
-                        "label": "Je manje aktivna od ostalih ljudi"
+                        "label": "... je manje aktivna od ostalih ljudi"
                     },
                     "27": {
-                        "label": "Je sklona opraštanju"
+                        "label": "... je sklona opraštanju"
                     },
                     "28": {
-                        "label": "Ume da bude pomalo nemarna"
+                        "label": "... ume da bude pomalo nemarna"
                     },
                     "29": {
-                        "label": "Je emocionalno stabilna, ne uznemiri se lako"
+                        "label": "... je emocionalno stabilna, ne uznemiri se lako"
                     },
                     "3": {
-                        "label": "Je sklona da bude neorganizovana"
+                        "label": "... je sklona da bude neorganizovana"
                     },
                     "30": {
-                        "label": "Nije kreativna"
+                        "label": "... nije kreativna"
                     },
                     "31": {
-                        "label": "Je ponekada stidljiva, introvertna"
+                        "label": "... je ponekada stidljiva, introvertna"
                     },
                     "32": {
-                        "label": "Pomaže i nesebična je prema drugima"
+                        "label": "... pomaže i nesebična je prema drugima"
                     },
                     "33": {
-                        "label": "Održava stvari čistim i urednim"
+                        "label": "... održava stvari čistim i urednim"
                     },
                     "34": {
-                        "label": "Mnogo brine"
+                        "label": "... mnogo brine"
                     },
                     "35": {
-                        "label": "Ceni umetnost i lepotu"
+                        "label": "... ceni umetnost i lepotu"
                     },
                     "36": {
-                        "label": "Teško joj je da utiče na druge"
+                        "label": "... teško joj je da utiče na druge"
                     },
                     "37": {
-                        "label": "Je ponekad gruba prema drugima"
+                        "label": "... je ponekad gruba prema drugima"
                     },
                     "38": {
-                        "label": "Je efikasna, završava poslove"
+                        "label": "... je efikasna, završava poslove"
                     },
                     "39": {
-                        "label": "Se često oseća tužno"
+                        "label": "... se često oseća tužno"
                     },
                     "4": {
-                        "label": "Je opuštena, lako podnosi stres"
+                        "label": "... je opuštena, lako podnosi stres"
                     },
                     "40": {
-                        "label": "Je kompleksna, duboko promišlja"
+                        "label": "... je kompleksna, duboko promišlja"
                     },
                     "41": {
-                        "label": "Je puna energije"
+                        "label": "... je puna energije"
                     },
                     "42": {
-                        "label": "Je sumnjičava prema namerama drugih"
+                        "label": "... je sumnjičava prema namerama drugih"
                     },
                     "43": {
-                        "label": "Je pouzdana, na koju se uvek može računati"
+                        "label": "... je pouzdana, na koju se uvek može računati"
                     },
                     "44": {
-                        "label": "Kontroliše svoje emocije"
+                        "label": "... kontroliše svoje emocije"
                     },
                     "45": {
-                        "label": "Ima poteškoća da zamišlja stvari"
+                        "label": "... ima poteškoća da zamišlja stvari"
                     },
                     "46": {
-                        "label": "Je pričljiva"
+                        "label": "... je pričljiva"
                     },
                     "47": {
-                        "label": "Ume da bude hladna i bezosećajna"
+                        "label": "... ume da bude hladna i bezosećajna"
                     },
                     "48": {
-                        "label": "Ostavlja nered iza sebe, ne čisti stvari"
+                        "label": "... ostavlja nered iza sebe, ne čisti stvari"
                     },
                     "49": {
-                        "label": "Je retko uznemirena ili uplašena"
+                        "label": "... je retko uznemirena ili uplašena"
                     },
                     "5": {
-                        "label": "Nema mnogo umetničkih interesovanja"
+                        "label": "... nema mnogo umetničkih interesovanja"
                     },
                     "50": {
-                        "label": "Smatra da su poezija i pozorišne predstave dosadni"
+                        "label": "... smatra da su poezija i pozorišne predstave dosadni"
                     },
                     "51": {
-                        "label": "Više voli da neko drugi preuzme vođstvo"
+                        "label": "... više voli da neko drugi preuzme vođstvo"
                     },
                     "52": {
-                        "label": "Je učtiva, ljubazna prema drugima"
+                        "label": "... je učtiva, ljubazna prema drugima"
                     },
                     "53": {
-                        "label": "Je uporna, radi na zadatku dok ga ne zavši"
+                        "label": "... je uporna, radi na zadatku dok ga ne zavši"
                     },
                     "54": {
-                        "label": "Je sklona da se oseća potišteno"
+                        "label": "... je sklona da se oseća potišteno"
                     },
                     "55": {
-                        "label": "Ne interesuju je apstrakne ideje"
+                        "label": "... ne interesuju je apstrakne ideje"
                     },
                     "56": {
-                        "label": "Pokazuje mnogo enzuzijazma"
+                        "label": "... pokazuje mnogo entuzijazma"
                     },
                     "57": {
-                        "label": "Pretpostavlja najbolje o ljudima"
+                        "label": "... pretpostavlja najbolje o ljudima"
                     },
                     "58": {
-                        "label": "Se ponekada ponaša neodgovorno"
+                        "label": "... se ponekada ponaša neodgovorno"
                     },
                     "59": {
-                        "label": "Je temperamentna, lako se emocionalno uzbudi"
+                        "label": "... je temperamentna, lako se emocionalno uzbudi"
                     },
                     "6": {
-                        "label": "Je samopouzdana"
+                        "label": "... je samopouzdana"
                     },
                     "60": {
-                        "label": "Je originalna, ima nove ideje"
+                        "label": "... je originalna, ima nove ideje"
                     },
                     "7": {
-                        "label": "Tretira druge sa poštovanjem"
+                        "label": "... tretira druge sa poštovanjem"
                     },
                     "8": {
-                        "label": "Je sklona lenjosti"
+                        "label": "... je sklona lenjosti"
                     },
                     "9": {
-                        "label": "Ostaje optimistična nakon što doživi neuspeh"
+                        "label": "... ostaje optimistična nakon što doživi neuspeh"
                     }
                 },
                 "label": "Molimo Vas ocenite u kojoj meri se slažete sa narednim iskazima: \n\nJa sam osoba koja...",
@@ -864,7 +864,7 @@ export default {
                 },
                 "label": "Koliko vas dobro opisuje svaki od sleldećih iskaza?",
                 "options": {
-                    "aLittle": "Opisuje me u maloj meri",
+                    "aLittle": "Opisuje me u veoma maloj meri",
                     "exactly": "Opisuje me u potpunosti",
                     "moderately": "Opisuje me umereno",
                     "notAtAll": "Uopšte me ne opisuje",
@@ -880,7 +880,7 @@ export default {
     "qsort": {
         "rsq": {
             "item": {
-                "SomoneCountedon": "Na nekoga prisutnog (ali ne od vas) se računa da će uraditi nešto.",
+                "SomoneCountedon": "Na nekoga prisutnog (ali ne na Vas) se računa da će uraditi nešto.",
                 "abusedVictimized": "Zloupotrebljavaju vas ili ste žrtva prevare.",
                 "adviceYou": "Drugi žele savet od Vas.",
                 "ambition": "Moguće je izraziti ili pokazati ambiciju.",
@@ -895,7 +895,7 @@ export default {
                 "closeRelationships": "Ljudi koji su prisutni su u međusobno bliskim odnosima.",
                 "comparingThemselves": "Ljudi se međusobno porede.",
                 "competing": "Osobe se međusobno takmiče.",
-                "complex": "Situacije je složena.",
+                "complex": "Situacija je složena.",
                 "complimentingYou": "Neko Vam daje komplimente ili pohvale.",
                 "conformToOthers": "Pod pritiskom ste da se prilagodite ponašanju drugih.",
                 "convinceYou": "Neko pokušava da Vas ubedi u nešto.",
@@ -922,7 +922,7 @@ export default {
                 "intellectuallyStimulating": "Situacija je intelektualno stimulativna.",
                 "intelligence": "Inteligencija je važna (na primer: diskusija intelektualnog karaktera, složen problem koji je potrebno rešiti)",
                 "jobDone": "Treba da se obavi neki posao.",
-                "masculinity": "Muškost može da se izrazi.",
+                "masculinity": "Muževnost može da se izrazi.",
                 "minorDetails": "Sitni detalji su važni.",
                 "money": "Novac je važan.",
                 "moralIssues": "Moralna i etička pitanja su od značaja.",
@@ -948,7 +948,7 @@ export default {
                 "reassurance": "Neko ima potrebu za ohrabrenjem.",
                 "reassuringPresent": "Prisutna je osoba koja ohrabruje.",
                 "relevantHealth": "Situacija je važna za vaše zdravlje (na primer: moguća bolest, poseta lekaru).",
-                "religion": "Religija je važna za ovu situaciji (na primer religiozna služba ili diskusija).",
+                "religion": "Religija je važna za ovu situaciju (na primer religiozna služba ili diskusija).",
                 "romanticPartners": "Vaš potencijalni ili aktuelni romantični partner je prisutan.",
                 "ruminateDaydream": "Moguće je razmišljati, sanjariti ili maštati.",
                 "selfControl": "Samokontrola je neophodna (za Vas ili za druge)",
@@ -976,11 +976,11 @@ export default {
             "1": {
                 "activity": "Aktivnost:",
                 "categories": {
-                    "characteristic": "Svojstveno",
+                    "characteristic": "Karakteristično",
                     "neutral": "Neutralno",
-                    "uncharacteristic": "Nesvojstveno"
+                    "uncharacteristic": "Nekarakteristično"
                 },
-                "instructions": "Sada nešto detljanije opišite situaciju koju ste doživeli. Pojaviće se, jedno po jedno, ukupno 90 Iskaza. Postavite svaki iskaz u jedno od tri polja. Upotrebite polje \"Svojstveno\"  sa desne strane za iskaze koje tačno opisuju situaciju; upotrebite polje \"Nesvojstveno\"  sa leve strane za iskaze koji nisu adekvatni opisi situacije; upotrebite polje \"Neutralno\"  za iskaze koji nemaju veze sa situacijom, koji su nejasni ili za koje niste sigurni. Kada zavšite, pritisnite \"Nastavi\".",
+                "instructions": "Sada nešto detaljnije opišite situaciju koju ste doživeli. Pojaviće se, jedan po jedan, ukupno 90 iskaza. Postavite svaki iskaz u jedno od tri polja. Upotrebite polje \"Karakteristično\"  sa desne strane za iskaze koji tačno opisuju situaciju; upotrebite polje \"Nije karakteristično\"  sa leve strane za iskaze koji nisu adekvatni opisi situacije; upotrebite polje \"Neutralno\"  za iskaze koji nemaju veze sa situacijom, koji su nejasni ili za koje niste sigurni. Kada zavšite, pritisnite \"Nastavi\".\r\n",
                 "itemsLeft": {
                     "one": "{{count}} iskaza preostalo",
                     "other": "{{count}} iskaza preostalo"
@@ -990,15 +990,15 @@ export default {
             },
             "2": {
                 "categories": {
-                    "extremelyChar": "Izrazito svojstveno",
-                    "extremelyUnchar": "Izrazito nesvojstveno",
-                    "fairlyChar": "Umereno svojstveno",
-                    "fairlyUnchar": "Umereno nesvojstveno",
-                    "neutral": "Niti je svojstveno niti je nesvojstveno",
-                    "quiteChar": "Prilično svojstveno",
-                    "quiteUnchar": "Prilično nesvojstveno",
-                    "somewhatChar": "Pomalo svojstveno",
-                    "somewhatUnchar": "Pomalo nesvojstveno"
+                    "extremelyChar": "Izrazito karakteristično",
+                    "extremelyUnchar": "Izrazito nekarakteristično",
+                    "fairlyChar": "Umereno karakteristično",
+                    "fairlyUnchar": "Umereno nekarakteristično",
+                    "neutral": "Niti je karakteristično niti je nekarakteristično",
+                    "quiteChar": "Prilično karakteristično",
+                    "quiteUnchar": "Prilično nekarakteristično",
+                    "somewhatChar": "Pomalo karakteristično",
+                    "somewhatUnchar": "Pomalo nekarakteristično"
                 },
                 "instructions": "Sada Vas molimo da opišete situaciju preciznije. Iz dosadašnja tri polja sada rasporedite iskaze u devet polja.  Možete premeštati iskaze iz jednog u drugo polje, ali ako postavite previše iskaza u jedno polje, zaglavlje će postati crveno. Zaglavlje će postati zeleno kada se u polju bude nalazio odgovarajući broj iskaza."
             }
@@ -1038,7 +1038,7 @@ export default {
                         "options": {
                             "average": "Prosečna",
                             "least": "Loša",
-                            "most": "Dobrostojeća"
+                            "most": "veoma dobrostojeća"
                         }
                     },
                     "6": {

@@ -983,7 +983,7 @@ export default {
                 "instructions": "A sada detaljnije opišite situaciju koju ste doživjeli. U slijedu će vam se prikazati 90 mogućih opisa. Svaki od njih premjestite u jedan od tri okvira. Za one koji točno opisuju situaciju izaberite okvir s desne strane s oznakom \"Karakteristično\", za opise koji situaciju ne opisuju točno ili je opisuju loše, izaberite okvir \"Nije karakteristično\" s lijeve strane, a za opise koji su nevažni, nejasni ili za koje niste sigurni kamo spadaju izaberite \"Neutralno\". Kada završite pritisnite \"Nastavi\".",
                 "itemsLeft": {
                     "one": "{{count}} roj preostalih opisa",
-                    "other": "{{count}} stavka ostavi"
+                    "other": "{{count}} broj preostalih opisa"
                 },
                 "location": "Mjesto:",
                 "othersPresent": "Ostali prisutni:"
