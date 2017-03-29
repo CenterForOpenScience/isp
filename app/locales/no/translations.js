@@ -117,31 +117,31 @@ export default {
         "line2": "Dine svar er registrert."
     },
     "feedback": {
-        "agree": "Varme",
-        "consc": "Kontroll",
+        "agree": "Medmenneskelighet",
+        "consc": "Planmessighet",
         "exitButton": "Gå ut.",
         "extra": "Ekstraversjon",
-        "firstSection": "Basert på årtier med forskning har personlighetsforskere blitt enige om at de viktigste individuelle forskjellene i personlighetstrekk kan beskrives av fem grunnleggede trekk, kjent som \"Big Five\" (de fem store): Ekstraversjon, Varme, Kontroll, Følelsesmessig stabilitet og Åpenhet for nye erfaringer. Spørsmålene du har besvart gir deg til sammen en skåre på hvert av disse trekkene, og resultatene dine er beskrevet under.",
+        "firstSection": "Basert på årtier med forskning har personlighetsforskere blitt enige om at de viktigste individuelle forskjellene i personlighetstrekk kan beskrives av fem grunnleggede trekk, kjent som ʺBig Fiveʺ (de fem store): Ekstraversjon, Medmenneskelighet, Planmessighet, Følelsesmessig stabilitet og Åpenhet for nye erfaringer. Spørsmålene du har besvart gir deg til sammen en skåre på hvert av disse trekkene, og resultatene dine er beskrevet under.",
         "fourthSection": "Takk for deltakelsen!",
-        "hiAgree": "De med høye skårer er ofte omtenksome og høflige i sosiale interaksjoner, og liker å samarbeide med andre. De syns ofte det er lett å stole på folk, og de etablerer tilfredsstillende og nære relasjoner. De er mer sannsynlige til å være religiøse, til å engasjere seg i samfunnsmessige lederroller og frivillig arbeid. Eldre voksne skårer oftere høyt enn yngre voksne.",
-        "hiConsc": "De med høye skårer er ofte organiserte og ansvarsfulle. De jobber hardt for å oppnå målene sine, og gjennomføre de oppgavene de har begynt på. De med høye skårer får ofte høyere karakterer i skolen, og gjør det bedre i mange yrker. De er mer sannsynlige til å være religiøse og ha konservative politiske holdninger.",
+        "hiAgree": "De med høye skårer er ofte omtenksomme og høflige i sosiale interaksjoner, og liker å samarbeide med andre. De syns ofte det er lett å stole på folk, og de etablerer tilfredsstillende og nære relasjoner. De har større sannsynlighet for å være religiøse, engasjere seg i samfunnsmessige lederroller og frivillig arbeid. Eldre voksne skårer oftere høyt enn yngre voksne.",
+        "hiConsc": "De med høye skårer er ofte organiserte og ansvarsfulle. De jobber hardt for å oppnå målene sine, og gjennomføre de oppgavene de har begynt på. De med høye skårer får ofte høyere karakterer i skolen, og gjør det bedre i mange yrker. De har større sannsynlighet for å være religiøse og ha konservative politiske holdninger.",
         "hiExtra": "De med høye skårer er ofte snakkesalige og energiske. De liker å være blant folk, og er komfortable med å hevde seg i grupper. De med høye skårer har ofte flere venner og romantiske forhold, og blir oppfattet som populære. De er oftere engasjerte i samfunnsmessige lederroller og frivillig arbeid. Mange fortrekker også enerigsk musikk, trener oftere, og utøver ofte en sport. De opplever oftere positive følelser, og reagerer sterkere på positive hendelser.",
-        "hiNeurot": "De med høye skårer er ofte følelsesmessig sabile og motstandsdyktige. De er ofte rolige, selv i stressende situasjoner, og kan raskt komme seg etter negative hendelser. De som skårer høyt på følelsesmessig stabilitet opplever ofte i større grad en følelse av velvære.",
-        "hiOpen": "De med høye skårer er generelt åpne for nye aktiviteter og nye ideer. De er ofte kreative, intellektuelt nysgjerrige og glad i kunst og estetikk. De med høye skårer foretrekker, og gjør det ofte bedre innen, vitenskapelige og kunstneriske yrker. Mange foretrekker klassisk musikk, jazz, blues og rock.",
+        "hiNeurot": "De med høye skårer er ofte følelsesmessig stabile og motstandsdyktige. De er ofte rolige, selv i stressende situasjoner, og kan raskt komme seg etter negative hendelser. De som skårer høyt på følelsesmessig stabilitet opplever ofte i større grad en følelse av velvære.",
+        "hiOpen": "De med høye skårer er generelt åpne for nye aktiviteter og nye ideer. De er ofte kreative, intellektuelt nysgjerrige og glad i kunst og estetikk. De med høye skårer foretrekker, og gjør det ofte bedre innen vitenskapelige og kunstneriske yrker. Mange foretrekker klassisk musikk, jazz, blues og rock.",
         "labels": {
             "high": "Høy",
             "low": "Lav",
             "medium": "Middels"
         },
-        "loAgree": "De som skårer lavt uttrykker seg ofte direkte, selv om det medfører en risiko for å starte en diskusjon. De liker konkurranse, og er ofte skeptiske til andre sine intensjoner. De med lave skårer har ofte høyt lønnede jobber, og er mer sannsynlige til å bedrive risikofylt atferd, som røyking og aggressiv kjøring.",
-        "loConsc": "De med lave skårer er ofte spontane fremfor planmessige, og de syns det er lettere å se helheten enn detaljer. De foretrekker ofte å skifte oppgaver istedenfor å jobbe med en og en om gangen. De engasjerer seg oftere i riskiofylt atferd, som røyking, drikking av alkohol, samt bruk av andre rusmidler.",
-        "loExtra": "De med lave skårer er ofte mer sosialt og emosjonelt reservert. I utgangspunktet foretrekker de ofte å være alene eller med noen få nære venner, og holder tanker og følelser for seg selv. De engasjerer seg sjelden i spenningssøkende aktiviteter eller risikofylt atferd, som røyking eller drikking av alkohol.",
+        "loAgree": "De som skårer lavt uttrykker seg ofte direkte, selv om det medfører en risiko for å starte en diskusjon. De liker konkurranse, og er ofte skeptiske ovenfor andre sine intensjoner. De med lave skårer har ofte høyt lønnede jobber, og har større sannsynlighet for å bedrive risikofylt atferd, som røyking og aggressiv kjøring.",
+        "loConsc": "De med lave skårer er ofte spontane fremfor planmessige, og de syns det er lettere å se helheten enn detaljer. De foretrekker ofte å skifte oppgaver istedenfor å jobbe med en og en oppgave om gangen. De engasjerer seg oftere i riskiofylt atferd, som røyking, drikking av alkohol, samt bruk av andre rusmidler.",
+        "loExtra": "De med lave skårer er ofte mer sosialt og følelsesmessig reservert. I utgangspunktet foretrekker de ofte å være alene eller med noen få nære venner, og holder tanker og følelser for seg selv. De engasjerer seg sjelden i spenningssøkende aktiviteter eller risikofylt atferd, som røyking eller drikking av alkohol.",
         "loNeurot": "De med lave skårer er ofte følelsesmessig sensitive, og har humørsvingninger. De opplever oftere negative følelser, og reagerer sterkere til negative hendelser. Yngre voksne skårer ofte lavere enn eldre voksne.",
-        "loOpen": "De med lave skårer er ofte tradisjonelle, praktiske og liker å holde seg til den tradisjonelle måten å gjøre ting på. De foretrekker ofte det kjente fremfor det nye, og det konkrete fremfor det abstrakte. De med lave skårer foretrekker, og gjør det ofte bedre innen, konvensjonelle og praktiske yrker, som håndtverk og handel.",
+        "loOpen": "De med lave skårer er ofte tradisjonelle, praktiske og liker å holde seg til den tradisjonelle måten å gjøre ting på. De foretrekker ofte det kjente fremfor det nye, og det konkrete fremfor det abstrakte. De med lave skårer foretrekker, og gjør det ofte bedre innen konvensjonelle og praktiske yrker, som håndtverk og handel.",
         "neurot": "Følelsesmessig stabilitet",
         "open": "Åpenhet for nye erfaringer",
         "score": "Din skår av 100 mulige:",
-        "secondSection": "På hvert trekk vil en skår på over 60 være regnet som høy, og skårer under 40 regnes som lave. Beskrivelser av høye og lave skårer vil vises under. Dersom skåren din ligger mellom 40 og 60, så vil personligheten din være beskrevet som  gjennomsnittlig når det gjelder dette trekket.",
+        "secondSection": "På hvert trekk vil skårer på over 60 være regnet som høye, og skårer under 40 regnes som lave. Beskrivelser av høye og lave skårer vil vises under. Dersom skåren din ligger mellom 40 og 60, så vil personligheten din være beskrevet som  gjennomsnittlig når det gjelder dette trekket.",
         "thirdSection": "Vi håper at du har likt å være med på denne studien.",
         "title": "Din personlighet"
     },
@@ -169,7 +169,7 @@ export default {
         },
         "continueLabel": "Videre",
         "describe": {
-            "aGreatDeal": "Mye",
+            "aGreatDeal": "I stor grad",
             "aLittle": "Litt",
             "notAtAll": "Ikke i det hele tatt"
         },
@@ -183,8 +183,8 @@ export default {
         "changeButton": "Endre språk",
         "defaultError": "Vennligst prøv igjen senere",
         "errorHeading": "En feil oppstod under innlogging",
-        "invalidAuthError": "Ugyldig studie-ID eller deltager-ID",
-        "participantID": "Deltager-ID",
+        "invalidAuthError": "Ugyldig studie-ID eller deltaker-ID",
+        "participantID": "Deltaker-ID",
         "studyID": "Studie-ID",
         "youChose": "Du valgte:"
     },
@@ -283,7 +283,7 @@ export default {
                         "label": "Jeg er alltid optimistisk når det kommer til fremtiden min."
                     },
                     "4": {
-                        "label": "Jeg forventer knapt noen gang at ting skal gå i min retning."
+                        "label": "Jeg forventer nesten aldri at ting skal gå i min retning."
                     },
                     "5": {
                         "label": "Jeg stoler sjelden på at noe godt kommer til å hende meg."
@@ -331,7 +331,7 @@ export default {
                         "label": "Jeg hadde hatt stor glede av å eie dyre luksusvarer."
                     },
                     "9": {
-                        "label": "Jeg syns jeg fortjener mer respekt en den gjenomsnittlige person."
+                        "label": "Jeg syns jeg fortener mer respekt enn den gjennomsnittlige person."
                     }
                 },
                 "label": "Vennligst angi i hvilken grad du er enig eller uenig med de følgende påstandene:",
@@ -558,7 +558,7 @@ export default {
                         "label": "Kan være noe uforsiktig"
                     },
                     "29": {
-                        "label": "Er emosjonelt stabil, blir ikke lett opprørt"
+                        "label": "Er følelsesmessig stabil blir ikke lett opprørt."
                     },
                     "3": {
                         "label": "Har en tendens til å være uorganisert"
@@ -588,7 +588,7 @@ export default {
                         "label": "Noen ganger er frekk mot andre"
                     },
                     "38": {
-                        "label": "Er effektivt, får ting gjort"
+                        "label": "Er effektiv, får ting gjort."
                     },
                     "39": {
                         "label": "Ofte føler seg trist"
@@ -603,7 +603,7 @@ export default {
                         "label": "Er full av energi"
                     },
                     "42": {
-                        "label": "Er mistenksom til andre sine intensjoner"
+                        "label": "Er mistenksom ovenfor andre sine intensjoner."
                     },
                     "43": {
                         "label": "Er pålitelig, som alltid kan regnes med"
@@ -660,7 +660,7 @@ export default {
                         "label": "Er oppfarende, blir fort emosjonell"
                     },
                     "6": {
-                        "label": "Har en påståelig personlighet"
+                        "label": "Har en selvsikker personlighet."
                     },
                     "60": {
                         "label": "Er original, kommer på nye ideer"
@@ -675,7 +675,7 @@ export default {
                         "label": "Fortsetter å være optimistisk etter å ha opplevd et nederlag"
                     }
                 },
-                "label": "Vennligst angi i hvilken grad du er enig eller uenig med de følgende påstandene:\n\nJeg er noen som …",
+                "label": "Vennligst angi hvor enig eller uenig du er i følgende påstander: \n\nJeg er en person som...",
                 "options": {
                     "agree": "Enig",
                     "agreeStrongly": "Svært enig",
@@ -710,7 +710,7 @@ export default {
                     "4": {
                         "label": "Noen mennesker er generelt IKKE særlig lykkelige. Selv om de ikke er deprimerte ser de aldri ut til å være så lykkelige som de kunne vært. I hvilken grad beskriver dette deg?",
                         "options": {
-                            "aGreatDeal": "Mye",
+                            "aGreatDeal": "I stor grad",
                             "notAtAll": "Ikke i det hele tatt"
                         }
                     }
@@ -768,10 +768,10 @@ export default {
                         "label": "Religion gjør at folk kan flykte fra virkeligheten."
                     },
                     "12": {
-                        "label": "Å praktisere religion sammen med andre"
+                        "label": "Å utøve religion sammen forener folk."
                     },
                     "13": {
-                        "label": "Religiøse mennesker er mer sannsynlige til å opprettholde moralske stantarder enn ikke-religiøse."
+                        "label": "Religiøse mennesker har større sannsynlighet for å opprettholde moralske standarder enn ikke-religiøse."
                     },
                     "14": {
                         "label": "Religiøs tro leder til ikke-vitenskapelig tenkning."
@@ -789,7 +789,7 @@ export default {
                         "label": "Religion hjelper mennesker med å ta gode valg."
                     },
                     "3": {
-                        "label": "Å ha en religion bidrar til god mental helse."
+                        "label": "Å være religiøs bidrar til god mental helse."
                     },
                     "4": {
                         "label": "Religion sakker ned menneskelige fremskritt."
@@ -881,7 +881,7 @@ export default {
         "rsq": {
             "item": {
                 "SomoneCountedon": "Gjennomføringen av en handling er avhengig av noen andre enn deg.",
-                "abusedVictimized": "Du blir misbrukt eller gjort til et offer.",
+                "abusedVictimized": "Du blir utnyttet eller gjort til et offer.",
                 "adviceYou": "Andre ønsker råd fra deg.",
                 "ambition": "Ambisjoner kan uttrykkes eller demonstreres.",
                 "anxietyInducing": "Situasjonen er potensielt angstfremkallende.",
@@ -892,7 +892,7 @@ export default {
                 "blaming": "Noen klandrer deg for noe.",
                 "breakingRules": "Noen bryter reglene.",
                 "clearRules": "Klare regler definerer hva som er passende atferd (uansett om reglene følges eller ikke).",
-                "closeRelationships": "Personene tilstede har nære forhold til hverandre.",
+                "closeRelationships": "Personene til stede har nære forhold til hverandre.",
                 "comparingThemselves": "Folk sammenligner seg selv med andre.",
                 "competing": "Mennesker konkurrerer med hverandre.",
                 "complex": "Situasjonen er kompleks.",
@@ -902,13 +902,13 @@ export default {
                 "countingOnYou": "Noen stoler på at du gjør noe.",
                 "criticizing": "Noen kritiserer deg.",
                 "decision": "En avgjørelse må tas.",
-                "desiresGratified": "Ønsker kunne vært tilfredsstillende.",
-                "differentRoles": "Mennekser som er tilstede innehar ulike sosiale roller eller nivå av status.",
+                "desiresGratified": "Ønsker kunne vært tilfredsstilt (for eksempel mat, shopping, sex).",
+                "differentRoles": "Mennesker som er til stede innehar ulike sosiale roller eller status.",
                 "disagreeing": "Folk er uenige om noe.",
                 "dominate": "Noen prøver å bestemme over deg.",
-                "emotionalThreats": "Emosjonelle trusler er tilstedet.",
-                "emotionsExpressed": "Emosjoner kan uttrykkes.",
-                "entertainment": "Underholdning er tilstede.",
+                "emotionalThreats": "Følelsesmessige trusler er til stede.",
+                "emotionsExpressed": "Følelser kan uttrykkes.",
+                "entertainment": "Underholdning er til stede.",
                 "family": "Familie er viktig i denne situasjonen.",
                 "feelInadequate": "Situasjonen kunne fått deg til å føle deg utilstrekkelig.",
                 "femininity": "Femininitet kan uttrykkes.",
@@ -917,10 +917,10 @@ export default {
                 "goodImpression": "Det er viktig for deg å gjøre et godt inntrykk.",
                 "happeningOnce": "Mange ting skjer samtidig.",
                 "honor": "Ære står på spill.",
-                "hostile": "Situasjonen kunne fått andre til å føle seg fiendtlig.",
+                "hostile": "Situasjonen kunne utløst fiendlighet.",
                 "humorous": "Situasjonen er morsom eller potensielt morsom.",
-                "intellectuallyStimulating": "Situasjonen kunne vært intelektuelt stimulerende.",
-                "intelligence": "Intelligens er viktig (for eksempel: en intelektuell diskusjon, et komplekst problem som må løses).",
+                "intellectuallyStimulating": "Situasjonen kunne vært intellektuelt stimulerende.",
+                "intelligence": "Intelligens er viktig (for eksempel: en intellektuell diskusjon, et komplekst problem som må løses).",
                 "jobDone": "En jobb trenger å gjøres.",
                 "masculinity": "Maskulinitet kan uttrykkes.",
                 "minorDetails": "Små detaljer er viktig.",
@@ -928,28 +928,28 @@ export default {
                 "moralIssues": "Moralske eller etiske spørsmål er relevante.",
                 "music": "Musikk er en viktig del av denne situasjonen.",
                 "needsHelp": "Noen trenger hjelp.",
-                "negativeEmotions": "Situasjonen kunne fremkallet negative emosjoner.",
+                "negativeEmotions": "Situasjonen kunne fremkalt negative følelser.",
                 "newRelationships": "Nye forhold kunne utviklet seg.",
                 "noisy": "Situasjonen er støyende (lav plassering betyr at situasjonen er veldig stille).",
                 "notClear": "Det er ikke klart hva som foregår; situasjonen er usikker.",
                 "oppositeSex": "Tilstedeværelsen av medlemmer av det motsatte kjønn er en viktig del av denne situasjonen.",
                 "peopleGetAlong": "Det er viktig for folk å gå overens.",
                 "physicalAttractiveness": "Din fysiske attraktivitet er viktig.",
-                "physicalThreats": "Fysiske trusler er tilstedet.",
+                "physicalThreats": "Fysiske trusler er til stede.",
                 "physicallyActive": "Folk er fysisk aktive.",
                 "physicallyUncomfortable": "Situasjonen er fysisk ukomfortabel (for eksempel: for varm, for mange mennesker, for  kald, osv.). (Lav plassering antyder at situasjonen er veldig fysisk komfortabel).",
                 "playful": "Situasjonen er leken.",
                 "politics": "Politikk er relevant (for eksempel: en politisk diskusjon).",
-                "positiveEmotions": "Situasjonen kunne fremkallet positive emosjoner.",
+                "positiveEmotions": "Situasjonen kunne fremkalt positive følelser.",
                 "potentiallyEnjoy": "Situasjonen er potensielt hyggelig.",
-                "power": "Makt er vikitg.",
+                "power": "Makt er viktig.",
                 "quickAction": "Rask handling er nødvendig.",
-                "rapidlyChanging": "Situasjonen endrer seg rakst.",
+                "rapidlyChanging": "Situasjonen endrer seg raskt.",
                 "reassurance": "Noen trenger eller ønsker betrygging.",
-                "reassuringPresent": "En betryggende person er tilstede.",
+                "reassuringPresent": "En betryggende person er til stede.",
                 "relevantHealth": "Situasjonen er relevant for din helse (for eksempel: mulighet for sykdom, doktorbesøk).",
-                "religion": "Religion er relevant i denne situasjonen (for eksempel: en religiøs tjeneste eller diskusjon).",
-                "romanticPartners": "Potensielle eller faktiske romantiske partnere (for deg) er tilstede.",
+                "religion": "Religion er relevant i denne situasjonen (for eksempel: en religiøs samling eller diskusjon).",
+                "romanticPartners": "Potensielle eller faktiske romantiske partnere (for deg) er til stede.",
                 "ruminateDaydream": "Det er mulig å gruble, dagdrømme eller fantasere.",
                 "selfControl": "Selvkontroll er nødvendig (for deg selv og andre)",
                 "sensations": "Sansning er viktig (for eksempel: berøring, smak, lukt, fysisk kontakt)",
@@ -980,13 +980,13 @@ export default {
                     "neutral": "Nøytral",
                     "uncharacteristic": "Ukarakteristisk"
                 },
-                "instructions": "Vennligst beskriv situasjonen du opplevde i detalj. 90 ord/setninger vil dukke opp av gangen. Plasser hver av dem i en av tre bokser. Bruk \"karakteristisk\"-boksen til høyre for ord/setninger som beskriver situasjonen; bruk \"ukarakteristisk\"-boksen til venstre for ord/setninger som ikke beskriver situasjonen, og bruk \"nøytral\"-boksen for ord/setninger som er irrelevante, uklare, eller du er usikker på. Når du er ferdig, vennligst trykk på \"Fortsett\".",
+                "instructions": "Vennligst beskriv situasjonen du opplevde i detalj. 90 påstander vil dukke opp. Plasser hver av dem i en av tre bokser. Bruk \"karakteristisk\"-boksen til høyre for påstander som beskriver situasjonen; bruk \"ukarakteristisk\"-boksen til venstre for påstander som ikke beskriver situasjonen, og bruk \"nøytral\"-boksen for påstander som er irrelevante, uklare, eller du er usikker på. Når du er ferdig, vennligst trykk på \"Fortsett\".",
                 "itemsLeft": {
-                    "one": "{{count}} Item igjen",
-                    "other": "{{count}} Items igjen"
+                    "one": "{{count}} Påstand igjen:",
+                    "other": "{{count}} Påstander igjen:"
                 },
-                "location": "Plassering:",
-                "othersPresent": "Andre tilstede:"
+                "location": "Sted:",
+                "othersPresent": "Andre til stede:"
             },
             "2": {
                 "categories": {
@@ -1007,7 +1007,7 @@ export default {
     "survey": {
         "sections": {
             "1": {
-                "instructions": "Velkommen! Vi er interessert i situasjoner mennesker opplever og hvordan de håndterer dem. Du vil beskrive en situasjon du har opplevd nylig og hva du gjorde i den situasjonen. Du vil bli spurt noen spørsmål om dine holdninger og verdier. Basert på disse svarene vil du, når du har fullført studien, bli gitt muligheten til å motta informasjon om din personlighet, som vi håper du vil synes er interessant. Studien vil ta under én time å fullføre. For å begynne, vennligst svar på noen spørsmål om deg selv.",
+                "instructions": "Velkommen! Vi er interessert i situasjoner mennesker opplever og hvordan de håndterer dem. Du vil beskrive en situasjon du har opplevd nylig og hva du gjorde i den situasjonen. Du vil bli spurt noen spørsmål om dine holdninger og verdier. Når du har fullført studien, har du muligheten til å motta informasjon om din personlighet. Denne informasjonen baseres på svarene du gir gjennom studien. Vi håper du vil synes dette er interessant. Studien vil ta under én time å fullføre. For å begynne, vennligst svar på noen spørsmål om deg selv.",
                 "questions": {
                     "1": {
                         "label": "Alder"
@@ -1036,7 +1036,7 @@ export default {
                     "5": {
                         "label": "På en skala fra 1 til 10, hvordan vil du beskrive din families økonomiske posisjon?",
                         "options": {
-                            "average": "Gjennomsnittelig",
+                            "average": "Gjennomsnittlig",
                             "least": "Mindre velstående",
                             "most": "Mest velstående"
                         }
@@ -1049,8 +1049,8 @@ export default {
                         "options": {
                             "remoteRural": "Avsideliggende",
                             "rural": "Landlig",
-                            "suburban": "Suburban",
-                            "urban": "Urban"
+                            "suburban": "Forstad",
+                            "urban": "By"
                         }
                     },
                     "8": {
@@ -1074,7 +1074,7 @@ export default {
             "2": {
                 "instructions": {
                     "firstSection": "Vennligst beskriv en hendelse fra i går du husker godt.",
-                    "secondSection": "Hvilken som helst opplevelse fra gårsdagen kan brukes; det eneste viktige er at du husker den godt. Vennligst beskriv hva du gjorde, hvor du var, og hvem andre som var tilstedet.",
+                    "secondSection": "Hvilken som helst opplevelse fra gårsdagen kan brukes; det eneste viktige er at du husker den godt. Vennligst beskriv hva du gjorde, hvor du var, og hvem andre som var til stede.",
                     "thirdSection": "Vennligst skriv svarene dine i boksene nedenfor."
                 },
                 "questions": {
@@ -1088,10 +1088,10 @@ export default {
                     },
                     "13": {
                         "characterCount": "0 av 75 tegn brukt",
-                        "label": "Hvem andre var tilstede? (Hvis du var alene, vennligst skrive \"alene\")."
+                        "label": "Hvem andre var til stede? (Hvis du var alene, vennligst skrive \"alene\")."
                     },
                     "14": {
-                        "label": "På omtrentlig hvilket tidspunkt begynte denne hendelsen?"
+                        "label": "Omtrent når begynte denne hendelsen?"
                     }
                 }
             }
