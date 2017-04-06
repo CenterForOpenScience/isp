@@ -157,15 +157,15 @@ export default {
             "neutral": "Neutrální stanovisko, nemám na to názor"
         },
         "char": {
-            "extremelyChar": "Výrazně typické",
-            "extremelyUnchar": "Výrazně netypické",
-            "fairlyChar": "Docela typické",
-            "fairlyUnchar": "Docela netypické",
-            "neutral": "Ani typické, ani netypické; neutrální",
-            "quiteChar": "Značně typické",
-            "quiteUnchar": "Značně netypické",
-            "somewhatChar": "Trochu typické",
-            "somewhatUnchar": "Trochu netypické"
+            "extremelyChar": "Výrazně výstižné",
+            "extremelyUnchar": "Výrazně nevýstižné",
+            "fairlyChar": "Docela výstižné",
+            "fairlyUnchar": "Docela nevýstižné",
+            "neutral": "Ani výstižné, ani nevýstižné, neutrální",
+            "quiteChar": "Značně výstižné",
+            "quiteUnchar": "Značně nevýstižné",
+            "somewhatChar": "Trochu výstižné",
+            "somewhatUnchar": "Trochu nevýstižné"
         },
         "continueLabel": "Pokračovat",
         "describe": {
@@ -474,15 +474,15 @@ export default {
                 },
                 "label": "Zhodnoťte prosím své chování v situaci, kterou jste popsal/a:",
                 "options": {
-                    "extremelyChar": "Výrazně typické",
-                    "extremelyUnchar": "Výrazně netypické",
-                    "fairlyChar": "Docela typické",
-                    "fairlyUnchar": "Docela netypické",
-                    "neutral": "Ani typické, ani netypické; neutrální",
-                    "quiteChar": "Značně typické",
-                    "quiteUnchar": "Značně netypické",
-                    "somewhatChar": "Trochu typické",
-                    "somewhatUnchar": "Trochu netypické"
+                    "extremelyChar": "Výrazně výstižné",
+                    "extremelyUnchar": "Výrazně nevýstižné",
+                    "fairlyChar": "Docela výstižné",
+                    "fairlyUnchar": "Docela nevýstižné",
+                    "neutral": "Ani výstižné, ani nevýstižné, neutrální",
+                    "quiteChar": "Značně výstižné",
+                    "quiteUnchar": "Značně nevýstižné",
+                    "somewhatChar": "Trochu výstižné",
+                    "somewhatUnchar": "Trochu nevýstižné"
                 }
             },
             "4": {
@@ -976,11 +976,11 @@ export default {
             "1": {
                 "activity": "Činnost:",
                 "categories": {
-                    "characteristic": "Typické",
+                    "characteristic": "Výstižné",
                     "neutral": "Neutrální",
-                    "uncharacteristic": "Netypické"
+                    "uncharacteristic": "Nevýstižné"
                 },
-                "instructions": "Nyní prosím prožitou situaci popište detailněji. Postupně se vám bude zobrazovat 90 výpovědí. Roztřiďte každou z nich do jednoho ze tří políček. Do pravého políčka \"Typické\" přiřaďte položky, které vaši situaci věrně/přesně vystihují; do levého políčka \"Netypické\" přiřaďte položky, které vaši situaci nevystihují, a do políčka \"Neutrální\" přiřaďte položky, které se situací nijak nesouvisejí, jsou nejasné, nebo kterými si nejste jistý/á. Až budete hotový/á, klikněte na \"Dále\".",
+                "instructions": "Nyní prosím prožitou situaci popište detailněji. Postupně se vám bude zobrazovat 90 výpovědí. Roztřiďte každou z nich do jednoho ze tří políček. Do pravého políčka \"Výstižné\" přiřaďte položky, které vaši situaci věrně/přesně vystihují; do levého políčka \"Nevýstižné\" přiřaďte položky, které vaši situaci nevystihují, a do políčka \"Neutrální\" přiřaďte položky, které se situací nijak nesouvisejí, jsou nejasné, nebo kterými si nejste jistý/á. Až budete hotový/á, klikněte na \"Dále\".",
                 "itemsLeft": {
                     "one": "Má {{count}} položku",
                     "other": "Zbývá {{count}} položek"
@@ -990,15 +990,15 @@ export default {
             },
             "2": {
                 "categories": {
-                    "extremelyChar": "Výrazně typické",
-                    "extremelyUnchar": "Výrazně netypické",
-                    "fairlyChar": "Docela typické",
-                    "fairlyUnchar": "Docela netypické",
-                    "neutral": "Ani typické, ani netypické; neutrální",
-                    "quiteChar": "Značně typické",
-                    "quiteUnchar": "Značně netypické",
-                    "somewhatChar": "Trochu typické",
-                    "somewhatUnchar": "Trochu netypické"
+                    "extremelyChar": "Výrazně výstižné",
+                    "extremelyUnchar": "Výrazně nevýstižné",
+                    "fairlyChar": "Docela výstižné",
+                    "fairlyUnchar": "Docela nevýstižné",
+                    "neutral": "Ani výstižné, ani nevýstižné, neutrální",
+                    "quiteChar": "Značně výstižné",
+                    "quiteUnchar": "Značně nevýstižné",
+                    "somewhatChar": "Trochu výstižné",
+                    "somewhatUnchar": "Trochu nevýstižné"
                 },
                 "instructions": "Nyní prosím situaci popište přesněji. Z původních tří políček prosím výpovědi roztřiďte do devíti políček. Položky můžete myší přetahovat z jednoho políčka do druhého, ale pokud v některém z políček zanecháte příliš mnoho položek, nadpis políčka zčervená. Nadpis se zbarví zeleně, až když bude v políčku správný počet položek."
             }

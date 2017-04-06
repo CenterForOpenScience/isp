@@ -121,7 +121,7 @@ export default {
         "consc": "Sumienność",
         "exitButton": "Wyjście",
         "extra": "Ekstrawersja",
-        "firstSection": "Opierając się na dekadach badań, naukowcy zajmujący się osobowością zgodzili się, że najważniejsze różnice indywidualne dotyczące cech osobowości są opisane przez pięć podstawowych cech znanych jako \"Wielka Piątka\": Ekstrawersja, Ugodowość, Sumienność, Stabilność emocjonalna oraz Otwartość na doświadczenie. Narzędzia, które właśnie wypełniłeś dostarczają pomiarów dla każdej z tych cech a Twoje wynki są opisane poniżej.",
+        "firstSection": "Opierając się na dekadach badań, naukowcy zajmujący się osobowością zgodzili się, że najważniejsze różnice indywidualne dotyczące cech osobowości są opisane przez pięć podstawowych cech znanych jako \"Wielka Piątka\": Ekstrawersja, Ugodowość, Sumienność, Stabilność emocjonalna oraz Otwartość na doświadczenie. Narzędzia, które właśnie wypełniłeś dostarczają pomiarów dla każdej z tych cech a Twoje wyniki są opisane poniżej.",
         "fourthSection": "Dziękujemy za Twoje uczestnictwo!",
         "hiAgree": "Osoby o wysokich wynikach są rozważne i uprzejme w sytuacjach społecznych oraz cieszą się, gdy mogą współpracować z innymi. Z łatwością obdarzają innych zaufaniem i odczuwają współczucie dla tych, którzy są w potrzebie. Osoby o wysokich wynikach są lubiane przez rówieśników i tworzą satysfakcjonujące i trwałe związki. Są bardziej skłonne do bycia osobami religijnymi, do pełnienia ról przywódczych i wykonywania pracy wolontariusza. Osoby starsze mają tendencję do uzyskiwania wyższych wyników niż osoby młodsze.",
         "hiConsc": "Osoby o wysokich wynikach są zorganizowane i odpowiedzialne. Ciężko pracują by osiągnąć swoje cele i kończą rozpoczęte zadania. Uzyskują wyższe oceny w szkole i lepiej realizują się w wielu zawodach. Są bardziej skłonne do bycia religijnymi i posiadają konserwatywne przekonania polityczne. Więcej ćwiczą, mają lepsze zdrowie fizyczne i żyją dłużej. Osoby starsze uzyskują wyższe wyniki niż osoby młodsze.",
@@ -137,13 +137,13 @@ export default {
         "loConsc": "Osoby o niskich wynikach mają tendencję do regowania spontanicznie niż tworzyć plany. Łatwiej jest im patrzeć na całkoształt sytuacji niż zwracać uwagę na szczegóły. Wolą przeskakiwać z jednego zadania do drugiego zamiast ukończyć każde po kolei. Mają skłonność do angażowania się w więcej ryzykownych zachowań takich jak palenie papierosów, spożywanie alkoholu i zażywanie narkotyków.",
         "loExtra": "Osoby o niskich wynikach są społecznie i emocjonalnie powściągliwe. Generalnie wolą być same lub z niewieloma bliskimi przyjaciółmi. Swoje opinie i uczucia zachowują dla siebie. Są mniej skłonne do poszukiwania mocnych wrażeń lub zachowań ryzykownych takich jak palenie papierosów i spożywanie alkoholu.",
         "loNeurot": "Osoby o niskich wynikach są wrażliwe emocjonalnie i miewają huśtawki nastrojów. Częściej doświadczają negatywnych emocji i reagują silniej na negatywne doświadczenia. Osoby młodsze uzyskują niższe wyniki niż osoby starsze.",
-        "loOpen": "Osoby o niskich wynikach są tradycjne, praktyczne i trzymają się tradycyjnego sposobu wykonania różnych rzeczy.Preferują to, co jest znane w porównaniu z tym, co nowe i wolą konkrety niż abstrakcje. Osoby o niskich wynikach lepiej sprawdzają się w zawodach praktycznych, takich jak rzemiosło i handel.",
+        "loOpen": "Osoby o niskich wynikach są tradycyjne, praktyczne i trzymają się tradycyjnego sposobu wykonania różnych rzeczy.Preferują to, co jest znane w porównaniu z tym, co nowe i wolą konkrety niż abstrakcje. Osoby o niskich wynikach lepiej sprawdzają się w zawodach praktycznych, takich jak rzemiosło i handel.",
         "neurot": "Stabilność emocjonalna",
         "open": "Otwartość na Doświadczenie",
         "score": "Twój wynik na 100 możliwych:",
         "secondSection": "Dla każdej z cech wynik powyżej 60 jest rozumiany jako wysoki, a wynik poniżej 40 jako niski. Opisy wysokich i niskich wyników są przedstawione poniżej. Jeżeli Twój wynik mieści się w przedziale między 40 a 60, to wtedy Twoja osobowość mogłaby prawdopodobnie zostać opisana na poziomie przeciętnym w zakresie wymienionych cech.",
-        "thirdSection": "Mamy nadzieję, że podobało się Tobie uczestnictwo w tym badaniu.",
-        "title": "Twoja sobowość"
+        "thirdSection": "Mamy nadzieję, że badanie Ci się podobało.",
+        "title": "Twoja osobowość"
     },
     "flag": {
         "chooseLanguage": "Please select your country and language"
@@ -262,7 +262,7 @@ export default {
                         "label": "Większość ludzi jest godna zaufania."
                     }
                 },
-                "label": "Oceń w jakim stopniu zgadzasz się lub nie zgadsza się z poniższymi stwierdzeniami:",
+                "label": "Oceń w jakim stopniu zgadzasz się lub nie zgadzasz się z poniższymi stwierdzeniami:",
                 "options": {
                     "agree": "Zgadzam się",
                     "agreeStrongly": "Zdecydowanie się zgadzam",
@@ -334,7 +334,7 @@ export default {
                         "label": "Myślę, że należy mi się więcej szacunku niż przeciętnej osobie."
                     }
                 },
-                "label": "Oceń w jakim stopniu zgadzasz się lub nie zgadsza się z poniższymi stwierdzeniami:",
+                "label": "Oceń w jakim stopniu zgadzasz się lub nie zgadzasz się z poniższymi stwierdzeniami:",
                 "options": {
                     "agree": "Zgadzam się",
                     "agreeStrongly": "Zdecydowanie się zgadzam",
@@ -393,7 +393,7 @@ export default {
                         "label": "Jestem zirytowany, jeżeli ktoś odbiera mi uwagę innych."
                     }
                 },
-                "label": "Oceń w jakim stopniu zgadzasz się lub nie zgadsza się z poniższymi stwierdzeniami:",
+                "label": "Oceń w jakim stopniu zgadzasz się lub nie zgadzasz się z poniższymi stwierdzeniami:",
                 "options": {
                     "agree": "Zgadzam się",
                     "agreeStrongly": "Zdecydowanie się zgadzam",
@@ -427,7 +427,7 @@ export default {
                         "label": "Próbowałem kontrolować sytuację."
                     },
                     "10": {
-                        "label": "Byłem fizycznie poruszony, przemieszczałem się."
+                        "label": "Byłem aktywny fizycznie, przemieszczałem się."
                     },
                     "11": {
                         "label": "Byłem zainteresowany tym, co ktoś miał do powiedzenia."
@@ -543,7 +543,7 @@ export default {
                         "label": "Ma trudność z rozpoczynaniem zadań."
                     },
                     "24": {
-                        "label": "Czuje się bezpieczny, dobrze z samym sobą."
+                        "label": "Czuje się bezpiecznie, dobrze z samym sobą."
                     },
                     "25": {
                         "label": "Unika intelektualnych, filozoficznych dyskusji."
@@ -594,10 +594,10 @@ export default {
                         "label": "Często czuje smutek."
                     },
                     "4": {
-                        "label": "Jest zrelaksowana, dobrze radzi sobie ze stresem."
+                        "label": "Jest zrelaksowany, dobrze radzi sobie ze stresem."
                     },
                     "40": {
-                        "label": "Jest osobą złożoną, odznacza go głębokie myślenie."
+                        "label": "Jest osobą złożoną, ma głębokie przemyślenia."
                     },
                     "41": {
                         "label": "Jest pełen energii."
@@ -747,7 +747,7 @@ export default {
                         "label": "Na ogół wierzę, że rzeczy idą mi równie dobrze jak innym wokół mnie."
                     }
                 },
-                "label": "Oceń w jakim stopniu zgadzasz się lub nie zgadsza się z poniższymi stwierdzeniami:",
+                "label": "Oceń w jakim stopniu zgadzasz się lub nie zgadzasz się z poniższymi stwierdzeniami:",
                 "options": {
                     "agree": "Zgadzam się",
                     "agreeStrongly": "Zdecydowanie się zgadzam",
@@ -810,20 +810,20 @@ export default {
                         "label": "Praktyka religijna utrudnia ludziom niezależne myślenie."
                     }
                 },
-                "label": "Oceń w jakim stopniu zgadzasz się lub nie zgadsza się z poniższymi stwierdzeniami:",
+                "label": "Oceń w jakim stopniu zgadzasz się lub nie zgadzasz się z poniższymi stwierdzeniami:",
                 "options": {
                     "believeLittle": "Trochę wierzę",
                     "believeStrong": "Zdecydowanie wierzę",
                     "disbelieveLittle": "Trochę nie wierzę",
                     "disbelieveStrong": "Zdecydowanie nie wierzę",
-                    "neutral": "Netralny; brak opinii",
+                    "neutral": "Neutralny, brak opinii",
                     "preferNoAnswer": "Wolę nie odpowiadać"
                 }
             },
             "9": {
                 "items": {
                     "1": {
-                        "label": "Wolisz wyrażać swoje muśli i uczucia w sposób otwarty, nawet jeśli mogłoby to powodować konflikty."
+                        "label": "Wolisz wyrażać swoje myśli i uczucia w sposób otwarty, nawet jeśli mogłoby to powodować konflikty."
                     },
                     "10": {
                         "label": "Zachowujesz się różnie, w zależności od tego z kim akurat jesteś."
@@ -911,7 +911,7 @@ export default {
                 "entertainment": "Rozrywka jest obecna.",
                 "family": "Rodzina jest ważna w tej sytuacji.",
                 "feelInadequate": "Sytuacja mogła sprawić, że czujesz się niekompetentny.",
-                "femininity": "Może być wyrażona kobiecość.",
+                "femininity": "Można zachować się jak kobieta.",
                 "food": "Jedzenie jest ważne w tej sytuacji.",
                 "frustrating": "Sytuacja jest frustrująca (na przykład: cel jest zablokowany).",
                 "goodImpression": "Jest ważne da Ciebie by wywrzeć dobre wrażenie.",
@@ -922,7 +922,7 @@ export default {
                 "intellectuallyStimulating": "Sytuacja może być intelektualnie stymulująca.",
                 "intelligence": "Inteligencja jest ważna (na przykład: intelektualna dyskusja, złożony problem, który musi zostać rozwiązany).",
                 "jobDone": "Trzeba wykonać pewną pracę.",
-                "masculinity": "Może być wyrażona męskość.",
+                "masculinity": "Można zachować się jak mężczyzna.",
                 "minorDetails": "Istotne są drobne szczegóły",
                 "money": "Pieniądze są ważne.",
                 "moralIssues": "Moralne lub etyczne kwestie są istotne.",
@@ -951,7 +951,7 @@ export default {
                 "religion": "Religia jest istotna w tej sytuacji (na przykład: nabożeństwo religijne lub dyskusja).",
                 "romanticPartners": "Potencjalni albo aktualni partnerzy w bliskim związku są obecni (dla Ciebie).",
                 "ruminateDaydream": "Możliwe jest rozmyślanie, śnienie na jawie lub fantazjowanie.",
-                "selfControl": "Konieczne jest samokontrola (dotyczy to Ciebie i innych).",
+                "selfControl": "Konieczna jest samokontrola (dotyczy to Ciebie i innych).",
                 "sensations": "Wrażenia są ważne (na przykład: dotyk, smak, zapach, kontakt fizyczny).",
                 "sexuality": "Seksualność jest istotna.",
                 "shame": "Ktoś czuje wstyd.",
@@ -1007,7 +1007,7 @@ export default {
     "survey": {
         "sections": {
             "1": {
-                "instructions": "Witaj! Jesteśmy zainteresowani sytuacjami, których ludzie doświadczają i tym, co w trakcie nich robią. Opisz sytuację, której ostatnio doświadczyłeś i to, co robiłeś w tej sytuacji. Zostaną Ci również zadane pytania na temat Twoich postaw i wartości. Na podstawie Twoich odpowiedzi, gdy ukończysz badanie, będziesz miał możliwość otrzymania informacji na temat Twojej osobowości. Mamy nadzieję, że uznasz ją za interesującą. Udzielenie odpowiedzi zajmie mniej niż godzinę. Na początku odpowiedz na kilka pytań na swój temat.",
+                "instructions": "Witaj! Jesteśmy zainteresowani sytuacjami, w których ludzie uczestniczą i tym, jak się wtedy zachowują. Opisz sytuację, w której ostatnio się znalazłeś i  to, co robiłeś. Zadamy także pytania na temat Twoich postaw i wartości. Gdy skończysz badanie, na podstawie odpowiedzi będziesz miał możliwość otrzymania informacji na temat Twojej osobowości. Mamy nadzieję, że uznasz to za ciekawe. Udzielenie odpowiedzi zajmie mniej niż godzinę. Na początku odpowiedz na kilka pytań na swój temat.",
                 "questions": {
                     "1": {
                         "label": "Wiek"
@@ -1031,14 +1031,14 @@ export default {
                         "label": "Jakie jest Twoje pochodzenie etniczne?"
                     },
                     "4": {
-                        "label": "Jaki był Twój pierwszy język?"
+                        "label": "Jaki jest Twój język ojczysty?"
                     },
                     "5": {
                         "label": "Wykorzystując skalę od 1 do 10 określ, jaki jest status materialny Twojej rodziny?",
                         "options": {
                             "average": "Przeciętna",
                             "least": "Najmniej zamożna",
-                            "most": "Najbardziej zamożna"
+                            "most": "Najbardziej"
                         }
                     },
                     "6": {
@@ -1073,7 +1073,7 @@ export default {
             },
             "2": {
                 "instructions": {
-                    "firstSection": "Proszę opisz wczorajsze doświadczenie, które dobrze pamiętasz.",
+                    "firstSection": "Proszę opisz sytuację, w której znalazłeś się wczoraj wieczorem. Nie jest ważne jaka to sytuacja, istotne żebyś ją dobrze pamiętał. Opisz co robiłeś, gdzie byłeś i kto był jeszcze obecny. \n",
                     "secondSection": "Jakieś doświadczenie, które miałeś wczoraj wystarczy; istotne jest tylko to, że pamiętasz je dobrze. Konkretnie, proszę opisz co robiłeś, gdzie byłeś i kto był obecny.",
                     "thirdSection": "Proszę wpisz swoją odpowiedź w ramkę poniżej."
                 },
