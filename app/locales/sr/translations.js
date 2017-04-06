@@ -474,15 +474,15 @@ export default {
                 },
                 "label": "Molimo Vas procenite svoje ponašanje u situaciji koju ste opisali:",
                 "options": {
-                    "extremelyChar": "Izrazito svojstveno",
-                    "extremelyUnchar": "Izrazito nesvojstveno",
-                    "fairlyChar": "Umereno svojstveno",
-                    "fairlyUnchar": "Umereno nesvojstveno",
-                    "neutral": "Niti je svojstveno niti je nesvojstveno",
-                    "quiteChar": "Prilično svojstveno",
-                    "quiteUnchar": "Prilično nesvojstveno",
-                    "somewhatChar": "Pomalo svojstveno",
-                    "somewhatUnchar": "Pomalo nesvojstveno"
+                    "extremelyChar": "Izrazito karakteristično",
+                    "extremelyUnchar": "Izrazito nekarakteristično",
+                    "fairlyChar": "Umereno karakteristično",
+                    "fairlyUnchar": "Umereno nekarakteristično",
+                    "neutral": "Niti je karakteristično niti je nekarakteristično",
+                    "quiteChar": "Prilično karakteristično",
+                    "quiteUnchar": "Prilično nekarakteristično",
+                    "somewhatChar": "Pomalo karakteristično",
+                    "somewhatUnchar": "Pomalo nekarakteristično"
                 }
             },
             "4": {
@@ -774,7 +774,7 @@ export default {
                         "label": "Religiozni ljudi lakše održavaju moralne standarde."
                     },
                     "14": {
-                        "label": "Religiozna uverenja vode u nenaučni načina mišljenja."
+                        "label": "Religiozna uverenja vode u nenaučni način mišljenja."
                     },
                     "15": {
                         "label": "Ljudi veruju u uzvišeno biće usled neznanja."
