@@ -516,10 +516,10 @@ export default {
                         "label": "Išradingas/a, atrandantis/i protingus būdus darbui atlikti"
                     },
                     "16": {
-                        "label": "Linkęs/usi tylėti."
+                        "label": "Linkęs/usi tylėti"
                     },
                     "17": {
-                        "label": "Jaučiantis/i mažai užuojautos kitiems."
+                        "label": "Jaučiantis/i mažai užuojautos kitiems"
                     },
                     "18": {
                         "label": "Sistemingas/a, mėgstantis/i tvarką"
@@ -701,7 +701,7 @@ export default {
                         }
                     },
                     "3": {
-                        "label": "Kai kurie žmonės iš esmės yra labai laimingi. Jie mėgaujasi gyvenimu nepriklausomai nuo to, kas vyksta, ima viską ką geriausio bet kur ir bet kada. Kiek šis apibūdinimas tinka Jums?",
+                        "label": "Kai kurie žmonės iš esmės yra labai laimingi. Jie mėgaujasi gyvenimu nepriklausomai nuo to, kas vyksta, ima visa ką geriausio bet kur ir bet kada. Kiek šis apibūdinimas tinka Jums?",
                         "options": {
                             "aGreatDeal": "Labai tinka",
                             "notAtAll": "Visiškai netinka"
@@ -927,7 +927,7 @@ export default {
                 "money": "Pinigai yra svarbu.",
                 "moralIssues": "Susiję su moraliniais ar etiniais klausimais.",
                 "music": "Muzika yra svarbi situacijos dalis.",
-                "needsHelp": "Kažkam reikia pagalbos",
+                "needsHelp": "Kažkam reikia pagalbos.",
                 "negativeEmotions": "Situacija gali sukelti neigiamas emocijas.",
                 "newRelationships": "Gali išsivystyti nauji santykiai.",
                 "noisy": "Situacija yra triukšminga (\"nebūdinga\" reiškia, kad yra labai tylu).",
@@ -980,7 +980,7 @@ export default {
                     "neutral": "Nei būdinga, nei nebūdinga",
                     "uncharacteristic": "Nebūdinga"
                 },
-                "instructions": "Dabar prašome apibūdinti Jūsų patirtą situaciją detaliau. Vienas po kito atsiras 90 teiginių. Patalpinkite kiekvieną jų į vieną iš trijų langelių. Naudokite dešinį langelį \"Būdinga\" tiems teiginiams, kurie tiksliai atspindi situaciją; naudokite kairįjį \"Nebūdinga\" langelį teiginiams kurie neapibūdina situacijos; naudokite langelį \"Nei būdinga, nei nebūdinga\" teiginiams, kurie yra nereikšmingi, neaiškūs ar dėl kurių Jūs nesate tikras. Kai pabaigsite, spauskite \"Tęsti\".",
+                "instructions": "Dabar prašome apibūdinti Jūsų patirtą situaciją detaliau. Vienas po kito atsiras 90 teiginių. Patalpinkite (nuvilkite) kiekvieną jų į vieną iš trijų langelių. Naudokite dešinį langelį \"Būdinga\" tiems teiginiams, kurie tiksliai atspindi situaciją; naudokite kairįjį \"Nebūdinga\" langelį teiginiams kurie neapibūdina situacijos; naudokite langelį \"Nei būdinga, nei nebūdinga\" teiginiams, kurie yra nereikšmingi, neaiškūs ar dėl kurių Jūs nesate tikras. Kai pabaigsite, spauskite \"Tęsti\".",
                 "itemsLeft": {
                     "one": "{{count}} likęs reikalavimas",
                     "other": "{{count}} liko teiginių"
@@ -1007,7 +1007,7 @@ export default {
     "survey": {
         "sections": {
             "1": {
-                "instructions": "Sveiki! Mus domina žmonių kasdieninės situacijose ir tai, kaip žmonės elgiasi jose. Jūs aprašysite neseniai patirtą situaciją ir tai, ką Jūs tuo metu darėte. Taip pat paklausime Jūsų kelių klausimų apie Jūsų pažiūras ir vertybes. Kai baigsite atsakinėti, Jūs turėsite galimybę gauti informaciją apie Jūsų asmenybės savybes. Informacija remsis Jūsų atsakymais ir mes tikimės, kad Jums bus įdomi. Užduotims atlikti prireiks kiek mažiau nei valandos. \n \nPradžiai prašome atsakyti į kelis klausimus apie save.",
+                "instructions": "Sveiki! Mus domina žmonių kasdieninės situacijos ir tai, kaip žmonės elgiasi jose. Jūs aprašysite neseniai patirtą situaciją ir tai, ką Jūs tuo metu darėte. Taip pat paklausime Jūsų kelių klausimų apie Jūsų pažiūras ir vertybes. Kai baigsite atsakinėti, Jūs turėsite galimybę gauti informaciją apie Jūsų asmenybės savybes. Informacija remsis Jūsų atsakymais ir mes tikimės, kad Jums bus įdomi. Užduotims atlikti prireiks kiek mažiau nei valandos. \n \nPradžiai prašome atsakyti į kelis klausimus apie save.",
                 "questions": {
                     "1": {
                         "label": "Amžius"
