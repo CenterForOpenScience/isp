@@ -587,6 +587,18 @@ const consentText = {
         "title": "Zgoda na uczestnictwo w badaniu",
         "versionHistory": "Formularz zgody - wersja z 14 pażdziernika 2016"
     },
+    // Romanian
+    "ROMA1.RO": {
+        "buttonLabel": "Vă rugăm să acceptaţi termenii pentru a continua",
+        "consentLabel": "Am citit şi am înţeles afirmaţiile de mai sus şi sunt de acord să particip.",
+        "paragraphs": [
+            "Bun venit în studiul nostru. Paticiparea dvs. va consta într-o singură sesiune şi va dura mai puţin de o oră. Veţi fi rugat(ă) să descrieţi o situaţie pe care aţi trăit-o recent, şi comportamentele pe care le-aţi manifestat atunci. De asemenea, veţi fi întrebat/a despre valorile şi atitudinile dvs. La finalul studiului, dacă doriţi, veţi primi informaţii personalizate depre personalitatea voastră.",
+            "Toate răspunsurile dvs. vor fi confidenţiale şi identificate doar printr-un număr (nu pe baza numelui dvs.). S-ar putea ca aceste date anonime să fie arhivate într-o bază de date online păstrată de Center for Open Science (www.cos.io), în scop de cercetare. Pentru a finaliza acest sondaj, fiecare întrebare trebuie să primească un răspuns, dar puteţi întrerupe oricând participarea, fără să fiţi penalizat(ă). Beneficiile potenţiale ale acestei cercetări includ îmbunătăţirea înţelegerii persoanelor şi a vieţilor lor de-a lungul contextelor culturale. Nu sunt riscuri cunoscute.",
+            "Dacă aveți întrebări cu privire la acest studiu sau despre drepturile dumneavoastră în calitate de participant, te / vă rugăm să contactați Florin Alin Silva (afsava@gmail.com), Universitatea de Vest din Timișoara, persoana responsabilă pentru colectarea datelor din locația dvs., sau la Universitatea din California, Riverside, Biroul de e-mail de Cercetare Integritate IRB@ucr.edu. Apreciem sincer cooperare!"
+        ],
+        "title": "Consimţământul de a Participa la Cercetare",
+        "versionHistory": "(Consimțământul formă versiunea: 14 octombrie 2016)"
+    },
     // Russian
     "RUSSIA1.RU": {
         "buttonLabel": "Для продолжения, пожалуйста, согласитесь с правилами участия",
