@@ -268,17 +268,6 @@ const consentText = {
         "title": "Consent to Participate in Research",
         "versionHistory": "(Consent form version: 14 October 2016)"
     },
-    "INDIA2.MR": {
-        "buttonLabel": "Please accept terms to continue",
-        "consentLabel": "I have read and understand the above statements and agree to participate.",
-        "paragraphs": [
-            "Welcome to our study. Your participation will be in one session and will take less than one hour. You will be asked to describe a situation you experienced recently and your behaviors in it. You will also be asked some questions about your values and attitudes.  At the end of the study, if you choose, you will receive personalized information about your personality.",
-            "All of your responses will be confidential and identified only by a number (and not by your name).  For research purposes, these anonymous data may be archived in an online database maintained by the Center for Open Science (www.cos.io). Each question must be answered in order to complete this survey, but you can discontinue your participation at any time without penalty. The potential benefits of this research include improving the understanding of persons and their lives across cultural contexts.  There are no known risks.",
-            "If you have any questions about this study or your rights as a participant, you may contact Anagha Lavalekar, anagha.lavalekar@jnanaprabodhini.org, Jnana Prabodihini’s Institute of Psychology, Pune, who is responsible for data collection at your location, or the University of California, Riverside, Office of Research Integrity by email at IRB@ucr.edu. We sincerely appreciate your cooperation."
-        ],
-        "title": "Consent to Participate in Research",
-        "versionHistory": "(Consent form version: 14 October 2016)"
-    },
     "NEWZ1.ENG": {
         "buttonLabel": "Please accept terms to continue",
         "consentLabel": "I have read and understand the above statements and agree to participate.",
@@ -644,6 +633,18 @@ const consentText = {
         ],
         "title": "Consent to Participate in Research",
         "versionHistory": "(Consent form version: 14 October 2016)"
+    },
+    // Hebrew
+     "ISRA1.HE": {
+        "buttonLabel": "כדי להמשיך אנא קבל את התנאים",
+        "consentLabel": "קראתי והבנתי את האמור לעיל ואני מסכים להשתתף.",
+        "paragraphs": [
+            "ברוך הבא למחקר שלנו. השתתפותך כוללת סשן אחד והיא תארך פחות משעה. תתבקש לתאר סיטואציה שחווית לאחרונה ואת אופני ההתנהגות שלך במהלכה. בנוסף, תישאל מספר שאלות בנוגע לגישותיך ולערכים שלך. בתום המחקר ובמידה שתבחר לעשות כן, תוכל לקבל מידע מותאם אישית על אודות האישיות שלך.",
+            "כל תשובותיך יהיו חסויות וישוייכו למספר מזהה בלבד (ולא לשמך). ייתכן שנתונים אנונימיים אלו יישמרו לצורכי מחקר בארכיון מקוון המתוחזק ע\"י Center for Open Science (www.cos.io). כדי להשלים את השאלון יש להשיב על כל השאלות, אך עם זאת תוכלו להפסיק את השתתפותכם בכל עת וללא השלכות. התועלות האפשריות שעשויות לצמוח ממחקר זה כוללות הבנה טובה יותר של בני אדם וחייהם לרוחב הקשרים תרבותיים שונים. לא ידועים סיכונים כלשהם.",
+            "אם יש לך שאלות על מחקר זה או על זכויותיך כמשתתף, ניתן לפנות לאייל רכטר (eyal.rechter@mail.huji.ac.il), הקריה האקדמית אונו, האחראי על איסוף המידע באזורך, או למשרד של Integrity מחקר באוניברסיטת קליפורניה, ריברסייד. כתובת הדוא\"ל: IRB@ucr.edu. אנו מעריכים את שיתוף הפעולה שלך."
+        ],
+        "title": "הסכמה להשתתפות במחקר",
+        "versionHistory": "(גרסת טופס הסכמה: 14 באוקטובר 2016)"
     },
     // Norwegian
     "NORW1.NO": {
