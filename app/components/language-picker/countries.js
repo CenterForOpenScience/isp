@@ -176,6 +176,16 @@ export default [
         "name": "France"
     },
     {
+        "code": "GE",
+        "languages": [
+            {
+                "code": "ka-GE",
+                "name": "ქართული"
+            }
+        ],
+        "name": "Georgia"
+    },
+    {
         "code": "DE",
         "languages": [
             {
