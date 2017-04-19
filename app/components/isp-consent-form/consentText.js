@@ -435,6 +435,18 @@ const consentText = {
         "title": "Согласност за учество во студијата",
         "versionHistory": "(Согласност форма верзија: 14 октомври 2016 година)"
     },
+    // Malay
+    "MALAY1.MY": {
+        "buttonLabel": "Sila terima syarat-syarat untuk meneruskan",
+        "consentLabel": "Saya telah membaca dan memahami kenyataan di atas dan bersetuju untuk menyertai",
+        "paragraphs": [
+            "Selamat datang ke kajian kami. Penyertaan anda adalah dalam satu sesi dan akan mengambil masa kurang dari satu jam. Anda akan diminta untuk menerangkan satu situasi yang anda baru sahaja alami dan tingkahlaku anda ketika itu. Anda akan juga ditanya beberapa soalan tentang nilai dan sikap anda. Di akhir kajian ini, jika anda bersetuju,  anda akan menerima maklumat peribadi tentang personaliti diri anda.",
+            "Semua maklumbalas anda adalah rahsia dan dikenalpasti hanya dengan nombor (dan bukan dengan nama anda). Untuk tujuan-tujuan penyelidikan, data-data yang tidak bernama ini mungkin akan disimpan dalam satu pangkalan data  yang dikendalikan oleh Center for Open Science (www.cos.io). Setiap soalan mesti dijawab bagi melengkapkan kajian ini tetapi anda boleh tidak meneruskan penyertaan anda pada bila-bila masa tanpa sebarang denda. Potensi manfaat dari penyelidikan ini termasuk meningkatkan pemahaman tentang individu dan kehidupan mereka dalam konteks silang budaya. Tidak ada risiko yang diketahui.",
+            "Jika anda mempunyai sebarang soalan tentang kajian ini atau hak-hak anda sebagai peserta, anda boleh menghubungi saya [Prof Khairul Anwar Mastor, kam2000@ukm.edu.my, Pusat Citra UKM], yang bertanggungjawab atas pengumpulan data di tempat anda atau kepada University of California, Riverside, Office of Research Integirty melalui email di IRB@ucr.edu. Kami secara ikhlas menghargai kerjasama anda."
+        ],
+        "title": "Persetujuan untuk Menyertai Kajian",
+        "versionHistory": "(Persetujuan bentuk versi: 14 Oktober 2016)"
+    },
     // Serbian
     "SERB1.SR": {
         "buttonLabel": "Molimo Vas da prihvatite uslove kako biste nastavili",
