@@ -100,1007 +100,1007 @@ export default {
     "97": "97",
     "98": "98",
     "99": "99",
-    "Key": "Italian Translation",
+    "Key": "Lithuanian Translation",
     "consent": {
         "button": {
-            "labelUnaccepted": "Si prega di accettare i termini per continuare."
+            "labelUnaccepted": "Prašome patvirtinti, kad sutinkate su sąlygomis, ir tęskite"
         },
-        "checkboxLabel": "Ho letto e compreso quanto riportato sopra e acconsento a partecipare.",
-        "firstSection": "Benvenuto/a al nostro studio. La tua partecipazione si svolgerà in una sola sessione e richiederà meno di un'ora. Ti sarà chiesto di descrivere una situazione in cui ti sei trovato/a recentemente e il tuo comportamento in quella situazione. Inoltre, ti saranno rivolte alcune domande riguardanti i tuoi valori e i tuoi atteggiamenti. Alla fine dello studio, se vorrai, potrai ricevere un documento informativo personalizzato sulla tua personalità.",
-        "secondSection": "Tutte le tue risposte saranno confidenziali e identificate solamente con un numero (e non con il tuo nome). Per scopi di ricerca, queste informazioni anonime potrebbero essere archiviate in un database online mantenuto dal Center for Open Science (www.cos.io). Per completare l'indagine è necessario rispondere a tutte le domande, ma in ogni momento puoi interrompere la tua partecipazione senza alcuna penalità. I benefici potenziali di questa ricerca includono il miglioramento della comprensione delle persone e delle loro vite attraverso diversi contesti culturali. Non ci sono rischi noti associati alla partecipazione.",
-        "thirdSection": "Se hai domande su questo studio o sui tuoi diritti come partecipante, puoi contattare il prof. Marco Perugini, Dipartimento di Psicologia, Università degli studi di Milano-Bicocca (marco.perugini@unimib.it) [il prof. Augusto Gnisci, Dipartimento di Psicologia, Università degli Studi della Campania \"Luigi Vanvitelli\" (Augusto.GNISCI@unina2.it)], che è responsabile della raccolta dati nella tua località, oppure la University of California, Riverside, Office of Research Integrity tramite email all'indirizzo IRB@ucr.edu. Apprezziamo sinceramente la tua collaborazione.",
-        "title": "Consenso per la partecipazione alla ricerca",
-        "versionHistory": "(Versione del consenso informato: 14 Ottobre 2016)"
+        "checkboxLabel": "Perskaičiau ir supratau tai, kas aukščiau parašyta, ir sutinku dalyvauti.",
+        "firstSection": "Sveikiname prisijungus prie mūsų tyrimo.  Jūs dalyvausite tik vieną kartą ir tai užims mažiau nei vieną valandą. Prašysime Jūsų aprašyti situaciją, kurią Jums teko patirti šiomis dienomis ir savo elgesį tuo metu. Taip pat užduosime klausimų apie Jūsų vertybes ir pažiūras. Tyrimo pabaigoje, jeigu norėsite, galėsite gauti informaciją apie Jūsų asmenybės savybes.",
+        "secondSection": "Visi Jūsų atsakymai išliks konfidencialūs ir bus pažymėti tik numeriu (ne Jūsų vardu). Tyrimo tikslais šie anoniminiai duomenys bus saugomi internetinėje duomenų bazėje prižiūrimoje, Atvirojo Mokslo Centro (Center for Open Science, www.cos.io). Dalyvaujant apklausoje į kiekvieną klausimą reikia atsakyti paeiliui, tačiau Jūs galite nutraukti savo dalyvavimą bet kuriuo metu be jokių sankcijų. Tikimasi, kad šis tyrimas padės geriau suprasti asmenis ir jų gyvenimą skirtinguose kultūriniuose kontekstuose. Kiek žinoma, dalyvavimas tyrime nėra siejamas su jokiais pavojais.",
+        "thirdSection": "Jeigu turite klausimų apie šį tyrimą ir savo kaip dalyvio teises, Jūs galite susisiekti su atsakingais už duomenų rinkimą doc. dr. Rasa Barkauskiene, rasa.barkauskiene@fsf.vu.lt ir doc. dr. Alfredu Laurinavičiumi, alfredas.laurinavicius@fsf.vu.lt, Vilniaus universistetas, Klinikinės ir organizacinės psichologijos katedra, arba kreiptis e. paštu IRB@ucr.edu į University of California, Riverside, Office of Research Integrity. Mes labai vertiname Jūsų bendradarbiavimą.",
+        "title": "Sutikimas dalyvauti tyrime",
+        "versionHistory": "(Sutikimo formos versija: 2016 spalio 14)"
     },
     "exitpage": {
-        "line1": "Grazie per aver partecipato !",
-        "line2": "Le tue risposte sono state registrate"
+        "line1": "Dėkojame už Jūsų dalyvavimą!",
+        "line2": "Jūsų atsakymai įrašyti."
     },
     "feedback": {
-        "agree": "Gradevolezza",
-        "consc": "Coscienziosità",
-        "exitButton": "Esci per terminare lo studio",
-        "extra": "Estroversione",
-        "firstSection": "Sulla base di decenni di ricerche, i ricercatori della personalità concordano sul fatto che le principali differenze tra individui nei tratti di personalità si possano descrivere nei termini di cinque tratti di base, noti come i \"Big Five\": Estroversione, Gradevolezza, Coscienziosità, Stabilità emotiva, e Apertura all'esperienza. Le misure che hai appena completato restituiscono punteggi su ciascuno di questi tratti e i tuoi risultati sono riassunti qui sotto",
-        "fourthSection": "Grazie per aver partecipato !",
-        "hiAgree": "Persone con un alto punteggio tendono ad essere gentili e cortesi nelle interazioni sociali e amano cooperare con gli altri. Trovano facile fidarsi delle persone ed empatizzano con chi si trova in difficoltà. Persone con un alto punteggio tendono ad essere benvolute dai propri pari e stabiliscono stretti legami stabili e soddisfacenti. È anche più probabile che siano religiosi, che si impegnino in ruoli direttivi nella loro comunità e che facciano volontariato. I più anziani tendono avere un punteggio più alto rispetto ai giovani.",
-        "hiConsc": "Persone con un punteggio alto tendono ad essere organizzate e responsabili. Lavorano sodo per raggiungere i propri obiettivi e completare i compiti che hanno iniziato. Persone con un punteggio più alto tendono ad avere migliori voti a scuola e ad avere un rendimento migliore in molti lavori. È più probabile che siano religiosi e che abbiano atteggiamenti conservatori da un punto di vista politico. Tendono a fare più esercizio fisico, ad essere più in salute e a vivere più a lungo. I più anziani tendono ad avere un punteggio più alto rispetto ai giovani.",
-        "hiExtra": "Persone con un alto punteggio tendono ad essere loquaci ed energetiche. Amano circondarsi di persone e sono a proprio agio nell'affermarsi in un gruppo. Persone con un alto punteggio tendono ad avere più amici e partner romantici e sono considerate più popolari. È più probabile che si impegnino in ruoli direttivi nella loro comunità e che facciano volontariato. Tendono a preferire musiche energetiche e a fare più esercizio fisico ed è più probabile che pratichino uno sport. Provano più frequentemente emozioni positive e reagiscono più intensamente agli eventi positivi.",
-        "hiNeurot": "Persone con un punteggio alto tendono ad essere emotivamente stabili e forti. Di solito rimangono tranquilli anche in situazioni stressanti e possono riprendersi rapidamente da eventi negativi. Le persone che hanno alti punteggi di stabilità emotiva tendono a provare una maggiore sensazione di benessere.",
-        "hiOpen": "Persone con punteggi più alti sono generalmente aperte a nuove attività e a nuove idee. Tendono ad essere creative, curiose da un punto di vista intellettuale e sensibili all'arte e alla bellezza. Persone con punteggi più alti tendono a preferire (e ad avere un miglior rendimento in) occupazioni scientifiche e artistiche. Preferiscono musica classica, jazz, blues e rock.",
+        "agree": "Sutariamumas",
+        "consc": "Sąmoningumas",
+        "exitButton": "Išeiti",
+        "extra": "Ekstraversija",
+        "firstSection": "Remiantis dešimtmečiais trūkusių tyrimų rezultatais, asmenybės tyrinėtojai priėjo išvados, kad svarbiausi individualūs asmenybės bruožų skirtumai gali būti aprašyti remiantis penkiais esminiais bruožais, žinomais kaip \"Didysis Penketas\": Ekstraversija, Sutariamumas, Sąmoningumas, Emocinis stabilumas ir Atvirumas patyrimui. Jūsų tik ką pateikti atsakymai suteikia balus, atspindinčius kiekvieną iš bruožų. Jūsų rezultatai yra pateikti žemiau.",
+        "fourthSection": "Dėkojame už Jūsų dalyvavimą!",
+        "hiAgree": "Aukštus balus surinkę asmenys santykiuose su kitais yra linkę būti atidžiais ir mandagiais, jiems patinka bendradarbiauti su kitais. Jiems paprasta pasitikėti kitais, jie jaučia užuojautą jos reikalingiems žmonėms. Aukštus balus surinkę yra mėgstami bendraamžių, jie sukuria kupinus pasitenkinimo ir stabilius artimus santykius. Tikėtina, kad jie bus religingi, užims vadovaujančias pareigas bendruomeninėje veikloje, dalyvaus savanoriškoje veikloje. Vyresni suaugę asmenys dažniau surenka aukštesnius balus lyginant su jaunesniais asmenimis.",
+        "hiConsc": "Aukštus balus surinkę asmenys pasižymi organizuotumu ir atsakingumu. Jie stipriai dirba siekdami savo tikslų, pradėję užduotis jas pabaigia. Aukštus balus surinkę gauna aukštesnius balus mokykloje, daugelyje profesijų jų pasiekimai aukštesni nei kitų. Jie gali būti religingi ir laikytis konservatyvių politinių pažiūrų. Jie daugiau mankštinasi, pasižymi geresne fizine sveikata ir gyvena ilgiau. Vyresni suaugę asmenys dažniau surenka aukštesnius balus lyginant su jaunesniais asmenimis.",
+        "hiExtra": "Aukštus balus surinkę asmenys yra linkę bendrauti ir yra energingi. Jie mėgsta būti tarp žmonių, taip pat dominuodami grupėje jaučiasi užtikrintai. Aukštus balus surenkantys turi daugiau draugų bei romantinių partnerių, kitų yra vertinami kaip labiau populiarūs. Jie dažniau užima vadovaujančias pareigas bendruomeninėje veikloje, dalyvauja savanoriškoje veikloje. Jie renkasi energingą muziką, dažniau mankštinasi, taip pat jie gali dalyvauti sportinėje veikloje. Jie dažniau patiria teigiamas emocijas, stipriau reaguoja į teigiamus jų gyvenimo įvykius.",
+        "hiNeurot": "Aukštus balus surinkę asmenys pasižymi emociniu stabilumu ir atsparumu. Paprastai jie išlieka ramūs net stresinėse situacijose ir gali greitai atsigauti po neigiamų įvykių. Aukštus balus surinkusiesiems būdingas didesnis pasitenkinimas gyvenimu.",
+        "hiOpen": "Aukštus balus surinkę asmenys paprastai yra atviri naujoms veikloms ir naujoms idėjoms. Jie būna kūrybingi, jiems būdingas intelektualinis smalsumas ir jautrumas menui bei grožiui. Aukštus balus surinkusieji linkę rinktis mokslines ir menines profesijas, ir jiems jose sekasi geriau. Jiems patinka klasikinė muzika, džiazas, bliuzas ir rokas.",
         "labels": {
-            "high": "Alto",
-            "low": "Basso",
-            "medium": "Medio"
+            "high": "Aukštas",
+            "low": "Žemas",
+            "medium": "Vidutinis"
         },
-        "loAgree": "Persone con un basso punteggio si esprimono in modo schietto e diretto, anche a rischio di iniziare una disputa. Amano la competizione e tendono ad essere scettici riguardo alle intenzioni altrui. Persone con un basso punteggio tendono ad avere salari più alti ed è più probabile che si impegnino in alcuni comportamenti rischiosi, come fumare e guidare in modo aggressivo.",
-        "loConsc": "Persone con un punteggio basso tendono ad agire spontaneamente invece di fare dei piani e trovano più facile guardare al quadro generale invece di badare ai dettagli. Preferiscono saltare da un compito all'altro, invece di completarne uno per volta. Tendono a impegnarsi di più in comportamenti rischiosi, come fumare, bere alcolici e assumere droghe.",
-        "loExtra": "Persone con un basso punteggio tendono ad essere riservate da un punto di vista sociale ed emotivo. Generalmente, preferiscono stare sole o con pochi amici intimi e a tenere le proprie opinioni e i propri sentimenti per se stesse. Hanno anche meno probabilità di impegnarsi in attività eccitanti o in comportamenti rischiosi come bere alcolici e fumare.",
-        "loNeurot": "Persone con un punteggio basso tendono ad essere emotivamente sensibili e ad avere sbalzi d'umore in positivo e in negativo. Sentono più frequentemente emozioni negative e sono più influenzate da eventi negativi. I giovani tendono ad avere punteggi più bassi rispetto ai più anziani.",
-        "loOpen": "Persone con punteggi più bassi tendono ad essere tradizionaliste, pratiche e amano il modo tradizionale di fare le cose. Preferiscono il familiare al nuovo e il concreto all'astratto. Persone con punteggi bassi tendono a preferire (e ad avere un miglior rendimento in) occupazioni tradizionali e pratiche, come le attività artigianali e commerciali.",
-        "neurot": "Stabilità emotiva",
-        "open": "Apertura all'esperienza",
-        "score": "Il tuo punteggio, su un massimo di 100",
-        "secondSection": "Su ciascun tratto, punteggi maggiori di 60 si possono considerare alti e punteggi minori di 40 si possono considerare bassi. Le descrizioni corrispondenti a punteggi alti e bassi sono riportate sotto. Se il tuo punteggio è tra 40 e 60, allora la tua personalità si può considerare intermedia rispetto alle caratteristiche elencate.",
-        "thirdSection": "Speriamo che ti sia piaciuto partecipare a questo studio",
-        "title": "La tua personalità"
+        "loAgree": "Žemus balus surinkę asmenys elgiasi tiesmukai ir šiurkščiai, net jeigu yra rizika pradėti ginčą. Jiems patinka varžytis, taip pat jie gali įtariai vertinti kitų žmonių intencijas. Žemus balus surinkę gali uždirbti daugiau pinigų, jiems gali būti būdingas rizikingas elgesys, toks kaip rūkymas ar agresyvus vairavimas.",
+        "loConsc": "Žemus balus surinkę asmenys ne tiek planuoja savo veiklą, kiek elgiasi spontaniškai, jie geriau suvokia situacijos visumą ir mažiau kreipia dėmesį į detales. Jie gali kaitalioti užduočių atlikimą, o ne imtis kitos tik užbaigus ankstesnę. Jiems gali būti būdingas rizikingas elgesys, toks kaip rūkymas, alkoholio ir narkotikų vartojimas.",
+        "loExtra": "Žemus balus surinkę yra linkę būti socialiai ir emociškai santūriais. Paprastai jie renkasi būti vieni ar kartu su keliais artimais draugais, jie pasilaiko savo nuomonę ir jausmus sau. Jie rečiau renkasi pavojingas veiklas ir rizikingą elgesį, tokį kaip rūkymas ar alkoholio vartojimas.",
+        "loNeurot": "Žemus balus surinkę asmenys pasižymi emociniu jautrumu, jiems būdingi nuotaikų svyravimai. Jie dažniau už kitus išgyvena nemalonias emocijas, stipriau reaguoja į nemalonius įvykius. Jaunesni saugusieji surenka žemesnius balus lyginant su vyresniais suaugusiaisiais.",
+        "loOpen": "Žemus balus surinkusieji pasižymi tradiciškumu, praktiškumu, mėgsta įprastus veiklos atlikimo būdus. Jie renkasi tai, kas yra žinoma ir konkretu, o ne tai, kas nauja ir abstraktu. Žemus balus surinkusieji linkę rinktis tradicines ir praktines profesijas, tokias kaip amatas ar prekyba, ir jiems jose sekasi geriau.",
+        "neurot": "Emocinis stabilumas",
+        "open": "Atvirumas patyrimui",
+        "score": "Jūsų balas iš 100 galimų:",
+        "secondSection": "Aprašant kiekvieną iš bruožų, didesni kaip 60 balai yra vertinami kaip aukšti, žemesni kaip 40 balai yra vertinami kaip žemi. Aukštų ir žemų balų aprašymai pateikti toliau. Jeigu Jūsų balas yra tarp 40 ir 60, tai reiškia, kad Jūsų asmenybė pagal konkretų bruožą gali būti apibūdinta kaip esanti apie vidurį.",
+        "thirdSection": "Mes tikimės, kad Jums patiko dalyvauti šiame tyrime.",
+        "title": "Jūsų asmenybė"
     },
     "flag": {
-        "chooseLanguage": "Please select your country and language"
+        "chooseLanguage": "Please choose a language"
     },
     "global": {
         "agreement": {
-            "agree": "D'accordo",
-            "agreeStrongly": "Fortemente d'accordo",
-            "disagree": "In disaccordo",
-            "disagreeStrongly": "Fortemente in disaccordo",
-            "neutral": "Neutrale; nessuna opinione"
+            "agree": "Sutinku",
+            "agreeStrongly": "Visiškai sutinku",
+            "disagree": "Nesutinku",
+            "disagreeStrongly": "Visiškai nesutinku",
+            "neutral": "Nesvarbu; neturiu nuomonės"
         },
         "char": {
-            "extremelyChar": "Estremamente caratteristico",
-            "extremelyUnchar": "Estremamente non caratteristico",
-            "fairlyChar": "Abbastanza caratteristico",
-            "fairlyUnchar": "Abbastanza non caratteristico",
-            "neutral": "Né caratteristico né non caratteristico",
-            "quiteChar": "Molto caratteristico",
-            "quiteUnchar": "Molto non caratteristico",
-            "somewhatChar": "Leggermente caratteristico",
-            "somewhatUnchar": "Leggermente non caratteristico"
+            "extremelyChar": "Ypač būdinga",
+            "extremelyUnchar": "Ypač nebūdinga",
+            "fairlyChar": "Ganėtinai būdinga",
+            "fairlyUnchar": "Ganėtinai nebūdinga",
+            "neutral": "Nei būdinga, nei nebūdinga",
+            "quiteChar": "Stipriai būdinga",
+            "quiteUnchar": "Stipriai nebūdinga",
+            "somewhatChar": "Kažkiek būdinga",
+            "somewhatUnchar": "Kažkiek nebūdinga"
         },
-        "continueLabel": "Continua",
+        "continueLabel": "Tęskite",
         "describe": {
-            "aGreatDeal": "Molto",
-            "aLittle": "Poco",
-            "notAtAll": "Per nulla"
+            "aGreatDeal": "Labai tinka",
+            "aLittle": "Truputį",
+            "notAtAll": "Visiškai netinka"
         },
-        "noLabel": "No",
-        "previousLabel": "Pagina precedente",
-        "progress": "Avanzamento",
-        "selectUnselected": "Si prega di scegliere",
-        "yesLabel": "Sì"
+        "noLabel": "Ne",
+        "previousLabel": "Ankstesnis puslapis",
+        "progress": "Tęskite",
+        "selectUnselected": "Pasirinkite",
+        "yesLabel": "Taip"
     },
     "login": {
-        "changeButton": "Cambia lingua",
-        "defaultError": "Si prega di riprovare più tardi",
-        "errorHeading": "Rilevato un errore di accesso",
-        "invalidAuthError": "ID dello studio o del partecipante non valido",
-        "participantID": "ID del Partecipante",
-        "studyID": "ID dello Studio",
-        "youChose": "Scegli:"
+        "changeButton": "Pakeisti kalbą",
+        "defaultError": "Bandykite vėliau dar kartą",
+        "errorHeading": "Prisijungimo klaida",
+        "invalidAuthError": "Neteisingas Tyrimo ID ar Dalyvio ID",
+        "participantID": "Dalyvio ID",
+        "studyID": "Tyrimo ID",
+        "youChose": "Pasirinkite"
     },
     "measures": {
         "questions": {
             "1": {
-                "label": "Nel complesso, la situazione che hai descritto è stata un'esperienza positiva o un'esperienza negativa?",
+                "label": "Bendrai paėmus, ar šią situaciją galėtumėte apibūdinti kaip teigiamą ar kaip neigiamą patyrimą?",
                 "options": {
-                    "extremelyNeg": "Estremamente negativa",
-                    "extremelyPos": "Estremamente positiva",
-                    "fairlyNeg": "Abbastanza negativa",
-                    "fairlyPos": "Abbastanza positiva",
-                    "neither": "Né positiva, né negativa",
-                    "quiteNeg": "Molto negativa",
-                    "quitePos": "Molto positiva",
-                    "somewhatNeg": "Leggermente negativa",
-                    "somewhatPos": "Leggermente positiva"
+                    "extremelyNeg": "Ypač neigiamas",
+                    "extremelyPos": "Ypač teigiamas",
+                    "fairlyNeg": "Ganėtinai neigiamas",
+                    "fairlyPos": "Ganėtinai teigiamas",
+                    "neither": "Nei teigiamas, nei neigiamas",
+                    "quiteNeg": "Stipriai neigiamas",
+                    "quitePos": "Stipriai teigiamas",
+                    "somewhatNeg": "Kažkiek neigiamas",
+                    "somewhatPos": "Kažkiek teigiamas"
                 }
             },
             "10": {
                 "items": {
                     "1": {
-                        "label": "Ci sono molte norme sociali che le persone devono rispettare in questo paese."
+                        "label": "Šioje šalyje yra gausybė socialinių normų, kuriomis privalėtų vadovautis žmonės."
                     },
                     "2": {
-                        "label": "In questo paese, ci sono aspettative molto chiare riguardo al modo in cui le persone dovrebbero comportarsi nella maggior parte delle situazioni"
+                        "label": "Šioje šalyje yra labai aiškūs lūkesčiai dėl to, kaip žmonės turėtų elgtis daugumoje situacijų."
                     },
                     "3": {
-                        "label": "Le persone sono d'accordo su quali siano i comportamenti appropriati o inappropriati nella maggior parte delle situazioni in questo paese"
+                        "label": "Šioje šalyje žmonės sutaria dėl to, koks elgesys daugeliu atvejų yra tinkamas, o koks ne."
                     },
                     "4": {
-                        "label": "Le persone in questo paese hanno molta libertà di decidere come vogliono comportarsi nella maggior parte delle situazioni"
+                        "label": "Šioje šalyje žmonės yra pakankamai laisvi pasirinkti kaip jiems elgtis daugeliu atvejų."
                     },
                     "5": {
-                        "label": "In questo paese, se qualcuno si comporta in modo inappropriato, altri disapproveranno in modo deciso"
+                        "label": "Jeigu šioje šalyje kažkas elgsis netinkamu būdu, kiti išreikš savo stiprų nepritarimą."
                     },
                     "6": {
-                        "label": "Le persone in questo paese obbediscono quasi sempre alle norme sociali"
+                        "label": "Šioje šalyje žmonės beveik visada laikosi socialinių normų."
                     }
                 },
-                "label": "Ti preghiamo di valutare quanto sei d'accordo o in disaccordo con le seguenti affermazioni:",
+                "label": "Prašome įvertinti, kaip stipriai sutinkate ar nesutinkate su šiais teiginiais:",
                 "options": {
-                    "agree": "D'accordo",
-                    "agreeStrongly": "Fortemente d'accordo",
-                    "disagree": "In disaccordo",
-                    "disagreeStrongly": "Fortemente in disaccordo",
-                    "neutral": "Neutrale; nessuna opinione"
+                    "agree": "Sutinku",
+                    "agreeStrongly": "Visiškai sutinku",
+                    "disagree": "Nesutinku",
+                    "disagreeStrongly": "Visiškai nesutinku",
+                    "neutral": "Nesvarbu; neturiu nuomonės"
                 }
             },
             "11": {
-                "label": "C'è qualche aspetto della tua personalità che stai cercando di cambiare al momento?",
+                "label": "Ar yra kokių nors Jūsų asmenybės savybių, kurias pastaruoju metu stengiatės keisti?",
                 "options": {
-                    "no": "No",
-                    "yes": "Sì"
+                    "no": "Ne",
+                    "yes": "Taip"
                 }
             },
             "12": {
-                "label": "Quale aspetto stai cercando di cambiare?"
+                "label": "Kokias savybes stengiatės keisti?"
             },
             "13": {
                 "items": {
                     "1": {
-                        "label": "La maggior parte delle persone è essenzialmente onesta"
+                        "label": "Dauguma žmonių iš esmės yra sąžiningi."
                     },
                     "2": {
-                        "label": "la maggior parte delle persone è di indole buona e gentile"
+                        "label": "Dauguma žmonių iš esmės yra geros prigimties ir malonūs."
                     },
                     "3": {
-                        "label": "La maggior parte delle persone si fida degli altri"
+                        "label": "Dauguma žmonių pasitiki kitais."
                     },
                     "4": {
-                        "label": "In genere, mi fido degli altri"
+                        "label": "Iš esmės, aš pasitikiu kitais."
                     },
                     "5": {
-                        "label": "La maggior parte delle persone è degna di fiducia"
+                        "label": "Dauguma žmonių galima pasitikėti."
                     }
                 },
-                "label": "Ti preghiamo di valutare quanto sei d'accordo o in disaccordo con le seguenti affermazioni:",
+                "label": "Įvertinkite, kiek Jūs sutinkate ar nesutinkate su šiais teiginiais:\n \nAš esu ...",
                 "options": {
-                    "agree": "D'accordo",
-                    "agreeStrongly": "Fortemente d'accordo",
-                    "disagree": "In disaccordo",
-                    "disagreeStrongly": "Fortemente in disaccordo",
-                    "neutral": "Neutrale; nessuna opinione"
+                    "agree": "Sutinku",
+                    "agreeStrongly": "Visiškai sutinku",
+                    "disagree": "Nesutinku",
+                    "disagreeStrongly": "Visiškai nesutinku",
+                    "neutral": "Nesvarbu; neturiu nuomonės"
                 }
             },
             "14": {
                 "items": {
                     "1": {
-                        "label": "In tempi incerti, di solito mi aspetto il meglio"
+                        "label": "Netikrumo momentais aš paprastai tikiuosi geriausio."
                     },
                     "2": {
-                        "label": "Se qualcosa può andarmi male, andrà male"
+                        "label": "Jei kas nors man gali nepavykti, taip ir įvyks."
                     },
                     "3": {
-                        "label": "Sono sempre ottimista sul mio futuro"
+                        "label": "Aš visada esu nusiteikęs/usi optimistiškai savo ateities atžvilgiu."
                     },
                     "4": {
-                        "label": "Non mi aspetto quasi mai che le cose vadano come voglio"
+                        "label": "Aš net nesitikiu, kad reikalai klostytųsi man palankia linkme."
                     },
                     "5": {
-                        "label": "Raramente conto sul fatto che mi capitino cose buone"
+                        "label": "Aš retai kada galvoju, kad kažkas gero gali man atsitikti."
                     },
                     "6": {
-                        "label": "Nel complesso, mi aspetto che mi capitino più cose buone che cattive"
+                        "label": "Bendrai paėmus, tikiuosi man įvyksiant daugiau gerų dalykų nei blogų."
                     }
                 },
-                "label": "Ti preghiamo di valutare quanto sei d'accordo o in disaccordo con le seguenti affermazioni:",
+                "label": "Įvertinkite, kiek Jūs sutinkate ar nesutinkate su šiais teiginiais:\n \nAš esu ...",
                 "options": {
-                    "agree": "D'accordo",
-                    "agreeStrongly": "Fortemente d'accordo",
-                    "disagree": "In disaccordo",
-                    "disagreeStrongly": "Fortemente in disaccordo",
-                    "neutral": "Neutrale; nessuna opinione"
+                    "agree": "Sutinku",
+                    "agreeStrongly": "Visiškai sutinku",
+                    "disagree": "Nesutinku",
+                    "disagreeStrongly": "Visiškai nesutinku",
+                    "neutral": "Nesvarbu; neturiu nuomonės"
                 }
             },
             "15": {
                 "items": {
                     "1": {
-                        "label": "Non farei lusinghe per avere una promozione sul lavoro, anche se pensassi che ciò servisse"
+                        "label": "Net jei manyčiau, kad meilikavimas padėtų man pasididinti atlyginimą ar būti paaukštintam/ai, to nedaryčiau."
                     },
                     "10": {
-                        "label": "Voglio che la gente sappia che io sono una persona di una certa importanza"
+                        "label": "Noriu, kad žmonės žinotų, jog esu svarbus, aukšto statuso žmogus."
                     },
                     "2": {
-                        "label": "Se voglio ottenere qualcosa da qualcuno, faccio finta di sbellicarmi dalle risate anche quando fa delle battute che non fanno ridere"
+                        "label": "Jei man iš žmogaus ko nors reikia, juoksiuosi net ir iš visai nejuokingų jo sąmojų."
                     },
                     "3": {
-                        "label": "Non fingerei che una persona mi stia simpatica, solo per ottenere dei favori"
+                        "label": "Neapsimesčiau, kad man patinka žmogus, vien siekdamas/a iš jo naudos."
                     },
                     "4": {
-                        "label": "Non avrei problemi a rubare una grossa somma di denaro se sapessi per certo di non essere scoperto/a"
+                        "label": "Jeigu žinočiau, kad niekada nebūsiu pagautas/a, aš bandyčiau pavogti didelę pinigų sumą."
                     },
                     "5": {
-                        "label": "Per quanto cospicua, non accetterei mai una “bustarella”"
+                        "label": "Niekada nepaimčiau kyšio, net jei jis būtų labai didelis."
                     },
                     "6": {
-                        "label": "Se fossi certo di farla franca, sarei tentato di usare banconote false"
+                        "label": "Jei žinočiau, kad pavyktų išsisukti, mane viliotų galimybė naudotis padirbtais pinigais."
                     },
                     "7": {
-                        "label": "Non è molto importante per me avere un sacco di denaro"
+                        "label": "Turėti daug pinigų man nėra ypač svarbu."
                     },
                     "8": {
-                        "label": "Mi darebbe molta soddisfazione possedere dei beni di lusso costosi"
+                        "label": "Brangūs prabangos daiktai man suteiktų daug malonumo."
                     },
                     "9": {
-                        "label": "Penso di aver diritto a più rispetto di una persona media"
+                        "label": "Manau, kad esu vertas/a daugiau pagarbos, nei eilinis žmogus."
                     }
                 },
-                "label": "Ti preghiamo di valutare quanto sei d'accordo o in disaccordo con le seguenti affermazioni:",
+                "label": "Įvertinkite, kiek Jūs sutinkate ar nesutinkate su šiais teiginiais:\n \nAš esu ...",
                 "options": {
-                    "agree": "D'accordo",
-                    "agreeStrongly": "Fortemente d'accordo",
-                    "disagree": "In disaccordo",
-                    "disagreeStrongly": "Fortemente in disaccordo",
-                    "neutral": "Neutrale; nessuna opinione"
+                    "agree": "Sutinku",
+                    "agreeStrongly": "Visiškai sutinku",
+                    "disagree": "Nesutinku",
+                    "disagreeStrongly": "Visiškai nesutinku",
+                    "neutral": "Nesvarbu; neturiu nuomonės"
                 }
             },
             "16": {
                 "items": {
                     "1": {
-                        "label": "In famiglia"
+                        "label": "Šeima"
                     },
                     "2": {
-                        "label": "Con gli amici"
+                        "label": "Draugai"
                     },
                     "3": {
-                        "label": "Nella città in cui vivo"
+                        "label": "Miestas, kuriame aš gyvenu"
                     },
                     "4": {
-                        "label": "Nella società"
+                        "label": "Visuomenė"
                     },
                     "5": {
-                        "label": "Nel mondo"
+                        "label": "Pasaulis"
                     },
                     "6": {
-                        "label": "Al lavoro"
+                        "label": "Darbe"
                     }
                 },
-                "label": "In che misura pensi che la tua vita si svolga nei seguenti contesti?",
+                "label": "Kaip stipriai, Jūsų nuomone, Jūsų gyvenimą formuoja šios aplinkos?",
                 "options": {
-                    "aLittle": "Poco",
-                    "completely": "Totalmente",
-                    "notAtAll": "Per nulla",
-                    "quiteaBit": "Abbastanza"
+                    "aLittle": "Šiek tiek",
+                    "completely": "Visiškai",
+                    "notAtAll": "Visiškai ne",
+                    "quiteaBit": "Ganėtinai"
                 }
             },
             "17": {
                 "items": {
                     "1": {
-                        "label": "Merito di essere considerato/a una persona illustre"
+                        "label": "Aš nusipelniau būti vertinamas/a kaip iškili asmenybė."
                     },
                     "2": {
-                        "label": "Essere una persona molto speciale mi dà molta forza"
+                        "label": "Buvimas išskirtinai ypatingu asmeniu suteikia man daug galios."
                     },
                     "3": {
-                        "label": "Riesco a essere al centro dell'attenzione con i miei contributi notevoli"
+                        "label": "Dėl savo išskirtinio indėlio sugebu būti dėmesio centre."
                     },
                     "4": {
-                        "label": "La maggior parte delle persone sono in qualche modo dei perdenti"
+                        "label": "Dauguma žmonių yra šiaip ar taip nevykėliai."
                     },
                     "5": {
-                        "label": "Voglio che i miei rivali falliscano"
+                        "label": "Noriu, kad mano varžovai patirtų nesėkmę."
                     },
                     "6": {
-                        "label": "Reagisco in modo seccato se un'altra persona mi ruba la scena"
+                        "label": "Aš susierzinu, jeigu kitas asmuo atitraukia dėmesį nuo manęs."
                     }
                 },
-                "label": "Ti preghiamo di valutare quanto sei d'accordo o in disaccordo con le seguenti affermazioni:",
+                "label": "Įvertinkite, kiek Jūs sutinkate ar nesutinkate su šiais teiginiais:\n \nAš esu ...",
                 "options": {
-                    "agree": "D'accordo",
-                    "agreeStrongly": "Fortemente d'accordo",
-                    "disagree": "In disaccordo",
-                    "disagreeStrongly": "Fortemente in disaccordo",
-                    "neutral": "Neutrale; nessuna opinione"
+                    "agree": "Sutinku",
+                    "agreeStrongly": "Visiškai sutinku",
+                    "disagree": "Nesutinku",
+                    "disagreeStrongly": "Visiškai nesutinku",
+                    "neutral": "Nesvarbu; neturiu nuomonės"
                 }
             },
             "18": {
-                "label": "Con quante successo sei riuscito a cambiare questo aspetto della tua personalità?",
+                "label": "Ar Jums pavyko pakeisti šias savo asmenybės savybes?",
                 "options": {
-                    "alittleSuccessful": "Poco successo",
-                    "completelySuccessful": "Successo completo",
-                    "moderatelySuccessful": "Successo moderato",
-                    "notatallSuccessful": "Nessun successo",
-                    "verySuccessful": "Molto successo"
+                    "alittleSuccessful": "Šiek tiek pavyko",
+                    "completelySuccessful": "Visiškai pavyko",
+                    "moderatelySuccessful": "Vidutiniškai pavyko",
+                    "notatallSuccessful": "Visiškai nepavyko",
+                    "verySuccessful": "Labai pavyko"
                 }
             },
             "2": {
-                "label": "Quanto spesso ti trovi in situazioni simili a quella che hai appena descritto?",
+                "label": "Kaip dažnai patiriate situacijas panašias į tą, kurią apibūdinote?",
                 "options": {
-                    "hardlyEver": "Quasi mai",
-                    "never": "Mai",
-                    "occasionally": "Occasionalmente",
-                    "quiteOften": "Molto spesso"
+                    "hardlyEver": "Beveik niekada",
+                    "never": "Niekada",
+                    "occasionally": "Retkarčiais",
+                    "quiteOften": "Gana dažnai"
                 }
             },
             "3": {
                 "items": {
                     "1": {
-                        "label": "Ho provato a controllare la situazione"
+                        "label": "Aš stengiausi kontroliuoti situaciją."
                     },
                     "10": {
-                        "label": "Sono stato/a fisicamente attivo, ho fatto movimento."
+                        "label": "Buvau fiziškai susijaudinęs/usi, nenustygau vietoje."
                     },
                     "11": {
-                        "label": "Ero interessato/a a ciò che qualcuno stava dicendo"
+                        "label": "Man buvo įdomu, ką sako kitas žmogus."
                     },
                     "12": {
-                        "label": "Ho cercato consiglio"
+                        "label": "Siekiau patarimo."
                     },
                     "13": {
-                        "label": "Mi sono comportato/a in modo giocoso"
+                        "label": "Elgiausi žaismingai."
                     },
                     "14": {
-                        "label": "Ho espresso autocommiserazione o sentimenti di vittimizzazione"
+                        "label": "Pademonstravau savigailą ar pasiskundžiau dėl patirtos skriaudos."
                     },
                     "15": {
-                        "label": "Ho parlato a voce alta"
+                        "label": "Garsiai kalbėjau."
                     },
                     "16": {
-                        "label": "Ho esibito un alto livello di intelligenza"
+                        "label": "Pademonstravau aukštą intelektą."
                     },
                     "2": {
-                        "label": "Ho detto cose negative su me stesso/a"
+                        "label": "Aš išsakiau neigiamų dalykų apie save."
                     },
                     "3": {
-                        "label": "Mi sono comportato/a in modo competitivo"
+                        "label": "Konkuravau."
                     },
                     "4": {
-                        "label": "Ho mostrato ambizione"
+                        "label": "Rodžiau savo ambicijas."
                     },
                     "5": {
-                        "label": "Ho dominato la situazione"
+                        "label": "Dominavau."
                     },
                     "6": {
-                        "label": "Ho mostrato molto entusiasmo ed un alto livello di energia"
+                        "label": "Buvau entuziastingas/a ir labai energingas/a."
                     },
                     "7": {
-                        "label": "Ho fatto attività fisica"
+                        "label": "Dalyvavau fizinėje veikloje."
                     },
                     "8": {
-                        "label": "Mi sono concentrato/a o ho lavorato sodo su un compito"
+                        "label": "Buvau susikoncentravęs/usi ties sunkios užduoties atlikimu."
                     },
                     "9": {
-                        "label": "Sono stato riservato/a e inespressivo/a"
+                        "label": "Buvau užsidaręs/iusi ir santūrus/i."
                     }
                 },
-                "label": "Per favore, valuta il tuo comportamento nella situazione che hai descritto",
+                "label": "Įvertinkite prašom savo elgesį Jūsų apibūdintoje situacijoje:",
                 "options": {
-                    "extremelyChar": "Estremamente caratteristico",
-                    "extremelyUnchar": "Estremamente non caratteristico",
-                    "fairlyChar": "Abbastanza caratteristico",
-                    "fairlyUnchar": "Abbastanza non caratteristico",
-                    "neutral": "Né caratteristico né non caratteristico",
-                    "quiteChar": "Molto caratteristico",
-                    "quiteUnchar": "Molto non caratteristico",
-                    "somewhatChar": "Leggermente carratteristico",
-                    "somewhatUnchar": "Leggermente non caratteristico"
+                    "extremelyChar": "Ypač būdinga",
+                    "extremelyUnchar": "Ypač nebūdinga",
+                    "fairlyChar": "Ganėtinai būdinga",
+                    "fairlyUnchar": "Ganėtinai nebūdinga",
+                    "neutral": "Nei būdinga, nei nebūdinga",
+                    "quiteChar": "Stipriai būdinga",
+                    "quiteUnchar": "Stipriai nebūdinga",
+                    "somewhatChar": "Kažkiek būdinga",
+                    "somewhatUnchar": "Kažkiek nebūdinga"
                 }
             },
             "4": {
-                "label": "Come ti vedi: in generale sei una persona che è totalmente preparata ad assumersi dei rischi, oppure cerchi di evitare i rischi?",
+                "label": "Kaip Jūs vertinate save: Ar Jūs esate tas, kuris yra visiškai pasiruošęs rizikuoti, ar tas, kuris stengiasi išvengti rizikos?",
                 "options": {
-                    "fullyPrepared": "Sono totalmente preparato/a ad assumermi dei rischi",
-                    "unwilling": "Non mi piace assumermi dei rischi"
+                    "fullyPrepared": "Visiškai pasiruošęs rizikuoti",
+                    "unwilling": "Nenorintis rizikuoti"
                 }
             },
             "5": {
                 "items": {
                     "1": {
-                        "label": "È estroversa, socievole"
+                        "label": "Draugiškas/a, socialus/i"
                     },
                     "10": {
-                        "label": "È incuriosita da molte cose diverse"
+                        "label": "Besidomintis/i daugeliu skirtingų dalykų"
                     },
                     "11": {
-                        "label": "Raramente si sente entusiasta o appassionata"
+                        "label": "Retai besijaučiantis/i susijaudinęs/usi ar nekantrus/i"
                     },
                     "12": {
-                        "label": "Tende a trovare difetti negli altri"
+                        "label": "Linkęs/usi kritikuoti kitus"
                     },
                     "13": {
-                        "label": "è prevedibile, regolare"
+                        "label": "Patikimas/a, pastovus/i"
                     },
                     "14": {
-                        "label": "È umorale, ha sbalzi d'umore in positivo e in negativo"
+                        "label": "Nepastovios nuotaikos, patiriantis/i nuotaikų svyravimus"
                     },
                     "15": {
-                        "label": "È creativa, trova modi ingegnosi di fare le cose"
+                        "label": "Išradingas/a, atrandantis/i protingus būdus darbui atlikti"
                     },
                     "16": {
-                        "label": "È tendenzialmente calma"
+                        "label": "Linkęs/usi tylėti"
                     },
                     "17": {
-                        "label": "Empatizza poco con gli altri"
+                        "label": "Jaučiantis/i mažai užuojautos kitiems"
                     },
                     "18": {
-                        "label": "È sistematica, ama tenere le cose in ordine"
+                        "label": "Sistemingas/a, mėgstantis/i tvarką"
                     },
                     "19": {
-                        "label": "Può essere tesa"
+                        "label": "Kartais įsitempęs/usi"
                     },
                     "2": {
-                        "label": "È compassionevole, ha un cuore tenero"
+                        "label": "Užjaučiantis/i, geraširdis/ė"
                     },
                     "20": {
-                        "label": "È affascinata dall'arte, dalla musica, o dalla letteratura"
+                        "label": "Susižavėjęs/usi menu, muzika ar literatūra"
                     },
                     "21": {
-                        "label": "È dominante, agisce da leader"
+                        "label": "Dominuojantis/i, besielgiantis/i kaip lyderis"
                     },
                     "22": {
-                        "label": "Inizia polemiche con gli altri"
+                        "label": "Tas/a, kuris/i pradeda ginčytis su kitais"
                     },
                     "23": {
-                        "label": "Fa fatica ad iniziare a lavorare sulle cose da fare"
+                        "label": "Tas/a, kuriam/iai sunku yra pradėti vykdyti užduotį"
                     },
                     "24": {
-                        "label": "Si sente sicura, a proprio agio con se stessa"
+                        "label": "Besijaučiantis/i saugiai, patenkintas/a savimi"
                     },
                     "25": {
-                        "label": "Evita discussioni intellettuali e filosofiche"
+                        "label": "Vengiantis/i intelektualių, filosofinių diskusijų"
                     },
                     "26": {
-                        "label": "È meno attiva di altre persone"
+                        "label": "Mažiau aktyvus/i lyginant su kitais žmonėmis"
                     },
                     "27": {
-                        "label": "È clemente per natura"
+                        "label": "Iš prigimties atlaidus/i"
                     },
                     "28": {
-                        "label": "Può essere piuttosto negligente"
+                        "label": "Kartais kažkiek nerūpestingas/a"
                     },
                     "29": {
-                        "label": "È emotivamente stabile, non si agita facilmente"
+                        "label": "Emociškai stabilus/i, ne itin lengvai nuliūdinamas/a"
                     },
                     "3": {
-                        "label": "Tende ad essere disorganizzata"
+                        "label": "Kažkiek dezorganizuotas/a"
                     },
                     "30": {
-                        "label": "Ha poca creatività"
+                        "label": "Ne itin kūrybingas/a"
                     },
                     "31": {
-                        "label": "Qualche volta è timida, introversa"
+                        "label": "Kartais drovus/i, intravertiškas/a"
                     },
                     "32": {
-                        "label": "È di aiuto e generosa con gli altri"
+                        "label": "Padedantis/i ir nesavanaudiškas/a kitų atžvilgiu"
                     },
                     "33": {
-                        "label": "Tiene le cose in ordine e pulite"
+                        "label": "Tas/a, kurio/ios daiktai yra švarūs ir tvarkingi"
                     },
                     "34": {
-                        "label": "Si preoccupa molto"
+                        "label": "Daug nerimaujantis/i"
                     },
                     "35": {
-                        "label": "Apprezza l'arte e la bellezza"
+                        "label": "Vertinantis/i meną ir grožį"
                     },
                     "36": {
-                        "label": "Trova difficile influenzare le persone"
+                        "label": "Tas/a, kuriam/iai sunku daryti įtaką kitiems žmonėms"
                     },
                     "37": {
-                        "label": "Qualche volta è scortese con gli altri"
+                        "label": "Kartais šiurkštus/i su kitais žmonėmis"
                     },
                     "38": {
-                        "label": "È efficiente, ottiene risultati"
+                        "label": "Produktyvus/i, padarantis/i darbus"
                     },
                     "39": {
-                        "label": "Si sente spesso triste"
+                        "label": "Dažnai besijaučiantis/i liūdnai"
                     },
                     "4": {
-                        "label": "È rilassata e gestisce bene lo stress"
+                        "label": "Atsipalaidavęs/usi, lengvai susidorojantis/i su stresu"
                     },
                     "40": {
-                        "label": "È complessa, un pensatore profondo"
+                        "label": "Sudėtingas/a, giliai mąstantis/i"
                     },
                     "41": {
-                        "label": "È piena di energie"
+                        "label": "Kupinas/a energijos"
                     },
                     "42": {
-                        "label": "È sospettosa delle intenzioni altrui"
+                        "label": "Įtarus/i dėl kitų žmonių ketinimų"
                     },
                     "43": {
-                        "label": "È affidabile, una persona su cui si può sempre contare"
+                        "label": "Patikimas/a, manimi visada galima pasikliauti"
                     },
                     "44": {
-                        "label": "Tiene sotto controllo le proprie emozioni"
+                        "label": "Kontroliuojantis/i savo emocijas"
                     },
                     "45": {
-                        "label": "Ha difficoltà a immaginare le cose"
+                        "label": "Patiriantis/i sunkumą, kai reikią kažką įsivaizduoti"
                     },
                     "46": {
-                        "label": "Parla molto"
+                        "label": "Kalbus/i"
                     },
                     "47": {
-                        "label": "Può essere fredda e insensibile"
+                        "label": "Kartais šaltas/a ir beširdis/ė"
                     },
                     "48": {
-                        "label": "Lascia il caos, non pulisce"
+                        "label": "Paliekantis/i po savęs šiukšles, nesitvarkantis/i"
                     },
                     "49": {
-                        "label": "Raramente si sente ansiosa o preoccupata"
+                        "label": "Retai jaučiantis/i nerimą ar baimę"
                     },
                     "5": {
-                        "label": "Ha pochi interessi artistici"
+                        "label": "Kažkiek besidomintis/i menu"
                     },
                     "50": {
-                        "label": "Pensa che la poesia e lo spettacolo siano noiosi"
+                        "label": "Tas/a, kuris/i poeziją ir spektaklius vertina kaip nuobodžius"
                     },
                     "51": {
-                        "label": "Preferisce che siano gli altri a prendere il comando"
+                        "label": "Tas/a, kuris/i nori, kad atsakomybę prisiimtų kiti"
                     },
                     "52": {
-                        "label": "È gentile ed educata con gli altri"
+                        "label": "Mandagus/i, paslaugus/i aplinkiniams"
                     },
                     "53": {
-                        "label": "È tenace, lavora fin quando completa le cose da fare"
+                        "label": "Atkalus/i, dirbu, kol nepabaigiu užduoties"
                     },
                     "54": {
-                        "label": "Tende a sentirsi depressa"
+                        "label": "Linkęs/usi į liūdesį"
                     },
                     "55": {
-                        "label": "Si interessa poco di idee astratte"
+                        "label": "Nesidomintis/i abstrakčiomis idėjomis"
                     },
                     "56": {
-                        "label": "Mostra poco entusiasmo"
+                        "label": "Labai entuziastingas/a"
                     },
                     "57": {
-                        "label": "Pensa bene delle altre persone"
+                        "label": "Tas/a, kuris/i apie kitus mano tik gerai"
                     },
                     "58": {
-                        "label": "Talvolta si comporta in modo irresponsabile"
+                        "label": "Kartais neatsakingai pasielgiantis/i"
                     },
                     "59": {
-                        "label": "È temperamentale, diventa facilmente emotiva"
+                        "label": "Temperamentingas/a, lengvai sujaudinamas/a"
                     },
                     "6": {
-                        "label": "Ha una personalità assertiva"
+                        "label": "Atkakliai siekiantis/i savo tikslo"
                     },
                     "60": {
-                        "label": "È originale, viene fuori con nuove idee"
+                        "label": "Originalus/i, kupinas/a naujų idėjų"
                     },
                     "7": {
-                        "label": "È rispettosa, tratta gli altri con rispetto"
+                        "label": "Pagarbus/i, pagarbiai besielgiantisi su kitais"
                     },
                     "8": {
-                        "label": "Tende ad essere pigra"
+                        "label": "Linkęs/usi tingėti"
                     },
                     "9": {
-                        "label": "Rimane ottimista di fronte agli ostacoli"
+                        "label": "Išliekantis/i optimistu/e po susidūrimo su kliūtimis"
                     }
                 },
-                "label": "Ti preghiamo di valutare quanto sei d'accordo o in disaccordo con le seguenti affermazioni: Sono una persona che...",
+                "label": "Įvertinkite, kiek Jūs sutinkate ar nesutinkate su šiais teiginiais:\n \nAš esu ...",
                 "options": {
-                    "agree": "D'accordo",
-                    "agreeStrongly": "Fortemente d'accordo",
-                    "disagree": "In disaccordo",
-                    "disagreeStrongly": "Fortemente in disaccordo",
-                    "neutral": "Neutrale; nessuna opinione"
+                    "agree": "Sutinku",
+                    "agreeStrongly": "Visiškai sutinku",
+                    "disagree": "Nesutinku",
+                    "disagreeStrongly": "Visiškai nesutinku",
+                    "neutral": "Nesvarbu; neturiu nuomonės"
                 }
             },
             "6": {
                 "items": {
                     "1": {
-                        "label": "In generale, mi considero",
+                        "label": "Bendrai paėmus, aš manau, jog esu",
                         "options": {
-                            "notHappy": "Non una persona molto felice",
-                            "veryHappy": "Una persona molto felice"
+                            "notHappy": "Ne itin laimingas žmogus",
+                            "veryHappy": "Labai laimingas žmogus"
                         }
                     },
                     "2": {
-                        "label": "Rispetto alla maggior parte delle persone intorno a me, mi considero",
+                        "label": "Lyginant su dauguma mane supančių žmonių, aš esu",
                         "options": {
-                            "lessHappy": "Meno felice",
-                            "moreHappy": "Più felice"
+                            "lessHappy": "Mažiau laimingas/a",
+                            "moreHappy": "Daugiau laimingas/a"
                         }
                     },
                     "3": {
-                        "label": "Alcune persone sono in generale molto felici. Si godono la vita indipendentemente da ciò che accade, prendendo il meglio da ogni cosa. Quanto ti descrive questa rappresentazione?",
+                        "label": "Kai kurie žmonės iš esmės yra labai laimingi. Jie mėgaujasi gyvenimu nepriklausomai nuo to, kas vyksta, ima visa ką geriausio bet kur ir bet kada. Kiek šis apibūdinimas tinka Jums?",
                         "options": {
-                            "aGreatDeal": "Moltissimo",
-                            "notAtAll": "Per nulla"
+                            "aGreatDeal": "Labai tinka",
+                            "notAtAll": "Visiškai netinka"
                         }
                     },
                     "4": {
-                        "label": "Alcune persone non sono molto felici. Sebbene non siano depresse, non sembrano mai felici quanto potrebbero. Quanto ti descrive questa rappresentazione?",
+                        "label": "Kai kurie žmonės iš esmės nėra labai laimingi. Nors jie ir nėra labai prislėgti, tačiau jie niekada neatrodo tokie laimingi, kokiais galėtų būti. Kiek šis apibūdinimas tinka Jums?",
                         "options": {
-                            "aGreatDeal": "Moltissimo",
-                            "notAtAll": "Per nulla"
+                            "aGreatDeal": "Labai tinka",
+                            "notAtAll": "Visiškai netinka"
                         }
                     }
                 },
-                "label": "Per ciascuna delle domande seguenti, ti preghiamo di indicare su una scala a 7 punti quello che ti descrive di più"
+                "label": "7 balų skalėje įvertinkite kiekvieną toliau pateiktą klausimą pagal tai, kaip gerai jis apibūdina Jus:"
             },
             "7": {
                 "items": {
                     "1": {
-                        "label": "Credo che io e le persone intorno a me siamo felici"
+                        "label": "Tikiu, jog aš ir žmonės aplink mane yra laimingi."
                     },
                     "2": {
-                        "label": "Sento di essere giudicato/a positivamente dagli altri intorno a me"
+                        "label": "Manau, kad aplinkiniai žmonės mane vertina teigiamai."
                     },
                     "3": {
-                        "label": "Rendo felici le persone per me importanti"
+                        "label": "Suteikiu laimės man svarbiems žmonėms."
                     },
                     "4": {
-                        "label": "Anche se la mia vita è mediocre, preferisco vivere una vita stabile"
+                        "label": "Nors mano gyvenimas atrodo vidutiniškas, bet gyvenu stabiliai."
                     },
                     "5": {
-                        "label": "Non ho grandi preoccupazioni o ansie"
+                        "label": "Neturiu jokių didesnių rūpesčių ar pergyvenimų."
                     },
                     "6": {
-                        "label": "Posso fare ciò che voglio senza creare problemi agli altri"
+                        "label": "Galiu daryti ką noriu nesukeldamas/a problemų kitiems žmonėms."
                     },
                     "7": {
-                        "label": "Credo che la mia vita sia felice quanto quella delle persone che mi sono vicine"
+                        "label": "Manau, kad mano gyvenimas yra toks pat laimingas kaip ir kitų mane supančių žmonių."
                     },
                     "8": {
-                        "label": "Credo di aver raggiunto lo stesso standard di vita delle persone che mi sono vicine"
+                        "label": "Manau, kad pasiekiau tą patį gyvenimo standartą kaip ir kitų mane supančių žmonių."
                     },
                     "9": {
-                        "label": "Generalmente credo che le cose vadano altrettanto bene a me e alle persone che mi sono vicine."
+                        "label": "Iš esmės tikiu, kad dalykai man klostosi taip pat gerai, kaip ir kitiems mane supantiems žmonėms."
                     }
                 },
-                "label": "Ti preghiamo di valutare quanto sei d'accordo o in disaccordo con le seguenti affermazioni:",
+                "label": "Įvertinkite, prašom, kaip stipriai sutinkate ar nesutinkate su šiais teiginiais:",
                 "options": {
-                    "agree": "D'accordo",
-                    "agreeStrongly": "Fortemente d'accordo",
-                    "disagree": "In disaccordo",
-                    "disagreeStrongly": "Fortemente in disaccordo",
-                    "neutral": "Neutrale; nessuna opinione"
+                    "agree": "Sutinku",
+                    "agreeStrongly": "Visiškai sutinku",
+                    "disagree": "Nesutinku",
+                    "disagreeStrongly": "Visiškai nesutinku",
+                    "neutral": "Nesvarbu; neturiu nuomonės"
                 }
             },
             "8": {
                 "items": {
                     "1": {
-                        "label": "Credere in una religione aiuta a capire il significato della vita"
+                        "label": "Tikėjimas padeda žmogui atrasti gyvenimo prasmę."
                     },
                     "10": {
-                        "label": "Solo i deboli hanno bisogno di una religione"
+                        "label": "Tik silpniems žmonėms religija yra reikalinga."
                     },
                     "11": {
-                        "label": "La religione fa evadere le persone dalla realtà"
+                        "label": "Religija skatina žmones pabėgti nuo realybės."
                     },
                     "12": {
-                        "label": "Praticare una religione unisce la gente con gli altri"
+                        "label": "Religinė praktika apjungia žmones tarpusavyje."
                     },
                     "13": {
-                        "label": "Le persone religiose hanno maggiori probabilità di mantenere gli standard morali"
+                        "label": "Religingi žmonės yra linkę vadovautis moralinėmis normomis."
                     },
                     "14": {
-                        "label": "Le credenze religiose portano a pensare in modo non scientifico"
+                        "label": "Religiniai įsitikinimai veda prie nemokslinio mąstymo."
                     },
                     "15": {
-                        "label": "L'ignoranza porta le persone a credere a un'entità superiore"
+                        "label": "Neišprusimas skatina žmones tikėti aukštesne būtybe."
                     },
                     "16": {
-                        "label": "Le prove di un'entità superiore sono ovunque, per coloro che ne cercano i segni"
+                        "label": "Tiems, kurie ieško aukštesnės būtybės egzistavimo patvirtinimo ženklų, jų yra visur."
                     },
                     "17": {
-                        "label": "La religione contraddice la scienza"
+                        "label": "Religija prieštarauja mokslui."
                     },
                     "2": {
-                        "label": "La religione aiuta le persone a prendere delle buone decisioni per la propria vita"
+                        "label": "Religija padeda žmonėms padaryti gerus pasirinkimus savo gyvenime."
                     },
                     "3": {
-                        "label": "La fede religiosa contribuisce a una buona salute mentale"
+                        "label": "Religinis tikėjimas padeda palaikyti gerą psichinę sveikatą."
                     },
                     "4": {
-                        "label": "La religione rallenta il progresso umano"
+                        "label": "Religija stabdo žmonijos progresą."
                     },
                     "5": {
-                        "label": "C'è un'entità suprema che controlla l'universo"
+                        "label": "Egzistuoja aukštesnioji visatą valdanti būtybė."
                     },
                     "6": {
-                        "label": "La religione rende le persone più sane"
+                        "label": "Religija daro žmones sveikesnius."
                     },
                     "7": {
-                        "label": "La religione rende le persone più felici"
+                        "label": "Religija daro žmones laimingesnius."
                     },
                     "8": {
-                        "label": "Credere in una religione rende bravi cittadini"
+                        "label": "Tikėjimas daro žmones geresniais piliečiais."
                     },
                     "9": {
-                        "label": "Praticare una religione rende più difficile pensare in modo autonomo"
+                        "label": "Religinė praktika sunkina žmonių nepriklausomą mąstymą."
                     }
                 },
-                "label": "Ti preghiamo di valutare quanto sei d'accordo o in disaccordo con le seguenti affermazioni:",
+                "label": "Įvertinkite, prašom, kaip stipriai tikite ar netikite šiais teiginiais:",
                 "options": {
-                    "believeLittle": "Lo credo un po'",
-                    "believeStrong": "Lo credo fortemente",
-                    "disbelieveLittle": "Ne dubito un po'",
-                    "disbelieveStrong": "Non lo credo affatto",
-                    "neutral": "Neutrale; nessuna opinione",
-                    "preferNoAnswer": "Preferisco non rispondere"
+                    "believeLittle": "Šiek tiek tikiu",
+                    "believeStrong": "Visiškai tikiu",
+                    "disbelieveLittle": "Šiek tiek netikiu",
+                    "disbelieveStrong": "Visiškai netikiu",
+                    "neutral": "Neutralus; neturiu nuomonės",
+                    "preferNoAnswer": "Pasirenku neatsakyti"
                 }
             },
             "9": {
                 "items": {
                     "1": {
-                        "label": "Preferisci esprimere i tuoi pensieri e i tuoi sentimenti apertamente, anche se questo può talvolta generare conflitti"
+                        "label": "Renkatės išreikšti savo mintis ir jausmus atvirai, net jeigu kartais tai gali sukelti konfliktą."
                     },
                     "10": {
-                        "label": "Ti comporti in modo diverso quando sei con persone diverse"
+                        "label": "Elgiatės skirtingai būdamas/a su skirtingais žmonėmis."
                     },
                     "11": {
-                        "label": "Ti vedi in modo diverso quando sei con persone diverse"
+                        "label": "Suvokiate save skirtingai būdami su skirtingais žmonėmis."
                     },
                     "12": {
-                        "label": "Ti vedi allo stesso modo, anche in ambienti sociali diversi"
+                        "label": "Suvokiate save vienodai, net kai esate skirtingose socialinėse aplinkose."
                     },
                     "13": {
-                        "label": "Ti comporti allo stesso modo, anche quando sei con persone diverse"
+                        "label": "Elgiatės tuo pačiu būdu, net kai esate su skirtingais žmonėmis."
                     },
                     "2": {
-                        "label": "Cerchi di adattarti alle persone che ti circondano, anche se questo significa nascondere i tuoi sentimenti"
+                        "label": "Stengiatės prisiderinti prie Jus supančių žmonių, net jeigu tam reikia nuslėpti savo jausmus."
                     },
                     "3": {
-                        "label": "Preferisci preservare l'armonia nelle tue relazioni, anche se questo significa non esprimere i tuoi veri sentimenti"
+                        "label": "Renkatės išlaikyti harmoniją Jūsų santykiuose, net jeigu dėl to tenka neišreikšti savo tikrųjų jausmų."
                     },
                     "4": {
-                        "label": "Pensi che sia un bene dire apertamente quando sei in disaccordo con gli altri"
+                        "label": "Manote, kad tais atvejais, kai nesutinkate su kitais, verta savo nuomonę išreikšti atvirai."
                     },
                     "5": {
-                        "label": "Proteggi i tuoi interessi, anche se questo potrebbe talvolta ledere le tue relazioni familiari"
+                        "label": "Jums yra svarbu apsaugoti savo interesus, net jeigu kartais dėl to tenka sugadinti šeimyninius santykius."
                     },
                     "6": {
-                        "label": "Di solito dai la priorità agli altri, piuttosto che a te stesso"
+                        "label": "Dažniausiai pirmenybę suteikiate kitiems, ne sau."
                     },
                     "7": {
-                        "label": "Ti prendi cura delle persone a te vicine, anche a costo di mettere da parte i tuoi bisogni personali"
+                        "label": "Rūpinatės artimųjų žmonių gerove, net jeigu dėl to tenka atidėti savo asmeninius poreikius."
                     },
                     "8": {
-                        "label": "Dai più valore ai successi personali che alle buone relazioni con le persone che ti sono vicine"
+                        "label": "Labiau rūpinatės savo asmeniniais pasiekimais nei gerais santykiais su artimaisiais."
                     },
                     "9": {
-                        "label": "Sacrificheresti i tuoi interessi personali per il bene della tua famiglia"
+                        "label": "Paaukotumėte savo asmeninius interesus dėl savo šeimos gerovės."
                     }
                 },
-                "label": "Quanto ciascuna affermazione ti descrive?",
+                "label": "Kaip gerai kiekvienas teiginys Jums tinka?",
                 "options": {
-                    "aLittle": "Mi descrive un poco",
-                    "exactly": "Mi descrive perfettamente",
-                    "moderately": "Mi descrive moderatamente",
-                    "notAtAll": "Non mi descrive per nulla",
-                    "veryWell": "Mi descrive molto bene"
+                    "aLittle": "Šiek tiek tinka",
+                    "exactly": "Visiškai tinka",
+                    "moderately": "Vidutiniškai tinka",
+                    "notAtAll": "Visiškai netinka",
+                    "veryWell": "Labai gerai tinka"
                 }
             }
         }
     },
     "previouslogin": {
-        "line1": "I nostri registri dicono che hai già partecipato allo studio",
-        "line2": "Se questo è errato, ti preghiamo di contattare il coordinatore locale dell'International Situations Project"
+        "line1": "Mūsų įrašai rodo, kad Jūs jau pabaigėte tyrimą.",
+        "line2": "Jeigu įvyko klaida, susisiekite su Tarptautinių Situacijų Projekto vietiniu koordinatoriumi."
     },
     "qsort": {
         "rsq": {
             "item": {
-                "SomoneCountedon": "Ci si aspetta che un altro tra i presenti (che non sei tu) faccia qualcosa.",
-                "abusedVictimized": "Vieni maltrattato/a o umiliato/a",
-                "adviceYou": "Altri ti chiedono consiglio",
-                "ambition": "È possibile esprimere o dimostrare ambizione",
-                "anxietyInducing": "La situazione potrebbe indurre ansia.",
-                "art": "L'arte è una parte importante della situazione",
-                "askingYou": "Qualcuno ti richiede qualcosa.",
-                "assertivenessGoal": "Per raggiungere un obiettivo bisogna essere direttivi.",
-                "athleticsSports": "Le persone partecipano ad attività atletiche o sportive",
-                "blaming": "Qualcuno ti incolpa di qualcosa.",
-                "breakingRules": "Qualcuno sta infrangendo le regole",
-                "clearRules": "Regole chiare definiscono quali sono i comportamenti appropriati (indipendentemente dal fatto che le regole siano rispettate)",
-                "closeRelationships": "I presenti hanno strette relazioni interpersonali tra di loro.",
-                "comparingThemselves": "Le persone si paragonano l'una con l'altra",
-                "competing": "Le persone sono in competizione tra di loro.",
-                "complex": "La situazione è complessa.",
-                "complimentingYou": "Qualcuno ti sta facendo i complimenti o ti elogia.",
-                "conformToOthers": "Sei spinto/a a fare come gli altri",
-                "convinceYou": "Qualcuno cerca di convincerti di qualcosa.",
-                "countingOnYou": "Si fa affidamento su di te per fare qualcosa.",
-                "criticizing": "Qualcuno ti sta criticando",
-                "decision": "Bisogna prendere una decisione.",
-                "desiresGratified": "Alcuni desideri possono essere soddisfatti (per esempio cibo, shopping, opportunità sessuali)",
-                "differentRoles": "Le persone presenti hanno ruoli sociali o status diversi",
-                "disagreeing": "Le persone non sono d’accordo su qualcosa.",
-                "dominate": "Qualcuno cerca di dominarti o comandarti.",
-                "emotionalThreats": "Sono presenti minacce emotive.",
-                "emotionsExpressed": "Si possono esprimere emozioni.",
-                "entertainment": "È possibile divertirsi",
-                "family": "La famiglia è importante in questa situazione",
-                "feelInadequate": "La situazione potrebbe farti sentire inadeguato/a.",
-                "femininity": "Si possono esibire caratteristiche/comportamenti tipicamente femminili",
-                "food": "Il cibo è importante in questa situazione",
-                "frustrating": "La situazione è frustrante (per esempio: viene ostacolato il raggiungimento di un obiettivo)",
-                "goodImpression": "È importante che tu faccia una buona impressione.",
-                "happeningOnce": "Accadono molte cose contemporaneamente",
-                "honor": "C'è in ballo una questione d'onore",
-                "hostile": "La situazione potrebbe scatenare ostilità nelle persone.",
-                "humorous": "La situazione è divertente o potenzialmente divertente.",
-                "intellectuallyStimulating": "La situazione potrebbe essere intellettualmente stimolante.",
-                "intelligence": "L'intelligenza è importante (per esempio: una discussione intellettuale, un problema complesso che bisogna risolvere)",
-                "jobDone": "C’è bisogno di fare un lavoro.",
-                "masculinity": "Si può esprimere mascolinità",
-                "minorDetails": "I piccoli dettagli sono importanti.",
-                "money": "I soldi sono importanti",
-                "moralIssues": "C'entrano questioni morali o etiche.",
-                "music": "La musica è una parte importante della situazione",
-                "needsHelp": "Qualcuno ha bisogno di aiuto.",
-                "negativeEmotions": "La situazione potrebbe suscitare emozioni negative",
-                "newRelationships": "Si potrebbero sviluppare nuove relazioni sociali",
-                "noisy": "La situazione è rumorosa. (Indicare l'affermazione come non caratteristica implica che la situazione è silenziosa).",
-                "notClear": "Non è chiaro cosa stia succedendo;  La situazione è incerta.",
-                "oppositeSex": "La presenza di membri del sesso opposto è una parte importante di questa situazione",
-                "peopleGetAlong": "È importante che le persone vadano d'accordo",
-                "physicalAttractiveness": "La tua bellezza/attrattività fisica è importante",
-                "physicalThreats": "Sono presenti minacce fisiche.",
-                "physicallyActive": "Le persone sono fisicamente attive",
-                "physicallyUncomfortable": "La situazione non è confortevole da un punto di vista fisico (per esempio: troppo caldo, troppo affollato, troppo freddo). (Indicare l'affermazione come non caratteristica implica che la situazione è confortevole).",
-                "playful": "La situazione è divertente",
-                "politics": "C'entra la politica (per esempio: una discussione politica)",
-                "positiveEmotions": "La situazione potrebbe suscitare emozioni positive",
-                "potentiallyEnjoy": "La situazione è potenzialmente gradevole.",
-                "power": "Il potere è importante",
-                "quickAction": "È necessaria un’azione rapida.",
-                "rapidlyChanging": "La situazione cambia rapidamente",
-                "reassurance": "Qualcuno ha bisogno o desidera di essere rassicurato",
-                "reassuringPresent": "È presente un’altra persona rassicurante.",
-                "relevantHealth": "La situazione è rilevante per la tua salute (per esempio: possibilità di malattie, una visita medica)",
-                "religion": "La religione è rilevante (per esempio: una funzione o una discussione religiosa).",
-                "romanticPartners": "Ci sono persone che sono o potrebbero essere tuoi partner romantici",
-                "ruminateDaydream": "Si può meditare sognare ad occhi aperti o fantasticare.",
-                "selfControl": "È necessario l'autocontrollo (per te stesso o per qualcun altro).",
-                "sensations": "Le sensazioni sono importanti (per esempio: tocco, sapore, odore, contatto fisico).",
-                "sexuality": "La sessualità è rilevante",
-                "shame": "Qualcuno si sta vergognando",
-                "simpleClearcut": "La situazione è semplice e chiara",
-                "smallAnnoyances": "La situazione include piccole seccature.",
-                "socialInteraction": "È possibile interagire con altre persone",
-                "successCooperation": "Il successo in questa situazione richiede cooperazione.",
-                "takenCareOf": "Qualcuno ha bisogno che ci si prenda cura di lui",
-                "talkingExpected": "Ci si attende o si richiede che si parli.",
-                "talkingPermitted": "Si può parlare.",
-                "tenseUpset": "La situazione potrebbe rendere le persone tese o infastidite",
-                "tryingImpress": "Qualcuno cerca di fare una buona impressione su di te.",
-                "underThreat": "Qualcuno è in pericolo o a rischio.",
-                "unhappySuffering": "Qualcuno è infelice o soffre.",
-                "unusualIdeas": "Idee o punti di vista insoliti sono discussi liberamente.",
-                "verbalFluency": "Si possono dimostrare abilità verbali (per esempio: un dibattito, un monologo, una conversazione attiva)",
-                "workingHard": "Le persone lavorano duro",
-                "youFocus": "Tu sei al centro dell’attenzione."
+                "SomoneCountedon": "Iš kažkurio dalyvaujančio (ne Jūsų) tikimasi, kad jis kažką turi padaryti.",
+                "abusedVictimized": "Su Jumis blogai elgiamasi ar esate persekiojamas/a.",
+                "adviceYou": "Kiti nori sulaukti patarimo iš Jūsų.",
+                "ambition": "Gali būti išreiškiamos ar demonstruojamos ambicijos.",
+                "anxietyInducing": "Situacija gali sukelti nerimą.",
+                "art": "Menas yra svarbus situacijos aspektas.",
+                "askingYou": "Kažkas kažko Jūsų prašo.",
+                "assertivenessGoal": "Tikslui pasiekti yra reikalingas atkaklumas.",
+                "athleticsSports": "Žmonės mankštinasi ar sportuoja.",
+                "blaming": "Kažkas kaltina Jus dėl kažko.",
+                "breakingRules": "Kažkas laužo taisykles.",
+                "clearRules": "Aiškios taisyklės apibūdina pageidaujamą elgesį (nesvarbu, ar tomis taisyklėmis vadovaujamasi, ar ne).",
+                "closeRelationships": "Situacijoje dalyvaujantys žmonės palaiko glaudžius tarpusavio santykius.",
+                "comparingThemselves": "Žmonės lygina save vienas su kitu.",
+                "competing": "Žmonės tarpusavyje varžosi.",
+                "complex": "Situacija yra sudėtinga.",
+                "complimentingYou": "Kažkas sako Jums komplimentus ar giria Jus.",
+                "conformToOthers": "Jūs patiriate spaudimą prisitaikyti prie kitų žmonių elgesio.",
+                "convinceYou": "Kažkas stengiasi Jus kuo nors įtikinti.",
+                "countingOnYou": "Kažkas tikisi, kad Jūs kažką padarysite.",
+                "criticizing": "Kažkas Jus kritikuoja.",
+                "decision": "Reikia priimti sprendimą.",
+                "desiresGratified": "Poreikiai gali būti patenkinti (pavyzdžiui: maisto, apsipirkimo, seksualiniai).",
+                "differentRoles": "Dalyvaujantys asmenys atlieka skirtingus socialinius vaidmenis ir yra skirtingo socialinio statuso.",
+                "disagreeing": "Žmonės dėl kažko nesutaria.",
+                "dominate": "Kažkas stengiasi dominuoti ar Jums nurodinėti.",
+                "emotionalThreats": "Situacija pavojinga emociškai.",
+                "emotionsExpressed": "Emocijos gali būti išreiškiamos.",
+                "entertainment": "Vyksta pasilinksminimas.",
+                "family": "Šeima yra svarbi šioje situacijoje.",
+                "feelInadequate": "Situacija gali priversti Jus jaustis nepilnaverčiu.",
+                "femininity": "Moteriškumas gali būti išreiškiamas.",
+                "food": "Maistas yra svarbus šioje situacijoje.",
+                "frustrating": "Situacija yra frustruojanti (pavyzdžiui: neįmanoma pasiekti tikslo).",
+                "goodImpression": "Jums yra svarbu padaryti gerą įspūdį.",
+                "happeningOnce": "Daug dalykų vyksta vienu metu.",
+                "honor": "Tai yra garbės klausimas.",
+                "hostile": "Situacija gali priversti žmones jausti priešiškumą.",
+                "humorous": "Situacija yra juokinga ar gali virsti juokinga.",
+                "intellectuallyStimulating": "Situacija gali paskatinti intelektinę veiklą.",
+                "intelligence": "Svarbu yra intelektas (pavyzdžiui: intelektinė diskusija, sudėtingos problemos sprendimas).",
+                "jobDone": "Reikia atlikti darbą.",
+                "masculinity": "Vyriškumas gali būti išreiškiamas.",
+                "minorDetails": "Smulkmenos yra svarbios.",
+                "money": "Pinigai yra svarbu.",
+                "moralIssues": "Susiję su moraliniais ar etiniais klausimais.",
+                "music": "Muzika yra svarbi situacijos dalis.",
+                "needsHelp": "Kažkam reikia pagalbos.",
+                "negativeEmotions": "Situacija gali sukelti neigiamas emocijas.",
+                "newRelationships": "Gali išsivystyti nauji santykiai.",
+                "noisy": "Situacija yra triukšminga (\"nebūdinga\" reiškia, kad yra labai tylu).",
+                "notClear": "Neaišku, kas vyksta; situacija yra neaiški.",
+                "oppositeSex": "Priešingos lyties asmenų buvimas yra svarbus šios situacijos aspektas.",
+                "peopleGetAlong": "Žmonėms yra svarbu gerai sutarti.",
+                "physicalAttractiveness": "Jūsų fizinis patrauklumas yra svarbus.",
+                "physicalThreats": "Situacija pavojinga fiziškai.",
+                "physicallyActive": "Žmonės yra fiziškai aktyvūs.",
+                "physicallyUncomfortable": "Situacijai yra būdingas fizinis diskomfortas (pavyzdžiui: per karšta, perpildyta, per šalta ir kt.). (\"nebūdinga\" reiškia kad situacija yra labai komfortiška.)",
+                "playful": "Situacija yra žaisminga.",
+                "politics": "Susiję su politika (pavyzdžiui: politinė diskusija).",
+                "positiveEmotions": "Situacija gali sukelti teigiamas emocijas.",
+                "potentiallyEnjoy": "Situacija gali virsti malonia.",
+                "power": "Galia yra svarbi.",
+                "quickAction": "Yra būtina skubiai veikti.",
+                "rapidlyChanging": "Situacija greitai keičiasi.",
+                "reassurance": "Kažkam reikia užtikrinimo, padrąsinimo.",
+                "reassuringPresent": "Dalyvauja asmuo gebantis užtikrinti, padrąsinti.",
+                "relevantHealth": "Situacija yra susijusi su Jūsų sveikata (pavyzdžiui: ligos galimybė, vizitas pas gydytoją).",
+                "religion": "Religija yra svarbi šioje situacijoje (pavyzdžiui: religinės apeigos ar diskusijos).",
+                "romanticPartners": "Dalyvauja potencialūs ar esami Jūsų romantiniai partneriai.",
+                "ruminateDaydream": "Yra galimybė ilgai mąstyti, svajoti ar fantazuoti.",
+                "selfControl": "Reikia save kontroliuoti (Jums ar kitiems).",
+                "sensations": "Pojūčiai yra svarbūs (pavyzdžiui: lietimas, skonis, kvapas, fizinis kontaktas).",
+                "sexuality": "Seksualumas yra svarbus.",
+                "shame": "Kažkas jaučia gėdą.",
+                "simpleClearcut": "Situacija yra paprasta ir aiški.",
+                "smallAnnoyances": "Situacijoje yra nedidelių erzinančių dalykų.",
+                "socialInteraction": "Gali vykti tarpasmeninis bendravimas.",
+                "successCooperation": "Sėkmei reikalingas bendradarbiavimas.",
+                "takenCareOf": "Kažkas nori, kad juo pasirūpintų.",
+                "talkingExpected": "Tikimasi arba reikalaujama kalbėti.",
+                "talkingPermitted": "Kalbėti galima.",
+                "tenseUpset": "Situacija gali žmonėms sukelti įtampą ir sugadinti nuotaiką.",
+                "tryingImpress": "Kažkas stengiasi padaryti Jums įspūdį.",
+                "underThreat": "Kažkam iškilo grėsmė.",
+                "unhappySuffering": "Kažkas yra nelaimingas ar kenčia.",
+                "unusualIdeas": "Neįprastos idėjos ir pažiūros yra laisvai aptarinėjamos.",
+                "verbalFluency": "Yra galimybių pademonstruoti savo iškalbą (pavyzdžiui: debatai, monologas, aktyvus pokalbis).",
+                "workingHard": "Žmonės stipriai dirba.",
+                "youFocus": "Jūs esate dėmesio centre."
             }
         },
         "sections": {
             "1": {
-                "activity": "Attività:",
+                "activity": "Veikla:",
                 "categories": {
-                    "characteristic": "Caratteristico",
-                    "neutral": "Neutrale",
-                    "uncharacteristic": "Non caratteristico"
+                    "characteristic": "Būdinga",
+                    "neutral": "Nei būdinga, nei nebūdinga",
+                    "uncharacteristic": "Nebūdinga"
                 },
-                "instructions": "Adesso per favore descrivi più nel dettaglio la situazione in cui ti trovavi. Appariranno 90 affermazioni, una per volta. Trascina ciascuna di esse in uno dei tre riquadri. Usa il riquadro \"Caratteristico\" sulla destra per le affermazioni che descrivono accuratamente la situazione; usa il riquadro \"Non caratteristico\" sulla sinistra per le affermazioni che non descrivono la situazione; usa il riquadro \"Neutrale\" per le affermazioni che sono irrilevanti, poco chiare, o sulle quali non sei sicuro. Quando hai finito, premi \"Continua\".",
+                "instructions": "Dabar prašome apibūdinti Jūsų patirtą situaciją detaliau. Vienas po kito atsiras 90 teiginių. Patalpinkite (nuvilkite) kiekvieną jų į vieną iš trijų langelių. Naudokite dešinį langelį \"Būdinga\" tiems teiginiams, kurie tiksliai atspindi situaciją; naudokite kairįjį \"Nebūdinga\" langelį teiginiams kurie neapibūdina situacijos; naudokite langelį \"Nei būdinga, nei nebūdinga\" teiginiams, kurie yra nereikšmingi, neaiškūs ar dėl kurių Jūs nesate tikras. Kai pabaigsite, spauskite \"Tęsti\".",
                 "itemsLeft": {
-                    "one": "{{count}} affermazione rimanente",
-                    "other": "{{count}} affermazioni rimanenti"
+                    "one": "{{count}} likęs reikalavimas",
+                    "other": "{{count}} liko teiginių"
                 },
-                "location": "Luogo:",
-                "othersPresent": "Altre persone presenti:"
+                "location": "Vieta:",
+                "othersPresent": "Kitų dalyvavimas:"
             },
             "2": {
                 "categories": {
-                    "extremelyChar": "Estremamente caratteristico",
-                    "extremelyUnchar": "Estremamente non caratteristico",
-                    "fairlyChar": "Abbastanza caratteristico",
-                    "fairlyUnchar": "Abbastanza non caratteristico",
-                    "neutral": "Né caratteristico né non caratteristico",
-                    "quiteChar": "Molto caratteristico",
-                    "quiteUnchar": "Molto non caratteristico",
-                    "somewhatChar": "Leggermente carratteristico",
-                    "somewhatUnchar": "Leggermente non caratteristico"
+                    "extremelyChar": "Ypač būdinga",
+                    "extremelyUnchar": "Ypač nebūdinga",
+                    "fairlyChar": "Ganėtinai būdinga",
+                    "fairlyUnchar": "Ganėtinai nebūdinga",
+                    "neutral": "Nei būdinga, nei nebūdinga",
+                    "quiteChar": "Stipriai būdinga",
+                    "quiteUnchar": "Stipriai nebūdinga",
+                    "somewhatChar": "Kažkiek būdinga",
+                    "somewhatUnchar": "Kažkiek nebūdinga"
                 },
-                "instructions": "Ora ti preghiamo di descrivere la situazione con maggiore precisione. Dai tre riquadri, per favore sposta le affermazioni nei nove riquadri. Puoi trascinare le affermazioni da un riquadro all'altro, ma se lasci troppe affermazioni in un solo riquadro, il suo nome diventerà rosso. Il nome diventa verde quando nel riquadro si trova il numero corretto di affermazioni."
+                "instructions": "Dabar prašome Jūsų apibūdinti situaciją dar tiksliau. Iš trijų langelių perkelkite teiginius į devynis langelius. Jūs galite vilkti teiginius iš vieno langelio į kitą, tačiau jeigu bandysite patalpinti per daug teiginių kuriame nors langelyje, jo pavadinimas nusidažys raudona spalva. Pavadinimas taps žaliu, kai langelyje bus tinkamas teiginių skaičius."
             }
         }
     },
     "survey": {
         "sections": {
             "1": {
-                "instructions": "Benvenuto/a! Siamo interessati alle situazioni in cui si trovano le persone e al modo in cui si comportano in queste situazioni. Descriverai una situazione in cui ti sei trovato/a recentemente e descriverai cosa hai fatto in quella situazione. Ti saranno anche rivolte alcune domande che riguardano i tuoi atteggiamenti e i tuoi valori. Sulla base delle risposte, quando avrai completato lo studio, ti sarà data la possibilità di ricevere alcune informazioni sulla tua personalità che speriamo tu possa trovare interessanti. Ci vorrà meno di un'ora per completare tutto. Per iniziare, ti preghiamo di rispondere ad alcune domande su di te.",
+                "instructions": "Sveiki! Mus domina žmonių kasdieninės situacijos ir tai, kaip žmonės elgiasi jose. Jūs aprašysite neseniai patirtą situaciją ir tai, ką Jūs tuo metu darėte. Taip pat paklausime Jūsų kelių klausimų apie Jūsų pažiūras ir vertybes. Kai baigsite atsakinėti, Jūs turėsite galimybę gauti informaciją apie Jūsų asmenybės savybes. Informacija remsis Jūsų atsakymais ir mes tikimės, kad Jums bus įdomi. Užduotims atlikti prireiks kiek mažiau nei valandos. \n \nPradžiai prašome atsakyti į kelis klausimus apie save.",
                 "questions": {
                     "1": {
-                        "label": "Età"
+                        "label": "Amžius"
                     },
                     "10": {
-                        "label": "Se sì, quale religione segui?"
+                        "label": "Jeigu taip, tai kokią religiją išpažįstate?"
                     },
                     "11": {
-                        "label": "Paese di nascita"
+                        "label": "Gimtoji šalis"
                     },
                     "2": {
-                        "label": "Genere",
+                        "label": "Lytis",
                         "options": {
-                            "female": "Femmina",
-                            "male": "Maschio",
-                            "na": "Preferisco non rispondere",
-                            "other": "Altro"
+                            "female": "Moteris",
+                            "male": "Vyras",
+                            "na": "Pasirenku neatsakyti",
+                            "other": "Kita"
                         }
                     },
                     "3": {
-                        "label": "Qual è la tua etnia?"
+                        "label": "Kokia yra Jūsų tautybė?"
                     },
                     "4": {
-                        "label": "Qual è la tua lingua madre?"
+                        "label": "Kokia yra Jūsų gimtoji kalba?"
                     },
                     "5": {
-                        "label": "Su una scala da 1 a 10, come descriveresti la posizione economica della tua famiglia?",
+                        "label": "Kaip galėtumėte apibūdinti savo šeimos ekonominę padėtį skalėje nuo 1 iki 10?",
                         "options": {
-                            "average": "Media",
-                            "least": "Molto poco benestante",
-                            "most": "Molto benestante"
+                            "average": "Vidutiniškai palanki",
+                            "least": "Labai nepalanki",
+                            "most": "Labai palanki"
                         }
                     },
                     "6": {
-                        "label": "Città di nascita"
+                        "label": "Gimtasis miestas"
                     },
                     "7": {
-                        "label": "Città di residenza",
+                        "label": "Gyvenamoji vieta",
                         "options": {
-                            "remoteRural": "rurale isolato",
-                            "rural": "rurale",
-                            "suburban": "periferia urbana",
-                            "urban": "urbana"
+                            "remoteRural": "Atoki kaimo vietovė",
+                            "rural": "Kaimas",
+                            "suburban": "Miestelis, gyvenvietė, priemiestis",
+                            "urban": "Miestas"
                         }
                     },
                     "8": {
-                        "label": "Su una scala da 1 a 10, quanto sei religioso/a?",
+                        "label": "Įvertinkite savo religingumą skalėje nuo 1 iki 10.",
                         "options": {
-                            "highlyReligious": "Molto religioso/a",
-                            "notReligious": "Per nulla religioso/a",
-                            "preferNoAnswer": "Preferisco non rispondere"
+                            "highlyReligious": "Labai religingas",
+                            "notReligious": "Visiškai nereligingas",
+                            "preferNoAnswer": "Pasirenku neatsakyti"
                         }
                     },
                     "9": {
-                        "label": "Sei religioso?",
+                        "label": "Ar Jūs laikotės religinių pažiūrų?",
                         "options": {
-                            "noLabel": "No",
-                            "preferNoAnswer": "Preferisco non rispondere",
-                            "yesLabel": "Sì"
+                            "noLabel": "Ne",
+                            "preferNoAnswer": "Pasirenku neatsakyti",
+                            "yesLabel": "Taip"
                         }
                     }
                 }
             },
             "2": {
                 "instructions": {
-                    "firstSection": "Per favore, descrivi un'esperienza di ieri che ti ricordi bene",
-                    "secondSection": "Va bene qualunque esperienza che tu abbia avuto ieri; l'unica cosa importante è che tu la ricordi bene. In particolare, descrivi cosa stavi facendo, dov'eri e chi era presente.",
-                    "thirdSection": "Ti preghiamo di scrivere le tue risposte nel riquadro sottostante."
+                    "firstSection": "Prašome aprašyti vakar Jūsų patirtą įvykį, kurį gerai atsimenate.",
+                    "secondSection": "Tinka bet kuris Jūsų vakar patirtas įvykis, svarbiausia yra, kad Jūs jį gerai prisimintumėte. Smulkiau aprašykite tai, ką Jūs darėte, kur Jūs buvote ir kas dar dalyvavo.",
+                    "thirdSection": "Prašome užrašyti atsakymus langeliuose žemiau."
                 },
                 "questions": {
                     "11": {
-                        "characterCount": "0 di 75 caratteri utilizzati",
-                        "label": "Cosa stavi facendo in quel momento?"
+                        "characterCount": "Panaudota 0 iš 75 ženklų",
+                        "label": "Ką Jūs darėte tuo metu?"
                     },
                     "12": {
-                        "characterCount": "0 di 75 caratteri utilizzati",
-                        "label": "Dove ti trovavi?"
+                        "characterCount": "Panaudota 0 iš 75 ženklų",
+                        "label": "Kur Jūs buvote?"
                     },
                     "13": {
-                        "characterCount": "0 di 75 caratteri utilizzati",
-                        "label": "Chi altro era presente? (Se eri da solo, scrivi \"solo\")"
+                        "characterCount": "Panaudota 0 iš 75 ženklų",
+                        "label": "Kas dar dalyvavo? (Jeigu Jūs buvote vienas, įrašykite \"vienas\")."
                     },
                     "14": {
-                        "label": "Approssimativamente, a che ora è iniziata l'esperienza?"
+                        "label": "Kuriuo maždaug laiku tai prasidėjo?"
                     }
                 }
             }
         }
     },
     "thankyou": {
-        "exitButton": "Esci per terminare lo studio",
-        "instructions": "Adesso puoi terminare lo studio, oppure andare avanti per ricevere alcune informazione sulla tua personalità, basate sulle risposte ai questionari che hai completato.",
-        "personalityFeedbackButton": "Ricevi un riscontro sulla tua personalità",
-        "title": "Grazie!"
+        "exitButton": "Išeiti ir užbaigti tyrimą",
+        "instructions": "Jūs jau galite užbaigti tyrimą arba galite tęsti ir gauti Jūsų atsakymų pagrindu parengtą informaciją apie Jūsų asmenybės savybes.",
+        "personalityFeedbackButton": "Gauti asmeninį grįžtamąjį ryšį",
+        "title": "Ačiū!"
     }
 };
