@@ -106,7 +106,7 @@ export default [
         "name": "China"
     },
     {
-        "code": "CR",
+        "code": "HR",
         "languages": [
             {
                 "code": "hr-CR",
@@ -308,7 +308,7 @@ export default [
         "languages": [
             {
                 "code": "lt-LT",
-                "name": "Latviešu"
+                "name": "Lietuvių"
             }
         ],
         "name": "Lithuania"
