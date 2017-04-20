@@ -283,7 +283,7 @@ export default {
                         "label": "Vedno sem optimističen glede svoje bodočnosti."
                     },
                     "4": {
-                        "label": "Le stežka pričakujem, da se bodo stvari po mojem."
+                        "label": "Le stežka pričakujem, da bodo stvari po mojem"
                     },
                     "5": {
                         "label": "Redko računam na to, da se mi bodo zgodile dobre stvari."
@@ -361,7 +361,7 @@ export default {
                         "label": "V svetu"
                     },
                     "6": {
-                        "label": "delati"
+                        "label": "Na delu"
                     }
                 },
                 "label": "Do kakšne mere mislite, da bi se vaše življenje razvilo v naslednjih okoljih?",
@@ -384,7 +384,7 @@ export default {
                         "label": "S svojimi izjemnimi prispevki mi uspeva biti v središču pozornosti."
                     },
                     "4": {
-                        "label": "Večina ljudi je nekako zgubaš."
+                        "label": "Večina ljudi je nekako zgubašev"
                     },
                     "5": {
                         "label": "Hočem, da mojim tekmecem spodleti."
