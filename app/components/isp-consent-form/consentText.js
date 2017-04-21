@@ -176,6 +176,30 @@ const consentText = {
         "title": "Einverständniserklärung zur Teilnahme an der Studie",
         "versionHistory": "(Einverständniserklärung: 14. Oktober 2016)"
     },
+    // Georgian
+    "GEORG1.GE": {
+        "buttonLabel": "გთხოვთ, პროცესის გასაგრძელებლად დაეთანხმეთ კვლევაში მონაწილეობის პირობებს",
+        "consentLabel": "გავეცანი ზემოთ მოცემულ პირობებს და თანხმობას ვაცხადებ კვლევაში მონაწილეობაზე",
+        "paragraphs": [
+            "მოგესალმებით. ინტერვიუ ერთი სესიისაგან შედგება და ერთ საათზე ნაკლებ დროს საჭიროებს. თქვენ მოგიწევთ გაიხსენოთ ბოლო ხანებში მიღებული გამოცდილება და თქვენს მიერ განხორციელებული მოქმედებები. დაგესმებათ კითხვები თქვენთვის მნიშვნელოვანი ღირებულებებისა და დამოკიდებულებების შესახებ. ინტერვიუს ბოლოს საშუალება გექნებათ მიიღოთ ინფორმაცია თქვენი პიროვნების შესახებ.",
+            "თქვენი ყველა პასუხი კონფიდენციალურად იქნება დაცული და იდენტიფიცირებული იქნება მხოლოდ ნომრით (და, არა თქვენი სახელით). კვლევის მიზნებიდან გამომდინარე, ანონიმური მონაცემები შესაძლოა შენახულ იქნას ონლაინ ბაზაში, ღია მეცნიერების ცენტრის მიერ (www.cos.io). ინტერვიუს დასასრულებლად აუცილებელია ყველა კითხვაზე პასუხის გაცემა, თუმცა, თქვენ ნებისმიერ დროს შეგიძლიათ შეწყვიტოთ გამოკითხვის პროცესი. ამ კვლევის მიზანია უკეთესად იქნას გაგებული ადამიანების ცხოვრება განსხვავებულ კულტურულ კონტექსტებში. კვლევა არ არის დაკავშირებული არანაირ რისკთან.",
+            "თუ თქვენ გექნებათ რაიმე კითხვა ამ კვლევის ან თქვენი, როგორც მონაწილის უფლებების თაობაზე შეგიძლიათ მიმართოთ ვლადიმერ (ლადო) გამსახურდიას, ელ-ფოსტა: ladogamsakhurdia@gmail.com, Ivane Javakhishvili Tbilisi State University, რომელიც პასუხისმგებელია კვლევის თქვენს რეგიონში განხორციელებაზე. ან მიმართეთ კალიფორნიის უნივერსიტეტის კვლევების ინტეგრირებულობი ოფისს, irb@ucr.edu. ჩვენ ძალიან ვაფასებთ თქვენთან თანამშრომლობას."
+        ],
+        "title": "თანხმობა კვლევაში მონაწილეობის თაობაზე",
+        "versionHistory": "(თანხმობის ფორმა ვერსია: 14 ოქტომბერი 2016)"
+    },
+    // Greek
+    "GREECE1.GR": {
+        "buttonLabel": "Παρακαλώ αποδεχτείτε τους όρους για να συνεχίσετε.",
+        "consentLabel": "Έχω διαβάσει και έχω κατανοήσει τα παραπάνω και συμφωνώ να συμμετέχω.",
+        "paragraphs": [
+            "Καλώς ήλθατε στη μελέτη μας. Η συμμετοχή σας θα ολοκληρωθεί σε μια συνεδρία και θα διαρκέσει λιγότερο από μια ώρα. Θα σας ζητηθεί να περιγράψετε μια κατάσταση που βιώσατε πρόσφατα και τις συμπεριφορές σας κατά τη διάρκεια της κατάστασης. Επίσης, θα σας ζητηθεί να απαντήσετε σε μερικές ερωτήσεις που σχετίζονται με τις αξίες και τις στάσεις σας. Στο τέλος της μελέτης, εφόσον το επιλέξετε, θα λάβετε εξατομικευμένες πληροφορίες σχετικά με την προσωπικότητά σας.",
+            "Όλες οι απαντήσεις σας θα είναι εμπιστευτικές και θα ταυτοποιούνται μόνο με έναν αριθμό (όχι με το ονοματεπώνυμό σας). Για ερευνητικούς σκοπούς, τα συγκεκριμένα ανώνυμα δεδομένα θα καταχωρηθούν σε μία διαδικτυακή βάση δεδομένων που υποστηρίζεται από το Κέντρο για την Ανοικτή Επιστήμη (Center for Open Science, www.cos.io). Προκειμένου να ολοκληρωθεί η μελέτη θα πρέπει να απαντηθεί κάθε ερώτηση. Ωστόσο, μπορείτε να διακόψετε τη συμμετοχή σας οποιαδήποτε στιγμή το επιθυμείτε χωρίς να υπάρξει καμία συνέπεια. Τα πιθανά οφέλη από αυτή την έρευνα αφορούν τη βελτίωση της κατανόησης των ατόμων και της ζωής τους μέσα σε διαφορετικά πολιτισμικά πλαίσια. Δεν υπάρχει κάποιος γνωστός κίνδυνος που να σχετίζεται με τη συμμετοχή στην έρευνα.",
+            "Εάν έχετε ερωτήσεις σχετικά με αυτή τη μελέτη ή περίπου το aporeoun δικαιώματα από τη συμμετοχή σας σε αυτό, παρακαλώ επικοινωνήστε με τον Δρ Μαρία Vakola, Οικονομικό Πανεπιστήμιο Αθηνών, ο οποίος είναι υπεύθυνος για τη συλλογή των δεδομένων στο χώρο σας (στην ηλεκτρονική διεύθυνση: mvakola@ΟΠΑ.gr. Εναλλακτικά μπορείτε να επικοινωνήσετε με το Γραφείο Δεοντολογίας στην Έρευνα του Πανεπιστημίου της Καλιφόρνιας, Riverside (Riverside University of California, Riverside, Γραφείο Ερευνών Ακεραιότητας (στην ηλεκτρονική διεύθυνση:. IRB@ucr.edu) σας ευχαριστώ πολύ για τη συμμετοχή σας."
+        ],
+        "title": "Συγκατάθεση Συμμετοχής στη Μελέτη",
+        "versionHistory": "(Συναίνεση μορφή έκδοση: 14 Οκτ 2016)"
+    },
     // Hebrew
     "ISRA1.HE": {
         "buttonLabel": "כדי להמשיך אנא קבל את התנאים",
@@ -183,10 +207,33 @@ const consentText = {
         "paragraphs": [
             "ברוך הבא למחקר שלנו. השתתפותך כוללת סשן אחד והיא תארך פחות משעה. תתבקש לתאר סיטואציה שחווית לאחרונה ואת אופני ההתנהגות שלך במהלכה. בנוסף, תישאל מספר שאלות בנוגע לגישותיך ולערכים שלך. בתום המחקר ובמידה שתבחר לעשות כן, תוכל לקבל מידע מותאם אישית על אודות האישיות שלך.",
             "כל תשובותיך יהיו חסויות וישוייכו למספר מזהה בלבד (ולא לשמך). ייתכן שנתונים אנונימיים אלו יישמרו לצורכי מחקר בארכיון מקוון המתוחזק ע\"י Center for Open Science (www.cos.io). כדי להשלים את השאלון יש להשיב על כל השאלות, אך עם זאת תוכלו להפסיק את השתתפותכם בכל עת וללא השלכות. התועלות האפשריות שעשויות לצמוח ממחקר זה כוללות הבנה טובה יותר של בני אדם וחייהם לרוחב הקשרים תרבותיים שונים. לא ידועים סיכונים כלשהם.",
-            "אם יש לך שאלות על מחקר זה או על זכויותיך כמשתתף, ניתן לפנות אייל רכטר (eyal.rechter@mail.huji.ac.il), הקריה האקדמית אונו, האחראית על איסוף המידע באזורך, או למשרד של Integrity מחקר באוניברסיטת קליפורניה, ריברסייד כתובת הדוא\"ל \"כדי IRB@ucr.edu. אנו מעריכים את שיתוף הפעולה שלך."
+            "אם יש לך שאלות על מחקר זה או על זכויותיך כמשתתף, ניתן לפנות לאייל רכטר (eyal.rechter@mail.huji.ac.il), הקריה האקדמית אונו, האחראי על איסוף המידע באזורך, או למשרד של Integrity מחקר באוניברסיטת קליפורניה, ריברסייד. כתובת הדוא\"ל: IRB@ucr.edu. אנו מעריכים את שיתוף הפעולה שלך."
         ],
         "title": "הסכמה להשתתפות במחקר",
         "versionHistory": "(גרסת טופס הסכמה: 14 באוקטובר 2016)"
+    },
+    // Simplified Chinese (Hong Kong)
+    "HONGK1.CN": {
+        "buttonLabel": "請接受條款並繼續",
+        "consentLabel": "我已經閱讀並理解上述說明，並同意參加研究。",
+        "paragraphs": [
+            "歡迎參與我們的研究！在這項研究中，你只需參與一次研究活動，需時不超過1小時。研究中，你需要描述一個你近期經歷的情境以及你在其中的行為，並回答有關價值觀和態度的問題。研究結束後，如果你需要，你將會收到你個人的性格分析報告。",
+            "你所有的回答將被嚴格保密，並且只通過編號而非姓名來進行識別。出於研究的目的，這些匿名資料會被收錄在由Center for Open Science管理的網路資料庫中（www.cos.io）。要完成本問卷，每個問題都必須回答，但是你可以隨時終止參與，並且不會因此受任何負面影響。此研究或有助我們更好的了解在不同文化背景中人的個性以及其生活。本研究沒有任何已知的風險。",
+            "如果您对本研究的兴趣有任何疑问或您作为参与者，请联系香港教育学院的Emma Buchtel教授（emma.buchtel@gmail.com）。她负责在香港收集数据，或联系加州大学河滨研究诚信办公室（IRB@ucr.edu）感谢您的合作。"
+        ],
+        "title": "知情同意書",
+        "versionHistory": "（知情同意書版本：2016年11月14日）"
+    },
+    "HONGK2.CN": {
+        "buttonLabel": "請接受條款並繼續",
+        "consentLabel": "我已經閱讀並理解上述說明，並同意參加研究。",
+        "paragraphs": [
+            "歡迎參與我們的研究！在這項研究中，你只需參與一次研究活動，需時不超過1小時。研究中，你需要描述一個你近期經歷的情境以及你在其中的行為，並回答有關價值觀和態度的問題。研究結束後，如果你需要，你將會收到你個人的性格分析報告。",
+            "你所有的回答將被嚴格保密，並且只通過編號而非姓名來進行識別。出於研究的目的，這些匿名資料會被收錄在由Center for Open Science管理的網路資料庫中（www.cos.io）。要完成本問卷，每個問題都必須回答，但是你可以隨時終止參與，並且不會因此受任何負面影響。此研究或有助我們更好的了解在不同文化背景中人的個性以及其生活。本研究沒有任何已知的風險。",
+            "如果您对本研究感兴趣或您是参与者有任何疑问，请联系岭南大学杨维教授（vicki.jeanelle.yeung@gmail.com）。她负责在香港收集数据或联系加州大学河滨研究诚信办公室（IRB@ucr.edu）进行合作。"
+        ],
+        "title": "知情同意書",
+        "versionHistory": "（知情同意書版本：2016年11月14日）"
     },
     // Indonesian
     "INDO1.ID": {
@@ -435,6 +482,18 @@ const consentText = {
         "title": "Согласност за учество во студијата",
         "versionHistory": "(Согласност форма верзија: 14 октомври 2016 година)"
     },
+    // Malay
+    "MALAY1.MY": {
+        "buttonLabel": "Sila terima syarat-syarat untuk meneruskan",
+        "consentLabel": "Saya telah membaca dan memahami kenyataan di atas dan bersetuju untuk menyertai",
+        "paragraphs": [
+            "Selamat datang ke kajian kami. Penyertaan anda adalah dalam satu sesi dan akan mengambil masa kurang dari satu jam. Anda akan diminta untuk menerangkan satu situasi yang anda baru sahaja alami dan tingkahlaku anda ketika itu. Anda akan juga ditanya beberapa soalan tentang nilai dan sikap anda. Di akhir kajian ini, jika anda bersetuju,  anda akan menerima maklumat peribadi tentang personaliti diri anda.",
+            "Semua maklumbalas anda adalah rahsia dan dikenalpasti hanya dengan nombor (dan bukan dengan nama anda). Untuk tujuan-tujuan penyelidikan, data-data yang tidak bernama ini mungkin akan disimpan dalam satu pangkalan data  yang dikendalikan oleh Center for Open Science (www.cos.io). Setiap soalan mesti dijawab bagi melengkapkan kajian ini tetapi anda boleh tidak meneruskan penyertaan anda pada bila-bila masa tanpa sebarang denda. Potensi manfaat dari penyelidikan ini termasuk meningkatkan pemahaman tentang individu dan kehidupan mereka dalam konteks silang budaya. Tidak ada risiko yang diketahui.",
+            "Jika anda mempunyai sebarang soalan tentang kajian ini atau hak-hak anda sebagai peserta, anda boleh menghubungi saya [Prof Khairul Anwar Mastor, kam2000@ukm.edu.my, Pusat Citra UKM], yang bertanggungjawab atas pengumpulan data di tempat anda atau kepada University of California, Riverside, Office of Research Integirty melalui email di IRB@ucr.edu. Kami secara ikhlas menghargai kerjasama anda."
+        ],
+        "title": "Persetujuan untuk Menyertai Kajian",
+        "versionHistory": "(Persetujuan bentuk versi: 14 Oktober 2016)"
+    },
     // Serbian
     "SERB1.SR": {
         "buttonLabel": "Molimo Vas da prihvatite uslove kako biste nastavili",
@@ -449,8 +508,8 @@ const consentText = {
     },
     // Thai
     "THAI1.TH": {
-        "buttonLabel": "Please accept terms to continue",
-        "consentLabel": "I have read and understand the above statements and agree to participate.",
+        "buttonLabel": "กรุณายอมรับข้อตกลงนี้เพื่อดำเนินการต่อ",
+        "consentLabel": "ข้าพเจ้าได้อ่านและเข้าใจข้อความข้างต้นเป็นอย่างดี และยินยอมที่จะร่วมการวิจัยนี้",
         "paragraphs": [
             "ขอต้อนรับเข้าสู่การวิจัยนี้ การเข้าร่วมของท่านจะเป็นแบบทำเสร็จในครั้งเดียว และใช้เวลาไม่ถึง 1 ชั่วโมง ในการวิจัยนี้ ขอให้ท่านบอกถึงสถานการณ์ที่ท่านได้ประสบมาเมื่อไม่นานมานี้ และระบุว่าท่านกระทำอย่างไรในสถานการณ์นั้น นอกจากนี้ ขอให้ท่านตอบคำถามเกี่ยวกับค่านิยมและทัศนคติของท่านด้วย ในช่วงท้ายของการวิจัย ท่านจะสามารถเลือกได้ว่าท่านต้องการรับข้อมูลเกี่ยวกับบุคลิกนิสัยของท่านจากคำตอบของท่านหรือไม่",
             "คำตอบทั้งหมดของท่านจะถูกเก็บเป็นความลับ และเก็บด้วยรหัสผู้ร่วมการวิจัยเท่านั้น (ไม่ระบุชื่อของท่าน) เพื่อวัตถุประสงค์ทางการวิจัย ข้อมูลที่ไม่ระบุชื่อผู้ตอบนี้อาจจะถูกเก็บไว้ในฐานข้อมูลออนไลน์ที่ควบคุมโดย The Center for Open Science (www.cos.io) ท่านจำเป็นต้องตอบคำถามให้ครบทุกข้อ แต่ท่านสามารถเลิกและออกจากการวิจัยได้โดยไม่มีผลเสียใดๆ ต่อตัวท่าน ประโยชน์ที่เป็นไปได้จากการเข้าร่วมการวิจัยนี้คือการเพิ่มพูนความเข้าใจเกี่ยวกับบุคคลและการใช้ชีวิตของบุคคลเหล่านั้นในบริบททางวัฒนธรรมที่ต่างกัน การวิจัยนี้ไม่มีความเสี่ยงใดๆ ต่อท่าน",
@@ -485,11 +544,11 @@ const consentText = {
     // Italian
     "ITALY1.IT": {
         "buttonLabel": "Si prega di accettare i termini per continuare.",
-        "consentLabel": "Ho letto e compreso quanto riportato sopra e acconsento a partecipare.",
+        "consentLabel": "Il/La sottoscritto/a, acquisite le informazioni fornite dal titolare del trattamento con l’informativa che precede e consapevole, in particolare, che il trattamento riguarderà i dati \"sensibili\".",
         "paragraphs": [
-            "Benvenuto/a al nostro studio. La tua partecipazione si svolgerà in una sola sessione e richiederà meno di un'ora. Ti sarà chiesto di descrivere una situazione in cui ti sei trovato/a recentemente e il tuo comportamento in quella situazione. Inoltre, ti saranno rivolte alcune domande riguardanti i tuoi valori e i tuoi atteggiamenti. Alla fine dello studio, se vorrai, potrai ricevere un documento informativo personalizzato sulla tua personalità.",
-            "Tutte le tue risposte saranno confidenziali e identificate solamente con un numero (e non con il tuo nome). Per scopi di ricerca, queste informazioni anonime potrebbero essere archiviate in un database online mantenuto dal Center for Open Science (www.cos.io). Per completare l'indagine è necessario rispondere a tutte le domande, ma in ogni momento puoi interrompere la tua partecipazione senza alcuna penalità. I benefici potenziali di questa ricerca includono il miglioramento della comprensione delle persone e delle loro vite attraverso diversi contesti culturali. Non ci sono rischi noti associati alla partecipazione.",
-            "Se hai domande su questo studio o sui tuoi diritti come partecipante, puoi contattare il prof. Marco Perugini, Dipartimento di Psicologia, Università degli studi di Milano-Bicocca (marco.perugini@unimib.it) [il prof. Augusto Gnisci, Dipartimento di Psicologia, Università degli Studi della Campania \"Luigi Vanvitelli\" (Augusto.GNISCI@unina2.it)], che è responsabile della raccolta dati nella tua località, oppure la University of California, Riverside, Office of Research Integrity tramite email all'indirizzo IRB@ucr.edu. Apprezziamo sinceramente la tua collaborazione."
+            "Gentile signora/e,  Vorremmo proporle di partecipare ad una tipologia di ricerca che definiamo “studio a rischio minimo”. Di seguito condividiamo con lei informazioni sulle caratteristiche dello studio e sul possibile utilizzo dei dati che la riguardano affinché lei possa decidere in assoluta libertà se partecipare.",
+            "Cosa intendiamo per “studio a rischio minimo” ? Nell’ambito delle attività di ricerca del Dipartimento di Psicologia si intende per “studio a rischio minimo” uno studio che comporta procedure caratterizzate da un rischio paragonabile a quello delle normali attività della vita quotidiana (ad esempio percepire degli stimoli ambientali come un rumore o una voce). Gli studi a “rischio minimo” vengono vagliati da un’apposita Commissione interna al Dipartimento di Psicologia, che opera sotto il controllo del Comitato Etico di Ateneo. Qual è lo scopo di questo studio? Lo scopo generale del presente studio è indagare le caratteristiche di personalità, i comportamenti, i valori, gli atteggiamenti e le situazioni che le persone vivono. Come si articola lo studio? La sua partecipazione si svolgerà in una sola sessione e richiederà meno di un'ora. Le sarà chiesto di descrivere una situazione in cui si è trovato/a recentemente e il suo comportamento in quella situazione. Inoltre, le saranno rivolte alcune domande riguardanti i suoi valori e i suoi atteggiamenti. Alla fine dello studio, se vorrà, potrà ricevere un documento informativo personalizzato sulla sua personalità. Lei è obbligato/a a partecipare allo studio? No, la sua partecipazione è completamente libera. Inoltre, se in un qualsiasi momento, lei dovesse cambiare idea e volesse ritirarsi dalla procedura sperimentale, è libero/a di farlo. Altre informazioni importanti La informiamo che lo studio verrà condotto nel rispetto dei principi etici stabiliti nella \"Dichiarazione di Helsinki\" e nella Convenzione sui diritti dell’uomo e la biomedicina (Convenzione di Oviedo). A chi chiedere ulteriori informazioni e/o approfondimenti? Se desiderasse ulteriori informazioni su questo studio può contattare uno dei ricercatori coinvolti nello studio di seguito indicato. Ricercatore: prof Marco Perugini (marco.perugini@unimib.it) and dott. Giulio Costantini (giulio.costantini@unimib.it)",
+            "Autorizzazione al trattamento dei dati personali per scopi scientifici La informiamo che il trattamento dei Suoi dati personali, dei dati sensibili e delle informazioni che La riguardano, raccolti nel corso dello studio, sarà improntato ai principi di correttezza, liceità, trasparenza e riservatezza. La informiamo, con particolare riferimento al trattamento dei dati sensibili che la riguardano, ossia i dati personali idonei a rivelare l'origine razziale ed etnica, le convinzioni religiose, filosofiche o di altro genere, le opinioni politiche, l'adesione a partiti, sindacati, associazioni od organizzazioni a carattere religioso, filosofico, politico o sindacale, nonché i dati personali idonei a rivelare lo stato di salute e la vita sessuale, che avverrà nel rispetto delle norme in materia di seguito elencate ex art. 4 del Decreto legislativo 196 del 2003. Ai sensi del Decreto legislativo 196 del 2003, articolo 13,  nonché delle Autorizzazioni del Garante per la protezione dei dati personali, rispettivamente,  n. 2/2014 relativa al trattamento dei dati idonei a rivelare lo stato di salute e la vita sessuale, in particolare,  art. 1, comma 1.2 lettera a) e n. 9/2014 relativa al trattamento dei dati personali effettuato per scopi di ricerca scientifica, in particolare,  artt. 5, 6, 7, 8, la informiamo che: -i dati liberamente conferiti saranno utilizzati solo per scopo di studi e di ricerca e non verranno comunicati o diffusi e titolare del trattamento dei Suoi dati è l’Università degli Studi di Milano-Bicocca e il Responsabile del trattamento è il prof. Marco Perugini. -Il conferimento dei dati è facoltativo e l’eventuale rifiuto a fornire tali dati potrebbe comportare solo l’interruzione della sua partecipazione allo studio. - Ai sensi dell’articolo 7 del Decreto legislativo 196/2003, potrà esercitare, in ogni momento, nei confronti del Responsabile del progetto di ricerca i Suoi diritti di ottenere conferma dell’esistenza o meno di dati personali che lo riguardano, aggiornamento, cancellazione, trasformazione in forma anonima dei suddetti dati, nonché di opporsi per motivi legittimi al trattamento dei dati personali. -Ai sensi del Decreto  legislativo 196/2003, articolo 11, comma 1, lettera e), i dati verranno conservati per un periodo non superiore a 5 anni presso il Dipartimento di Psicologia il cui responsabile è il prof. Marco Perugini Autorizzazione al trattamento dei dati sensibili per scopi scientifici Il/La sottoscritto/a, acquisite le informazioni fornite dal titolare del trattamento con l’informativa che precede e consapevole, in particolare, che il trattamento riguarderà i dati \"sensibili\", autorizza al trattamento dei dati necessari allo svolgimento dello studio (in caso non intenda concedere l’autorizzazione al trattamento dei dati, la preghiamo semplicemente di non proseguire con lo studio e di chiudere il programma)."
         ],
         "title": "Consenso per la partecipazione alla ricerca",
         "versionHistory": "(Versione del consenso informato: 14 Ottobre 2016)"
@@ -500,7 +559,7 @@ const consentText = {
         "paragraphs": [
             "Benvenuto/a al nostro studio. La tua partecipazione si svolgerà in una sola sessione e richiederà meno di un'ora. Ti sarà chiesto di descrivere una situazione in cui ti sei trovato/a recentemente e il tuo comportamento in quella situazione. Inoltre, ti saranno rivolte alcune domande riguardanti i tuoi valori e i tuoi atteggiamenti. Alla fine dello studio, se vorrai, potrai ricevere un documento informativo personalizzato sulla tua personalità.",
             "Tutte le tue risposte saranno confidenziali e identificate solamente con un numero (e non con il tuo nome). Per scopi di ricerca, queste informazioni anonime potrebbero essere archiviate in un database online mantenuto dal Center for Open Science (www.cos.io). Per completare l'indagine è necessario rispondere a tutte le domande, ma in ogni momento puoi interrompere la tua partecipazione senza alcuna penalità. I benefici potenziali di questa ricerca includono il miglioramento della comprensione delle persone e delle loro vite attraverso diversi contesti culturali. Non ci sono rischi noti associati alla partecipazione.",
-            "Se avete domande su questo studio oi vostri diritti in qualità di partecipante, è possibile contattare il prof. Augusto Gnisci (Augusto.GNISCI@unina2.it), Dipartimento di Psicologia, Università di Campania \"Luigi Vanvitelli Studies\", che è responsabile per la raccolta dei dati nel proprio paese, o la University of California, Riverside, Office of Research Integrity tramite e-mail a IRB@ucr.edu. Apprezziamo sinceramente la collaborazione."
+            "Se avete domande su questo studio o i vostri diritti in qualità di partecipante, è possibile contattare il prof. Augusto Gnisci (augusto.gnisci@unicampania.it), Dipartimento di Psicologia, Università della Campania \"Luigi Vanvitelli\", che è responsabile per la raccolta dei dati nel proprio paese, o la University of California, Riverside, Office of Research Integrity tramite e-mail a IRB@ucr.edu. Apprezziamo sinceramente la collaborazione."
         ],
         "title": "Consenso per la partecipazione alla ricerca",
         "versionHistory": "(Versione del consenso informato: 14 Ottobre 2016)"
@@ -527,6 +586,18 @@ const consentText = {
         ],
         "title": "Zgoda na uczestnictwo w badaniu",
         "versionHistory": "Formularz zgody - wersja z 14 pażdziernika 2016"
+    },
+    // Romanian
+    "ROMA1.RO": {
+        "buttonLabel": "Vă rugăm să acceptaţi termenii pentru a continua",
+        "consentLabel": "Am citit şi am înţeles afirmaţiile de mai sus şi sunt de acord să particip.",
+        "paragraphs": [
+            "Bun venit în studiul nostru. Paticiparea dvs. va consta într-o singură sesiune şi va dura mai puţin de o oră. Veţi fi rugat(ă) să descrieţi o situaţie pe care aţi trăit-o recent, şi comportamentele pe care le-aţi manifestat atunci. De asemenea, veţi fi întrebat/a despre valorile şi atitudinile dvs. La finalul studiului, dacă doriţi, veţi primi informaţii personalizate depre personalitatea voastră.",
+            "Toate răspunsurile dvs. vor fi confidenţiale şi identificate doar printr-un număr (nu pe baza numelui dvs.). S-ar putea ca aceste date anonime să fie arhivate într-o bază de date online păstrată de Center for Open Science (www.cos.io), în scop de cercetare. Pentru a finaliza acest sondaj, fiecare întrebare trebuie să primească un răspuns, dar puteţi întrerupe oricând participarea, fără să fiţi penalizat(ă). Beneficiile potenţiale ale acestei cercetări includ îmbunătăţirea înţelegerii persoanelor şi a vieţilor lor de-a lungul contextelor culturale. Nu sunt riscuri cunoscute.",
+            "Dacă aveți întrebări cu privire la acest studiu sau despre drepturile dumneavoastră în calitate de participant, te / vă rugăm să contactați Florin Alin Silva (afsava@gmail.com), Universitatea de Vest din Timișoara, persoana responsabilă pentru colectarea datelor din locația dvs., sau la Universitatea din California, Riverside, Biroul de e-mail de Cercetare Integritate IRB@ucr.edu. Apreciem sincer cooperare!"
+        ],
+        "title": "Consimţământul de a Participa la Cercetare",
+        "versionHistory": "(Consimțământul formă versiunea: 14 octombrie 2016)"
     },
     // Russian
     "RUSSIA1.RU": {

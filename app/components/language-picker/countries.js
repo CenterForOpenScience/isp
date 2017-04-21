@@ -2,7 +2,7 @@
 //  See https://openscience.atlassian.net/browse/LEI-372 for sample reasoning behind this requirement
 // TODO: This will need to be updated every time a new language is "released" and marked final
 export const languagesForProduction =  [
-    "ar", "bg", "cs", "da", "de", "en", "fi", "he", "hr", "hu", "id", "it", "lt", "mk", "mr", "no", "pl", "sk", "sl",
+    "ar", "bg", "cs", "da", "de", "en", "fi", "he", "hr", "hu", "id", "it", "ko", "lt", "mk", "mr", "no", "pl", "ru", "sk", "sl",
     "sr", "th", "uk", "zh"
 ];
 
@@ -106,7 +106,7 @@ export default [
         "name": "China"
     },
     {
-        "code": "CR",
+        "code": "HR",
         "languages": [
             {
                 "code": "hr-CR",
@@ -174,6 +174,16 @@ export default [
             }
         ],
         "name": "France"
+    },
+    {
+        "code": "GE",
+        "languages": [
+            {
+                "code": "ka-GE",
+                "name": "ქართული"
+            }
+        ],
+        "name": "Georgia"
     },
     {
         "code": "DE",
@@ -308,7 +318,7 @@ export default [
         "languages": [
             {
                 "code": "lt-LT",
-                "name": "Latviešu"
+                "name": "Lietuvių"
             }
         ],
         "name": "Lithuania"

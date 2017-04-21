@@ -225,7 +225,7 @@ export default {
                         "label": "Le persone in questo paese obbediscono quasi sempre alle norme sociali"
                     }
                 },
-                "label": "Ti preghiamo di valutare quanto sei d'accordo o in disaccorto con le seguenti affermazioni:",
+                "label": "Ti preghiamo di valutare quanto sei d'accordo o in disaccordo con le seguenti affermazioni:",
                 "options": {
                     "agree": "D'accordo",
                     "agreeStrongly": "Fortemente d'accordo",
@@ -250,7 +250,7 @@ export default {
                         "label": "La maggior parte delle persone è essenzialmente onesta"
                     },
                     "2": {
-                        "label": "La maggior parte delle persone è affabile e onesta"
+                        "label": "la maggior parte delle persone è di indole buona e gentile"
                     },
                     "3": {
                         "label": "La maggior parte delle persone si fida degli altri"
@@ -262,7 +262,7 @@ export default {
                         "label": "La maggior parte delle persone è degna di fiducia"
                     }
                 },
-                "label": "Ti preghiamo di valutare quanto sei d'accordo o in disaccorto con le seguenti affermazioni:",
+                "label": "Ti preghiamo di valutare quanto sei d'accordo o in disaccordo con le seguenti affermazioni:",
                 "options": {
                     "agree": "D'accordo",
                     "agreeStrongly": "Fortemente d'accordo",
@@ -292,7 +292,7 @@ export default {
                         "label": "Nel complesso, mi aspetto che mi capitino più cose buone che cattive"
                     }
                 },
-                "label": "Ti preghiamo di valutare quanto sei d'accordo o in disaccorto con le seguenti affermazioni:",
+                "label": "Ti preghiamo di valutare quanto sei d'accordo o in disaccordo con le seguenti affermazioni:",
                 "options": {
                     "agree": "D'accordo",
                     "agreeStrongly": "Fortemente d'accordo",
@@ -334,7 +334,7 @@ export default {
                         "label": "Penso di aver diritto a più rispetto di una persona media"
                     }
                 },
-                "label": "Ti preghiamo di valutare quanto sei d'accordo o in disaccorto con le seguenti affermazioni:",
+                "label": "Ti preghiamo di valutare quanto sei d'accordo o in disaccordo con le seguenti affermazioni:",
                 "options": {
                     "agree": "D'accordo",
                     "agreeStrongly": "Fortemente d'accordo",
@@ -393,7 +393,7 @@ export default {
                         "label": "Reagisco in modo seccato se un'altra persona mi ruba la scena"
                     }
                 },
-                "label": "Ti preghiamo di valutare quanto sei d'accordo o in disaccorto con le seguenti affermazioni:",
+                "label": "Ti preghiamo di valutare quanto sei d'accordo o in disaccordo con le seguenti affermazioni:",
                 "options": {
                     "agree": "D'accordo",
                     "agreeStrongly": "Fortemente d'accordo",
@@ -606,7 +606,7 @@ export default {
                         "label": "È sospettosa delle intenzioni altrui"
                     },
                     "43": {
-                        "label": "È affidabile, una persona su cui SI può sempre contar"
+                        "label": "È affidabile, una persona su cui si può sempre contare"
                     },
                     "44": {
                         "label": "Tiene sotto controllo le proprie emozioni"
@@ -675,7 +675,7 @@ export default {
                         "label": "Rimane ottimista di fronte agli ostacoli"
                     }
                 },
-                "label": "Ti preghiamo di valutare quanto sei d'accordo o in disaccorto con le seguenti affermazioni:\n \nSono una persona che...",
+                "label": "Ti preghiamo di valutare quanto sei d'accordo o in disaccordo con le seguenti affermazioni: Sono una persona che...",
                 "options": {
                     "agree": "D'accordo",
                     "agreeStrongly": "Fortemente d'accordo",
@@ -701,7 +701,7 @@ export default {
                         }
                     },
                     "3": {
-                        "label": "Alcune persone sono in generale molto felici. Si godono la vita indipendentemente da ciò che accade, prendendo il meglio da ogni cosa. \nQuanto ti descrive questa rappresentazione?",
+                        "label": "Alcune persone sono in generale molto felici. Si godono la vita indipendentemente da ciò che accade, prendendo il meglio da ogni cosa. Quanto ti descrive questa rappresentazione?",
                         "options": {
                             "aGreatDeal": "Moltissimo",
                             "notAtAll": "Per nulla"
@@ -747,7 +747,7 @@ export default {
                         "label": "Generalmente credo che le cose vadano altrettanto bene a me e alle persone che mi sono vicine."
                     }
                 },
-                "label": "Ti preghiamo di valutare quanto sei d'accordo o in disaccorto con le seguenti affermazioni:",
+                "label": "Ti preghiamo di valutare quanto sei d'accordo o in disaccordo con le seguenti affermazioni:",
                 "options": {
                     "agree": "D'accordo",
                     "agreeStrongly": "Fortemente d'accordo",
@@ -810,7 +810,7 @@ export default {
                         "label": "Praticare una religione rende più difficile pensare in modo autonomo"
                     }
                 },
-                "label": "Ti preghiamo di valutare quanto sei d'accordo o in disaccorto con le seguenti affermazioni:",
+                "label": "Ti preghiamo di valutare quanto sei d'accordo o in disaccordo con le seguenti affermazioni:",
                 "options": {
                     "believeLittle": "Lo credo un po'",
                     "believeStrong": "Lo credo fortemente",
@@ -930,14 +930,14 @@ export default {
                 "needsHelp": "Qualcuno ha bisogno di aiuto.",
                 "negativeEmotions": "La situazione potrebbe suscitare emozioni negative",
                 "newRelationships": "Si potrebbero sviluppare nuove relazioni sociali",
-                "noisy": "La situazione è rumorosa (un punteggio basso significa che la situazione è molto silenziosa).",
+                "noisy": "La situazione è rumorosa. (Indicare l'affermazione come non caratteristica implica che la situazione è silenziosa).",
                 "notClear": "Non è chiaro cosa stia succedendo;  La situazione è incerta.",
                 "oppositeSex": "La presenza di membri del sesso opposto è una parte importante di questa situazione",
                 "peopleGetAlong": "È importante che le persone vadano d'accordo",
                 "physicalAttractiveness": "La tua bellezza/attrattività fisica è importante",
                 "physicalThreats": "Sono presenti minacce fisiche.",
                 "physicallyActive": "Le persone sono fisicamente attive",
-                "physicallyUncomfortable": "La situazione dà fastidio fisicamente (per esempio: fa troppo caldo, il posto è troppo affollato, fa troppo freddo). (Un punteggio basso indica che la situazione è molto confortevole da un punto di vista fisico)",
+                "physicallyUncomfortable": "La situazione non è confortevole da un punto di vista fisico (per esempio: troppo caldo, troppo affollato, troppo freddo). (Indicare l'affermazione come non caratteristica implica che la situazione è confortevole).",
                 "playful": "La situazione è divertente",
                 "politics": "C'entra la politica (per esempio: una discussione politica)",
                 "positiveEmotions": "La situazione potrebbe suscitare emozioni positive",
@@ -980,7 +980,7 @@ export default {
                     "neutral": "Neutrale",
                     "uncharacteristic": "Non caratteristico"
                 },
-                "instructions": "Adesso per favore descrivi più nel dettaglio la situazione in cui ti trovavi. Appariranno 90 affermazioni, una per volta. Metti ciascuna di esse in uno dei tre riquadri. Usa il riquadro \"Caratteristico\" sulla destra per le affermazioni che descrivono accuratamente la situazione; usa il riquadro \"Non caratteristico\" sulla sinistra per le affermazioni che non descrivono la situazione; usa il riquadro \"Neutrale\" per le affermazioni che sono irrilevanti, poco chiare, o sulle quali non sei sicuro. Quando hai finito, premi \"Continua\".",
+                "instructions": "Adesso per favore descrivi più nel dettaglio la situazione in cui ti trovavi. Appariranno 90 affermazioni, una per volta. Trascina ciascuna di esse in uno dei tre riquadri. Usa il riquadro \"Caratteristico\" sulla destra per le affermazioni che descrivono accuratamente la situazione; usa il riquadro \"Non caratteristico\" sulla sinistra per le affermazioni che non descrivono la situazione; usa il riquadro \"Neutrale\" per le affermazioni che sono irrilevanti, poco chiare, o sulle quali non sei sicuro. Quando hai finito, premi \"Continua\".",
                 "itemsLeft": {
                     "one": "{{count}} affermazione rimanente",
                     "other": "{{count}} affermazioni rimanenti"
@@ -1007,7 +1007,7 @@ export default {
     "survey": {
         "sections": {
             "1": {
-                "instructions": "Benvenuto/a! Siamo interessati alle situazioni in cui si trovano le persone e al modo in cui si comportano in queste situazioni. Descriverai una situazione in cui ti sei trovato/a recentemente e descriverai cosa hai fatto in quella situazione. Ti saranno anche rivolte alcune domande che riguardano i tuoi atteggiamenti e i tuoi valori. Sulla base delle risposte, quando avrai completato lo studio, ti sarà data la possibilità di ricevere alcune informazioni sulla tua personalità che speriamo tu possa trovare interessanti. Ci vorrà meno di un'ora per completare tutto. \n \nPer iniziare, ti preghiamo di rispondere ad alcune domande su di te.",
+                "instructions": "Benvenuto/a! Siamo interessati alle situazioni in cui si trovano le persone e al modo in cui si comportano in queste situazioni. Descriverai una situazione in cui ti sei trovato/a recentemente e descriverai cosa hai fatto in quella situazione. Ti saranno anche rivolte alcune domande che riguardano i tuoi atteggiamenti e i tuoi valori. Sulla base delle risposte, quando avrai completato lo studio, ti sarà data la possibilità di ricevere alcune informazioni sulla tua personalità che speriamo tu possa trovare interessanti. Ci vorrà meno di un'ora per completare tutto. Per iniziare, ti preghiamo di rispondere ad alcune domande su di te.",
                 "questions": {
                     "1": {
                         "label": "Età"
