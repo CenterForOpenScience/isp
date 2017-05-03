@@ -106,9 +106,9 @@ export default {
             "labelUnaccepted": "Lūdzu akceptējiet nosacījumus, lai turpinātu"
         },
         "checkboxLabel": "Esmu izlasījis/-usi un sapratis/-usi augstāk minētos apgalvojumus un piekrītu piedalīties.",
-        "firstSection": "Laipni lūgti mūsu pētījumā. Jūsu dalība būs vienā sesijā un prasīs mazāk kā stundu laika. Jums tiks lūgts aprakstīt kādu nesen piedzīvotu situāciju un jūsu rīcību tajā. Jums arī tiks uzdoti daži jautājumi par jūsu vērtībām un attieksmēm. Pētījuma nobeigumā, ja vēlēsieties, varēsiet saņemt personalizētu informāciju par Jūsu personību.",
-        "secondSection": "Visas Jūsu atbildes būs konfidenciālas un identificētas tikai ar numuru (un nevis Jūsu vārdu). Pētniecības mērķiem šīe anonīmie dati var tikt arhivēti tiešsaistes datubāzē, ko uztur Atvērtās zinātnes centrs (www.cos.io). Lai pabeigtu aptauju, nepieciešams atbildēt uz visiem jautājumiem, bet Jūs varat nesodīti pārtraukt savu dalību jebkurā brīdī. Iespējamie ieguvumi no šī pētījuma ietver izpratnes uzlabošanu par cilvēkiem un viņu dzīvēm dažādos kultūras kontekstos. Šim pētījumam nav zināmu risku.",
-        "thirdSection": "Ja Jums ir jautājumi par šo pētījumu vai par savām pētījuma dalībnieka tiesībām, jūs varat kontaktēties ar Latvijas Universitātes profesoru Ģirtu Dimdiņu, girts.dimdins@lu.lv, kurš ir atbildīgs par datu vākšanu Jūsu valstī, vai arī ar Kalifornijas Universitātes Riversaidā Pētniecības Ētikas biroju, IRB@ucr.edu. Mēs no sirds novērtējam Jūsu atsaucību.",
+        "firstSection": "Sveicināti mūsu pētījumā. Jūsu dalība būs vienā pieslēgšanās reizē un prasīs mazāk kā stundu laika. Jums tiks lūgts aprakstīt kādu nesen piedzīvotu situāciju un jūsu rīcību tajā. Jums arī tiks uzdoti daži jautājumi par jūsu vērtībām un attieksmēm. Pētījuma nobeigumā, ja vēlēsieties, varēsiet saņemt personalizētu informāciju par Jūsu personību.",
+        "secondSection": "Visas Jūsu atbildes būs konfidenciālas un identificētas tikai ar numuru (un nevis Jūsu vārdu). Pētniecības mērķiem šīe anonīmie dati var tikt arhivēti tiešsaistes datubāzē, ko uztur Atvērtās zinātnes centrs (www.cos.io). Lai pabeigtu aptauju, nepieciešams atbildēt uz visiem jautājumiem, bet Jūs varat pārtraukt savu dalību jebkurā brīdī. Iespējamie ieguvumi no šī pētījuma ietver izpratnes uzlabošanu par cilvēkiem un viņu dzīvēm dažādos kultūras kontekstos. Šim pētījumam nav zināmu risku, kas varētu atstāt iespaidu uz tā dalībniekiem.",
+        "thirdSection": "Ja Jums ir jautājumi par šo pētījumu vai par savām pētījuma dalībnieka tiesībām, jūs varat kontaktēties ar Latvijas Universitātes profesoru Ģirtu Dimdiņu, girts.dimdins@lu.lv, kurš ir atbildīgs par datu vākšanu Latvijā, vai arī ar Kalifornijas Universitātes Riversaidā Pētniecības Ētikas biroju, IRB@ucr.edu. Mēs no sirds novērtējam Jūsu atsaucību.",
         "title": "Piekrišana dalībai pētījumā",
         "versionHistory": "(Piekrišana forma versija: 2016 14. oktobris)"
     },
@@ -134,7 +134,7 @@ export default {
             "medium": "Vidēja"
         },
         "loAgree": "Zemu rezultātu ieguvēji izsakās tieši un skarbi, pat ja ar to riskē uzsākt strīdu. Viņiem patīk sacensība, un viņi mēdz būt skeptiski par citu cilvēku nodomiem. Zemu rezultātu ieguvēji mēdz pelnīt augstākas algas, un viņiem vairāk raksturīga iesaistīšanās noteiktās riskantās darbībās, piemēram, smēķēšanā un agresīvā braukšanā.",
-        "loConsc": "Zemu rezultātu ieguvēji mēdz rīkoties spontāni nevis izplāno savu rīcību, un viņiem ir vieglāk raudzīties uz situāciju kopumā, nevis pievērst uzmanību detaļām. Viņiem raksturīgi pārlekt starp uzdevumiem, nevis pabeigt tos katru pēc kārtas. Viņi mēdz iesaistīties riskantākās darbībās, tādās kā smēķēšana, alkohola lietošana un narkotiku lietošana.",
+        "loConsc": "Zemu rezultātu ieguvēji mēdz rīkoties spontāni, nevis izplāno savu rīcību, un viņiem ir vieglāk raudzīties uz situāciju kopumā, nevis pievērst uzmanību detaļām. Viņiem raksturīgi pārslēgties starp uzdevumiem, nevis pabeigt tos katru pēc kārtas. Viņi mēdz iesaistīties riskantākās darbībās, tādās kā smēķēšana, alkohola lietošana un narkotiku lietošana.",
         "loExtra": "Zemu rezultātu ieguvēji mēdz būt sociāli un emocionāli rezervēti. Viņiem kopumā labāk patīk būt vieniem vai ar nedaudziem tuviem draugiem, un paturēt savus viedokļus un emocijas pie sevis. Viņiem mazāk raksturīgi iesaistīties asu izjūtu meklēšanā vai riskantās darbībās kā smēķēšana un alkohola lietošana.",
         "loNeurot": "Zemu rezultātu ieguvēji mēdz būt emocionāli jūtīgi un viņiem raksturīgas garastāvokļa svārstības. Viņi biežāk piedzīvo negatīvas emocijas un spēcīgāk reaģē uz negatīviem notikumiem. Gados jaunākiem pieaugušajiem raksturīgi zemāki rezultāti kā gados vecākiem pieaugušajiem.",
         "loOpen": "Zemu rezultātu ieguvēji mēdz būt tradicionāli, praktiski, un viņiem patīk pieturēties pie tradicionālā lietu darīšanas veida. Viņi dod priekšroku pazīstamajam pār jauno, un konkrētajam pār abstrakto. Zemu rezultātu ieguvēji mēdz dot priekšroku, un gūt panākumus, tradicionālās un praktiskās profesijās kā amatniecība un tirdzniecība.",
@@ -151,9 +151,9 @@ export default {
     "global": {
         "agreement": {
             "agree": "Piekrītu",
-            "agreeStrongly": "Stipri piekrītu",
+            "agreeStrongly": "Pilnībā piekrītu",
             "disagree": "Nepiekrītu",
-            "disagreeStrongly": "Stipri nepiekrītu",
+            "disagreeStrongly": "Pilnībā nepiekrītu",
             "neutral": "Neitrāli; nav viedokļa"
         },
         "char": {
@@ -162,10 +162,10 @@ export default {
             "fairlyChar": "Diezgan raksturīgi",
             "fairlyUnchar": "Diezgan neraksturīgi",
             "neutral": "Nedz raksturīgi, nedz neraksturīgi",
-            "quiteChar": "Stipri raksturīgi",
-            "quiteUnchar": "Stipri neraksturīgi",
+            "quiteChar": "Ļoti raksturīgi",
+            "quiteUnchar": "Ļoti neraksturīgi",
             "somewhatChar": "Mazliet raksturīgi",
-            "somewhatUnchar": "Mazliet neraksturīgi"
+            "somewhatUnchar": "Nedaudz neraksturīgi"
         },
         "continueLabel": "Turpināt",
         "describe": {
@@ -207,30 +207,30 @@ export default {
             "10": {
                 "items": {
                     "1": {
-                        "label": "Ir daudzas sociālās normas, kuras cilvēkiem šajā valstī būtu jāievēro."
+                        "label": "Ir daudzas sociālās normas, kuras cilvēkiem Latvijā būtu jāievēro."
                     },
                     "2": {
-                        "label": "Šajā valstī pastāv ļoti skaidras gaidas attiecībā uz to, kā cilvēkiem vajadzētu uzvesties vairumā situāciju."
+                        "label": "Latvijā pastāv ļoti skaidras gaidas attiecībā uz to, kā cilvēkiem vajadzētu uzvesties vairumā situāciju."
                     },
                     "3": {
-                        "label": "Cilvēki ir vienisprātis par to, kāda uzvedība ir atbilstoša un kāda ir neatbilstoša vairumā situāciju šajā valstī."
+                        "label": "Cilvēki Latvijā ir vienisprātis par to, kāda uzvedība ir atbilstoša un kāda ir neatbilstoša vairumā situāciju."
                     },
                     "4": {
-                        "label": "Cilvēkiem šajā valstī ir krietni daudz brīvības lemjot par to, kā viņi grib rīkoties vairumā situāciju."
+                        "label": "Cilvēkiem Latvijā ir krietni daudz brīvības lemjot par to, kā viņi grib rīkoties vairumā situāciju."
                     },
                     "5": {
-                        "label": "Šajā valstī, ja kāds rīkojas neatbilstošā veidā, pārējie to stingri nosodīs."
+                        "label": "Ja kāds Latvijā rīkojas neatbilstošā veidā, pārējie to stingri nosodīs."
                     },
                     "6": {
-                        "label": "Cilvēki šajā valstī gandrīz vienmēr seko sociālajām normām."
+                        "label": "Cilvēki Latvijā gandrīz vienmēr seko sociālajām normām."
                     }
                 },
                 "label": "Lūdzu novērtējiet, cik lielā mērā Jūs piekrītat vai nepiekrītat sekojošajiem apgalvojumiem:",
                 "options": {
                     "agree": "Piekrītu",
-                    "agreeStrongly": "Stipri piekrītu",
+                    "agreeStrongly": "Pilnībā piekrītu",
                     "disagree": "Nepiekrītu",
-                    "disagreeStrongly": "Stipri nepiekrītu",
+                    "disagreeStrongly": "Pilnībā nepiekrītu",
                     "neutral": "Neitrāli; nav viedokļa"
                 }
             },
@@ -265,9 +265,9 @@ export default {
                 "label": "Lūdzu novērtējiet, cik lielā mērā Jūs piekrītat vai nepiekrītat sekojošajiem apgalvojumiem:",
                 "options": {
                     "agree": "Piekrītu",
-                    "agreeStrongly": "Stipri piekrītu",
+                    "agreeStrongly": "Pilnībā piekrītu",
                     "disagree": "Nepiekrītu",
-                    "disagreeStrongly": "Stipri nepiekrītu",
+                    "disagreeStrongly": "Pilnībā nepiekrītu",
                     "neutral": "Neitrāli; nav viedokļa"
                 }
             },
@@ -295,9 +295,9 @@ export default {
                 "label": "Lūdzu novērtējiet, cik lielā mērā Jūs piekrītat vai nepiekrītat sekojošajiem apgalvojumiem:",
                 "options": {
                     "agree": "Piekrītu",
-                    "agreeStrongly": "Stipri piekrītu",
+                    "agreeStrongly": "Pilnībā piekrītu",
                     "disagree": "Nepiekrītu",
-                    "disagreeStrongly": "Stipri nepiekrītu",
+                    "disagreeStrongly": "Pilnībā nepiekrītu",
                     "neutral": "Neitrāli; nav viedokļa"
                 }
             },
@@ -310,7 +310,7 @@ export default {
                         "label": "Es gribu, lai cilvēki zinātu, ka esmu svarīga augsta statusa persona."
                     },
                     "2": {
-                        "label": "Ja es no kāda kaut ko gribu, es smiešos par tā cilvēka vissliktākajiem jokiem."
+                        "label": "Ja es no kāda kaut ko gribu, es smiešos pat par šī cilvēka vissliktākajiem jokiem."
                     },
                     "3": {
                         "label": "Es neizliktos, ka kāds man patīk, tikai lai panāktu, ka šis cilvēks izdara kaut ko manā labā."
@@ -325,7 +325,7 @@ export default {
                         "label": "Man būtu kārdinājums lietot viltotu naudu, ja es būtu drošs, ka tikšu sveikā cauri."
                     },
                     "7": {
-                        "label": "Man nav īpaši svarīgi, lai būtu daudz naudas."
+                        "label": "Man nav īpaši svarīgi, lai man būtu daudz naudas."
                     },
                     "8": {
                         "label": "Es gūtu daudz prieka, esot dārgu luksusa priekšmetu īpašnieks/-ce."
@@ -337,9 +337,9 @@ export default {
                 "label": "Lūdzu novērtējiet, cik lielā mērā Jūs piekrītat vai nepiekrītat sekojošajiem apgalvojumiem:",
                 "options": {
                     "agree": "Piekrītu",
-                    "agreeStrongly": "Stipri piekrītu",
+                    "agreeStrongly": "Pilnībā piekrītu",
                     "disagree": "Nepiekrītu",
-                    "disagreeStrongly": "Stipri nepiekrītu",
+                    "disagreeStrongly": "Pilnībā nepiekrītu",
                     "neutral": "Neitrāli; nav viedokļa"
                 }
             },
@@ -378,10 +378,10 @@ export default {
                         "label": "Esmu pelnījis, lai mani uzskatītu par lielisku cilvēku."
                     },
                     "2": {
-                        "label": "Tas, ka esmu ļoti īpašs cilvēks, man dod daudz spēka."
+                        "label": "Savu unikālo īpašību apzināšanās man dod daudz spēka."
                     },
                     "3": {
-                        "label": "Man izdodas būt uzmanības centrā ar saviem izcilajiem ieguldījumiem."
+                        "label": "Man izdodas būt uzmanības centrā ar saviem izcilajiem sasniegumiem."
                     },
                     "4": {
                         "label": "Vairums cilvēku ir kaut kā neveiksminieki."
@@ -396,9 +396,9 @@ export default {
                 "label": "Lūdzu novērtējiet, cik lielā mērā Jūs piekrītat vai nepiekrītat sekojošajiem apgalvojumiem:",
                 "options": {
                     "agree": "Piekrītu",
-                    "agreeStrongly": "Stipri piekrītu",
+                    "agreeStrongly": "Pilnībā piekrītu",
                     "disagree": "Nepiekrītu",
-                    "disagreeStrongly": "Stipri nepiekrītu",
+                    "disagreeStrongly": "Pilnībā nepiekrītu",
                     "neutral": "Neitrāli; nav viedokļa"
                 }
             },
@@ -479,10 +479,10 @@ export default {
                     "fairlyChar": "Diezgan raksturīgi",
                     "fairlyUnchar": "Diezgan neraksturīgi",
                     "neutral": "Nedz raksturīgi, nedz neraksturīgi",
-                    "quiteChar": "Stipri raksturīgi",
-                    "quiteUnchar": "Stipri neraksturīgi",
+                    "quiteChar": "Ļoti raksturīgi",
+                    "quiteUnchar": "Ļoti neraksturīgi",
                     "somewhatChar": "Mazliet raksturīgi",
-                    "somewhatUnchar": "Mazliet neraksturīgi"
+                    "somewhatUnchar": "Nedaudz neraksturīgi"
                 }
             },
             "4": {
@@ -678,9 +678,9 @@ export default {
                 "label": "Lūdzu novērtējiet, cik lielā mērā Jūs piekrītat vai nepiekrītat sekojošajiem apgalvojumiem:Esmu kāds/-a, kurš/-a:",
                 "options": {
                     "agree": "Piekrītu",
-                    "agreeStrongly": "Stipri piekrītu",
+                    "agreeStrongly": "Pilnībā piekrītu",
                     "disagree": "Nepiekrītu",
-                    "disagreeStrongly": "Stipri nepiekrītu",
+                    "disagreeStrongly": "Pilnībā nepiekrītu",
                     "neutral": "Neitrāli; nav viedokļa"
                 }
             },
@@ -750,16 +750,16 @@ export default {
                 "label": "Lūdzu novērtējiet, cik lielā mērā Jūs piekrītat vai nepiekrītat sekojošajiem apgalvojumiem:",
                 "options": {
                     "agree": "Piekrītu",
-                    "agreeStrongly": "Stipri piekrītu",
+                    "agreeStrongly": "Pilnībā piekrītu",
                     "disagree": "Nepiekrītu",
-                    "disagreeStrongly": "Stipri nepiekrītu",
+                    "disagreeStrongly": "Pilnībā nepiekrītu",
                     "neutral": "Neitrāli; nav viedokļa"
                 }
             },
             "8": {
                 "items": {
                     "1": {
-                        "label": "Ticība reliģijai palīdz saprast dzīves jēgu."
+                        "label": "Reliģiska ticība palīdz saprast dzīves jēgu."
                     },
                     "10": {
                         "label": "Tikai vājiem cilvēkiem ir vajadzīga reliģija."
@@ -786,7 +786,7 @@ export default {
                         "label": "Reliģija ir pretrunā ar zinātni."
                     },
                     "2": {
-                        "label": "Reliģija palīdz cilvēkiem izdarīt labas izvēles savās dzīvēs."
+                        "label": "Reliģija palīdz cilvēkiem izdarīt labas izvēles dzīvē."
                     },
                     "3": {
                         "label": "Reliģiskā ticība veicina labu psihisko veselību."
@@ -804,7 +804,7 @@ export default {
                         "label": "Reliģija dara cilvēkus laimīgākus."
                     },
                     "8": {
-                        "label": "Ticība reliģijai padara cilvēkus par labiem pilsoņiem."
+                        "label": "Reliģiska ticība padara cilvēkus par labiem pilsoņiem."
                     },
                     "9": {
                         "label": "Reliģijas prakse cilvēkiem padara grūtāku neatkarīgu domāšanu."
@@ -812,10 +812,10 @@ export default {
                 },
                 "label": "Lūdzu novērtējiet, cik lielā mērā Jūs piekrītat vai nepiekrītat sekojošajiem apgalvojumiem:",
                 "options": {
-                    "believeLittle": "Nedaudz ticu",
-                    "believeStrong": "Stipri ticu",
-                    "disbelieveLittle": "Nedaudz neticu",
-                    "disbelieveStrong": "Stipri neticu",
+                    "believeLittle": "Mazliet ticu",
+                    "believeStrong": "Pilnībā ticu",
+                    "disbelieveLittle": "Gandrīz nemaz neticu",
+                    "disbelieveStrong": "Pilnīgi nemaz neticu",
                     "neutral": "Neitrāli; nav viedokļa",
                     "preferNoAnswer": "Nevēlos atbildēt"
                 }
@@ -829,10 +829,10 @@ export default {
                         "label": "Jūs izturaties atšķirīgi, kad Jūs esat ar dažādiem cilvēkiem."
                     },
                     "11": {
-                        "label": "Jūs sevi atšķirīgi redzat, kad esat ar dažādiem cilvēkiem."
+                        "label": "Esot ar dažādiem cilvēkiem, Jūs sevi uztverat atšķirīgi."
                     },
                     "12": {
-                        "label": "Jūs sevi redzat vienādi pat dažādos sociālos apstākļos."
+                        "label": "Dažādos sociālos apstākļos Jūs sevi uztverat vienādi."
                     },
                     "13": {
                         "label": "Jūs izturaties vienādi pat tad, kad esat ar dažādiem cilvēkiem."
@@ -859,7 +859,7 @@ export default {
                         "label": "Jūs vērtējat personīgos sasniegumus vairāk nekā labas attiecības ar sev tuviem cilvēkiem."
                     },
                     "9": {
-                        "label": "Jūs ziedotu savas personīgās intereses, lai dotu labumu savai ģimenei."
+                        "label": "Jūs ziedotu savas personīgās intereses savas ģimenes labā."
                     }
                 },
                 "label": "Cik labi katrs apgalvojums Jūs raksturo?",
@@ -980,9 +980,9 @@ export default {
                     "neutral": "Neitrāls",
                     "uncharacteristic": "Neraksturīgs"
                 },
-                "instructions": "Tagad lūdzu detalizētāk aprakstiet pieredzēto situāciju. Pa vienam parādīsies 90 apgalvojumi. Katru apgalvojumu ielieciet vienā no trim kastītēm. Lietojiet \"Raksturīgs\" kastīti labajā pusē tiem apgalvojumiem, kas pareizi apraksta Jūsu pieredzēto situāciju; lietojiet \"Neraksturīgs\" kastīti kreisajā pusē tiem apgalvojumiem, kas neapraksta šo situāciju, un lietojiet \"Neitrāls\" kastīti tiem apgalvojumiem, kas ir nenozīmīgi, neskaidri, vai par kuriem neesat drošs/-a. Kad esat pabeidzis/-gusi, spiediet \"Turpināt\".",
+                "instructions": "Tagad lūdzu detalizētāk aprakstiet pieredzēto situāciju. Pa vienam parādīsies 90 apgalvojumi. Katru apgalvojumu ievietojiet vienā no trim kastītēm. Lietojiet \"Raksturīgs\" kastīti labajā pusē tiem apgalvojumiem, kas pareizi apraksta Jūsu pieredzēto situāciju; lietojiet \"Neraksturīgs\" kastīti kreisajā pusē tiem apgalvojumiem, kas neapraksta šo situāciju, un lietojiet \"Neitrāls\" kastīti tiem apgalvojumiem, kas ir nenozīmīgi, neskaidri, vai par kuriem neesat drošs/-a. Kad esat pabeidzis/-gusi, spiediet \"Turpināt\".",
                 "itemsLeft": {
-                    "one": "{{count}} atlikušie apgalvojums",
+                    "one": "{{count}} Reliģiska ticība palīdz saprast dzīves jēgu.",
                     "other": "{{count}} atlikušie apgalvojumi"
                 },
                 "location": "Vieta:",
@@ -995,19 +995,19 @@ export default {
                     "fairlyChar": "Diezgan raksturīgi",
                     "fairlyUnchar": "Diezgan neraksturīgi",
                     "neutral": "Nedz raksturīgi, nedz neraksturīgi",
-                    "quiteChar": "Stipri raksturīgi",
-                    "quiteUnchar": "Stipri neraksturīgi",
+                    "quiteChar": "Ļoti raksturīgi",
+                    "quiteUnchar": "Ļoti neraksturīgi",
                     "somewhatChar": "Mazliet raksturīgi",
-                    "somewhatUnchar": "Mazliet neraksturīgi"
+                    "somewhatUnchar": "Nedaudz neraksturīgi"
                 },
-                "instructions": "Tagad lūdzu aprakstiet situāciju precīzāk. No šīm trim kastītēm lūdzu pārlieciet apgalvojumus deviņās kastītēs. Jūs varat vilkt un nomest apgalvojumus no vienas kastītes uz otru, bet, ja atstāsiet pārāk daudz apgalvojumus vienā kastītē, virsraksts kļūs sarkans. Virsraksts kļūs zaļš, kad kastītē būs pareizais apgalvojumu skaits."
+                "instructions": "Tagad lūdzu aprakstiet situāciju precīzāk. No šīm trim kastītēm lūdzu pārlieciet apgalvojumus deviņās kastītēs. Jūs varat \"vilkt un nomest\" apgalvojumus no vienas kastītes uz otru, bet, ja atstāsiet pārāk daudz apgalvojumus vienā kastītē, virsraksts kļūs sarkans. Virsraksts kļūs zaļš, kad kastītē būs pareizais apgalvojumu skaits."
             }
         }
     },
     "survey": {
         "sections": {
             "1": {
-                "instructions": "Laipni lūgti! Mūs interesē situācijas, kādas piedzīvo cilvēki, un ko viņi tajās dara. Jūs aprakstīsiet kādu situāciju, kuru esat nesen piedzīvojis/-usi, un ko Jūs šajā situācijā darījāt. Jums arī tiks uzdoti daži jautājumi par jūsu attieksmēm un vērtībām. Balstoties uz šīm atbildēm, kad būsiet pabeidzis/-usi pētījumu, Jums tiks dota iespēja saņemt informāciju par Jūsu personību, kura, mēs ceram, Jums liksies interesanta. Sekojošās aptaujas pabeigšana prasīs mazāk kā stundu. Sākumā lūdzu atbildiet uz dažiem jautājumiem par sevi.",
+                "instructions": "Sveicināti! Mūs interesē situācijas, kādas piedzīvo cilvēki, un ko viņi tajās dara. Jūs aprakstīsiet kādu situāciju, kuru esat nesen piedzīvojis/-usi, un ko Jūs šajā situācijā darījāt. Jums arī tiks uzdoti daži jautājumi par jūsu attieksmēm un vērtībām. Balstoties uz šīm atbildēm, kad būsiet pabeidzis/-usi pētījumu, Jums tiks dota iespēja saņemt informāciju par Jūsu personību, kura, mēs ceram, Jums liksies interesanta. Sekojošās aptaujas pabeigšana prasīs mazāk kā stundu. Sākumā lūdzu atbildiet uz dažiem jautājumiem par sevi.",
                 "questions": {
                     "1": {
                         "label": "Vecums"
@@ -1037,8 +1037,8 @@ export default {
                         "label": "Skalā no 1 līdz 10, kā Jūs aprakstītu savas ģimenes ekonomisko stāvokli?",
                         "options": {
                             "average": "Vidēja",
-                            "least": "Vismazāk situēta",
-                            "most": "Visvairāk situēta"
+                            "least": "Zem vidējā",
+                            "most": "Virs vidējā"
                         }
                     },
                     "6": {
@@ -1047,8 +1047,8 @@ export default {
                     "7": {
                         "label": "Dzīvesvieta",
                         "options": {
-                            "remoteRural": "attāli lauki",
-                            "rural": "lauki",
+                            "remoteRural": "lauki",
+                            "rural": "lauku ciemats",
                             "suburban": "piepilsēta",
                             "urban": "pilsēta"
                         }
@@ -1073,8 +1073,8 @@ export default {
             },
             "2": {
                 "instructions": {
-                    "firstSection": "Lūdzu aprakstiet kādu vakardienas pieredzi, ko labi atceraties.",
-                    "secondSection": "Jebkura pieredze, kas Jums bija vakar, derēs; ir tikai svarīgi, lai Jūs to labi atcerētos. Konkrēti, lūdzu aprakstiet, ko Jūs darījāt, kur Jūs bijāt, un kas bija klāt.",
+                    "firstSection": "Lūdzu aprakstiet kādu vakar pieredzētu situāciju, ko labi atceraties.",
+                    "secondSection": "Jebkura situācija, ko vakar pieredzējāt, derēs; ir tikai svarīgi, lai Jūs to labi atcerētos. Konkrēti, lūdzu aprakstiet, ko Jūs darījāt, kur Jūs bijāt, un kas bija klāt.",
                     "thirdSection": "Lūdzu ierakstiet atbildes zemāk esošajās kastītēs."
                 },
                 "questions": {
@@ -1091,15 +1091,15 @@ export default {
                         "label": "Kurš vēl bija klāt? (Ja bijāt viens/-a, ierakstiet \"vienatnē\")"
                     },
                     "14": {
-                        "label": "Apmēram kurā laikā šī pieredze sākās?"
+                        "label": "Apmēram kurā laikā šī situācija sākās?"
                     }
                 }
             }
         }
     },
     "thankyou": {
-        "exitButton": "Iziet, lai pabeigtu pētījumu",
-        "instructions": "Jūs tagad varat iziet no pētījuma, vai arī turpināt, lai saņemtu nedaudz informācijas par Jūsu personību, balstoties uz aizpildītajām aptaujām.",
+        "exitButton": "Spiest šeit,lai pabeigtu pētījumu",
+        "instructions": "Jūs tagad varat pabeigt pētījumu, vai arī turpināt, lai saņemtu nedaudz informācijas par savu personību, balstoties uz aizpildītajām aptaujām.",
         "personalityFeedbackButton": "Saņemt atgriezenisko saikni par personību",
         "title": "Paldies!"
     }
