@@ -107,7 +107,7 @@ export default {
         },
         "checkboxLabel": "Saya telah membaca dan memahami kenyataan di atas dan bersetuju untuk menyertai",
         "firstSection": "Selamat datang ke kajian kami. Penyertaan anda adalah dalam satu sesi dan akan mengambil masa kurang dari satu jam. Anda akan diminta untuk menerangkan satu situasi yang anda baru sahaja alami dan tingkahlaku anda ketika itu. Anda akan juga ditanya beberapa soalan tentang nilai dan sikap anda. Di akhir kajian ini, jika anda bersetuju,  anda akan menerima maklumat peribadi tentang personaliti diri anda.",
-        "secondSection": "Semua maklumbalas anda adalah rahsia dan dikenalpasti hanya dengan nombor (dan bukan dengan nama anda). Untuk tujuan-tujuan penyelidikan, data-data yang tidak bernama ini mungkin akan disimpan dalam satu pangkalan data  yang dikendalikan oleh Center for Open Science (www.cos.io). Setiap soalan mesti dijawab bagi melengkapkan kajian ini tetapi anda boleh tidak meneruskan penyertaan anda pada bila-bila masa tanpa sebarang denda. Potensi manfaat dari penyelidikan ini termasuk meningkatkan pemahaman tentang individu dan kehidupan mereka dalam konteks silang budaya. Tidak ada risiko yang diketahui.",
+        "secondSection": "Semua maklumbalas anda adalah rahsia dan dikenalpasti hanya dengan nombor (dan bukan dengan nama anda). Untuk tujuan-tujuan penyelidikan, data-data yang tidak bernama ini mungkin akan disimpan dalam satu pangkalan data  yang dikendalikan oleh Center for Open Science (www.cos.io). Setiap soalan mesti dijawab bagi melengkapkan kajian ini tetapi anda boleh tidak meneruskan penyertaan anda pada bila-bila masa tanpa sebarang denda. Potensi manfaat dari penyelidikan ini termasuk meningkatkan pemahaman tentang individu dan kehidupan mereka dalam konteks silang budaya. Tidak ada risiko yang diketahui dengan menyertai kajian ini.",
         "thirdSection": "Jika anda mempunyai sebarang soalan tentang kajian ini atau hak-hak anda sebagai peserta, anda boleh menghubungi saya [Prof Khairul Anwar Mastor, kam2000@ukm.edu.my, Pusat Citra UKM], yang bertanggungjawab atas pengumpulan data di tempat anda atau kepada University of California, Riverside, Office of Research Integirty melalui email di IRB@ucr.edu. Kami secara ikhlas menghargai kerjasama anda.",
         "title": "Persetujuan untuk Menyertai Kajian",
         "versionHistory": "(Persetujuan bentuk versi: 14 Oktober 2016)"
@@ -194,14 +194,14 @@ export default {
                 "label": "Secara keseluruhannya, adakah situasi yang anda nyatakan adalah pengalaman positif atau pengalaman negatif?",
                 "options": {
                     "extremelyNeg": "Sangat negatif.",
-                    "extremelyPos": "Sangat positif.",
+                    "extremelyPos": "Sangat positif",
                     "fairlyNeg": "Sederhana negatif",
                     "fairlyPos": "Sederhana positif",
-                    "neither": "Tidak negatif maupun positif.",
-                    "quiteNeg": "Agak negatif.",
-                    "quitePos": "Agak positif.",
+                    "neither": "Tidak negatif maupun positif",
+                    "quiteNeg": "Negatif",
+                    "quitePos": "Positif",
                     "somewhatNeg": "Lebihkurang negatif",
-                    "somewhatPos": "Lebihkurang negatif"
+                    "somewhatPos": "Lebihkurang positif"
                 }
             },
             "10": {
@@ -310,7 +310,7 @@ export default {
                         "label": "Saya mahu orang tahu bahawa saya seorang yang penting dengan kedudukan yang tinggi."
                     },
                     "2": {
-                        "label": "Jika saya mahu sesuatu daripada seseorang, saya akan ketawa pada jenaka paling teruk orang tersebut."
+                        "label": "Jika saya mahu sesuatu daripada seseorang, saya akan ketawa walaupun dengan jenaka beliau yang paling teruk sekalipun."
                     },
                     "3": {
                         "label": "Saya tidak akan berpura-pura suka seseorang hanya untuk mendapatkan pertolongan dari orang tersebut."
@@ -418,7 +418,7 @@ export default {
                     "hardlyEver": "Jarang.",
                     "never": "Tidak pernah.",
                     "occasionally": "Kadang-kadang.",
-                    "quiteOften": "Agak kerap."
+                    "quiteOften": "Sangat kerap"
                 }
             },
             "3": {
@@ -469,7 +469,7 @@ export default {
                         "label": "Saya memberi tumpuan atau bekerja keras pada tugasan."
                     },
                     "9": {
-                        "label": "Saya menyimpan dan tidak meluahkan."
+                        "label": "Saya memendam dan tidak meluahkan perasaan"
                     }
                 },
                 "label": "Sila nyatakan tindakahlaku anda dalam situasi yang diterangkan :",
@@ -726,7 +726,7 @@ export default {
                         "label": "Saya rasa bahawa saya sedang dinilai dengan positif oleh orang lain di sekeliling saya."
                     },
                     "3": {
-                        "label": "Saya membuat orang lain yang penting bahagia."
+                        "label": "Saya membuat seseorang yang penting, bahagia."
                     },
                     "4": {
                         "label": "Walaupun ia agak sederhana, saya menjalani kehidupan yang stabil"
@@ -883,7 +883,7 @@ export default {
                 "SomoneCountedon": "Seseorang yang hadir (selain anda) adalah diharap untuk melakukan sesuatu",
                 "abusedVictimized": "Anda sedang didera atau menjadi mangsa.",
                 "adviceYou": "Orang lain inginkan nasihat daripada anda.",
-                "ambition": "Cita-cita boleh dinyatakan atau dibuktikan",
+                "ambition": "Hasrat seseorang boleh dinyatakan atau ditunjukkan",
                 "anxietyInducing": "Situasi ini berpotensi menimbulkan kebimbangan",
                 "art": "Kesenian adalah bahagian penting dalam situasi tersebut",
                 "askingYou": "Seseorang sedang meminta anda untuk sesuatu",
@@ -918,7 +918,7 @@ export default {
                 "happeningOnce": "Banyak perkara yang berlaku pada satu masa.",
                 "honor": "Isu maruah penghormatan adalah di dalam bahaya",
                 "hostile": "Situasi ini membuatkan orang berasa bermusuhan.",
-                "humorous": "Situasi ini adalah lucu atau mungkin lucu",
+                "humorous": "Anda menjadi tumpuan perhatian",
                 "intellectuallyStimulating": "Situasi ini boleh merangsang intelektual.",
                 "intelligence": "Kepintaran adalah penting (contohnya: satu perbincangan intelektual, masalah kompels yang perlu diselesaikan)",
                 "jobDone": "Satu kerja perlu dilakukan / perlu disiapkan",
@@ -930,7 +930,7 @@ export default {
                 "needsHelp": "Seseorang memerlukan bantuan",
                 "negativeEmotions": "Situasi ini boleh membangkitkan emosi negatif.",
                 "newRelationships": "Hubungan baru boleh dibina.",
-                "noisy": "Situasi ini sangat bising (tidak ramai bermakna situasi ini sangat senyap)",
+                "noisy": "Situasi ini sangat bising.",
                 "notClear": "Ianya tidak jelas apa yang sedang berlaku, situasi tidak menentu.",
                 "oppositeSex": "Kehadiran ahli yang berlainan jantina merupakan bahagian penting dalam situasi ini.",
                 "peopleGetAlong": "Ia adalah penting bagi orang-orang untuk bersama-sama.",
@@ -949,14 +949,14 @@ export default {
                 "reassuringPresent": "Seseorang yang menyenangkan hadir",
                 "relevantHealth": "Situasi ini adalah relevan dengan kesihatan anda (sebagai contoh: kemungkinan penyakit, lawatan perubatan)",
                 "religion": "Agama adalah relevan dalam situasi ini (contohnya: aktiviti atau perbincangan keagamaan)",
-                "romanticPartners": "Potensi atau pasangan romantik sebenar (untuk anda) ada hadir.",
+                "romanticPartners": "Pasangan romantik sebenar atau bakal pasangan romantic (untuk anda) ada hadir.",
                 "ruminateDaydream": "Adalah mungkin untuk memikirkan, berangan-angan, atau berkhayal.",
                 "selfControl": "Kawalan diri adalah perlu  (terhadap diri anda atau orang lain)",
                 "sensations": "Sensasi adalah penting (sebagai contoh: sentuh, rasa, bau, sentuhan fizikal)",
                 "sexuality": "Jantina adalah relevan",
                 "shame": "Seseorang sedang berasa malu.",
                 "simpleClearcut": "Situasi ini adalah mudah dan jelas.",
-                "smallAnnoyances": "Situasi ini termasuklah kejengkelan kecil.",
+                "smallAnnoyances": "Situasi ini melibatkan sedikit gangguan (seperti kemarahan etc).",
                 "socialInteraction": "Interaksi sosial adalah mungkin berlaku",
                 "successCooperation": "Kejayaan memerlukan kerjasama.",
                 "takenCareOf": "Seseorang perlu dijaga.",
@@ -969,16 +969,16 @@ export default {
                 "unusualIdeas": "Idea yang luar biasa atau sudut pandangan yang dibincangkan secara bebas.",
                 "verbalFluency": "Terdapat peluang untuk mempamerkan kefasihan lisan (contohnya : perdebatan, monolog, perbualan yang aktif).",
                 "workingHard": "Orang yang bekerja keras.",
-                "youFocus": "Anda menjadi tumpuan perhatian"
+                "youFocus": "ya"
             }
         },
         "sections": {
             "1": {
                 "activity": "Aktiviti:",
                 "categories": {
-                    "characteristic": "Tidak mencirikan",
+                    "characteristic": "Tidak memperihalkan diri saya",
                     "neutral": "Neutral",
-                    "uncharacteristic": "Mencirikan"
+                    "uncharacteristic": "Memperihalkan diri saya"
                 },
                 "instructions": "Sekarang sila gambarkan keadaan  yang anda alami dengan lebih terperinci. 90 item akan dipaparkan pada satu-satu masa. Letakkan setiap item ke dalam salah satu daripada tiga kotak tersebut. Gunakan kotak \"Mencirikan\" di sebelah kanan untuk item-item yang secara tepat menjelaskan keadaan: gunakan kotak \"Tidak Mencirikan\" di sebelah kiri untuk item-item yang tidak menggambarkan situasi tersebut dan gunakan kotak \" Neutral\" untuk item yang tidak releven, tidak jelas atau apa-apa yang anda tidak pasti. Setelah anda selesai, tekan \"Teruskan\"",
                 "itemsLeft": {
@@ -1045,7 +1045,7 @@ export default {
                         "label": "Bandar tempat kelahiran"
                     },
                     "7": {
-                        "label": "Penginapan bandar sendiri",
+                        "label": "Penginapan bandar sendiri (hometown)",
                         "options": {
                             "remoteRural": "Pendalaman / Jauh daripada bandar",
                             "rural": "Luar bandar",
@@ -1054,7 +1054,7 @@ export default {
                         }
                     },
                     "8": {
-                        "label": "Dalam skala 1 hingga 10, bagaimana pegangan agama anda?",
+                        "label": "Menggambarkan diri anda",
                         "options": {
                             "highlyReligious": "Sangat menghayati agama",
                             "notReligious": "Tidak langsung menghayati agama",
@@ -1073,7 +1073,7 @@ export default {
             },
             "2": {
                 "instructions": {
-                    "firstSection": "Sila nyatakan satu pengalaman semalam yang anda ingat betul.",
+                    "firstSection": "Sila nyatakan satu pengalaman semalam yang anda ingat betul-betul pengalaman tersebut.",
                     "secondSection": "Sebarang pengalaman yang anda alami semalam adalah diterima; apa yang penting ialah anda ingat betul-betul. Khususnya, sila terangkan apa yang anda lakukan, di mana anda berada dan siapa yang ada ketika itu.",
                     "thirdSection": "Sila tulis jawapan anda di kotak di bawah."
                 },
