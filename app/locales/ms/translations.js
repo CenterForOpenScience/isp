@@ -469,7 +469,7 @@ export default {
                         "label": "Saya memberi tumpuan atau bekerja keras pada tugasan."
                     },
                     "9": {
-                        "label": "Saya memendam (reserved) dan tidak meluahkan perasaan"
+                        "label": "Saya memendam dan tidak meluahkan perasaan"
                     }
                 },
                 "label": "Sila nyatakan tindakahlaku anda dalam situasi yang diterangkan :",
