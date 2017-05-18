@@ -367,7 +367,7 @@ export default {
                 "label": "În ce măsură consideraţi că viaţa dvs. progresează în următoarele medii?",
                 "options": {
                     "aLittle": "Puţin",
-                    "completely": "Complet",
+                    "completely": "În întregime",
                     "notAtAll": "Deloc",
                     "quiteaBit": "Destul de puţin"
                 }
@@ -390,7 +390,7 @@ export default {
                         "label": "Îmi doresc ca rivalii mei să eşueze."
                     },
                     "6": {
-                        "label": "Reacţionez iritat dacă o altă persoană îmi fură spectacolul."
+                        "label": "Reacționez iritat dacă o altă persoană îmi fură prim planul."
                     }
                 },
                 "label": "Vă rugăm să evaluaţi măsură în care sunteţi de acord sau nu sunteţi de acord cu următoarele afirmaţii:",
