@@ -121,12 +121,12 @@ export default {
         "consc": "Samvittighedsfuldhed",
         "exitButton": "Afslut",
         "extra": "Udadvendthed",
-        "firstSection": "Baseret på mange års forskning er personlighedsforskere enige om, at de vigtigste individuelle forskelle i personlighedstræk kan beskrives gennem  fem grundlæggende træk, også kendt som femfaktormodellen (”Big Five”): Udadvendthed, Venlighed, Samvittighedsfuldhed, Følelsesmæssig stabilitet samt Åbenhed over for Oplevelser.\nDet spørgeskema, du netop har afsluttet, giver en score på hvert af disse træk, og dine resultater er beskrevet nedenfor.",
+        "firstSection": "Baseret på mange års forskning er personlighedsforskere enige om, at de vigtigste individuelle forskelle i personlighedstræk kan beskrives gennem  fem grundlæggende træk, også kendt som femfaktormodellen (”Big Five”): Udadvendthed, Venlighed, Samvittighedsfuldhed, Følelsesmæssig stabilitet samt Åbenhed over for Oplevelser. Det spørgeskema, du netop har afsluttet, giver en score på hvert af disse træk, og dine resultater er beskrevet nedenfor.",
         "fourthSection": "Tak for din deltagelse!",
         "hiAgree": "Dem som scorer højt har en tendens til at være hensynsfulde og høflige i sociale interaktioner og nyder at samarbejde med andre. De finder det let at stole på andre mennesker og har medfølelse med dem, som er i nød. Dem som scorer højt har en tendens til at være vellidte af deres kammerater, og de etablerer tilfredsstillende og stabile tætte relationer. De er mere tilbøjelige til at være religiøse, at påtage sig lederroller i lokalmiljøet og at udføre frivilligt arbejde. Ældre voksne har en tendens til at score højere end yngre voksne.",
         "hiConsc": "Dem som scorer højt har en tendens til at være organiserede og ansvarlige. De arbejder hårdt for at nå deres mål og fuldfører de opgaver, de er begyndt på. Dem som scorer højt har tendens til at få højere karakterer i skolen og klarer sig bedre inden for mange erhverv. De er mere tilbøjelige til at være religiøse og at have konservative politiske holdninger. De har tendens til at motionere mere, har en bedre fysisk sundhed og lever længere. Ældre voksne har en tendens til at score højere end yngre voksne.",
         "hiExtra": "De som scorer højt har en tendens til at være snaksalig og energisk. De kan lide at være sammen med mennesker og føler sig tilpas med at udtrykke sig selv i en gruppe.  En høj scorer viser en tendens til at have flere venner og flere dating partnere, og de anses som populære. De er mere tilbøjelige til at have ledende roller i det lokale miljø og til at udføre frivilligt arbejde. De har tendens til at foretrække tempofyldt musik, de motionerer oftere og er mere tilbøjelige til at gå til en sportsaktivitet. De oplever hyppigere positive følelser og reagerer stærkere på positive begivenheder.",
-        "hiNeurot": "Dem, der scorer højt tendens til at være følelsesmæssigt stabil og robust. De bevarer som regel roligt, selv i stressede situationer og \ninddrive hurtigt efter negative begivenheder. Dem, der scorer højt på følelsesmæssig stabilitet tendens til at have en større følelse af velvære.",
+        "hiNeurot": "Dem, der scorer højt tendens til at være følelsesmæssigt stabil og robust. De bevarer som regel roligt, selv i stressede situationer og inddrive hurtigt efter negative begivenheder. Dem, der scorer højt på følelsesmæssig stabilitet tendens til at have en større følelse af velvære.",
         "hiOpen": "Dem som scorer højt er generelt åbne over for nye aktiviteter og nye ideer. De har en tendens til at være kreative, intellektuelt nysgerrige, og at være modtagelige overfor kunst og skønhed. Dem som scorer højt har en tendens til at foretrække, og er bedre til, videnskabelige og kunstneriske erhverv. De lytter helst til klassisk musik, jazz, blues, og rockmusik.",
         "labels": {
             "high": "Høj",
@@ -262,7 +262,7 @@ export default {
                         "label": "De fleste mennesker er troværdige."
                     }
                 },
-                "label": "Angiv i hvilken grad du er enig eller uenig med de følgende udsagn:\nJeg er en som…",
+                "label": "Angiv i hvilken grad du er enig eller uenig med de følgende udsagn: Jeg er en som…",
                 "options": {
                     "agree": "Enig",
                     "agreeStrongly": "Meget enig",
@@ -310,7 +310,7 @@ export default {
                         "label": "Jeg vil have, at folk skal vide, at jeg er en vigtigt person med en høj status."
                     },
                     "2": {
-                        "label": "Hvis jeg ønsker noget fra nogen, griner jeg, når personens laver de værste jokes."
+                        "label": "Hvis jeg ønsker noget fra nogen, griner jeg, når personen laver de værste jokes."
                     },
                     "3": {
                         "label": "Jeg ville ikke foregive at kunne lide en person bare for at få den person til at gøre mig tjenester."
@@ -334,7 +334,7 @@ export default {
                         "label": "Jeg synes, ​​at jeg har ret til at få mere respekt, end en gennemsnitlige person har det."
                     }
                 },
-                "label": "Angiv i hvilken grad du er enig eller uenig med de følgende udsagn:\nJeg er en som…",
+                "label": "Angiv i hvilken grad du er enig eller uenig med de følgende udsagn: Jeg er en som…",
                 "options": {
                     "agree": "Enig",
                     "agreeStrongly": "Meget enig",
@@ -675,7 +675,7 @@ export default {
                         "label": "Opretholder optimismen også efter at have oplevet et tilbageslag"
                     }
                 },
-                "label": "Angiv i hvilken grad du er enig eller uenig med de følgende udsagn:\nJeg er en som…",
+                "label": "Angiv i hvilken grad du er enig eller uenig med de følgende udsagn: Jeg er en som…",
                 "options": {
                     "agree": "Enig",
                     "agreeStrongly": "Meget enig",
@@ -810,7 +810,7 @@ export default {
                         "label": "Religiøs praksis gør det sværere for folk at tænke selvstændigt."
                     }
                 },
-                "label": "Angiv i hvilken grad du er enig eller uenig med de følgende udsagn:\nJeg er en som…",
+                "label": "Angiv i hvilken grad du er enig eller uenig med de følgende udsagn: Jeg er en som…",
                 "options": {
                     "believeLittle": "Det tror jeg en smule på",
                     "believeStrong": "Det tror jeg meget på",
