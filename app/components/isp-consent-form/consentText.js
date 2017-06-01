@@ -315,6 +315,18 @@ const consentText = {
         "title": "연구참가동의",
         "versionHistory": "(동의서 버전 : 2016 년 10 월 14 일)"
     },
+    // Japanese
+    "JAPAN1.JP": {
+        "buttonLabel": "続行するためには同意してください。",
+        "consentLabel": "上記の項目について内容を理解し、同意いたします。",
+        "paragraphs": [
+            "私たちの研究へようこそ。 この研究への参加は1セッションとなっており、時間は1時間未満です。 調査では、最近あなたが経験した状況とあなたの行動を説明するように求められます。 また、あなたの価値観や態度について、いくつかの質問がなされます。 研究の最後であなたが希望すれば、あなたのパーソナリティについての情報を得ることができます。",
+            "あなたのすべての回答は保護されており、あなたの名前は数字でのみ特定されます。 研究目的のために、これらの匿名データは、オープン・サイエンス・センター（www.cos.io）によって管理されているオンライン・データベースに保管します。 このアンケートを完了するには、各質問に回答する必要がありますが、不利益なく、いつでも参加を中止することができます。 この研究の潜在的な利益としては、文化的背景を超えた、人と人生の理解を促進させることが挙げられます。本調査による明らかなリスクはありません。",
+            "この調査や参加者としてのご質問は、立命館大学心理学部佐藤達也（satotster@gmail.com）、またはカリフォルニア大学リバーサイドスクールオブリサーチ（IRB@ucr.edu）にお問い合わせください。あなたの協力のために非常にあなた。"
+        ],
+        "title": "研究参加における同意",
+        "versionHistory": "（同意書のバージョン：2016年10月14日）"
+    },
     "SKOREA2.KR": {
         "buttonLabel": "계속하려면 조건에 동의해주십시오.",
         "consentLabel": "상기 내용을 읽고 이해했으며, 연구 참여에 동의합니다.",
@@ -556,8 +568,8 @@ const consentText = {
         "consentLabel": "Pročitao sam i razumeo gore navedene tvdnje i pristajem na učešće u istraživanju.",
         "paragraphs": [
             "Dobrodošli u naše istraživanje. Vaše učešće u istraživanju će obuhvatiti jedno ispitivanje i trajaće manje od jednog sata. Zamolićemo Vas da opišete situaciju koju ste nedavno doživeli i svoje ponašanje u toj situaciji. Postavićemo Vam neka pitanja u vezi sa vašim vrednostima i stavovima. Na kraju istraživanja, ukoliko tako izaberete, dobićete personalizovane informacije o svojoj ličnosti.",
-            "Svi Vaši odgovori biće poverljivi i identifikovani isključivo preko broja (a ne preko Vašeg imena). Za potrebe istraživanja, ovi anonimni podaci mogu biti sačuvani u online bazi podataka koju održava Centar za Otvorenu Nauku (www.cos.io). Morate odgovoriti na sva pitanja da biste zavšili ispitivanje, ali takođe možete odustati od učešća u bilo kom trenutku bez ikakvih posledica. Potencijalne dobiti od ovog istraživanja su da se unapredi razumevanje osoba i njihovih života u različitim kulturalnim kontekstima. Nema poznatih rizika od učešća u istraživanju.",
-            "Ukoliko imate bilo kakvih pitanja u vezi sa ovim istraživanjem ili Vašim pravima kao učesnika istraživanja, možete kontaktirati doc. dr Petra Čolovića (e-mail: petar.colovic@uns.ac.rs, Odsek za psihologiju, Filozofski fakultet u Novom Sadu), koji je zadužen za prikupljanje podataka na Vašoj lokaciji, ili Univerzitet u Kaliforniji, Riverside, Odeljenje za integritet istraživanja na e-mail IRB@ucr.edu. Iskreno smo zahvalni na saradnji."
+            "Svi Vaši odgovori biće poverljivi i identifikovani isključivo preko broja (a ne preko Vašeg imena). Za potrebe istraživanja, ovi anonimni podaci mogu biti sačuvani u online bazi podataka koju održava Centar za Otvorenu Nauku (www.cos.io). Jedino će naučni tim imati pristup rezultatima, prikazani će biti jedino rezultati zasnovani na grupnim podacima, nikada individualni podaci. Svaki podatak koji bude objavljen biće anoniman. Podatke će koristiti istraživači angažovani u istraživanju. Istraživači koji su vođe projekta uradiće glavne analize podataka prikupljenih u svim zemljama. Svi istraživači će imati slobodu da koriste podatke koje su prikupili u svojim zemljama. Informacije o ciljevima istraživanja i načinu prikupljanja podataka nalaze se i na stranici http://www.internationalsituationsproject.com/about. U određenom trenutku, prikupljeni podaci mogu biti postavljeni u bazi podataka Centra za Otvorenu Nauku (www.cos.io), tako da budu dostupni na internetu. Tako postavljeni podaci će biti anonimni, a format tako postavljenih podataka možete da vidite na stranici https://osf.io/a6pra/",
+            "Morate odgovoriti na sva pitanja da biste zavšili ispitivanje, ali takođe možete odustati od učešća u bilo kom trenutku bez ikakvih posledica. Potencijalne dobiti od ovog istraživanja su da se unapredi razumevanje osoba i njihovih života u različitim kulturalnim kontekstima. Nema poznatih rizika od učešća u istraživanju. Ukoliko imate bilo kakvih pitanja u vezi sa ovim istraživanjem ili Vašim pravima kao učesnika istraživanja, možete kontaktirati doc. dr Petra Čolovića (e-mail: petar.colovic@uns.ac.rs, Odsek za psihologiju, Filozofski fakultet u Novom Sadu), koji je zadužen za prikupljanje podataka na Vašoj lokaciji, ili Univerzitet u Kaliforniji, Riverside, Odeljenje za integritet istraživanja na e-mail IRB@ucr.edu. Iskreno smo zahvalni na saradnji."
         ],
         "title": "Saglasnost za učešće u istraživanju",
         "versionHistory": "(Verzija obrasca za davanje saglasnosti: 14. oktobar 2016.)"
@@ -635,7 +647,7 @@ const consentText = {
         "paragraphs": [
             "Bienvenido/a a nuestro estudio. Su participación constará de una sola sesión y le llevará menos de una hora. Se le pedirá que describa una situación que experimentó recientemente y sus comportamientos en ella. También se le harán algunas preguntas sobre sus valores y actitudes. Al final del estudio, si lo desea, recibirá información individualizada sobre su personalidad.",
             "Todas sus respuestas serán confidenciales e identificadas sólo por un número (y no por su nombre). Para fines de investigación, estos datos anónimos pueden ser archivados en una base de datos en línea mantenida por el Center for Open Science (www.cos.io). Para completar la encuesta todas las preguntas deben ser contestadas, no obstante, usted puede detenerse y abandonar su participación en cualquier momento, lo que no implicará consecuencias negativas para usted. Los beneficios potenciales de esta investigación incluyen mejorar la comprensión de las personas y sus vidas en diferentes contextos culturales. No se conocen riesgos asociados a la investigación.",
-            "Si tiene alguna pregunta sobre este estudio o sus derechos como participante, puede comunicarse con David Gallardo-Pujol (gallardopujol@gmail.com), University of Barcelona, el responsable de la recopilación de datos en su ubicación por correo electrónico en IRB@ucr.edu; o también a la Universidad de California, Riverside, Office of Research Integrity. Apreciamos sinceramente su cooperación."
+            "Si tiene alguna pregunta sobre este estudio o sus derechos como participante, puede comunicarse con David Gallardo-Pujol (gallardopujol@gmail.com), Universitat de Barcelona, el responsable de la recopilación de datos en su ubicación por correo electrónico en IRB@ucr.edu; o también a la Universidad de California, Riverside, Office of Research Integrity. Apreciamos sinceramente su cooperación."
         ],
         "title": "Consentimiento para participar en la investigación",
         "versionHistory": "(Versión del formulario de consentimiento: 14 de octubre de 2016)"

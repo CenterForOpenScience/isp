@@ -125,7 +125,7 @@ export default {
         "fourthSection": "¡Gracias por su participación!",
         "hiAgree": "Aquellos/as que puntúan alto tienden a ser considerados/as y corteses en las interacciones sociales, y disfrutar de la cooperación con los demás. Les resulta fácil confiar en la gente y sentir compasión por los necesitados/as. También tienden a ser muy queridos/as por sus compañeros/as, y establecen relaciones satisfactorias y estables. Es más probable que sean religiosos/as, que desempeñen funciones de liderazgo en la comunidad y que hagan trabajo voluntario. Los/as adultos/as de más edad tienden a puntuar más alto que los/as adultos/as más jóvenes.",
         "hiConsc": "Aquellos/as que puntúan alto tienden a ser organizados/as y responsables. Trabajan duro para lograr sus metas, y completar las tareas que han comenzado. Tienden a obtener calificaciones más altas en la escuela, y se desempeñan mejor en muchas ocupaciones. Es más probable que sean religiosos/as y tengan actitudes políticas conservadoras. Tienden a hacer más ejercicio, a tener una mejor salud física, y a vivir más tiempo. Los/as adultos/as de más edad tienden a puntuar más alto que los/as adultos/as más jóvenes.",
-        "hiExtra": "Aquellos/as que puntúan alto tienden a ser habladores/as y enérgicos/as. Les gusta estar cerca de la gente, y se sienten cómodos/as afirmarse en un grupo. También tienden a tener más amigos/as y más citas, y son vistos/as como más populares. Es más probable que desempeñen funciones de liderazgo en la comunidad y que se presten para trabajos voluntarios. Tienden a preferir la música enérgica, hacer ejercicio con más frecuencia, y son más propensos/as a hacer deporte. Experimentan emociones positivas más frecuentemente y reaccionan más fuertemente a eventos positivos.",
+        "hiExtra": "Aquellos/as que puntúan alto tienden a ser habladores/as y enérgicos/as. Les gusta estar cerca de la gente, y se sienten cómodos/as al afirmarse en un grupo. También tienden a tener más amigos/as y más citas, y son vistos/as como más populares. Es más probable que desempeñen funciones de liderazgo en la comunidad y que se presten para trabajos voluntarios. Tienden a preferir la música enérgica, hacer ejercicio con más frecuencia, y son más propensos/as a hacer deporte. Experimentan emociones positivas más frecuentemente y reaccionan más fuertemente a eventos positivos.",
         "hiNeurot": "Aquellos/as que puntúan alto tienden a ser emocionalmente estables y resilientes. Por lo general, mantienen la calma, incluso en situaciones de estrés, y pueden recuperarse rápidamente de los eventos negativos. Las personas que obtienen una alta puntuación en estabilidad emocional tienden a sentir una mayor sensación de bienestar.",
         "hiOpen": "Aquellos/as que puntúan alto están generalmente abiertos/as a nuevas actividades y nuevas ideas. Tienden a ser creativos/as, intelectualmente curiosos/as y sensibles al arte y la belleza. También tienden a preferir, y lo hacen mejor, en ocupaciones científicas y artísticas. Prefieren música clásica, jazz, blues y rock.",
         "labels": {
@@ -207,22 +207,22 @@ export default {
             "10": {
                 "items": {
                     "1": {
-                        "label": "En este país, hay muchas normas sociales que las personas se supone que deben acatar"
+                        "label": "En este país, hay muchas normas sociales que las personas se supone que deben acatar."
                     },
                     "2": {
-                        "label": "En este país, hay muy claras expectativas de cómo la gente tiene que actuar en la mayoría de situaciones"
+                        "label": "En este país, hay muy claras expectativas de cómo la gente tiene que actuar en la mayoría de situaciones."
                     },
                     "3": {
-                        "label": "En este país, las personas están de acuerdo sobre qué comportamientos son apropiados e inapropiados en la mayor parte de situaciones"
+                        "label": "En este país, las personas están de acuerdo sobre qué comportamientos son apropiados e inapropiados en la mayor parte de situaciones."
                     },
                     "4": {
-                        "label": "En este país, les personas tienen amplia libertad a la hora de decidir cómo quieren comportarse en la mayoría de situaciones"
+                        "label": "En este país, les personas tienen amplia libertad a la hora de decidir cómo quieren comportarse en la mayoría de situaciones."
                     },
                     "5": {
-                        "label": "En este país, si alguien actúa de forma inapropiada, otros lo desaprobarán fuertemente"
+                        "label": "En este país, si alguien actúa de forma inapropiada, otros lo desaprobarán fuertemente."
                     },
                     "6": {
-                        "label": "La gente de este país casi siempre cumple las normas sociales"
+                        "label": "La gente de este país casi siempre cumple las normas sociales."
                     }
                 },
                 "label": "Por favor, indique en qué medida está de acuerdo o en desacuerdo con las siguientes afirmaciones:",
@@ -247,19 +247,19 @@ export default {
             "13": {
                 "items": {
                     "1": {
-                        "label": "La mayoría de la gente es básicamente honesta"
+                        "label": "La mayoría de la gente es básicamente honesta."
                     },
                     "2": {
-                        "label": "La mayoría de la gente es básicamente buena y amable"
+                        "label": "La mayoría de la gente es básicamente buena y amable."
                     },
                     "3": {
-                        "label": "La mayoría de la gente confía en los demás"
+                        "label": "La mayoría de la gente confía en los demás."
                     },
                     "4": {
-                        "label": "Generalmente, confío en los demás"
+                        "label": "Generalmente, confío en los demás."
                     },
                     "5": {
-                        "label": "Se puede confiar en la mayoría de personas"
+                        "label": "Se puede confiar en la mayoría depersonas."
                     }
                 },
                 "label": "Por favor, indique en qué medida está de acuerdo o en desacuerdo con las siguientes afirmaciones:",
@@ -274,22 +274,22 @@ export default {
             "14": {
                 "items": {
                     "1": {
-                        "label": "En momentos de incertidumbre, acostumbro a esperar lo mejor"
+                        "label": "En momentos de incertidumbre, acostumbro a esperar lo mejor."
                     },
                     "2": {
-                        "label": "Si algo me puede ir mal, me irá mal"
+                        "label": "Si algo me puede ir mal, me irá mal."
                     },
                     "3": {
-                        "label": "Siempre soy optimista respecto a mi futuro"
+                        "label": "Siempre soy optimista respecto a mi futuro."
                     },
                     "4": {
-                        "label": "Casi nunca espero que las cosas me vayan bien"
+                        "label": "Casi nunca espero que las cosas me vayan bien."
                     },
                     "5": {
-                        "label": "Raramente cuento con que me pasen cosas buenas"
+                        "label": "Raramente cuento con que me pasen cosas buenas."
                     },
                     "6": {
-                        "label": "En general, espero más que me pasen más cosas buenas que cosas malas"
+                        "label": "En general, espero más que me pasen más cosas buenas que cosas malas."
                     }
                 },
                 "label": "Por favor, responda cada afirmación incluso si no está completamente seguro/segura de su respuesta:",
@@ -304,34 +304,34 @@ export default {
             "15": {
                 "items": {
                     "1": {
-                        "label": "No usaría halagos para obtener un incremento de sueldo o promoción en el trabajo, aunque pensara que con ello podría conseguirlo"
+                        "label": "No usaría halagos para obtener un incremento de sueldo o promoción en el trabajo, aunque pensara que con ello podría conseguirlo."
                     },
                     "10": {
-                        "label": "Quiero que la gente sepa que soy una persona importante, de alto estatus"
+                        "label": "Quiero que la gente sepa que soy una persona importante, de alto estatus."
                     },
                     "2": {
-                        "label": "Si quiero algo de alguien, me reiré de sus chistes aunque no tengan gracia"
+                        "label": "Si quiero algo de alguien, me reiré de sus chistes aunque no tengan gracia."
                     },
                     "3": {
-                        "label": "No fingiría que alguien me cae bien por el simple hecho de conseguir sus favores"
+                        "label": "No fingiría que alguien me cae bien por el simple hecho de conseguir sus favores."
                     },
                     "4": {
-                        "label": "Si supiese que nunca me atraparían, estaría dispuesto/dispuesta a robar una gran suma de dinero"
+                        "label": "Si supiese que nunca me atraparían, estaría dispuesto/dispuesta a robar una gran suma de dinero."
                     },
                     "5": {
-                        "label": "Nunca aceptaría un soborno, aunque fuera muy cuantioso"
+                        "label": "Nunca aceptaría un soborno, aunque fuera muy cuantioso."
                     },
                     "6": {
-                        "label": "Me sentiría tentado/tentada a utilizar dinero falso, si estuviera seguro/segura de que no me iban a descubrir"
+                        "label": "Me sentiría tentado/tentada a utilizar dinero falso, si estuviera seguro/segura de que no me iban a descubrir."
                     },
                     "7": {
-                        "label": "Tener mucho dinero no es especialmente importante para mí"
+                        "label": "Tener mucho dinero no es especialmente importante para mí."
                     },
                     "8": {
-                        "label": "Disfrutaría muchísimo si fuera propietario/propietaria de bienes lujosos"
+                        "label": "Disfrutaría muchísimo si fuera propietario/propietaria de bienes lujosos."
                     },
                     "9": {
-                        "label": "Creo que merezco mayor respeto que la mayoría de la gente"
+                        "label": "Creo que merezco mayor respeto que la mayoría de la gente."
                     }
                 },
                 "label": "Por favor, responda cada afirmación incluso si no está completamente seguro/segura de su respuesta:",
@@ -375,22 +375,22 @@ export default {
             "17": {
                 "items": {
                     "1": {
-                        "label": "Merezco ser visto/vista como a una gran persona"
+                        "label": "Merezco ser visto/vista como a una gran persona."
                     },
                     "2": {
-                        "label": "Ser una persona muy especial me da mucha fuerza"
+                        "label": "Ser una persona muy especial me da mucha fuerza."
                     },
                     "3": {
-                        "label": "Consigo ser el centro de atención con mis contribuciones excepcionales"
+                        "label": "Consigo ser el centro de atención con mis contribuciones excepcionales."
                     },
                     "4": {
-                        "label": "La mayoría de gente es de algún modo  perdedora"
+                        "label": "La mayoría de gente es de algún modo perdedora."
                     },
                     "5": {
-                        "label": "Quiero que mis rivales fracasen"
+                        "label": "Quiero que mis rivales fracasen."
                     },
                     "6": {
-                        "label": "Reacciono de forma molesta si otra persona me quita el protagonismo"
+                        "label": "Reacciono de forma molesta si otra persona me quita el protagonismo."
                     }
                 },
                 "label": "Por favor, responda cada afirmación incluso si no está completamente seguro/segura de su respuesta:",
@@ -424,52 +424,52 @@ export default {
             "3": {
                 "items": {
                     "1": {
-                        "label": "Traté de controlar la situación"
+                        "label": "Traté de controlar la situación."
                     },
                     "10": {
                         "label": "Estuve físicamente animado/a, moviéndome de un lado a otro."
                     },
                     "11": {
-                        "label": "Me interesé por lo que alguien tenía que decir"
+                        "label": "Me interesé por lo que alguien tenía que decir."
                     },
                     "12": {
-                        "label": "Busqué consejo"
+                        "label": "Busqué consejo."
                     },
                     "13": {
-                        "label": "Actué de forma lúdica"
+                        "label": "Actué de forma lúdica."
                     },
                     "14": {
-                        "label": "Expresé pena hacia mí mismo/a o sentimientos de victimización"
+                        "label": "Expresé pena hacia mí mismo/a o sentimientos de victimización."
                     },
                     "15": {
-                        "label": "Hablé con un tono de voz alto"
+                        "label": "Hablé con un tono de vozalto."
                     },
                     "16": {
-                        "label": "Exhibí un alto grado de inteligencia"
+                        "label": "Exhibí un alto grado de inteligencia."
                     },
                     "2": {
-                        "label": "Dije cosas negativas sobre mí mismo/a"
+                        "label": "Dije cosas negativas sobre mí mismo/a."
                     },
                     "3": {
-                        "label": "Me comporté de forma competitiva"
+                        "label": "Me comporté de forma competitiva."
                     },
                     "4": {
-                        "label": "Mostré ambición"
+                        "label": "Mostré ambición."
                     },
                     "5": {
-                        "label": "Dominé la situación"
+                        "label": "Dominé la situación."
                     },
                     "6": {
-                        "label": "Mostré un gran entusiasmo y altos niveles de energía"
+                        "label": "Mostré un gran entusiasmo y altos niveles de energía."
                     },
                     "7": {
                         "label": "Realicé actvidad física."
                     },
                     "8": {
-                        "label": "Me concentré o trabajé duro en una tarea"
+                        "label": "Me concentré o trabajé duro en una tarea."
                     },
                     "9": {
-                        "label": "Fui reservado/reservada e inexpresivo/inexpresiva"
+                        "label": "Fui reservado/reservada e inexpresivo/inexpresiva."
                     }
                 },
                 "label": "Por favor, evalúe su comportamiento en la situación que ha descrito:",
@@ -720,25 +720,25 @@ export default {
             "7": {
                 "items": {
                     "1": {
-                        "label": "Creo que tanto yo como los que me rodean somos felices"
+                        "label": "Creo que tanto yo como los que me rodean somos felices."
                     },
                     "2": {
-                        "label": "Siento que estoy siendo positivamente evaluado/a por aquellos que me rodean"
+                        "label": "Siento que estoy siendo positivamente evaluado/a por aquellos que me rodean."
                     },
                     "3": {
-                        "label": "Hago felices a aquellas personas importantes para mí"
+                        "label": "Hago felices a aquellas personas importantes para mí."
                     },
                     "4": {
-                        "label": "Aunque es normal y corriente, tengo una vida estable"
+                        "label": "Aunque es normal y corriente, tengo una vida estable."
                     },
                     "5": {
-                        "label": "No tengo preocupaciones o ansiedades importantes"
+                        "label": "No tengo preocupaciones o ansiedades importantes."
                     },
                     "6": {
-                        "label": "Puedo hacer lo que quiero sin causar problemas a los demás"
+                        "label": "Puedo hacer lo que quiero sin causar problemas a los demás."
                     },
                     "7": {
-                        "label": "Creo que mi vida es tan feliz como la de aquellos que me rodean"
+                        "label": "Creo que mi vida es tan feliz como la de aquellos que me rodean."
                     },
                     "8": {
                         "label": "Creo que he conseguido los mismos estándares de vida que los de aquellos que me rodean"
@@ -759,55 +759,55 @@ export default {
             "8": {
                 "items": {
                     "1": {
-                        "label": "Creer en una religión ayuda a entender el sentido de la vida"
+                        "label": "Creer en una religión ayuda a entender el sentido de la vida."
                     },
                     "10": {
-                        "label": "Sólo las personas débiles necesitan la religión"
+                        "label": "Sólo las personas débiles necesitan la religión."
                     },
                     "11": {
-                        "label": "La religión hace que las personas escapen de la realidad"
+                        "label": "La religión hace que las personas escapen de la realidad."
                     },
                     "12": {
-                        "label": "Practicar una religión hace que las personas se unan las unas con las otras"
+                        "label": "Practicar una religión hace que las personas se unan las unas con las otras."
                     },
                     "13": {
-                        "label": "Las personas religiosas son más propensas a mantener estándares morales"
+                        "label": "Las personas religiosas son más propensas a mantener estándares morales."
                     },
                     "14": {
-                        "label": "Las creencias religiosas llevan a un pensamiento no científico"
+                        "label": "Las creencias religiosas llevan a un pensamiento no científico."
                     },
                     "15": {
-                        "label": "La ignorancia lleva a las personas a creer en un ser supremo"
+                        "label": "La ignorancia lleva a las personas a creer en un ser supremo."
                     },
                     "16": {
-                        "label": "La evidencia de un ser supremo está en todas partes para aquellos que buscan sus señales"
+                        "label": "La evidencia de un ser supremo está en todas partes para aquellos que buscan sus señales."
                     },
                     "17": {
-                        "label": "La religión contradice a la ciencia"
+                        "label": "La religión contradice a la ciencia."
                     },
                     "2": {
-                        "label": "La religión ayuda a las personas a tomar buenas decisiones en sus vidas"
+                        "label": "La religión ayuda a las personas a tomar buenas decisiones en sus vidas."
                     },
                     "3": {
-                        "label": "La fe religiosa contribuye a una buena salud mental"
+                        "label": "La fe religiosa contribuye a una buena salud mental."
                     },
                     "4": {
-                        "label": "La religión ralentiza el progreso humano"
+                        "label": "La religión ralentiza el progreso humano."
                     },
                     "5": {
-                        "label": "Hay un ser supremo que controla el universo"
+                        "label": "Hay un ser supremo que controla el universo."
                     },
                     "6": {
-                        "label": "La religión hace que las personas estén más saludables"
+                        "label": "La religión hace que las personas estén más saludables."
                     },
                     "7": {
-                        "label": "La religión hace que las personas estén más contentas"
+                        "label": "La religión hace que las personas estén más contentas."
                     },
                     "8": {
-                        "label": "Creer en una religión hace que las personas sean buenas ciudadanas"
+                        "label": "Creer en una religión hace que las personas sean buenas ciudadanas."
                     },
                     "9": {
-                        "label": "La práctica religiosa dificulta a las personas el hecho de pensar lndependientemente"
+                        "label": "La práctica religiosa dificulta a las personas el hecho de pensarindependientemente."
                     }
                 },
                 "label": "Por favor, indique en qué medida está de acuerdo o en desacuerdo con las siguientes afirmaciones:",
@@ -880,96 +880,96 @@ export default {
     "qsort": {
         "rsq": {
             "item": {
-                "SomoneCountedon": "Se cuenta con alguien que está presente (que no es usted) para hacer algo",
-                "abusedVictimized": "Usted está siendo abusado/a o victimizado/a",
-                "adviceYou": "Otros/as quieren su consejo",
-                "ambition": "La ambición puede ser expresada o demostrada",
-                "anxietyInducing": "La situación es potencialmente inductora de ansiedad",
-                "art": "El arte es una parte importante de la situación",
-                "askingYou": "Alguien le está pidiendo alguna cosa",
-                "assertivenessGoal": "Se requiere asertividad para cumplir un objetivo",
-                "athleticsSports": "La gente está participando en atletismo o en deportes",
-                "blaming": "Alguien le está culpando de algo",
-                "breakingRules": "Alguien está rompiendo las reglas",
-                "clearRules": "Las reglas claras definen el comportamiento adecuado (se estén siguiendo las reglas o no)",
-                "closeRelationships": "Las personas que están presentes tienen relaciones cercanas entre ellas",
-                "comparingThemselves": "Las personas se están comparando entre sí",
-                "competing": "La gente está compitiendo entre sí",
-                "complex": "La situación es compleja",
+                "SomoneCountedon": "Se cuenta con alguien que está presente (que no es usted) para hacer algo.",
+                "abusedVictimized": "Usted está siendo abusado/a o victimizado/a.",
+                "adviceYou": "Otros/as quieren su consejo.",
+                "ambition": "La ambición puede ser expresada o demostrada.",
+                "anxietyInducing": "La situación es potencialmente inductora de ansiedad.",
+                "art": "El arte es una parte importante de la situación.",
+                "askingYou": "Alguien le está pidiendo alguna cosa.",
+                "assertivenessGoal": "Se requiere asertividad para cumplir un objetivo.",
+                "athleticsSports": "La gente está participando en atletismo o en deportes.",
+                "blaming": "Alguien le está culpando de algo.",
+                "breakingRules": "Alguien está rompiendo las reglas.",
+                "clearRules": "Las reglas claras definen el comportamiento adecuado (se estén siguiendo las reglas o no).",
+                "closeRelationships": "Las personas que están presentes tienen relaciones cercanas entre ellas.",
+                "comparingThemselves": "Las personas se están comparando entre sí.",
+                "competing": "La gente está compitiendo entre sí.",
+                "complex": "La situación es compleja.",
                 "complimentingYou": "Alguien está felicitándole o alabándole.",
-                "conformToOthers": "Está siendo presionado para conformarse a las acciones de otros",
-                "convinceYou": "Alguien intenta convencerle de alguna cosa",
-                "countingOnYou": "Alguien cuenta con usted para hacer alguna cosa",
-                "criticizing": "Alguien le está criticando",
-                "decision": "Es necesario tomar una decisión",
-                "desiresGratified": "Los deseos podrían ser satisfechos (por ejemplo: comida, compras, deseos sexuales)",
-                "differentRoles": "Las personas que están presentes ocupan diferentes roles o estatus sociales",
-                "disagreeing": "Hay algo sobre lo que la gente no está de acuerdo",
-                "dominate": "Alguien está intentando dominarle o mandarle",
+                "conformToOthers": "Está siendo presionado para conformarse a las acciones de otros.",
+                "convinceYou": "Alguien intenta convencerle de alguna cosa.",
+                "countingOnYou": "Alguien cuenta con usted para hacer alguna cosa.",
+                "criticizing": "Alguien le está criticando.",
+                "decision": "Es necesario tomar una decisión.",
+                "desiresGratified": "Los deseos podrían ser satisfechos (por ejemplo: comida, compras, deseos sexuales).",
+                "differentRoles": "Las personas que están presentes ocupan diferentes roles o estatus sociales.",
+                "disagreeing": "Hay algo sobre lo que la gente no está de acuerdo.",
+                "dominate": "Alguien está intentando dominarle o mandarle.",
                 "emotionalThreats": "Hay amenazas emocionales presentes.",
-                "emotionsExpressed": "Las emociones pueden ser expresadas",
-                "entertainment": "El entretenimiento está presente",
-                "family": "La familia es importante en esta situación",
-                "feelInadequate": "La situación podría hacerle sentir inadecuado",
-                "femininity": "La feminidad puede ser expresada",
-                "food": "La comida es importante en esta situación",
+                "emotionsExpressed": "Las emociones pueden ser expresadas.",
+                "entertainment": "El entretenimiento está presente.",
+                "family": "La familia es importante en esta situación.",
+                "feelInadequate": "La situación podría hacerle sentir inadecuado.",
+                "femininity": "La feminidad puede ser expresada.",
+                "food": "La comida es importante en esta situación.",
                 "frustrating": "La situación es frustrante (por ejemplo: un objetivo está bloqueado).",
-                "goodImpression": "Es importante para usted causar una buena impresión",
-                "happeningOnce": "Muchas cosas suceden a la vez",
-                "honor": "Un asunto de honor está en juego",
-                "hostile": "La situación podría hacer que la gente se sienta hostil",
-                "humorous": "La situación es graciosa o potencialmente graciosa",
-                "intellectuallyStimulating": "La situación podría ser intelectualmente estimulante",
-                "intelligence": "La inteligencia es importante (por ejemplo: un debate intelectual, un problema complejo que necesita ser resuelto)",
-                "jobDone": "Es necesario hacer un trabajo",
-                "masculinity": "La masculinidad puede ser expresada",
-                "minorDetails": "Los pequeños detalles son importantes",
-                "money": "El dinero es importante",
-                "moralIssues": "Los asuntos éticos y morales son importantes",
-                "music": "La música es una parte importante de esta situación",
-                "needsHelp": "Alguien necesita ayuda",
-                "negativeEmotions": "La situación podría despertar emociones negativas",
-                "newRelationships": "Nuevas relaciones pueden desarrollarse",
-                "noisy": "La situación es ruidosa (poco característico significa que la situación es muy silecionsa",
-                "notClear": "No está claro qué está pasando; la situación es incierta",
-                "oppositeSex": "La presencia de miembros del sexo opuesto es una parte importante de la situación",
+                "goodImpression": "Es importante para usted causar una buena impresión.",
+                "happeningOnce": "Muchas cosas suceden a la vez.",
+                "honor": "Un asunto de honor está en juego.",
+                "hostile": "La situación podría hacer que la gente se sienta hostil.",
+                "humorous": "La situación es graciosa o potencialmente graciosa.",
+                "intellectuallyStimulating": "La situación podría ser intelectualmente estimulante.",
+                "intelligence": "La inteligencia es importante (por ejemplo: un debate intelectual, un problema complejo que necesita ser resuelto).",
+                "jobDone": "Es necesario hacer un trabajo.",
+                "masculinity": "La masculinidad puede ser expresada.",
+                "minorDetails": "Los pequeños detalles son importantes.",
+                "money": "El dinero es importante.",
+                "moralIssues": "Los asuntos éticos y morales son importantes.",
+                "music": "La música es una parte importante de esta situación.",
+                "needsHelp": "Alguien necesita ayuda.",
+                "negativeEmotions": "La situación podría despertar emociones negativas.",
+                "newRelationships": "Nuevas relaciones pueden desarrollarse.",
+                "noisy": "La situación es ruidosa (poco característico significa que la situación es muy silenciosa).",
+                "notClear": "No está claro qué está pasando; la situación es incierta.",
+                "oppositeSex": "La presencia de miembros del sexo opuesto es una parte importante de la situación.",
                 "peopleGetAlong": "Para las personas es importante llevarse bien.",
-                "physicalAttractiveness": "Su atractivo físico es importante",
+                "physicalAttractiveness": "Su atractivo físico es importante.",
                 "physicalThreats": "Hay amenazas físicas presentes.",
-                "physicallyActive": "La gente está siendo activa físicamente",
-                "physicallyUncomfortable": "La situación es físicamente incómoda (por ejemplo: demasiado calor, demasiada gente, demasiado frio, etc.). (Poco característico implica que la situación es poco cómoda físicamente).",
-                "playful": "La situación es lúdica",
-                "politics": "La política es importante (por ejemplo: una discusión política)",
-                "positiveEmotions": "La situación podría despertar emociones positivas",
-                "potentiallyEnjoy": "La situación es potencialmente agradable",
-                "power": "El poder es importante",
-                "quickAction": "Una acción rápida es necesaria",
-                "rapidlyChanging": "La situación está cambiando rápidamente",
-                "reassurance": "Alguien necesita o desea que le tranquilicen",
-                "reassuringPresent": "Una persona tranquilizadora esta presente",
-                "relevantHealth": "La situación es relevante para su salud (por ejemplo: posibilidad de enfermedad, o una visita médica)",
-                "religion": "La religión es importante en esta situación (por ejemplo: un servicio religioso o un debate)",
-                "romanticPartners": "Potenciales o actuales compañeros/as románticos/as (para usted) están presentes",
-                "ruminateDaydream": "Es posible meditar, soñar despierto o fantasear",
-                "selfControl": "El autocontrol es necesario (para uno mismo y para otros)",
-                "sensations": "Las sensaciones son importantes (por ejemplo: el tacto, el gusto, el olor, el contacto físico)",
-                "sexuality": "La sexualidad es relevante",
-                "shame": "Alguien está sintiendo vergüenza",
+                "physicallyActive": "La gente está siendo activa físicamente.",
+                "physicallyUncomfortable": "La situación es físicamente incómoda (por ejemplo: demasiado calor, demasiada gente, demasiado frio, etc.). (Poco característico implica que la situación es muycómoda físicamente).",
+                "playful": "La situación eslúdica.",
+                "politics": "La política es importante (por ejemplo: una discusión política).",
+                "positiveEmotions": "La situación podría despertar emociones positivas.",
+                "potentiallyEnjoy": "La situación es potencialmente agradable.",
+                "power": "El poder es importante.",
+                "quickAction": "Una acción rápida es necesaria.",
+                "rapidlyChanging": "La situación está cambiando rápidamente.",
+                "reassurance": "Alguien necesita o desea que le tranquilicen.",
+                "reassuringPresent": "Una persona tranquilizadora está presente.",
+                "relevantHealth": "La situación es relevante para su salud (por ejemplo: posibilidad de enfermedad, o una visita médica).",
+                "religion": "La religión es importante en esta situación (por ejemplo: un servicio religioso o un debate).",
+                "romanticPartners": "Potenciales o actuales compañeros/as románticos/as (para usted) están presentes.",
+                "ruminateDaydream": "Es posible meditar, soñar despierto o fantasear.",
+                "selfControl": "El autocontrol es necesario (para uno mismo y para otros).",
+                "sensations": "Las sensaciones son importantes (por ejemplo: el tacto, el gusto, el olor, el contacto físico).",
+                "sexuality": "La sexualidad es relevante.",
+                "shame": "Alguien está sintiendo vergüenza.",
                 "simpleClearcut": "La situación es simple y clara.",
-                "smallAnnoyances": "La situación incluye pequeñas molestias",
-                "socialInteraction": "La interacción social es posible.",
-                "successCooperation": "Se requiere cooperación para el éxito",
-                "takenCareOf": "Alguien necesita algún tipo de cuidado",
-                "talkingExpected": "Se espera o se exige hablar",
-                "talkingPermitted": "Está permitido hablar",
-                "tenseUpset": "La situación podría hacer que la gente se ponga tensa o se enfade",
-                "tryingImpress": "Alguien está intentando impresionarle",
-                "underThreat": "Alguien está bajo amenaza",
-                "unhappySuffering": "Alguien es infeliz o sufre",
-                "unusualIdeas": "Ideas o puntos de vista poco comunes están siendo debatidos libremente",
-                "verbalFluency": "Hay oportunidades para mostrar fluidez verbal (por ejemplo: un debate, un monólogo, una conversación activa)",
-                "workingHard": "La gente está trabajando duro",
-                "youFocus": "Usted es el foco de atención"
+                "smallAnnoyances": "La situación incluye pequeñas molestias.",
+                "socialInteraction": "La interacción social esposible.",
+                "successCooperation": "El éxito requiere cooperación.",
+                "takenCareOf": "Alguien necesita algún tipo de cuidado.",
+                "talkingExpected": "Se espera o se exige hablar.",
+                "talkingPermitted": "Está permitido hablar.",
+                "tenseUpset": "La situación podría hacer que la gente se ponga tensa o se enfade.",
+                "tryingImpress": "Alguien está intentando impresionarle.",
+                "underThreat": "Alguien está bajo amenaza.",
+                "unhappySuffering": "Alguien es infeliz o sufre.",
+                "unusualIdeas": "Ideas o puntos de vista poco comunes están siendo debatidos libremente.",
+                "verbalFluency": "Hay oportunidades para mostrar fluidez verbal (por ejemplo: un debate, un monólogo, una conversación activa).",
+                "workingHard": "La gente está trabajando duro.",
+                "youFocus": "Usted es el foco de atención."
             }
         },
         "sections": {
@@ -980,7 +980,7 @@ export default {
                     "neutral": "Neutral",
                     "uncharacteristic": "Poco característico"
                 },
-                "instructions": "Ahora describa la situación que experimentó con más detalle. 90 elementos aparecerán, uno por uno. Coloque cada elemento en una de las tres casillas. Utilice la casilla \"Característico\" a la derecha para elementos que describan con precisión la situación; Utilice la casilla \"Poco caractrístico\" a la izquierda para elementos que no sean descriptivos de la situación, y utilice el cuadro \"Neutral\" para elementos que son irrelevantes, poco claros o sobre los que no está seguro. Cuando haya terminado, presione \"Continuar\".",
+                "instructions": "Ahora describa la situación que experimentó con más detalle. 90 elementos aparecerán, uno por uno. Coloque cada elemento en una de las tres casillas. Utilice la casilla \"Característico\" a la derecha para elementos que describan con precisión la situación; utilicel casilla \"Poco característico\" a la izquierda para elementos que no sean descriptivos de la situación, y utilice el cuadro \"Neutral\" para elementos que son irrelevantes, poco claros o sobre los que no está seguro. Cuando haya terminado, presione \"Continuar\".",
                 "itemsLeft": {
                     "one": "{{count}} Elemento restante",
                     "other": "{{count}} Elementos restantes"
@@ -1007,7 +1007,7 @@ export default {
     "survey": {
         "sections": {
             "1": {
-                "instructions": "Bienvenido/a! Estamos interesados en las situaciones que las personas experimentan y lo que hacen en ellas. Usted tendrá que describir una situación que ha experimentado recientemente y lo que hizo en ella También se le harán algunas preguntas sobre sus actitudes y valores. Basándose en estas respuestas, cuando haya terminado el estudio, tendrá la opción de recibir información sobre su personalidad que esperamos que le resulte interesante. La encuesta llevará menos de una hora en completarse.  Para comenzar, por favor responda algunas preguntas sobre usted.",
+                "instructions": "Bienvenido/a! Estamos interesados en las situaciones que las personas experimentan y lo que hacen en ellas. Usted tendrá que describir una situación que ha experimentado recientemente y lo que hizo en ella. También se le harán algunas preguntas sobre sus actitudes y valores. Basándose en estas respuestas, cuando haya terminado el estudio, tendrá la opción de recibir información sobre su personalidad que esperamos que le resulte interesante. La encuesta llevará menos de una hora en completarse.  Para comenzar, por favor responda algunas preguntas sobre usted.",
                 "questions": {
                     "1": {
                         "label": "Edad"
@@ -1073,9 +1073,9 @@ export default {
             },
             "2": {
                 "instructions": {
-                    "firstSection": "Por favor, decriba una experiencia de ayer que recuerde bien",
-                    "secondSection": "Cualquier experiencia que tuvo ayer servirá; lo único importante es que la recuerde bien. Concretamente, por favor describa qué estaba haciendo, dónde estaba y quién estaba presente",
-                    "thirdSection": "Por favor, escriba sus respuestas en las casillas de debajo"
+                    "firstSection": "Por favor, describa una experiencia de ayer que recuerdebien.",
+                    "secondSection": "Cualquier experiencia quetuvoayer servirá; lo único importante es que la recuerde bien. Concretamente, por favor describa qué estaba haciendo, dónde estaba y quién estaba presente.",
+                    "thirdSection": "Por favor, escriba sus respuestas en las casillas de debajo."
                 },
                 "questions": {
                     "11": {
@@ -1099,7 +1099,7 @@ export default {
     },
     "thankyou": {
         "exitButton": "Salga para finalizar el estudio",
-        "instructions": "Ahora puede salir del estudio, o bien proceder a recibir información acerca de su personalidad en base a los cuestionarios que ha completado",
+        "instructions": "Ahora puede salir del estudio, o bien proceder a recibir información acerca de su personalidad en base a los cuestionarios que ha completado.",
         "personalityFeedbackButton": "Reciba su informe de personalidad",
         "title": "¡Gracias!"
     }
