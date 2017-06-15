@@ -219,7 +219,7 @@ export default {
                         "label": "As pessoas, nesse país, tem muita liberdade para decidir como querem se comportar na maioria das situações."
                     },
                     "5": {
-                        "label": "Nesse país, se as agem inapropriadamente os outros desaprovam muito."
+                        "label": "Nesse país, se as pessoas agem inadequadamente os outros desaprovam muito."
                     },
                     "6": {
                         "label": "As pessoas, nesse país, quase sempre reclamam das normas sociais."
@@ -247,7 +247,7 @@ export default {
             "13": {
                 "items": {
                     "1": {
-                        "label": "A maioria das pessoas são honesta."
+                        "label": "A maioria das pessoas são honestas."
                     },
                     "2": {
                         "label": "A maioria das pessoas são dóceis e de boa natureza."
@@ -364,7 +364,7 @@ export default {
                         "label": "No trabalho"
                     }
                 },
-                "label": "Em que medida você epnsa que sua vida se densenvolve nos seguintes ambientes?",
+                "label": "Em que medida você pensa que sua vida se densenvolve nos seguintes ambientes?",
                 "options": {
                     "aLittle": "Um pouco",
                     "completely": "Completamente",
@@ -708,14 +708,14 @@ export default {
                         }
                     },
                     "4": {
-                        "label": "Algumas pessoas são geralmente não muito felizes. Embora não sejam deprimidas, elas nunca aparentar estar tão felizes quanto poderiam ser.  Em que medida essa caracaterização descreve você?",
+                        "label": "Algumas pessoas são geralmente não muito felizes. Embora não sejam deprimidas, elas nunca aparentam estar tão felizes quanto poderiam ser.  Em que medida essa caracterização descreve você?",
                         "options": {
                             "aGreatDeal": "Um bom negócio",
                             "notAtAll": "De jeito nenhum"
                         }
                     }
                 },
-                "label": "Para cada uma das seguintes questões, por favor, indique qual ponto da escala de sete pontos melhor descreve você:"
+                "label": "Para cada uma das seguintes questões, por favor, indique qual dos sete pontos da escala melhor descreve você:"
             },
             "7": {
                 "items": {
@@ -726,7 +726,7 @@ export default {
                         "label": "Eu sinto que sou positivamente avaliado pelas pessoas ao meu redor."
                     },
                     "3": {
-                        "label": "Eu faço as pessoas significativas para mim felizes."
+                        "label": "Eu faço feliz  as pessoas que são importantes para mim."
                     },
                     "4": {
                         "label": "Ainda que na média, minha vida é estável."
@@ -768,7 +768,7 @@ export default {
                         "label": "Religião faz as pessoas fugirem da realidade."
                     },
                     "12": {
-                        "label": "A prática religiosa uni as pessoas umas com as outras."
+                        "label": "A prática religiosa une as pessoas umas com as outras."
                     },
                     "13": {
                         "label": "Pessoas religiosas são mais propensas a manterem padrões morais."
@@ -880,7 +880,7 @@ export default {
     "qsort": {
         "rsq": {
             "item": {
-                "SomoneCountedon": "Alguém presente (além de você) é contado para fazer algo.",
+                "SomoneCountedon": "Alguém presente (além de você) é necessário para fazer algo.",
                 "abusedVictimized": "Você está sendo abusado ou vitimado.",
                 "adviceYou": "Outros querem conselhos seus.",
                 "ambition": "Ambição pode ser expressa ou demonstrada.",
@@ -950,7 +950,7 @@ export default {
                 "relevantHealth": "A situação é relevante para sua saúde (por exemplo: possiblidade de adoecer, uma visita médica).",
                 "religion": "Religião é relevante na situação (por exemplo: uma atividade religiosa ou discussão).",
                 "romanticPartners": "Seu par romântico potencial ou atual está presente.",
-                "ruminateDaydream": "É possível ruminar, sonhar ou fantasiar.",
+                "ruminateDaydream": "É possível remoer, sonhar ou fantasiar.",
                 "selfControl": "Autocontrole é necessário (para você ou para outros).",
                 "sensations": "Sensações são importantes (ex. tocar, sentir o gosto, cheirar, contato físico).",
                 "sexuality": "Sexualidade é relevante.",
