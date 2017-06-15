@@ -107,8 +107,8 @@ export default {
         },
         "checkboxLabel": "Yukarıda yer alan bilgileri okudum, anladım ve araştırmaya katılmayı kabul ediyorum.",
         "firstSection": "Çalışmamıza hoş geldiniz. Katılımınız tek oturumda olacak ve bir saatten kısa sürecektir. Sizden son zamanlarda deneyimlediğiniz bir durumu (yaşantıyı) aktarmanızı istiyoruz. Ayrıca, değerleriniz ve tutumlarınız ile ilgili bazı sorular da yönelteceğiz. Çalışmamızın sonunda, eğer isterseniz, kişilik özellikleriniz ile ilgili bilgi edinebileceğiniz bir seçeneğiz de bulunmaktadır.",
-        "secondSection": "Tüm cevaplarınız isminizle değil bir numaralandırma sistemi ile saklanacak ve gizli tutulacaktır. Araştırmanın amaçları doğrultusunda elde edilen kayıtlar \"www.cos.io\" sitesinde çevrimiçi arşivlenebilir. Çalışmanın tamamlanabilmesi için tüm soruların cevaplanması gereklidir ancak herhangi bir aşamada bir yaptırım olmaksızın  katılımınızı sonlandırabilirsiniz.Bilinen hiçbir riski olmayan bu araştırmanın farklı kültürel bağlamlardaki insanları ve onların yaşamlarını daha iyi anlamaya hizmet etme gibi potansiyel faydaları vardır.",
-        "thirdSection": "Bu çalışma veya katılımla ilgili haklarınız hakkında herhangi bir sorunuz var ise Türkiye'de bu araştırma için veri toplamaktan sorumlu koordinatörlerle (Oya Somer, oyasomer@gmail.com veya Pelin Karakus, pelinkarakus@gmail.com) veya Kaliforniya Üniversitesi ile (Office of Research Integrity:IRB@ucr.edu) e-posta yoluyla  irtibata geçebilirsiniz. Katılımınız için çok teşekkürler.",
+        "secondSection": "Tüm cevaplarınız isminizle değil bir numaralandırma sistemi ile saklanacak ve gizli tutulacaktır. Araştırmanın amaçları doğrultusunda elde edilen kayıtlar \"www.cos.io\" sitesinde çevrimiçi arşivlenebilir. Çalışmanın tamamlanabilmesi için tüm soruların cevaplanması gereklidir ancak herhangi bir aşamada bir yaptırım olmaksızın  katılımınızı sonlandırabilirsiniz. Bilinen hiçbir riski olmayan bu araştırmanın farklı kültürel bağlamlardaki insanları ve onların yaşamlarını daha iyi anlamaya hizmet etme gibi potansiyel faydaları vardır.",
+        "thirdSection": "Bu çalışma veya katılımınızla ilgili herhangi bir sorunuz var ise Türkiye'de bu araştırma için veri toplamaktan sorumlu koordinatörlerle (Oya Somer, oyasomer@gmail.com veya Pelin Karakus, pelinkarakus@gmail.com) veya Kaliforniya Üniversitesi ile (Office of Research Integrity:IRB@ucr.edu) e-posta yoluyla  irtibata geçebilirsiniz. Katılımınız için çok teşekkürler.",
         "title": "Çalışmaya gönüllü katıldığınızı onaylayınız.",
         "versionHistory": "(Bilgilendirilmiş onam/onay formu versiyonu: 14 Ekim 2016)"
     },
@@ -142,7 +142,7 @@ export default {
         "open": "Gelişime Açıklık",
         "score": "100 üzerinden sizin puanınız:",
         "secondSection": "Her  bir özellikte, 60'ın üzerindeki puanlar yüksek ve 40'ın altındaki puanlar düşük olarak kabul edilebilir. Yüksek ve düşük puan alanlara ilişkin tanımlar aşağıdadır. Eğer puanınız 40 ile 60 arasındaysa, kişiliğiniz büyük olasılıkla, bu temel yapı altında listelenebilecek özelliklerde, ortalama düzeyde olarak tanımlanabilir.",
-        "thirdSection": "Çalışmamızdan umarız ki keyif almışsınızdır.",
+        "thirdSection": "Umarız ki çalışmamızdan keyif almışsınızdır.",
         "title": "Kişiliğiniz"
     },
     "flag": {
@@ -157,15 +157,15 @@ export default {
             "neutral": "Nötr; fikrim yok"
         },
         "char": {
-            "extremelyChar": "Çok karakteristik",
-            "extremelyUnchar": "Hiç karakteristik değil",
-            "fairlyChar": "Yeterince karakteristik",
-            "fairlyUnchar": "Yeterince karakteristik değil",
-            "neutral": "Ne karakteristik ne de karakteristik değil",
-            "quiteChar": "Oldukça karakteristik",
-            "quiteUnchar": "Oldukça karakteristik değil",
-            "somewhatChar": "Kısmen karakteristik",
-            "somewhatUnchar": "Kısmen karakteristik değil"
+            "extremelyChar": "Çok karakteristik - 9",
+            "extremelyUnchar": "Hiç karakteristik değil - 1",
+            "fairlyChar": "Yeterince karakteristik - 7",
+            "fairlyUnchar": "Yeterince karakteristik değil - 3",
+            "neutral": "Ne karakteristik ne de karakteristik değil - 5",
+            "quiteChar": "Oldukça karakteristik - 8",
+            "quiteUnchar": "Oldukça karakteristik değil - 2",
+            "somewhatChar": "Kısmen karakteristik - 6",
+            "somewhatUnchar": "Kısmen karakteristik değil - 4"
         },
         "continueLabel": "Devam",
         "describe": {
@@ -675,7 +675,7 @@ export default {
                         "label": "Bir aksilik yaşadığında iyimserliğini koruyan"
                     }
                 },
-                "label": "Aşağıda sizi kısmen tanımlayan (ya da pek tanımlayamayan) bir takım özellikler sunulmaktadır. Örneğin, başkaları ile zaman geçirmekten hoşlanan birisi olduğunuzu düşünüyor musunuz? Lütfen aşağıda verilen özelliklerin sizi ne oranda yansıttığını ya da yansıtmadığını belirtmek için sizi en iyi tanımlayan ifadeyi işaretleyiniz. Kendimi ........ biri olarak görüyorum.",
+                "label": "Lütfen kendinizi, aşağıda size sunulan bir dizi özellik açısından değerlendiriniz: Kendimi …….. biri olarak görüyorum.",
                 "options": {
                     "agree": "Biraz katılıyorum",
                     "agreeStrongly": "Tamamen katılıyorum",
@@ -729,7 +729,7 @@ export default {
                         "label": "Benim için önemli olan kişileri mutlu ederim."
                     },
                     "4": {
-                        "label": "Çok ortalama da olsa istikrarlı bir yaşam sürerim."
+                        "label": "Orta karar da olsa istikrarlı bir yaşam sürerim."
                     },
                     "5": {
                         "label": "Büyük dertlerim ya da kaygılarım yoktur."
@@ -890,7 +890,7 @@ export default {
                 "assertivenessGoal": "Bir hedefin gerçekleştirilmesi için girişken olmak gerekiyor.",
                 "athleticsSports": "İnsanlar atletizm veya sporla uğraşıyor.",
                 "blaming": "Biri sizi bir şey için suçluyor.",
-                "breakingRules": "Biri kuralları ihlal ediyor.",
+                "breakingRules": "Siz ya da başka biri kuralları ihlal ediyor.",
                 "clearRules": "Uygun davranışlar açık kurallarla tanımlanmış (kurallara uyulsa da uyulmasa da).",
                 "closeRelationships": "İnsanların birbiriyle yakın ilişkileri var.",
                 "comparingThemselves": "İnsanlar kendilerini birbiriyle kıyaslıyor.",
@@ -927,7 +927,7 @@ export default {
                 "money": "Para önemli.",
                 "moralIssues": "Ahlaki veya etikle ilgili konular mevcut.",
                 "music": "Müzik durumun önemli bir parçası.",
-                "needsHelp": "Birinin yardıma ihtiyacı var.",
+                "needsHelp": "Sizin ya da başka birinin yardıma ihtiyacı var.",
                 "negativeEmotions": "Durum olumsuz duygular uyandırabilir.",
                 "newRelationships": "Yeni ilişkiler gelişebilir.",
                 "noisy": "Durum gürültülü (Düşük değerlendirmeler durumun çok sessiz olduğu anlamına gelmektedir).",
@@ -945,7 +945,7 @@ export default {
                 "power": "Güç önemli.",
                 "quickAction": "Hızlı davranmak gerekiyor.",
                 "rapidlyChanging": "Durum hızlı değişiyor.",
-                "reassurance": "Birisi güven verilmeye ihtiyaç duyuyor ya da istiyor.",
+                "reassurance": "Siz ya da başka biri güven verilmeye ihtiyaç duyuyor ya da istiyor.",
                 "reassuringPresent": "Güven verici biri mevcut.",
                 "relevantHealth": "Durum sizin sağlığınızla ilgili (örneğin: hastalık ihtimali, tıbbi bir ziyaret).",
                 "religion": "Din bu durumla ilgili (örneğin: dini bir tören veya dini bir tartışma).",
@@ -954,18 +954,18 @@ export default {
                 "selfControl": "Öz-denetim gerekiyor (siz ya da diğerleri için)",
                 "sensations": "Duyusal uyaranlar mevcut (örneğin dokunma,tat,koku,fiziksel temas).",
                 "sexuality": "Cinsellik durumla ilgili.",
-                "shame": "Biri utanç duyuyor.",
+                "shame": "Siz ya da başka biri utanç duyuyor.",
                 "simpleClearcut": "Durum basit ve açık.",
                 "smallAnnoyances": "Durum küçük can sıkıcı şeyler içeriyor.",
                 "socialInteraction": "Sosyal etkileşim mümkün.",
                 "successCooperation": "Başarı işbirliği gerektiriyor.",
-                "takenCareOf": "Birisi ilgilenilmeye/bakılmaya ihtiyaç duyuyor.",
+                "takenCareOf": "Siz ya da başka biri ilgilenilmeye/bakılmaya ihtiyaç duyuyor.",
                 "talkingExpected": "Konuşulması bekleniyor veya isteniyor.",
                 "talkingPermitted": "Konuşmaya izin veriliyor.",
                 "tenseUpset": "Durum insanları gerginleştirip keyfini kaçırabilir.",
                 "tryingImpress": "Biri sizi etkilemeye çalışıyor.",
-                "underThreat": "Biri tehdit altında.",
-                "unhappySuffering": "Biri mutsuz veya acı çekiyor.",
+                "underThreat": "Siz ya da başka biri tehdit altında.",
+                "unhappySuffering": "Siz ya da başka biri mutsuz veya acı çekiyor.",
                 "unusualIdeas": "Sıradışı fikirler veya görüşler özgürce tartışılıyor.",
                 "verbalFluency": "Sözel akıcılığı göstermek için fırsatlar mevcut (örn. Bir tartışma, sözlü bir anlatım, hararetli bir sohbet).",
                 "workingHard": "İnsanlar sıkı çalışıyor.",
@@ -980,7 +980,7 @@ export default {
                     "neutral": "Nötr",
                     "uncharacteristic": "Karakteristik değil"
                 },
-                "instructions": "Şimdi ise lütfen, her seferinde biri görünecek 90 maddeden; sizin deneyimlediğiniz durumu doğru olarak tanımlayanları \"Karakteristik\" kutusuna, durumla ilişkisiz olanları \"Karakteristik değil\" kutusuna ve deneyiminizle ilişkisine emin olamadığınız-kesin karar veremediğiniz maddeleri de \"Nötr\" kutusuna yerleştirerek deneyiminizi daha ayrıntılı aktarınız. Bitirdiğiniz zaman \"Devam\" tuşuna basınız.",
+                "instructions": "Lütfen şimdi deneyiminizi daha ayrıntılı aktarınız. Ekranda her seferinde biri görünecek 90 maddeyi tek tek okuyarak; \"sizin deneyimlediğiniz durumu\" doğru olarak tanımlayanları \"Karakteristik\" kutusuna, durumla ilişkisiz olanları \"Karakteristik değil\" kutusuna ve deneyiminizle ilişkisine emin olamadığınız veya kesin karar veremediğiniz maddeleri de \"Nötr\" kutusuna yerleştirerek üç ayrı kutuya dağıtınız. Maddeleri bir kutudan diğerine, üzerine basılı tutup sürükleyerek alabilirsiniz. Ayrıca bir kutuya yerleştirmiş olduğunuz maddeyi, karar değiştirmeniz durumunda dilerseniz üzerine basılı tutup bir başka kutuya da alabilirsiniz. Bitirdiğiniz zaman \"Devam\" tuşuna basınız.",
                 "itemsLeft": {
                     "one": "{{count}} Kalan malzeme",
                     "other": "{{count}} Kalan maddeler"
@@ -1000,14 +1000,14 @@ export default {
                     "somewhatChar": "Kısmen karakteristik",
                     "somewhatUnchar": "Kısmen karakteristik değil"
                 },
-                "instructions": "Şimdi lütfen deneyimlediğiniz durumu biraz daha ayrıntılı aktarınız. Bir önceki adımda üç kutuya yerleştirdiğiniz maddeleri, bu adımda 9 ayrı kutuya dağıtacak şekilde yerleştirin. Maddeleri bir kutudan diğerine, üzerine basılı tutup sürükleyerek alabilirsiniz, fakat bir kutuya çok sayıda madde koyarsanız, o kutunun başlığı kırmızıya dönerek uyarı verecektir. Kutuda uygun sayıda madde olduğunda kutunun başlığı yeşil renge dönecektir."
+                "instructions": "Lütfen şimdi deneyimlediğiniz durumu biraz daha ayrıntılı aktarınız. Bir önceki adımda üç kutuya yerleştirdiğiniz maddeleri, bu adımda 9 ayrı kutuya dağıtacak şekilde yerleştirin. Maddeleri bir kutudan diğerine, üzerine basılı tutup sürükleyerek alabilirsiniz. Her kutunun üzerinde o kutuya kaç madde yerleştirebileceğinizle ilgili uygun sayılar belirtilmiştir. Bir kutuya belirtilen sayıdan fazla madde koyarsanız, o kutunun başlığı kırmızıya dönerek uyarı verecektir. Kutuda uygun sayıda madde olduğunda kutunun başlığı yeşil renge dönecektir. Her kutuya uygun sayıda madde yerleştirdiğinizde \"Devam\" tuşuna basınız."
             }
         }
     },
     "survey": {
         "sections": {
             "1": {
-                "instructions": "Hoş geldiniz! Bu araştırmanın konusu insanların deneyimledikleri durumlar ve bu durumlarda ne yaptıkları ile ilgilidir. Sizden istediğimiz son dönemde deneyimlediğiniz bir durumu betimlemeniz ve bu ortamda ne yaptığınızı bize anlatmanız. Ayrıca size tutum ve değerlerinizle ilgili bazı sorular da sorulacaktır. Uygulama sonunda,  size ilginç bulacağınızı umduğumuz, verdiğiniz cevaplar temelinde kişiliğiniz hakkında  bilgi alabilme seçeneği sunacağız. Tüm uygulama, bir saatten az vaktinizi alacaktır. Başlamak için lütfen kendinizle ilgili birkaç soruyu yanıtlayınız.",
+                "instructions": "Hoş geldiniz! Bu araştırmanın konusu insanların deneyimledikleri durumlar ve bu durumlarda ne yaptıkları ile ilgilidir. Sizden istediğimiz son dönemde deneyimlediğiniz bir durumu betimlemeniz ve bu ortamda ne yaptığınızı bize anlatmanız. Ayrıca size tutum ve değerlerinizle ilgili bazı sorular da sorulacaktır. Uygulama sonunda  (ilginç bulacağınızı umduğumuz) verdiğiniz cevaplar temelinde kişiliğiniz hakkında size bilgi alabilme seçeneği de sunacağız. Tüm uygulama, bir saatten az vaktinizi alacaktır. Başlamak için lütfen kendinizle ilgili birkaç soruyu yanıtlayınız.",
                 "questions": {
                     "1": {
                         "label": "Yaşınız"
@@ -1080,7 +1080,7 @@ export default {
                 "questions": {
                     "11": {
                         "characterCount": "75 karakterin 0'ı kullanıldı",
-                        "label": "O saate ne yapıyordunuz?"
+                        "label": "O saatte ne yapıyordunuz?"
                     },
                     "12": {
                         "characterCount": "75 karakterin 0'ı kullanıldı",
