@@ -255,7 +255,7 @@ const consentText = {
         ],
         "title": "Συγκατάθεση Συμμετοχής στη Μελέτη",
         "versionHistory": "(Συναίνεση μορφή έκδοση: 14 Οκτ 2016)"
-    }, 
+    },
     "GREECE1.GR": {
         "buttonLabel": "Παρακαλώ αποδεχτείτε τους όρους για να συνεχίσετε.",
         "consentLabel": "Έχω διαβάσει και έχω κατανοήσει τα παραπάνω και συμφωνώ να συμμετέχω.",
@@ -516,15 +516,15 @@ const consentText = {
         "versionHistory": "(Consent form version: 14 October 2016)"
     },
     "USA5.ENG": {
-        "buttonLabel": "Please accept terms to continue",
-        "consentLabel": "I have read and understand the above statements and agree to participate.",
+        "buttonLabel": "NEXT",
+        "consentLabel": "I have read and understand the above consent form, I certify that I am 18 years old or older and, by clicking the ‘NEXT’ button below to enter the survey, I indicate my willingness to voluntarily take part in the study.",
         "paragraphs": [
-            "Welcome to our study. Your participation will be in one session and will take less than one hour. You will be asked to describe a situation you experienced recently and your behaviors in it. You will also be asked some questions about your values and attitudes.  At the end of the study, if you choose, you will receive personalized information about your personality.",
-            "All of your responses will be confidential and identified only by a number (and not by your name).  For research purposes, these anonymous data may be archived in an online database maintained by the Center for Open Science (www.cos.io). Each question must be answered in order to complete this survey, but you can discontinue your participation at any time without penalty. The potential benefits of this research include improving the understanding of persons and their lives across cultural contexts.  There are no known risks.",
-            "If you have any questions about this study or your rights as a participant, you may contact Joey Cheng, chengjoe@illinois.edu, University of Illinois at Champaign-Urbana, who is responsible for data collection at your location, or the University of California, Riverside, Office of Research Integrity by email at IRB@ucr.edu. We sincerely appreciate your cooperation."
+            "What is this study about? You are invited to participate in a research study on how people make decisions. This study is conducted by Dr. Joey Cheng, Assistant Professor, Department of Psychology from the University of Illinois Urbana Champaign. \r\n\r\nWhat does participating involve? This study takes 50 minutes to 1 hour to complete. You will be asked to complete questionnaires about your demographics and personality, and a set of questions about your day-to-day decision-making\r\n",
+            "What do participants receive from taking part? You will receive 1.0 course credits for your participation. Your participation will help us better understand how people process information.\n\nIs it mandatory that I participate? Your decision to participate or decline participation in this study is completely voluntary and you have the right to terminate your participation at any time without penalty. If you do not wish to complete this study, please simply close this browser. \n\nHow will be the data be kept anonymous? Please note that none of the responses provided will be linked to your name or any other identifying information. Finally, possible outlets of dissemination may be scientific journals, and academic presentations, but all data will be averaged and reported in aggregate and anonymously. In other words, no one will know that you were in the study. However, laws and university rules might require us to disclose information about you. For example, if required by laws or University Policy, study information you supply may be seen or copied by the following people or groups: a) The university committee and office that reviews and approves research studies, the Institutional Review Board (IRB) and Office for Protection of Research Subjects; and b) University and state auditors, and Departments of the university responsible for oversight of research.\n\nWhat are the risks to participating in this study? There are no risks to individuals participating in this survey beyond those that exist in daily life.", 
+            "If you have questions about this project, you may contact Dr. Joey Cheng (217-265-6805; jtcheng@illinois.edu). If you feel you have not been treated according to the descriptions in this form, or if you have any questions about your rights as a research subject, including questions, concerns, complaints, or to offer input, you may call the Office for the Protection of Research Subjects (OPRS) at 217-333-2670 or e-mail OPRS at irb@illinois.edu. Please print a copy of this consent form for your records, if you so desire.  \n"
         ],
         "title": "Consent to Participate in Research",
-        "versionHistory": "(Consent form version: 14 October 2016)"
+        "versionHistory": "Your decision to participate, decline, or withdraw from participation will have no effect on your current status or future relations with the University of Illinois."
     },
     "ZA1.ENG": {
         "buttonLabel": "Please accept terms to continue",
