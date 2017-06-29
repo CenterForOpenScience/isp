@@ -109,6 +109,40 @@ const consentText = {
         "title": "Samtykke til at deltage i denne forskning.",
         "versionHistory": "(Samtykkeerklæring udgave: 14 oktober 2016)"
     },
+    // Dutch
+    "BELG1.NL": {
+        "buttonLabel": "Accepteer de voorwaarden om door te gaan.",
+        "consentLabel": "Ik heb de bovenstaande mededelingen gelezen en begrepen en stem toe om deel te nemen aan het onderzoek.",
+        "paragraphs": [
+            "Welkom bij ons onderzoek. Uw deelname zal uit één sessie van minder dan één uur bestaan. U zult gevraagd worden om een omschrijving te geven van een situatie die u recent heeft meegemaakt. U zult ook een aantal vragen krijgen over uw waarden en attitudes. Als u hiervoor kiest, zult u aan het eind van de studie gepersonaliseerde informatie ontvangen over uw persoonlijkheid.",
+            "Al uw antwoorden zijn vertrouwelijk en kunnen alleen geïdentificeerd worden aan de hand van een nummer (en niet met uw naam). Voor onderzoek doeleinden zal de anonieme data bewaard worden op een online  databank van 'Center for Open Science'(www.cos.io). Elke vraag moet in de juiste volgorde beantwoord worden om deze vragenlijst te voltooien, maar u kunt op elk moment tijdens het onderzoek besluiten om te stoppen, zonder dat dit voor u negatieve gevolgen heeft. De potentiële voordelen van dit onderzoek zijn het begrijpen van mensen en hun leven in verschillende culturele contexten. Er zijn ons geen risico's bekend.",
+            "Als u vragen heeft over deze studie of over uw rechten als deelnemer kunt u contact opnemen met Elien De Caluwé (Elien.DeCaluwe@ugent.be) of Filip De Fruyt (Filip.DeFruyt@ugent.be), die verantwoordelijk is voor de data verzameling op uw locatie, of u kunt contact opnemen met de University of California, Riverside, Office of Research Integrity door een mail te sturen naar IRB@ucr.edu. We waarderen uw medewerking heel erg."
+        ],
+        "title": "Toestemming om deel te nemen aan het onderzoek",
+        "versionHistory": "(Vergunningformulier versie: 14 oktober 2016)"
+    },
+    "NETH1.NL": {
+        "buttonLabel": "Accepteer de voorwaarden om door te gaan.",
+        "consentLabel": "Ik heb de bovenstaande mededelingen gelezen en begrepen en stem toe om deel te nemen aan het onderzoek.",
+        "paragraphs": [
+            "Welkom bij ons onderzoek. Uw deelname zal uit één sessie van minder dan één uur bestaan. U zult gevraagd worden om een omschrijving te geven van een situatie die u recent heeft meegemaakt. U zult ook een aantal vragen krijgen over uw waarden en attitudes. Als u hiervoor kiest, zult u aan het eind van de studie gepersonaliseerde informatie ontvangen over uw persoonlijkheid.",
+            "Al uw antwoorden zijn vertrouwelijk en kunnen alleen geïdentificeerd worden aan de hand van een nummer (en niet met uw naam). Voor onderzoek doeleinden zal de anonieme data bewaard worden op een online  databank van 'Center for Open Science'(www.cos.io). Elke vraag moet in de juiste volgorde beantwoord worden om deze vragenlijst te voltooien, maar u kunt op elk moment tijdens het onderzoek besluiten om te stoppen, zonder dat dit voor u negatieve gevolgen heeft. De potentiële voordelen van dit onderzoek zijn het begrijpen van mensen en hun leven in verschillende culturele contexten. Er zijn ons geen risico's bekend.",
+            "Als u vragen heeft over deze studie of over uw rechten als deelnemer kunt u contact opnemen met Jaap Denissen (jjadenissen@gmail.com), die verantwoordelijk is voor de data verzameling op uw locatie, of u kunt contact opnemen met de University of California, Riverside, Office of Research Integrity door een mail te sturen naar IRB@ucr.edu. We waarderen uw medewerking heel erg."
+        ],
+        "title": "Toestemming om deel te nemen aan het onderzoek",
+        "versionHistory": "(Vergunningformulier versie: 14 oktober 2016)"
+    },
+    "NETH2.NL": {
+        "buttonLabel": "Accepteer de voorwaarden om door te gaan.",
+        "consentLabel": "Ik heb de bovenstaande mededelingen gelezen en begrepen en stem toe om deel te nemen aan het onderzoek.",
+        "paragraphs": [
+            "Welkom bij ons onderzoek. Uw deelname zal uit één sessie van minder dan één uur bestaan. U zult gevraagd worden om een omschrijving te geven van een situatie die u recent heeft meegemaakt. U zult ook een aantal vragen krijgen over uw waarden en attitudes. Als u hiervoor kiest, zult u aan het eind van de studie gepersonaliseerde informatie ontvangen over uw persoonlijkheid.",
+            "Al uw antwoorden zijn vertrouwelijk en kunnen alleen geïdentificeerd worden aan de hand van een nummer (en niet met uw naam). Voor onderzoek doeleinden zal de anonieme data bewaard worden op een online  databank van 'Center for Open Science'(www.cos.io). Elke vraag moet in de juiste volgorde beantwoord worden om deze vragenlijst te voltooien, maar u kunt op elk moment tijdens het onderzoek besluiten om te stoppen, zonder dat dit voor u negatieve gevolgen heeft. De potentiële voordelen van dit onderzoek zijn het begrijpen van mensen en hun leven in verschillende culturele contexten. Er zijn ons geen risico's bekend.",
+            "Als u vragen heeft over deze studie of over uw rechten als deelnemer kunt u contact opnemen met Marcel Van Aken (M.A.G.vanAken@uu.nl), die verantwoordelijk is voor de data verzameling op uw locatie, of u kunt contact opnemen met de University of California, Riverside, Office of Research Integrity door een mail te sturen naar IRB@ucr.edu. We waarderen uw medewerking heel erg."
+        ],
+        "title": "Toestemming om deel te nemen aan het onderzoek",
+        "versionHistory": "(Vergunningformulier versie: 14 oktober 2016)"
+    },
     // French
     "FRANCE1.FR": {
         "buttonLabel": "Merci d'accepter les conditions avant de continuer",
@@ -158,7 +192,7 @@ const consentText = {
         "buttonLabel": "Merci d'accepter les conditions avant de continuer",
         "consentLabel": "J'ai lu et compris l'ensemble du texte ci-dessus et j'accepte de participer.",
         "paragraphs": [
-            "Bienvenue dans notre étude. Votre participation se fera en une seule session et prendra moins d'une heure. Il vous sera demandé de décrire une situation vécue récemment en précisant comment vous vous êtes comporté dans cette situation. Il vous sera également demandé de répondre à des questions sur vos valeurs et vos opinions. À la fin de l'étude, si vous le souhaitez, vous recevrez des informations personnalisées au sujet de votre personnalité.", 
+            "Bienvenue dans notre étude. Votre participation se fera en une seule session et prendra moins d'une heure. Il vous sera demandé de décrire une situation vécue récemment en précisant comment vous vous êtes comporté dans cette situation. Il vous sera également demandé de répondre à des questions sur vos valeurs et vos opinions. À la fin de l'étude, si vous le souhaitez, vous recevrez des informations personnalisées au sujet de votre personnalité.",
             "Toutes vos réponses seront confidentielles et identifiées uniquement par un nombre (et non par votre nom). Pour les besoins de la recherche, ces données anonymes seront archivées dans une base de données au sein du \"Center of Open Science\" (www.cos.io). Vous devez répondre à chaque question afin que le questionnaire soit adéquatement completé, mais sachez que vous pouvez arrêter à tout moment sans conséquence. Votre participation à cette étude permettra de mieux comprendre comment vivent des personnes selon leurs contextes culturels. Il n'existe aucun risque connu lié à la participation à cette recherche.",
             "Si vous avez des questions au sujet de l'étude ou de vos droits en tant que participant, vous pouvez contacter, Catherine Amiot (amiot.catherine@uqam.ca), Université du Québec à Montréal, qui est responsable de la collecte des données dans votre pays, ou l'Université de Californie: University of California, Riverside, Office of Research Integrity par email à IRB@ucr.edu. Nous vous remercions sincèrement pour votre participation."
         ],
