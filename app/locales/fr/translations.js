@@ -108,7 +108,7 @@ export default {
         "checkboxLabel": "J'ai lu et compris l'ensemble du texte ci-dessus et j'accepte de participer.",
         "firstSection": "Bienvenu.e dans notre étude. Votre participation se fera en une seule session et prendra moins d'une heure. Il vous sera demandé de décrire une situation vécue récemment en précisant comment vous vous êtes comporté.e dans cette situation. Il vous sera également demandé de répondre à des questions sur vos valeurs et vos opinions. À la fin de l'étude, si vous le souhaitez, vous recevrez des informations personnalisées au sujet de votre personnalité.",
         "secondSection": "Toutes vos réponses seront confidentielles et identifiées uniquement par un nombre (et non par votre nom). Pour les besoins de la recherche, ces données anonymes seront archivées dans une base de données au sein du \"Center of Open Science\" (www.cos.io). Vous devez répondre à chaque question afin que le questionnaire soit adéquatement completé, mais sachez que vous pouvez arrêter à tout moment sans conséquence. Votre participation à cette étude permettra de mieux comprendre comment vivent des personnes selon leurs contextes culturels. Il n'existe aucun risque connu lié à la participation à cette recherche.",
-        "thirdSection": "Si vous avez des questions au sujet de l'étude ou de vos droits en tant que participant, vous pouvez contacter (coordonnées des correspondants locaux, noms, mail et affiliation), qui sont responsables de la collecte des données dans votre pays, ou l'Université de Californie: University of California, Riverside, Office of Research Integrity by email at IRB@ucr.edu. Nous vous remercions sincèrement pour votre participation.",
+        "thirdSection": "Si vous avez des questions au sujet de l'étude ou de vos droits en tant que participant, vous pouvez contacter (coordonnées des correspondants locaux, noms, mail et affiliation), est responsable de la collecte des données dans votre pays, ou l'Université de Californie: University of California, Riverside, Office of Research Integrity par email à IRB@ucr.edu. Nous vous remercions sincèrement pour votre participation.",
         "title": "Je consens à participer à cette recherche",
         "versionHistory": "(Formulaire de consentement version du 14 octobre 2016)"
     },
@@ -378,7 +378,7 @@ export default {
                         "label": "Je mérite d'être vue comme une personne exceptionnelle."
                     },
                     "2": {
-                        "label": "Etre une personneexceptionnelle me donne beaucoup de forces."
+                        "label": "Etre une personne exceptionnelle me donne beaucoup de forces."
                     },
                     "3": {
                         "label": "J'arrive à être au centre de l'attention grâce à mes contributions exceptionnelles."
@@ -930,14 +930,14 @@ export default {
                 "needsHelp": "Quelqu'un a besoin d'aide.",
                 "negativeEmotions": "La situation pourrait susciter des émotions négatives.",
                 "newRelationships": "De nouvelles relations pourraient se développer.",
-                "noisy": "La situation est bruyante (à l'inverse, la situation est très calme).",
+                "noisy": "La situation est bruyante (si placée dans la case non caractéristique, la situation est très calme).",
                 "notClear": "Il est difficile de savoir ce qui se passe; la situation est incertaine.",
                 "oppositeSex": "La présence de personnes de sexe opposé a de l'importance dans cette situation.",
                 "peopleGetAlong": "Il est important pour les personnes de bien s'entendre.",
                 "physicalAttractiveness": "Votre beauté physique est importante.",
                 "physicalThreats": "Des menaces physiques sont présentes.",
                 "physicallyActive": "Les personnes sont physiquement actives.",
-                "physicallyUncomfortable": "Cette situation est physiquement inconfortable (par exemple : il fait trop chaud ou trop froid, il y a trop de monde) (à l'inverse, la situation est physiquement très confortable).",
+                "physicallyUncomfortable": "Cette situation est physiquement inconfortable (par exemple : il fait trop chaud ou trop froid, il y a trop de monde) (si placée dans la case non caractéristique,, la situation est physiquement très confortable).",
                 "playful": "La situation est enjouée.",
                 "politics": "La situation est en rapport avec des questions politiques (par exemple : une discussion politique).",
                 "positiveEmotions": "La situation pourrait susciter des émotions positives.",
