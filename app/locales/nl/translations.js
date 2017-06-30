@@ -110,7 +110,7 @@ export default {
         "secondSection": "Al uw antwoorden zijn vertrouwelijk en kunnen alleen geïdentificeerd worden aan de hand van een nummer (en niet met uw naam). Voor onderzoek doeleinden zal de anonieme data bewaard worden op een online  databank van 'Center for Open Science'(www.cos.io). Elke vraag moet in de juiste volgorde beantwoord worden om deze vragenlijst te voltooien, maar u kunt op elk moment tijdens het onderzoek besluiten om te stoppen, zonder dat dit voor u negatieve gevolgen heeft. De potentiële voordelen van dit onderzoek zijn het begrijpen van mensen en hun leven in verschillende culturele contexten. Er zijn ons geen risico's bekend.",
         "thirdSection": "Als u vragen heeft over deze studie of over uw rechten als deelnemer kunt u contact opnemen met Prof. Dr. Jaap Denissen, jjadenissen@gmail.com, die verantwoordelijk is voor de data verzameling op uw locatie, of u kunt contact opnemen met de University of California, Riverside, Office of Research Integrity door een mail te sturen naar IRB@ucr.edu. We waarderen uw medewerking heel erg.",
         "title": "Toestemming om deel te nemen aan het onderzoek",
-        "versionHistory": "\n(Vergunningformulier versie: 14 oktober 2016)"
+        "versionHistory": "(Vergunningformulier versie: 14 oktober 2016)"
     },
     "exitpage": {
         "line1": "Bedankt voor uw deelname!",
