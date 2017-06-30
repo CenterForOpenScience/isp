@@ -2,10 +2,8 @@
 //  See https://openscience.atlassian.net/browse/LEI-372 for sample reasoning behind this requirement
 // TODO: This will need to be updated every time a new language is "released" and marked final
 export const languagesForProduction =  [
-  "ar", "bg", "cs", "da", "de", "en", "es", "fi", "fr",
-  "he", "hr", "hu", "id", "is", "it", "ja", "ka", "ko",
-  "lt", "lv", "mk", "mr", "ms", "no", "pl", "pt", "ro",
-  "ru", "sk", "sl", "sr", "th", "tr", "uk", "zh", "zh-hk"
+    "ar", "bg", "cs", "da", "de", "en", "es", "fi", "he", "hr", "hu", "id", "is", "it", "ja", "ka", "ko", "lt", "lv", "mk", "mr", "ms", "no", "pl", "ro", "ru", "sk", "sl",
+    "sr", "th", "uk", "zh", "zh-hk"
 ];
 
 
