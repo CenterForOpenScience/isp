@@ -87,7 +87,7 @@ const consentText = {
     },
     // Czech
     "CZECH1.CH": {
-        "buttonLabel": "Pro pokračování označte, že souhlasíte s podmínkami",
+        "buttonLabel": "Pro pokračování označte, že souhlasíte s podmínkami",
         "consentLabel": "Přečetl/a jsem si výše uvedené informace a rozumím jim. Souhlasím s účastí na výzkumu.",
         "paragraphs": [
             "Vítáme vás na stránkách našeho výzkumu, který proběhne během jednoho sezení a měl by trvat méně než jednu hodinu. Požádáme vás, abyste popsal/a nějakou situaci, kterou jste nedávno zažil/a, a jak jste se v této situaci choval/a. Také se budeme ptát na vaše hodnoty a postoje. V případě zájmu obdržíte na závěr informace o svém osobnostním profilu.",
@@ -108,6 +108,40 @@ const consentText = {
         ],
         "title": "Samtykke til at deltage i denne forskning.",
         "versionHistory": "(Samtykkeerklæring udgave: 14 oktober 2016)"
+    },
+    // Dutch
+    "BELG1.NL": {
+        "buttonLabel": "Accepteer de voorwaarden om door te gaan.",
+        "consentLabel": "Ik heb de bovenstaande mededelingen gelezen en begrepen en stem toe om deel te nemen aan het onderzoek.",
+        "paragraphs": [
+            "Welkom bij ons onderzoek. Uw deelname zal uit één sessie van minder dan één uur bestaan. U zult gevraagd worden om een omschrijving te geven van een situatie die u recent heeft meegemaakt. U zult ook een aantal vragen krijgen over uw waarden en attitudes. Als u hiervoor kiest, zult u aan het eind van de studie gepersonaliseerde informatie ontvangen over uw persoonlijkheid.",
+            "Al uw antwoorden zijn vertrouwelijk en kunnen alleen geïdentificeerd worden aan de hand van een nummer (en niet met uw naam). Voor onderzoek doeleinden zal de anonieme data bewaard worden op een online  databank van 'Center for Open Science'(www.cos.io). Elke vraag moet in de juiste volgorde beantwoord worden om deze vragenlijst te voltooien, maar u kunt op elk moment tijdens het onderzoek besluiten om te stoppen, zonder dat dit voor u negatieve gevolgen heeft. De potentiële voordelen van dit onderzoek zijn het begrijpen van mensen en hun leven in verschillende culturele contexten. Er zijn ons geen risico's bekend.",
+            "Als u vragen heeft over deze studie of over uw rechten als deelnemer kunt u contact opnemen met Elien De Caluwé (Elien.DeCaluwe@ugent.be) of Filip De Fruyt (Filip.DeFruyt@ugent.be), die verantwoordelijk is voor de data verzameling op uw locatie, of u kunt contact opnemen met de University of California, Riverside, Office of Research Integrity door een mail te sturen naar IRB@ucr.edu. We waarderen uw medewerking heel erg."
+        ],
+        "title": "Toestemming om deel te nemen aan het onderzoek",
+        "versionHistory": "(Vergunningformulier versie: 14 oktober 2016)"
+    },
+    "NETH1.NL": {
+        "buttonLabel": "Accepteer de voorwaarden om door te gaan.",
+        "consentLabel": "Ik heb de bovenstaande mededelingen gelezen en begrepen en stem toe om deel te nemen aan het onderzoek.",
+        "paragraphs": [
+            "Welkom bij ons onderzoek. Uw deelname zal uit één sessie van minder dan één uur bestaan. U zult gevraagd worden om een omschrijving te geven van een situatie die u recent heeft meegemaakt. U zult ook een aantal vragen krijgen over uw waarden en attitudes. Als u hiervoor kiest, zult u aan het eind van de studie gepersonaliseerde informatie ontvangen over uw persoonlijkheid.",
+            "Al uw antwoorden zijn vertrouwelijk en kunnen alleen geïdentificeerd worden aan de hand van een nummer (en niet met uw naam). Voor onderzoek doeleinden zal de anonieme data bewaard worden op een online  databank van 'Center for Open Science'(www.cos.io). Elke vraag moet in de juiste volgorde beantwoord worden om deze vragenlijst te voltooien, maar u kunt op elk moment tijdens het onderzoek besluiten om te stoppen, zonder dat dit voor u negatieve gevolgen heeft. De potentiële voordelen van dit onderzoek zijn het begrijpen van mensen en hun leven in verschillende culturele contexten. Er zijn ons geen risico's bekend.",
+            "Als u vragen heeft over deze studie of over uw rechten als deelnemer kunt u contact opnemen met Jaap Denissen (jjadenissen@gmail.com), die verantwoordelijk is voor de data verzameling op uw locatie, of u kunt contact opnemen met de University of California, Riverside, Office of Research Integrity door een mail te sturen naar IRB@ucr.edu. We waarderen uw medewerking heel erg."
+        ],
+        "title": "Toestemming om deel te nemen aan het onderzoek",
+        "versionHistory": "(Vergunningformulier versie: 14 oktober 2016)"
+    },
+    "NETH2.NL": {
+        "buttonLabel": "Accepteer de voorwaarden om door te gaan.",
+        "consentLabel": "Ik heb de bovenstaande mededelingen gelezen en begrepen en stem toe om deel te nemen aan het onderzoek.",
+        "paragraphs": [
+            "Welkom bij ons onderzoek. Uw deelname zal uit één sessie van minder dan één uur bestaan. U zult gevraagd worden om een omschrijving te geven van een situatie die u recent heeft meegemaakt. U zult ook een aantal vragen krijgen over uw waarden en attitudes. Als u hiervoor kiest, zult u aan het eind van de studie gepersonaliseerde informatie ontvangen over uw persoonlijkheid.",
+            "Al uw antwoorden zijn vertrouwelijk en kunnen alleen geïdentificeerd worden aan de hand van een nummer (en niet met uw naam). Voor onderzoek doeleinden zal de anonieme data bewaard worden op een online  databank van 'Center for Open Science'(www.cos.io). Elke vraag moet in de juiste volgorde beantwoord worden om deze vragenlijst te voltooien, maar u kunt op elk moment tijdens het onderzoek besluiten om te stoppen, zonder dat dit voor u negatieve gevolgen heeft. De potentiële voordelen van dit onderzoek zijn het begrijpen van mensen en hun leven in verschillende culturele contexten. Er zijn ons geen risico's bekend.",
+            "Als u vragen heeft over deze studie of over uw rechten als deelnemer kunt u contact opnemen met Marcel Van Aken (M.A.G.vanAken@uu.nl), die verantwoordelijk is voor de data verzameling op uw locatie, of u kunt contact opnemen met de University of California, Riverside, Office of Research Integrity door een mail te sturen naar IRB@ucr.edu. We waarderen uw medewerking heel erg."
+        ],
+        "title": "Toestemming om deel te nemen aan het onderzoek",
+        "versionHistory": "(Vergunningformulier versie: 14 oktober 2016)"
     },
     // French
     "FRANCE1.FR": {
@@ -154,7 +188,7 @@ const consentText = {
         "title": "Je consens à participer à cette recherche",
         "versionHistory": "(Formulaire de consentement version du 14 octobre 2016)"
     },
-    "QUAB1.FR": {
+    "QUEB1.FR": {
         "buttonLabel": "Merci d'accepter les conditions avant de continuer",
         "consentLabel": "J'ai lu et compris l'ensemble du texte ci-dessus et j'accepte de participer.",
         "paragraphs": [
@@ -245,6 +279,17 @@ const consentText = {
         "versionHistory": "(თანხმობის ფორმა ვერსია: 14 ოქტომბერი 2016)"
     },
     // Greek
+    "CRETE1.GR": {
+        "buttonLabel": "Παρακαλώ αποδεχτείτε τους όρους για να συνεχίσετε.",
+        "consentLabel": "Έχω διαβάσει και έχω κατανοήσει τα παραπάνω και συμφωνώ να συμμετέχω.",
+        "paragraphs": [
+            "Καλώς ήλθατε στη μελέτη μας. Η συμμετοχή σας θα ολοκληρωθεί σε μια συνεδρία και θα διαρκέσει λιγότερο από μια ώρα. Θα σας ζητηθεί να περιγράψετε μια κατάσταση που βιώσατε πρόσφατα και τις συμπεριφορές σας κατά τη διάρκεια της κατάστασης. Επίσης, θα σας ζητηθεί να απαντήσετε σε μερικές ερωτήσεις που σχετίζονται με τις αξίες και τις στάσεις σας. Στο τέλος της μελέτης, εφόσον το επιλέξετε, θα λάβετε εξατομικευμένες πληροφορίες σχετικά με την προσωπικότητά σας.",
+            "Όλες οι απαντήσεις σας θα είναι εμπιστευτικές και θα ταυτοποιούνται μόνο με έναν αριθμό (όχι με το ονοματεπώνυμό σας). Για ερευνητικούς σκοπούς, τα συγκεκριμένα ανώνυμα δεδομένα θα καταχωρηθούν σε μία διαδικτυακή βάση δεδομένων που υποστηρίζεται από το Κέντρο για την Ανοικτή Επιστήμη (Center for Open Science, www.cos.io). Προκειμένου να ολοκληρωθεί η μελέτη θα πρέπει να απαντηθεί κάθε ερώτηση. Ωστόσο, μπορείτε να διακόψετε τη συμμετοχή σας οποιαδήποτε στιγμή το επιθυμείτε χωρίς να υπάρξει καμία συνέπεια. Τα πιθανά οφέλη από αυτή την έρευνα αφορούν τη βελτίωση της κατανόησης των ατόμων και της ζωής τους μέσα σε διαφορετικά πολιτισμικά πλαίσια. Δεν υπάρχει κάποιος γνωστός κίνδυνος που να σχετίζεται με τη συμμετοχή στην έρευνα.",
+            "Εάν έχετε ερωτήσεις σχετικά με αυτή τη μελέτη ή περίπου το aporeoun δικαιώματα από τη συμμετοχή σας σε αυτό, παρακαλούμε επικοινωνήστε με τον Δρ Εμμανουήλ Παπαστεφανάκη, Πανεπιστήμιο Cretewho είναι υπεύθυνη για τη συλλογή των δεδομένων στο χώρο σας (στην ηλεκτρονική διεύθυνση:. Emmanouilpapastefanakis@gmail.com) Εναλλακτικά, μπορείτε να επικοινωνήστε με το Γραφείο Δεοντολογίας στην Έρευνα του Πανεπιστημίου της Καλιφόρνιας, Riverside (Riverside University of California, Riverside, Γραφείο Ερευνών Ακεραιότητας (στην ηλεκτρονική διεύθυνση: IRB@ucr.edu) σας ευχαριστώ πολύ για τη συμμετοχή σας."
+        ],
+        "title": "Συγκατάθεση Συμμετοχής στη Μελέτη",
+        "versionHistory": "(Συναίνεση μορφή έκδοση: 14 Οκτ 2016)"
+    },
     "GREECE1.GR": {
         "buttonLabel": "Παρακαλώ αποδεχτείτε τους όρους για να συνεχίσετε.",
         "consentLabel": "Έχω διαβάσει και έχω κατανοήσει τα παραπάνω και συμφωνώ να συμμετέχω.",
@@ -505,15 +550,15 @@ const consentText = {
         "versionHistory": "(Consent form version: 14 October 2016)"
     },
     "USA5.ENG": {
-        "buttonLabel": "Please accept terms to continue",
-        "consentLabel": "I have read and understand the above statements and agree to participate.",
+        "buttonLabel": "NEXT",
+        "consentLabel": "I have read and understand the above consent form, I certify that I am 18 years old or older and, by clicking the ‘NEXT’ button below to enter the survey, I indicate my willingness to voluntarily take part in the study.",
         "paragraphs": [
-            "Welcome to our study. Your participation will be in one session and will take less than one hour. You will be asked to describe a situation you experienced recently and your behaviors in it. You will also be asked some questions about your values and attitudes.  At the end of the study, if you choose, you will receive personalized information about your personality.",
-            "All of your responses will be confidential and identified only by a number (and not by your name).  For research purposes, these anonymous data may be archived in an online database maintained by the Center for Open Science (www.cos.io). Each question must be answered in order to complete this survey, but you can discontinue your participation at any time without penalty. The potential benefits of this research include improving the understanding of persons and their lives across cultural contexts.  There are no known risks.",
-            "If you have any questions about this study or your rights as a participant, you may contact Joey Cheng, chengjoe@illinois.edu, University of Illinois at Champaign-Urbana, who is responsible for data collection at your location, or the University of California, Riverside, Office of Research Integrity by email at IRB@ucr.edu. We sincerely appreciate your cooperation."
+            "What is this study about? You are invited to participate in a research study on how people make decisions. This study is conducted by Dr. Joey Cheng, Assistant Professor, Department of Psychology from the University of Illinois Urbana Champaign. \r\n\r\nWhat does participating involve? This study takes 50 minutes to 1 hour to complete. You will be asked to complete questionnaires about your demographics and personality, and a set of questions about your day-to-day decision-making\r\n",
+            "What do participants receive from taking part? You will receive 1.0 course credits for your participation. Your participation will help us better understand how people process information.\n\nIs it mandatory that I participate? Your decision to participate or decline participation in this study is completely voluntary and you have the right to terminate your participation at any time without penalty. If you do not wish to complete this study, please simply close this browser. \n\nHow will be the data be kept anonymous? Please note that none of the responses provided will be linked to your name or any other identifying information. Finally, possible outlets of dissemination may be scientific journals, and academic presentations, but all data will be averaged and reported in aggregate and anonymously. In other words, no one will know that you were in the study. However, laws and university rules might require us to disclose information about you. For example, if required by laws or University Policy, study information you supply may be seen or copied by the following people or groups: a) The university committee and office that reviews and approves research studies, the Institutional Review Board (IRB) and Office for Protection of Research Subjects; and b) University and state auditors, and Departments of the university responsible for oversight of research.\n\nWhat are the risks to participating in this study? There are no risks to individuals participating in this survey beyond those that exist in daily life.",
+            "If you have questions about this project, you may contact Dr. Joey Cheng (217-265-6805; jtcheng@illinois.edu). If you feel you have not been treated according to the descriptions in this form, or if you have any questions about your rights as a research subject, including questions, concerns, complaints, or to offer input, you may call the Office for the Protection of Research Subjects (OPRS) at 217-333-2670 or e-mail OPRS at irb@illinois.edu. Please print a copy of this consent form for your records, if you so desire.  \n"
         ],
         "title": "Consent to Participate in Research",
-        "versionHistory": "(Consent form version: 14 October 2016)"
+        "versionHistory": "Your decision to participate, decline, or withdraw from participation will have no effect on your current status or future relations with the University of Illinois."
     },
     "ZA1.ENG": {
         "buttonLabel": "Please accept terms to continue",
@@ -902,9 +947,9 @@ const consentText = {
         "buttonLabel": "Vennligst godta betingelsene for å fortsette",
         "consentLabel": "Jeg har lest og forstått erklæringen over og samtykker til å delta",
         "paragraphs": [
-            "Velkommen til vår studie. Dette er et spørsmål til deg om å delta i et forskningsprosjekt for å undersøke din atferd, verdier og holdninger i en situasjon. Du vil delta i én økt som vil ta mindre enn en time. Du vil bli spurt om å beskrive en situasjon du har opplevd, og din atferd i denne. Du vil også bli stilt noen spørsmål om dine verdier og holdninger. Hvis du ønsker, kan du ved studiens slutt motta informasjon om din personlighet.",
+            "Velkommen til vår studie. Dette er et spørsmål til deg om å delta i et forskningsprosjekt for å undersøke din atferd, verdier og holdninger i en situasjon. Du vil delta i én økt som vil ta mindre enn en time. Du vil bli spurt om å beskrive en situasjon du har opplevd, og din atferd i denne. Du vil også bli stilt noen spørsmål om dine verdier og holdninger. Hvis du ønsker, kan du ved studiens slutt motta informasjon om din personlighet.",
             "I prosjektet vil vi innhente og registrere opplysninger om deg. Dette inkluderer kjønn, alder og personlighet. Disse anonyme dataene kan bli arkivert i en online database av the Center for Open Science (www.cos.io) for bruk i senere forskning. Hvert spørsmål må besvares for å fullføre dette spørreskjemaet. Informasjonen som registreres om deg skal kun brukes slik som beskrevet i hensikten med studien. Du har rett til innsyn i hvilke opplysninger som er registrert om deg og rett til å få korrigert eventuelle feil i de opplysningene som er registrert.  Alle opplysningene vil bli behandlet uten navn og fødselsnummer eller andre direkte gjenkjennende opplysninger. Prosjektleder har ansvar for den daglige driften av forskningsprosjektet og at opplysninger om deg blir behandlet på en sikker måte. Informasjon om deg vil bli anonymisert. Den potensielle fordelen med denne studien inkluderer økt forståelse for personer og deres liv på tvers av kulturell kontekst. Det er ingen kjent risiko ved å delta i studien.",
-            "\"Det er frivillig å delta i prosjektet. Dersom du ønsker å delta, undertegner du samtykkeerklæringen ved å hake av boksen under og gå videre til neste side. Du kan når som helst og uten å oppgi noen grunn trekke ditt samtykke.  Dersom du trekker deg fra prosjektet, kan du kreve å få slettet innsamlede  opplysninger, med mindre opplysningene allerede er inngått i analyser eller brukt i vitenskapelige publikasjoner. Dersom du senere ønsker å trekke deg eller har spørsmål til prosjektet, kan du kontakte Siri Leknes, Universitetet i Oslo (sirileknes@gmail.com), eller universitetet i California, Riverside, Office of Research Integrity på e-posten IRB@ucr.edu. Vi setter svært stor pris på din deltakelse! \""
+            "\"Det er frivillig å delta i prosjektet. Dersom du ønsker å delta, undertegner du samtykkeerklæringen ved å hake av boksen under og gå videre til neste side. Du kan når som helst og uten å oppgi noen grunn trekke ditt samtykke.  Dersom du trekker deg fra prosjektet, kan du kreve å få slettet innsamlede  opplysninger, med mindre opplysningene allerede er inngått i analyser eller brukt i vitenskapelige publikasjoner. Dersom du senere ønsker å trekke deg eller har spørsmål til prosjektet, kan du kontakte Siri Leknes, Universitetet i Oslo (sirileknes@gmail.com), eller universitetet i California, Riverside, Office of Research Integrity på e-posten IRB@ucr.edu. Vi setter svært stor pris på din deltakelse! \""
         ],
         "title": "Samtykke til deltakelse i forskning",
         "versionHistory": "(Samtykke skjema versjon: 14 oktober 2016)"
