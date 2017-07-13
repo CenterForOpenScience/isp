@@ -315,38 +315,38 @@ const consentText = {
     },
     // Simplified Chinese (Hong Kong)
     "HONGK1.CN": {
-        "buttonLabel": "請接受條款並繼續",
-        "consentLabel": "我已經閱讀並理解上述說明，並同意參加研究。",
+        "buttonLabel": "請接受條款並繼續", 
+        "consentLabel": "我已經閱讀並理解上述說明，並同意參加研究。", 
         "paragraphs": [
-            "歡迎參與我們的研究！在這項研究中，你只需參與一次研究活動，需時不超過1小時。研究中，你需要描述一個你近期經歷的情境以及你在其中的行為，並回答有關價值觀和態度的問題。研究結束後，如果你需要，你將會收到你個人的性格分析報告。",
-            "你所有的回答將被嚴格保密，並且只通過編號而非姓名來進行識別。出於研究的目的，這些匿名資料會被收錄在由Center for Open Science管理的網路資料庫中（www.cos.io）。要完成本問卷，每個問題都必須回答，但是你可以隨時終止參與，並且不會因此受任何負面影響。此研究或有助我們更好的了解在不同文化背景中人的個性以及其生活。本研究沒有任何已知的風險。",
-            "如果您對本研究感興趣或您有任何疑问，請聯絡嶺南大學楊教授Emma Buchtel教授（emma.buchtel@gmail.com）。她负责在香港收集数据，或联系加州大学河滨研究诚信办公室（IRB@ucr.edu）感谢您的合作。"
-        ],
-        "title": "知情同意書",
+            "歡迎參與我們的研究！在這項研究中，你只需參與一次研究活動，需時不超過1小時。研究中，你需要描述一個你近期經歷的情境以及你在其中的行為，並回答有關價值觀和態度的問題。研究結束後，如果你需要，你將會收到你個人的性格分析報告。", 
+            "你所有的回答將被嚴格保密，並且只通過編號而非姓名來進行識別。出於研究的目的，這些匿名資料會被收錄在由Center for Open Science管理的網路資料庫中（www.cos.io）。要完成本問卷，每個問題都必須回答，但是你可以隨時終止參與，並且不會因此受任何負面影響。此研究會有助我們更好的了解在不同文化背景中人的個性以及其生活。本研究沒有任何已知的風險。", 
+            "如果您對本研究感興趣或您有任何疑問，請聯絡嶺南大學楊教授Emma Buchtel 教授 （emma.buchtel@gmail.com) 。她負責在香港收集數據，或聯繫加州大學河濱研究誠信辦公室 （IRB@ucr.edu) 感謝您的合作。"
+        ], 
+        "title": "知情同意書", 
         "versionHistory": "（知情同意書版本：2016年11月14日）"
-    },
+    }, 
     "HONGK2.CN": {
-        "buttonLabel": "請接受條款並繼續",
-        "consentLabel": "我已經閱讀並理解上述說明，並同意參加研究。",
+        "buttonLabel": "請接受條款並繼續", 
+        "consentLabel": "我已經閱讀並理解上述說明，並同意參加研究。", 
         "paragraphs": [
-            "歡迎參與我們的研究！在這項研究中，你只需參與一次研究活動，需時不超過1小時。研究中，你需要描述一個你近期經歷的情境以及你在其中的行為，並回答有關價值觀和態度的問題。研究結束後，如果你需要，你將會收到你個人的性格分析報告。",
-            "你所有的回答將被嚴格保密，並且只通過編號而非姓名來進行識別。出於研究的目的，這些匿名資料會被收錄在由Center for Open Science管理的網路資料庫中（www.cos.io）。要完成本問卷，每個問題都必須回答，但是你可以隨時終止參與，並且不會因此受任何負面影響。此研究或有助我們更好的了解在不同文化背景中人的個性以及其生活。本研究沒有任何已知的風險。",
-            "如果您對本研究感興趣或您有任何疑问，請聯絡嶺南大學楊教授（vickiyeung@ln.edu.hk）。她负责在香港收集数据或联系加州大学河滨研究诚信办公室（IRB@ucr.edu）进行合作。"
-        ],
-        "title": "知情同意書",
+            "歡迎參與我們的研究！在這項研究中，你只需參與一次研究活動，需時不超過1小時。研究中，你需要描述一個你近期經歷的情境以及你在其中的行為，並回答有關價值觀和態度的問題。研究結束後，如果你需要，你將會收到你個人的性格分析報告。", 
+            "你所有的回答將被嚴格保密，並且只通過編號而非姓名來進行識別。出於研究的目的，這些匿名資料會被收錄在由Center for Open Science管理的網路資料庫中（www.cos.io）。要完成本問卷，每個問題都必須回答，但是你可以隨時終止參與，並且不會因此受任何負面影響。此研究會有助我們更好的了解在不同文化背景中人的個性以及其生活。本研究沒有任何已知的風險。", 
+            "如果您對本研究感興趣或您有任何疑問，請聯絡嶺南大學楊教授 （vickiyeung@In.edu.hk)。 她負責在香港收集數據或聯繫加州大學河濱研究誠信辦公室 (IRB@ucr.edu) 進行合作。"
+        ], 
+        "title": "知情同意書", 
         "versionHistory": "（知情同意書版本：2016年11月14日）"
-    },
+    }, 
     // Indonesian
     "INDO1.ID": {
-        "buttonLabel": "Mohon terima persyaratan tersebut untuk melanjutkan",
-        "consentLabel": "Saya telah membaca dan pahami penyataan tersebut diatas dan setuju untuk berpartisipasi.",
+        "buttonLabel": "Mohon terima persyaratan tersebut untuk melanjutkan", 
+        "consentLabel": "Saya telah membaca dan pahami penyataan tersebut diatas dan setuju untuk berpartisipasi.", 
         "paragraphs": [
-            "Selamat datang di penelitian kami. Keikutsertaan Anda dalam penelitian ini adalah untuk satu sesi yang berlangsung selama kurang dari satu jam. Anda akan diminta untuk menjelaskan sebuah situasi yang Anda alami baru-baru ini, dan apa yang Anda lakukan dalam situasi tersebut. Di akhir penelitian, jika Anda menginginkannya, Anda akan menerima informasi khusus mengenai kepribadian Anda",
-            "Seluruh jawaban Anda bersifat rahasia dan hanya akan diidentifikasi berdasarkan angka dan bukan nama Anda. Untuk kepentingan penelitian, data yang bersifat anonim ini akan diarsipkan dalam sebuah pangkalan data daring yang dikelola oleh Center for Open Science (www.cos.io). Setiap pertanyaan harus Anda jawab jika Anda hendak menyelesaikan penelitian ini, namun Anda dapat berhenti kapan saja jika Anda menginginkannya, tanpa Anda dikenai hukuman apapun. Keuntungan yang mungkin didapat dari penelitian ini diantaranya adalah",
+            "Selamat datang di penelitian kami. Keikutsertaan Anda dalam penelitian ini adalah untuk satu sesi yang berlangsung selama kurang dari satu jam. Anda akan diminta untuk menjelaskan sebuah situasi yang Anda alami baru-baru ini, dan apa yang Anda lakukan dalam situasi tersebut. Di akhir penelitian, jika Anda menginginkannya, Anda akan menerima informasi khusus mengenai kepribadian Anda", 
+            "Seluruh jawaban Anda bersifat rahasia dan hanya akan diidentifikasi berdasarkan angka dan bukan nama Anda. Untuk kepentingan penelitian, data yang bersifat anonim ini akan diarsipkan dalam sebuah pangkalan data daring yang dikelola oleh Center for Open Science (www.cos.io). Setiap pertanyaan harus Anda jawab jika Anda hendak menyelesaikan penelitian ini, namun Anda dapat berhenti kapan saja jika Anda menginginkannya, tanpa Anda dikenai hukuman apapun. Keuntungan yang mungkin didapat dari penelitian ini diantaranya adalah", 
             "Jika Anda memiliki pertanyaan mengenai penelitian ini dan hak Anda sebagai partisipan, anda dapat menghubungi: [Meta Z. Aurelia, m.aurelia@vu.nl, Vrije Universiteit Amsterdam], yang bertanggung jawab untuk pengumpulan data di lokasi Anda, atau hubungi University of California, Riverside, Office of Research Integrity melalui surel ke: IRB@ucr.edu. Kami sangat menghargai kerjasama Anda dengan tulus."
-        ],
-        "title": "Menyetujui untuk berpartisipasi dalam penelitian",
-        "versionHistory": "(Verzia s\u00fahlas forma: 14.okt\u00f3bra 2016)"
+        ], 
+        "title": "Menyetujui untuk berpartisipasi dalam penelitian", 
+        "versionHistory": "(Verzia súhlas forma: 14.októbra 2016)"
     },
     // Korean
     "SKOREA1.KR": {
@@ -768,14 +768,14 @@ const consentText = {
     },
     // Icelandic
     "ICELA1.IS": {
-        "buttonLabel": "Vinsamlegast samþykktu skilmála til að halda áfram",
-        "consentLabel": "Ég hef lesið og skilið allt ofangreint og samþykki að taka þátt.",
+        "buttonLabel": "Vinsamlegast samþykktu skilmála til að halda áfram", 
+        "consentLabel": "Ég hef lesið og skilið allt ofangreint og samþykki að taka þátt.", 
         "paragraphs": [
-            "Velkomin í rannsóknina okkar. Þátttaka þín mun fara fram í einni lotu og mun taka innan við eina klukkustund. Þú verður beðin(n) um að lýsa atviki sem þú upplifðir nýlega og hvernig þú brást við í þeim aðstæðum. Þú verður einnig beðin(n) um að svara nokkrum spurningum um gildi þín og viðhorf. Í lok rannsóknarinnar átt þú kost á að fá upplýsingar um persónuleikaeinkenni þín.",
-            "Farið verður með öll svör sem trúnaðarmál og verða svör þín aðeins auðkennd með númeri (en ekki með nafni). Í rannsóknartilgangi, kunna nafnlaus gögn að vera geymd í gagnasafni sem viðhaldið er af Center for Open Science (www.cos.io). Til að ljúka könnuninni þarf að svara öllum spurningum, en þér er frjálst að hætta þátttöku hvenær sem er án nokurra afleiðinga. Hugsanlegur ávinningur af þessari rannsókn eru aukinn skilningur á einstaklingum og lífi þeirra þvert á menningarsvæði. Það eru engin þekkt áhætta af þátttöku í rannsókninni.",
-            "Ef þú hefur einhverjar spurningar um þessa rannsókn eða um rétt þinn sem þátttakanda, getur þú haft samband við Freyr Halldórsson PhD, freyrh@ru.is, kennara við Háskólann í Reykjavík, sem er ábyrgur fyrir söfnun gagna á Íslandi. Einnig getur þu haft samband við University of California, Riverside, Office of Research Integrity með tölvupósti, IRB@ucr.edu. Við kunnum innilega að meta þátttöku þína."
-        ],
-        "title": "Samþykki fyrir þátttöku í rannsókn",
+            "Velkomin í rannsóknina okkar. Þátttaka þín mun fara fram í einni lotu og mun taka innan við eina klukkustund. Þú verður beðin(n) um að lýsa atviki sem þú upplifðir nýlega og hvernig þú brást við í þeim aðstæðum. Þú verður einnig beðin(n) um að svara nokkrum spurningum um gildi þín og viðhorf. Í lok rannsóknarinnar átt þú kost á að fá upplýsingar um persónuleikaeinkenni þín.", 
+            "Farið verður með öll svör sem trúnaðarmál og verða svör þín aðeins auðkennd með númeri (en ekki með nafni). Í rannsóknartilgangi, kunna nafnlaus gögn að vera geymd í gagnasafni sem viðhaldið er af Center for Open Science (www.cos.io). Til að ljúka könnuninni þarf að svara öllum spurningum, en þér er frjálst að hætta þátttöku hvenær sem er án nokurra afleiðinga. Hugsanlegur ávinningur af þessari rannsókn eru aukinn skilningur á einstaklingum og lífi þeirra þvert á menningarsvæði. Það eru engin þekkt áhætta af þátttöku í rannsókninni.", 
+            "Ef þú hefur einhverjar spurningar um þessa rannsókn eða um rétt þinn sem þátttakanda, getur þú haft samband við Frey Halldórsson PhD, freyrh@ru.is, kennara við Háskólann í Reykjavík, sem er ábyrgur fyrir söfnun gagna á Íslandi. Einnig getur þu haft samband við University of California, Riverside, Office of Research Integrity með tölvupósti, IRB@ucr.edu. Við kunnum innilega að meta þátttöku þína."
+        ], 
+        "title": "Samþykki fyrir þátttöku í rannsókn", 
         "versionHistory": "(Samþykktarsnið útgáfa: 14. október 2016)"
     },
     // Italian
