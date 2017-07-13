@@ -186,7 +186,7 @@ export default {
         "invalidAuthError": "Ógilt rannsóknarnúmer eða þátttakendanúmer",
         "participantID": "Auðkennni þátttakanda",
         "studyID": "Auðkenni rannsóknar",
-        "youChose": "Þú velur:"
+        "youChose": "Þitt val:"
     },
     "measures": {
         "questions": {
@@ -368,7 +368,7 @@ export default {
                 "options": {
                     "aLittle": "Lítillega",
                     "completely": "Algjörlega",
-                    "notAtAll": "Mjög mikið",
+                    "notAtAll": "Alls ekki",
                     "quiteaBit": "Töluvert"
                 }
             },
@@ -445,7 +445,7 @@ export default {
                         "label": "Ég talaði hátt."
                     },
                     "16": {
-                        "label": "Ég var mjög gáfuð/gáfður"
+                        "label": "Ég var mjög gáfuð/gáfður."
                     },
                     "2": {
                         "label": "Ég sagði eitthvað neikvætt um sjálfa(n) mig."
@@ -472,7 +472,7 @@ export default {
                         "label": "Ég var tilbaka og tjáði mig lítið."
                     }
                 },
-                "label": "Vinsamlegast gefðu til kynna hegðun þína í aðstæðunum sem þú lýstir:",
+                "label": "Vinsamlega legðu mat á hegðun þína í aðstæðunum sem þú lýstir:",
                 "options": {
                     "extremelyChar": "Ákaflega dæmigert",
                     "extremelyUnchar": "Ákaflega ódæmigert",
@@ -677,11 +677,11 @@ export default {
                 },
                 "label": "Vinsamlegast gefðu til kynna að hve miklu leyti þú ert sammála eða ósammála eftirfarandi fullyrðingum: Ég er einhver sem ...",
                 "options": {
-                    "agree": "Er afslappaður, sér streitu og",
-                    "agreeStrongly": "Hefur nokkra listræna hagsmuni",
-                    "disagree": "Er miskunnsamur, hefur mjúkan hjarta",
-                    "disagreeStrongly": "Er á útleið, félagslyndur",
-                    "neutral": "Tilhneigingu til að vera disorganized"
+                    "agree": "Sammála",
+                    "agreeStrongly": "Mjög sammála",
+                    "disagree": "Ósammála",
+                    "disagreeStrongly": "Mjög ósammála",
+                    "neutral": "Hlutlaus; hef ekki álit"
                 }
             },
             "6": {
@@ -701,17 +701,17 @@ export default {
                         }
                     },
                     "3": {
-                        "label": "Sumir eru almennt mjög ánægðir. Þeir njóta lífsins óháð því hvað er að gerast, fá sem mest út úr öllu. Að hve miklu leyti lýsir þetta þér?",
+                        "label": "Sumir eru almennt mjög ánægðir. Þeir njóta lífsins óháð því hvað er að gerast, fá sem mest út úr öllu.  Að hve miklu leyti lýsir þetta þér?",
                         "options": {
                             "aGreatDeal": "Mjög mikið",
                             "notAtAll": "Alls ekki"
                         }
                     },
                     "4": {
-                        "label": "Sumir eru almennt ekki mjög ánægðir. Þótt þeir séu ekki þunglyndir, þá virðast þeir aldrei eins hamingjusamir og þeir gætu verið. Að hve miklu leyti lýsir þetta þér?",
+                        "label": "Sumir eru almennt ekki mjög ánægðir. Þótt þeir séu ekki þunglyndir, þá virðast þeir aldrei eins hamingjusamir og þeir gætu verið.  Að hve miklu leyti lýsir þetta þér?",
                         "options": {
-                            "aGreatDeal": "Ég tel að ég og þeir sem í kringum mig eru ánægðir.",
-                            "notAtAll": "Vinsamlegast hlutfall að hve miklu leyti þú sammála eða ósammála eftirfarandi fullyrðingum:"
+                            "aGreatDeal": "Mjög mikið",
+                            "notAtAll": "Alls ekki"
                         }
                     }
                 },
@@ -918,7 +918,7 @@ export default {
                 "happeningOnce": "Margir hlutir eru að gerast í einu.",
                 "honor": "Heiður er í húfi.",
                 "hostile": "Aðstæðurnar gætu gert fólk fjandsamlegt.",
-                "humorous": "Aðstæðurnar er gamansamar eða mögulega gamansamar.",
+                "humorous": "Aðstæðurnar eru gamansamar eða mögulega gamansamar",
                 "intellectuallyStimulating": "Aðstæðurnar gætu verið vitsmunalega örvandi.",
                 "intelligence": "Greind er mikilvæg (til dæmis: andleg umræða, flókið vandamál sem þarf að leysa).",
                 "jobDone": "Það er verk sem þarf að klára.",
@@ -941,7 +941,7 @@ export default {
                 "playful": "Aðstæðurnar eru gáskafullar.",
                 "politics": "Stjórnmál eru viðeigandi (td: stjórnmálaumræða).",
                 "positiveEmotions": "Aðstæðurnar gætu kallað fram jákvæðar tilfinningar.",
-                "potentiallyEnjoy": "Aðstæðurnar er hugsanlega skemmtilegar.",
+                "potentiallyEnjoy": "Aðstæðurnar eru hugsanlega skemmtilegar.",
                 "power": "Vald er mikilvægt.",
                 "quickAction": "Skjótra aðgerða er þörf.",
                 "rapidlyChanging": "Aðstæðurnar breytast hratt.",
@@ -955,7 +955,7 @@ export default {
                 "sensations": "Skynjun er mikilvæg (t.d.: snerting, bragð, lykt, líkamleg snerting).",
                 "sexuality": "Kynhneigð á við í aðstæðunum.",
                 "shame": "Einhver upplifir skömm.",
-                "simpleClearcut": "Aðstæðurnar er einfaldar og skýrar.",
+                "simpleClearcut": "Aðstæðurnar eru einfaldar og skýrar.",
                 "smallAnnoyances": "Aðstæðurnar eru lítillega pirrandi",
                 "socialInteraction": "Félagsleg samskipti eru möguleg.",
                 "successCooperation": "Velgengni í aðstæðunum krefst samvinnu.",
@@ -980,7 +980,7 @@ export default {
                     "neutral": "Hlutlaus",
                     "uncharacteristic": "Óeinkennandi"
                 },
-                "instructions": "Vinsamlega lýstu aðstæðum atviksins nánar. 90 atriði mun birtast hér á eftir, eitt í einu. Settu hvert atriði í einn af þremur kössum. Notaðu \"Einkennandi\" kassann hægri megin fyrir atriði sem lýsa aðstæðunum vel. Notaðu \"Óeinkennandi\" kassann vinstra megin fyrir atriði sem lýsa ekki aðstæðunum, og notaðu \"Hlutlaus\" kassann fyrir atriði sem eiga ekki við, eru óljós eða þú ert ekki viss. Þegar þú ert búin(n), skaltu ýta á \"Halda áfram\".",
+                "instructions": "Vinsamlega lýstu aðstæðum atviksins nánar. 90 atriði munu birtast hér á eftir, eitt í einu. Settu hvert atriði í einn af þremur kössum. Notaðu \"Einkennandi\" kassann hægri megin fyrir atriði sem lýsa aðstæðunum vel. Notaðu \"Óeinkennandi\" kassann vinstra megin fyrir atriði sem lýsa ekki aðstæðunum, og notaðu \"Hlutlaus\" kassann fyrir atriði sem eiga ekki við, eru óljós eða þú ert ekki viss. Þegar þú ert búin(n), skaltu ýta á \"Halda áfram\".",
                 "itemsLeft": {
                     "one": "{{count}} atriði eftir",
                     "other": "{{count}} atriði eftir"
@@ -1007,7 +1007,7 @@ export default {
     "survey": {
         "sections": {
             "1": {
-                "instructions": "Velkomin(n)! Við höfum áhuga á atvikum sem fólk upplifir og hvað það gerir í þeim aðstæðum. Þú verður beðin(n) um að lýsa atviki sem þú upplifðir nýlega og því sem þú gerðir í þeim aðstæðum. Þú verður einnig beðin(n) um að svara nokkrum spurningum um viðhorf þín og gildi. Byggt á þessum svörum verður þér, þegar þú hefur lokið rannsókninni, gefin(n) kostur á að fá upplýsingar um persónuleikaeinkenni þín, sem við vonum að þér finnist áhugavert. Það mun taka innan við klukkutíma að ljúka spurningalistanum . Til að byrja, vinsamlegast svaraðu nokkrum spurningum um sjálfa(n) þig.",
+                "instructions": "Velkomin(n)! Við höfum áhuga á atvikum sem fólk upplifir og hvað það gerir í þeim aðstæðum. Þú verður beðin(n) um að lýsa atviki sem þú upplifðir nýlega og því sem þú gerðir í þeim aðstæðum. Þú verður einnig beðin(n) um að svara nokkrum spurningum um viðhorf þín og gildi. Byggt á þessum svörum verður þér, þegar þú hefur lokið rannsókninni, gefin(n) kostur á að fá upplýsingar um persónuleikaeinkenni þín, sem við vonum að þér finnist áhugavert. Það mun taka innan við klukkutíma að ljúka spurningalistanum. Til að byrja, vinsamlegast svaraðu nokkrum spurningum um sjálfa(n) þig.",
                 "questions": {
                     "1": {
                         "label": "Aldur"
@@ -1045,7 +1045,7 @@ export default {
                         "label": "Fæðingarborg"
                     },
                     "7": {
-                        "label": "Í hvaða bæ/borg ólst þú upp?",
+                        "label": "Í hvernig bæ/borg ólst þú upp?",
                         "options": {
                             "remoteRural": "Afskekkt dreifbýli",
                             "rural": "Dreifbýli",
@@ -1088,7 +1088,7 @@ export default {
                     },
                     "13": {
                         "characterCount": "0 af 75 stöfum notaðir",
-                        "label": "Hver annar var viðstaddur? (Ef þú varst ein/n, vinsamlega skrifaðu \"ein(n)\")."
+                        "label": "Hver annar var viðstaddur? (Ef þú varst ein(n), vinsamlega skrifaðu \"ein(n)\")"
                     },
                     "14": {
                         "label": "Um það bil klukkan hvað byrjaði þetta atvik?"
