@@ -5,7 +5,7 @@ import {writeCSV} from 'exp-models/utils/csv-writer';
 
 export default Ember.Controller.extend({
     queryParams: ['siteId'],
-    siteId: '',
+    siteId: siteNames[0],
 
     siteNames: siteNames,
 
