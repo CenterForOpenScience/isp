@@ -1,0 +1,4 @@
+pyobjc-core==3.2.1
+pyobjc-framework-Quartz==3.2.1
+image==1.5.7
+PyAutoGUI==0.9.36

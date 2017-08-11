@@ -650,20 +650,6 @@ export default [
         "name": "Ukraine"
     },
     {
-        "code": "AE",
-        "languages": [
-            {
-                "code": "en-AE",
-                "name": "English"
-            },
-            {
-                "code": "ar-AE",
-                "name": "العربية"
-            }
-        ],
-        "name": "United Arab Emirates"
-    },
-    {
         "code": "GB",
         "languages": [
             {
