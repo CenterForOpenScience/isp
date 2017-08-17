@@ -3,7 +3,7 @@
 // TODO: This will need to be updated every time a new language is "released" and marked final
 export const languagesForProduction =  [
     "ar", "bg", "cs", "da", "de", "en", "es", "fi", "fr",
-    "he", "hi", "hr", "hu", "id", "is", "it", "ja", "ka", "ko", "lt", "lv",
+    "he", "hr", "hu", "id", "is", "it", "ja", "ka", "ko", "lt", "lv",
     "mk", "mr", "ms", "no", "pl", "pt", "ro", "ru",
     "sk", "sl", "sr", "th", "tr", "uk", "zh", "zh-hk"
 ];
