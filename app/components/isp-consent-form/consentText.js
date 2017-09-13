@@ -73,6 +73,17 @@ const consentText = {
         "title": "知情同意书",
         "versionHistory": "（知情同意书版本：2016年11月14日）"
     },
+    "TAIWAN1.ZH": {
+        "buttonLabel": "請接受條款並繼續",
+        "consentLabel": "我已經閱讀並理解了上述說明，我同意參加研究。",
+        "paragraphs": [
+            "歡迎來到我們的研究。這是一項需要一次完成的研究，需要的時間不會超過一小時。你會被要求描述一個你最近經歷的情境以及你在其中的行為，並回答一些與價值觀和態度有關的問題，研究結束後，你可以收到屬於你的性格分析。",
+            "你所有的作答都將被嚴格保密，並且只會以編號而不是名字來進行識別。出於研究的目的 ，這些匿名資料會被收錄在由Center for Open Science所維護的網路資料庫中（www.cos.io）。本問卷的每個問題都必須回答，但是你可以隨時終止參與並不會受到任何懲罰。此研究有可能幫助我們更加瞭解人們的性格以及人在不同文化背景下的生活方式。此研究沒有任何已知風險。",
+            "如果你有關於本研究或自己作為參與者的權益的任何問題，你可以聯繫負責台灣地區的資料收集、中原大學心理學系的林瑋芳教授（wflin@cycu.edu.tw），或者聯繫加州大學河濱分校研究倫理辦公室（IRB@ucr.edu），感謝您的合作。"
+        ],
+        "title": "研究同意書",
+        "versionHistory": "（研究同意書版本：2017年9月6日）"
+    },
     //Croatian
     "CROA1.HR": {
         "buttonLabel": "Molimo, prihvatite uvjete kako biste mogli nastaviti.",
@@ -651,7 +662,7 @@ const consentText = {
             "Si tiene alguna pregunta sobre este estudio o sus derechos como participante, puede comunicarse con Diego Cortez (diegocortezro@hotmail.com) de Universidad Católica Boliviana, el responsable de la recopilación de datos en su ubicación por correo electrónico en IRB@ucr.edu; o también a la Universidad de California, Riverside, Office of Research Integrity. Apreciamos sinceramente su cooperación."
         ],
         "title": "Consentimiento para participar en la investigación",
-        "versionHistory": "(Versión del formulario de consentimiento: 14 de octubre de 2016)"
+        "versionHistory": "Acepto términos para continuar"
     },
     "CHILE1.ES": {
         "buttonLabel": "Por favor acepte los términos de participación para continuar",
@@ -696,6 +707,28 @@ const consentText = {
         ],
         "title": "Consentimiento para participar en la investigación",
         "versionHistory": "(Versión del formulario de consentimiento: 14 de octubre de 2016)"
+    },
+    "MEXI2.ES": {
+        "buttonLabel": "Por favor acepte los términos de participación para continuar",
+        "consentLabel": "He leído y entiendo las declaraciones anteriores y estoy de acuerdo en participar.",
+        "paragraphs": [
+            "Bienvenido/a a nuestro estudio. Su participación constará de una sola sesión y le llevará menos de una hora. Se le pedirá que describa una situación que experimentó recientemente y sus comportamientos en ella. También se le harán algunas preguntas sobre sus valores y actitudes. Al final del estudio, si lo desea, recibirá información individualizada sobre su personalidad.",
+            "Todas sus respuestas serán confidenciales e identificadas sólo por un número (y no por su nombre). Para fines de investigación, estos datos anónimos pueden ser archivados en una base de datos en línea mantenida por el Center for Open Science (www.cos.io). Para completar la encuesta todas las preguntas deben ser contestadas, no obstante, usted puede detenerse y abandonar su participación en cualquier momento, lo que no implicará consecuencias negativas para usted. Los beneficios potenciales de esta investigación incluyen mejorar la comprensión de las personas y sus vidas en diferentes contextos culturales. No se conocen riesgos asociados a la investigación.",
+            "Si tiene alguna pregunta sobre este estudio o sus derechos como participante, puede comunicarse con Elliot Kruse (ekruse@gmail.com) de EGADE Business School Ciudad de México, el responsable de la recopilación de datos en su ubicación por correo electrónico en IRB@ucr.edu; o también a la Universidad de California, Riverside, Office of Research Integrity. Apreciamos sinceramente su cooperación."
+        ],
+        "title": "Consentimiento para participar en la investigación",
+        "versionHistory": "(Versión del formulario de consentimiento: 14 de octubre de 2016)"
+    },
+    "ESTON1.EE": {
+        "buttonLabel": "Jätkamiseks palun nõustu tingimustega.",
+        "consentLabel": "Olen eelnevad väited läbi lugenud ja nendest aru saanud ning nõustun uurimuses osalema.",
+        "paragraphs": [
+            "Tere tulemast osalema käesolevas uurimuses! Palume Sul kõigile küsimustele järjest vastata, kogu uuring võtab aega alla tunni.  Palume Sul kirjeldada ühte konkreetset olukorda, milles Sa hiljuti viibisid ning seda, kuidas Sa selles olukorras käitusid. Samuti küsime mõned küsimused Sinu väärtuste ja hoiakute kohta. Uurimuse lõpus anname Sulle soovi korral tagasisidet Sinu isiksuse seadumuste kohta.",
+            "Kõik Sinu vastused on täiesti konfidentsiaalsed ja anonüümsed, neile viitab vaid Sinu osalejanumber, mitte Sinu nimi. Uuringu anonümiseeritud andmed säilitatakse uurimistöö eesmärgil Center for Open Science poolt loodud veebikeskkonnas. Uuringu lõpetamiseks on vajalik vastata kõigile küsimustele, kuid Sa võid uuringus osalemise igal ajahetkel lõpetada. Selle uuringu abil püütakse parandada meie arusaama inimestest ja nende eludest erinevates kultuurikeskkondades. Uuringuga ei kaasne mingeid teadaolevaid riske.",
+            "Kui Sul on uurimuse või enda kui uurimuses osaleja õiguste kohta mingeid küsimusi, palun võta ühendust Anu Realo, anu.realo@ut.ee, kes on uurimuse vastutav läbiviija Eestis või siis California Riverside Ülikooliga e-posti aadressil IRB@ucr.edu (Office of Research Integrity). Suur tänu koostöö eest, hindame seda kõrgelt!"
+        ],
+        "title": "Nõusolek uurimuses osalemiseks",
+        "versionHistory": "Nõusoleku vormi versioon: 16. oktoober 2016"
     },
     "PERU1.ES": {
         "buttonLabel": "Por favor acepte los términos de participación para continuar",
@@ -1021,6 +1054,18 @@ const consentText = {
         ],
         "title": "Consentimento para participar na pesquisa",
         "versionHistory": "(Versão do formulário de consentimento: 14 de outubro de 2016)"
+    },
+    // Vietnamese
+    "VIET1.VN": {
+        "buttonLabel": "Xin vui lòng chấp nhận các điều khoản để tiếp tục",
+        "consentLabel": "Tôi đã đọc, hiểu các điều khoản trên và đồng ý tham gia.",
+        "paragraphs": [
+            "Chào mừng tham gia vào nghiên cứu của chúng tôi. Sự cộng tác tham gia của bạn sẽ được thực hiện trong một phần trọn vẹn với thời gian gần một giờ đồng hồ. Bạn sẽ được yêu cầu miêu tả một tình huống được trải nghiệm gần đây, cũng như những hành vi của bạn trong tình huống đó. Ngoài ra, bạn sẽ được hỏi một số câu hỏi có liên quan tới giá trị và thái độ của bạn. Kết thúc nghiên cứu, nếu lựa chọn, bạn sẽ nhận được thông tin cá nhân mô tả về nhân cách của bạn.",
+            "Tất cả câu trả lời của bạn sẽ được bảo mật và được nhận dạng bởi một con số (mà không phải tên của bạn). Vì mục tiêu nghiên cứu, những thông tin bảo mật trên có thể được lưu trữ trên một cơ sở dự liệu trực tuyến, được duy trì bởi Trung tâm khoa học Mở (www.cos.io). Bạn phải trả lời tất cả các câu hỏi để hoàn thành nghiên cứu này. Nhưng bạn có thể dừng tham gia bất cứ lúc nào mà không phải chịu bất cứ hình phạt nào. Lợi ích tiềm tàng của nghiên cứu này được thể hiện ở việc sẽ góp phần nâng cao hiểu biết về con người/cá nhân, cũng như cuộc sống của họ trong bối cảnh văn hóa khác nhau. Không có rủi ro nào được chỉ ra.",
+            "Nếu có câu hỏi nào liên quan đến nghiên cứu này, hoặc quyền lợi của bạn với tư cách là người tham gia nghiên cứu, bạn có thể liên hệ với cộng tác viên ở khu vực của bạn, Bui Thu Huyen, huyenbuithu2004@gmail.com. Đây là người chịu trách nhiệm thu thập số liệu ở khu vực mà bạn tham gia, hoặc bạn có thể email tới trường đại học California, Riverside, Văn phòng Xác minh nghiên cứu  tại địa chỉ IRB@ucr.edu. Chúng tôi chân thành cảm ơn sự hợp tác của bạn."
+        ],
+        "title": "Cam kết tham gia nghiên cứu",
+        "versionHistory": "(Phiếu chấp thuận phiên bản: 14 tháng 10 năm 2016)"
     },
     // For testing purposes ONLY
     "test": {
