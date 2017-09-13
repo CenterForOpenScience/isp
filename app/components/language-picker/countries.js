@@ -320,7 +320,7 @@ export default [
         "languages": [
             {
                 "code": "lv-LV",
-                "name": "Latvijas"
+                "name": "Latviešu"
             }
         ],
         "name": "Latvia"
@@ -678,6 +678,16 @@ export default [
             }
         ],
         "name": "Vietnam"
+    },
+    {
+        "code": "TW",
+        "languages": [
+            {
+                "code": "zh-TW",
+                "name": "汉语/漢語"
+            }
+        ],
+        "name": "Taiwan"
     },
     {
         "code": "US",
