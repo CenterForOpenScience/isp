@@ -100,7 +100,7 @@ export default {
     "97": "97",
     "98": "98",
     "99": "99",
-    "Key": "Dutch translation",
+    "Key": "Dutch translation (final)",
     "consent": {
         "button": {
             "labelUnaccepted": "Accepteer de voorwaarden om door te gaan."
@@ -146,7 +146,7 @@ export default {
         "title": "Uw persoonlijkheid"
     },
     "flag": {
-        "chooseLanguage": "Please select your countries flag and language"
+        "chooseLanguage": "Please choose your country and language"
     },
     "global": {
         "agreement": {
@@ -154,18 +154,18 @@ export default {
             "agreeStrongly": "Helemaal mee eens",
             "disagree": "Oneens",
             "disagreeStrongly": "Helemaal oneens",
-            "neutral": "Neutraal; geen mening"
+            "neutral": "Eens noch oneens"
         },
         "char": {
-            "extremelyChar": "Extreem typisch",
-            "extremelyUnchar": "Extreem ontypisch",
-            "fairlyChar": "Best wel typisch",
-            "fairlyUnchar": "Best wel ontypisch",
-            "neutral": "Niet typisch maar ook niet ontypisch",
-            "quiteChar": "Zeer typisch",
-            "quiteUnchar": "Zeer ontypisch",
-            "somewhatChar": "Ietwat typisch",
-            "somewhatUnchar": "Ietwat ontypisch"
+            "extremelyChar": "Extreem goed beschrijvend",
+            "extremelyUnchar": "Extreem slecht beschrijvend",
+            "fairlyChar": "Best wel goed beschrijvend",
+            "fairlyUnchar": "Best wel slecht beschrijvend",
+            "neutral": "Niet goed maar ook niet slecht beschrijvend",
+            "quiteChar": "Zeer goed beschrijvend",
+            "quiteUnchar": "Zeer slecht beschrijvend",
+            "somewhatChar": "Ietwat goed beschrijvend",
+            "somewhatUnchar": "Ietwat slecht beschrijvend"
         },
         "continueLabel": "Volgende",
         "describe": {
@@ -207,7 +207,7 @@ export default {
             "10": {
                 "items": {
                     "1": {
-                        "label": "Er zijn veel sociale normen waar mensen zich aan moeten houden in dit land."
+                        "label": "Heel wat"
                     },
                     "2": {
                         "label": "In dit land zijn er hele duidelijke verwachtingen over hoe mensen zich moeten gedragen in de meeste situaties."
@@ -231,7 +231,7 @@ export default {
                     "agreeStrongly": "Helemaal mee eens",
                     "disagree": "Oneens",
                     "disagreeStrongly": "Helemaal oneens",
-                    "neutral": "Neutraal; geen mening"
+                    "neutral": "Eens noch oneens"
                 }
             },
             "11": {
@@ -268,7 +268,7 @@ export default {
                     "agreeStrongly": "Helemaal mee eens",
                     "disagree": "Oneens",
                     "disagreeStrongly": "Helemaal oneens",
-                    "neutral": "Neutraal; geen mening"
+                    "neutral": "Eens noch oneens"
                 }
             },
             "14": {
@@ -298,7 +298,7 @@ export default {
                     "agreeStrongly": "Helemaal mee eens",
                     "disagree": "Oneens",
                     "disagreeStrongly": "Helemaal oneens",
-                    "neutral": "Neutraal; geen mening"
+                    "neutral": "Eens noch oneens"
                 }
             },
             "15": {
@@ -328,7 +328,7 @@ export default {
                         "label": "Veel geld bezitten is niet bijzonder belangrijk voor mij."
                     },
                     "8": {
-                        "label": "Ik zou veel plezier beleven aan het bezit van dure luxe goederen."
+                        "label": "Ik zou veel plezier beleven aan het bezit van dure luxegoederen."
                     },
                     "9": {
                         "label": "Ik vind dat ik meer recht op respect heb dan de gemiddelde persoon."
@@ -340,7 +340,7 @@ export default {
                     "agreeStrongly": "Helemaal mee eens",
                     "disagree": "Oneens",
                     "disagreeStrongly": "Helemaal oneens",
-                    "neutral": "Neutraal; geen mening"
+                    "neutral": "Eens noch oneens"
                 }
             },
             "16": {
@@ -399,7 +399,7 @@ export default {
                     "agreeStrongly": "Helemaal mee eens",
                     "disagree": "Oneens",
                     "disagreeStrongly": "Helemaal oneens",
-                    "neutral": "Neutraal; geen mening"
+                    "neutral": "Eens noch oneens"
                 }
             },
             "18": {
@@ -474,15 +474,15 @@ export default {
                 },
                 "label": "Beoordeel uw gedrag in de situatie die u heeft omschreven:",
                 "options": {
-                    "extremelyChar": "Extreem typisch",
-                    "extremelyUnchar": "Extreem ontypisch",
-                    "fairlyChar": "Best wel typisch",
-                    "fairlyUnchar": "Best wel ontypisch",
-                    "neutral": "Niet typisch maar ook niet ontypisch",
-                    "quiteChar": "Zeer typisch",
-                    "quiteUnchar": "Zeer ontypisch",
-                    "somewhatChar": "Ietwat typisch",
-                    "somewhatUnchar": "Ietwat ontypisch"
+                    "extremelyChar": "Extreem goed beschrijvend",
+                    "extremelyUnchar": "Extreem slecht beschrijvend",
+                    "fairlyChar": "Best wel goed beschrijvend",
+                    "fairlyUnchar": "Best wel slecht beschrijvend",
+                    "neutral": "Niet goed maar ook niet slecht beschrijvend",
+                    "quiteChar": "Zeer goed beschrijvend",
+                    "quiteUnchar": "Zeer slecht beschrijvend",
+                    "somewhatChar": "Ietwat goed beschrijvend",
+                    "somewhatUnchar": "Ietwat slecht beschrijvend"
                 }
             },
             "4": {
@@ -537,7 +537,7 @@ export default {
                         "label": "De toon zet, als een leider handelt"
                     },
                     "22": {
-                        "label": "Meningsverschillen met anderen opzoekt"
+                        "label": "Snel ruzie maakt"
                     },
                     "23": {
                         "label": "Moeite heeft om met taken te beginnen"
@@ -582,7 +582,7 @@ export default {
                         "label": "Waarde hecht aan kunst en schoonheid."
                     },
                     "36": {
-                        "label": "Anderen niet zo nodig wil beïnvloeden"
+                        "label": "Het moeilijk vindt om anderen te beïnvloeden"
                     },
                     "37": {
                         "label": "Soms onbeleefd tegen anderen is"
@@ -603,10 +603,10 @@ export default {
                         "label": "Vol energie is"
                     },
                     "42": {
-                        "label": "Snel vraagtekens zet bij de bedoelingen van een ander"
+                        "label": "Niet goed van vertrouwen is"
                     },
                     "43": {
-                        "label": "Betrouwbaar is, afspraken altijd nakomt"
+                        "label": "Betrouwbaar is, zich altijd aan regels en afspraken houdt"
                     },
                     "44": {
                         "label": "Zijn/haar emoties onder controle houdt"
@@ -681,7 +681,7 @@ export default {
                     "agreeStrongly": "Helemaal mee eens",
                     "disagree": "Oneens",
                     "disagreeStrongly": "Helemaal oneens",
-                    "neutral": "Neutraal; geen mening"
+                    "neutral": "Eens noch oneens"
                 }
             },
             "6": {
@@ -753,7 +753,7 @@ export default {
                     "agreeStrongly": "Helemaal mee eens",
                     "disagree": "Oneens",
                     "disagreeStrongly": "Helemaal oneens",
-                    "neutral": "Neutraal; geen mening"
+                    "neutral": "Eens noch oneens"
                 }
             },
             "8": {
@@ -862,7 +862,7 @@ export default {
                         "label": "U zou uw persoonlijke belangen aan de kant zetten voor uw familie."
                     }
                 },
-                "label": "Hoe goed omschrijven de volgende stellingen u?",
+                "label": "Hoe goed omschrijft ieder van de volgende stellingen u?",
                 "options": {
                     "aLittle": "Omschrijft mij een beetje",
                     "exactly": "Omschrijft mij precies.",
@@ -976,31 +976,31 @@ export default {
             "1": {
                 "activity": "Activiteit:",
                 "categories": {
-                    "characteristic": "Karakteristiek/Gewoon",
+                    "characteristic": "Goed beschrijvend",
                     "neutral": "Neutraal",
-                    "uncharacteristic": "Niet karakteristiek/Ongewoon"
+                    "uncharacteristic": "Slecht beschrijvend"
                 },
-                "instructions": "Omschrijf nu alstublieft de situatie die u heeft meegemaakt in meer detail. 90 stellingen zullen om de beurt verschijnen. Plaats elke stelling in één van de drie kaders. Gebruik het 'Karakteristiek/Gewoon' kader aan de rechter kant voor stellingen die de situatie accuraat omschrijven; gebruik het 'Niet karakteristiek/Ongewoon' kader aan de linker kant voor stellingen die de situatie niet goed omschrijven, en gebruik het 'Neutraal' kader voor stellingen die niet relevant zijn, onduidelijk zijn, of waar u niet zeker over bent. Druk op 'Volgende' wanneer u klaar bent.",
+                "instructions": "Beschrijf nu alstublieft de situatie die u heeft meegemaakt in meer detail. 90 mogelijke beschrijvingen zullen om de beurt verschijnen. Plaats elke beschrijving in één van de drie vakken. Gebruik het ‘Goed beschrijvend’ vak aan de rechter kant voor beschrijvingen die de situatie accuraat weergeven; gebruik het ‘Slecht beschrijvend’ vak aan de linker kant voor beschrijvingen die de situatie niet goed weergeven, en gebruik het 'Neutraal' vak voor beschrijvingen die niet relevant zijn, onduidelijk zijn, of waar u niet zeker over bent. Druk op 'Volgende' wanneer u klaar bent.",
                 "itemsLeft": {
-                    "one": "{{count}} Aantal opmerkingen die nog volgen",
-                    "other": "{{count}} Aantal stellingen die nog volgen"
+                    "one": "{{count}} Aantal mogelijke beschrijvingen die nog volgen",
+                    "other": "{{count}} Aantal mogelijke beschrijvingen die nog volgen"
                 },
                 "location": "Locatie:",
                 "othersPresent": "Anderen aanwezig:"
             },
             "2": {
                 "categories": {
-                    "extremelyChar": "Extreem typisch",
-                    "extremelyUnchar": "Extreem ontypisch",
-                    "fairlyChar": "Best wel typisch",
-                    "fairlyUnchar": "Best wel ontypisch",
-                    "neutral": "Niet typisch maar ook niet ontypisch",
-                    "quiteChar": "Zeer typisch",
-                    "quiteUnchar": "Zeer ontypisch",
-                    "somewhatChar": "Ietwat typisch",
-                    "somewhatUnchar": "Ietwat ontypisch"
+                    "extremelyChar": "Extreem goed beschrijvend",
+                    "extremelyUnchar": "Extreem slecht beschrijvend",
+                    "fairlyChar": "Best wel goed beschrijvend",
+                    "fairlyUnchar": "Best wel slecht beschrijvend",
+                    "neutral": "Niet goed maar ook niet slecht beschrijvend",
+                    "quiteChar": "Zeer goed beschrijvend",
+                    "quiteUnchar": "Zeer slecht beschrijvend",
+                    "somewhatChar": "Ietwat goed beschrijvend",
+                    "somewhatUnchar": "Ietwat slecht beschrijvend"
                 },
-                "instructions": "Omschrijf nu alstublieft de situaties met meer precisie. Plaats de stellingen vanuit de drie kaders in negen kaders. U kunt stellingen slepen en plaatsen van kader naar kader, maar als u te veel stellingen in één kader plaatst zal de titel van dit kader rood worden. De titel zal groen worden wanneer het juiste aantal stellingen in het kader is geplaatst."
+                "instructions": "Omschrijf nu alstublieft de situaties met meer precisie. Verdeel de mogelijke beschrijvingen vanuit de drie vakken in negen vakken. U kunt beschrijvingen tussen de vakken verplaatsen (door met de muis te slepen), maar als u te veel beschrijvingen in één vak plaatst, zal de titel van dit vak rood worden. De titel zal groen worden wanneer het juiste aantal beschrijvingen in het vak is geplaatst."
             }
         }
     },
