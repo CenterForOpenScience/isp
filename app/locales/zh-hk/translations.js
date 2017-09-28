@@ -675,7 +675,7 @@ export default {
                         "label": "遇到挫折時能保持樂觀的"
                     }
                 },
-                "label": "請表示你對下列陳述的同意程度：我是這樣的一個人：",
+                "label": "請表示你對下列陳述的同意程度：\n\n我是這樣的一個人：",
                 "options": {
                     "agree": "同意",
                     "agreeStrongly": "非常同意",
