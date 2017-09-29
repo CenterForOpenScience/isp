@@ -107,8 +107,8 @@ export default {
         },
         "checkboxLabel": "Olen eelnevad väited läbi lugenud ja nendest aru saanud ning nõustun uurimuses osalema.",
         "firstSection": "Tere tulemast osalema käesolevas uurimuses! Palume Sul kõigile küsimustele järjest vastata, kogu uuring võtab aega alla tunni.  Palume Sul kirjeldada ühte konkreetset olukorda, milles Sa hiljuti viibisid ning seda, kuidas Sa selles olukorras käitusid. Samuti küsime mõned küsimused Sinu väärtuste ja hoiakute kohta. Uurimuse lõpus anname Sulle soovi korral tagasisidet Sinu isiksuse seadumuste kohta.",
-        "secondSection": "Kõik Sinu vastused on täiesti konfidentsiaalsed ja anonüümsed, neile viitab vaid Sinu osalejanumber, mitte Sinu nimi. Uuringu anonümiseeritud andmed säilitatakse uurimistöö eesmärgil Center for Open Science poolt loodud veebikeskkonnas. Uuringu lõpetamiseks on vajalik vastata kõigile küsimustele, kuid Sa võid uuringus osalemise igal ajahetkel lõpetada. Selle uuringu abil püütakse parandada meie arusaama inimestest ja nende eludest erinevates kultuurikeskkondades. Uuringuga ei kaasne mingeid teadaolevaid riske.",
-        "thirdSection": "Kui Sul on uurimuse või enda kui uurimuses osaleja õiguste kohta mingeid küsimusi, palun võta ühendust [kohaliku kaasalööja nimi, e-mail ja kuuluvus], kes on uurimuse vastutav läbiviija Eestis või siis California Riverside Ülikooliga e-posti aadressil IRB@ucr.edu (Office of Research Integrity). Suur tänu koostöö eest, hindame seda kõrgelt!",
+        "secondSection": "Kõik Sinu vastused on täiesti konfidentsiaalsed ja anonüümsed, neile viitab vaid Sinu osalejakood, mitte Sinu nimi. Uuringu anonümiseeritud andmed säilitatakse uurimistöö eesmärgil Center for Open Science poolt loodud veebikeskkonnas. Uuringu lõpetamiseks on vajalik vastata kõigile küsimustele, kuid Sa võid uuringus osalemise igal ajahetkel lõpetada. Selle uuringu abil püütakse parandada meie arusaama inimestest ja nende eludest erinevates kultuurikeskkondades. Uuringuga ei kaasne mingeid teadaolevaid riske.",
+        "thirdSection": "Kui Sul on uurimuse või enda kui uurimuses osaleja õiguste kohta mingeid küsimusi, palun pöördu professor Anu Realo (anu.realo@ut.ee) poole, kes on uurimuse vastutav läbiviija Eestis või  võta ühendust California Riverside Ülikooliga e-posti aadressil IRB@ucr.edu (Office of Research Integrity). Suur tänu koostöö eest, hindame seda kõrgelt!",
         "title": "Nõusolek uurimuses osalemiseks",
         "versionHistory": "Nõusoleku vormi versioon: 16. oktoober 2016"
     },
@@ -121,10 +121,10 @@ export default {
         "consc": "Meelekindlus",
         "exitButton": "Välju",
         "extra": "Ekstravertsus",
-        "firstSection": "Tuginedes aastakümnete jooksul tehtud uuringute tulemusele, nõustub suurem oma isiksusepsühholooge, et kõige olulisemad inimeste vahelised erinevused on kokku võetavad viie põhilise isiksuse seadumuse abil, mida tuntakse \"Suure Viisiku\" all: ekstravertsus, sotsiaalsus, meelekindlus, emotsionaalne stabiilsus ja avatus kogemusele. Üks küsimustik, mille täitmise just lõpetasid, võimaldab anda tagasisidet Sinu paiknemise kohta nendel isiksuse dimensioonidel.",
-        "fourthSection": "Suur tänu uuringus osalemise eest!",
-        "hiAgree": "Kõrge skooriga inimesed on sotsiaalses suhtluses tähelepanelikud, hoolivad ja viisakad. Neile meeldib teistega koostööd teha, nende jaoks on lihtne inimesi usaldada ja tunda kaasa neile, kes seda vajavad. Kõrge skooriga inimesed üldiselt meeldivad oma kaaslastele ja nad loovad rahuldust pakkuvaid ning püsivai lähedasi suhteid. Nad on suurema tõenäosusega usklikud, kogukonna liidrid ja tegelevad vabatahtliku tööga.  Eakamatel inimesed kaldub olema kõrgem skoor kui noorematel inimestel.",
-        "hiConsc": "Kõrge skoor viitab organiseeritusele ja vastutustundlikkusele. Kõrge skooriga inimesed näevad palju vaeva oma eesmärkide saavutamise nimel ja nad viivad alustatud ülesanded lõpuni. Suure tõenäosusega saavad nad koolis paremaid hindeid ja on edukamad paljudel erinevatel alades. Kõrge skoori saajad on suurema tõenäosusega usklikud ja neil on konservatiivsed poliitilised vaated. Nad kipuvad tegema rohkem trenni, olema parema füüsilise tervisega ja elama kauem. Vanemad täiskasvanud saavad üldjuhul noortest kõrgemaid skoore.",
+        "firstSection": "Tuginedes aastakümnete jooksul tehtud uuringute tulemustele, nõustub suurem osa isiksusepsühholooge, et kõige olulisemad inimestevahelised erinevused on kokkuvõetavad viie põhilise isiksuse omaduse abil, mida tuntakse \"Suure Viisiku\" all: ekstravertsus, sotsiaalsus, meelekindlus, emotsionaalne stabiilsus ja avatus kogemusele. Üks Küsimustik, mille täitmise just lõpetasid, kirjeldab Sinu tulemust nendel isiksuse omadustel.",
+        "fourthSection": "Suur tänu!",
+        "hiAgree": "Kõrge skooriga inimesed on sotsiaalses suhtluses tähelepanelikud, hoolivad ja viisakad. Neile meeldib teistega koostööd teha, nende jaoks on lihtne inimesi usaldada ja tunda kaasa neile, kes seda vajavad. Kõrge skooriga inimesed üldiselt meeldivad oma kaaslastele ja nad loovad rahuldust pakkuvaid ning püsivaid lähedasi suhteid. Nad on suurema tõenäosusega usklikud, kogukonna liidrid ja tegelevad vabatahtliku tööga.  Eakamatel inimesed kaldub olema kõrgem skoor kui noorematel inimestel.",
+        "hiConsc": "Kõrge skoor viitab organiseeritusele ja vastutustundlikkusele. Kõrge skooriga inimesed näevad palju vaeva oma eesmärkide saavutamise nimel ja nad viivad alustatud ülesanded lõpuni. Suure tõenäosusega saavad nad koolis paremaid hindeid ja on edukamad paljudel erinevatel aladel. Kõrge skoori saajad on suurema tõenäosusega usklikud ja neil on konservatiivsed poliitilised vaated. Nad kipuvad tegema rohkem trenni, olema parema füüsilise tervisega ja elama kauem. Vanemad täiskasvanud saavad üldjuhul noortest kõrgemaid skoore.",
         "hiExtra": "Kõrge skoor viitab jutukusele ja energilisusele. Kõrge skoori saanud inimestele meeldib olla ümbritsetud teistest inimestest ja nad tunnevad ennast grupiga liitudes enesekindlalt ja mugavalt. Kõrge skoori saajatel on tihti rohkem sõpru ja kohtingukaaslasi ja neid peetakse teistest populaarsemateks. Nad on suurema tõenäosusega kogukonna liidrid ja tegelevad vabatahtliku tööga. Neile meeldib energiline muusika, nad teevad rohkem trenni ja tegelevad suurema tõenäosusega spordiga. Nad kogevad sagedamini positiivseid emotsioone ja reageerivad tugevamalt positiivsetele sündmustele.",
         "hiNeurot": "Kõrge skoor viitab emotsionaalsele stabiilsusele ja vastupidavusele. Kõrge skooriga inimesed jäävad ka stressirohkes olukorras üldiselt rahulikuks ja saavad negatiivsetest sündmustest kiiresti üle; neil on kõrgem heaolu ja eluga rahulolu.",
         "hiOpen": "Kõrge skooriga inimesed on üldiselt avatud uutele tegevustele ja ideedele. Nad kipuvad olema loomingulised, intellektuaalselt uudishimulikud ja tundlikud kunsti ning ilu suhtes. Kõrge skooriga inimesed eelistavad ja saavad edukamalt hakkama teaduse- ja kunstivaldkondades. Neile meeldib klassikaline muusika, jazz, blues ja rokkmuusika.",
@@ -142,8 +142,8 @@ export default {
         "open": "Avatus kogemusele",
         "score": "Sinu skoor 100st võimalikust punktist on:",
         "secondSection": "Iga isiksuse omaduse puhul näitab skoor üle 60 punkti kõrget tulemust ja alla 40 punkti madalat tulemust. Kirjeldused vastavate punktiskooride kohta ilmuvad allpool. Kui Sinu tulemus on 40 ja 60 punkti vahel, tähendab see, et oled saanud sel isiksuse omadusel keskmise tulemuse.",
-        "thirdSection": "Loodame, et uuringus osalemine pakkus Sulle huvi.",
-        "title": "Sinu isiksus"
+        "thirdSection": "Loodame, et uuringus osalemine oli meeldiv ja huvipakkuv!",
+        "title": "Isiksusetesti tagasiside"
     },
     "flag": {
         "chooseLanguage": "Palun vali keel"
@@ -182,7 +182,7 @@ export default {
     "login": {
         "changeButton": "Vaheta keelt",
         "defaultError": "Palun proovi hiljem uuesti.",
-        "errorHeading": "Sisselogimisel esines viga",
+        "errorHeading": "Sisselogimisel tekkis viga",
         "invalidAuthError": "Vale uuringu- või osalejakood.",
         "participantID": "Osalejakood",
         "studyID": "Uuringukood",
@@ -310,7 +310,7 @@ export default {
                         "label": "Tahan, et inimesed teaksid, et olen tähtis ja kõrge staatusega inimene."
                     },
                     "2": {
-                        "label": "Kui ma kelleltki midagi tahan, siis naeran ka selle inimese halvimate naljade peale."
+                        "label": "Kui ma kelleltki midagi vajan, siis naeran ka selle inimese halvimate naljade peale."
                     },
                     "3": {
                         "label": "Ma ei teeskleks, et keegi mulle meeldib lihtsalt selleks et temalt mõnda teenet välja meelitada."
@@ -418,7 +418,7 @@ export default {
                     "hardlyEver": "Peaaegu mitte kunagi",
                     "never": "Mitte kunagi",
                     "occasionally": "Aeg-ajalt",
-                    "quiteOften": "Väga tihti"
+                    "quiteOften": "Väga sageli"
                 }
             },
             "3": {
@@ -823,16 +823,16 @@ export default {
             "9": {
                 "items": {
                     "1": {
-                        "label": "Sa eelistad oma mõtteid ja tundeid väljendada, isegi kui see võib mõnikord konflikti põhjustada"
+                        "label": "Sa eelistad oma mõtteid ja tundeid väljendada, isegi kui see võib mõnikord konflikti põhjustada."
                     },
                     "10": {
                         "label": "Sa käitud erinevate inimestega koos olles erineval viisil."
                     },
                     "11": {
-                        "label": "Sa näed ennast erinevalt, kui oled koos erinevate inimestega."
+                        "label": "Sa näed ennast erinevate inimestega koos olles erineval viisil."
                     },
                     "12": {
-                        "label": "Sa näed ennast samal viisil isegi kui viibid erinevates sotsiaalsetes olukordades."
+                        "label": "Sa näed ennast erinevates sotsiaalsetes olukordades samal viisil."
                     },
                     "13": {
                         "label": "Sa käitud ühel ja samal viisil erinevate inimestega koos olles."
@@ -875,15 +875,15 @@ export default {
     },
     "previouslogin": {
         "line1": "Meie andmed näitavad, et oled käesolevas uuringus juba osalenud.",
-        "line2": "Kui see informatsioon on ekslik, palun võta ühendust [kohaliku kaastöötaja nimi, e-mail ja kuuluvus], kes on Rahvusvahelise Situatsioonide Projekti vastutav läbiviija Eestis."
+        "line2": "Kui see informatsioon on ekslik, palun pöördu professor Anu Realo (anu.realo@ut.ee) poole, kes on käesoleva uuringu vastutav läbiviija Eestis."
     },
     "qsort": {
         "rsq": {
             "item": {
-                "SomoneCountedon": "Kellegi teise kui Sinu peale loodetakse millegi tegemisel",
+                "SomoneCountedon": "Kellegi teise kui Sinu peale loodetakse millegi tegemisel.",
                 "abusedVictimized": "Sind väärkoheldakse või Sulle põhjustatakse kannatusi.",
                 "adviceYou": "Teised soovivad Sinult nõu.",
-                "ambition": "Ambitsioonikust (edasipüüdlikkust) on võimalik väljendada.",
+                "ambition": "Olukord võimaldab ambitsioonikust väljendada.",
                 "anxietyInducing": "Olukord on potentsiaalselt ärevust tekitav.",
                 "art": "Kunstil on olukorras tähtis roll.",
                 "askingYou": "Keegi palub Sinult midagi.",
@@ -919,7 +919,7 @@ export default {
                 "honor": "Auküsimus on kaalul.",
                 "hostile": "Olukord võib tekitada inimestes vaenulikkust",
                 "humorous": "Olukord on humoorikas või potentsiaalselt humoorikas.",
-                "intellectuallyStimulating": "Olukord võiks olla intellektuaalselt stimuleeriv.",
+                "intellectuallyStimulating": "Olukord võib olla intellektuaalselt stimuleeriv.",
                 "intelligence": "Intelligentsus on oluline (nt intellektuaalne vestlus; keeruline probleem, mis vajab lahendamist).",
                 "jobDone": "Teatud töö vajab tegemist.",
                 "masculinity": "Olukord võimaldab mehelikkust (maskuliinsust) väljendada.",
@@ -928,27 +928,27 @@ export default {
                 "moralIssues": "Esiplaanil on moraalsed või eetilised probleemid.",
                 "music": "Muusikal on antud olukorras tähtis roll.",
                 "needsHelp": "Keegi vajab abi.",
-                "negativeEmotions": "Olukord võib esile kutsuda negatiivseid emotsioone",
+                "negativeEmotions": "Olukord võib põhjustada negatiivseid emotsioone.",
                 "newRelationships": "Võivad areneda uued suhted.",
-                "noisy": "Olukord on lärmakas (\"mitteiseloomulik\" viitab, et olukord on väga vaikne)",
+                "noisy": "Olukord on lärmakas (\"ei ole iseloomulik\" viitab, et olukord on väga vaikne).",
                 "notClear": "Ei ole selge, mis toimub; olukord on ebakindel.",
                 "oppositeSex": "Vastassoo esindajatel on olukorras oluline roll.",
                 "peopleGetAlong": "On oluline, et inimesed saaksid omavahel hästi läbi.",
                 "physicalAttractiveness": "Sinu füüsiline atraktiivsus on oluline.",
                 "physicalThreats": "Olukord sisaldab füüsilisi ohte.",
                 "physicallyActive": "Inimesed on füüsiliselt aktiivsed.",
-                "physicallyUncomfortable": "Olukord on füüsiliselt ebamugav (nt liiga kuum, ülerahvastatud, liiga külm jne). (\"Mitteiseloomulik\" viitab, et olukord ei tekita mitte mingeid füüsilisi ebamugavusi)",
+                "physicallyUncomfortable": "Olukord on füüsiliselt ebamugav (nt liiga kuum, ülerahvastatud, liiga külm jne). (\"Ei ole iseloomulik\" viitab, et olukord ei tekita mitte mingeid füüsilisi ebamugavusi).",
                 "playful": "Olukord on mänguline.",
                 "politics": "Olukord on poliitikaga seotud (nt poliitika-teemaline arutelu).",
-                "positiveEmotions": "Olukord võib esile kutsuda positiivseid emotsioone",
+                "positiveEmotions": "Olukord võib põhjustada positiivseid emotsioone.",
                 "potentiallyEnjoy": "Olukord on potentsiaalselt nauditav.",
                 "power": "Võim on tähtis.",
                 "quickAction": "Olukord nõuab kiiret tegutsemist.",
                 "rapidlyChanging": "Olukord muutub kiiresti.",
-                "reassurance": "Keegi vajab või soovib rahustamist ning kindluse tagasi saamist.",
+                "reassurance": "Keegi vajab või soovib rahustamist ja kindlustunnet.",
                 "reassuringPresent": "Kohal on keegi, kes pakub kindlustunnet.",
                 "relevantHealth": "Olukord on Sinu tervise seisukohast oluline (näiteks võimalik haigestumine, arsti külastamine).",
-                "religion": "Religioon on olukorraga seotud (nt usuteenistus või religiooni-alane arutelu)",
+                "religion": "Religioon on olukorraga seotud (nt usuteenistus või religiooni-alane arutelu).",
                 "romanticPartners": "Kohal on Sinu võimalikud või tegelikud romantilised partnerid.",
                 "ruminateDaydream": "On võimalik mõtiskleda, unistada või fantaseerida.",
                 "selfControl": "Enesekontroll on vajalik (kas endal või teistel).",
@@ -962,7 +962,7 @@ export default {
                 "takenCareOf": "Kellegi eest on vaja hoolitseda.",
                 "talkingExpected": "Rääkimist oodatakse või nõutakse.",
                 "talkingPermitted": "Rääkimine on lubatud.",
-                "tenseUpset": "Olukord võib tekitada inimestes pinget või neid ärritada.",
+                "tenseUpset": "Olukord võib tekitada inimestes närvilisust ja pinget.",
                 "tryingImpress": "Keegi üritab Sulle muljet avaldada.",
                 "underThreat": "Keegi on ohus.",
                 "unhappySuffering": "Keegi on õnnetu või kannatab.",
@@ -978,9 +978,9 @@ export default {
                 "categories": {
                     "characteristic": "Iseloomulik",
                     "neutral": "Neutraalne",
-                    "uncharacteristic": "Ei ole iseloomulik (mitteiseloomulik)"
+                    "uncharacteristic": "Ei ole iseloomulik"
                 },
-                "instructions": "Nüüd palume Sul kogetud olukorda täpsemalt kirjeldada. Ükshaaval ilmuvad ekraanile 90 väidet. Aseta iga väide etteantud kolme kasti. Kasuta ekraani paremas servas asuvat kasti „Iseloomulik“ nende väidete jaoks, mis toimunut täpselt kirjeldavad. Ekraani vasakus servas asuvasse kasti „Mitteiseloomulik“ pane need väited, mis toimunut ei kirjelda ning kasti „Neutraalne“ väited, mida ei saa antud olukorra kohta kasutada või mille sobivuses kahtled. Kui oled lõpetanud, vajuta nupule „Edasi“.",
+                "instructions": "Nüüd palume Sul kogetud olukorda täpsemalt kirjeldada. Ükshaaval ilmuvad ekraanile 90 väidet. Aseta iga väide etteantud kolme kasti. Kasuta ekraani paremas servas asuvat kasti „Iseloomulik“ nende väidete jaoks, mis toimunut täpselt kirjeldavad. Ekraani vasakus servas asuvasse kasti „Ei ole iseloomulik“ pane need väited, mis toimunut ei kirjelda ning kasti „Neutraalne“ väited, mida ei saa antud olukorra kohta kasutada või mille sobivuses kahtled. Kui oled lõpetanud, vajuta nupule „Jätka“.",
                 "itemsLeft": {
                     "one": "{{count}} Väiteid jäänud:",
                     "other": "{{count}} Nõue:"
@@ -1000,7 +1000,7 @@ export default {
                     "somewhatChar": "Mõnevõrra iseloomulik",
                     "somewhatUnchar": "Mõnevõrra mitteiseloomulik"
                 },
-                "instructions": "Järgnevalt kirjelda kogetud olukorda veelgi täpsemalt. Selleks palun jaga kolmest kastist väited ümber üheksasse kasti. Seda saad teha väiteid ühest kastist teise lohistades. Kui asetad ühte kasti liiga palju väiteid, läheb selle pealkiri punaseks. Kasti pealkiri muutub roheliseks kui selles on etteantud arv väiteid."
+                "instructions": "Järgnevalt kirjelda kogetud olukorda veelgi täpsemalt. Selleks palun jaga kolmest kastist väited ümber üheksasse kasti. Seda saad teha väiteid ühest kastist teise lohistades. Kui asetad ühte kasti liiga palju väiteid, läheb selle kohal olev väidete loend punaseks. Väidete loend muutub mustaks kui selles on etteantud arv väiteid."
             }
         }
     },
@@ -1037,15 +1037,15 @@ export default {
                         "label": "Skaalal ühest kümneni, kuidas kirjeldaksid oma perekonna majanduslikku seisu?",
                         "options": {
                             "average": "Keskmine",
-                            "least": "Väga halval järjel",
-                            "most": "Väga heal järjel"
+                            "least": "Väga vilets",
+                            "most": "Väga jõukas"
                         }
                     },
                     "6": {
                         "label": "Sünnilinn"
                     },
                     "7": {
-                        "label": "Kodukoht",
+                        "label": "Elukoht",
                         "options": {
                             "remoteRural": "talu või kodu maakohas",
                             "rural": "küla või alev",
