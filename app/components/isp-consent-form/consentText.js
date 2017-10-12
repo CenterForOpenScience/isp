@@ -439,6 +439,17 @@ const consentText = {
         "title": "Consent to Participate in Research",
         "versionHistory": "(Consent form version: 14 October 2016)"
     },
+    "KENYA1.ENG": {
+        "buttonLabel": "Please accept terms to continue",
+        "consentLabel": "I have read and understand the above statements and agree to participate.",
+        "paragraphs": [
+            "Welcome to our study. Your participation will be in one session and will take less than one hour. You will be asked to describe a situation you experienced recently and your behaviors in it. You will also be asked some questions about your values and attitudes.  At the end of the study, if you choose, you will receive personalized information about your personality.",
+            "All of your responses will be confidential and identified only by a number (and not by your name).  For research purposes, these anonymous data may be archived in an online database maintained by the Center for Open Science (www.cos.io). Each question must be answered in order to complete this survey, but you can discontinue your participation at any time without penalty. The potential benefits of this research include improving the understanding of persons and their lives across cultural contexts.  There are no known risks.",
+            "If you have any questions about this study or your rights as a participant, you may contact David Clarence, david.clarance@busaracenter.org, from the Busara Center for Behavioral Economics, who is responsible for data collection at your location, or the University of California, Riverside, Office of Research Integrity by email at IRB@ucr.edu. We sincerely appreciate your cooperation."
+        ],
+        "title": "Consent to Participate in Research",
+        "versionHistory": "(Consent form version: 14 October 2016)"
+    },
     "NEWZ1.ENG": {
         "buttonLabel": "Please accept terms to continue",
         "consentLabel": "I have read and understand the above statements and agree to participate.",
@@ -1074,7 +1085,7 @@ const consentText = {
         "paragraphs": [
             "Chào mừng tham gia vào nghiên cứu của chúng tôi. Sự cộng tác tham gia của bạn sẽ được thực hiện trong một phần trọn vẹn với thời gian gần một giờ đồng hồ. Bạn sẽ được yêu cầu miêu tả một tình huống được trải nghiệm gần đây, cũng như những hành vi của bạn trong tình huống đó. Ngoài ra, bạn sẽ được hỏi một số câu hỏi có liên quan tới giá trị và thái độ của bạn. Kết thúc nghiên cứu, nếu lựa chọn, bạn sẽ nhận được thông tin cá nhân mô tả về nhân cách của bạn.",
             "Tất cả câu trả lời của bạn sẽ được bảo mật và được nhận dạng bởi một con số (mà không phải tên của bạn). Vì mục tiêu nghiên cứu, những thông tin bảo mật trên có thể được lưu trữ trên một cơ sở dự liệu trực tuyến, được duy trì bởi Trung tâm khoa học Mở (www.cos.io). Bạn phải trả lời tất cả các câu hỏi để hoàn thành nghiên cứu này. Nhưng bạn có thể dừng tham gia bất cứ lúc nào mà không phải chịu bất cứ hình phạt nào. Lợi ích tiềm tàng của nghiên cứu này được thể hiện ở việc sẽ góp phần nâng cao hiểu biết về con người/cá nhân, cũng như cuộc sống của họ trong bối cảnh văn hóa khác nhau. Không có rủi ro nào được chỉ ra.",
-            "Nếu có câu hỏi nào liên quan đến nghiên cứu này, hoặc quyền lợi của bạn với tư cách là người tham gia nghiên cứu, bạn có thể liên hệ với cộng tác viên ở khu vực của bạn, Bui Thu Huyen, huyenbuithu2004@gmail.com. Đây là người chịu trách nhiệm thu thập số liệu ở khu vực mà bạn tham gia, hoặc bạn có thể email tới trường đại học California, Riverside, Văn phòng Xác minh nghiên cứu  tại địa chỉ IRB@ucr.edu. Chúng tôi chân thành cảm ơn sự hợp tác của bạn."
+            "Nếu có câu hỏi nào liên quan đến nghiên cứu này, hoặc quyền lợi của bạn với tư cách là người tham gia nghiên cứu, bạn có thể liên hệ với cộng tác viên ở khu vực của bạn, Bui Thi Thu Huyen, huyenbuithu2004@gmail.com. Đây là người chịu trách nhiệm thu thập số liệu ở khu vực mà bạn tham gia, hoặc bạn có thể email tới trường đại học California, Riverside, Văn phòng Xác minh nghiên cứu  tại địa chỉ IRB@ucr.edu. Chúng tôi chân thành cảm ơn sự hợp tác của bạn."
         ],
         "title": "Cam kết tham gia nghiên cứu",
         "versionHistory": "(Phiếu chấp thuận phiên bản: 14 tháng 10 năm 2016)"

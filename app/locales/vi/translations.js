@@ -107,7 +107,7 @@ export default {
         },
         "checkboxLabel": "Tôi đã đọc, hiểu các điều khoản trên và đồng ý tham gia.",
         "firstSection": "Chào mừng tham gia vào nghiên cứu của chúng tôi. Sự cộng tác tham gia của bạn sẽ được thực hiện trong một phần trọn vẹn với thời gian gần một giờ đồng hồ. Bạn sẽ được yêu cầu miêu tả một tình huống được trải nghiệm gần đây, cũng như những hành vi của bạn trong tình huống đó. Ngoài ra, bạn sẽ được hỏi một số câu hỏi có liên quan tới giá trị và thái độ của bạn. Kết thúc nghiên cứu, nếu lựa chọn, bạn sẽ nhận được thông tin cá nhân mô tả về nhân cách của bạn.",
-        "secondSection": "Tất cả câu trả lời của bạn sẽ được bảo mật và được nhận dạng bởi một con số (mà không phải tên của bạn). Vì mục tiêu nghiên cứu, những thông tin bảo mật trên có thể được lưu trữ trên một cơ sở dự liệu trực tuyến, được duy trì bởi Trung tâm khoa học Mở (www.cos.io). Bạn phải trả lời tất cả các câu hỏi để hoàn thành nghiên cứu này. Nhưng bạn có thể dừng tham gia bất cứ lúc nào mà không phải chịu bất cứ hình phạt nào. Lợi ích tiềm tàng của nghiên cứu này được thể hiện ở việc sẽ góp phần nâng cao hiểu biết về con người/cá nhân, cũng như cuộc sống của họ trong bối cảnh văn hóa khác nhau. Không có rủi ro nào được chỉ ra.",
+        "secondSection": "Tất cả câu trả lời của bạn sẽ được bảo mật và được nhận dạng bởi một con số (mà không phải tên của bạn). Vì mục đích nghiên cứu, những thông tin bảo mật trên có thể được lưu trữ trên một cơ sở dự liệu trực tuyến, được duy trì bởi Trung tâm khoa học Mở (www.cos.io). Bạn phải trả lời tất cả các câu hỏi để hoàn thành nghiên cứu này, nhưng bạn cũng có thể dừng tham gia bất cứ lúc nào mà không bị phạt. Lợi ích tiềm tàng của nghiên cứu này được thể hiện ở việc sẽ góp phần nâng cao hiểu biết về con người, cũng như cuộc sống của họ trong bối cảnh văn hóa khác nhau. Không có rủi ro nào được chỉ ra.",
         "thirdSection": "Nếu có câu hỏi nào liên quan đến nghiên cứu này, hoặc quyền lợi của bạn với tư cách là người tham gia nghiên cứu, bạn có thể liên hệ với cộng tác viên ở khu vực của bạn (chúng tôi đã cung câp tên, địa chỉ email và xác nhận tư cách làm cộng tác viên). Đây là người chịu trách nhiệm thu thập số liệu ở khu vực mà bạn tham gia, hoặc bạn có thể email tới trường đại học California, Riverside, Văn phòng Xác minh nghiên cứu  tại địa chỉ IRB@ucr.edu. Chúng tôi chân thành cảm ơn sự hợp tác của bạn.",
         "title": "Cam kết tham gia nghiên cứu",
         "versionHistory": "(Phiếu chấp thuận phiên bản: 14 tháng 10 năm 2016)"
@@ -121,13 +121,13 @@ export default {
         "consc": "Sự tận tâm",
         "exitButton": "Thoát",
         "extra": "Sự hướng ngoại",
-        "firstSection": "Dựa trên nhiều thập kỷ nghiên cứu, các nhà nghiên cứu về nhân cách đều thống nhất rằng phần lớn những khác biệt cá nhân quan trọng về các đặc điểm nhân cách đều được mô tả bởi năm nét gọi tên là \"Big Five\" (Năm nét lớn), bao gồm: sự hướng ngoại, sự hòa hợp, sự tận tâm, sự ổn định về cảm xúc và sự cởi mở với những trải nghiệm. Những mức đánh giá bạn vừa đưa ra sẽ cho bạn số điểm về một trong những nét nhân cách trên. Dưới đây là kết quả của bạn:",
+        "firstSection": "Dựa trên nhiều thập kỷ nghiên cứu, các nhà nghiên cứu về nhân cách đều thống nhất rằng phần lớn những khác biệt cá nhân quan trọng nhấtvề các đặc điểm nhân cách đều được mô tả bởi năm nét gọi tên là \"Big Five\" (Năm nét lớn), bao gồm: sự hướng ngoại, sự hòa hợp, sự tận tâm, sự ổn định về cảm xúc và sự cởi mở với những trải nghiệm.Những thang đo mà bạn vừa hoàn thànhsẽ cho bạn số điểm về một trong những nét nhân cách trên. Dưới đây là kết quả của bạn:",
         "fourthSection": "Cảm ơn vì đã tham gia nghiên cứu!",
         "hiAgree": "Những người được điểm cao có xu hướng chu đáo và lịch sự trong ứng xử xã hội; cũng như thích hợp tác với những người khác. Họ dễ tin tưởng mọi người, và cảm thấy thương cho những hoàn cảnh cần giúp đỡ. Những người được điểm cao có xu hướng được bạn bè quý mến, và họ tạo nên những mối quan hệ thân thiết bền vững, vui vẻ. Họ có thể theo một tôn giáo nào đó, để phục vụ cho vai trò lãnh đạo trong cộng đồng và làm công việc tình nguyện. Những người lớn tuổi có xu hướng đạt điểm cao hơn người trẻ tuổi.",
         "hiConsc": "Những người đạt điểm cao có xu hướng là người có trách nhiệm và ngăp nắp. Họ làm việc chăm chỉ để đạt được mục tiêu bà hoàn thành những nhiệm vụ họ mới bắt đầu. Những người điểm cao có xu hướng đạt điểm số tốt ở trường, và thể hiện tốt trong nhiều công việc. Họ có thể có thái đội chính trị bảo thủ và có niềm tin tôn giáo. Họ có xu hướng luyện tập nhiều hơn, có sức khỏe tốt hơn và sống lâu hơn. Những người lớn tuối đạt điểm cao hơn người trẻ.",
         "hiExtra": "Những người có số điểm cao có xu hướng nói nhiều và nhiệt tình. Họ muốn ở cạnh những người khác, và thấy thoải mái khi khẳng định bản thân trong nhóm hoạt động. Những người có điểm cao có xu hướng có nhiều bạn bè và bạn khác giới để hẹn hò, và điều này được xem như ngày càng phổ biến hơn. Những người này có thể đóng vai trò lãnh đạo trong cộng đồng và làm công việc tình nguyện. Họ có thiên hướng thích âm nhạc sôi nổi, tập thể dục thường xuyên và thích chơi thể thao. Họ trải nghiêm những cảm xúc tích cực nhiều hơn và phản ứng mạnh mẽ hơn trước những sự kiện tích cực.",
         "hiNeurot": "Những người điểm cao có xu hướng ổn định về xúc cảm và kiên cường. Họ thường bình tĩnh, ngay cả trong những tình huống căng thẳng, và nhanh chóng vượt ra khỏi những sự việc tiêu cực. Những người có sự ổn định cảm xúc có xu hướng cảm thấy mình hạnh phúc hơn.",
-        "hiOpen": "Những người điểm cao nhìn chung cởi mở hơn trước những hoạt động và ý tưởng mới. Họ có xu hướng sáng tạo, hiếu kỳ về tư duy, và nhạy cảm với nghệ thuật và cái đẹp. Những người điểm cao thích và làm tốt hơn trong những công việc về khoa học và nghệ thuật. Họ thích nhạc cổ điển, jazz, nhạc blu và rock.",
+        "hiOpen": "Những người điểm cao nhìn chung cởi mở hơn trước những hoạt động và ý tưởng mới. Họ có xu hướng sáng tạo, hiếu kỳ về tư duy, và nhạy cảm với nghệ thuật và cái đẹp. Những người điểm cao thích và làm tốt hơn trong những công việc về khoa học và nghệ thuật. Họ thích nhạc cổ điển, jazz, nhạc bluesvà rock.",
         "labels": {
             "high": "Cao",
             "low": "Thấp",
@@ -135,12 +135,12 @@ export default {
         },
         "loAgree": "Những người điểm thấp thể hiện bản thân theo cách trực diện và thẳng thắn, ngay cả khi điều đó châm ngòi cho một cuộc tranh luận. Họ thích sựu cạnh tranh, và hoài nghi về ý định của những người khác. Những người điểm thấp có xu hướng kiếm tiền nhiều, và tham gia các hành vi nguy hiểm, như hút thuốc và lái xe rất táo tợn",
         "loConsc": "Những người điểm thấp có xu hướng hành động tự phát hơn là theo kế hoạch. Họ thấy việc xem xét một bức tranh tổng thể dễ dàng hơn khi phải nhìn nhận từng chi tiết. Họ thích nhảy từ việc này sang việc khác hơn là hoàn thành lần lượt từng việc. Họ có xu hướng tham gia/liên quan những hành vi liều lĩnh như hút thuốc, sử dụng đồ uống có cồn và ma túy.",
-        "loExtra": "Những người điểm thấp có xu hướng ngược lại về cảm xúc và quan hệ xã hội. Nhìn chung, họ thích ở một mình hoặc chỉ với một vài người bạn thân, và giữ riêng cho mình những cảm xúc và quan điểm. Họ không thích than gia những hoạt động tìm kiếm cảm giác hồi hộp hoặc những hành vi gây rủi ro như hút thuốc và sử dụng đồ uống có cồn.",
+        "loExtra": "Những người điểm thấp có xu hướng ngược lại về cảm xúc và quan hệ xã hội. Nhìn chung, họ thích ở một mình hoặc chỉ với một vài người bạn thân, và giữ riêng cho mình những cảm xúc và quan điểm. Họ không thích thamgia những hoạt động tìm kiếm cảm giác hồi hộp hoặc những hành vi gây rủi ro như hút thuốc và sử dụng đồ uống có cồn.",
         "loNeurot": "Những người điểm thấp có xu hướng nhạy cảm, và trạng thái cảm xúc lên xuống  thất thường. Họ trải nghiệm những cảm xúc tiêu cực nhiều hơn và phản ứng mạnh mẽ trước những điều tiêu cực. Những người trẻ có xu hường điểm thấp hơn những người lớn.",
         "loOpen": "Những người điểm thấp có xu hướng truyền thống, thực tế và thích gắn với những cách làm cổ truyền. Họ thích những cái đã quen hơn những cái mới, những cái cụ thể hơn trừu tượng. Những người điểm thấp có xu hướng thích và làm tốt hơn các công việc truyền thống và thực tiễn như làm nghề thủ công và buôn bán kinh doanh.",
         "neurot": "Sự ổn định về cảm xúc",
         "open": "Sự cởi mở với những trải nghiệm",
-        "score": "Điểm của bạn trên 100 có thể:",
+        "score": "Điểm của bạn trong thang đo 100 là:",
         "secondSection": "Với mỗi nét nhân cách, trên 60 điểm được đánh giá là cao, dưới 40 điểm là thấp. Sự mô tả về đặc điểm những người đạt điểm cao, thấp được đưa ra dưới đây. Nếu điểm của bạn từ 40 đến 60, nhân cách của bạn có thể ở mức trung bình trong những thuộc tính được đưa ra.",
         "thirdSection": "Chúng tôi hy vọng bạn hài lòng với việc cộng tác tham gia  nghiên cứu này",
         "title": "Nhân cách của bạn"
@@ -173,11 +173,11 @@ export default {
             "aLittle": "Một chút",
             "notAtAll": "Hoàn toàn không"
         },
-        "noLabel": "Sai",
+        "noLabel": "Không",
         "previousLabel": "Trang trước",
         "progress": "Tiến độ",
         "selectUnselected": "Hãy lựa chọn",
-        "yesLabel": "Đúng"
+        "yesLabel": "Có"
     },
     "login": {
         "changeButton": "Thay đổi ngôn ngữ",
@@ -191,7 +191,7 @@ export default {
     "measures": {
         "questions": {
             "1": {
-                "label": "Nói chung, tính huống được miêu tả mang lại cho bạn trải nghiệm tích cực hay tiêu cực?",
+                "label": "Nói chung, tìnhhuống được miêu tả mang lại cho bạn trải nghiệm tích cực hay tiêu cực?",
                 "options": {
                     "extremelyNeg": "Cực kì tiêu cực",
                     "extremelyPos": "Cực kì tích cực",
@@ -280,7 +280,7 @@ export default {
                         "label": "Nếu có thể có vấn đề gì xảy ra với tôi, thì chắc chắn điều đó sẽ đến"
                     },
                     "3": {
-                        "label": "Tôi thường lạc quan về tương lại"
+                        "label": "Tôi thường lạc quan về tương lai"
                     },
                     "4": {
                         "label": "Tôi hầu như không mong đợi mọi điều diễn ra theo cách của mình"
@@ -390,7 +390,7 @@ export default {
                         "label": "Tôi muốn đối thủ của mình thua cuộc"
                     },
                     "6": {
-                        "label": "Nếu ai đó cướp mất phần của tôi, tôi sẽ phản ứng/ tỏ ra bực mình/khó chịu"
+                        "label": "Tôi tỏ ra bực mình/khó chịu nếu ai đó lấy mất đồ của tôi"
                     }
                 },
                 "label": "Hãy đánh giá mức độ đồng ý hoặc không đối với các nhận định sau.",
@@ -478,7 +478,7 @@ export default {
                     "extremelyUnchar": "Cực kì không điển hinh",
                     "fairlyChar": "Khá điển hình",
                     "fairlyUnchar": "Khá không điển hình",
-                    "neutral": "Không có tính cách cũng không khác biệt",
+                    "neutral": "Bình thường/ trung lập",
                     "quiteChar": "Rất điển hình",
                     "quiteUnchar": "Rất không điển hình",
                     "somewhatChar": "Hơi điển hình",
@@ -585,7 +585,7 @@ export default {
                         "label": "cảm thấy khó gây ảnh hưởng cho mọi người"
                     },
                     "37": {
-                        "label": "Đôi khi thô lỗ/khiếm nhã với người khác"
+                        "label": "Đôi khi khiếm nhã với người khác"
                     },
                     "38": {
                         "label": "Có năng lực, hoàn thành công việc"
@@ -597,7 +597,7 @@ export default {
                         "label": "Thoải mái, giải quyết căng thẳng tốt"
                     },
                     "40": {
-                        "label": "Phức tạp, là người nghĩ sâu sắc"
+                        "label": "Phức tạp, là người suy nghĩ sâu sắc"
                     },
                     "41": {
                         "label": "Tràn đầy năng lượng"
@@ -701,14 +701,14 @@ export default {
                         }
                     },
                     "3": {
-                        "label": "Một số người rất hạnh phúc. Họ tận hưởng cuộc sống dù điều gì đang diễn ra, và cố gắng hưởng thụ những gì có được. Mô tả sau đây thể hiện bản thân bạn ở mức độ nào?",
+                        "label": "Một số người rất hạnh phúc. Họ tận hưởng cuộc sống dù điều gì đang diễn ra, và cố gắng hưởng thụ những gì có được. Mô tả trên thể hiện bản thân bạn ở mức độ nào?",
                         "options": {
                             "aGreatDeal": "Rất nhiều",
                             "notAtAll": "Hoàn toàn không"
                         }
                     },
                     "4": {
-                        "label": "Một số người không hạnh phúc. Mặc dù họ không tuyệt vọng, nhưng dường như không bao giờ hạnh phúc như họ thể hiện. Mô tả sau đây thể hiện bản thân bạn ở mức độ nào?",
+                        "label": "Một số người không hạnh phúc. Mặc dù họ không tuyệt vọng, nhưng dường như không bao giờ hạnh phúc như họ thể hiện. Mô tả trên đây thể hiện bản thân bạn ở mức độ nào?",
                         "options": {
                             "aGreatDeal": "Nhiều",
                             "notAtAll": "Hoàn toàn không"
@@ -723,7 +723,7 @@ export default {
                         "label": "Tôi tin rằng tôi và những người xung quanh tôi hạnh phúc"
                     },
                     "2": {
-                        "label": "Tôi cảm thấy rằng tôi được mọi người xung quanh đánh gia tích cực"
+                        "label": "Tôi cảm thấy rằng tôi được mọi người xung quanh đánh giá tích cực"
                     },
                     "3": {
                         "label": "Tôi khiến nhiều người khác hạnh phúc"
@@ -813,7 +813,7 @@ export default {
                 "label": "Hãy đánh giá mức độ bạn đồng ý hoặc không đồng ý với những điều sau:",
                 "options": {
                     "believeLittle": "Tin tưởng một chút",
-                    "believeStrong": "Rất không tin tưởng",
+                    "believeStrong": "Rất tin tưởng",
                     "disbelieveLittle": "Hoài nghi một chút",
                     "disbelieveStrong": "Rất hoài nghi",
                     "neutral": "Trung lập, không có ý kiến gì",
@@ -932,7 +932,7 @@ export default {
                 "newRelationships": "Những mối quan hệ mới có thể phát triển",
                 "noisy": "Đây là tình huống ầm ĩ (việc đánh giá ở mức thấp có nghĩa rằng tình huống này rất trầm lặng)",
                 "notClear": "Những gì đang diễn ra không rõ ràng; tình huống không chắc chắn",
-                "oppositeSex": "Sự hiện diện của những thành viên khác giới tính là một yếu tố quan trọng trong tình huống này",
+                "oppositeSex": "Sự hiện diện của những thành viên khác giới là một yếu tố quan trọng trong tình huống này",
                 "peopleGetAlong": "Sự hòa hợp giữa mọi người  rất quan trọng",
                 "physicalAttractiveness": "Vẻ hấp dẫn bề ngoài của bạn là quan trọng",
                 "physicalThreats": "Xuất hiện những mối đe dọa về thể chất",
@@ -946,12 +946,12 @@ export default {
                 "quickAction": "Hành động nhanh là cần thiết",
                 "rapidlyChanging": "Tinh huống đang thay đổi nhanh chóng",
                 "reassurance": "Ai đó cần hoặc khao khát sự yên tâm/bình tâm",
-                "reassuringPresent": "Có sự hiện diện của người khiến bạn yên tâm/ yên lòng",
+                "reassuringPresent": "Có sự hiện diện của một người đáng tin",
                 "relevantHealth": "Tình huống liên quan đến sức khỏe của bạn (ví dụ, nguy cơ bị ốm, đi thăm khám)",
                 "religion": "Tình huống này liên quan đến tôn giáo (ví dụ, một lời khuyên hoặc một cuộc thảo luận mang tính tôn giáo)",
                 "romanticPartners": "Có sự xuất hiện của bạn trai/bạn gái của bạn, hoặc người yêu tương lai của bạn",
                 "ruminateDaydream": "Có thể day dứt, mơ mộng hay tưởng tượng",
-                "selfControl": "Tự kiểm soát bản thân là cần thiết (cho bản thân bạn và mọi người)",
+                "selfControl": "Tự kiểm soát là cần thiết (cho bạn và cho người khác)",
                 "sensations": "Cảm giác rất quan trọng (ví dụ, xúc giác, vị giác, khứu giác hoặc những va chạm cơ thể)",
                 "sexuality": "Liên quan đến bản năng giới tính",
                 "shame": "Ai đó đang cảm thấy xấu hổ",
@@ -960,7 +960,7 @@ export default {
                 "socialInteraction": "Có thể xuất hiện những tương tác xã hội",
                 "successCooperation": "Thành công đòi hỏi sự hợp tác",
                 "takenCareOf": "Ai đó cần được chăm sóc",
-                "talkingExpected": "Mong đợi hay yêu cầu được nói/trao đổi",
+                "talkingExpected": "Sự trao đổi được mong đợi hay yêu cầu",
                 "talkingPermitted": "Được phép nói/trao đổi",
                 "tenseUpset": "Tình huống khiến mọi người căng thẳng và buồn bã",
                 "tryingImpress": "Ai đó đang cố gắng gây ấn tượng với bạn",
@@ -980,7 +980,7 @@ export default {
                     "neutral": "Bình thường/Trung lập",
                     "uncharacteristic": "Không điển hình"
                 },
-                "instructions": "Bây giờ hãy mô tả lại tình huống bạn trải qua cụ thể hơn. 90 chi tiết sẽ xuất hiện cùng lúc. Hãy xếp từng chi tiết vào 3 ô khác nhau. Sử dụng ô \"Điển hình\" bên phải đối với những chi tiết mô tả chính xác tình huống của bạn; sử dụng ô \"Không điển hình\" bên trái đối với những chi tiết không mô tả tình huống của bạn; và sử dụng ô \"Bình thường/trung lập\" đối với những chi tiết không liên quan, không rõ, hoặc bạn không chắc chắn. Khi hoàn thành xong, hãy chọn \"Tiếp tục\".",
+                "instructions": "Bây giờ hãy mô tả lại tình huống bạn trải qua cụ thể hơn. 90 chi tiếtsẽ lần lượt xuất hiện.Hãy xếp từng chi tiết vào 3 ô khác nhau. Sử dụng ô \"Điển hình\" bên phải đối với những chi tiết mô tả chính xác tình huống của bạn; sử dụng ô \"Không điển hình\" bên trái đối với những chi tiết không mô tả tình huống của bạn; và sử dụng ô \"Bình thường/trung lập\" đối với những chi tiết không liên quan, không rõ, hoặc bạn không chắc chắn. Khi hoàn thành xong, hãy chọn \"Tiếp tục\".",
                 "itemsLeft": {
                     "one": "{{count}} Các chi tiết còn lại",
                     "other": "{{count}} Chi tiết còn lại"
@@ -1047,7 +1047,7 @@ export default {
                     "7": {
                         "label": "Thường trú tại",
                         "options": {
-                            "remoteRural": "Vùng nông thôn xa xôi/ vùng núi hẻo lánh",
+                            "remoteRural": "Vùng nông thôn xa xôi",
                             "rural": "Nông thôn",
                             "suburban": "Ngoại thành",
                             "urban": "Đô thị/ thành phố"
@@ -1099,7 +1099,7 @@ export default {
     },
     "thankyou": {
         "exitButton": "Thoát khỏi nghiên cứu",
-        "instructions": "Bây giờ bạn có thể thoát ra khỏi nghiên cứu, hoặc tiếp tục nhận thông tin về nhân cách của  bản thân dự trên những câu hỏi điều tra bạn đã hoàn thành",
+        "instructions": "Bây giờ bạn có thể thoát ra khỏi nghiên cứu, hoặc tiếp tục nhận thông tin về nhân cách của bản thân dựatrên những câu hỏi điều tra bạn đã hoàn thành",
         "personalityFeedbackButton": "Nhận phản hồi về nhân cách",
         "title": "Xin cảm ơn!"
     }
