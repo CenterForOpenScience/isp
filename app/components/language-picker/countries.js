@@ -5,7 +5,7 @@ export const languagesForProduction =  [
     "ar", "bg", "cs", "da", "de", "el", "en", "es", "es-co", "et", "fi", "fr",
     "he", "hi", "hr", "hu", "id", "is", "it", "ja", "ka", "ko", "lt", "lv",
     "mk", "mr", "ms", "nl", "no", "pl", "pt", "ro", "ru",
-    "sk", "sl", "sr", "th", "tr", "uk", "zh", "zh-hk"
+    "sk", "sl", "sr", "th", "tr", "uk", "vi", "zh", "zh-hk"
 ];
 
 
@@ -678,6 +678,16 @@ export default [
             }
         ],
         "name": "USA"
+    },
+    {
+        "code": "KE",
+        "languages": [
+            {
+                "code": "en-KE",
+                "name": "English"
+            }
+        ],
+        "name": "Kenya"
     },
     {
         "code": "VN",
