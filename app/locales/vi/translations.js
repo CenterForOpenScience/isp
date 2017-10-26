@@ -106,7 +106,7 @@ export default {
             "labelUnaccepted": "Xin vui lòng chấp nhận các điều khoản để tiếp tục"
         },
         "checkboxLabel": "Tôi đã đọc, hiểu các điều khoản trên và đồng ý tham gia.",
-        "firstSection": "Chào mừng tham gia vào nghiên cứu của chúng tôi. Sự cộng tác tham gia của bạn sẽ được thực hiện trong một phần trọn vẹn với thời gian gần một giờ đồng hồ. Bạn sẽ được yêu cầu miêu tả một tình huống được trải nghiệm gần đây, cũng như những hành vi của bạn trong tình huống đó. Ngoài ra, bạn sẽ được hỏi một số câu hỏi có liên quan tới giá trị và thái độ của bạn. Kết thúc nghiên cứu, nếu lựa chọn, bạn sẽ nhận được thông tin cá nhân mô tả về nhân cách của bạn.",
+        "firstSection": "Chào mừng tham gia vào nghiên cứu của chúng tôi. Sự cộng tác tham gia của bạn sẽ được thực hiện trong một phần trọn vẹn với thời gian gần một giờ đồng hồ. Bạn sẽ được yêu cầu miêu tả một tình huống mà bạn trải nghiệm gần đây, cũng như những hành vi của bạn trong tình huống đó. Ngoài ra, bạn sẽ được hỏi một số câu hỏi có liên quan tới giá trị và thái độ của bạn. Kết thúc nghiên cứu, nếu lựa chọn, bạn sẽ nhận được thông tin cá nhân mô tả về nhân cách của bạn.",
         "secondSection": "Tất cả câu trả lời của bạn sẽ được bảo mật và được nhận dạng bởi một con số (mà không phải tên của bạn). Vì mục đích nghiên cứu, những thông tin bảo mật trên có thể được lưu trữ trên một cơ sở dự liệu trực tuyến, được duy trì bởi Trung tâm khoa học Mở (www.cos.io). Bạn phải trả lời tất cả các câu hỏi để hoàn thành nghiên cứu này, nhưng bạn cũng có thể dừng tham gia bất cứ lúc nào mà không bị phạt. Lợi ích tiềm tàng của nghiên cứu này được thể hiện ở việc sẽ góp phần nâng cao hiểu biết về con người, cũng như cuộc sống của họ trong bối cảnh văn hóa khác nhau. Không có rủi ro nào được chỉ ra.",
         "thirdSection": "Nếu có câu hỏi nào liên quan đến nghiên cứu này, hoặc quyền lợi của bạn với tư cách là người tham gia nghiên cứu, bạn có thể liên hệ với cộng tác viên ở khu vực của bạn (chúng tôi đã cung câp tên, địa chỉ email và xác nhận tư cách làm cộng tác viên). Đây là người chịu trách nhiệm thu thập số liệu ở khu vực mà bạn tham gia, hoặc bạn có thể email tới trường đại học California, Riverside, Văn phòng Xác minh nghiên cứu  tại địa chỉ IRB@ucr.edu. Chúng tôi chân thành cảm ơn sự hợp tác của bạn.",
         "title": "Cam kết tham gia nghiên cứu",
@@ -121,7 +121,7 @@ export default {
         "consc": "Sự tận tâm",
         "exitButton": "Thoát",
         "extra": "Sự hướng ngoại",
-        "firstSection": "Dựa trên nhiều thập kỷ nghiên cứu, các nhà nghiên cứu về nhân cách đều thống nhất rằng phần lớn những khác biệt cá nhân quan trọng nhấtvề các đặc điểm nhân cách đều được mô tả bởi năm nét gọi tên là \"Big Five\" (Năm nét lớn), bao gồm: sự hướng ngoại, sự hòa hợp, sự tận tâm, sự ổn định về cảm xúc và sự cởi mở với những trải nghiệm.Những thang đo mà bạn vừa hoàn thànhsẽ cho bạn số điểm về một trong những nét nhân cách trên. Dưới đây là kết quả của bạn:",
+        "firstSection": "Dựa trên nhiều thập kỷ nghiên cứu, các nhà nghiên cứu về nhân cách đều thống nhất rằng phần lớn những khác biệt cá nhân quan trọng nhấtvề các đặc điểm nhân cách đều được mô tả bởi năm nét gọi tên là \"Big Five\" (Năm nét lớn), bao gồm: sự hướng ngoại, sự hòa hợp, sự tận tâm, sự ổn định về cảm xúc và sự cởi mở với những trải nghiệm. Những thang đo mà bạn vừa hoàn thànhsẽ cho bạn số điểm về một trong những nét nhân cách trên. Dưới đây là kết quả của bạn:",
         "fourthSection": "Cảm ơn vì đã tham gia nghiên cứu!",
         "hiAgree": "Những người được điểm cao có xu hướng chu đáo và lịch sự trong ứng xử xã hội; cũng như thích hợp tác với những người khác. Họ dễ tin tưởng mọi người, và cảm thấy thương cho những hoàn cảnh cần giúp đỡ. Những người được điểm cao có xu hướng được bạn bè quý mến, và họ tạo nên những mối quan hệ thân thiết bền vững, vui vẻ. Họ có thể theo một tôn giáo nào đó, để phục vụ cho vai trò lãnh đạo trong cộng đồng và làm công việc tình nguyện. Những người lớn tuổi có xu hướng đạt điểm cao hơn người trẻ tuổi.",
         "hiConsc": "Những người đạt điểm cao có xu hướng là người có trách nhiệm và ngăp nắp. Họ làm việc chăm chỉ để đạt được mục tiêu bà hoàn thành những nhiệm vụ họ mới bắt đầu. Những người điểm cao có xu hướng đạt điểm số tốt ở trường, và thể hiện tốt trong nhiều công việc. Họ có thể có thái đội chính trị bảo thủ và có niềm tin tôn giáo. Họ có xu hướng luyện tập nhiều hơn, có sức khỏe tốt hơn và sống lâu hơn. Những người lớn tuối đạt điểm cao hơn người trẻ.",
@@ -164,8 +164,8 @@ export default {
             "neutral": "Bình thường/Trung lập",
             "quiteChar": "Rất điển hình",
             "quiteUnchar": "Rất không điển hình",
-            "somewhatChar": "Hơi điển hình",
-            "somewhatUnchar": "Hơi không điển hình"
+            "somewhatChar": "Đôi chút điển hình",
+            "somewhatUnchar": "Đôi chút không điển hình"
         },
         "continueLabel": "Tiếp tục",
         "describe": {
@@ -191,7 +191,7 @@ export default {
     "measures": {
         "questions": {
             "1": {
-                "label": "Nói chung, tìnhhuống được miêu tả mang lại cho bạn trải nghiệm tích cực hay tiêu cực?",
+                "label": "Nói chung, tình huống được miêu tả mang lại cho bạn trải nghiệm tích cực hay tiêu cực?",
                 "options": {
                     "extremelyNeg": "Cực kì tiêu cực",
                     "extremelyPos": "Cực kì tích cực",
@@ -200,8 +200,8 @@ export default {
                     "neither": "Không tiêu cực, cũng không tích cực",
                     "quiteNeg": "Rất tiêu cực",
                     "quitePos": "Rất tích cực",
-                    "somewhatNeg": "Hơi tiêu cực",
-                    "somewhatPos": "Hơi tích cực"
+                    "somewhatNeg": "Đôi chút tiêu cực",
+                    "somewhatPos": "Đôi chút tích cực"
                 }
             },
             "10": {
@@ -237,8 +237,8 @@ export default {
             "11": {
                 "label": "Có nét tính cách nào ở bản thân mình mà hiện tại bạn đang cố gắng thay đổi không?",
                 "options": {
-                    "no": "Sai",
-                    "yes": "Đúng"
+                    "no": "Không",
+                    "yes": "Có"
                 }
             },
             "12": {
@@ -701,14 +701,14 @@ export default {
                         }
                     },
                     "3": {
-                        "label": "Một số người rất hạnh phúc. Họ tận hưởng cuộc sống dù điều gì đang diễn ra, và cố gắng hưởng thụ những gì có được. Mô tả trên thể hiện bản thân bạn ở mức độ nào?",
+                        "label": "Một số người nhìn chung rất hạnh phúc. Họ tận hưởng cuộc sống dù điều gì đang diễn ra, cố gắng hưởng thụ những gì có được. Mô tả trên thể hiện bản thân bạn ở mức độ nào?",
                         "options": {
                             "aGreatDeal": "Rất nhiều",
                             "notAtAll": "Hoàn toàn không"
                         }
                     },
                     "4": {
-                        "label": "Một số người không hạnh phúc. Mặc dù họ không tuyệt vọng, nhưng dường như không bao giờ hạnh phúc như họ thể hiện. Mô tả trên đây thể hiện bản thân bạn ở mức độ nào?",
+                        "label": "Một số người nhìn chung không hạnh phúc. Mặc dù họ không tuyệt vọng, nhưng dường như không bao giờ hạnh phúc như họ thể hiện. Mô tả trên thể hiện bản thân bạn ở mức độ nào?",
                         "options": {
                             "aGreatDeal": "Nhiều",
                             "notAtAll": "Hoàn toàn không"
@@ -729,7 +729,7 @@ export default {
                         "label": "Tôi khiến nhiều người khác hạnh phúc"
                     },
                     "4": {
-                        "label": "Mặc dù tương đối trung bình, tôi sống một cuộc sống bình lặng"
+                        "label": "Mặc dù ở mức độ trung bình, tôi có một cuộc sống ổn định"
                     },
                     "5": {
                         "label": "Tôi không có bất kì mối quan tâm hay lo lắng lớn nào"
@@ -1064,9 +1064,9 @@ export default {
                     "9": {
                         "label": "Bạn có theo tôn giáo nào không?",
                         "options": {
-                            "noLabel": "Sai",
+                            "noLabel": "Không",
                             "preferNoAnswer": "Tôi không muốn trả lời",
-                            "yesLabel": "Đúng"
+                            "yesLabel": "Có"
                         }
                     }
                 }
