@@ -582,7 +582,7 @@ export default {
                         "label": "Waarde hecht aan kunst en schoonheid."
                     },
                     "36": {
-                        "label": "Het moeilijk vindt om anderen te beïnvloeden"
+                        "label": "Moeite heeft om andere mensen te overtuigen"
                     },
                     "37": {
                         "label": "Soms onbeleefd tegen anderen is"
@@ -603,10 +603,10 @@ export default {
                         "label": "Vol energie is"
                     },
                     "42": {
-                        "label": "Niet goed van vertrouwen is"
+                        "label": "Niet zo snel uitgaat van de goede bedoelingen van anderen"
                     },
                     "43": {
-                        "label": "Betrouwbaar is, zich altijd aan regels en afspraken houdt"
+                        "label": "Betrouwbaar is, verwachtingen altijd waarmaakt"
                     },
                     "44": {
                         "label": "Zijn/haar emoties onder controle houdt"
