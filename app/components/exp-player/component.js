@@ -37,6 +37,14 @@ export default ExpPlayer.extend({
                 account.set('extra', dest);
                 return account.save();
             }).catch( e => console.error('Could not mark account as having completed study:', e));
-        }
+        },
+        saveFrame() {
+            return this._super(...arguments).catch((e) => {
+                // intercept, tag, and log error
+                e.message = 'intercepted: ' + e.message;
+                this.get('raven').captureException(e, {tags: {is_intercepted: true}});
+                throw e;
+            });
+        },
     }
 });
