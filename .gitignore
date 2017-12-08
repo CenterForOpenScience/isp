@@ -24,6 +24,7 @@ env
 
 # Misc
 /scripts/*.json
+!/scripts/en.json
 /scripts/*.csv
 
 /scripts/consent_forms/*csv
