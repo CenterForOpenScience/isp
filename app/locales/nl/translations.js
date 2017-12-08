@@ -207,7 +207,7 @@ export default {
             "10": {
                 "items": {
                     "1": {
-                        "label": "Heel wat"
+                        "label": "Er zijn veel sociale normen waar mensen zich aan moeten houden in dit land."
                     },
                     "2": {
                         "label": "In dit land zijn er hele duidelijke verwachtingen over hoe mensen zich moeten gedragen in de meeste situaties."

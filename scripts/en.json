@@ -1,0 +1,1106 @@
+{
+   "21" : "21",
+   "68" : "68",
+   "27" : "27",
+   "flag" : {
+      "chooseLanguage" : "Please select your country and language"
+   },
+   "54" : "54",
+   "40" : "40",
+   "0" : "0",
+   "15" : "15",
+   "42" : "42",
+   "70" : "70",
+   "97" : "97",
+   "16" : "16",
+   "93" : "93",
+   "44" : "44",
+   "58" : "58",
+   "1" : "1",
+   "19" : "19",
+   "73" : "73",
+   "32" : "32",
+   "92" : "92",
+   "79" : "79",
+   "55" : "55",
+   "28" : "28",
+   "9" : "9",
+   "login" : {
+      "defaultError" : "Please try again later.",
+      "youChose" : "You chose:",
+      "invalidAuthError" : "Invalid Study ID or Participant ID.",
+      "errorHeading" : "An error occured when logging in",
+      "studyID" : "Study ID",
+      "participantID" : "Participant ID",
+      "changeButton" : "Change language"
+   },
+   "99" : "99",
+   "30" : "30",
+   "3" : "3",
+   "78" : "78",
+   "87" : "87",
+   "62" : "62",
+   "37" : "37",
+   "69" : "69",
+   "25" : "25",
+   "38" : "38",
+   "88" : "88",
+   "7" : "7",
+   "previouslogin" : {
+      "line2" : "If this is in error, please contact your local International Situations Project coordinator.",
+      "line1" : "Our records indicate that you have already completed this study."
+   },
+   "23" : "23",
+   "83" : "83",
+   "65" : "65",
+   "measures" : {
+      "questions" : {
+         "18" : {
+            "options" : {
+               "verySuccessful" : "Very successful",
+               "alittleSuccessful" : "A little successful",
+               "completelySuccessful" : "Completely successful",
+               "notatallSuccessful" : "Not at all successful",
+               "moderatelySuccessful" : "Moderately successful"
+            },
+            "label" : "How successful have you been in changing this aspect of your personality?"
+         },
+         "15" : {
+            "items" : {
+               "4" : {
+                  "label" : "If I knew that I could never get caught, I would be willing to steal a large sum of money."
+               },
+               "1" : {
+                  "label" : "I wouldn't use flattery to get a raise or promotion at work, even if I thought it would succeed."
+               },
+               "8" : {
+                  "label" : "I would get a lot of pleasure from owning expensive luxury goods."
+               },
+               "10" : {
+                  "label" : "I want people to know that I am an important person of high status."
+               },
+               "6" : {
+                  "label" : "Iâd be tempted to use counterfeit money, if I were sure I could get away with it."
+               },
+               "7" : {
+                  "label" : "Having a lot of money is not especially important to me."
+               },
+               "3" : {
+                  "label" : "I wouldn't pretend to like someone just to get that person to do favors for me."
+               },
+               "9" : {
+                  "label" : "I think that I am entitled to more respect than the average person is."
+               },
+               "5" : {
+                  "label" : "I would never accept a bribe, even if it were very large."
+               },
+               "2" : {
+                  "label" : "If I want something from someone, I will laugh at that person's worst jokes."
+               }
+            },
+            "options" : {
+               "agree" : "Agree",
+               "disagreeStrongly" : "Disagree strongly",
+               "neutral" : "Neutral; no opinion",
+               "disagree" : "Disagree",
+               "agreeStrongly" : "Agree strongly"
+            },
+            "label" : "Please rate the extent to which you agree or disagree with the following statements:"
+         },
+         "6" : {
+            "label" : "For each of the following questions, please indicate the point on the 7-point scale that best describes you:",
+            "items" : {
+               "1" : {
+                  "label" : "In general, I consider myself",
+                  "options" : {
+                     "veryHappy" : "A very happy person",
+                     "notHappy" : "Not a very happy person"
+                  }
+               },
+               "3" : {
+                  "label" : "Some people are generally very happy. They enjoy life regardless of what is going on, getting the most out of everything. \n  To what extent does this characterization describe you?",
+                  "options" : {
+                     "aGreatDeal" : "A great deal",
+                     "notAtAll" : "Not at all"
+                  }
+               },
+               "2" : {
+                  "label" : "Compared to most of the people around me, I consider myself",
+                  "options" : {
+                     "moreHappy" : "More happy",
+                     "lessHappy" : "Less happy"
+                  }
+               },
+               "4" : {
+                  "label" : "Some people are generally not very happy. Although they are not depressed, they never seem as happy as they might be. \n  To what extent does this characterization describe you?",
+                  "options" : {
+                     "aGreatDeal" : "A great deal",
+                     "notAtAll" : "Not at all"
+                  }
+               }
+            }
+         },
+         "7" : {
+            "options" : {
+               "agree" : "Agree",
+               "disagreeStrongly" : "Disagree strongly",
+               "neutral" : "Neutral; no opinion",
+               "agreeStrongly" : "Agree strongly",
+               "disagree" : "Disagree"
+            },
+            "items" : {
+               "8" : {
+                  "label" : "I believe that I have achieved the same standard of living as those around me."
+               },
+               "1" : {
+                  "label" : "I believe that I and those around me are happy."
+               },
+               "4" : {
+                  "label" : "Although it is quite average, I live a stable life."
+               },
+               "3" : {
+                  "label" : "I make significant others happy."
+               },
+               "5" : {
+                  "label" : "I do not have any major concerns or anxieties."
+               },
+               "9" : {
+                  "label" : "I generally believe that things are going as well for me as they are for others around me."
+               },
+               "2" : {
+                  "label" : "I feel that I am being positively evaluated by others around me."
+               },
+               "7" : {
+                  "label" : "I believe that my life is just as happy as that of others around me."
+               },
+               "6" : {
+                  "label" : "I can do what I want without causing problems for other people."
+               }
+            },
+            "label" : "Please rate the extent to which you agree or disagree with the following statements:"
+         },
+         "2" : {
+            "label" : "How often do you experience situations similar to the one you just described?",
+            "options" : {
+               "never" : "Never",
+               "hardlyEver" : "Hardly ever",
+               "quiteOften" : "Quite often",
+               "occasionally" : "Occasionally"
+            }
+         },
+         "17" : {
+            "label" : "Please rate the extent to which you agree or disagree with the following statements:",
+            "items" : {
+               "1" : {
+                  "label" : "I deserve to be seen as a great person."
+               },
+               "3" : {
+                  "label" : "I manage to be the center of attention with my outstanding contributions."
+               },
+               "5" : {
+                  "label" : "I want my rivals to fail."
+               },
+               "2" : {
+                  "label" : "Being a very special person gives me a lot of strength."
+               },
+               "6" : {
+                  "label" : "I react annoyed if another person steals the show from me."
+               },
+               "4" : {
+                  "label" : "Most people are somehow losers."
+               }
+            },
+            "options" : {
+               "agree" : "Agree",
+               "disagreeStrongly" : "Disagree strongly",
+               "neutral" : "Neutral; no opinion",
+               "agreeStrongly" : "Agree strongly",
+               "disagree" : "Disagree"
+            }
+         },
+         "12" : {
+            "label" : "What aspect are you trying to change?"
+         },
+         "9" : {
+            "label" : "How well does each statement describe you?",
+            "items" : {
+               "3" : {
+                  "label" : "You prefer to preserve harmony in your relationships, even if this means not expressing your true feelings."
+               },
+               "5" : {
+                  "label" : "You protect your own interests, even if it might sometimes disrupt your family relationships."
+               },
+               "9" : {
+                  "label" : "You would sacrifice your personal interests for the benefit of your family."
+               },
+               "2" : {
+                  "label" : "You try to adapt to people around you, even if it means hiding your feelings."
+               },
+               "7" : {
+                  "label" : "You look after the people close to you, even if it means putting your personal needs to one side."
+               },
+               "12" : {
+                  "label" : "You see yourself the same way even in different social environments."
+               },
+               "6" : {
+                  "label" : "You usually give priority to others, before yourself."
+               },
+               "8" : {
+                  "label" : "You value personal achievements more than good relations with the people close to you."
+               },
+               "1" : {
+                  "label" : "You prefer to express your thoughts and feelings openly, even if it may sometimes cause conflict."
+               },
+               "13" : {
+                  "label" : "You behave in the same way even when you are with different people."
+               },
+               "10" : {
+                  "label" : "You behave differently when you are with different people."
+               },
+               "11" : {
+                  "label" : "You see yourself differently when you are with different people."
+               },
+               "4" : {
+                  "label" : "You think it is good to express openly when you disagree with others."
+               }
+            },
+            "options" : {
+               "moderately" : "Describes me moderately",
+               "notAtAll" : "Doesnât describe me at all",
+               "aLittle" : "Describes me a little",
+               "veryWell" : "Describes me very well",
+               "exactly" : "Describes me exactly"
+            }
+         },
+         "5" : {
+            "label" : "Please rate the extent to which you agree or disagree with the following statements:\n \nI am someone who...",
+            "options" : {
+               "neutral" : "Neutral; no opinion",
+               "agree" : "Agree",
+               "disagreeStrongly" : "Disagree strongly",
+               "agreeStrongly" : "Agree strongly",
+               "disagree" : "Disagree"
+            },
+            "items" : {
+               "23" : {
+                  "label" : "Has difficulty getting started on tasks"
+               },
+               "49" : {
+                  "label" : "Rarely feels anxious or afraid"
+               },
+               "31" : {
+                  "label" : "Is sometimes shy, introverted"
+               },
+               "26" : {
+                  "label" : "Is less active than other people"
+               },
+               "6" : {
+                  "label" : "Has an assertive personality"
+               },
+               "7" : {
+                  "label" : "Is respectful, treats others with respect"
+               },
+               "60" : {
+                  "label" : "Is original, comes up with new ideas"
+               },
+               "43" : {
+                  "label" : "Is reliable, can always be counted on"
+               },
+               "38" : {
+                  "label" : "Is efficient, gets things done"
+               },
+               "46" : {
+                  "label" : "Is talkative"
+               },
+               "25" : {
+                  "label" : "Avoids intellectual, philosophical discussions"
+               },
+               "35" : {
+                  "label" : "Values art and beauty"
+               },
+               "24" : {
+                  "label" : "Feels secure, comfortable with self"
+               },
+               "37" : {
+                  "label" : "Is sometimes rude to others"
+               },
+               "59" : {
+                  "label" : "Is temperamental, gets emotional easily"
+               },
+               "20" : {
+                  "label" : "Is fascinated by art, music, or literature"
+               },
+               "34" : {
+                  "label" : "Worries a lot"
+               },
+               "47" : {
+                  "label" : "Can be cold and uncaring"
+               },
+               "57" : {
+                  "label" : "Assumes the best about people"
+               },
+               "5" : {
+                  "label" : "Has few artistic interests"
+               },
+               "22" : {
+                  "label" : "Starts arguments with others"
+               },
+               "12" : {
+                  "label" : "Tends to find fault with others"
+               },
+               "48" : {
+                  "label" : "Leaves a mess, doesnât clean up"
+               },
+               "17" : {
+                  "label" : "Feels little sympathy for others"
+               },
+               "56" : {
+                  "label" : "Shows a lot of enthusiasm"
+               },
+               "8" : {
+                  "label" : "Tends to be lazy"
+               },
+               "10" : {
+                  "label" : "Is curious about many different things"
+               },
+               "14" : {
+                  "label" : "Is moody, has up and down mood swings"
+               },
+               "13" : {
+                  "label" : "Is dependable, steady"
+               },
+               "45" : {
+                  "label" : "Has difficulty imagining things"
+               },
+               "51" : {
+                  "label" : "Prefers to have others take charge"
+               },
+               "39" : {
+                  "label" : "Often feels sad"
+               },
+               "11" : {
+                  "label" : "Rarely feels excited or eager"
+               },
+               "41" : {
+                  "label" : "Is full of energy"
+               },
+               "4" : {
+                  "label" : "Is relaxed, handles stress well"
+               },
+               "29" : {
+                  "label" : "Is emotionally stable, not easily upset"
+               },
+               "2" : {
+                  "label" : "Is compassionate, has a soft heart"
+               },
+               "42" : {
+                  "label" : "Is suspicious of othersâ intentions"
+               },
+               "15" : {
+                  "label" : "Is inventive, finds clever ways to do things"
+               },
+               "36" : {
+                  "label" : "Finds it hard to influence people"
+               },
+               "53" : {
+                  "label" : "Is persistent, works until the task is finished"
+               },
+               "18" : {
+                  "label" : "Is systematic, likes to keep things in order"
+               },
+               "52" : {
+                  "label" : "Is polite, courteous to others"
+               },
+               "54" : {
+                  "label" : "Tends to feel depressed"
+               },
+               "40" : {
+                  "label" : "Is complex, a deep thinker"
+               },
+               "27" : {
+                  "label" : "Has a forgiving nature"
+               },
+               "33" : {
+                  "label" : "Keeps things neat and tidy"
+               },
+               "21" : {
+                  "label" : "Is dominant, acts as a leader"
+               },
+               "3" : {
+                  "label" : "Tends to be disorganized"
+               },
+               "30" : {
+                  "label" : "Has little creativity"
+               },
+               "9" : {
+                  "label" : "Stays optimistic after experiencing a setback"
+               },
+               "28" : {
+                  "label" : "Can be somewhat careless"
+               },
+               "55" : {
+                  "label" : "Has little interest in abstract ideas"
+               },
+               "32" : {
+                  "label" : "Is helpful and unselfish with others"
+               },
+               "19" : {
+                  "label" : "Can be tense"
+               },
+               "50" : {
+                  "label" : "Thinks poetry and plays are boring"
+               },
+               "1" : {
+                  "label" : "Is outgoing, sociable"
+               },
+               "58" : {
+                  "label" : "Sometimes behaves irresponsibly"
+               },
+               "44" : {
+                  "label" : "Keeps their emotions under control"
+               },
+               "16" : {
+                  "label" : "Tends to be quiet"
+               }
+            }
+         },
+         "3" : {
+            "options" : {
+               "fairlyChar" : "Fairly Characteristic",
+               "fairlyUnchar" : "Fairly Uncharacteristic",
+               "quiteChar" : "Quite Characteristic",
+               "extremelyUnchar" : "Extremely Uncharacteristic",
+               "quiteUnchar" : "Quite Uncharacteristic",
+               "somewhatChar" : "Somewhat Characteristic",
+               "extremelyChar" : "Extremely Characteristic",
+               "neutral" : "Neither Characteristic nor Uncharacteristic",
+               "somewhatUnchar" : "Somewhat Uncharacteristic"
+            },
+            "items" : {
+               "2" : {
+                  "label" : "I said negative things about myself."
+               },
+               "7" : {
+                  "label" : "I engaged in physical activity."
+               },
+               "6" : {
+                  "label" : "I showed high enthusiasm and a high energy level."
+               },
+               "15" : {
+                  "label" : "I spoke in a loud voice."
+               },
+               "1" : {
+                  "label" : "I tried to control the situation."
+               },
+               "8" : {
+                  "label" : "I concentrated on or worked hard at a task."
+               },
+               "13" : {
+                  "label" : "I acted playfully."
+               },
+               "10" : {
+                  "label" : "I was physically animated, moved around."
+               },
+               "14" : {
+                  "label" : "I expressed self-pity or feelings of victimization."
+               },
+               "16" : {
+                  "label" : "I exhibited a high degree of intelligence."
+               },
+               "11" : {
+                  "label" : "I was interested in what someone had to say."
+               },
+               "4" : {
+                  "label" : "I displayed ambition."
+               },
+               "3" : {
+                  "label" : "I behaved in a competitive manner."
+               },
+               "9" : {
+                  "label" : "I was reserved and unexpressive."
+               },
+               "5" : {
+                  "label" : "I dominated the situation."
+               },
+               "12" : {
+                  "label" : "I sought advice."
+               }
+            },
+            "label" : "Please rate your behavior in the situation you described:"
+         },
+         "4" : {
+            "options" : {
+               "fullyPrepared" : "Fully prepared to take risks",
+               "unwilling" : "Unwilling to take risks"
+            },
+            "label" : "How do you see yourself: Are you generally a person who is fully prepared to take risks or do you try to avoid taking risks?"
+         },
+         "16" : {
+            "label" : "To what extent do you think your life develops in the following environments?",
+            "options" : {
+               "completely" : "Completely",
+               "notAtAll" : "Not at all",
+               "aLittle" : "A little",
+               "quiteaBit" : "Quite a bit"
+            },
+            "items" : {
+               "2" : {
+                  "label" : "With friends"
+               },
+               "5" : {
+                  "label" : "In the world"
+               },
+               "3" : {
+                  "label" : "In the city where I live"
+               },
+               "1" : {
+                  "label" : "With family"
+               },
+               "4" : {
+                  "label" : "In society"
+               },
+               "6" : {
+                  "label" : "At work"
+               }
+            }
+         },
+         "11" : {
+            "label" : "Is there an aspect of your personality that youâre currently trying to change?",
+            "options" : {
+               "no" : "No",
+               "yes" : "Yes"
+            }
+         },
+         "10" : {
+            "label" : "Please rate the extent to which you agree or disagree with the following statements:",
+            "options" : {
+               "disagree" : "Disagree",
+               "agreeStrongly" : "Agree strongly",
+               "neutral" : "Neutral; no opinion",
+               "agree" : "Agree",
+               "disagreeStrongly" : "Disagree strongly"
+            },
+            "items" : {
+               "2" : {
+                  "label" : "In this country, there are very clear expectations for how people should act in most situations."
+               },
+               "5" : {
+                  "label" : "In this country, if someone acts in an inappropriate way, others will strongly disapprove."
+               },
+               "1" : {
+                  "label" : "There are many social norms that people are supposed to abide by in this country."
+               },
+               "3" : {
+                  "label" : "People agree upon what behaviors are appropriate versus inappropriate in most situations in this country."
+               },
+               "4" : {
+                  "label" : "People in this country have a great deal of freedom in deciding how they want to behave in most situations."
+               },
+               "6" : {
+                  "label" : "People in this country almost always comply with social norms."
+               }
+            }
+         },
+         "14" : {
+            "options" : {
+               "agreeStrongly" : "Agree strongly",
+               "disagree" : "Disagree",
+               "neutral" : "Neutral; no opinion",
+               "agree" : "Agree",
+               "disagreeStrongly" : "Disagree strongly"
+            },
+            "items" : {
+               "2" : {
+                  "label" : "If something can go wrong for me, it will."
+               },
+               "5" : {
+                  "label" : "I rarely count on good things happening to me."
+               },
+               "1" : {
+                  "label" : "In uncertain times, I usually expect the best."
+               },
+               "3" : {
+                  "label" : "I'm always optimistic about my future."
+               },
+               "4" : {
+                  "label" : "I hardly ever expect things to go my way."
+               },
+               "6" : {
+                  "label" : "Overall, I expect more good things to happen to me than bad."
+               }
+            },
+            "label" : "Please rate the extent to which you agree or disagree with the following statements:"
+         },
+         "13" : {
+            "label" : "Please rate the extent to which you agree or disagree with the following statements:",
+            "options" : {
+               "disagree" : "Disagree",
+               "agreeStrongly" : "Agree strongly",
+               "neutral" : "Neutral; no opinion",
+               "disagreeStrongly" : "Disagree strongly",
+               "agree" : "Agree"
+            },
+            "items" : {
+               "1" : {
+                  "label" : "Most people are basically honest."
+               },
+               "3" : {
+                  "label" : "Most people trust others."
+               },
+               "2" : {
+                  "label" : "Most people are basically good-natured and kind."
+               },
+               "5" : {
+                  "label" : "Most people are trustworthy."
+               },
+               "4" : {
+                  "label" : "Generally, I trust others."
+               }
+            }
+         },
+         "1" : {
+            "label" : "Overall, was the situation you described a positive experience or a negative experience?",
+            "options" : {
+               "extremelyPos" : "Extremely positive",
+               "fairlyPos" : "Fairly positive",
+               "extremelyNeg" : "Extremely negative",
+               "somewhatPos" : "Somewhat positive",
+               "quiteNeg" : "Quite negative",
+               "somewhatNeg" : "Somewhat negative",
+               "neither" : "Neither negative nor positive",
+               "quitePos" : "Quite positive",
+               "fairlyNeg" : "Fairly negative"
+            }
+         },
+         "8" : {
+            "items" : {
+               "7" : {
+                  "label" : "Religion makes people happier."
+               },
+               "15" : {
+                  "label" : "Ignorance leads people to believe in a supreme being."
+               },
+               "6" : {
+                  "label" : "Religion makes people healthier."
+               },
+               "2" : {
+                  "label" : "Religion helps people make good choices for their lives."
+               },
+               "4" : {
+                  "label" : "Religion slows down human progress."
+               },
+               "16" : {
+                  "label" : "Evidence of a supreme being is everywhere for those who seek its signs."
+               },
+               "11" : {
+                  "label" : "Religion makes people escape from reality."
+               },
+               "13" : {
+                  "label" : "Religious people are more likely to maintain moral standards."
+               },
+               "14" : {
+                  "label" : "Religious beliefs lead to unscientific thinking."
+               },
+               "10" : {
+                  "label" : "Only weak people need religion."
+               },
+               "1" : {
+                  "label" : "Belief in a religion helps one understand the meaning of life."
+               },
+               "8" : {
+                  "label" : "Belief in a religion makes people good citizens."
+               },
+               "17" : {
+                  "label" : "Religion contradicts science."
+               },
+               "12" : {
+                  "label" : "Practicing a religion unites people with others."
+               },
+               "5" : {
+                  "label" : "There is a supreme being controlling the universe."
+               },
+               "9" : {
+                  "label" : "Religious practice makes it harder for people to think independently."
+               },
+               "3" : {
+                  "label" : "Religious faith contributes to good mental health."
+               }
+            },
+            "options" : {
+               "disbelieveLittle" : "Disbelieve a little",
+               "believeLittle" : "Believe a little",
+               "disbelieveStrong" : "Strongly disbelieve",
+               "preferNoAnswer" : "I prefer not to answer",
+               "neutral" : "Neutral; no opinion",
+               "believeStrong" : "Strongly believe"
+            },
+            "label" : "Please rate the extent to which you agree or disagree with the following statements:"
+         }
+      }
+   },
+   "4" : "4",
+   "67" : "67",
+   "45" : "45",
+   "11" : "11",
+   "13" : "13",
+   "10" : "10",
+   "100" : "100",
+   "14" : "14",
+   "exitpage" : {
+      "line2" : "Your responses have been recorded.",
+      "line1" : "Thank you for your participation!"
+   },
+   "74" : "74",
+   "5" : "5",
+   "57" : "57",
+   "33" : "33",
+   "75" : "75",
+   "98" : "98",
+   "89" : "89",
+   "18" : "18",
+   "77" : "77",
+   "53" : "53",
+   "52" : "52",
+   "36" : "36",
+   "66" : "66",
+   "2" : "2",
+   "85" : "85",
+   "71" : "71",
+   "61" : "61",
+   "64" : "64",
+   "82" : "82",
+   "76" : "76",
+   "95" : "95",
+   "global" : {
+      "noLabel" : "No",
+      "describe" : {
+         "aGreatDeal" : "A great deal",
+         "notAtAll" : "Not at all",
+         "aLittle" : "A little"
+      },
+      "continueLabel" : "Continue",
+      "char" : {
+         "fairlyChar" : "Fairly Characteristic",
+         "somewhatChar" : "Somewhat Characteristic",
+         "extremelyChar" : "Extremely Characteristic",
+         "neutral" : "Neither Characteristic nor Uncharacteristic",
+         "somewhatUnchar" : "Somewhat Uncharacteristic",
+         "fairlyUnchar" : "Fairly Uncharacteristic",
+         "quiteChar" : "Quite Characteristic",
+         "extremelyUnchar" : "Extremely Uncharacteristic",
+         "quiteUnchar" : "Quite Uncharacteristic"
+      },
+      "agreement" : {
+         "disagree" : "Disagree",
+         "agreeStrongly" : "Agree strongly",
+         "neutral" : "Neutral; no opinion",
+         "agree" : "Agree",
+         "disagreeStrongly" : "Disagree strongly"
+      },
+      "selectUnselected" : "Please select",
+      "progress" : "Progress",
+      "yesLabel" : "Yes",
+      "previousLabel" : "Previous Page"
+   },
+   "96" : "96",
+   "94" : "94",
+   "50" : "50",
+   "90" : "90",
+   "72" : "72",
+   "Key" : "English",
+   "34" : "34",
+   "survey" : {
+      "sections" : {
+         "1" : {
+            "questions" : {
+               "3" : {
+                  "label" : "What is your ethnicity?"
+               },
+               "9" : {
+                  "label" : "Do you follow a religion?",
+                  "options" : {
+                     "yesLabel" : "Yes",
+                     "preferNoAnswer" : "I prefer not to answer",
+                     "noLabel" : "No"
+                  }
+               },
+               "2" : {
+                  "label" : "Gender",
+                  "options" : {
+                     "female" : "Female",
+                     "male" : "Male",
+                     "na" : "I prefer not to answer",
+                     "other" : "Other"
+                  }
+               },
+               "5" : {
+                  "options" : {
+                     "average" : "Average",
+                     "least" : "Least well off",
+                     "most" : "Most well off"
+                  },
+                  "label" : "On a scale from 1 to 10, where would you describe your familyâs economic position?"
+               },
+               "7" : {
+                  "label" : "Hometown residence",
+                  "options" : {
+                     "suburban" : "suburban",
+                     "rural" : "rural",
+                     "urban" : "urban",
+                     "remoteRural" : "remote rural"
+                  }
+               },
+               "6" : {
+                  "label" : "Birth city"
+               },
+               "1" : {
+                  "label" : "Age"
+               },
+               "8" : {
+                  "label" : "On a scale from 1 to 10, how religious are you?",
+                  "options" : {
+                     "preferNoAnswer" : "I prefer not to answer",
+                     "highlyReligious" : "Highly religious",
+                     "notReligious" : "Not at all religious"
+                  }
+               },
+               "10" : {
+                  "label" : "If so, which religion do you follow?"
+               },
+               "11" : {
+                  "label" : "Birth country"
+               },
+               "4" : {
+                  "label" : "What was your first language?"
+               }
+            },
+            "instructions" : "Welcome!  We are interested in situations people experience and what they do in them.  You will describe a situation you experienced recently and what you did in that situation. You will also be asked some questions about your attitudes and values.  Based on these responses, when you have completed the study, you will be given the option to receive information about your personality that we hope you will find interesting. The following will take less than an hour to complete. \n \nTo begin, please answer a few questions about yourself."
+         },
+         "2" : {
+            "questions" : {
+               "12" : {
+                  "label" : "Where were you?",
+                  "characterCount" : "0 out of 75 characters used"
+               },
+               "11" : {
+                  "label" : "What were you doing at this time?",
+                  "characterCount" : "0 out of 75 characters used"
+               },
+               "14" : {
+                  "label" : "Approximately what time did this experience begin?"
+               },
+               "13" : {
+                  "label" : "Who else was present? (If you were alone, please write âaloneâ).",
+                  "characterCount" : "0 out of 75 characters used"
+               }
+            },
+            "instructions" : {
+               "thirdSection" : "Please type your responses in the boxes below.",
+               "secondSection" : "Any experience you had yesterday will do; it is only important that you remember it well. Specifically, please describe what you were doing, where you were, and who was present.",
+               "firstSection" : "Please describe an experience yesterday that you remember well."
+            }
+         }
+      }
+   },
+   "59" : "59",
+   "20" : "20",
+   "24" : "24",
+   "thankyou" : {
+      "personalityFeedbackButton" : "Receive personality feedback",
+      "exitButton" : "Exit to end study",
+      "instructions" : "You may now exit the study, or proceed to receive some information about your personality based on the surveys you completed.",
+      "title" : "Thank you!"
+   },
+   "35" : "35",
+   "46" : "46",
+   "43" : "43",
+   "80" : "80",
+   "84" : "84",
+   "60" : "60",
+   "feedback" : {
+      "title" : "Your Personality",
+      "fourthSection" : "Thank you for your participation!",
+      "hiAgree" : "High scorers tend to be considerate and polite in social interactions, and enjoy cooperating with others. They find it easy to trust people, and feel compassion for those in need. High scorers tend to be well liked by their peers, and they establish satisfying and stable close relationships. They are more likely to be religious, to serve in community leadership roles, and to do volunteer work. Older adults tend to score higher than younger adults.",
+      "secondSection" : "On each trait, scores above 60 can be considered high, and scores below 40 can be considered low. Descriptions of high and low scorers appear below. If your score is between 40 and 60, then your personality would probably be described as about average on the attributes listed.",
+      "consc" : "Conscientiousness",
+      "loExtra" : "Low scorers tend to be socially and emotionally reserved. They generally prefer to be alone or with a few close friends, and keep their opinions and feelings to themselves. They are less likely to engage in thrill-seeking activities or risky behaviors such as smoking and alcohol consumption.",
+      "labels" : {
+         "high" : "High",
+         "low" : "Low",
+         "medium" : "Medium"
+      },
+      "hiConsc" : "High scorers tend to be organized and responsible. They work hard to achieve their goals, and complete tasks they have begun. High scorers tend to earn higher grades in school, and perform better in many occupations. They are more likely to be religious and hold conservative political attitudes. They tend to exercise more, have better physical health, and live longer. Older adults tend to score higher than younger adults.",
+      "agree" : "Agreeableness",
+      "firstSection" : "Based on decades of research, personality researchers agree that the most important individual differences in personality traits are described by five basic traits known as the âBig Fiveâ: Extraversion, Agreeableness, Conscientiousness, Emotional Stability, and Openness to Experience. The measures you just completed provide scores on each of these traits and your results are described below.",
+      "loAgree" : "Low scorers express themselves directly and bluntly, even at the risk of starting an argument. They enjoy competition, and tend to be skeptical of other people's intentions. Low scorers tend to earn higher salaries, and are more likely to engage in some risky behaviors, such as smoking and aggressive driving.",
+      "loConsc" : "Low scorers tend to act spontaneously rather than making plans, and find it easier to look at the big picture than pay attention to details. They prefer to jump between tasks, instead of finishing one at a time. They tend to engage in more risky behaviors, such as smoking, alcohol consumption, and drug use.",
+      "hiExtra" : "High scorers tend to be talkative and energetic. They like being around people, and are comfortable asserting themselves in a group. High scorers tend to have more friends and dating partners, and are seen as more popular. They are more likely to serve in community leadership roles, and to do volunteer work. They tend to prefer energetic music, exercise more frequently, and are more likely to play a sport. They experience more frequent positive emotions, and react more strongly to positive events.",
+      "loOpen" : "Low scorers tend to be traditional, practical, and like to stick with traditional ways of doing things. They prefer the familiar over the new, and the concrete over the abstract. Low scorers tend to prefer, and do better in, conventional and practical occupations such as crafts and trades.",
+      "score" : "Your score out of 100 possible:",
+      "extra" : "Extraversion",
+      "hiOpen" : "High scorers are generally open to new activities and new ideas. They tend to be creative, intellectually curious, and sensitive to art and beauty. High scorers tend to prefer, and do better in, scientific and artistic occupations. They prefer classical, jazz, blues, and rock music.",
+      "open" : "Openness to Experience",
+      "neurot" : "Emotional Stability",
+      "hiNeurot" : "High scorers tend to be emotionally stable and resilient. They usually stay calm, even in stressful situations, and can quickly bounce back from negative events. People who score high on emotional stability tend to feel a greater sense of well-being.",
+      "loNeurot" : "Low scorers tend to be emotionally sensitive, and have up-and-down mood swings. They experience more frequent negative emotions, and react more strongly to negative events. Younger adults tend to score lower than older adults.",
+      "exitButton" : "Exit",
+      "thirdSection" : "We hope you enjoyed your participation in this study."
+   },
+   "6" : "6",
+   "26" : "26",
+   "31" : "31",
+   "49" : "49",
+   "63" : "63",
+   "81" : "81",
+   "29" : "29",
+   "41" : "41",
+   "51" : "51",
+   "39" : "39",
+   "86" : "86",
+   "qsort" : {
+      "rsq" : {
+         "item" : {
+            "adviceYou" : "Others want advice from you.",
+            "differentRoles" : "People who are present occupy different social roles or levels of status.",
+            "talkingExpected" : "Talking is expected or demanded.",
+            "sexuality" : "Sexuality is relevant.",
+            "convinceYou" : "Someone is trying to convince you of something.",
+            "family" : "Family is important in this situation.",
+            "abusedVictimized" : "You are being abused or victimized.",
+            "happeningOnce" : "Many things are happening at once.",
+            "moralIssues" : "Moral or ethical issues are relevant.",
+            "jobDone" : "A job needs to be done.",
+            "tenseUpset" : "The situation could make people tense and upset.",
+            "entertainment" : "Entertainment is present.",
+            "notClear" : "It is not clear what is going on; the situation is uncertain.",
+            "femininity" : "Femininity can be expressed.",
+            "hostile" : "The situation could make people feel hostile.",
+            "positiveEmotions" : "The situation could arouse positive emotions.",
+            "quickAction" : "Quick action is necessary.",
+            "feelInadequate" : "The situation could make you feel inadequate.",
+            "complex" : "The situation is complex.",
+            "criticizing" : "Someone is criticizing you.",
+            "blaming" : "Someone is blaming you for something.",
+            "ambition" : "Ambition can be expressed or demonstrated.",
+            "breakingRules" : "Someone is breaking rules.",
+            "money" : "Money is important.",
+            "SomoneCountedon" : "Someone present (other than you) is counted on to do something.",
+            "closeRelationships" : "The people who are present have close personal relationships with each other.",
+            "honor" : "A matter of honor is at stake.",
+            "youFocus" : "You are the focus of attention.",
+            "disagreeing" : "People are disagreeing about something.",
+            "politics" : "Politics are relevant (for example: a political discussion).",
+            "unhappySuffering" : "Someone is unhappy or suffering.",
+            "competing" : "People are competing with each other.",
+            "desiresGratified" : "Desires could be gratified (for example, food, shopping, sexual opportunities).",
+            "physicallyUncomfortable" : "The situation is physically uncomfortable (for example: too hot, too crowded, too cold, etc.). (Low placement implies the situation is physically very comfortable.)",
+            "shame" : "Someone is feeling shame.",
+            "complimentingYou" : "Someone is complimenting or praising you.",
+            "emotionalThreats" : "Emotional threats are present.",
+            "talkingPermitted" : "Talking is permitted.",
+            "power" : "Power is important.",
+            "humorous" : "The situation is humorous or potentially humorous.",
+            "sensations" : "Sensations are important (for example: touch, taste, smell, physical contact).",
+            "emotionsExpressed" : "Emotions can be expressed.",
+            "clearRules" : "Clear rules define appropriate behavior (whether or not the rules are being followed).",
+            "noisy" : "The situation is noisy (low placement means the situation is very quiet).",
+            "music" : "Music is an important part of this situation.",
+            "intellectuallyStimulating" : "The situation could be intellectually stimulating.",
+            "conformToOthers" : "You are being pressured to conform to the actions of others.",
+            "askingYou" : "Someone is asking you for something.",
+            "comparingThemselves" : "People are comparing themselves to each other.",
+            "frustrating" : "The situation is frustrating (for example: a goal is blocked).",
+            "underThreat" : "Someone is under threat.",
+            "smallAnnoyances" : "The situation includes small annoyances.",
+            "workingHard" : "People are working hard.",
+            "newRelationships" : "New relationships could develop.",
+            "masculinity" : "Masculinity can be expressed.",
+            "athleticsSports" : "People are participating in athletics or sports.",
+            "takenCareOf" : "Someone needs to be taken care of.",
+            "art" : "Art is an important part of the situation.",
+            "romanticPartners" : "Potential or actual romantic partners (for you) are present.",
+            "potentiallyEnjoy" : "The situation is potentially enjoyable.",
+            "playful" : "The situation is playful.",
+            "socialInteraction" : "Social interaction is possible.",
+            "physicallyActive" : "People are being physically active.",
+            "religion" : "Religion is relevant in this situation (for example: a religious service or discussion).",
+            "verbalFluency" : "There are opportunities to display verbal fluency (for example: a debate, a monologue, an active conversation).",
+            "goodImpression" : "It is important for you to make a good impression.",
+            "unusualIdeas" : "Unusual ideas or points of view are being discussed freely.",
+            "assertivenessGoal" : "Assertiveness is required to accomplish a goal.",
+            "intelligence" : "Intelligence is important (for example: an intellectual discussion, a complex problem that needs to be solved).",
+            "rapidlyChanging" : "The situation is rapidly changing.",
+            "ruminateDaydream" : "It is possible to ruminate, daydream or fantasize.",
+            "successCooperation" : "Success requires cooperation.",
+            "physicalThreats" : "Physical threats are present.",
+            "peopleGetAlong" : "It is important for people to get along.",
+            "oppositeSex" : "The presence of members of the opposite sex is an important part of this situation.",
+            "minorDetails" : "Minor details are important.",
+            "tryingImpress" : "Someone is trying to impress you.",
+            "reassurance" : "Someone needs or desires reassurance.",
+            "physicalAttractiveness" : "Your physical attractiveness is important.",
+            "relevantHealth" : "The situation is relevant to your health (for example: possibility of illness, a medical visit).",
+            "needsHelp" : "Someone needs help.",
+            "reassuringPresent" : "A reassuring person is present.",
+            "selfControl" : "Self-control is necessary (for yourself or others).",
+            "simpleClearcut" : "The situation is simple and clear-cut.",
+            "decision" : "A decision needs to be made.",
+            "food" : "Food is important in this situation.",
+            "dominate" : "Someone is attempting to dominate or boss you.",
+            "anxietyInducing" : "The situation is potentially anxiety-inducing.",
+            "countingOnYou" : "Someone is counting on you to do something.",
+            "negativeEmotions" : "The situation could arouse negative emotions."
+         }
+      },
+      "sections" : {
+         "2" : {
+            "instructions" : "Now, please describe the situation more precisely. From the three boxes, please place the items into nine boxes. You can drag and drop items from one box to another, but if you leave too many items in any one box, the heading will turn red.  The heading will turn green when the right number of items is in the box.",
+            "categories" : {
+               "fairlyChar" : "Fairly Characteristic",
+               "fairlyUnchar" : "Fairly Uncharacteristic",
+               "quiteChar" : "Quite Characteristic",
+               "extremelyUnchar" : "Extremely Uncharacteristic",
+               "quiteUnchar" : "Quite Uncharacteristic",
+               "somewhatChar" : "Somewhat Characteristic",
+               "extremelyChar" : "Extremely Characteristic",
+               "somewhatUnchar" : "Somewhat Uncharacteristic",
+               "neutral" : "Neither Characteristic nor Uncharacteristic"
+            }
+         },
+         "1" : {
+            "activity" : "Activity:",
+            "location" : "Location:",
+            "othersPresent" : "Others present:",
+            "instructions" : "Now please describe the situation you experienced in more detail. 90 items will appear one at a time.  Place each item into one of three boxes.  Use the âCharacteristicâ box on the right for items that accurately describe the situation; use the âUncharacteristicâ box on the left for items that are undescriptive of the situation, and use the âNeutralâ box for items that are irrelevant, unclear, or about which you are uncertain.  When you are finished, press âContinue.â",
+            "categories" : {
+               "uncharacteristic" : "Uncharacteristic",
+               "neutral" : "Neutral",
+               "characteristic" : "Characteristic"
+            },
+            "itemsLeft" : {
+               "one" : "{{count}} item left",
+               "other" : "{{count}} items left"
+            }
+         }
+      }
+   },
+   "consent" : {
+      "title" : "Consent to Participate in Research",
+      "secondSection" : "All of your responses will be confidential and identified only by a number (and not by your name).  For research purposes, these anonymous data may be archived in an online database maintained by the Center for Open Science (www.cos.io). Each question must be answered in order to complete this survey, but you can discontinue your participation at any time without penalty.  The potential benefits of this research include improving the understanding of persons and their lives across cultural contexts.  There are no known risks.",
+      "versionHistory" : "(Consent form version: 14 October 2016)",
+      "firstSection" : "Welcome to our study.  Your participation will be in one session and will take less than one hour. You will be asked to describe a situation you experienced recently and your behaviors in it. You will also be asked some questions about your values and attitudes.  At the end of the study, if you choose, you will receive personalized information about your personality.",
+      "button" : {
+         "labelUnaccepted" : "Please accept terms to continue"
+      },
+      "checkboxLabel" : "I have read and understand the above statements and agree to participate.",
+      "thirdSection" : "If you have any questions about this study or your rights as a participant, you may contact [local collaboratorâs name, email and affiliation], who is responsible for data collection at your location, or the University of California, Riverside, Office of Research Integrity by email at IRB@ucr.edu. We sincerely appreciate your cooperation."
+   },
+   "8" : "8",
+   "56" : "56",
+   "17" : "17",
+   "48" : "48",
+   "12" : "12",
+   "22" : "22",
+   "91" : "91",
+   "47" : "47"
+}
