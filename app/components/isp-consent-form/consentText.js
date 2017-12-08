@@ -15,6 +15,18 @@
  * @property
  */
 const consentText = {
+    //Swedish
+    "SWED1.SE": {
+        "buttonLabel": "Jag accepterar villkoren för deltagandet.",
+        "consentLabel": "Jag har läst och förstått ovanstående och samtycker till att delta.",
+        "paragraphs": [
+            "Välkommen till vår studie. Du kommer att delta vid ett tillfälle som tar mindre än en timme. Du kommer att bli ombedd att beskriva en situation som du nyligen upplevt och ditt beteende i den situationen. Du kommer också att tillfrågas om dina värderingar och attityder. I slutet av studien kan du, om du vill, få ta del av individuell information om din personlighet.",
+            "Alla dina svar är konfidentiella och kommer endast att vara kopplade till ett nummer (och inte till ditt namn). I forskningssyfte kommer de här anonyma svaren arkiveras på en online databas som sköts av Center for Open Science (www.cos.io). Alla frågor skall besvaras för att enkäten ska bli komplett, men du kan avbryta ditt deltagande när som helst utan några följder.  Nyttan med den här forskningen är att den kan förbättra vår förståelse av individer och deras liv i olika kulturer. Det finns inga kända risker med att delta.",
+            "Om du har några frågor om den här studien eller om dina rättigheter som deltagare är du välkommen att kontakta Zoltan Kekecs, Lund Universitet, zoltan.kekecs@psy.lu.se, som är ansvarig för studien i Sverige, eller University of California, Riverside, Office of Research Integrity by email at IRB@ucr.edu. Vi är mycket tacksamma för din medverkan."
+        ],
+        "title": "Samtycker till att delta i forskning",
+        "versionHistory": "(Samtycksformsversion: 14 oktober 2016)"
+    },
     // Arabic
     "GAZA1.AR": {
         "buttonLabel": "نرجو منك الموافقة على الشروط للإستمرار",
@@ -195,17 +207,6 @@ const consentText = {
             "Bienvenue dans notre étude. Votre participation se fera en une seule session et prendra moins d'une heure. Il vous sera demandé de décrire une situation vécue récemment en précisant comment vous vous êtes comporté dans cette situation. Il vous sera également demandé de répondre à des questions sur vos valeurs et vos opinions. À la fin de l'étude, si vous le souhaitez, vous recevrez des informations personnalisées au sujet de votre personnalité.",
             "Toutes vos réponses seront confidentielles et identifiées uniquement par un nombre (et non par votre nom). Pour les besoins de la recherche, ces données anonymes seront archivées dans une base de données au sein du \"Center of Open Science\" (www.cos.io). Vous devez répondre à chaque question afin que le questionnaire soit adéquatement completé, mais sachez que vous pouvez arrêter à tout moment sans conséquence. Votre participation à cette étude permettra de mieux comprendre comment vivent des personnes selon leurs contextes culturels. Il n'existe aucun risque connu lié à la participation à cette recherche.",
             "Si vous avez des questions au sujet de l'étude ou de vos droits en tant que participant, vous pouvez contacter, Oumar Barry (barry_oumar@hotmail.com), Université Cheikh Anta Diop de Dakar-Sénégal, qui est responsable de la collecte des données dans votre pays, ou l'Université de Californie: University of California, Riverside, Office of Research Integrity par email à IRB@ucr.edu. Nous vous remercions sincèrement pour votre participation."
-        ],
-        "title": "Je consens à participer à cette recherche",
-        "versionHistory": "(Formulaire de consentement version du 14 octobre 2016)"
-    },
-    "QUEB1.FR": {
-        "buttonLabel": "Merci d'accepter les conditions avant de continuer",
-        "consentLabel": "J'ai lu et compris l'ensemble du texte ci-dessus et j'accepte de participer.",
-        "paragraphs": [
-            "Bienvenue dans notre étude. Votre participation se fera en une seule session et prendra moins d'une heure. Il vous sera demandé de décrire une situation vécue récemment en précisant comment vous vous êtes comporté dans cette situation. Il vous sera également demandé de répondre à des questions sur vos valeurs et vos opinions. À la fin de l'étude, si vous le souhaitez, vous recevrez des informations personnalisées au sujet de votre personnalité.",
-            "Toutes vos réponses seront confidentielles et identifiées uniquement par un nombre (et non par votre nom). Pour les besoins de la recherche, ces données anonymes seront archivées dans une base de données au sein du \"Center of Open Science\" (www.cos.io). Vous devez répondre à chaque question afin que le questionnaire soit adéquatement completé, mais sachez que vous pouvez arrêter à tout moment sans conséquence. Votre participation à cette étude permettra de mieux comprendre comment vivent des personnes selon leurs contextes culturels. Il n'existe aucun risque connu lié à la participation à cette recherche.",
-            "Si vous avez des questions au sujet de l'étude ou de vos droits en tant que participant, vous pouvez contacter, Catherine Amiot (amiot.catherine@uqam.ca), Université du Québec à Montréal, qui est responsable de la collecte des données dans votre pays, ou l'Université de Californie: University of California, Riverside, Office of Research Integrity par email à IRB@ucr.edu. Nous vous remercions sincèrement pour votre participation."
         ],
         "title": "Je consens à participer à cette recherche",
         "versionHistory": "(Formulaire de consentement version du 14 octobre 2016)"
@@ -421,9 +422,20 @@ const consentText = {
         "buttonLabel": "Please accept terms to continue",
         "consentLabel": "I have read and understand the above statements and agree to participate.",
         "paragraphs": [
-            "Welcome to our study. Your participation will be in one session and will take less than one hour. You will be asked to describe a situation you experienced recently and your behaviors in it. You will also be asked some questions about your values and attitudes.  At the end of the study, if you choose, you will receive personalized information about your personality.",
-            "All of your responses will be confidential and identified only by a number (and not by your name).  For research purposes, these anonymous data may be archived in an online database maintained by the Center for Open Science (www.cos.io). Each question must be answered in order to complete this survey, but you can discontinue your participation at any time without penalty. The potential benefits of this research include improving the understanding of persons and their lives across cultural contexts.  There are no known risks.",
+            "Welcome to our study. Your participation will be in one session and will take less than one hour. You will be asked to describe a situation you experienced recently and your behaviors in it. You will also be asked some questions about your values and attitudes. At the end of the study, if you choose, you will receive personalized information about your personality.",
+            "All of your responses will be confidential and identified only by a number (and not by your name). For research purposes, these anonymous data may be archived in an online database maintained by the Center for Open Science (www.cos.io). Each question must be answered in order to complete this survey, but you can discontinue your participation at any time without penalty. The potential benefits of this research include improving the understanding of persons and their lives across cultural contexts. There are no known risks.",
             "If you have any questions about this study or your rights as a participant, you may contact Jason Rentfrow, pjr39@cam.ac.uk, the University of Cambridge, who is responsible for data collection at your location, or the University of California, Riverside, Office of Research Integrity by email at IRB@ucr.edu. We sincerely appreciate your cooperation."
+        ],
+        "title": "Consent to Participate in Research",
+        "versionHistory": "(Consent form version: 14 October 2016)"
+    },
+    "ENGL2.ENG": {
+        "buttonLabel": "Please accept terms to continue",
+        "consentLabel": "I have read and understand the above statements and agree to participate.",
+        "paragraphs": [
+            "Welcome to our study. Your participation will be in one session and will take less than one hour. You will be asked to describe a situation you experienced recently and your behaviors in it. You will also be asked some questions about your values and attitudes. At the end of the study, if you choose, you will receive personalized information about your personality.",
+            "All of your responses will be confidential and identified only by a number (and not by your name). For research purposes, these anonymous data may be archived in an online database maintained by the Center for Open Science (www.cos.io). Each question must be answered in order to complete this survey, but you can discontinue your participation at any time without penalty. The potential benefits of this research include improving the understanding of persons and their lives across cultural contexts. There are no known risks.",
+            "If you have any questions about this study or your rights as a participant, you may contact Gavin Sullivan, ab7809@coventry.ac.uk, at Coventry University, who is responsible for data collection at your location, or the University of California, Riverside, Office of Research Integrity by email at IRB@ucr.edu. We sincerely appreciate your cooperation."
         ],
         "title": "Consent to Participate in Research",
         "versionHistory": "(Consent form version: 14 October 2016)"
