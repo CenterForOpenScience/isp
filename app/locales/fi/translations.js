@@ -813,7 +813,7 @@ export default {
                 "label": "Pyydämme sinua nyt arvioimaan, kuinka samaa tai eri mieltä olet seuraavista väitteistä.",
                 "options": {
                     "believeLittle": "Jokseenkin samaa mieltä",
-                    "believeStrong": "Vahvasti eri mieltä",
+                    "believeStrong": "Vahvasti samaa mieltä",
                     "disbelieveLittle": "Jokseenkin eri mieltä",
                     "disbelieveStrong": "Vahvasti eri mieltä",
                     "neutral": "Ei mielipidettä",
