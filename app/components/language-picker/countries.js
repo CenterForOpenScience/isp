@@ -5,7 +5,7 @@ export const languagesForProduction =  [
     "ar", "bg", "cs", "da", "de", "el", "en", "es", "es-co", "et", "fi", "fr",
     "he", "hi", "hr", "hu", "id", "is", "it", "ja", "ka", "ko", "lt", "lv",
     "mk", "mr", "ms", "nl", "no", "pl", "pt", "pt-pt", "ro", "ru",
-    "sk", "sl", "sr", "th", "tr", "uk", "vi", "zh", "zh-hk"
+    "sk", "sl", "sr", "sv", "th", "tr", "uk", "vi", "zh", "zh-hk"
 ];
 
 
