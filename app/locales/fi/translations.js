@@ -194,14 +194,14 @@ export default {
                 "label": "Oliko kuvailemasi tilanne kokonaisuudessaan myönteinen vai kielteinen kokemus?",
                 "options": {
                     "extremelyNeg": "Erittäin kielteinen",
-                    "extremelyPos": "Erittäin kielteinen",
+                    "extremelyPos": "Erittäin myönteinen",
                     "fairlyNeg": "Melko kielteinen",
-                    "fairlyPos": "Melko kielteinen",
+                    "fairlyPos": "Melko myönteinen",
                     "neither": "Ei myönteinen eikä kielteinen",
                     "quiteNeg": "Hyvin kielteinen",
-                    "quitePos": "Hyvin kielteinen",
+                    "quitePos": "Hyvin myönteinen",
                     "somewhatNeg": "Jokseenkin kielteinen",
-                    "somewhatPos": "Jokseenkin kielteinen"
+                    "somewhatPos": "Jokseenkin myönteinen"
                 }
             },
             "10": {
