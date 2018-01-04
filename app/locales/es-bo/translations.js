@@ -100,7 +100,7 @@ export default {
     "97": "97",
     "98": "98",
     "99": "99",
-    "Key": "Spanish Translation",
+    "Key": "Bolivia Translation",
     "consent": {
         "button": {
             "labelUnaccepted": "Por favor acepte los términos de participación para continuar"
@@ -146,7 +146,7 @@ export default {
         "title": "Su personalidad"
     },
     "flag": {
-        "chooseLanguage": "Please select your flag and language"
+        "chooseLanguage": "Please select your country and language"
     },
     "global": {
         "agreement": {
@@ -216,7 +216,7 @@ export default {
                         "label": "En este país, las personas están de acuerdo sobre qué comportamientos son apropiados e inapropiados en la mayor parte de situaciones."
                     },
                     "4": {
-                        "label": "En este país, les personas tienen amplia libertad a la hora de decidir cómo quieren comportarse en la mayoría de situaciones."
+                        "label": "En este país, las personas tienen amplia libertad a la hora de decidir cómo quieren comportarse en la mayoría de situaciones."
                     },
                     "5": {
                         "label": "En este país, si alguien actúa de forma inapropiada, otros lo desaprobarán fuertemente."
@@ -259,7 +259,7 @@ export default {
                         "label": "Generalmente, confío en los demás."
                     },
                     "5": {
-                        "label": "Se puede confiar en la mayoría depersonas."
+                        "label": "Se puede confiar en la mayoría de personas."
                     }
                 },
                 "label": "Por favor, indique en qué medida está de acuerdo o en desacuerdo con las siguientes afirmaciones:",
@@ -319,10 +319,10 @@ export default {
                         "label": "Si supiese que nunca me atraparían, estaría dispuesto/dispuesta a robar una gran suma de dinero."
                     },
                     "5": {
-                        "label": "Nunca aceptaría un soborno, aunque fuera muy cuantioso."
+                        "label": "Nunca aceptaría un soborno, aunque fuera una suma alta"
                     },
                     "6": {
-                        "label": "Me sentiría tentado/tentada a utilizar dinero falso, si estuviera seguro/segura de que no me iban a descubrir."
+                        "label": "Me sentiría tentado/tentada a utilizar dinero falso, si estuviera seguro/segura de que no me fueran a descubrir."
                     },
                     "7": {
                         "label": "Tener mucho dinero no es especialmente importante para mí."
@@ -334,7 +334,7 @@ export default {
                         "label": "Creo que merezco mayor respeto que la mayoría de la gente."
                     }
                 },
-                "label": "Por favor, responda cada afirmación incluso si no está completamente seguro/segura de su respuesta:",
+                "label": "Por favor, indique en qué medida está de acuerdo o en desacuerdo con las siguientes afirmaciones:",
                 "options": {
                     "agree": "De acuerdo",
                     "agreeStrongly": "Totalmente de acuerdo",
@@ -381,7 +381,7 @@ export default {
                         "label": "Ser una persona muy especial me da mucha fuerza."
                     },
                     "3": {
-                        "label": "Consigo ser el centro de atención con mis contribuciones excepcionales."
+                        "label": "Consigo ser el centro de atención con mis contribuciones sobresalientes."
                     },
                     "4": {
                         "label": "La mayoría de gente es de algún modo perdedora."
@@ -393,7 +393,7 @@ export default {
                         "label": "Reacciono de forma molesta si otra persona me quita el protagonismo."
                     }
                 },
-                "label": "Por favor, responda cada afirmación incluso si no está completamente seguro/segura de su respuesta:",
+                "label": "Por favor, indique en qué medida está de acuerdo o en desacuerdo con las siguientes afirmaciones:",
                 "options": {
                     "agree": "De acuerdo",
                     "agreeStrongly": "Totalmente de acuerdo",
@@ -442,7 +442,7 @@ export default {
                         "label": "Expresé pena hacia mí mismo/a o sentimientos de victimización."
                     },
                     "15": {
-                        "label": "Hablé con un tono de vozalto."
+                        "label": "Hablé con un tono de voz alto."
                     },
                     "16": {
                         "label": "Exhibí un alto grado de inteligencia."
@@ -489,7 +489,7 @@ export default {
                 "label": "Cómo se ve a sí mismo/a: Generalmente, ¿Es usted una persona que está completamente preparada para correr riesgos o intenta evitar correr riesgos?",
                 "options": {
                     "fullyPrepared": "Completamente preparada para correr riesgos",
-                    "unwilling": "Reticente a correr riesgos"
+                    "unwilling": "Evasivo a correr riesgos"
                 }
             },
             "5": {
@@ -606,7 +606,7 @@ export default {
                         "label": "Que desconfía de las intenciones de los demás"
                     },
                     "43": {
-                        "label": "Confiable, con el/la que siempre se puede contar"
+                        "label": "Fiable, con el/la que siempre se puede contar"
                     },
                     "44": {
                         "label": "Que controla sus emociones"
@@ -701,14 +701,14 @@ export default {
                         }
                     },
                     "3": {
-                        "label": "En general, algunas personas son muy felices. Disfrutan de la vida con independencia de lo que les ocurra, gozando al máximo de todo. ¿En qué medida se identifica usted con esta caracterización?",
+                        "label": "En general, algunas personas son muy felices. Disfrutan de la vida con independencia de lo que les ocurra, gozando al máximo de todo. ¿En qué medida se identifica usted con esta caracterización?\n",
                         "options": {
                             "aGreatDeal": "Mucho",
                             "notAtAll": "En absoluto"
                         }
                     },
                     "4": {
-                        "label": "En general, algunas personas no son muy felices. Sin que estén deprimidas, nunca parecen estar todo lo felices que podrían. ¿En qué medida se identifica usted con esta caracterización?",
+                        "label": "En general, algunas personas no son muy felices. Sin que estén deprimidas, nunca parecen estar todo lo felices que podrían. ¿En qué medida se identifica usted con esta caracterización?\n",
                         "options": {
                             "aGreatDeal": "Bastante",
                             "notAtAll": "De ningún modo"
@@ -741,10 +741,10 @@ export default {
                         "label": "Creo que mi vida es tan feliz como la de aquellos que me rodean."
                     },
                     "8": {
-                        "label": "Creo que he conseguido los mismos estándares de vida que los de aquellos que me rodean"
+                        "label": "Creo que he conseguido los mismos estándares de vida que los de aquellos que me rodean."
                     },
                     "9": {
-                        "label": "Generalmente, creo que las cosas me van tan bien a mi como a los que me rodean"
+                        "label": "Generalmente, creo que las cosas me van tan bien a mi como a los que me rodean."
                     }
                 },
                 "label": "Por favor, indique en qué medida está de acuerdo o en desacuerdo con las siguientes afirmaciones:",
@@ -807,7 +807,7 @@ export default {
                         "label": "Creer en una religión hace que las personas sean buenas ciudadanas."
                     },
                     "9": {
-                        "label": "La práctica religiosa dificulta a las personas el hecho de pensarindependientemente."
+                        "label": "La práctica religiosa dificulta a las personas el hecho de pensar independientemente."
                     }
                 },
                 "label": "Por favor, indique en qué medida está de acuerdo o en desacuerdo con las siguientes afirmaciones:",
@@ -856,19 +856,19 @@ export default {
                         "label": "Cuidas a las personas cercanas a ti, incluso si eso significa poner tus necesidades personales de lado."
                     },
                     "8": {
-                        "label": "Valores más los logros personales que las buenas  relaciones con las personas cercanas a ti."
+                        "label": "Valores más los logros personales que las buenas relaciones con las personas cercanas a ti."
                     },
                     "9": {
                         "label": "Sacrificarías tus intereses personales por el beneficio de tu familia."
                     }
                 },
-                "label": "¿Cuán bien te describe cada frase?",
+                "label": "Por favor, indique en qué medida le describen las afirmaciones siguientes:",
                 "options": {
-                    "aLittle": "me describe un poco",
-                    "exactly": "me describe con exactitud",
-                    "moderately": "me describe moderadamente",
-                    "notAtAll": "no me describe para nada",
-                    "veryWell": "me describe muy bien"
+                    "aLittle": "Un poco",
+                    "exactly": "Exactamente",
+                    "moderately": "Moderadamente",
+                    "notAtAll": "En absoluto",
+                    "veryWell": "Muy bien"
                 }
             }
         }
@@ -933,12 +933,12 @@ export default {
                 "noisy": "La situación es ruidosa (poco característico significa que la situación es muy silenciosa).",
                 "notClear": "No está claro qué está pasando; la situación es incierta.",
                 "oppositeSex": "La presencia de miembros del sexo opuesto es una parte importante de la situación.",
-                "peopleGetAlong": "Para las personas es importante llevarse bien.",
+                "peopleGetAlong": "Es importante llevarse bien para las personas",
                 "physicalAttractiveness": "Su atractivo físico es importante.",
                 "physicalThreats": "Hay amenazas físicas presentes.",
                 "physicallyActive": "La gente está siendo activa físicamente.",
-                "physicallyUncomfortable": "La situación es físicamente incómoda (por ejemplo: demasiado calor, demasiada gente, demasiado frio, etc.). (Poco característico implica que la situación es muycómoda físicamente).",
-                "playful": "La situación eslúdica.",
+                "physicallyUncomfortable": "La situación es físicamente incómoda (por ejemplo: demasiado calor, demasiada gente, demasiado frío, etc.). (Poco característico implica que la situación es muy cómoda físicamente).",
+                "playful": "La situación es lúdica.",
                 "politics": "La política es importante (por ejemplo: una discusión política).",
                 "positiveEmotions": "La situación podría despertar emociones positivas.",
                 "potentiallyEnjoy": "La situación es potencialmente agradable.",
@@ -957,7 +957,7 @@ export default {
                 "shame": "Alguien está sintiendo vergüenza.",
                 "simpleClearcut": "La situación es simple y clara.",
                 "smallAnnoyances": "La situación incluye pequeñas molestias.",
-                "socialInteraction": "La interacción social esposible.",
+                "socialInteraction": "La interacción social es posible.",
                 "successCooperation": "El éxito requiere cooperación.",
                 "takenCareOf": "Alguien necesita algún tipo de cuidado.",
                 "talkingExpected": "Se espera o se exige hablar.",
@@ -980,10 +980,10 @@ export default {
                     "neutral": "Neutral",
                     "uncharacteristic": "Poco característico"
                 },
-                "instructions": "Ahora describa la situación que experimentó con más detalle. 90 elementos aparecerán, uno por uno. Coloque cada elemento en una de las tres casillas. Utilice la casilla \"Característico\" a la derecha para elementos que describan con precisión la situación; utilicel casilla \"Poco característico\" a la izquierda para elementos que no sean descriptivos de la situación, y utilice el cuadro \"Neutral\" para elementos que son irrelevantes, poco claros o sobre los que no está seguro. Cuando haya terminado, presione \"Continuar\".",
+                "instructions": "Ahora describa la situación que experimentó con más detalle. 90 elementos aparecerán, uno por uno. Coloque cada elemento en una de las tres casillas. Utilice la casilla \"Característico\" a la derecha para elementos que describan con precisión la situación; utilice la casilla \"Poco característico\" a la izquierda para elementos que no sean descriptivos de la situación, y utilice el cuadro \"Neutral\" para elementos que son irrelevantes, poco claros o sobre los que no está seguro. Cuando haya terminado, presione \"Continuar\".",
                 "itemsLeft": {
-                    "one": "{{count}} Elemento restante",
-                    "other": "{{count}} Elementos restantes"
+                    "one": "{{count}} Elementos restantes",
+                    "other": "{{count}} Elemento restante\n\n"
                 },
                 "location": "Ubicación:",
                 "othersPresent": "Otras personas presentes:"
@@ -1062,7 +1062,7 @@ export default {
                         }
                     },
                     "9": {
-                        "label": "¿Usted es una persona religiosa?",
+                        "label": "¿Sigue usted una religión?",
                         "options": {
                             "noLabel": "No",
                             "preferNoAnswer": "Prefiero no contestar",
@@ -1073,8 +1073,8 @@ export default {
             },
             "2": {
                 "instructions": {
-                    "firstSection": "Por favor, describa una experiencia de ayer que recuerdebien.",
-                    "secondSection": "Cualquier experiencia quetuvoayer servirá; lo único importante es que la recuerde bien. Concretamente, por favor describa qué estaba haciendo, dónde estaba y quién estaba presente.",
+                    "firstSection": "Por favor, describa una experiencia de ayer que recuerde bien.",
+                    "secondSection": "Cualquier experiencia que tuvo ayer servirá; lo único importante es que la recuerde bien. Concretamente, por favor describa qué estaba haciendo, dónde estaba y quién estaba presente.",
                     "thirdSection": "Por favor, escriba sus respuestas en las casillas de debajo."
                 },
                 "questions": {
@@ -1088,7 +1088,7 @@ export default {
                     },
                     "13": {
                         "characterCount": "0 de 75 caracteres utilizados",
-                        "label": "¿Quién más estaba presente? (Si usted estaba solo, por favor escriba \"solo\")"
+                        "label": "¿Quién más estaba presente? (Si usted estaba solo, por favor escriba \"solo\")."
                     },
                     "14": {
                         "label": "¿A qué hora comenzó esta experiencia aproximadamente?"

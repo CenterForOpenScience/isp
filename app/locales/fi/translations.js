@@ -157,15 +157,15 @@ export default {
             "neutral": "Ei samaa eikä eri mieltä"
         },
         "char": {
-            "extremelyChar": "Erittäin epäominaista",
-            "extremelyUnchar": "Erittäin ominaista",
-            "fairlyChar": "Melko epäominaista",
-            "fairlyUnchar": "Melko ominaista",
-            "neutral": "Ei ominaista tai epäominaista",
-            "quiteChar": "Hyvin epäominaista",
-            "quiteUnchar": "Hyvin ominaista",
-            "somewhatChar": "Jokseenkin epäominaista",
-            "somewhatUnchar": "Jokseenkin ominaista"
+            "extremelyChar": "Erittäin tavallista",
+            "extremelyUnchar": "Erittäin epätavallista",
+            "fairlyChar": "Melko tavallista",
+            "fairlyUnchar": "Melko epätavallista",
+            "neutral": "Ei tavallista eikä epätavallista",
+            "quiteChar": "Hyvin tavallista",
+            "quiteUnchar": "Hyvin epätavallista",
+            "somewhatChar": "Jokseenkin tavallista",
+            "somewhatUnchar": "Jokseenkin epätavallista"
         },
         "continueLabel": "Jatka",
         "describe": {
@@ -194,14 +194,14 @@ export default {
                 "label": "Oliko kuvailemasi tilanne kokonaisuudessaan myönteinen vai kielteinen kokemus?",
                 "options": {
                     "extremelyNeg": "Erittäin kielteinen",
-                    "extremelyPos": "Erittäin kielteinen",
+                    "extremelyPos": "Erittäin myönteinen",
                     "fairlyNeg": "Melko kielteinen",
-                    "fairlyPos": "Melko kielteinen",
+                    "fairlyPos": "Melko myönteinen",
                     "neither": "Ei myönteinen eikä kielteinen",
                     "quiteNeg": "Hyvin kielteinen",
-                    "quitePos": "Hyvin kielteinen",
+                    "quitePos": "Hyvin myönteinen",
                     "somewhatNeg": "Jokseenkin kielteinen",
-                    "somewhatPos": "Jokseenkin kielteinen"
+                    "somewhatPos": "Jokseenkin myönteinen"
                 }
             },
             "10": {
@@ -262,7 +262,7 @@ export default {
                         "label": "Suurin osa ihmisistä on luottamuksen arvoisia"
                     }
                 },
-                "label": "Pyydämme sinua nyt arvioimaan, kuinka hyvin seuraavat väitteet sopivat itseesi. Olen henkilö, joka …",
+                "label": "Pyydämme sinua nyt arvioimaan, kuinka samaa tai eri mieltä olet seuraavista väitteistä.",
                 "options": {
                     "agree": "Samaa mieltä",
                     "agreeStrongly": "Vahvasti samaa mieltä",
@@ -364,7 +364,7 @@ export default {
                         "label": "\nTöissä"
                     }
                 },
-                "label": "Missä määrin uskot elämäsi kehittyvän seuraavissa ympäristöissä",
+                "label": "Missä määrin uskot elämäsi tapahtuvan seuraavissa ympäristöissä",
                 "options": {
                     "aLittle": "Vähän",
                     "completely": "Täysin",
@@ -474,15 +474,15 @@ export default {
                 },
                 "label": "Seuraavaksi pyydämme sinua kuvaamaan omaa käyttäytymistäsi tilanteessa:",
                 "options": {
-                    "extremelyChar": "Erittäin epäominaista",
-                    "extremelyUnchar": "Erittäin ominaista",
-                    "fairlyChar": "Melko epäominaista",
-                    "fairlyUnchar": "Melko ominaista",
-                    "neutral": "Ei ominaista tai epäominaista",
-                    "quiteChar": "Hyvin epäominaista",
-                    "quiteUnchar": "Hyvin ominaista",
-                    "somewhatChar": "Jokseenkin epäominaista",
-                    "somewhatUnchar": "Jokseenkin ominaista"
+                    "extremelyChar": "Erittäin tavallista",
+                    "extremelyUnchar": "Erittäin epätavallista",
+                    "fairlyChar": "Melko tavallista",
+                    "fairlyUnchar": "Melko epätavallista",
+                    "neutral": "Ei tavallista eikä epätavallista",
+                    "quiteChar": "Hyvin tavallista",
+                    "quiteUnchar": "Hyvin epätavallista",
+                    "somewhatChar": "Jokseenkin tavallista",
+                    "somewhatUnchar": "Jokseenkin epätavallista"
                 }
             },
             "4": {
@@ -675,7 +675,7 @@ export default {
                         "label": "Säilyttää myönteisen ajattelun myös vastoinkäymisissä"
                     }
                 },
-                "label": "Pyydämme sinua nyt arvioimaan, kuinka hyvin seuraavat väitteet sopivat itseesi. Olen henkilö, joka …",
+                "label": "Pyydämme sinua nyt arvioimaan, kuinka hyvin seuraavat väitteet sopivat itseesi.",
                 "options": {
                     "agree": "Samaa mieltä",
                     "agreeStrongly": "Vahvasti samaa mieltä",
@@ -747,7 +747,7 @@ export default {
                         "label": "Uskon oman elämäni sujuvan yhtä hyvin kuin muiden ympärilläni olevien ihmisten"
                     }
                 },
-                "label": "Pyydämme sinua nyt arvioimaan, kuinka hyvin seuraavat väitteet sopivat itseesi. Olen henkilö, joka …",
+                "label": "Pyydämme sinua nyt arvioimaan, kuinka samaa tai eri mieltä olet seuraavista väitteistä.",
                 "options": {
                     "agree": "Samaa mieltä",
                     "agreeStrongly": "Vahvasti samaa mieltä",
@@ -810,10 +810,10 @@ export default {
                         "label": "Uskonnon harjoittaminen vaikeuttaa ihmisten itsenäistä ajattelua"
                     }
                 },
-                "label": "Pyydämme sinua nyt arvioimaan, kuinka hyvin seuraavat väitteet sopivat itseesi. Olen henkilö, joka …",
+                "label": "Pyydämme sinua nyt arvioimaan, kuinka samaa tai eri mieltä olet seuraavista väitteistä.",
                 "options": {
                     "believeLittle": "Jokseenkin samaa mieltä",
-                    "believeStrong": "Vahvasti eri mieltä",
+                    "believeStrong": "Vahvasti samaa mieltä",
                     "disbelieveLittle": "Jokseenkin eri mieltä",
                     "disbelieveStrong": "Vahvasti eri mieltä",
                     "neutral": "Ei mielipidettä",
@@ -835,7 +835,7 @@ export default {
                         "label": "Arvioit itseäsi samalla tavoin riippumatta siitä, missä sosiaalisessa ympäristössä olet"
                     },
                     "13": {
-                        "label": "Sinä käyttäytyvät samalla tavalla, vaikka olet erilaisten ihmisten kanssa."
+                        "label": "Käyttäydyt samalla tavalla, vaikka olet erilaisten ihmisten kanssa."
                     },
                     "2": {
                         "label": "Yrität sopeutua ympärillä oleviin ihmisiin, vaikka se tarkoittaisi omien tunteidesi piilottamista"
@@ -980,10 +980,10 @@ export default {
                     "neutral": "Epävarma",
                     "uncharacteristic": "Tunnusomainen"
                 },
-                "instructions": "Pyydämme nyt sinua kuvaamaan tilanteen tarkemmin. Alla on 90 tilanteita kuvaavaa piirrettä. Sijoita jokainen piirre yhteen kolmesta ruudusta. Sijoita piirre ruutuun \"Tunnusomainen\" jos piirre kuvaa hyvin tilannettasi. Sijoita piirre ruutuun \"Ei tunnusomainen\" jos piirre ei kuvaa hyvin tilannettasi. Sijoita piiirre ruutuun \"Epävarma\" jos piirre ei ole tilanteesi kannalta merkityksellinen, jos piirteen kuvaus on epäselvä tai jos olet piirteen sopivuudesta epävarma. Kun olet valmis, paina \"Jatka\".",
+                "instructions": "Pyydämme nyt sinua kuvaamaan tilanteen tarkemmin. Alla on 90 tilanteita kuvaavaa piirrettä. Sijoita jokainen piirre yhteen kolmesta ruudusta kuljettamalla piirre hiiren avulla sille sopivaan ruutuun. Sijoita piirre ruutuun \"Tunnusomainen\" jos piirre kuvaa hyvin tilannettasi. Sijoita piirre ruutuun \"Ei tunnusomainen\" jos piirre ei kuvaa hyvin tilannettasi. Sijoita piiirre ruutuun \"Epävarma\" jos piirre ei ole tilanteesi kannalta merkityksellinen, jos piirteen kuvaus on epäselvä tai jos olet piirteen sopivuudesta epävarma. Kun olet valmis, paina \"Jatka\".",
                 "itemsLeft": {
-                    "one": "{{count}} Ominaisuus vasemman:",
-                    "other": "{{count}} Piirteitä jäljellä:"
+                    "one": "{{count}} piirre jäljellä",
+                    "other": "{{count}} piirrettä jäljellä"
                 },
                 "location": "Paikka:",
                 "othersPresent": "Muita läsnä:"
@@ -1000,7 +1000,7 @@ export default {
                     "somewhatChar": "Jokseenkin epäominaista",
                     "somewhatUnchar": "Jokseenkin ominaista"
                 },
-                "instructions": "Pyydämme sinua seuraavaksi kuvailemaan tilannetta vielä tarkemmin. Sijoita piirteet aiemmista kolmesta ruudusta yhdeksään ruutuun. Voit liikutella piirteitä ruudusta toiseen. Otsikko muuttu punaiseksi, jos jätät liian monta piirrettä yhteen ruutuun. Otsikko muuttuu vihreäksi, kun ruudussa on oikea määrä piirteitä."
+                "instructions": "Pyydämme sinua seuraavaksi kuvailemaan tilannetta vielä tarkemmin. Sijoita piirteet aiemmista kolmesta ruudusta yhdeksään ruutuun. Voit liikutella piirteitä ruudusta toiseen. Otsikko muuttuu punaiseksi, jos jätät liian monta piirrettä yhteen ruutuun. Otsikko muuttuu vihreäksi, kun ruudussa on oikea määrä piirteitä."
             }
         }
     },

@@ -2,8 +2,10 @@
 //  See https://openscience.atlassian.net/browse/LEI-372 for sample reasoning behind this requirement
 // TODO: This will need to be updated every time a new language is "released" and marked final
 export const languagesForProduction =  [
-    "ar", "bg", "cs", "da", "de", "en", "fi", "he", "hr", "hu", "id", "is", "it", "ka", "ko", "lt", "lv", "mk", "mr", "ms", "no", "pl", "ro", "ru", "sk", "sl",
-    "sr", "th", "uk", "zh"
+    "ar", "bg", "cs", "da", "de", "el", "en", "es", "es-co", "et", "fi", "fr",
+    "he", "hi", "hr", "hu", "id", "is", "it", "ja", "ka", "ko", "lt", "lv",
+    "mk", "mr", "ms", "nl", "no", "pl", "pt", "pt-pt", "ro", "ru",
+    "sk", "sl", "sr", "sv", "th", "tr", "uk", "vi", "zh", "zh-hk"
 ];
 
 
@@ -60,6 +62,26 @@ export default [
             }
         ],
         "name": "Bulgaria"
+    },
+    {
+        "code": "BO",
+        "languages": [
+            {
+                "code": "es-BO",
+                "name": "Española"
+            }
+        ],
+        "name": "Bolivia"
+    },
+    {
+        "code": "CO",
+        "languages": [
+            {
+                "code": "es-CO",
+                "name": "Española"
+            }
+        ],
+        "name": "Colombia"
     },
     {
         "code": "BR",
@@ -318,7 +340,7 @@ export default [
         "languages": [
             {
                 "code": "lv-LV",
-                "name": "Latvijas"
+                "name": "Latviešu"
             }
         ],
         "name": "Latvia"
@@ -648,20 +670,6 @@ export default [
         "name": "Ukraine"
     },
     {
-        "code": "AE",
-        "languages": [
-            {
-                "code": "en-AE",
-                "name": "English"
-            },
-            {
-                "code": "ar-AE",
-                "name": "العربية"
-            }
-        ],
-        "name": "United Arab Emirates"
-    },
-    {
         "code": "GB",
         "languages": [
             {
@@ -682,6 +690,16 @@ export default [
         "name": "USA"
     },
     {
+        "code": "KE",
+        "languages": [
+            {
+                "code": "en-KE",
+                "name": "English"
+            }
+        ],
+        "name": "Kenya"
+    },
+    {
         "code": "VN",
         "languages": [
             {
@@ -690,6 +708,16 @@ export default [
             }
         ],
         "name": "Vietnam"
+    },
+    {
+        "code": "TW",
+        "languages": [
+            {
+                "code": "zh-TW",
+                "name": "汉语/漢語"
+            }
+        ],
+        "name": "Taiwan"
     },
     {
         "code": "US",

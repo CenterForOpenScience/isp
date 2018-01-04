@@ -251,7 +251,7 @@ export default {
                         "label": "Kebanyakan orang  dapat dipercaya."
                     }
                 },
-                "label": "Silakan menilai sejauh mana Anda setuju atau tidak setuju dengan pernyataan berikut: Saya seorang yang...",
+                "label": "Silakan menilai sejauh mana Anda setuju atau tidak setuju dengan pernyataan berikut",
                 "options": {
                     "agree": "Setuju",
                     "agreeStrongly": "Sangat setuju",
@@ -323,7 +323,7 @@ export default {
                         "label": "Saya berpikir bahwa saya berhak untuk lebih menunjukkan sikap menghormati daripada rata-rata orang pada umumnya."
                     }
                 },
-                "label": "Silakan menilai sejauh mana Anda setuju atau tidak setuju dengan pernyataan berikut: Saya seorang yang...",
+                "label": "Silakan menilai sejauh mana Anda setuju atau tidak setuju dengan pernyataan berikut",
                 "options": {
                     "agree": "Setuju",
                     "agreeStrongly": "Sangat setuju",
@@ -382,7 +382,7 @@ export default {
                         "label": "Saya kesal jika orang lain mencuri perhatian orang dari apa yang yang telah saya lakukan."
                     }
                 },
-                "label": "Silakan menilai sejauh mana Anda setuju atau tidak setuju dengan pernyataan berikut: Saya seorang yang...",
+                "label": "Silakan menilai sejauh mana Anda setuju atau tidak setuju dengan pernyataan berikut",
                 "options": {
                     "agree": "Setuju",
                     "agreeStrongly": "Sangat setuju",
@@ -425,7 +425,7 @@ export default {
                         "label": "Saya mencari masukan"
                     },
                     "13": {
-                        "label": "saya bertindak main-main"
+                        "label": "Saya bertindak sesuka hati"
                     },
                     "14": {
                         "label": "saya menunjukkan ekspresi mengasihani diri sendiri atau merasa sebagai korban"
@@ -455,7 +455,7 @@ export default {
                         "label": "Saya melakukan aktivitas fisik"
                     },
                     "8": {
-                        "label": "Saya berkonsentrasi pada atau sedang melakukan sebuah pekerjaan"
+                        "label": "Saya berkonsentrasi atau sedang melakukan sebuah pekerjaan"
                     },
                     "9": {
                         "label": "Saya pendiam dan kurang ekspresif"
@@ -775,13 +775,13 @@ export default {
                         "label": "Agama bertentangan dengan ilmu pengetahuan"
                     },
                     "2": {
-                        "label": "Agama membantu orang membuat pilihan yang baik untuk kehidupan mereka."
+                        "label": "Menilai agama membantu orang membuat pilihan yang baik untuk kehidupan mereka."
                     },
                     "3": {
-                        "label": "Keyakinan beragama berkontribusi terhadap kesehatan mental yang baik."
+                        "label": "Menilai keyakinan beragama berkontribusi terhadap kesehatan mental yang baik."
                     },
                     "4": {
-                        "label": "Agama memperlambat perkembangan manusia"
+                        "label": "Menilai agama memperlambat perkembangan manusia"
                     },
                     "5": {
                         "label": "Ada sebuah kekuatan yang Mahakuasa  yang mengendalikan alam semesta"
@@ -799,7 +799,7 @@ export default {
                         "label": "Praktik keagamaan membuat orang lebih sulit untuk berpikir secara mandiri."
                     }
                 },
-                "label": "Silakan menilai sejauh mana Anda setuju atau tidak setuju dengan pernyataan berikut: Saya seorang yang...",
+                "label": "Silakan menilai sejauh mana Anda setuju atau tidak setuju dengan pernyataan berikut.",
                 "options": {
                     "believeLittle": "Sedikit percaya",
                     "believeStrong": "Sangat percaya",
@@ -877,7 +877,7 @@ export default {
                 "art": "Seni adalah bagian penting dari situasi ini",
                 "askingYou": "Seseorang meminta Anda melakukan sesuatu",
                 "assertivenessGoal": "Perilaku asertif diperlukan untuk mencapai sebuah tujuan",
-                "athleticsSports": "orang-orang terlibat dalam kegiatan atletik atau olahraga",
+                "athleticsSports": "orang-orang terlibat dalam kegiatan atletik/aktivitas fisik atau olahraga",
                 "blaming": "Seseorang sedang menyalahkan Anda untuk sesuatu",
                 "breakingRules": "Seseorang sedang melanggar aturan",
                 "clearRules": "Aturan yang benar menegaskan perilaku yang tepat (terlepas dari fakta apakah aturan tersebut diikuti)",
@@ -966,7 +966,7 @@ export default {
                 "activity": "Kegiatan:",
                 "categories": {
                     "characteristic": "Menggambarkan",
-                    "neutral": "Netral",
+                    "neutral": "Netral/Ragu-ragu",
                     "uncharacteristic": "Tidak menggambarkan"
                 },
                 "instructions": "Sekarang silakan jelaskan kejadian/situasi yang Anda alami dengan lebih terperinci. Sembilan puluh (90) aitem akan muncul satu persatu. Taruh setiap aitem kedalam salahsatu dari tiga kotak yang tersedia. Gunakan kotak \"Menggambarkan\" di kanan untuk aitem yang secara akurat menggambarkan kejadian tersebut; gunakan kotak \"Tidak Menggambarkan\" di sebelah kiri untuk aitem yang tidak menggambarkan kejadian tersebut; dan gunakan kotak \"Netral\" untuk aitem yang tidak berhubungan, tidak jelas, atau yang Anda tidak yakin itu menggambarkan kejadian tersebut. Jika Anda sudah selesai, silakan tekan \"Lanjutkan\".",

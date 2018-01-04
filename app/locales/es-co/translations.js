@@ -701,14 +701,14 @@ export default {
                         }
                     },
                     "3": {
-                        "label": "En general, algunas personas son muy felices. Disfrutan de la vida con independencia de lo que les ocurra, gozando al máximo de todo. ¿En qué medida se identifica usted con esta caracterización?",
+                        "label": "En general, algunas personas son muy felices. Disfrutan de la vida con independencia de lo que les ocurra, gozando al máximo de todo. ¿En qué medida se identifica usted con esta caracterización?\n",
                         "options": {
                             "aGreatDeal": "Mucho",
                             "notAtAll": "En absoluto"
                         }
                     },
                     "4": {
-                        "label": "En general, algunas personas no son muy felices. Sin que estén deprimidas, nunca parecen estar todo lo felices que podrían. ¿En qué medida se identifica usted con esta caracterización?",
+                        "label": "En general, algunas personas no son muy felices. Sin que estén deprimidas, nunca parecen estar todo lo felices que podrían. ¿En qué medida se identifica usted con esta caracterización?\n",
                         "options": {
                             "aGreatDeal": "Bastante",
                             "notAtAll": "De ningún modo"
@@ -1028,7 +1028,7 @@ export default {
                         }
                     },
                     "3": {
-                        "label": "¿Cuál es su etnia?"
+                        "label": "¿Cuál es su grupo étnico?"
                     },
                     "4": {
                         "label": "¿Cuál es su idioma materno?"
@@ -1045,7 +1045,7 @@ export default {
                         "label": "Ciudad de nacimiento"
                     },
                     "7": {
-                        "label": "Ciudad de residencia",
+                        "label": "Área de residencia",
                         "options": {
                             "remoteRural": "Rural remota",
                             "rural": "Rural",

@@ -1,6 +1,8 @@
 # Adding/updating translations
 To update the translations for a given locale, use
-[`scripts/add_translation.py`] (https://github.com/CenterForOpenScience/isp/blob/develop/scripts/add_translation.py)
+[`scripts/add_translation.py`](https://github.com/CenterForOpenScience/isp/blob/develop/scripts/add_translation.py)
+Python library requirements for script are found in [requirements.txt](https://github.com/CenterForOpenScience/isp/blob/develop/requirements.txt)
+You may need to run `pip install requirements.txt`
 
 1. Run the command `python add_translation.py`, this is the main script to be used. `add_translation.py` uses both [`scripts/format_translations.py`](https://github.com/CenterForOpenScience/isp/blob/develop/scripts/format_translations.py) and [`scripts/consent_form_json.py`](https://github.com/CenterForOpenScience/isp/blob/develop/scripts/consent_form_json.py).
 
