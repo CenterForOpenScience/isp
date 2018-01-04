@@ -36,7 +36,7 @@ code (like `en` or `en-US`) that corresponds to items from the [language picker]
       }
     };
     ```
-7. Manually add the content of `<language>.json` to `locales/<language-country-code>/translation.js`. Remember that `translation.js` should start with `export default` followed by the new content then a `;`.
+7. Manually add the content of `<language>.json` to `locales/<language-country-code>/translations.js`. Remember that `translations.js` should start with `export default` followed by the new content then a `;`.
 
 8. Manually add the content of `consent.json` to the existing [`app/components/isp-consent-form/consentText.js`](app/components/isp-consent-form/consentText.js). Remember to add a comment (e.g. `//finnish`) before the content, to differentiate it from other languages.
 
