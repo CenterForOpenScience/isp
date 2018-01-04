@@ -158,6 +158,16 @@ export default [
         "name": "Denmark"
     },
     {
+        "code": "EG",
+        "languages": [
+            {
+                "code": "ar-EG",
+                "name": "العربية"
+            }
+        ],
+        "name": "Egypt"
+    },
+    {
         "code": "EE",
         "languages": [
             {
