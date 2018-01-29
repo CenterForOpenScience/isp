@@ -371,6 +371,17 @@ const consentText = {
         "title": "Menyetujui untuk berpartisipasi dalam penelitian",
         "versionHistory": "(Verzia súhlas forma: 14.októbra 2016)"
     },
+    "INDO2.ID": {
+        "buttonLabel": "Mohon terima persyaratan tersebut untuk melanjutkan",
+        "consentLabel": "Saya telah membaca dan pahami penyataan tersebut diatas dan setuju untuk berpartisipasi.",
+        "paragraphs": [
+            "Selamat datang di penelitian kami. Keikutsertaan Anda dalam penelitian ini adalah untuk satu sesi yang berlangsung selama kurang dari satu jam. Anda akan diminta untuk menjelaskan sebuah situasi yang Anda alami baru-baru ini, dan apa yang Anda lakukan dalam situasi tersebut. Di akhir penelitian, jika Anda menginginkannya, Anda akan menerima informasi khusus mengenai kepribadian Anda",
+            "Seluruh jawaban Anda bersifat rahasia dan hanya akan diidentifikasi berdasarkan angka dan bukan nama Anda. Untuk kepentingan penelitian, data yang bersifat anonim ini akan diarsipkan dalam sebuah pangkalan data daring yang dikelola oleh Center for Open Science (www.cos.io). Setiap pertanyaan harus Anda jawab jika Anda hendak menyelesaikan penelitian ini, namun Anda dapat berhenti kapan saja jika Anda menginginkannya, tanpa Anda dikenai hukuman apapun. Keuntungan yang mungkin didapat dari penelitian ini diantaranya adalah",
+            "Jika Anda memiliki pertanyaan mengenai penelitian ini dan hak Anda sebagai partisipan, anda dapat menghubungi: [Gavin Sullivan, ab7809@coventry.ac.uk,  Universitas Coventry], yang bertanggung jawab untuk pengumpulan data di lokasi Anda, atau hubungi University of California, Riverside, Office of Research Integrity melalui surel ke: IRB@ucr.edu. Kami sangat menghargai kerjasama Anda dengan tulus."
+        ],
+        "title": "Menyetujui untuk berpartisipasi dalam penelitian",
+        "versionHistory": "(Verzia súhlas forma: 14.októbra 2016)"
+    },
     // Korean
     "SKOREA1.KR": {
         "buttonLabel": "계속하려면 조건에 동의해주십시오.",
