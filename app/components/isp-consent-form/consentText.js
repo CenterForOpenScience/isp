@@ -371,6 +371,17 @@ const consentText = {
         "title": "Menyetujui untuk berpartisipasi dalam penelitian",
         "versionHistory": "(Verzia súhlas forma: 14.októbra 2016)"
     },
+    "INDO2.ID": {
+        "buttonLabel": "Mohon terima persyaratan tersebut untuk melanjutkan",
+        "consentLabel": "Saya telah membaca dan pahami penyataan tersebut diatas dan setuju untuk berpartisipasi.",
+        "paragraphs": [
+            "Selamat datang di penelitian kami. Keikutsertaan Anda dalam penelitian ini adalah untuk satu sesi yang berlangsung selama kurang dari satu jam. Anda akan diminta untuk menjelaskan sebuah situasi yang Anda alami baru-baru ini, dan apa yang Anda lakukan dalam situasi tersebut. Di akhir penelitian, jika Anda menginginkannya, Anda akan menerima informasi khusus mengenai kepribadian Anda",
+            "Seluruh jawaban Anda bersifat rahasia dan hanya akan diidentifikasi berdasarkan angka dan bukan nama Anda. Untuk kepentingan penelitian, data yang bersifat anonim ini akan diarsipkan dalam sebuah pangkalan data daring yang dikelola oleh Center for Open Science (www.cos.io). Setiap pertanyaan harus Anda jawab jika Anda hendak menyelesaikan penelitian ini, namun Anda dapat berhenti kapan saja jika Anda menginginkannya, tanpa Anda dikenai hukuman apapun. Keuntungan yang mungkin didapat dari penelitian ini diantaranya adalah",
+            "Jika Anda memiliki pertanyaan mengenai penelitian ini dan hak Anda sebagai partisipan, anda dapat menghubungi: [Gavin Sullivan, ab7809@coventry.ac.uk,  Universitas Coventry], yang bertanggung jawab untuk pengumpulan data di lokasi Anda, atau hubungi University of California, Riverside, Office of Research Integrity melalui surel ke: IRB@ucr.edu. Kami sangat menghargai kerjasama Anda dengan tulus."
+        ],
+        "title": "Menyetujui untuk berpartisipasi dalam penelitian",
+        "versionHistory": "(Verzia súhlas forma: 14.októbra 2016)"
+    },
     // Korean
     "SKOREA1.KR": {
         "buttonLabel": "계속하려면 조건에 동의해주십시오.",
@@ -885,7 +896,7 @@ const consentText = {
         "consentLabel": "上記の項目について内容を理解し、同意いたします。",
         "paragraphs": [
             "私たちの研究へようこそ。 この研究への参加は1セッションとなっており、時間は1時間未満です。 調査では、最近あなたが経験した状況とその状況でのあなたの行動を説明するように求められます。 また、あなたの価値観や態度について、いくつかの質問がなされます。 研究の最後では、あなたが希望すれば、あなたのパーソナリティについての情報を得ることができます。",
-            "あなたのすべての回答は保護されており、あなたの名前は数字でのみ特定されます。 研究目的のために、これらの匿名データは、オープン・サイエンス・センター（www.cos.io）によって管理されているオンライン・データベースに保管します。 このアンケートを完了するには、各質問に回答する必要がありますが、不利益なく、いつでも参加を中止することができます。 この研究の潜在的な利益としては、文化的背景を超えた、人と人生の理解を促進させることが挙げられます。本調査による明らかなリスクはありません。\n",
+            "あなたのすべての回答は保護されており、あなたの名前は数字でのみ特定されます。 研究目的のために、これらの匿名データは、オープン・サイエンス・センター（www.cos.io）によって管理されているオンライン・データベースに保管します。 このアンケートを完了するには、各質問に回答する必要がありますが、不利益なく、いつでも参加を中止することができます。 この研究の潜在的な利益としては、文化的背景を超えた、人と人生の理解を促進させることが挙げられます。本調査による明らかなリスクはありません。",
             "この調査や参加者としてのご質問は、立命館大学総合心理学部サトウタツヤ(satotster@gmail.com)、またはカリフォルニア大学リバーサイドスクールオブリサーチ（IRB@ucr.edu）にお問い合わせください。"
         ],
         "title": "研究参加への同意",
@@ -897,7 +908,7 @@ const consentText = {
         "paragraphs": [
             "私たちの研究へようこそ。 この研究への参加は1セッションとなっており、時間は1時間未満です。 調査では、最近あなたが経験した状況とその状況でのあなたの行動を説明するように求められます。 また、あなたの価値観や態度について、いくつかの質問がなされます。 研究の最後では、あなたが希望すれば、あなたのパーソナリティについての情報を得ることができます。",
             "あなたのすべての回答は保護されており、あなたの名前は数字でのみ特定されます。 研究目的のために、これらの匿名データは、オープン・サイエンス・センター（www.cos.io）によって管理されているオンライン・データベースに保管します。 このアンケートを完了するには、各質問に回答する必要がありますが、不利益なく、いつでも参加を中止することができます。 この研究の潜在的な利益としては、文化的背景を超えた、人と人生の理解を促進させることが挙げられます。本調査による明らかなリスクはありません。",
-            "このアンケートや参加者の質問に興味がある場合は、広島大学、小松飛アスカ（asuka.komiya@gmail.com）、カリフォルニア大学リバーサイドスクールオブリサーチ（IRB@ucr.edu）にお問い合わせください。"
+            "このアンケートや参加者の質問に興味がある場合は、広島大学、小宮あすか（asuka.komiya@gmail.com）、カリフォルニア大学リバーサイドスクールオブリサーチ（IRB@ucr.edu）にお問い合わせください。"
         ],
         "title": "研究参加への同意",
         "versionHistory": "（同意書のバージョン：2016年10月14日）"
