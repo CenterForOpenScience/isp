@@ -15,8 +15,10 @@
        e. Rename json file to "client_secret.json"
     2. In the scripts directory, create a 'credentials' folder and add the client_secret.json file
     3. Run the script.
-    4. Move the content of the generated files as described in the Readme.md file.
-
+       a. If the OAuth login complains about not being able to find the redirect uri, rerun the script
+          with the --noauth_local_webserver argument.  It will open a new workflow that will give you a
+          token you can copy and paste into your terminal window.
+    4. Move the content of the generated files as described in the README.md file.
 
     The first time you run this script, you may get a message saying that you need to authorize specific APIs for use
     with this project. The message will provide instructions needed to complete this process; wait several minutes
