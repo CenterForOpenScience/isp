@@ -832,6 +832,17 @@ const consentText = {
         "title": "Çalışmaya gönüllü katıldığınızı onaylayınız.",
         "versionHistory": "(Bilgilendirilmiş onam/onay formu versiyonu: 14 Ekim 2016)"
     },
+    "TURKEY2.TR": {
+        "buttonLabel": "Devam etmek için lütfen şartları kabul ediniz",
+        "consentLabel": "Yukarıda yer alan bilgileri okudum, anladım ve araştırmaya katılmayı kabul ediyorum.",
+        "paragraphs": [
+            "Çalışmamıza hoş geldiniz. Katılımınız tek oturumda olacak ve bir saatten kısa sürecektir. Sizden son zamanlarda deneyimlediğiniz bir durumu (yaşantıyı) aktarmanızı istiyoruz. Ayrıca, değerleriniz ve tutumlarınız ile ilgili bazı sorular da yönelteceğiz. Çalışmamızın sonunda, eğer isterseniz, kişilik özellikleriniz ile ilgili bilgi edinebileceğiniz bir seçeneğiz de bulunmaktadır.",
+            "Tüm cevaplarınız isminizle değil bir numaralandırma sistemi ile saklanacak ve gizli tutulacaktır. Araştırmanın amaçları doğrultusunda elde edilen kayıtlar \"www.cos.io\" sitesinde çevrimiçi arşivlenebilir. Çalışmanın tamamlanabilmesi için tüm soruların cevaplanması gereklidir ancak herhangi bir aşamada bir yaptırım olmaksızın  katılımınızı sonlandırabilirsiniz. Bilinen hiçbir riski olmayan bu araştırmanın farklı kültürel bağlamlardaki insanları ve onların yaşamlarını daha iyi anlamaya hizmet etme gibi potansiyel faydaları vardır.",
+            "Bu çalışma veya katılımınızla ilgili herhangi bir sorunuz var ise Türkiye'de bu araştırma için veri toplamaktan sorumlu koordinatörlerle (Adil Saribay, adil.saribay@boun.edu.tr) veya Kaliforniya Üniversitesi ile (Office of Research Integrity:IRB@ucr.edu) e-posta yoluyla  irtibata geçebilirsiniz. Katılımınız için çok teşekkürler."
+        ],
+        "title": "Çalışmaya gönüllü katıldığınızı onaylayınız.",
+        "versionHistory": "(Bilgilendirilmiş onam/onay formu versiyonu: 14 Ekim 2016)"
+    },
     // Ukrainian
     "UKRA1.UA": {
         "buttonLabel": "Для продовження роботи потрібно прийняти умови",
